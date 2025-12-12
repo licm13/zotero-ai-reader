@@ -1,0 +1,5 @@
+pyzotero>=2.0.0
+google-genai>=0.2.0
+PyMuPDF>=1.23.0
+markdown>=3.4.0
+
