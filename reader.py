@@ -866,15 +866,17 @@ def main():
         item_key = item['key']
         item_type = item['data'].get('itemType', '')
         
-        # 跳过 note 和 attachment 类型（这些不能作为父项）
+        # 跳过 note 和 attachment 类型（这些不能作为父项），并加 non-read-gemini 标签
         if item_type in ['note', 'attachment']:
             print(f"\n[{idx}/{len(all_items)}] 跳过非文献项目: {title[:60]}... (类型: {item_type})")
+            add_tag_to_item(zot, item_key, 'non-read-gemini')
             skipped_count += 1
             continue
         
-        # 如果设置了文献类型过滤，只处理指定类型
+        # 如果设置了文献类型过滤，只处理指定类型，不符合的也加 non-read-gemini 标签
         if ITEM_TYPES_TO_PROCESS is not None:
             if item_type not in ITEM_TYPES_TO_PROCESS:
+                add_tag_to_item(zot, item_key, 'non-read-gemini')
                 continue  # 跳过不符合类型的文献
         
         # --- 检查：是否已经分析过？ ---
