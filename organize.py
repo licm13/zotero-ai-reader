@@ -1,239 +1,462 @@
+#!/usr/bin/env python3
+"""
+Zotero AI-Powered Paper Organizer
+Automatically classifies papers into collections based on AI-generated notes.
+
+Key Optimizations:
+1. Local caching of collection IDs to minimize API calls
+2. Compact prompt design to reduce token usage
+3. Batch processing for efficiency
+4. Support for targeted collection processing
+"""
+
 import time
 import json
 import math
 import os
 from pyzotero import zotero
 from google import genai
-import config  # 复用您的配置文件
+import config
 
-# ================= 1. 配置区域 =================
+# ================= 1. Configuration =================
 
-# --- 关键设置 ---
-# 如果不为 None，脚本只会在这个集合里找文献进行分类
-# 示例: TARGET_COLLECTION_PATH = "00_Inbox" 或 "2025/Pending"
-TARGET_COLLECTION_PATH = getattr(config, 'TARGET_COLLECTION_PATH', None) 
-# 您也可以在这里强制指定，覆盖 config.py
-# TARGET_COLLECTION_PATH = "2025_New_Papers"
+# Target collection to process (None = process entire library)
+TARGET_COLLECTION_PATH = getattr(config, 'TARGET_COLLECTION_PATH', None)
 
-DRY_RUN = True          # True=仅测试，False=真移动
-BATCH_SIZE = 5          # 批处理大小
-AUTO_TAG_NAME = "auto_organized" # 防止重复处理的标签
+# Processing settings
+DRY_RUN = True                      # True = test mode, False = actually move items
+BATCH_SIZE = 5                      # Number of papers to classify per API call
+AUTO_TAG_NAME = "auto_organized"    # Tag to prevent duplicate processing
+CACHE_FILE = "collections_cache.json"  # Local cache for collection IDs
 
-# --- 学术画像 (保持不变) ---
-USER_PROFILE_CONTEXT = """
-The user is a Professor in Hydrology (Chengming Li, SCUT/Tsinghua), specializing in:
-1. Evapotranspiration (ET), Transpiration, and Global Water Cycle.
-2. Hydrological Extremes: Specifically "Flash Drought", "Flood", and "Drought-Flood Abrupt Alternation" (旱涝急转).
-3. Data Methods: Triple Collocation, Data Fusion, Uncertainty Analysis, and Deep Learning in Hydrology.
+# ================= 2. Taxonomy Definition =================
 
-PREFERRED CATEGORY STRUCTURE (Hierarchy):
-- Hydrological Extremes
-  - Drought & Flash Drought
-  - Flood & Inundation
-  - Drought-Flood Transitions (For 'Abrupt Alternation' papers)
-- Water Cycle Processes
-  - Evapotranspiration & GPP (Focus on ET products, physiology)
-  - Runoff & Streamflow
-  - Snow & Glaciers (Cryosphere)
-  - Soil Moisture
-- Methodology
-  - Data Fusion & Uncertainty (For Triple Collocation, Merging)
-  - Remote Sensing Retrieval (For algorithm development)
-  - AI & Deep Learning (For LSTM, CNN applications)
-- Climate Change & Attribution
+# Idea-driven taxonomy structure (optimized for token usage)
+TAXONOMY_STRUCTURE = """
+Preferred Collection Taxonomy (User: Hydrology Professor, Focus: ET/Flash Drought/DFA/AI):
+
+1. Extremes×Mechanisms
+   - Flash Drought Dynamics
+   - DFA×Land-Atmosphere
+   - Flood Early Warning
+
+2. AI×Hydrology Applications
+   - Physics-Informed ML
+   - Deep Learning for Extremes
+   - Hybrid Modeling
+
+3. Data×Uncertainty
+   - Triple Collocation & QA
+   - Multi-Source Fusion
+   - Satellite×In-situ Integration
+
+4. Vegetation×Water Coupling
+   - VOD×Plant Hydraulics
+   - ET×GPP Coupling
+   - Drought×Vegetation Response
+
+5. Global Products×Datasets
+   - GRACE×Water Storage
+   - ET Product Intercomparison
+   - Precipitation Products
+
+6. Reviews×Synthesis
+   - Methodology Reviews
+   - Domain Reviews
+
+Notes:
+- Use exact paths (e.g., "Extremes×Mechanisms/Flash Drought Dynamics")
+- Return "Unclassified" if unsure
+- Match papers to most specific subcategory
 """
 
-# ================= 2. 核心功能函数 =================
+# ================= 3. Cache Management =================
 
-def find_collection_by_path(zot, collection_path):
-    """(复用自 reader.py) 根据路径查找集合 Key"""
-    if not collection_path: return None
-    path_parts = [p.strip() for p in collection_path.split('/') if p.strip()]
-    if not path_parts: return None
-    
-    # 获取所有集合建立映射 (为了效率，只做简单名称匹配，严谨版需递归)
+def load_cache():
+    """Load collection ID cache from disk"""
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"⚠️  Failed to load cache: {e}")
+    return {}
+
+def save_cache(cache):
+    """Save collection ID cache to disk"""
+    try:
+        with open(CACHE_FILE, 'w', encoding='utf-8') as f:
+            json.dump(cache, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        print(f"⚠️  Failed to save cache: {e}")
+
+def refresh_cache_from_zotero(zot):
+    """Fetch all collections from Zotero and build cache"""
+    print("🔄 Refreshing collection cache from Zotero...")
     try:
         all_colls = zot.collections()
+        cache = {}
+
+        # Build mapping: {name: key, parent: parent_key}
+        for c in all_colls:
+            name = c['data']['name']
+            key = c['key']
+            parent = c['data'].get('parentCollection', None)
+
+            cache[name] = {
+                'key': key,
+                'parent': parent if parent else None
+            }
+
+        save_cache(cache)
+        print(f"✅ Cached {len(cache)} collections")
+        return cache
     except Exception as e:
-        print(f"❌ 获取集合列表失败: {e}")
+        print(f"❌ Failed to fetch collections: {e}")
+        return {}
+
+# ================= 4. Collection Management =================
+
+def find_collection_by_path(zot, collection_path, cache):
+    """
+    Find collection key by path (e.g., "Parent/Child")
+    Uses cache first, falls back to Zotero API if needed
+    """
+    if not collection_path:
         return None
-        
-    # 简单查找逻辑：找到匹配路径末尾名称的集合
-    # 注意：如果有同名集合，这里可能会混淆，建议使用独特名称
-    target_name = path_parts[-1]
-    for c in all_colls:
-        if c['data']['name'] == target_name:
-            # 可以在这里增加对父集合的校验逻辑
-            return c['key']
-    
-    print(f"⚠️ 未找到集合: {collection_path}")
-    return None
 
-def get_all_collections_map(zot):
-    """获取现有集合映射 {name: key} 用于AI参考"""
-    # 仅获取顶层和二级，避免Token过多
-    raw_colls = zot.collections()
-    return {c['data']['name']: c['key'] for c in raw_colls}
+    parts = [p.strip() for p in collection_path.split('/') if p.strip()]
+    if not parts:
+        return None
 
-def extract_tags_from_note(note_content):
+    # Try to find in cache
+    current_parent = None
+    for i, part in enumerate(parts):
+        if part not in cache:
+            print(f"   ⚠️  Collection '{part}' not in cache, refreshing...")
+            cache = refresh_cache_from_zotero(zot)
+            if part not in cache:
+                print(f"   ❌ Collection '{part}' not found")
+                return None
+
+        # Verify parent relationship (except for top level)
+        if i > 0:
+            expected_parent = cache[parts[i-1]]['key']
+            actual_parent = cache[part].get('parent')
+            if actual_parent != expected_parent:
+                # Multiple collections with same name - need to disambiguate
+                # For now, just warn
+                print(f"   ⚠️  Warning: '{part}' has different parent than expected")
+
+        current_parent = cache[part]['key']
+
+    return current_parent
+
+def ensure_collection_path(zot, path, cache):
+    """
+    Create collection path if it doesn't exist
+    Returns the final collection key
+    """
+    if not path or path == "Unclassified":
+        return None
+
+    parts = [p.strip() for p in path.split('/') if p.strip()]
+    parent_key = None
+
+    for part in parts:
+        # Check if collection exists in cache
+        if part in cache:
+            coll_info = cache[part]
+
+            # Verify parent matches (except top level)
+            if parent_key and coll_info.get('parent') != parent_key:
+                # Collision: same name, different parent
+                # Need to create new collection
+                found_key = None
+            else:
+                found_key = coll_info['key']
+        else:
+            found_key = None
+
+        # Create if doesn't exist
+        if not found_key:
+            if DRY_RUN:
+                print(f"      [Dry Run] Would create: {part}")
+                found_key = f"fake_{part}_{parent_key or 'root'}"
+            else:
+                print(f"      🔨 Creating collection: {part}")
+                try:
+                    payload = {'name': part}
+                    if parent_key:
+                        payload['parentCollection'] = parent_key
+
+                    res = zot.create_collections([payload])
+                    if res and 'successful' in res:
+                        # Extract key from response
+                        success_dict = res['successful']
+                        found_key = list(success_dict.values())[0]['key']
+
+                        # Update cache
+                        cache[part] = {
+                            'key': found_key,
+                            'parent': parent_key
+                        }
+                        save_cache(cache)
+                        print(f"      ✅ Created: {part} (Key: {found_key})")
+                    else:
+                        print(f"      ❌ Creation failed: {res}")
+                        return None
+                except Exception as e:
+                    print(f"      ❌ Error creating '{part}': {e}")
+                    return None
+
+        parent_key = found_key
+
+    return parent_key
+
+# ================= 5. AI Classification =================
+
+def extract_keywords_from_note(note_content):
+    """Extract keywords/tags from AI-generated note"""
     import re
+
+    # Remove HTML tags
     text = re.sub(r'<[^>]+>', '', note_content)
-    match = re.search(r'(?:Keywords[–-]Tags|论文分类)[：:]\s*(.+)', text, re.IGNORECASE)
-    if match: return match.group(1).strip()
+
+    # Look for common keyword patterns
+    patterns = [
+        r'(?:Keywords|关键词|论文分类|Tags)[：:]\s*(.+?)(?:\n|$)',
+        r'(?:分类|Classification)[：:]\s*(.+?)(?:\n|$)',
+    ]
+
+    for pattern in patterns:
+        match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
+        if match:
+            return match.group(1).strip()
+
+    # Fallback: extract first 200 chars after "Summary" or "总结"
+    summary_match = re.search(r'(?:Summary|总结)[：:]\s*(.{1,200})', text, re.IGNORECASE)
+    if summary_match:
+        return summary_match.group(1).strip()
+
     return ""
 
-def ai_classify_batch(batch_items, existing_colls):
-    client = genai.Client(api_key=config.AI_API_KEY)
-    papers_desc = [f"ID {i}: Title='{item['title']}', Keywords='{item['tags']}'" for i, item in enumerate(batch_items)]
-    papers_text = "\n".join(papers_desc)
-    existing_list = ", ".join(list(existing_colls.keys())[:50])
-
-    prompt = f"""
-    {USER_PROFILE_CONTEXT}
-    
-    TASK: Classify these papers into collections.
-    EXISTING COLLECTIONS: [{existing_list}]
-    
-    INSTRUCTIONS:
-    1. Match papers to the "Preferred Category Structure" if possible.
-    2. Return JSON with IDs as keys and "collection_path" as values.
-    
-    INPUT:
-    {papers_text}
-    
-    OUTPUT JSON format: {{"0": "Path/To/Collection"}}
+def ai_classify_batch(batch_items, ai_model, ai_key):
     """
-    
+    Classify a batch of papers using AI
+
+    Optimizations:
+    - Sends only taxonomy structure (not all existing collections)
+    - Compact prompt format
+    - JSON output for easy parsing
+    """
+    client = genai.Client(api_key=ai_key)
+
+    # Format papers (compact)
+    papers_list = []
+    for i, item in enumerate(batch_items):
+        papers_list.append(f"{i}|{item['title'][:80]}|{item['keywords'][:100]}")
+
+    papers_text = "\n".join(papers_list)
+
+    # Compact prompt (reduced tokens)
+    prompt = f"""{TAXONOMY_STRUCTURE}
+
+TASK: Classify papers by format "ID|Title|Keywords". Return JSON: {{"0": "Path/Subpath", "1": "Path/Subpath", ...}}
+
+Papers:
+{papers_text}
+
+JSON:"""
+
     try:
         response = client.models.generate_content(
-            model=config.AI_MODEL,
+            model=ai_model,
             contents=prompt,
             config={'response_mime_type': 'application/json'}
         )
-        return json.loads(response.text)
+
+        result = json.loads(response.text)
+        print(f"   🤖 AI classified {len(result)} papers")
+        return result
+
     except Exception as e:
-        print(f"   ❌ Batch AI Error: {e}")
+        print(f"   ❌ AI classification error: {e}")
         return {}
 
-def ensure_and_move(zot, item, path, cached_colls):
-    """创建路径并移动"""
-    if not path or path == "Unclassified": return
-    parts = [p.strip() for p in path.split('/') if p.strip()]
-    parent_key = None
-    
-    # 逐级创建目录
-    for part in parts:
-        found_key = cached_colls.get(part) # 简单查找
-        
-        if not found_key:
-            if not DRY_RUN:
-                print(f"      🔨 创建新集合: {part}")
-                try:
-                    payload = {'name': part}
-                    if parent_key: payload['parentCollection'] = parent_key
-                    res = zot.create_collections([payload])
-                    if res and 'successful' in res:
-                        found_key = list(res['successful'].values())[0]['key']
-                        cached_colls[part] = found_key
-                except Exception as e:
-                    print(f"      ❌ 创建失败: {e}")
-                    return
-            else:
-                print(f"      [Dry Run] 拟创建集合: {part}")
-                found_key = "fake_" + part
-        
-        parent_key = found_key
+# ================= 6. Item Processing =================
 
-    # 移动文献
-    if parent_key and not parent_key.startswith("fake_"):
-        if not DRY_RUN:
-            # 检查是否已在集合中
-            if parent_key not in item['data'].get('collections', []):
-                try:
-                    zot.add_to_collection(parent_key, item)
-                    zot.add_tags(item, AUTO_TAG_NAME) # 打标
-                    print(f"      ✅ 已移入: {path}")
-                except Exception as e:
-                    print(f"      ❌ 移动失败: {e}")
-            else:
-                print(f"      ℹ️  已在目标集合中")
-        else:
-            print(f"      [Dry Run] 拟移入: {path}")
+def move_item_to_collection(zot, item, target_key):
+    """Move item to target collection and add tag"""
+    if not target_key or target_key.startswith("fake_"):
+        return
 
-# ================= 3. 主流程 =================
+    if DRY_RUN:
+        return
+
+    try:
+        # Check if already in collection
+        current_colls = item.get('collections', [])
+        if target_key in current_colls:
+            print(f"      ℹ️  Already in target collection")
+            return
+
+        # Add to collection
+        zot.addto_collection(target_key, item)
+
+        # Add tag
+        current_tags = item.get('tags', [])
+        tag_names = [t.get('tag', '') for t in current_tags]
+
+        if AUTO_TAG_NAME not in tag_names:
+            current_tags.append({'tag': AUTO_TAG_NAME})
+            item['tags'] = current_tags
+            zot.update_item(item)
+
+        print(f"      ✅ Moved to collection")
+
+    except Exception as e:
+        print(f"      ❌ Move failed: {e}")
+
+# ================= 7. Main Processing =================
 
 def main():
-    print(f"🚀 启动智能归档 (Dry Run: {DRY_RUN})")
-    zot = zotero.Zotero(config.LIBRARY_ID, config.LIBRARY_TYPE, config.API_KEY)
-    colls_cache = get_all_collections_map(zot)
+    print("=" * 60)
+    print("🤖 Zotero AI Paper Organizer")
+    print("=" * 60)
+    print(f"Mode: {'🧪 DRY RUN (Test Mode)' if DRY_RUN else '🚀 LIVE MODE'}")
+    print(f"Batch Size: {BATCH_SIZE}")
+    print(f"Target Collection: {TARGET_COLLECTION_PATH or 'Entire Library'}")
+    print("=" * 60)
 
-    # --- 关键修改：支持指定集合 ---
+    # Initialize
+    zot = zotero.Zotero(config.LIBRARY_ID, config.LIBRARY_TYPE, config.API_KEY)
+
+    # Load or refresh cache
+    cache = load_cache()
+    if not cache:
+        cache = refresh_cache_from_zotero(zot)
+    else:
+        print(f"✅ Loaded {len(cache)} collections from cache")
+
+    # Find target collection if specified
     target_coll_key = None
     if TARGET_COLLECTION_PATH:
-        print(f"📂 指定目标集合路径: {TARGET_COLLECTION_PATH}")
-        target_coll_key = find_collection_by_path(zot, TARGET_COLLECTION_PATH)
+        print(f"\n📂 Looking for collection: {TARGET_COLLECTION_PATH}")
+        target_coll_key = find_collection_by_path(zot, TARGET_COLLECTION_PATH, cache)
+
         if not target_coll_key:
-            print("❌ 未找到指定集合，请检查路径。退出。")
+            print("❌ Target collection not found. Exiting.")
             return
-        print(f"✅ 锁定集合Key: {target_coll_key}")
 
-    # 获取待处理文献
-    print("🔍 正在获取文献列表...")
+        print(f"✅ Found collection (Key: {target_coll_key})")
+
+    # Fetch items to process
+    print("\n🔍 Fetching items...")
+
     if target_coll_key:
-        # 仅获取特定集合下的文献 (API过滤)
-        # 注意：collection_items 默认不深层递归，如需递归需加参数，这里暂只处理该层级
-        items = zot.collection_items(target_coll_key, tag='gemini_read', limit=50)
-        print(f"   - 范围: 集合 '{TARGET_COLLECTION_PATH}'")
+        # Get items from specific collection with gemini_read tag
+        items = zot.collection_items(target_coll_key, tag='gemini_read', limit=100)
+        print(f"   Scope: Collection '{TARGET_COLLECTION_PATH}'")
     else:
-        # 全库搜索
-        items = zot.items(tag='gemini_read', limit=50)
-        print(f"   - 范围: 整个文献库")
+        # Get items from entire library with gemini_read tag
+        items = zot.items(tag='gemini_read', limit=100)
+        print(f"   Scope: Entire library")
 
-    # 本地过滤已处理的
+    print(f"   Found: {len(items)} items with 'gemini_read' tag")
+
+    # Filter items that haven't been organized yet
     todo_items = []
-    for it in items:
-        tags = [t['tag'] for t in it['data'].get('tags', [])]
-        if AUTO_TAG_NAME not in tags:
-            # 提取笔记
-            children = zot.children(it['key'])
-            note_tags = ""
-            for child in children:
-                if child['data']['itemType'] == 'note':
-                    extracted = extract_tags_from_note(child['data']['note'])
-                    if extracted: 
-                        note_tags = extracted
-                        break
-            
-            if note_tags:
-                todo_items.append({
-                    'key': it['key'],
-                    'data': it['data'],
-                    'title': it['data'].get('title', 'No Title'),
-                    'tags': note_tags
-                })
-    
-    print(f"✅ 待处理文献数: {len(todo_items)}")
-    if not todo_items: return
 
-    # 批处理循环
+    for item in items:
+        # Skip if already has auto_organized tag
+        tags = [t.get('tag', '') for t in item['data'].get('tags', [])]
+        if AUTO_TAG_NAME in tags:
+            continue
+
+        # Get AI-generated note
+        children = zot.children(item['key'])
+        keywords = ""
+
+        for child in children:
+            if child['data']['itemType'] == 'note':
+                note_content = child['data'].get('note', '')
+                extracted = extract_keywords_from_note(note_content)
+                if extracted:
+                    keywords = extracted
+                    break
+
+        if keywords:
+            todo_items.append({
+                'key': item['key'],
+                'data': item['data'],
+                'title': item['data'].get('title', 'Untitled'),
+                'keywords': keywords
+            })
+
+    print(f"✅ Items to organize: {len(todo_items)}")
+
+    if not todo_items:
+        print("\n🎉 No items to process!")
+        return
+
+    # Process in batches
     total_batches = math.ceil(len(todo_items) / BATCH_SIZE)
-    for i in range(total_batches):
-        batch = todo_items[i*BATCH_SIZE : (i+1)*BATCH_SIZE]
-        print(f"\n📦 Batch {i+1}/{total_batches} ({len(batch)} items)...")
-        
-        results = ai_classify_batch(batch, colls_cache)
-        
-        for idx_str, path in results.items():
+    organized_count = 0
+
+    for batch_idx in range(total_batches):
+        batch = todo_items[batch_idx * BATCH_SIZE : (batch_idx + 1) * BATCH_SIZE]
+
+        print(f"\n📦 Batch {batch_idx + 1}/{total_batches} ({len(batch)} items)")
+        print("-" * 60)
+
+        # AI classification
+        print("   🧠 Calling AI for classification...")
+        classifications = ai_classify_batch(batch, config.AI_MODEL, config.AI_API_KEY)
+
+        # Process each classification
+        for idx_str, path in classifications.items():
             try:
                 idx = int(idx_str)
-                if idx < len(batch):
-                    ensure_and_move(zot, batch[idx]['data'], path, colls_cache)
-            except Exception as e:
-                print(f"   ⚠️ Error: {e}")
-        
-        time.sleep(2)
+                if idx >= len(batch):
+                    continue
 
-    print("\n🎉 完成")
+                item_info = batch[idx]
+                print(f"\n   [{idx}] {item_info['title'][:50]}...")
+                print(f"      📍 Target: {path}")
+
+                # Ensure collection path exists
+                target_key = ensure_collection_path(zot, path, cache)
+
+                if target_key:
+                    # Move item
+                    if DRY_RUN:
+                        print(f"      [Dry Run] Would move to: {path}")
+                    else:
+                        move_item_to_collection(zot, item_info['data'], target_key)
+
+                    organized_count += 1
+
+            except Exception as e:
+                print(f"   ❌ Error processing item {idx_str}: {e}")
+
+        # Rate limiting
+        if batch_idx < total_batches - 1:
+            print("\n   ⏸️  Waiting 3s before next batch...")
+            time.sleep(3)
+
+    # Summary
+    print("\n" + "=" * 60)
+    print("📊 Summary")
+    print("=" * 60)
+    print(f"Total items processed: {len(todo_items)}")
+    print(f"Successfully organized: {organized_count}")
+    print(f"Mode: {'DRY RUN (no changes made)' if DRY_RUN else 'LIVE MODE (changes saved)'}")
+    print("=" * 60)
+    print("\n🎉 Done!")
+
+    if DRY_RUN:
+        print("\n💡 Tip: Set DRY_RUN = False to actually move items")
 
 if __name__ == "__main__":
     main()
