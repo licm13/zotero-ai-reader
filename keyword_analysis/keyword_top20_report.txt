@@ -1,0 +1,130 @@
+======================================================================
+关键词Top20分析报告
+======================================================================
+
+📊 统计信息
+----------------------------------------------------------------------
+合并前关键词数: 3006
+合并后关键词数: 3000
+合并规则数: 9
+总频次: 36302
+
+======================================================================
+🏆 Top20关键词
+======================================================================
+
+ 1. Climate
+    频次: 1323 (44.01%)
+    说明: Broad domain term, inclusive of climate change, variability, and systems.
+
+ 2. change
+    频次: 985 (32.77%)
+
+ 3. Remote Sensing
+    频次: 829 (27.58%)
+    合并的变体: remote, satellite
+    说明: Merged bigram headword 'remote' with specific tool 'satellite' (Hierarchy).
+
+ 4. sensing
+    频次: 829 (27.58%)
+
+ 5. Water Resources
+    频次: 744 (24.75%)
+    合并的变体: water, groundwater
+    说明: Merged general water concept with specific reservoir 'groundwater'.
+
+ 6. Evapotranspiration
+    频次: 734 (24.42%)
+    合并的变体: evapotranspiration, evaporation, transpiration
+    说明: Merged comprehensive term with components/synonyms (evaporation, transpiration).
+
+ 7. hydrology
+    频次: 707 (23.52%)
+    合并的变体: hydrological, hydrology
+    说明: Merged noun and adjective forms.
+
+ 8. Modeling
+    频次: 643 (21.39%)
+    合并的变体: modeling, models
+    说明: Merged verb and noun forms.
+
+ 9. Drought
+    频次: 588 (19.56%)
+    说明: Specific hydro-climatological extreme.
+
+10. Soil Moisture
+    频次: 494 (16.43%)
+    说明: Using 'soil' as the primary indicator for soil moisture/properties in this context.
+
+11. Land Systems
+    频次: 481 (16.0%)
+    说明: Broad term covering land use, land cover, and land surface.
+
+12. moisture
+    频次: 446 (14.84%)
+
+13. Machine Learning
+    频次: 431 (14.34%)
+    合并的变体: learning, deep
+    说明: Merged general 'learning' (covering machine learning) with specific 'deep' (deep learning).
+
+14. River/Runoff Dynamics
+    频次: 398 (13.24%)
+    合并的变体: river, basin, runoff, streamflow
+    说明: Merged hydrological features (river, basin) with flow fluxes (runoff, streamflow).
+
+15. Surface Processes
+    频次: 377 (12.54%)
+    说明: Distinct from 'Land'; refers to surface water, temperature, and exchange layers.
+
+16. Precipitation
+    频次: 361 (12.01%)
+    合并的变体: precipitation, rainfall
+    说明: Merged formal term with synonym.
+
+17. Global Scale
+    频次: 332 (11.04%)
+    说明: Spatial scale indicator.
+
+18. Vegetation
+    频次: 323 (10.75%)
+    说明: General term for plant cover.
+
+19. China
+    频次: 315 (10.48%)
+    说明: Specific geographic focus area.
+
+20. machine
+    频次: 314 (10.45%)
+
+======================================================================
+🔀 合并规则详情
+======================================================================
+
+1. satellite → remote sensing
+   原因: Hierarchy: Satellite is a specific tool within Remote Sensing
+
+2. transpiration → evapotranspiration
+   原因: Synonym/Component: Transpiration is a physical process within ET
+
+3. evaporation → evapotranspiration
+   原因: Related: Often used interchangeably or as part of ET in hydro-climatology
+
+4. rainfall → precipitation
+   原因: Synonym: Rainfall is the primary form of precipitation
+
+5. hydrological → hydrology
+   原因: Format Variant: Adjective to Noun
+
+6. groundwater → water resources
+   原因: Hierarchy: Specific water storage type
+
+7. deep → machine learning
+   原因: Hierarchy: Deep Learning is a subset of Machine Learning
+
+8. runoff → river/runoff dynamics
+   原因: Related: Runoff is the flow component of river systems
+
+9. co2 → carbon cycle
+   原因: Synonym: Chemical formula merged into broader cycle concept
+

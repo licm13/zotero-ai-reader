@@ -1,0 +1,498 @@
+{
+  "top20_keywords": [
+    {
+      "rank": 1,
+      "keyword": "Climate",
+      "frequency": 1323,
+      "percentage": 44.01,
+      "gemini_info": {
+        "keyword": "Climate",
+        "frequency": 1323,
+        "variants": [
+          "climate"
+        ],
+        "description": "Broad domain term, inclusive of climate change, variability, and systems."
+      }
+    },
+    {
+      "rank": 2,
+      "keyword": "change",
+      "frequency": 985,
+      "percentage": 32.77,
+      "gemini_info": null
+    },
+    {
+      "rank": 3,
+      "keyword": "Remote Sensing",
+      "frequency": 829,
+      "percentage": 27.58,
+      "gemini_info": {
+        "keyword": "Remote Sensing",
+        "frequency": 1111,
+        "variants": [
+          "remote",
+          "satellite"
+        ],
+        "description": "Merged bigram headword 'remote' with specific tool 'satellite' (Hierarchy)."
+      }
+    },
+    {
+      "rank": 4,
+      "keyword": "sensing",
+      "frequency": 829,
+      "percentage": 27.58,
+      "gemini_info": null
+    },
+    {
+      "rank": 5,
+      "keyword": "Water Resources",
+      "frequency": 744,
+      "percentage": 24.75,
+      "gemini_info": {
+        "keyword": "Water Resources",
+        "frequency": 841,
+        "variants": [
+          "water",
+          "groundwater"
+        ],
+        "description": "Merged general water concept with specific reservoir 'groundwater'."
+      }
+    },
+    {
+      "rank": 6,
+      "keyword": "Evapotranspiration",
+      "frequency": 734,
+      "percentage": 24.42,
+      "gemini_info": {
+        "keyword": "Evapotranspiration",
+        "frequency": 969,
+        "variants": [
+          "evapotranspiration",
+          "evaporation",
+          "transpiration"
+        ],
+        "description": "Merged comprehensive term with components/synonyms (evaporation, transpiration)."
+      }
+    },
+    {
+      "rank": 7,
+      "keyword": "hydrology",
+      "frequency": 707,
+      "percentage": 23.52,
+      "gemini_info": {
+        "keyword": "Hydrology",
+        "frequency": 916,
+        "variants": [
+          "hydrological",
+          "hydrology"
+        ],
+        "description": "Merged noun and adjective forms."
+      }
+    },
+    {
+      "rank": 8,
+      "keyword": "Modeling",
+      "frequency": 643,
+      "percentage": 21.39,
+      "gemini_info": {
+        "keyword": "Modeling",
+        "frequency": 643,
+        "variants": [
+          "modeling",
+          "models"
+        ],
+        "description": "Merged verb and noun forms."
+      }
+    },
+    {
+      "rank": 9,
+      "keyword": "Drought",
+      "frequency": 588,
+      "percentage": 19.56,
+      "gemini_info": {
+        "keyword": "Drought",
+        "frequency": 588,
+        "variants": [
+          "drought"
+        ],
+        "description": "Specific hydro-climatological extreme."
+      }
+    },
+    {
+      "rank": 10,
+      "keyword": "Soil Moisture",
+      "frequency": 494,
+      "percentage": 16.43,
+      "gemini_info": {
+        "keyword": "Soil Moisture",
+        "frequency": 494,
+        "variants": [
+          "soil"
+        ],
+        "description": "Using 'soil' as the primary indicator for soil moisture/properties in this context."
+      }
+    },
+    {
+      "rank": 11,
+      "keyword": "Land Systems",
+      "frequency": 481,
+      "percentage": 16.0,
+      "gemini_info": {
+        "keyword": "Land Systems",
+        "frequency": 481,
+        "variants": [
+          "land"
+        ],
+        "description": "Broad term covering land use, land cover, and land surface."
+      }
+    },
+    {
+      "rank": 12,
+      "keyword": "moisture",
+      "frequency": 446,
+      "percentage": 14.84,
+      "gemini_info": null
+    },
+    {
+      "rank": 13,
+      "keyword": "Machine Learning",
+      "frequency": 431,
+      "percentage": 14.34,
+      "gemini_info": {
+        "keyword": "Machine Learning",
+        "frequency": 541,
+        "variants": [
+          "learning",
+          "deep"
+        ],
+        "description": "Merged general 'learning' (covering machine learning) with specific 'deep' (deep learning)."
+      }
+    },
+    {
+      "rank": 14,
+      "keyword": "River/Runoff Dynamics",
+      "frequency": 398,
+      "percentage": 13.24,
+      "gemini_info": {
+        "keyword": "River/Runoff Dynamics",
+        "frequency": 497,
+        "variants": [
+          "river",
+          "basin",
+          "runoff",
+          "streamflow"
+        ],
+        "description": "Merged hydrological features (river, basin) with flow fluxes (runoff, streamflow)."
+      }
+    },
+    {
+      "rank": 15,
+      "keyword": "Surface Processes",
+      "frequency": 377,
+      "percentage": 12.54,
+      "gemini_info": {
+        "keyword": "Surface Processes",
+        "frequency": 377,
+        "variants": [
+          "surface"
+        ],
+        "description": "Distinct from 'Land'; refers to surface water, temperature, and exchange layers."
+      }
+    },
+    {
+      "rank": 16,
+      "keyword": "Precipitation",
+      "frequency": 361,
+      "percentage": 12.01,
+      "gemini_info": {
+        "keyword": "Precipitation",
+        "frequency": 447,
+        "variants": [
+          "precipitation",
+          "rainfall"
+        ],
+        "description": "Merged formal term with synonym."
+      }
+    },
+    {
+      "rank": 17,
+      "keyword": "Global Scale",
+      "frequency": 332,
+      "percentage": 11.04,
+      "gemini_info": {
+        "keyword": "Global Scale",
+        "frequency": 332,
+        "variants": [
+          "global"
+        ],
+        "description": "Spatial scale indicator."
+      }
+    },
+    {
+      "rank": 18,
+      "keyword": "Vegetation",
+      "frequency": 323,
+      "percentage": 10.75,
+      "gemini_info": {
+        "keyword": "Vegetation",
+        "frequency": 323,
+        "variants": [
+          "vegetation"
+        ],
+        "description": "General term for plant cover."
+      }
+    },
+    {
+      "rank": 19,
+      "keyword": "China",
+      "frequency": 315,
+      "percentage": 10.48,
+      "gemini_info": {
+        "keyword": "China",
+        "frequency": 315,
+        "variants": [
+          "china"
+        ],
+        "description": "Specific geographic focus area."
+      }
+    },
+    {
+      "rank": 20,
+      "keyword": "machine",
+      "frequency": 314,
+      "percentage": 10.45,
+      "gemini_info": null
+    }
+  ],
+  "statistics": {
+    "total_keywords_before_merge": 3006,
+    "total_keywords_after_merge": 3000,
+    "merge_rules_count": 9,
+    "total_frequency": 36302
+  },
+  "merge_details": {
+    "normalized_keywords": [
+      {
+        "keyword": "Climate",
+        "frequency": 1323,
+        "variants": [
+          "climate"
+        ],
+        "description": "Broad domain term, inclusive of climate change, variability, and systems."
+      },
+      {
+        "keyword": "Remote Sensing",
+        "frequency": 1111,
+        "variants": [
+          "remote",
+          "satellite"
+        ],
+        "description": "Merged bigram headword 'remote' with specific tool 'satellite' (Hierarchy)."
+      },
+      {
+        "keyword": "Evapotranspiration",
+        "frequency": 969,
+        "variants": [
+          "evapotranspiration",
+          "evaporation",
+          "transpiration"
+        ],
+        "description": "Merged comprehensive term with components/synonyms (evaporation, transpiration)."
+      },
+      {
+        "keyword": "Hydrology",
+        "frequency": 916,
+        "variants": [
+          "hydrological",
+          "hydrology"
+        ],
+        "description": "Merged noun and adjective forms."
+      },
+      {
+        "keyword": "Water Resources",
+        "frequency": 841,
+        "variants": [
+          "water",
+          "groundwater"
+        ],
+        "description": "Merged general water concept with specific reservoir 'groundwater'."
+      },
+      {
+        "keyword": "Modeling",
+        "frequency": 643,
+        "variants": [
+          "modeling",
+          "models"
+        ],
+        "description": "Merged verb and noun forms."
+      },
+      {
+        "keyword": "Drought",
+        "frequency": 588,
+        "variants": [
+          "drought"
+        ],
+        "description": "Specific hydro-climatological extreme."
+      },
+      {
+        "keyword": "Machine Learning",
+        "frequency": 541,
+        "variants": [
+          "learning",
+          "deep"
+        ],
+        "description": "Merged general 'learning' (covering machine learning) with specific 'deep' (deep learning)."
+      },
+      {
+        "keyword": "River/Runoff Dynamics",
+        "frequency": 497,
+        "variants": [
+          "river",
+          "basin",
+          "runoff",
+          "streamflow"
+        ],
+        "description": "Merged hydrological features (river, basin) with flow fluxes (runoff, streamflow)."
+      },
+      {
+        "keyword": "Soil Moisture",
+        "frequency": 494,
+        "variants": [
+          "soil"
+        ],
+        "description": "Using 'soil' as the primary indicator for soil moisture/properties in this context."
+      },
+      {
+        "keyword": "Land Systems",
+        "frequency": 481,
+        "variants": [
+          "land"
+        ],
+        "description": "Broad term covering land use, land cover, and land surface."
+      },
+      {
+        "keyword": "Precipitation",
+        "frequency": 447,
+        "variants": [
+          "precipitation",
+          "rainfall"
+        ],
+        "description": "Merged formal term with synonym."
+      },
+      {
+        "keyword": "Surface Processes",
+        "frequency": 377,
+        "variants": [
+          "surface"
+        ],
+        "description": "Distinct from 'Land'; refers to surface water, temperature, and exchange layers."
+      },
+      {
+        "keyword": "Global Scale",
+        "frequency": 332,
+        "variants": [
+          "global"
+        ],
+        "description": "Spatial scale indicator."
+      },
+      {
+        "keyword": "Vegetation",
+        "frequency": 323,
+        "variants": [
+          "vegetation"
+        ],
+        "description": "General term for plant cover."
+      },
+      {
+        "keyword": "China",
+        "frequency": 315,
+        "variants": [
+          "china"
+        ],
+        "description": "Specific geographic focus area."
+      },
+      {
+        "keyword": "Carbon Cycle",
+        "frequency": 299,
+        "variants": [
+          "carbon",
+          "co2"
+        ],
+        "description": "Merged element 'carbon' with specific molecule 'co2'."
+      },
+      {
+        "keyword": "Ecosystems",
+        "frequency": 273,
+        "variants": [
+          "ecosystem",
+          "ecosystems"
+        ],
+        "description": "Merged singular and plural forms."
+      },
+      {
+        "keyword": "Extremes",
+        "frequency": 243,
+        "variants": [
+          "extreme",
+          "extremes"
+        ],
+        "description": "Merged singular and plural forms."
+      },
+      {
+        "keyword": "Forest",
+        "frequency": 194,
+        "variants": [
+          "forest"
+        ],
+        "description": "Specific biome/land cover type."
+      }
+    ],
+    "merge_rules": [
+      {
+        "from": "satellite",
+        "to": "remote sensing",
+        "reason": "Hierarchy: Satellite is a specific tool within Remote Sensing"
+      },
+      {
+        "from": "transpiration",
+        "to": "evapotranspiration",
+        "reason": "Synonym/Component: Transpiration is a physical process within ET"
+      },
+      {
+        "from": "evaporation",
+        "to": "evapotranspiration",
+        "reason": "Related: Often used interchangeably or as part of ET in hydro-climatology"
+      },
+      {
+        "from": "rainfall",
+        "to": "precipitation",
+        "reason": "Synonym: Rainfall is the primary form of precipitation"
+      },
+      {
+        "from": "hydrological",
+        "to": "hydrology",
+        "reason": "Format Variant: Adjective to Noun"
+      },
+      {
+        "from": "groundwater",
+        "to": "water resources",
+        "reason": "Hierarchy: Specific water storage type"
+      },
+      {
+        "from": "deep",
+        "to": "machine learning",
+        "reason": "Hierarchy: Deep Learning is a subset of Machine Learning"
+      },
+      {
+        "from": "runoff",
+        "to": "river/runoff dynamics",
+        "reason": "Related: Runoff is the flow component of river systems"
+      },
+      {
+        "from": "co2",
+        "to": "carbon cycle",
+        "reason": "Synonym: Chemical formula merged into broader cycle concept"
+      }
+    ]
+  }
+}
