@@ -25,7 +25,7 @@ from google import genai
 # 获取脚本所在目录
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-API_KEY = "AIzaSyCq8R1HDwiU8dEQDFxpLo-JVYKeIYAWDog"
+API_KEY = "api-key"
 MODEL = "gemini-3-pro-preview"
 
 KEYWORD_CATEGORIES_FILE = os.path.join(SCRIPT_DIR, "keyword_categories.json")
