@@ -22,9 +22,17 @@ import time
 import json
 import math
 import os
+import sys
 from pyzotero import zotero
 from google import genai
-import config
+
+# 配置加载
+from config_loader import get_config_from_args_or_interactive
+
+config = get_config_from_args_or_interactive()
+if config is None:
+    print("❌ 无法加载配置文件，程序退出")
+    sys.exit(1)
 
 # ================= 1. Configuration =================
 

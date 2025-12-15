@@ -121,11 +121,19 @@ zotero-ai-reader/
 ├── profiler.py             # 👤 Step 2: 研究品味提取器 (NEW!)
 ├── organizer.py            # 🗂️ Step 3: 双轨智能分类工具 (MAIN!)
 ├── tag_cleaner.py          # 🧹 标签清理工具
+├── keyword_classifier.py   # 🔍 关键词分类分析工具
+├── config_loader.py        # 🔧 配置加载工具（交互式选择config.py）
 ├── prompt.md               # 📋 AI 分析提示词模板
-├── config.example.py       # ⚙️ 配置文件模板
+├── config.example.py       # ⚙️ 配置文件模板（⚠️ 请复制为 config.py）
+├── config.py               # ⚙️ 实际配置文件（⚠️ 包含敏感信息，不在Git中）
 ├── requirements.txt        # 📦 依赖包列表
 ├── collections_cache.json  # 💾 集合缓存（自动生成）
 ├── user_profile.json       # 👤 用户画像（自动生成）
+├── keyword_analysis/       # 📊 关键词分析结果目录
+│   ├── keyword_categories.json
+│   ├── keyword_statistics.json
+│   ├── keyword_top20.json
+│   └── keyword_top20_analyzer.py
 └── README.md               # 📖 本文件
 ```
 
@@ -281,6 +289,71 @@ TARGET_COLLECTION_PATH = None  # 指定处理某个集合（如 "00_Inbox"）
 python tag_cleaner.py
 ```
 
+### 5. `keyword_classifier.py` - 关键词分类分析工具 🔍
+
+**从Zotero库中提取所有文献的AI笔记关键词，进行智能聚类和分类分析。**
+
+**功能**：
+
+- ✅ 自动检索所有文献的"AI 深度阅读报告"笔记
+- ✅ 提取Keywords关键词部分
+- ✅ 关键词归一化（去重、同义词识别、缩写展开）
+- ✅ 基于语义相似度和共现关系的智能聚类
+- ✅ 支持多标签分类（一个关键词可属于多个类目）
+- ✅ 生成层次化分类结构和统计报告
+
+**使用方法**：
+
+```bash
+python keyword_classifier.py
+```
+
+**输出文件**（保存在 `keyword_analysis/` 目录）：
+- `keyword_categories.json` - JSON格式的分类结果
+- `keyword_report.txt` - 文本格式的详细报告
+- `keyword_statistics.json` - 统计信息
+
+### 6. `keyword_top20_analyzer.py` - 关键词Top20分析工具 📊
+
+**从关键词分类结果中提取Top20关键词，使用Gemini AI进行智能合并和规范化。**
+
+**功能**：
+
+- ✅ 提取并拆分关键词
+- ✅ 统计频次
+- ✅ 使用Gemini识别同义词并合并
+- ✅ 生成Top20关键词报告
+
+**使用方法**：
+
+```bash
+cd keyword_analysis
+python keyword_top20_analyzer.py
+```
+
+**输出文件**：
+- `keyword_top20.json` - JSON格式的Top20关键词
+- `keyword_top20_report.txt` - 文本格式的报告
+
+### 7. `config_loader.py` - 配置加载工具 🔧
+
+**所有脚本的统一配置加载模块，提供灵活的配置文件选择机制。**
+
+**功能**：
+
+- ✅ 支持命令行参数指定配置文件：`--config /path/to/config.py`
+- ✅ 交互式选择界面（4种方式）
+- ✅ 自动搜索配置文件（当前目录、脚本目录、项目根目录）
+- ✅ GUI文件浏览器选择（需要tkinter支持）
+
+**用户通常不需要直接使用**，所有脚本都会自动调用此模块加载配置。
+
+**交互式选择选项**：
+1. 使用建议位置（如果自动找到config.py）
+2. 手动输入config.py的完整路径
+3. 使用GUI文件浏览器选择
+4. 自动搜索配置文件
+
 ---
 
 ## 🚀 快速开始
@@ -319,6 +392,12 @@ cp config.example.py config.py
 # - PDF 存储路径
 ```
 
+**💡 提示**：运行脚本时，如果没有找到config.py文件，会弹出交互式选择界面，你可以：
+- 选择自动搜索（在当前目录或项目根目录查找）
+- 手动输入config.py的路径
+- 使用GUI文件浏览器选择
+- 使用命令行参数：`python reader.py --config /path/to/config.py`
+
 #### 4️⃣ 运行完整工作流
 
 ```bash
@@ -349,7 +428,9 @@ python organizer.py
 
 ### 🔐 安全配置（重要！）
 
-为了保护你的 API 密钥，我们使用了配置文件分离机制：
+**⚠️ 所有脚本都统一从 `config.py` 文件读取API密钥，请勿在代码中硬编码密钥！**
+
+为了保护你的 API 密钥，我们使用了配置文件分离机制和交互式配置选择：
 
 1. **复制模板**：
 
@@ -361,17 +442,49 @@ python organizer.py
    打开 `config.py`，填入你的真实配置：
 
    ```python
-   LIBRARY_ID = '你的库ID'
-   API_KEY = '你的Zotero_API密钥'
-   AI_API_KEY = '你的Gemini_API密钥'
-   ZOTERO_STORAGE_PATH = r'你的PDF路径'
+   # --- Zotero 设置 ---
+   LIBRARY_ID = '你的库ID'                    # 在 Zotero 设置页面获取
+   API_KEY = '你的Zotero_API密钥'             # 需要读写权限
+   LIBRARY_TYPE = 'user'                      # 'user' 或 'group'
+   ZOTERO_STORAGE_PATH = r'你的PDF存储路径'
+   
+   # --- AI 模型设置 (Gemini) ---
+   AI_API_KEY = '你的Gemini_API密钥'          # 在 Google AI Studio 获取
+   AI_MODEL = 'gemini-2.5-flash-lite'         # 可选模型
    ```
 
-3. **自动保护**：
+3. **运行脚本时的配置选择**：
+
+   当你运行任何脚本时，如果没有找到config.py，会弹出**交互式选择界面**：
+
+   ```bash
+   python reader.py
+   # 或指定配置文件路径
+   python reader.py --config /path/to/config.py
+   ```
+
+   **交互式界面提供以下选项**：
+   - **选项1**：使用建议位置（如果自动找到config.py）
+   - **选项2**：手动输入config.py的完整路径
+   - **选项3**：使用GUI文件浏览器选择（需要tkinter支持）
+   - **选项4**：自动搜索（在当前目录、脚本目录、项目根目录中搜索）
+
+4. **自动保护**：
 
    - ✅ `config.py` 已在 `.gitignore` 中
    - ✅ 不会被提交到 Git
+   - ✅ 所有脚本统一从 `config.py` 读取配置
+   - ✅ 代码中不会硬编码任何真实密钥
+   - ✅ 支持灵活指定配置文件位置
    - ✅ 你的密钥安全无忧
+
+5. **配置使用说明**：
+
+   - **所有脚本**（`reader.py`, `profiler.py`, `organizer.py`, `tag_cleaner.py`, `keyword_classifier.py`, `keyword_top20_analyzer.py`）都使用 `config_loader.py` 统一加载配置
+   - 支持命令行参数：`--config /path/to/config.py`
+   - 支持交互式选择配置文件位置
+   - 如果未找到 `config.py`，脚本会提示交互式选择或退出
+   - 不要将 `config.py` 文件提交到版本控制系统
 
 ### 📝 配置项说明
 
@@ -571,6 +684,27 @@ rm collections_cache.json
 ---
 
 ## ⚠️ 注意事项
+
+### 🔒 API 密钥安全（重要！）
+
+**⚠️ 安全提示**：
+
+- ✅ **所有脚本统一从 `config.py` 读取API密钥**，代码中不会硬编码真实密钥
+- ✅ `config.py` 文件已在 `.gitignore` 中，不会被提交到版本控制
+- ✅ 请勿在代码文件中直接写入API密钥
+- ✅ 请勿将 `config.py` 文件分享给他人或提交到公开仓库
+- ⚠️ 如果 `config.py` 不存在，部分脚本会使用占位符并退出，这是安全的行为
+
+**如何检查API密钥是否泄漏**：
+
+```bash
+# 搜索代码中是否包含真实API密钥（替换为你的实际密钥）
+grep -r "你的Zotero_API密钥" --include="*.py" .
+grep -r "你的Gemini_API密钥" --include="*.py" .
+
+# 搜索常见的API密钥模式（应该只有config.py包含，且config.py在.gitignore中）
+grep -r "API_KEY.*=" --include="*.py" . | grep -v "config" | grep -v "YOUR_"
+```
 
 ### 🔒 API 限制
 

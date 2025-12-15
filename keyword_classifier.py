@@ -21,20 +21,23 @@ import re
 import json
 import math
 import time
+import sys
 from collections import defaultdict, Counter
 from typing import Dict, List, Set, Tuple
 from pyzotero import zotero
 
-try:
-    import config
-    LIBRARY_ID = config.LIBRARY_ID
-    API_KEY = config.API_KEY
-    LIBRARY_TYPE = config.LIBRARY_TYPE
-    print("✅ 已从 config.py 加载配置")
-except ImportError:
-    print("⚠️  未找到 config.py 文件！")
-    print("📋 请复制 config.example.py 为 config.py 并填入您的配置信息")
-    exit(1)
+# 配置加载
+from config_loader import get_config_from_args_or_interactive
+
+config = get_config_from_args_or_interactive()
+if config is None:
+    print("❌ 无法加载配置文件，程序退出")
+    sys.exit(1)
+
+LIBRARY_ID = config.LIBRARY_ID
+API_KEY = config.API_KEY
+LIBRARY_TYPE = config.LIBRARY_TYPE
+print("✅ 已从 config.py 加载配置")
 
 # ================= 配置参数 =================
 

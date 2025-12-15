@@ -1,30 +1,21 @@
 from pyzotero import zotero
 import time
+import sys
 
 # ================= 1. 配置加载 =================
-# 优先从 config.py 读取配置，如果不存在则使用默认值（不推荐）
-try:
-    import config
-    LIBRARY_ID = config.LIBRARY_ID
-    API_KEY = config.API_KEY
-    LIBRARY_TYPE = config.LIBRARY_TYPE
-    KEEP_TAGS = getattr(config, 'KEEP_TAGS', ["精读", "重要", "可行", "参考"])
-    ITEM_TYPES_TO_PROCESS = getattr(config, 'ITEM_TYPES_TO_PROCESS', None)
-    print("✅ 已从 config.py 加载配置")
-except ImportError:
-    print("⚠️  未找到 config.py 文件！")
-    print("📋 请复制 config.example.py 为 config.py 并填入您的配置信息")
-    print("   或者修改此文件中的配置（不推荐，因为会暴露敏感信息）")
-    print("   按 Enter 继续使用默认配置（如果已在此文件中配置）...")
-    input()
-    
-    # 默认配置（仅用于开发测试，生产环境请使用 config.py）
-    # ⚠️ 警告：不要将真实的 API 密钥提交到 Git！
-    LIBRARY_ID = 'YOUR_LIBRARY_ID'
-    API_KEY = 'YOUR_ZOTERO_API_KEY'
-    LIBRARY_TYPE = 'user'
-    KEEP_TAGS = ["精读", "重要", "可行", "参考"]
-    ITEM_TYPES_TO_PROCESS = None
+from config_loader import get_config_from_args_or_interactive
+
+config = get_config_from_args_or_interactive()
+if config is None:
+    print("❌ 无法加载配置文件，程序退出")
+    sys.exit(1)
+
+LIBRARY_ID = config.LIBRARY_ID
+API_KEY = config.API_KEY
+LIBRARY_TYPE = config.LIBRARY_TYPE
+KEEP_TAGS = getattr(config, 'KEEP_TAGS', ["精读", "重要", "可行", "参考"])
+ITEM_TYPES_TO_PROCESS = getattr(config, 'ITEM_TYPES_TO_PROCESS', None)
+print("✅ 已从 config.py 加载配置")
 
 # ================= 2. 功能函数定义 =================
 

@@ -16,17 +16,31 @@
 import os
 import json
 import re
+import sys
 from collections import Counter, defaultdict
 from typing import Dict, List, Tuple
 from google import genai
 
 # ================= 配置 =================
 
+# 添加项目根目录到路径，以便导入config_loader模块
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, PROJECT_ROOT)
+
+# 配置加载
+from config_loader import get_config_from_args_or_interactive
+
+config = get_config_from_args_or_interactive()
+if config is None:
+    print("❌ 无法加载配置文件，程序退出")
+    sys.exit(1)
+
+API_KEY = config.AI_API_KEY
+MODEL = getattr(config, 'AI_MODEL', 'gemini-2.5-flash-lite')
+print("✅ 已从 config.py 加载配置")
+
 # 获取脚本所在目录
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-
-API_KEY = "api-key"
-MODEL = "gemini-3-pro-preview"
 
 KEYWORD_CATEGORIES_FILE = os.path.join(SCRIPT_DIR, "keyword_categories.json")
 KEYWORD_STATISTICS_FILE = os.path.join(SCRIPT_DIR, "keyword_statistics.json")
