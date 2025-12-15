@@ -20,6 +20,7 @@ import os
 import re
 import json
 import math
+import time
 from collections import defaultdict, Counter
 from typing import Dict, List, Set, Tuple
 from pyzotero import zotero
@@ -38,6 +39,7 @@ except ImportError:
 # ================= 配置参数 =================
 
 NOTE_TITLE = "AI 深度阅读报告"  # 目标笔记标题
+NOTE_TITLE_KEYWORDS = ["AI", "深度阅读", "阅读报告"]  # 用于模糊匹配的关键词
 OUTPUT_DIR = "keyword_analysis"  # 输出目录
 OUTPUT_JSON = os.path.join(OUTPUT_DIR, "keyword_categories.json")  # JSON输出
 OUTPUT_REPORT = os.path.join(OUTPUT_DIR, "keyword_report.txt")  # 文本报告
@@ -48,6 +50,9 @@ SEMANTIC_SIMILARITY_THRESHOLD = 0.6  # 语义相似度阈值（0-1）
 STRING_SIMILARITY_THRESHOLD = 0.8    # 字符串相似度阈值（0-1）
 COOCCURRENCE_WEIGHT = 0.3             # 共现关系权重
 MIN_CLUSTER_SIZE = 2                  # 最小聚类大小
+
+# 调试模式
+DEBUG_MODE = True  # 是否显示详细调试信息
 
 # ================= 辅助函数 =================
 
@@ -85,13 +90,17 @@ def extract_keywords_from_note(note_content: str) -> List[str]:
     """
     从笔记内容中提取Keywords部分
     """
+    if not note_content:
+        return []
+    
     # 去除HTML标签
     text = re.sub(r'<[^>]+>', '', note_content)
     
-    # 查找Keywords部分（支持多种格式）
+    # 查找Keywords部分（支持多种格式，包括更宽松的匹配）
     patterns = [
-        r'(?:Keywords|关键词|论文关键词|关键词：|Keywords:)[：:\s]*\n?\s*(.+?)(?:\n\n|\n[A-Z]|$)',
-        r'(?:Keywords|关键词|论文关键词)[：:\s]+(.+?)(?:\n\n|\n[A-Z]|$)',
+        r'(?:Keywords|关键词|论文关键词|关键词：|Keywords:|Key\s*words)[：:\s]*\n?\s*(.+?)(?:\n\n|\n(?:Summary|总结|Abstract|摘要|要点|核心|主要)|$)',
+        r'(?:Keywords|关键词|论文关键词)[：:\s]+(.+?)(?:\n\n|\n(?:Summary|总结|Abstract|摘要)|$)',
+        r'(?:Keywords|关键词)[：:\s]*(.+?)(?:\n{2,}|$)',
     ]
     
     for pattern in patterns:
@@ -99,10 +108,28 @@ def extract_keywords_from_note(note_content: str) -> List[str]:
         if match:
             keywords_text = match.group(1).strip()
             # 去除可能的后续标题（如"Summary"、"Abstract"等）
-            keywords_text = re.split(r'\n(?:Summary|总结|Abstract|摘要)', keywords_text, flags=re.IGNORECASE)[0]
+            keywords_text = re.split(r'\n(?:Summary|总结|Abstract|摘要|要点|核心|主要|研究|方法)', keywords_text, flags=re.IGNORECASE)[0]
             keywords = split_keywords(keywords_text)
             if keywords:
+                if DEBUG_MODE:
+                    print(f"      ✨ 提取到关键词: {', '.join(keywords[:5])}{'...' if len(keywords) > 5 else ''}")
                 return keywords
+    
+    # 如果找不到明确的关键词部分，尝试查找包含"关键词"的行
+    if "关键词" in text or "Keywords" in text or "keywords" in text.lower():
+        lines = text.split('\n')
+        for i, line in enumerate(lines):
+            if re.search(r'(?:关键词|Keywords)', line, re.IGNORECASE):
+                # 取该行及后续几行作为关键词
+                keywords_text = '\n'.join(lines[i:i+3])
+                keywords = split_keywords(keywords_text)
+                if keywords:
+                    if DEBUG_MODE:
+                        print(f"      ✨ 从行中提取到关键词: {', '.join(keywords[:5])}{'...' if len(keywords) > 5 else ''}")
+                    return keywords
+    
+    if DEBUG_MODE:
+        print(f"      ⚠️  未找到关键词部分（内容前100字符: {text[:100]}...）")
     
     return []
 
@@ -361,56 +388,239 @@ def assign_multi_category(keywords_list: List[List[str]],
 
 # ================= 主处理函数 =================
 
+def is_target_note(note_title: str, note_content: str = "") -> bool:
+    """
+    判断是否是目标笔记（支持模糊匹配）
+    不仅检查标题，也检查内容
+    """
+    # 检查标题
+    if note_title:
+        note_title_lower = note_title.lower()
+        
+        # 完全匹配
+        if NOTE_TITLE in note_title or note_title == NOTE_TITLE:
+            return True
+        
+        # 模糊匹配：包含关键词中的至少一个
+        for keyword in NOTE_TITLE_KEYWORDS:
+            if keyword.lower() in note_title_lower:
+                return True
+        
+        # 检查是否包含"AI"和"阅读"或"报告"
+        if "ai" in note_title_lower and ("阅读" in note_title or "报告" in note_title):
+            return True
+    
+    # 如果标题为空或不匹配，检查内容
+    if note_content:
+        note_content_lower = note_content.lower()
+        # 检查内容中是否包含"AI 深度阅读报告"或相关关键词
+        if "ai 深度阅读报告" in note_content_lower or "ai深度阅读报告" in note_content_lower:
+            return True
+        
+        # 检查是否包含关键词组合
+        has_ai = "ai" in note_content_lower or "🤖" in note_content
+        has_reading = "深度阅读" in note_content or "阅读报告" in note_content
+        if has_ai and has_reading:
+            return True
+        
+        # 检查HTML格式的标题
+        if "<h1>" in note_content and "ai" in note_content_lower and "阅读" in note_content:
+            return True
+    
+    return False
+
+def fetch_items_with_retry(zot, limit, start, max_retries=3):
+    """
+    带重试机制的获取文献项
+    """
+    for attempt in range(max_retries):
+        try:
+            items = zot.items(limit=limit, start=start)
+            return items
+        except Exception as e:
+            error_str = str(e)
+            # 如果是502错误，等待后重试
+            if "502" in error_str or "Bad Gateway" in error_str:
+                wait_time = (attempt + 1) * 2  # 递增等待时间：2s, 4s, 6s
+                print(f"\n   ⚠️  遇到502错误，等待{wait_time}秒后重试 (尝试 {attempt + 1}/{max_retries})...")
+                time.sleep(wait_time)
+                continue
+            else:
+                # 其他错误直接抛出
+                raise
+    # 所有重试都失败
+    raise Exception(f"获取文献失败，已重试{max_retries}次")
+
+def is_item_type_supported(item):
+    """
+    检查文献类型是否支持children调用
+    只有主要文献类型（journalArticle, conferencePaper等）才支持，附件不支持
+    """
+    item_type = item['data'].get('itemType', '')
+    # 支持的类型：主要文献类型
+    supported_types = {
+        'journalArticle', 'conferencePaper', 'book', 'bookSection',
+        'thesis', 'report', 'presentation', 'document', 'manuscript',
+        'preprint', 'patent', 'dataset', 'webpage', 'blogPost'
+    }
+    return item_type in supported_types
+
 def fetch_all_items_with_keywords(zot):
     """
-    从Zotero获取所有文献及其关键词
+    从Zotero获取所有文献及其关键词（检索所有文献，无数量限制）
     """
     print("\n📚 正在检索Zotero库中的所有文献...")
     
-    # 获取所有文献项（限制1000篇，可根据需要调整）
-    try:
-        items = zot.items(limit=1000)
-        print(f"   ✅ 找到 {len(items)} 个文献项")
-    except Exception as e:
-        print(f"   ❌ 获取文献失败: {e}")
-        return []
+    # 获取所有文献项（分页获取，确保获取全部）
+    all_items = []
+    start = 0
+    batch_size = 100  # 每批获取100个
     
-    print(f"\n🔍 正在查找 '{NOTE_TITLE}' 笔记并提取关键词...")
+    try:
+        while True:
+            # 使用重试机制获取
+            items = fetch_items_with_retry(zot, batch_size, start)
+            
+            if not items:
+                break
+            
+            # 过滤出支持的类型
+            valid_items = [item for item in items if is_item_type_supported(item)]
+            all_items.extend(valid_items)
+            
+            print(f"   📄 已获取 {len(all_items)} 个有效文献项 (本批: {len(items)}个，有效: {len(valid_items)}个)...", end='\r')
+            
+            # 如果返回的数量少于batch_size，说明已经获取完所有项
+            if len(items) < batch_size:
+                break
+            
+            start += batch_size
+            
+            # 添加延迟，避免API限制
+            time.sleep(0.5)
+            
+            # 安全限制：最多获取10000篇（防止无限循环）
+            if len(all_items) >= 10000:
+                print(f"\n   ⚠️  已达到最大限制（10000篇），停止检索")
+                break
+        
+        print(f"\n   ✅ 共找到 {len(all_items)} 个有效文献项")
+    except Exception as e:
+        print(f"\n   ❌ 获取文献失败: {e}")
+        if all_items:
+            print(f"   ⚠️  已获取 {len(all_items)} 个文献项，将继续处理已获取的项")
+        else:
+            return []
+    
+    print(f"\n🔍 正在查找包含 '{NOTE_TITLE}' 的笔记并提取关键词...")
+    print(f"   🔎 匹配模式: 完全匹配或包含关键词 {NOTE_TITLE_KEYWORDS}")
     
     items_with_keywords = []
     notes_found = 0
+    notes_checked = 0
+    notes_with_target_title = 0
+    errors_count = 0
+    skipped_count = 0
     
-    for i, item in enumerate(items):
+    for i, item in enumerate(all_items):
         if (i + 1) % 50 == 0:
-            print(f"   进度: {i + 1}/{len(items)}...")
+            print(f"   进度: {i + 1}/{len(all_items)} (目标笔记: {notes_with_target_title}, 提取成功: {notes_found}, 错误: {errors_count})...")
         
         try:
-            # 获取子项（笔记）
-            children = zot.children(item['key'])
+            # 获取子项（笔记）- 添加重试机制
+            children = None
+            max_retries = 2
+            for retry in range(max_retries):
+                try:
+                    children = zot.children(item['key'])
+                    break
+                except Exception as e:
+                    error_str = str(e)
+                    # 检查是否是"can only be called on PDF, EPUB, and snapshot attachments"错误
+                    if "can only be called on" in error_str or "PDF, EPUB" in error_str:
+                        # 这种情况是正常的，某些项目类型不支持children
+                        skipped_count += 1
+                        if DEBUG_MODE and skipped_count <= 3:
+                            item_title = item['data'].get('title', 'Untitled')[:50]
+                            item_type = item['data'].get('itemType', 'unknown')
+                            print(f"      ⏭️  跳过项目 (类型: {item_type}): {item_title}...")
+                        children = []
+                        break
+                    # 502错误，等待后重试
+                    elif "502" in error_str or "Bad Gateway" in error_str:
+                        if retry < max_retries - 1:
+                            wait_time = (retry + 1) * 1
+                            print(f"      ⚠️  API错误，等待{wait_time}秒后重试...")
+                            time.sleep(wait_time)
+                            continue
+                        else:
+                            raise
+                    else:
+                        raise
             
+            if children is None:
+                errors_count += 1
+                if DEBUG_MODE and errors_count <= 3:
+                    print(f"      ❌ 无法获取子项: {item['data'].get('title', 'Untitled')[:50]}...")
+                continue
+            
+            found_keywords = False
             for child in children:
                 if child['data']['itemType'] == 'note':
+                    notes_checked += 1
                     note_title = child['data'].get('title', '')
                     note_content = child['data'].get('note', '')
                     
-                    # 检查是否是目标笔记
-                    if NOTE_TITLE in note_title or note_title == NOTE_TITLE:
+                    # 检查是否是目标笔记（模糊匹配，包括标题和内容）
+                    if is_target_note(note_title, note_content):
+                        notes_with_target_title += 1
+                        display_title = note_title if note_title else "(无标题，从内容识别)"
+                        if DEBUG_MODE:
+                            print(f"\n      ✅ [{notes_with_target_title}] 找到目标笔记: '{display_title}'")
+                            print(f"         文献: {item['data'].get('title', 'Untitled')[:60]}...")
+                        
                         keywords = extract_keywords_from_note(note_content)
                         
                         if keywords:
                             items_with_keywords.append({
                                 'key': item['key'],
                                 'title': item['data'].get('title', 'Untitled'),
-                                'keywords': keywords
+                                'keywords': keywords,
+                                'note_title': note_title
                             })
                             notes_found += 1
-                            break
+                            found_keywords = True
+                            if DEBUG_MODE:
+                                print(f"         ✨ 成功提取 {len(keywords)} 个关键词")
+                        elif DEBUG_MODE:
+                            print(f"         ⚠️  未提取到关键词")
+                    
+                    # 如果已经找到关键词，跳过该文献的其他笔记
+                    if found_keywords:
+                        break
+            
+            # 添加小延迟，避免API限制
+            if (i + 1) % 10 == 0:
+                time.sleep(0.1)
             
         except Exception as e:
+            errors_count += 1
             # 跳过错误项，继续处理
+            if DEBUG_MODE and errors_count <= 5:
+                item_title = item['data'].get('title', 'Untitled')[:50]
+                print(f"      ❌ 处理文献时出错: {item_title}... - {str(e)[:100]}")
             continue
     
-    print(f"   ✅ 成功提取 {notes_found} 篇文献的关键词")
+    print(f"\n   📊 统计信息:")
+    print(f"      - 处理了 {len(all_items)} 个有效文献项")
+    print(f"      - 检查了 {notes_checked} 个笔记")
+    print(f"      - 找到 {notes_with_target_title} 个目标笔记")
+    print(f"      - 成功提取 {notes_found} 篇文献的关键词")
+    if skipped_count > 0:
+        print(f"      - 跳过了 {skipped_count} 个不支持的项目")
+    if errors_count > 0:
+        print(f"      - 遇到 {errors_count} 个错误（已跳过）")
+    
     return items_with_keywords
 
 def analyze_and_classify_keywords(items_with_keywords: List[Dict]) -> Dict:

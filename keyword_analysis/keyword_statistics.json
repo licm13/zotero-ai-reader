@@ -1,0 +1,25 @@
+{
+  "total_items": 4006,
+  "total_unique_keywords": 3976,
+  "total_categories": 16,
+  "keywords_per_category": {
+    "tagsevapotranspiration canopy resistance penman-monteith model water-saving irrigation rice": 2,
+    "tagsevapotranspiration data fusion collocation analysis error cross-correlation benchmark dataset": 2,
+    "tagssoil moisture remote sensing triple collocation error estimation microwave sensors": 2,
+    "tagsevapotranspiration vegetation greening climate change remote sensing earth system models": 2,
+    "tagsevapotranspiration soil moisture remote sensing hydrological modeling smap": 2,
+    "tagsterrestrial water storage vegetation restoration climate change grace three-north region": 2,
+    "tagsevapotranspiration climate change vegetation greening attribution analysis china": 2,
+    "tagssatellite remote sensing solar-induced fluorescence sif carbon uptake land-use change forest fire reforestation": 2,
+    "tagssoil moisture data fusion triple collocation analysis remote sensing": 2,
+    "tagsvegetation response meteorological drought seasonal variation europe remote sensing": 2,
+    "tagsclimate change evapotranspiration water availability cmip6 plant physiology": 2,
+    "tagsdata descriptor tibetan plateau land-atmosphere interaction in-situ observation data quality control": 2,
+    "tagshydrological model evapotranspiration remote sensing hybrid modeling": 2,
+    "tagssoil moisture latent heat flux triple collocation remote sensing land surface models": 2,
+    "tagsstomatal conductance vapor pressure deficit optical dendrometry plant physiology": 2,
+    "tagsdrought propagation subseasonal timescales vegetation greening climate warming copula model": 2
+  },
+  "multi_category_keywords": 0,
+  "total_cooccurrences": 14
+}
