@@ -754,24 +754,6 @@ python organizer.py
 
 ---
 
-## 🚨 重要提示
-
-**⚠️ 请删除旧的 `organize.py` 文件以避免混淆！**
-
-本项目已将 `organize.py` 和原 `organizer.py` 合并为新的 `organizer.py`。
-
-请执行以下命令删除旧文件：
-
-```bash
-# 删除旧的单轨分类脚本
-rm organize.py
-
-# 或者重命名为备份
-mv organize.py organize.py.deprecated
-```
-
-**现在只需使用 `organizer.py` 即可实现双轨分类！**
-
 ---
 
 <div align="center">
