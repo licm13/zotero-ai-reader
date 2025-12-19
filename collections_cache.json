@@ -1,4 +1,12 @@
 {
+  "1219": {
+    "key": "Z5E56ATN",
+    "parent": "V445FAGE"
+  },
+  "1217": {
+    "key": "NWDDHYDH",
+    "parent": "V445FAGE"
+  },
   "0-New": {
     "key": "V445FAGE",
     "parent": null
@@ -374,13 +382,5 @@
   "Ocean-ET": {
     "key": "7UHDE99K",
     "parent": "5C8GT9JW"
-  },
-  "SM/VPD-Veg-DDWW": {
-    "key": "S8WMCKJZ",
-    "parent": "L4VC7T8Q"
-  },
-  "CAMELE-Update": {
-    "key": "6AMW6T2Q",
-    "parent": "L4VC7T8Q"
   }
 }
