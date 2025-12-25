@@ -88,8 +88,8 @@
     "parent": "HJRMBEVG"
   },
   "Drought": {
-    "key": "P796RBKU",
-    "parent": "5RIA59DH"
+    "key": "KXU4QHXT",
+    "parent": "W2DJ58AC"
   },
   "Baseflow": {
     "key": "2LZUUDNI",
@@ -152,8 +152,8 @@
     "parent": "SJ7MVDZG"
   },
   "Flood": {
-    "key": "TAKKETJU",
-    "parent": "5RIA59DH"
+    "key": "2MIB36DW",
+    "parent": "W2DJ58AC"
   },
   "NCP": {
     "key": "HPBHZE38",
@@ -392,8 +392,8 @@
     "parent": "S6QUR7NP"
   },
   "Runoff & Streamflow": {
-    "key": "G4BPUJCI",
-    "parent": "AH62TBHQ"
+    "key": "4C8SNW5X",
+    "parent": "85X57GBW"
   },
   "💡 Idea Lab": {
     "key": "VGDT2GDR",
@@ -404,16 +404,16 @@
     "parent": "VGDT2GDR"
   },
   "Hybrid Modeling (Process+ML)": {
-    "key": "VUC8X7SK",
+    "key": "K57KTU5T",
     "parent": "JTRTWZEN"
   },
   "Methodology": {
-    "key": "Q8E2W8EK",
-    "parent": "VGDT2GDR"
+    "key": "GX9VXRJM",
+    "parent": "S6QUR7NP"
   },
   "Statistical Methods": {
-    "key": "XMVVJU3T",
-    "parent": "VEDBEP2U"
+    "key": "HMH3JPB7",
+    "parent": "GX9VXRJM"
   },
   "Ensemble Methods": {
     "key": "SHVRR7W9",
@@ -424,35 +424,35 @@
     "parent": "S6QUR7NP"
   },
   "Flash Drought": {
-    "key": "REWWWMIU",
-    "parent": "P796RBKU"
+    "key": "NT3EHAS2",
+    "parent": "A9KM9KSW"
   },
   "Dynamics": {
     "key": "P5JDUMDE",
     "parent": "VGDT2GDR"
   },
   "Tipping Points": {
-    "key": "II275C2D",
-    "parent": "P5JDUMDE"
+    "key": "88F893IS",
+    "parent": "7D89DB48"
   },
   "Evapotranspiration (ET)": {
-    "key": "J83Z986N",
-    "parent": "85X57GBW"
+    "key": "2744MMFB",
+    "parent": "AH62TBHQ"
   },
   "Coupling": {
     "key": "XZT2VIDI",
     "parent": "VGDT2GDR"
   },
   "Vegetation-Water Interaction": {
-    "key": "2K9ZIZZH",
-    "parent": "P25BDJHE"
+    "key": "RTVX7GQI",
+    "parent": "XZT2VIDI"
   },
   "Groundwater": {
-    "key": "P6DDEZ29",
+    "key": "Z243FT67",
     "parent": "85X57GBW"
   },
   "Drought-Flood Transitions": {
-    "key": "B78KGDBW",
+    "key": "79GQU4GS",
     "parent": "7D89DB48"
   },
   "📚 Hazards": {
@@ -472,7 +472,7 @@
     "parent": null
   },
   "Rapid Onset Events": {
-    "key": "GGDV4VMX",
+    "key": "GW9KPF8B",
     "parent": "P5JDUMDE"
   },
   "📚 Processes": {
@@ -484,40 +484,40 @@
     "parent": null
   },
   "Scale Issues (Spatial_Temporal)": {
-    "key": "6APZIZIV",
+    "key": "6QG4RVU2",
     "parent": "FQMMBGV8"
   },
   "Multi-Source Integration": {
-    "key": "24BNAENS",
+    "key": "QE88P9UC",
     "parent": "5RGD46W5"
   },
   "Human-Nature Systems": {
-    "key": "QDHEU3VD",
-    "parent": "P25BDJHE"
+    "key": "K7WIC6SH",
+    "parent": "XZT2VIDI"
   },
   "💡 Mechanism": {
     "key": "9HXUZPQR",
     "parent": null
   },
   "Abrupt Transitions": {
-    "key": "4D889ND9",
+    "key": "R2VTEFWU",
     "parent": "P5JDUMDE"
   },
   "Phase Change": {
-    "key": "26BSFX67",
-    "parent": "4D889ND9"
+    "key": "QTW4V4AQ",
+    "parent": "FAMKC7TB"
   },
   "📚 Methodology": {
     "key": "4TQTZASN",
     "parent": null
   },
   "Deep Learning (LSTM_CNN)": {
-    "key": "47IUQPPB",
-    "parent": "VEDBEP2U"
+    "key": "HQVRKPB2",
+    "parent": "4TQTZASN"
   },
   "Energy-Water Nexus": {
-    "key": "FB5WH6IS",
-    "parent": "XZT2VIDI"
+    "key": "GQZNN64Z",
+    "parent": "P25BDJHE"
   },
   "Flood, 📚 Archive": {
     "key": "UIRHFJN2",
@@ -532,8 +532,8 @@
     "parent": "W2DJ58AC"
   },
   "Applications": {
-    "key": "7SF48SRP",
-    "parent": "BFJQVKUJ"
+    "key": "DQEEJKS9",
+    "parent": "S6QUR7NP"
   },
   "Climate Change Impact": {
     "key": "UIB4MZCX",
@@ -548,8 +548,8 @@
     "parent": "85X57GBW"
   },
   "Data Quality & Validation": {
-    "key": "5HUAD232",
-    "parent": "5RGD46W5"
+    "key": "6ISEAIWR",
+    "parent": "QE88P9UC"
   },
   "Data Philosophy": {
     "key": "FQMMBGV8",
@@ -560,68 +560,68 @@
     "parent": "85X57GBW"
   },
   "Multi-Sphere Coupling": {
-    "key": "M75VZPJT",
-    "parent": "XZT2VIDI"
+    "key": "6WNV2BQS",
+    "parent": "P25BDJHE"
   },
   "Heatwaves & Extremes, 📚 Archive": {
     "key": "79G7NZRP",
     "parent": "W2DJ58AC"
   },
   "Agricultural Systems": {
-    "key": "7UVAXXGR",
-    "parent": "7SF48SRP"
+    "key": "GAJMZDAW",
+    "parent": "JXRRNVRU"
   },
   "Vegetation-Water Interaction, 💡 Idea Lab": {
     "key": "ITDF5XJJ",
     "parent": "XZT2VIDI"
   },
   "Non-linearity & Complexity": {
-    "key": "9RDG33I5",
-    "parent": "7D89DB48"
+    "key": "FW6WUQED",
+    "parent": "P5JDUMDE"
   },
   "Heatwaves & Extremes": {
-    "key": "WEGFQZDG",
-    "parent": "5RIA59DH"
+    "key": "UJWX7VVW",
+    "parent": "W2DJ58AC"
   },
   "Unclassified": {
     "key": "K6T6BI8J",
     "parent": "WICU6A59"
   },
   "Data Fusion": {
-    "key": "2XX8GIBB",
-    "parent": "VEDBEP2U"
+    "key": "ZMSQCT26",
+    "parent": "2A88F3TI"
   },
   "Land-Atmosphere Coupling": {
-    "key": "ZEMAXPJF",
+    "key": "PZGG3BGX",
     "parent": "9HXUZPQR"
   },
   "Remote Sensing": {
-    "key": "4VVKB9A7",
-    "parent": "VEDBEP2U"
+    "key": "I2BNN8GD",
+    "parent": "GX9VXRJM"
   },
   "Retrieval": {
-    "key": "TTK23T5P",
-    "parent": "4VVKB9A7"
+    "key": "JWN8PQCA",
+    "parent": "I2BNN8GD"
   },
   "Water Scarcity": {
     "key": "3UPSBRHI",
     "parent": "92NZAJCI"
   },
   "Physics-Informed AI": {
-    "key": "W4EM9R6I",
-    "parent": "DHH5ASQX"
+    "key": "I23GZISF",
+    "parent": "JTRTWZEN"
   },
   "Soil Moisture": {
-    "key": "36UGESBB",
-    "parent": "AH62TBHQ"
+    "key": "8ABACDKW",
+    "parent": "85X57GBW"
   },
   "Compound Events": {
-    "key": "MPJKZK5A",
-    "parent": "W2DJ58AC"
+    "key": "IPWISHBH",
+    "parent": "5RIA59DH"
   },
   "DFA": {
-    "key": "NVE4R9MX",
-    "parent": "MPJKZK5A"
+    "key": "2RFZEDRE",
+    "parent": "IPWISHBH"
   },
   "📚 Applications": {
     "key": "JXRRNVRU",
@@ -644,8 +644,8 @@
     "parent": "85X57GBW"
   },
   "Deep Learning": {
-    "key": "BD6X2RD9",
-    "parent": "VEDBEP2U"
+    "key": "TNUPJM3B",
+    "parent": "3F7EHKSD"
   },
   "Urban Hydrology": {
     "key": "9TNQNUXF",
@@ -676,24 +676,24 @@
     "parent": "ZW9V4E8H"
   },
   "Feedback Loops & Cascades": {
-    "key": "H9MZ9MAT",
-    "parent": "V8GJPAFU"
+    "key": "P2BET7CH",
+    "parent": "PZGG3BGX"
   },
   "Vegetation Dynamics": {
     "key": "63IDKDWA",
     "parent": "2KXE3D3H"
   },
   "Hydrological Model": {
-    "key": "KE7V4EM3",
-    "parent": "ZW9V4E8H"
+    "key": "J24P3CM4",
+    "parent": "ZE2FII6J"
   },
   "Signal Purification": {
-    "key": "8FHAMKET",
+    "key": "GMXJP7B3",
     "parent": "FQMMBGV8"
   },
   "Uncertainty": {
-    "key": "J4E26H4V",
-    "parent": "8FHAMKET"
+    "key": "9DRNQ7VS",
+    "parent": "GMXJP7B3"
   },
   "Climatology": {
     "key": "PTABCZXT",
@@ -712,8 +712,8 @@
     "parent": "85X57GBW"
   },
   "Water Resources Management": {
-    "key": "4V7DBH5P",
-    "parent": "JXRRNVRU"
+    "key": "CD5AWN9M",
+    "parent": "DQEEJKS9"
   },
   "💡 Land-Atmosphere Coupling": {
     "key": "G7E5H72T",
@@ -728,12 +728,12 @@
     "parent": "FQMMBGV8"
   },
   "Land Use": {
-    "key": "FAJJ23KS",
-    "parent": "TCTP5FXH"
+    "key": "ZKR5XKA7",
+    "parent": "2744MMFB"
   },
   "Causal Inference": {
-    "key": "MTW2BSNR",
-    "parent": "JTRTWZEN"
+    "key": "3F7EHKSD",
+    "parent": "DHH5ASQX"
   },
   "Climate Extremes": {
     "key": "E7P3AMJU",
@@ -746,5 +746,649 @@
   "Cryosphere (Snow & Glacier)": {
     "key": "Z76QSPJ6",
     "parent": "AH62TBHQ"
+  },
+  "Vegetation Growth": {
+    "key": "HT937IFM",
+    "parent": "ZE2FII6J"
+  },
+  "Atmospheric Rivers": {
+    "key": "QBTFJECQ",
+    "parent": "NR37VZ43"
+  },
+  "Threshold Behavior": {
+    "key": "HSQC3F2T",
+    "parent": "V8GJPAFU"
+  },
+  "Land Use Change": {
+    "key": "8JNADGBS",
+    "parent": "AH62TBHQ"
+  },
+  "Carbon Cycle": {
+    "key": "3JAK66Q8",
+    "parent": "8JNADGBS"
+  },
+  "Land Surface": {
+    "key": "73XX35NS",
+    "parent": "2744MMFB"
+  },
+  "📚 Archive/Processes": {
+    "key": "3TXSRKTG",
+    "parent": "S6QUR7NP"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow": {
+    "key": "ESBRUGTW",
+    "parent": "3TXSRKTG"
+  },
+  "💡 Idea Lab/Coupling": {
+    "key": "8ASPCNRZ",
+    "parent": "VGDT2GDR"
+  },
+  "💡 Idea Lab/Coupling/Multi-Sphere Coupling": {
+    "key": "9WEVS24S",
+    "parent": "8ASPCNRZ"
+  },
+  "📚 Archive/Methodology": {
+    "key": "HKJRI9CP",
+    "parent": "S6QUR7NP"
+  },
+  "📚 Archive/Methodology/Statistical Methods": {
+    "key": "53D2R4D4",
+    "parent": "HKJRI9CP"
+  },
+  "💡 Idea Lab/Modeling": {
+    "key": "QQ2IBGUR",
+    "parent": "VGDT2GDR"
+  },
+  "💡 Idea Lab/Modeling/Hybrid Modeling (Process+ML)": {
+    "key": "PDKPH5S6",
+    "parent": "QQ2IBGUR"
+  },
+  "📚 Archive/Hazards": {
+    "key": "F2IM9I29",
+    "parent": "S6QUR7NP"
+  },
+  "📚 Archive/Hazards/Drought": {
+    "key": "IJRWU5NW",
+    "parent": "F2IM9I29"
+  },
+  "📚 Archive/Hazards/Drought/Flash Drought": {
+    "key": "VTQP85EV",
+    "parent": "IJRWU5NW"
+  },
+  "💡 Idea Lab/Dynamics": {
+    "key": "MVXCPIG4",
+    "parent": "VGDT2GDR"
+  },
+  "💡 Idea Lab/Dynamics/Rapid Onset Events": {
+    "key": "SHCFEH6C",
+    "parent": "MVXCPIG4"
+  },
+  "📚 Archive/Processes/Evapotranspiration (ET)": {
+    "key": "GXB9M749",
+    "parent": "3TXSRKTG"
+  },
+  "💡 Idea Lab/Coupling/Vegetation-Water Interaction": {
+    "key": "IDDX8UH4",
+    "parent": "8ASPCNRZ"
+  },
+  "📚 Archive/Processes/Groundwater": {
+    "key": "2BVJ4AZX",
+    "parent": "3TXSRKTG"
+  },
+  "💡 Idea Lab/Dynamics/Drought-Flood Transitions": {
+    "key": "8EC6X2K8",
+    "parent": "MVXCPIG4"
+  },
+  "📚 Archive/Hazards/Drought/Drought Sensitivity": {
+    "key": "X3K5ZCVW",
+    "parent": "IJRWU5NW"
+  },
+  "📚 Archive/Hazards/Drought/Drought & Heatwaves & Extremes": {
+    "key": "WHQJZ7NX",
+    "parent": "IJRWU5NW"
+  },
+  "💡 Idea Lab/Data Philosophy": {
+    "key": "4HE8S8FP",
+    "parent": "VGDT2GDR"
+  },
+  "💡 Idea Lab/Data Philosophy/Scale Issues (Spatial_Temporal)": {
+    "key": "JZCIDNVT",
+    "parent": "4HE8S8FP"
+  },
+  "📚 Archive/Methodology/Deep Learning (LSTM_CNN) & Data Fusion": {
+    "key": "G88S3X66",
+    "parent": "HKJRI9CP"
+  },
+  "💡 Idea Lab/Data Philosophy/Multi-Source Integration": {
+    "key": "C7EA7M27",
+    "parent": "4HE8S8FP"
+  },
+  "📚 Processes/Evapotranspiration (ET)": {
+    "key": "HANQIQHI",
+    "parent": "AH62TBHQ"
+  },
+  "💡 Coupling/Vegetation-Water Interaction": {
+    "key": "PFX3RVEU",
+    "parent": "P25BDJHE"
+  },
+  "📚 Hazards/Drought": {
+    "key": "GXJEWNFX",
+    "parent": "5RIA59DH"
+  },
+  "📚 Hazards/Drought/Flash Drought": {
+    "key": "ZIJT72EK",
+    "parent": "GXJEWNFX"
+  },
+  "💡 Dynamics/Drought-Flood Transitions": {
+    "key": "4WW4U6KQ",
+    "parent": "7D89DB48"
+  },
+  "📚 Hazards/Flood": {
+    "key": "T9UQRD2Q",
+    "parent": "5RIA59DH"
+  },
+  "💡 Coupling/Human-Nature Systems": {
+    "key": "AXMPZG7S",
+    "parent": "P25BDJHE"
+  },
+  "💡 Mechanism/Abrupt Transitions": {
+    "key": "8MXUJXNJ",
+    "parent": "9HXUZPQR"
+  },
+  "💡 Mechanism/Abrupt Transitions/Phase Change": {
+    "key": "FETMFGCB",
+    "parent": "8MXUJXNJ"
+  },
+  "💡 Modeling/Hybrid Modeling (Process+ML)": {
+    "key": "PDU4NPNW",
+    "parent": "DHH5ASQX"
+  },
+  "📚 Archive/Hazards/Flood": {
+    "key": "HZBW6IKA",
+    "parent": "F2IM9I29"
+  },
+  "💡 Idea Lab/Coupling/Energy-Water Nexus": {
+    "key": "BRVD7P3R",
+    "parent": "8ASPCNRZ"
+  },
+  "📚 Archive/Hazards/Flood, 📚 Archive": {
+    "key": "AW6CXVV5",
+    "parent": "F2IM9I29"
+  },
+  "📚 Archive/Hazards/Flood, 📚 Archive/Processes": {
+    "key": "CZN8HAP3",
+    "parent": "AW6CXVV5"
+  },
+  "📚 Archive/Hazards/Flood, 📚 Archive/Processes/Runoff & Streamflow, 📚 Archive": {
+    "key": "GKUMJ2PA",
+    "parent": "CZN8HAP3"
+  },
+  "📚 Archive/Hazards/Flood, 📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Methodology": {
+    "key": "XJU7SZE8",
+    "parent": "GKUMJ2PA"
+  },
+  "📚 Archive/Hazards/Flood, 📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Methodology/Machine Learning, 📚 Archive": {
+    "key": "F4D9GU4W",
+    "parent": "XJU7SZE8"
+  },
+  "📚 Archive/Hazards/Flood, 📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Methodology/Machine Learning, 📚 Archive/Applications": {
+    "key": "Q4MIV23S",
+    "parent": "F4D9GU4W"
+  },
+  "📚 Archive/Hazards/Flood, 📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Methodology/Machine Learning, 📚 Archive/Applications/Climate Change Impact": {
+    "key": "WIKNJXV7",
+    "parent": "Q4MIV23S"
+  },
+  "💡 Idea Lab/Dynamics/Drought-Flood Transitions, 💡 Idea Lab": {
+    "key": "SRQC7THU",
+    "parent": "MVXCPIG4"
+  },
+  "💡 Idea Lab/Dynamics/Drought-Flood Transitions, 💡 Idea Lab/Modeling": {
+    "key": "4U9G2N2A",
+    "parent": "SRQC7THU"
+  },
+  "💡 Idea Lab/Dynamics/Drought-Flood Transitions, 💡 Idea Lab/Modeling/Hybrid Modeling (Process+ML)": {
+    "key": "CGZJWS7S",
+    "parent": "4U9G2N2A"
+  },
+  "📚 Archive/Hazards/Flash Drought, 📚 Archive": {
+    "key": "ZJ3ZS7FV",
+    "parent": "F2IM9I29"
+  },
+  "📚 Archive/Hazards/Flash Drought, 📚 Archive/Applications": {
+    "key": "CP678V9R",
+    "parent": "ZJ3ZS7FV"
+  },
+  "📚 Archive/Hazards/Flash Drought, 📚 Archive/Applications/Climate Change Impact, 📚 Archive": {
+    "key": "AKZVPXM5",
+    "parent": "CP678V9R"
+  },
+  "📚 Archive/Hazards/Flash Drought, 📚 Archive/Applications/Climate Change Impact, 📚 Archive/Methodology": {
+    "key": "ZGKF5MM9",
+    "parent": "AKZVPXM5"
+  },
+  "📚 Archive/Hazards/Flash Drought, 📚 Archive/Applications/Climate Change Impact, 📚 Archive/Methodology/Remote Sensing": {
+    "key": "6PAPUFNB",
+    "parent": "ZGKF5MM9"
+  },
+  "📚 Archive/Hazards/Flash Drought, 📚 Archive/Applications/Climate Change Impact, 📚 Archive/Methodology/Remote Sensing/Retrieval": {
+    "key": "VDXS6T9U",
+    "parent": "6PAPUFNB"
+  },
+  "💡 Idea Lab/Dynamics/Rapid Onset Events, 💡 Idea Lab": {
+    "key": "55VZTAFT",
+    "parent": "MVXCPIG4"
+  },
+  "💡 Idea Lab/Dynamics/Rapid Onset Events, 💡 Idea Lab/Coupling": {
+    "key": "9JSI8MB2",
+    "parent": "55VZTAFT"
+  },
+  "💡 Idea Lab/Dynamics/Rapid Onset Events, 💡 Idea Lab/Coupling/Land-Atmosphere Coupling": {
+    "key": "S4U7SPC4",
+    "parent": "9JSI8MB2"
+  },
+  "📚 Archive/Processes/Soil Moisture, 📚 Archive": {
+    "key": "5SC4TXTS",
+    "parent": "3TXSRKTG"
+  },
+  "📚 Archive/Processes/Soil Moisture, 📚 Archive/Methodology": {
+    "key": "J8CRCQAG",
+    "parent": "5SC4TXTS"
+  },
+  "📚 Archive/Processes/Soil Moisture, 📚 Archive/Methodology/Data Quality & Validation, 📚 Archive": {
+    "key": "4SJIP32J",
+    "parent": "J8CRCQAG"
+  },
+  "📚 Archive/Processes/Soil Moisture, 📚 Archive/Methodology/Data Quality & Validation, 📚 Archive/Methodology": {
+    "key": "QJ2A3M7E",
+    "parent": "4SJIP32J"
+  },
+  "📚 Archive/Processes/Soil Moisture, 📚 Archive/Methodology/Data Quality & Validation, 📚 Archive/Methodology/Metadata Standards": {
+    "key": "F8G39TJS",
+    "parent": "QJ2A3M7E"
+  },
+  "💡 Idea Lab/Data Philosophy/Data Quality & Validation, 💡 Idea Lab": {
+    "key": "HAHTM5P4",
+    "parent": "4HE8S8FP"
+  },
+  "💡 Idea Lab/Data Philosophy/Data Quality & Validation, 💡 Idea Lab/Data Philosophy": {
+    "key": "J5W3P93C",
+    "parent": "HAHTM5P4"
+  },
+  "💡 Idea Lab/Data Philosophy/Data Quality & Validation, 💡 Idea Lab/Data Philosophy/Signal Purification": {
+    "key": "GH2CFJ6G",
+    "parent": "J5W3P93C"
+  },
+  "💡 Idea Lab/Data Philosophy/Data Quality & Validation, 💡 Idea Lab/Data Philosophy/Signal Purification/Uncertainty": {
+    "key": "3U7S3KVB",
+    "parent": "GH2CFJ6G"
+  },
+  "📚 Archive/Processes/Groundwater, 📚 Archive": {
+    "key": "45KF62FK",
+    "parent": "3TXSRKTG"
+  },
+  "📚 Archive/Processes/Groundwater, 📚 Archive/Applications": {
+    "key": "T7IPZSIE",
+    "parent": "45KF62FK"
+  },
+  "📚 Archive/Processes/Groundwater, 📚 Archive/Applications/Climate Change Impact": {
+    "key": "GEKH578D",
+    "parent": "T7IPZSIE"
+  },
+  "💡 Idea Lab/Dynamics/Non-linearity & Complexity, 💡 Idea Lab": {
+    "key": "Q2V5HVBT",
+    "parent": "MVXCPIG4"
+  },
+  "💡 Idea Lab/Dynamics/Non-linearity & Complexity, 💡 Idea Lab/Coupling": {
+    "key": "JDBPHHUN",
+    "parent": "Q2V5HVBT"
+  },
+  "💡 Idea Lab/Dynamics/Non-linearity & Complexity, 💡 Idea Lab/Coupling/Multi-Sphere Coupling": {
+    "key": "4IXQV3JG",
+    "parent": "JDBPHHUN"
+  },
+  "📚 Archive/Applications": {
+    "key": "5T9XZMSR",
+    "parent": "S6QUR7NP"
+  },
+  "📚 Archive/Applications/Agricultural Systems, 📚 Archive": {
+    "key": "6GGU8TBQ",
+    "parent": "5T9XZMSR"
+  },
+  "📚 Archive/Applications/Agricultural Systems, 📚 Archive/Methodology": {
+    "key": "38WEI8QV",
+    "parent": "6GGU8TBQ"
+  },
+  "📚 Archive/Applications/Agricultural Systems, 📚 Archive/Methodology/Remote Sensing": {
+    "key": "JTFQQ45R",
+    "parent": "38WEI8QV"
+  },
+  "📚 Archive/Applications/Agricultural Systems, 📚 Archive/Methodology/Remote Sensing/Retrieval": {
+    "key": "ZHR76K8I",
+    "parent": "JTFQQ45R"
+  },
+  "💡 Idea Lab/Dynamics/Non-linearity & Complexity, 💡 Idea Lab/Coupling/Vegetation-Water Interaction": {
+    "key": "WWFK6EBQ",
+    "parent": "JDBPHHUN"
+  },
+  "📚 Archive/Methodology/Data Fusion": {
+    "key": "88FUJ8RX",
+    "parent": "HKJRI9CP"
+  },
+  "💡 Idea Lab/Coupling/Land-Atmosphere Coupling": {
+    "key": "5XBFZRDS",
+    "parent": "8ASPCNRZ"
+  },
+  "📚 Archive/Methodology/Remote Sensing": {
+    "key": "KQXNSVZG",
+    "parent": "HKJRI9CP"
+  },
+  "📚 Archive/Methodology/Remote Sensing/Retrieval": {
+    "key": "EN26W8HG",
+    "parent": "KQXNSVZG"
+  },
+  "📚 Archive/Hazards/Drought/Flood": {
+    "key": "6IUNTR7D",
+    "parent": "IJRWU5NW"
+  },
+  "📚 Archive/Applications/Agricultural Systems": {
+    "key": "F9CCWKWW",
+    "parent": "5T9XZMSR"
+  },
+  "📚 Archive/Processes/Soil Moisture": {
+    "key": "8Z6AFWPP",
+    "parent": "3TXSRKTG"
+  },
+  "💡 Idea Lab/Data Philosophy/Data Quality & Validation": {
+    "key": "AZ32IESZ",
+    "parent": "4HE8S8FP"
+  },
+  "📚 Archive/Hazards/Heatwaves & Extremes": {
+    "key": "DT9F9A6B",
+    "parent": "F2IM9I29"
+  },
+  "📚 Archive/Methodology/Deep Learning (LSTM_CNN)": {
+    "key": "TFHMV553",
+    "parent": "HKJRI9CP"
+  },
+  "💡 Idea Lab/Modeling/Physics-Informed AI": {
+    "key": "B87H4M5T",
+    "parent": "QQ2IBGUR"
+  },
+  "💡 Idea Lab/Coupling/Human-Nature Systems": {
+    "key": "Q25A34RT",
+    "parent": "8ASPCNRZ"
+  },
+  "💡 Idea Lab/Dynamics/Non-linearity & Complexity": {
+    "key": "NN9MTCQV",
+    "parent": "MVXCPIG4"
+  },
+  "💡 Idea Lab/Dynamics/Tipping Points": {
+    "key": "KK955VN6",
+    "parent": "MVXCPIG4"
+  },
+  "📚 Archive/Hazards/Compound Events": {
+    "key": "JUQF735C",
+    "parent": "F2IM9I29"
+  },
+  "📚 Archive/Hazards/Compound Events/DFA": {
+    "key": "IH4XVKA4",
+    "parent": "JUQF735C"
+  },
+  "📚 Hazards/Drought/Flood": {
+    "key": "NSVTC3FE",
+    "parent": "GXJEWNFX"
+  },
+  "📚 Hazards/Drought/Flood/Compound Events": {
+    "key": "9KMBJ7DG",
+    "parent": "NSVTC3FE"
+  },
+  "📚 Hazards/Drought/Flood/Compound Events/DFA": {
+    "key": "IX59Q6MU",
+    "parent": "9KMBJ7DG"
+  },
+  "💡 Dynamics/Non-linearity & Complexity": {
+    "key": "5B8C7GIP",
+    "parent": "7D89DB48"
+  },
+  "💡 Data Philosophy/Multi-Source Integration": {
+    "key": "S69EKMMV",
+    "parent": "5RGD46W5"
+  },
+  "📚 Hazards/Drought/Flash Drought/Compound Events": {
+    "key": "JQESQRNS",
+    "parent": "ZIJT72EK"
+  },
+  "📚 Hazards/Drought/Flash Drought/Compound Events/DFA": {
+    "key": "VJ8RICM6",
+    "parent": "JQESQRNS"
+  },
+  "📚 Hazards/Flood/Heatwaves & Extremes": {
+    "key": "WD28CGIU",
+    "parent": "T9UQRD2Q"
+  },
+  "💡 Dynamics/Abrupt Transitions": {
+    "key": "DP3N4X94",
+    "parent": "7D89DB48"
+  },
+  "💡 Dynamics/Abrupt Transitions/Phase Change": {
+    "key": "H38CKWT4",
+    "parent": "DP3N4X94"
+  },
+  "📚 Archive/Processes/ET": {
+    "key": "7CPMJGDZ",
+    "parent": "3TXSRKTG"
+  },
+  "💡 Idea Lab/Modeling/Ensemble Methods": {
+    "key": "8NT3M9BS",
+    "parent": "QQ2IBGUR"
+  },
+  "📚 Processes/Evapotranspiration (ET)/Vegetation Growth": {
+    "key": "EWWSTIEQ",
+    "parent": "HANQIQHI"
+  },
+  "📚 Methodology/Remote Sensing": {
+    "key": "J8GUDCEN",
+    "parent": "4TQTZASN"
+  },
+  "📚 Methodology/Remote Sensing/Retrieval": {
+    "key": "5BS6IZZA",
+    "parent": "J8GUDCEN"
+  },
+  "💡 Dynamics/Rapid Onset Events": {
+    "key": "3N43RB2V",
+    "parent": "7D89DB48"
+  },
+  "📚 Hazards/Compound Events": {
+    "key": "9INISVTS",
+    "parent": "5RIA59DH"
+  },
+  "📚 Hazards/Compound Events/DFA": {
+    "key": "GS7ASR9J",
+    "parent": "9INISVTS"
+  },
+  "💡 Coupling/Energy-Water Nexus": {
+    "key": "RIXVUPZN",
+    "parent": "P25BDJHE"
+  },
+  "💡 Mechanism/Land-Atmosphere Coupling": {
+    "key": "95A6DJK4",
+    "parent": "9HXUZPQR"
+  },
+  "💡 Data Philosophy/Signal Purification": {
+    "key": "86KT3P75",
+    "parent": "5RGD46W5"
+  },
+  "💡 Data Philosophy/Signal Purification/Uncertainty": {
+    "key": "NBIWINXG",
+    "parent": "86KT3P75"
+  },
+  "📚 Hazards/Heatwaves & Extremes": {
+    "key": "NNMXPAU7",
+    "parent": "5RIA59DH"
+  },
+  "💡 Coupling/Multi-Sphere Coupling": {
+    "key": "RCTES962",
+    "parent": "P25BDJHE"
+  },
+  "📚 Hazards/Flood/DFA": {
+    "key": "7SVN69VK",
+    "parent": "T9UQRD2Q"
+  },
+  "💡 Idea Lab/Data Philosophy/Signal Purification": {
+    "key": "VJS5ARFZ",
+    "parent": "4HE8S8FP"
+  },
+  "💡 Idea Lab/Data Philosophy/Signal Purification/Uncertainty": {
+    "key": "Z6N9RZ29",
+    "parent": "VJS5ARFZ"
+  },
+  "💡 Idea Lab/Methodology": {
+    "key": "22B93W9F",
+    "parent": "VGDT2GDR"
+  },
+  "💡 Idea Lab/Methodology/Physics-Informed AI": {
+    "key": "9BSDXWJT",
+    "parent": "22B93W9F"
+  },
+  "💡 Idea Lab/Mechanism": {
+    "key": "FJ6A2SAM",
+    "parent": "VGDT2GDR"
+  },
+  "💡 Idea Lab/Mechanism/Land-Atmosphere Coupling": {
+    "key": "3PK2E3E9",
+    "parent": "FJ6A2SAM"
+  },
+  "📚 Archive/Methodology/Deep Learning": {
+    "key": "X7FN74X4",
+    "parent": "HKJRI9CP"
+  },
+  "📚 Processes/Atmosphere": {
+    "key": "X3GDNUXB",
+    "parent": "AH62TBHQ"
+  },
+  "📚 Processes/Atmosphere/Water Vapor Transport": {
+    "key": "868RUCUE",
+    "parent": "X3GDNUXB"
+  },
+  "📚 Methodology/Deep Learning (LSTM_CNN)": {
+    "key": "IF6TC4FX",
+    "parent": "4TQTZASN"
+  },
+  "📚 Processes/Soil Moisture": {
+    "key": "GWPEFE7X",
+    "parent": "AH62TBHQ"
+  },
+  "📚 Processes/Evapotranspiration": {
+    "key": "CREPG8HH",
+    "parent": "AH62TBHQ"
+  },
+  "📚 Methodology/Statistical Methods": {
+    "key": "QPV3EMDU",
+    "parent": "4TQTZASN"
+  },
+  "💡 Modeling/Ensemble Methods": {
+    "key": "5SKTPSXQ",
+    "parent": "DHH5ASQX"
+  },
+  "📚 Processes/Runoff & Streamflow": {
+    "key": "C9H79RCV",
+    "parent": "AH62TBHQ"
+  },
+  "💡 Coupling/Land-Atmosphere Coupling": {
+    "key": "7AZRVVG4",
+    "parent": "P25BDJHE"
+  },
+  "📚 Methodology/Data Fusion": {
+    "key": "DWCFXD99",
+    "parent": "4TQTZASN"
+  },
+  "📚 Processes/Evapotranspiration/Vegetation": {
+    "key": "TP39IDRQ",
+    "parent": "CREPG8HH"
+  },
+  "📚 Processes/Evapotranspiration/Energy Balance": {
+    "key": "KKMZWV6E",
+    "parent": "CREPG8HH"
+  },
+  "💡 Modeling/Physics-Informed AI": {
+    "key": "UJFTJPQX",
+    "parent": "DHH5ASQX"
+  },
+  "📚 Archive/Groundwater": {
+    "key": "IPXDA6CP",
+    "parent": "S6QUR7NP"
+  },
+  "📚 Archive/Evapotranspiration (ET)": {
+    "key": "B34FQ4K9",
+    "parent": "S6QUR7NP"
+  },
+  "📚 Archive/Evapotranspiration (ET)/Vegetation": {
+    "key": "XFK8J6DI",
+    "parent": "B34FQ4K9"
+  },
+  "📚 Archive/Evapotranspiration (ET)/Methodology": {
+    "key": "4PU93S9V",
+    "parent": "B34FQ4K9"
+  },
+  "📚 Archive/Runoff & Streamflow": {
+    "key": "8TXN2NDM",
+    "parent": "S6QUR7NP"
+  },
+  "📚 Archive/Runoff & Streamflow/Hydrological Attribution": {
+    "key": "QPKWRBWH",
+    "parent": "8TXN2NDM"
+  },
+  "📚 Archive/Processes/Evapotranspiration": {
+    "key": "DNFXW5J8",
+    "parent": "3TXSRKTG"
+  },
+  "💡 Idea Lab/Modeling/Causal Inference": {
+    "key": "9HEZMDMD",
+    "parent": "QQ2IBGUR"
+  },
+  "💡 Data Philosophy/Data Quality & Validation": {
+    "key": "ZGH7HPN9",
+    "parent": "5RGD46W5"
+  },
+  "📚 Hazards/Heatwaves & Extremes/Climate Extremes": {
+    "key": "GR8F4BQU",
+    "parent": "NNMXPAU7"
+  },
+  "📚 Processes/Evapotranspiration (ET)/Land Surface Temperature": {
+    "key": "NPG55VNF",
+    "parent": "HANQIQHI"
+  },
+  "📚 Hazards/Heatwaves & Extremes/Extreme Event Attribution": {
+    "key": "BFZ29JI5",
+    "parent": "NNMXPAU7"
+  },
+  "📚 Processes/Soil Moisture/Ecosystem GPP": {
+    "key": "B3DEBUVZ",
+    "parent": "GWPEFE7X"
+  },
+  "📚 Archive/Methodology/Machine Learning": {
+    "key": "445HR8SX",
+    "parent": "HKJRI9CP"
+  },
+  "📚 Hazards/Compound Events & DFA": {
+    "key": "HMQAV28V",
+    "parent": "5RIA59DH"
+  },
+  "💡 Idea Lab/Dynamics/Abrupt Transitions": {
+    "key": "ZJTV2U7A",
+    "parent": "MVXCPIG4"
+  },
+  "💡 Idea Lab/Dynamics/Abrupt Transitions/Phase Change": {
+    "key": "PWUGR3N4",
+    "parent": "ZJTV2U7A"
+  },
+  "📚 Processes/Cryosphere (Snow & Glacier)": {
+    "key": "4KBJITMN",
+    "parent": "AH62TBHQ"
+  },
+  "📚 Hazards/Drought/Drought": {
+    "key": "JT49FD5X",
+    "parent": "GXJEWNFX"
   }
 }

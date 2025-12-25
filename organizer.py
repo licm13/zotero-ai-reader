@@ -168,19 +168,31 @@ def refresh_cache_from_zotero(zot):
         all_colls = zot.collections()
         cache = {}
 
-        # Build hierarchical mapping
+        # Build a mapping from key to collection data for path reconstruction
+        key_to_coll = {c['key']: c for c in all_colls}
+
+        def build_full_path(coll):
+            path = [coll['data']['name']]
+            parent = coll['data'].get('parentCollection', None)
+            while parent:
+                parent_coll = key_to_coll.get(parent)
+                if not parent_coll:
+                    break
+                path.insert(0, parent_coll['data']['name'])
+                parent = parent_coll['data'].get('parentCollection', None)
+            return '/'.join(path)
+
         for c in all_colls:
-            name = c['data']['name']
+            full_path = build_full_path(c)
             key = c['key']
             parent = c['data'].get('parentCollection', None)
-
-            cache[name] = {
+            cache[full_path] = {
                 'key': key,
                 'parent': parent if parent else None
             }
 
         save_cache(cache)
-        print(f"✅ Cached {len(cache)} collections")
+        print(f"✅ Cached {len(cache)} collections (by path)")
         return cache
     except Exception as e:
         print(f"❌ Failed to fetch collections: {e}")
@@ -200,25 +212,18 @@ def find_collection_by_path(zot, collection_path, cache):
     if not parts:
         return None
 
-    # Try to find in cache
+    # Build full path step by step
+    current_path = ''
     current_parent = None
     for i, part in enumerate(parts):
-        if part not in cache:
-            print(f"   ⚠️  Collection '{part}' not in cache, refreshing...")
+        current_path = '/'.join(parts[:i+1])
+        if current_path not in cache:
+            print(f"   ⚠️  Collection path '{current_path}' not in cache, refreshing...")
             cache = refresh_cache_from_zotero(zot)
-            if part not in cache:
-                print(f"   ❌ Collection '{part}' not found")
+            if current_path not in cache:
+                print(f"   ❌ Collection path '{current_path}' not found")
                 return None
-
-        # Verify parent relationship (except for top level)
-        if i > 0:
-            expected_parent = cache[parts[i-1]]['key']
-            actual_parent = cache[part].get('parent')
-            if actual_parent != expected_parent:
-                print(f"   ⚠️  Warning: '{part}' has different parent than expected")
-
-        current_parent = cache[part]['key']
-
+        current_parent = cache[current_path]['key']
     return current_parent
 
 def ensure_collection_path(zot, path, cache):
@@ -231,28 +236,24 @@ def ensure_collection_path(zot, path, cache):
 
     parts = [p.strip() for p in path.split('/') if p.strip()]
     parent_key = None
+    current_path = ''
 
-    for part in parts:
-        # Check if collection exists in cache
-        if part in cache:
-            coll_info = cache[part]
-
-            # Verify parent matches (except top level)
-            if parent_key and coll_info.get('parent') != parent_key:
-                # Collision: same name, different parent - need to create new
-                found_key = None
-            else:
-                found_key = coll_info['key']
+    for i, part in enumerate(parts):
+        current_path = '/'.join(parts[:i+1])
+        # Check if collection exists in cache by full path
+        if current_path in cache:
+            coll_info = cache[current_path]
+            found_key = coll_info['key']
         else:
             found_key = None
 
         # Create if doesn't exist
         if not found_key:
             if DRY_RUN:
-                print(f"      [Dry Run] Would create: {part}")
+                print(f"      [Dry Run] Would create: {current_path}")
                 found_key = f"fake_{part}_{parent_key or 'root'}"
             else:
-                print(f"      🔨 Creating collection: {part}")
+                print(f"      🔨 Creating collection: {current_path}")
                 try:
                     payload = {'name': part}
                     if parent_key:
@@ -265,17 +266,17 @@ def ensure_collection_path(zot, path, cache):
                         found_key = list(success_dict.values())[0]['key']
 
                         # Update cache
-                        cache[part] = {
+                        cache[current_path] = {
                             'key': found_key,
                             'parent': parent_key
                         }
                         save_cache(cache)
-                        print(f"      ✅ Created: {part} (Key: {found_key})")
+                        print(f"      ✅ Created: {current_path} (Key: {found_key})")
                     else:
                         print(f"      ❌ Creation failed: {res}")
                         return None
                 except Exception as e:
-                    print(f"      ❌ Error creating '{part}': {e}")
+                    print(f"      ❌ Error creating '{current_path}': {e}")
                     return None
 
         parent_key = found_key
