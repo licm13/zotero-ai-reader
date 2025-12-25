@@ -1390,5 +1390,29 @@
   "📚 Hazards/Drought/Drought": {
     "key": "JT49FD5X",
     "parent": "GXJEWNFX"
+  },
+  "📚 Processes/Groundwater": {
+    "key": "ZXPBXIQA",
+    "parent": "AH62TBHQ"
+  },
+  "📚 Hazards/Drought/Drought Sensitivity": {
+    "key": "SGCV2SW3",
+    "parent": "GXJEWNFX"
+  },
+  "💡 Data Philosophy/Scale Issues (Spatial_Temporal)": {
+    "key": "9CFUS3PH",
+    "parent": "5RGD46W5"
+  },
+  "📚 Hazards/Flash Drought": {
+    "key": "ZCCQNCVT",
+    "parent": "5RIA59DH"
+  },
+  "📚 Archive/Hazards/Flood/Runoff & Streamflow": {
+    "key": "K447WXKQ",
+    "parent": "HZBW6IKA"
+  },
+  "📚 Archive/Hazards/Flash Drought": {
+    "key": "4SGE5PB7",
+    "parent": "F2IM9I29"
   }
 }

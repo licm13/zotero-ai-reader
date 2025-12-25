@@ -410,12 +410,18 @@ def add_item_to_collections(zot, item, collection_keys):
             print(f"      ❌ Invalid item key")
             return
 
-        # 获取当前条目数据（zot.item 返回列表）
-        item_data_list = zot.item(item_key)
-        if not item_data_list or not isinstance(item_data_list, list):
+        # 获取当前条目数据（zot.item 可能返回 list 或 dict）
+        item_data_raw = zot.item(item_key)
+        if isinstance(item_data_raw, list):
+            if not item_data_raw:
+                print(f"      ❌ Could not fetch item data for key: {item_key}")
+                return
+            item_data = item_data_raw[0]
+        elif isinstance(item_data_raw, dict):
+            item_data = item_data_raw
+        else:
             print(f"      ❌ Could not fetch item data for key: {item_key}")
             return
-        item_data = item_data_list[0]
         current_colls = item_data.get('collections', [])
 
         # Add to each collection if not already there
@@ -435,6 +441,7 @@ def add_item_to_collections(zot, item, collection_keys):
         if AUTO_TAG_NAME not in tag_names:
             current_tags.append({'tag': AUTO_TAG_NAME})
             item_data['tags'] = current_tags
+            # 保证 update_item 传入 dict
             zot.update_item(item_data)
             print(f"      🏷️  Tagged: {AUTO_TAG_NAME}")
 
@@ -536,7 +543,34 @@ def main():
                 'keywords': keywords
             })
 
+
     print(f"✅ Items to organize: {len(todo_items)}")
+
+    # ================= 综合分析所有笔记内容 =================
+    if todo_items:
+        print("\n🔎 综合分析所有 AI 笔记内容（关键词统计）...")
+        from collections import Counter
+        import re
+        all_notes = []
+        for item in items:
+            children = zot.children(item['key'])
+            for child in children:
+                if child['data']['itemType'] == 'note':
+                    note_content = child['data'].get('note', '')
+                    # 去除 HTML 标签，保留纯文本
+                    text = re.sub(r'<[^>]+>', '', note_content)
+                    all_notes.append(text)
+        # 合并所有文本
+        all_text = '\n'.join(all_notes)
+        # 简单分词（中英文混合，按非字母数字分割）
+        words = re.findall(r'[\u4e00-\u9fff]+|[a-zA-Z]{2,}', all_text)
+        # 统计高频词
+        counter = Counter(words)
+        most_common = counter.most_common(30)
+        print("\n📈 高频关键词统计（Top 30）：")
+        for word, count in most_common:
+            print(f"   {word}: {count}")
+        print("\n（如需更复杂分析可进一步扩展）")
 
     if not todo_items:
         print("\n🎉 No items to process!")
