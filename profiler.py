@@ -126,12 +126,107 @@ Important: Base suggestions on ACTUAL patterns in the reading history, not just 
             config={'response_mime_type': 'application/json'}
         )
 
-        result = json.loads(response.text)
-        print("✅ AI analysis completed")
+        # Validate response exists
+        if not response:
+            print(f"❌ AI返回空响应")
+            return None
+
+        # Validate response has text attribute
+        if not hasattr(response, 'text') or not response.text:
+            print(f"❌ AI响应缺少文本内容")
+            return None
+
+        # Parse JSON
+        try:
+            result = json.loads(response.text)
+        except json.JSONDecodeError as json_err:
+            print(f"❌ AI响应不是有效的JSON: {json_err}")
+            print(f"📄 响应内容前200字符: {response.text[:200]}")
+            return None
+
+        # Validate result is a dictionary
+        if not isinstance(result, dict):
+            print(f"❌ AI返回的JSON不是字典格式: {type(result)}")
+            return None
+
+        # Validate required fields exist
+        required_fields = ['summary', 'focus_areas', 'emerging_interests', 'key_themes', 'idea_lab_suggestions']
+        missing_fields = [field for field in required_fields if field not in result]
+
+        if missing_fields:
+            print(f"⚠️  AI响应缺少必需字段: {', '.join(missing_fields)}")
+            # Add default values for missing fields
+            if 'summary' not in result:
+                result['summary'] = "研究兴趣分析失败"
+            if 'focus_areas' not in result:
+                result['focus_areas'] = []
+            if 'emerging_interests' not in result:
+                result['emerging_interests'] = []
+            if 'key_themes' not in result:
+                result['key_themes'] = []
+            if 'idea_lab_suggestions' not in result:
+                result['idea_lab_suggestions'] = []
+
+        # Validate field types
+        if not isinstance(result.get('summary', ''), str):
+            print(f"⚠️  'summary'字段不是字符串，使用默认值")
+            result['summary'] = "研究兴趣分析失败"
+
+        for field_name in ['focus_areas', 'emerging_interests', 'key_themes']:
+            if not isinstance(result.get(field_name, []), list):
+                print(f"⚠️  '{field_name}'字段不是列表，使用默认值")
+                result[field_name] = []
+
+        # Validate idea_lab_suggestions structure
+        if 'idea_lab_suggestions' in result:
+            if not isinstance(result['idea_lab_suggestions'], list):
+                print(f"⚠️  'idea_lab_suggestions'字段不是列表，使用默认值")
+                result['idea_lab_suggestions'] = []
+            else:
+                # Validate each suggestion has required fields
+                valid_suggestions = []
+                for i, suggestion in enumerate(result['idea_lab_suggestions']):
+                    if not isinstance(suggestion, dict):
+                        print(f"⚠️  跳过无效的建议项 {i}: 不是字典")
+                        continue
+
+                    # Ensure required fields exist
+                    if 'category' not in suggestion or 'description' not in suggestion:
+                        print(f"⚠️  跳过无效的建议项 {i}: 缺少必需字段")
+                        continue
+
+                    # Validate types
+                    if not isinstance(suggestion.get('category', ''), str):
+                        print(f"⚠️  建议项 {i}: 'category'不是字符串")
+                        continue
+
+                    if not isinstance(suggestion.get('description', ''), str):
+                        print(f"⚠️  建议项 {i}: 'description'不是字符串")
+                        continue
+
+                    # Add rationale if missing
+                    if 'rationale' not in suggestion:
+                        suggestion['rationale'] = ''
+
+                    valid_suggestions.append(suggestion)
+
+                result['idea_lab_suggestions'] = valid_suggestions
+
+        print("✅ AI分析完成，已验证数据结构")
         return result
 
     except Exception as e:
-        print(f"❌ AI analysis failed: {e}")
+        error_msg = str(e)
+        if 'timeout' in error_msg.lower() or 'timed out' in error_msg.lower():
+            print(f"❌ AI请求超时: {e}")
+        elif 'rate limit' in error_msg.lower() or 'quota' in error_msg.lower():
+            print(f"❌ AI API速率限制或配额不足: {e}")
+        elif 'model' in error_msg.lower() or 'not found' in error_msg.lower():
+            print(f"❌ AI模型错误: {e}")
+        elif 'api key' in error_msg.lower() or 'authentication' in error_msg.lower():
+            print(f"❌ AI API密钥错误: {e}")
+        else:
+            print(f"❌ AI分析失败: {e}")
         return None
 
 # ================= Main Processing =================
