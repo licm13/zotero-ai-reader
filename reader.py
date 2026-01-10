@@ -28,6 +28,204 @@ TARGET_COLLECTION_PATH = getattr(config, 'TARGET_COLLECTION_PATH', None)
 TEST_MODE = getattr(config, 'TEST_MODE', False)
 TEST_LIMIT = getattr(config, 'TEST_LIMIT', 3)
 
+# ================= 1.1. Zotero Storage 路径选择 =================
+def find_zotero_pdf_folder():
+    """在本地自动搜索 zotero-pdf 文件夹
+    
+    Returns:
+        找到的文件夹路径，如果未找到返回 None
+    """
+    import platform
+    
+    system = platform.system()
+    user_home = os.path.expanduser('~')
+    candidates = []
+    
+    # Windows 常见路径
+    if system == 'Windows':
+        # OneDrive 路径
+        onedrive_path = os.path.join(user_home, 'OneDrive')
+        if os.path.exists(onedrive_path):
+            candidates.append(onedrive_path)
+        # 桌面
+        desktop_path = os.path.join(user_home, 'Desktop')
+        if os.path.exists(desktop_path):
+            candidates.append(desktop_path)
+        # Documents
+        documents_path = os.path.join(user_home, 'Documents')
+        if os.path.exists(documents_path):
+            candidates.append(documents_path)
+        # C盘根目录下的常见路径
+        c_drive_paths = [
+            'C:\\Users',
+            'C:\\OneDrive',
+        ]
+        for path in c_drive_paths:
+            if os.path.exists(path):
+                candidates.append(path)
+    # macOS/Linux 常见路径
+    else:
+        # 用户目录
+        candidates.append(user_home)
+        # Desktop
+        desktop_path = os.path.join(user_home, 'Desktop')
+        if os.path.exists(desktop_path):
+            candidates.append(desktop_path)
+        # Documents
+        documents_path = os.path.join(user_home, 'Documents')
+        if os.path.exists(documents_path):
+            candidates.append(documents_path)
+    
+    print(f"   🔍 正在搜索 zotero-pdf 文件夹...")
+    print(f"   📂 搜索范围: {len(candidates)} 个候选目录")
+    
+    found_folders = []
+    max_search_depth = 3  # 限制搜索深度，避免搜索过深
+    
+    def search_directory(root_path, current_depth=0):
+        """递归搜索包含 zotero-pdf 的文件夹"""
+        if current_depth > max_search_depth:
+            return
+        
+        try:
+            if not os.path.exists(root_path):
+                return
+            
+            # 检查当前目录
+            dir_name = os.path.basename(root_path).lower()
+            # 匹配包含 zotero 和 pdf 的文件夹名（不区分大小写）
+            if 'zotero' in dir_name and 'pdf' in dir_name:
+                # 验证文件夹中是否有 PDF 文件（确保是有效的存储文件夹）
+                try:
+                    pdf_count = sum(1 for f in os.listdir(root_path) if f.lower().endswith('.pdf'))
+                    if pdf_count > 0 or len([d for d in os.listdir(root_path) if os.path.isdir(os.path.join(root_path, d))]) > 0:
+                        found_folders.append((root_path, pdf_count))
+                        print(f"      ✅ 找到候选文件夹: {root_path} (包含 {pdf_count} 个PDF或子文件夹)")
+                except PermissionError:
+                    pass
+            
+            # 继续搜索子目录
+            if current_depth < max_search_depth:
+                try:
+                    for item in os.listdir(root_path):
+                        item_path = os.path.join(root_path, item)
+                        if os.path.isdir(item_path):
+                            # 跳过系统目录和隐藏目录（加快搜索速度）
+                            if item.startswith('.') or item in ['System Volume Information', '$Recycle.Bin', 'node_modules']:
+                                continue
+                            search_directory(item_path, current_depth + 1)
+                except (PermissionError, OSError):
+                    pass
+        except (PermissionError, OSError) as e:
+            pass
+    
+    # 在候选目录中搜索
+    for candidate in candidates:
+        search_directory(candidate)
+    
+    if found_folders:
+        # 优先选择包含更多PDF的文件夹，或者优先选择路径更短的（更可能是主文件夹）
+        found_folders.sort(key=lambda x: (-x[1], len(x[0])))
+        return found_folders[0][0]
+    
+    return None
+
+def input_zotero_path_manually():
+    """手动输入 zotero-pdf 路径的辅助函数
+    
+    Returns:
+        有效的路径字符串，如果用户取消返回 None
+    """
+    while True:
+        path = input("请输入 zotero-pdf 文件夹的完整路径: ").strip()
+        # 去除引号
+        path = path.strip('"').strip("'")
+        if os.path.exists(path) and os.path.isdir(path):
+            print(f"✅ 使用路径: {os.path.abspath(path)}")
+            return os.path.abspath(path)
+        else:
+            print(f"❌ 路径不存在或不是文件夹: {path}")
+            retry = input("是否重新输入？ [Y/n]: ").strip().lower()
+            if retry == 'n':
+                return None
+
+def prompt_zotero_storage_path():
+    """提示用户选择 Zotero Storage 路径
+    
+    Returns:
+        用户选择的路径字符串
+    """
+    print("\n" + "=" * 70)
+    print("📁 Zotero PDF 存储路径选择")
+    print("=" * 70)
+    print(f"\n💡 当前配置路径: {ZOTERO_STORAGE_PATH}")
+    print("\n请选择如何处理 Zotero PDF 存储路径：")
+    print("  1. 使用配置文件中的路径（默认）")
+    print("  2. 自动搜索本地 zotero-pdf 文件夹")
+    print("  3. 手动输入路径")
+    print("  0. 取消并退出")
+    
+    while True:
+        try:
+            choice = input("\n请选择 [1-3, 0取消]: ").strip()
+            
+            if choice == '0':
+                print("❌ 已取消")
+                sys.exit(0)
+            
+            elif choice == '1':
+                print(f"✅ 使用配置文件路径: {ZOTERO_STORAGE_PATH}")
+                if not os.path.exists(ZOTERO_STORAGE_PATH):
+                    print(f"   ⚠️  警告：路径不存在，程序可能无法正常工作")
+                return ZOTERO_STORAGE_PATH
+            
+            elif choice == '2':
+                print(f"\n🔍 正在自动搜索 zotero-pdf 文件夹...")
+                found_path = find_zotero_pdf_folder()
+                
+                if found_path:
+                    print(f"\n✅ 找到 zotero-pdf 文件夹: {found_path}")
+                    verify = input(f"是否使用此路径？ [Y/n]: ").strip().lower()
+                    if verify != 'n':
+                        return found_path
+                    else:
+                        print("   ⚠️  未选择自动搜索到的路径，请重新选择")
+                        continue
+                else:
+                    print(f"   ❌ 未找到 zotero-pdf 文件夹")
+                    retry = input("是否手动输入路径？ [Y/n]: ").strip().lower()
+                    if retry != 'n':
+                        manual_path = input_zotero_path_manually()
+                        if manual_path:
+                            return manual_path
+                        # 如果用户取消手动输入，继续循环
+                        continue
+                    else:
+                        print("   ⚠️  请重新选择")
+                        continue
+            
+            elif choice == '3':
+                manual_path = input_zotero_path_manually()
+                if manual_path:
+                    return manual_path
+                # 如果用户取消手动输入，继续循环
+                continue
+            
+            else:
+                print("⚠️  无效选择，请输入 1-3 或 0")
+                
+        except KeyboardInterrupt:
+            print("\n\n❌ 已取消")
+            sys.exit(0)
+        except Exception as e:
+            print(f"❌ 错误: {e}")
+
+# 询问用户是否要选择 Zotero Storage 路径
+print("\n" + "=" * 70)
+print("📋 配置加载完成")
+print("=" * 70)
+ZOTERO_STORAGE_PATH = prompt_zotero_storage_path()
+
 # ================= 2. 功能函数定义 =================
 
 def load_prompt(filename):
