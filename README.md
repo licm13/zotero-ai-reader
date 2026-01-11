@@ -512,32 +512,9 @@ python organizer.py
 
 ### 🗂️ 自定义双轨分类体系
 
-在 `organizer.py` 中修改 `PREFERRED_TAXONOMY` 变量，自定义你的分类逻辑：
+在 `organizer.py` 中修改 `PREFERRED_TAXONOMY` 变量，自定义分类逻辑。每个 Track 包含多个分类和子分类，系统会自动创建相应的集合结构。
 
-```python
-PREFERRED_TAXONOMY = {
-    "Track_A_Archive": {
-        "description": "Standard disciplinary classification",
-        "emoji": "📚",
-        "structure": {
-            "Processes": ["ET", "Runoff", ...],
-            "Hazards": ["Drought", "Flood", ...],
-            "Methodology": ["Remote Sensing", "Deep Learning", ...]
-        }
-    },
-    "Track_B_Idea_Lab": {
-        "description": "Question-driven classification",
-        "emoji": "💡",
-        "structure": {
-            "Mechanism": ["Abrupt Transitions", ...],
-            "Data Philosophy": ["Signal Purification", ...],
-            "Modeling": ["Physics-Informed AI", ...]
-        }
-    }
-}
-```
-
-**💡 提示**：运行 `profiler.py` 后，它会基于你的阅读历史给出个性化的 Idea Lab 建议！
+**💡 提示**：运行 `profiler.py` 后，会基于你的阅读历史给出个性化的 Idea Lab 建议，帮助你优化分类体系！
 
 ---
 
@@ -748,126 +725,17 @@ grep -r "API_KEY.*=" --include="*.py" . | grep -v "config" | grep -v "YOUR_"
 
 ---
 
-## 🛡️ 错误处理详解 / Error Handling Details
+## 🛡️ 错误处理
 
-本项目实现了企业级的错误处理机制，确保程序在各种异常情况下都能稳定运行。
+本项目实现了完善的错误处理机制，确保程序稳定运行：
 
-This project implements enterprise-grade error handling to ensure stable operation under various exceptional conditions.
+- ✅ **PDF 文件验证**：完整性、格式、权限、内容验证
+- ✅ **API 响应验证**：结构、类型、必需字段检查
+- ✅ **智能重试**：自动识别可重试错误（超时、网络中断），指数退避策略
+- ✅ **数据验证**：JSON 解析、Schema 验证、默认值回退
+- ✅ **详细错误提示**：清晰的错误信息和建议解决方案
 
-### 📋 错误处理特性 / Error Handling Features
-
-#### 1. **PDF 文件处理 / PDF File Processing** (`reader.py::get_pdf_content`)
-
-**中文说明**：
-- ✅ **文件验证**：检查文件是否存在、可读、非空、大小合理
-- ✅ **格式检查**：验证 PDF 格式是否正确、是否损坏
-- ✅ **页面验证**：检查 PDF 是否有页面、页数是否正常
-- ✅ **内容验证**：确保提取的文本内容有意义（至少 50 字符）
-- ✅ **优雅降级**：单页读取失败时继续处理其他页面
-- ✅ **资源清理**：确保 PDF 文档在任何情况下都能正确关闭
-
-**English**:
-- ✅ **File Validation**: Check if file exists, readable, non-empty, reasonable size
-- ✅ **Format Check**: Verify PDF format is correct and not corrupted
-- ✅ **Page Validation**: Check if PDF has pages and page count is normal
-- ✅ **Content Validation**: Ensure extracted text is meaningful (at least 50 characters)
-- ✅ **Graceful Degradation**: Continue processing other pages when single page fails
-- ✅ **Resource Cleanup**: Ensure PDF document is properly closed in all cases
-
-#### 2. **API 响应验证 / API Response Validation** (`reader.py`, `organizer.py`, `profiler.py`)
-
-**中文说明**：
-- ✅ **响应存在性检查**：验证 API 是否返回了数据
-- ✅ **结构验证**：检查返回数据是否包含必需的字段
-- ✅ **类型验证**：确保每个字段的数据类型正确
-- ✅ **嵌套验证**：在访问嵌套字段前验证父字段存在
-- ✅ **错误分类**：区分 400/403/404/timeout 等不同错误类型
-- ✅ **详细提示**：提供具体的错误信息和建议解决方案
-
-**English**:
-- ✅ **Response Existence Check**: Verify API returned data
-- ✅ **Structure Validation**: Check if returned data contains required fields
-- ✅ **Type Validation**: Ensure each field has correct data type
-- ✅ **Nested Validation**: Validate parent fields exist before accessing nested fields
-- ✅ **Error Classification**: Distinguish different error types (400/403/404/timeout)
-- ✅ **Detailed Messages**: Provide specific error info and suggested solutions
-
-#### 3. **智能重试机制 / Intelligent Retry Mechanism** (`keyword_classifier.py::fetch_items_with_retry`)
-
-**中文说明**：
-- ✅ **暂时性错误识别**：自动识别可重试的错误（502/503/504/超时/连接错误/速率限制）
-- ✅ **指数退避**：重试间隔递增（2s → 4s → 8s）避免过度请求
-- ✅ **永久性错误识别**：立即失败的错误（权限不足/资源未找到/参数错误）
-- ✅ **清晰的错误提示**：区分不同错误类型，提供针对性建议
-
-**English**:
-- ✅ **Transient Error Detection**: Auto-detect retryable errors (502/503/504/timeout/connection/rate limit)
-- ✅ **Exponential Backoff**: Increasing retry intervals (2s → 4s → 8s) to avoid excessive requests
-- ✅ **Permanent Error Detection**: Immediately fail on non-retryable errors (forbidden/not found/bad request)
-- ✅ **Clear Error Messages**: Distinguish error types with targeted suggestions
-
-#### 4. **JSON 数据验证 / JSON Data Validation** (`organizer.py`, `profiler.py`)
-
-**中文说明**：
-- ✅ **JSON 解析验证**：捕获 JSON 格式错误并提供详细提示
-- ✅ **Schema 验证**：检查必需字段是否存在
-- ✅ **字段类型检查**：验证每个字段的数据类型
-- ✅ **默认值回退**：缺失或错误的字段使用安全的默认值
-- ✅ **嵌套结构验证**：逐层验证复杂的嵌套数据结构
-
-**English**:
-- ✅ **JSON Parsing Validation**: Catch JSON format errors with detailed hints
-- ✅ **Schema Validation**: Check if required fields exist
-- ✅ **Field Type Checking**: Verify data type of each field
-- ✅ **Default Value Fallback**: Use safe defaults for missing/invalid fields
-- ✅ **Nested Structure Validation**: Layer-by-layer validation of complex nested structures
-
-#### 5. **配置文件验证 / Configuration Validation** (`config_loader.py::load_config`)
-
-**中文说明**：
-- ✅ **必需属性检查**：验证 LIBRARY_ID、API_KEY 等必需配置是否存在
-- ✅ **值有效性检查**：确保配置值非空且格式正确
-- ✅ **类型验证**：验证 LIBRARY_TYPE 等字段的值在允许范围内
-- ✅ **语法错误提示**：配置文件语法错误时提供行号和详细信息
-
-**English**:
-- ✅ **Required Attribute Check**: Verify required configs like LIBRARY_ID, API_KEY exist
-- ✅ **Value Validity Check**: Ensure config values are non-empty and properly formatted
-- ✅ **Type Validation**: Verify fields like LIBRARY_TYPE have valid values
-- ✅ **Syntax Error Hints**: Provide line numbers and details for config syntax errors
-
-### 🔍 错误消息示例 / Error Message Examples
-
-**中文错误消息示例**：
-```
-❌ PDF文件损坏或格式不正确: [file_format]invalid
-❌ Zotero API写入权限不足: 403 Forbidden
-⚠️  读取第5页时出错: [page_extraction_error]
-❌ AI响应不是有效的JSON: Expecting property name enclosed in double quotes
-⚠️  配置文件缺少必需的属性: API_KEY, AI_API_KEY
-```
-
-**English Error Message Examples**:
-```
-❌ PDF file corrupted or format incorrect: [file_format]invalid
-❌ Zotero API write permission denied: 403 Forbidden
-⚠️  Error reading page 5: [page_extraction_error]
-❌ AI response is not valid JSON: Expecting property name enclosed in double quotes
-⚠️  Config file missing required attributes: API_KEY, AI_API_KEY
-```
-
-### 📊 错误处理覆盖范围 / Error Handling Coverage
-
-| 模块 / Module | 功能 / Function | 错误类型 / Error Types | 处理策略 / Strategy |
-|--------------|----------------|---------------------|-------------------|
-| `reader.py` | `get_pdf_content` | 文件错误、格式错误、权限错误 | 验证 + 降级 |
-| `reader.py` | `save_note_to_zotero` | API 错误、响应格式错误 | 分类 + 验证 |
-| `reader.py` | `find_collection_by_path` | 网络错误、数据格式错误 | 重试 + 验证 |
-| `organizer.py` | `ai_dual_classify_batch` | JSON 错误、API 错误 | 验证 + 默认值 |
-| `organizer.py` | `ensure_collection_path` | 创建失败、权限错误 | 验证 + 详细提示 |
-| `profiler.py` | `generate_dynamic_profile` | JSON Schema 错误 | 验证 + 回退 |
-| `keyword_classifier.py` | `fetch_items_with_retry` | 网络错误、速率限制 | 智能重试 |
-| `config_loader.py` | `load_config` | 配置缺失、语法错误 | 验证 + 提示 |
+程序会自动处理各种异常情况，并提供明确的错误提示，帮助你快速定位和解决问题。
 
 ---
 

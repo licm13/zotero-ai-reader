@@ -504,7 +504,48 @@ JSON:"""
             print(f"   ❌ AI分类错误: {e}")
         return {}
 
-# ================= 6. Item Processing =================
+# ================= 6. Item Fetching =================
+
+def fetch_all_items(zot, target_coll_key=None, tag=None):
+    """Fetch all items from Zotero with pagination support
+    
+    Args:
+        zot: Zotero client instance
+        target_coll_key: Target collection key (None for entire library)
+        tag: Filter by tag name (e.g., 'gemini_read')
+    
+    Returns:
+        List of items
+    """
+    all_items = []
+    start = 0
+    page_size = 100
+    
+    while True:
+        try:
+            if target_coll_key:
+                page = zot.collection_items(target_coll_key, tag=tag, limit=page_size, start=start)
+            else:
+                page = zot.items(tag=tag, limit=page_size, start=start)
+            
+            if not page:
+                break
+            
+            all_items.extend(page)
+            
+            # If returned items < page_size, we've reached the end
+            if len(page) < page_size:
+                break
+            
+            start += page_size
+            
+        except Exception as e:
+            print(f"   ⚠️  Error fetching items (start={start}): {e}")
+            break
+    
+    return all_items
+
+# ================= 7. Item Processing =================
 
 def add_item_to_collections(zot, item, collection_keys):
     """Add item to multiple collections and mark with tag"""
@@ -565,7 +606,7 @@ def add_item_to_collections(zot, item, collection_keys):
     except Exception as e:
         print(f"      ❌ Failed to add to collections: {e}")
 
-# ================= 7. Main Processing =================
+# ================= 8. Main Processing =================
 
 def main():
     print("=" * 70)
@@ -603,24 +644,6 @@ def main():
 
     # Fetch items to process
     print("\n🔍 Fetching items...")
-
-    # 分页读取全部 items
-    def fetch_all_items(zot, target_coll_key=None, tag=None):
-        all_items = []
-        start = 0
-        page_size = 100
-        while True:
-            if target_coll_key:
-                page = zot.collection_items(target_coll_key, tag=tag, limit=page_size, start=start)
-            else:
-                page = zot.items(tag=tag, limit=page_size, start=start)
-            if not page:
-                break
-            all_items.extend(page)
-            if len(page) < page_size:
-                break
-            start += page_size
-        return all_items
 
     if target_coll_key:
         items = fetch_all_items(zot, target_coll_key, tag='gemini_read')
@@ -662,32 +685,6 @@ def main():
 
 
     print(f"✅ Items to organize: {len(todo_items)}")
-
-    # ================= 综合分析所有笔记内容 =================
-    if todo_items:
-        print("\n🔎 综合分析所有 AI 笔记内容（关键词统计）...")
-        from collections import Counter
-        import re
-        all_notes = []
-        for item in items:
-            children = zot.children(item['key'])
-            for child in children:
-                if child['data']['itemType'] == 'note':
-                    note_content = child['data'].get('note', '')
-                    # 去除 HTML 标签，保留纯文本
-                    text = re.sub(r'<[^>]+>', '', note_content)
-                    all_notes.append(text)
-        # 合并所有文本
-        all_text = '\n'.join(all_notes)
-        # 简单分词（中英文混合，按非字母数字分割）
-        words = re.findall(r'[\u4e00-\u9fff]+|[a-zA-Z]{2,}', all_text)
-        # 统计高频词
-        counter = Counter(words)
-        most_common = counter.most_common(30)
-        print("\n📈 高频关键词统计（Top 30）：")
-        for word, count in most_common:
-            print(f"   {word}: {count}")
-        print("\n（如需更复杂分析可进一步扩展）")
 
     if not todo_items:
         print("\n🎉 No items to process!")
