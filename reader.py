@@ -388,19 +388,22 @@ def find_pdf_file(filename, search_dir):
 def get_pdf_content(file_key, filename=None):
     """根据 Zotero 的 file_key 或文件名在本地查找 PDF 并提取文本"""
     pdf_path = None
-    
+
     # 方法1: 如果提供了文件名，使用关键词在整个 zotero-pdf 目录下递归搜索
     if filename:
         pdf_path = find_pdf_file(filename, ZOTERO_STORAGE_PATH)
-    
+
     # 方法2: 尝试使用 file_key 作为子目录名（标准 storage 结构）
     if not pdf_path:
         target_dir = os.path.join(ZOTERO_STORAGE_PATH, file_key)
         if os.path.exists(target_dir):
-            pdf_files = [f for f in os.listdir(target_dir) if f.lower().endswith('.pdf')]
-            if pdf_files:
-                pdf_path = os.path.join(target_dir, pdf_files[0])
-    
+            try:
+                pdf_files = [f for f in os.listdir(target_dir) if f.lower().endswith('.pdf')]
+                if pdf_files:
+                    pdf_path = os.path.join(target_dir, pdf_files[0])
+            except (PermissionError, OSError) as e:
+                print(f"   ⚠️  访问目录失败: {target_dir} - {str(e)}")
+
     # 方法3: 尝试标准 storage 目录（备选路径，如果需要可以配置）
     # 注意：如果您的 Zotero storage 路径与 ZOTERO_STORAGE_PATH 不同，可以在这里添加备选路径
     # 示例：
@@ -411,38 +414,88 @@ def get_pdf_content(file_key, filename=None):
     #         pdf_files = [f for f in os.listdir(alt_dir) if f.lower().endswith('.pdf')]
     #         if pdf_files:
     #             pdf_path = os.path.join(alt_dir, pdf_files[0])
-    
+
     # 方法4: 如果还是找不到，在整个 zotero-pdf 目录下递归搜索所有 PDF
     if not pdf_path:
         # 尝试搜索包含 file_key 的文件名
-        for root, dirs, files in os.walk(ZOTERO_STORAGE_PATH):
-            for file in files:
-                if file.lower().endswith('.pdf') and file_key in file:
-                    pdf_path = os.path.join(root, file)
+        try:
+            for root, dirs, files in os.walk(ZOTERO_STORAGE_PATH):
+                for file in files:
+                    if file.lower().endswith('.pdf') and file_key in file:
+                        pdf_path = os.path.join(root, file)
+                        break
+                if pdf_path:
                     break
-            if pdf_path:
-                break
-    
+        except (PermissionError, OSError) as e:
+            print(f"   ⚠️  搜索PDF文件时出错: {str(e)}")
+
     if not pdf_path:
         return None, f"未找到 PDF 文件 (file_key: {file_key}, filename: {filename})"
-    
+
+    # 验证文件是否可读且非空
+    if not os.path.isfile(pdf_path):
+        return None, f"PDF路径不是有效文件: {pdf_path}"
+
+    if not os.access(pdf_path, os.R_OK):
+        return None, f"PDF文件无读取权限: {pdf_path}"
+
+    file_size = os.path.getsize(pdf_path)
+    if file_size == 0:
+        return None, f"PDF文件为空: {pdf_path}"
+
+    if file_size < 100:  # 小于100字节的PDF很可能损坏
+        return None, f"PDF文件过小可能已损坏 ({file_size} 字节): {pdf_path}"
+
     # 提取文本
     text_content = ""
+    doc = None
     try:
-        doc = fitz.open(pdf_path)
+        # 尝试打开PDF
+        try:
+            doc = fitz.open(pdf_path)
+        except fitz.FileDataError as e:
+            return None, f"PDF文件损坏或格式不正确: {str(e)}"
+        except fitz.FileNotFoundError as e:
+            return None, f"PDF文件未找到: {str(e)}"
+        except Exception as e:
+            return None, f"无法打开PDF文件: {str(e)}"
+
+        # 验证PDF是否有页面
+        if doc.page_count == 0:
+            return None, f"PDF文件没有页面: {pdf_path}"
+
         # 为了节省 Token，通常只读前 30 页（涵盖正文，跳过部分参考文献）
         # 如果需要全文，去掉 [:30] 即可
-        for page in doc[:30]: 
-            page_text = page.get_text()
-            # 确保返回的是字符串
-            if isinstance(page_text, str):
-                text_content += page_text
-            else:
-                text_content += str(page_text)
-        doc.close()
+        pages_to_read = min(30, doc.page_count)
+
+        for page_num in range(pages_to_read):
+            try:
+                page = doc[page_num]
+                page_text = page.get_text()
+                # 确保返回的是字符串
+                if isinstance(page_text, str):
+                    text_content += page_text
+                else:
+                    text_content += str(page_text)
+            except Exception as e:
+                print(f"   ⚠️  读取第{page_num+1}页时出错: {str(e)}")
+                # 继续处理其他页面而不是完全失败
+                continue
+
+        # 验证提取的文本是否有意义
+        if not text_content or len(text_content.strip()) < 50:
+            return None, f"PDF文本提取失败或内容过少 (提取了 {len(text_content)} 字符)"
+
     except Exception as e:
         return None, f"PDF 解析失败: {str(e)}"
-        
+    finally:
+        # 确保文档被正确关闭
+        if doc:
+            try:
+                doc.close()
+            except Exception as e:
+                print(f"   ⚠️  关闭PDF文档时出错: {str(e)}")
+
     return text_content, "Success"
 
 def call_ai_analysis(paper_text, system_prompt):
@@ -567,23 +620,64 @@ def find_collection_by_path(zot, collection_path):
     try:
         all_collections = zot.collections()
     except Exception as e:
-        print(f"   ⚠️  获取集合列表失败: {e}")
+        error_msg = str(e)
+        if 'timeout' in error_msg.lower() or 'timed out' in error_msg.lower():
+            print(f"   ⚠️  获取集合列表超时: {e}")
+        elif '403' in error_msg or 'Forbidden' in error_msg:
+            print(f"   ⚠️  获取集合列表权限不足: {e}")
+        elif '404' in error_msg:
+            print(f"   ⚠️  库未找到: {e}")
+        else:
+            print(f"   ⚠️  获取集合列表失败: {e}")
         return None
-    
+
+    # 验证返回的数据
+    if not all_collections:
+        print(f"   ⚠️  未找到任何集合")
+        return None
+
+    if not isinstance(all_collections, (list, tuple)):
+        print(f"   ⚠️  API返回的集合数据格式不正确: {type(all_collections)}")
+        return None
+
     # 构建集合名称到key的映射（包括父集合信息）
     collections_map = {}
     for coll in all_collections:
-        coll_name = coll['data'].get('name', '')
+        # 验证集合数据结构
+        if not isinstance(coll, dict):
+            print(f"   ⚠️  跳过无效的集合项（不是字典）: {type(coll)}")
+            continue
+
+        if 'data' not in coll:
+            print(f"   ⚠️  跳过缺少'data'字段的集合: {coll.get('key', 'unknown')}")
+            continue
+
+        if 'key' not in coll:
+            print(f"   ⚠️  跳过缺少'key'字段的集合")
+            continue
+
+        coll_data = coll['data']
+        if not isinstance(coll_data, dict):
+            print(f"   ⚠️  跳过'data'字段不是字典的集合: {coll.get('key', 'unknown')}")
+            continue
+
+        coll_name = coll_data.get('name', '')
         coll_key = coll['key']
-        parent_key = coll['data'].get('parentCollection', None)
+        parent_key = coll_data.get('parentCollection', None)
+
         # 处理 parentCollection 可能是 False 的情况
         if parent_key is False:
             parent_key = None
+
         collections_map[coll_key] = {
             'name': coll_name,
             'parent': parent_key,
             'key': coll_key
         }
+
+    if not collections_map:
+        print(f"   ⚠️  没有有效的集合数据")
+        return None
     
     # 打印所有集合信息（用于调试）
     print(f"   🔍 找到 {len(collections_map)} 个集合")
@@ -766,39 +860,76 @@ def save_note_to_zotero(zot, item_key, markdown_content):
         
         # 创建笔记
         print(f"   📤 正在调用 zot.create_items()...")
-        created_items = zot.create_items([note_data])
-        
+        try:
+            created_items = zot.create_items([note_data])
+        except Exception as api_error:
+            error_msg = str(api_error)
+            if '400' in error_msg:
+                raise Exception(f"Zotero API请求格式错误: {error_msg}")
+            elif '403' in error_msg or 'Write access denied' in error_msg:
+                raise Exception(f"Zotero API写入权限不足: {error_msg}")
+            elif '404' in error_msg:
+                raise Exception(f"Zotero父项未找到 (key: {item_key}): {error_msg}")
+            elif 'timeout' in error_msg.lower() or 'timed out' in error_msg.lower():
+                raise Exception(f"Zotero API请求超时: {error_msg}")
+            else:
+                raise Exception(f"Zotero API调用失败: {error_msg}")
+
+        # 验证返回值不为空
+        if not created_items:
+            raise Exception("Zotero API返回空响应，笔记创建状态未知")
+
         # 检查返回值
         print(f"   🔍 create_items() 返回类型: {type(created_items).__name__}")
         created_note_key = None
         if created_items:
             if isinstance(created_items, dict):
                 print(f"   🔍 返回字典的键: {list(created_items.keys())[:5]}")
+
+                # 验证响应结构包含expected keys
+                if 'successful' not in created_items and 'failed' not in created_items:
+                    print(f"   ⚠️  警告: API响应缺少'successful'和'failed'键")
+
                 if 'successful' in created_items:
                     successful = created_items['successful']
-                    if isinstance(successful, dict):
+                    if successful is None:
+                        print(f"   ⚠️  'successful'字段为None")
+                    elif isinstance(successful, dict):
                         # successful是一个字典，键是索引
                         for key, item in successful.items():
                             if isinstance(item, dict) and 'key' in item:
                                 created_note_key = item['key']
                                 print(f"   🔍 成功创建的笔记 Key: {created_note_key}")
                                 print(f"   🔍 成功创建的笔记数据: {list(item.keys())[:5]}")
+                            else:
+                                print(f"   ⚠️  成功项缺少'key'字段: {item}")
                     elif isinstance(successful, (list, tuple)) and len(successful) > 0:
                         first_item = successful[0]
                         if isinstance(first_item, dict) and 'key' in first_item:
                             created_note_key = first_item['key']
                             print(f"   🔍 成功创建的笔记 Key: {created_note_key}")
+                        else:
+                            print(f"   ⚠️  成功项缺少'key'字段: {first_item}")
                     print(f"   🔍 成功创建: {len(successful) if isinstance(successful, (list, tuple, dict)) else 1} 个")
+
                 if 'failed' in created_items:
                     failed = created_items['failed']
-                    if isinstance(failed, dict):
-                        print(f"   ⚠️  失败的项目详情:")
-                        for key, error in failed.items():
-                            print(f"      - 索引 {key}: {error}")
-                    elif isinstance(failed, (list, tuple)):
-                        for i, error in enumerate(failed):
-                            print(f"      - 索引 {i}: {error}")
-                    print(f"   ⚠️  失败: {len(failed) if isinstance(failed, (list, tuple, dict)) else 1} 个")
+                    if failed:  # 如果有失败项
+                        if isinstance(failed, dict):
+                            print(f"   ⚠️  失败的项目详情:")
+                            for key, error in failed.items():
+                                print(f"      - 索引 {key}: {error}")
+                            # 如果所有项都失败了，抛出异常
+                            if not created_items.get('successful'):
+                                first_error = next(iter(failed.values())) if failed else "未知错误"
+                                raise Exception(f"Zotero笔记创建失败: {first_error}")
+                        elif isinstance(failed, (list, tuple)):
+                            for i, error in enumerate(failed):
+                                print(f"      - 索引 {i}: {error}")
+                            if not created_items.get('successful'):
+                                first_error = failed[0] if failed else "未知错误"
+                                raise Exception(f"Zotero笔记创建失败: {first_error}")
+                        print(f"   ⚠️  失败: {len(failed) if isinstance(failed, (list, tuple, dict)) else 1} 个")
             elif isinstance(created_items, (list, tuple)):
                 print(f"   🔍 返回列表长度: {len(created_items)}")
                 if len(created_items) > 0:
@@ -808,6 +939,12 @@ def save_note_to_zotero(zot, item_key, markdown_content):
                         if 'key' in first_item:
                             created_note_key = first_item['key']
                             print(f"   🔍 创建的笔记 Key: {created_note_key}")
+                        else:
+                            print(f"   ⚠️  返回项缺少'key'字段")
+                else:
+                    print(f"   ⚠️  API返回空列表")
+            else:
+                print(f"   ⚠️  意外的返回类型: {type(created_items)}")
         
         print(f"   ✅ API调用完成")
         

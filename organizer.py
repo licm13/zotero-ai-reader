@@ -260,23 +260,79 @@ def ensure_collection_path(zot, path, cache):
                         payload['parentCollection'] = parent_key
 
                     res = zot.create_collections([payload])
-                    if res and 'successful' in res:
-                        # Extract key from response
-                        success_dict = res['successful']
-                        found_key = list(success_dict.values())[0]['key']
 
-                        # Update cache
-                        cache[current_path] = {
-                            'key': found_key,
-                            'parent': parent_key
-                        }
-                        save_cache(cache)
-                        print(f"      ✅ Created: {current_path} (Key: {found_key})")
-                    else:
-                        print(f"      ❌ Creation failed: {res}")
+                    # Validate response exists
+                    if not res:
+                        print(f"      ❌ 创建集合失败: API返回空响应")
                         return None
+
+                    # Validate response structure
+                    if not isinstance(res, dict):
+                        print(f"      ❌ 创建集合失败: API响应格式不正确 ({type(res)})")
+                        return None
+
+                    # Check for successful creation
+                    if 'successful' not in res:
+                        if 'failed' in res:
+                            failed_info = res['failed']
+                            print(f"      ❌ 创建集合失败: {failed_info}")
+                        else:
+                            print(f"      ❌ 创建集合失败: 响应中缺少'successful'字段")
+                        return None
+
+                    # Extract key from response
+                    success_dict = res['successful']
+
+                    # Validate success_dict is not empty
+                    if not success_dict:
+                        print(f"      ❌ 创建集合失败: 'successful'字段为空")
+                        return None
+
+                    # Validate success_dict is a dictionary
+                    if not isinstance(success_dict, dict):
+                        print(f"      ❌ 创建集合失败: 'successful'字段格式不正确 ({type(success_dict)})")
+                        return None
+
+                    # Extract the key from the first successful item
+                    try:
+                        first_value = list(success_dict.values())[0]
+                        if not isinstance(first_value, dict):
+                            print(f"      ❌ 创建集合失败: 成功项格式不正确")
+                            return None
+
+                        if 'key' not in first_value:
+                            print(f"      ❌ 创建集合失败: 成功项缺少'key'字段")
+                            return None
+
+                        found_key = first_value['key']
+
+                        # Validate key is a non-empty string
+                        if not found_key or not isinstance(found_key, str):
+                            print(f"      ❌ 创建集合失败: 返回的key无效 ({found_key})")
+                            return None
+
+                    except (IndexError, KeyError, TypeError) as extract_err:
+                        print(f"      ❌ 创建集合失败: 无法提取key - {extract_err}")
+                        return None
+
+                    # Update cache
+                    cache[current_path] = {
+                        'key': found_key,
+                        'parent': parent_key
+                    }
+                    save_cache(cache)
+                    print(f"      ✅ Created: {current_path} (Key: {found_key})")
+
                 except Exception as e:
-                    print(f"      ❌ Error creating '{current_path}': {e}")
+                    error_msg = str(e)
+                    if '400' in error_msg:
+                        print(f"      ❌ 创建集合失败 (请求格式错误): {e}")
+                    elif '403' in error_msg or 'Forbidden' in error_msg:
+                        print(f"      ❌ 创建集合失败 (权限不足): {e}")
+                    elif 'timeout' in error_msg.lower() or 'timed out' in error_msg.lower():
+                        print(f"      ❌ 创建集合失败 (请求超时): {e}")
+                    else:
+                        print(f"      ❌ 创建集合失败: {e}")
                     return None
 
         parent_key = found_key
@@ -379,12 +435,73 @@ JSON:"""
             config={'response_mime_type': 'application/json'}
         )
 
-        result = json.loads(response.text)
-        print(f"   🤖 AI classified {len(result)} papers")
-        return result
+        # Validate response exists and has text attribute
+        if not response:
+            print(f"   ❌ AI返回空响应")
+            return {}
+
+        if not hasattr(response, 'text') or not response.text:
+            print(f"   ❌ AI响应缺少文本内容")
+            return {}
+
+        # Validate JSON structure
+        try:
+            result = json.loads(response.text)
+        except json.JSONDecodeError as json_err:
+            print(f"   ❌ AI响应不是有效的JSON: {json_err}")
+            print(f"   📄 响应内容前100字符: {response.text[:100]}")
+            return {}
+
+        # Validate result is a dictionary
+        if not isinstance(result, dict):
+            print(f"   ❌ AI返回的JSON不是字典格式: {type(result)}")
+            return {}
+
+        # Validate each entry has the expected structure
+        valid_results = {}
+        for key, value in result.items():
+            if not isinstance(value, dict):
+                print(f"   ⚠️  跳过无效的分类项 {key}: 值不是字典")
+                continue
+
+            # Check for required fields
+            if 'archive' not in value and 'idea' not in value:
+                print(f"   ⚠️  跳过无效的分类项 {key}: 缺少'archive'或'idea'字段")
+                continue
+
+            # Validate archive and idea are strings
+            archive = value.get('archive', '')
+            idea = value.get('idea', '')
+
+            if not isinstance(archive, str):
+                print(f"   ⚠️  分类项 {key}: 'archive'不是字符串，使用默认值")
+                archive = "Unclassified"
+
+            if not isinstance(idea, str):
+                print(f"   ⚠️  分类项 {key}: 'idea'不是字符串，使用默认值")
+                idea = "Unclassified"
+
+            valid_results[key] = {'archive': archive, 'idea': idea}
+
+        if not valid_results:
+            print(f"   ⚠️  AI分类结果没有有效项目")
+            return {}
+
+        print(f"   🤖 AI成功分类 {len(valid_results)} 篇论文")
+        return valid_results
 
     except Exception as e:
-        print(f"   ❌ AI classification error: {e}")
+        error_msg = str(e)
+        if 'timeout' in error_msg.lower() or 'timed out' in error_msg.lower():
+            print(f"   ❌ AI请求超时: {e}")
+        elif 'rate limit' in error_msg.lower() or 'quota' in error_msg.lower():
+            print(f"   ❌ AI API速率限制或配额不足: {e}")
+        elif 'model' in error_msg.lower() or 'not found' in error_msg.lower():
+            print(f"   ❌ AI模型错误: {e}")
+        elif 'api key' in error_msg.lower() or 'authentication' in error_msg.lower():
+            print(f"   ❌ AI API密钥错误: {e}")
+        else:
+            print(f"   ❌ AI分类错误: {e}")
         return {}
 
 # ================= 6. Item Processing =================

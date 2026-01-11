@@ -175,12 +175,62 @@ def load_config(config_path: Optional[str] = None) -> Optional[object]:
         try:
             import importlib.util
             spec = importlib.util.spec_from_file_location("config", config_path)
+
+            if not spec:
+                print(f"❌ 无法创建模块规范: {config_path}")
+                return None
+
+            if not spec.loader:
+                print(f"❌ 模块规范缺少加载器: {config_path}")
+                return None
+
             config = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(config)
+
+            # 验证必需的配置属性
+            required_attrs = ['LIBRARY_ID', 'API_KEY', 'LIBRARY_TYPE', 'AI_API_KEY']
+            missing_attrs = []
+
+            for attr in required_attrs:
+                if not hasattr(config, attr):
+                    missing_attrs.append(attr)
+
+            if missing_attrs:
+                print(f"❌ 配置文件缺少必需的属性: {', '.join(missing_attrs)}")
+                print(f"   请确保config.py包含以下属性:")
+                for attr in missing_attrs:
+                    print(f"   - {attr}")
+                return None
+
+            # 验证属性值不为空
+            empty_attrs = []
+            for attr in required_attrs:
+                value = getattr(config, attr, None)
+                if not value or (isinstance(value, str) and not value.strip()):
+                    empty_attrs.append(attr)
+
+            if empty_attrs:
+                print(f"⚠️  警告: 以下配置属性为空: {', '.join(empty_attrs)}")
+                print(f"   程序可能无法正常工作")
+
+            # 验证LIBRARY_TYPE的值是否有效
+            if hasattr(config, 'LIBRARY_TYPE'):
+                valid_types = ['user', 'group']
+                if config.LIBRARY_TYPE not in valid_types:
+                    print(f"⚠️  警告: LIBRARY_TYPE值无效 ('{config.LIBRARY_TYPE}')，应为: {', '.join(valid_types)}")
+
             print(f"✅ 已从 {config_path} 加载配置")
             return config
+
+        except SyntaxError as syntax_err:
+            print(f"❌ 配置文件语法错误: {syntax_err}")
+            print(f"   文件: {config_path}")
+            print(f"   行号: {syntax_err.lineno if hasattr(syntax_err, 'lineno') else '未知'}")
+            return None
         except Exception as e:
             print(f"❌ 加载配置文件失败: {e}")
+            import traceback
+            traceback.print_exc()
             return None
     
     # 尝试自动搜索

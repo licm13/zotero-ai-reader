@@ -435,22 +435,71 @@ def is_target_note(note_title: str, note_content: str = "") -> bool:
 def fetch_items_with_retry(zot, limit, start, max_retries=3):
     """
     带重试机制的获取文献项
+    支持多种暂时性错误的自动重试
     """
     for attempt in range(max_retries):
         try:
             items = zot.items(limit=limit, start=start)
+
+            # 验证返回数据
+            if items is None:
+                print(f"\n   ⚠️  API返回None，可能是暂时性问题")
+                if attempt < max_retries - 1:
+                    wait_time = 2 ** (attempt + 1)  # 指数退避：2s, 4s, 8s
+                    print(f"   ⏳ 等待{wait_time}秒后重试 (尝试 {attempt + 1}/{max_retries})...")
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    raise Exception("API返回None，已达最大重试次数")
+
             return items
+
         except Exception as e:
-            error_str = str(e)
-            # 如果是502错误，等待后重试
-            if "502" in error_str or "Bad Gateway" in error_str:
-                wait_time = (attempt + 1) * 2  # 递增等待时间：2s, 4s, 6s
-                print(f"\n   ⚠️  遇到502错误，等待{wait_time}秒后重试 (尝试 {attempt + 1}/{max_retries})...")
-                time.sleep(wait_time)
-                continue
+            error_str = str(e).lower()
+
+            # 识别可重试的错误类型
+            retryable_errors = [
+                ("502", "bad gateway", "服务器网关错误"),
+                ("503", "service unavailable", "服务暂时不可用"),
+                ("504", "gateway timeout", "网关超时"),
+                ("timeout", "timed out", "请求超时"),
+                ("connection", "connection error", "连接错误"),
+                ("rate limit", "too many requests", "速率限制"),
+                ("429", "rate", "请求过于频繁"),
+            ]
+
+            is_retryable = False
+            error_type = "未知错误"
+
+            for error_code, error_keyword, error_desc in retryable_errors:
+                if error_code in error_str or error_keyword in error_str:
+                    is_retryable = True
+                    error_type = error_desc
+                    break
+
+            if is_retryable:
+                if attempt < max_retries - 1:
+                    # 使用指数退避策略
+                    wait_time = 2 ** (attempt + 1)  # 2s, 4s, 8s
+                    print(f"\n   ⚠️  遇到{error_type}，等待{wait_time}秒后重试 (尝试 {attempt + 1}/{max_retries})...")
+                    time.sleep(wait_time)
+                    continue
+                else:
+                    raise Exception(f"获取文献失败: {error_type}，已重试{max_retries}次")
             else:
-                # 其他错误直接抛出
-                raise
+                # 不可重试的错误（如权限错误、无效参数等）直接抛出
+                if "403" in error_str or "forbidden" in error_str:
+                    raise Exception(f"获取文献失败: 权限不足 - {e}")
+                elif "404" in error_str or "not found" in error_str:
+                    raise Exception(f"获取文献失败: 资源未找到 - {e}")
+                elif "401" in error_str or "unauthorized" in error_str:
+                    raise Exception(f"获取文献失败: 未授权（API密钥可能无效） - {e}")
+                elif "400" in error_str or "bad request" in error_str:
+                    raise Exception(f"获取文献失败: 请求参数错误 - {e}")
+                else:
+                    # 其他未识别的错误也直接抛出
+                    raise Exception(f"获取文献失败: {e}")
+
     # 所有重试都失败
     raise Exception(f"获取文献失败，已重试{max_retries}次")
 
