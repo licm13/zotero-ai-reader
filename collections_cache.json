@@ -1,294 +1,2778 @@
 {
-  "Flash Drought": {
-    "key": "ZCCQNCVT",
-    "parent": "5RIA59DH"
-  },
-  "Runoff & Streamflow": {
-    "key": "C9H79RCV",
-    "parent": "AH62TBHQ"
-  },
-  "Scale Issues (Spatial_Temporal)": {
-    "key": "9CFUS3PH",
-    "parent": "5RGD46W5"
-  },
-  "Drought Sensitivity": {
-    "key": "SGCV2SW3",
-    "parent": "GXJEWNFX"
-  },
-  "Groundwater": {
-    "key": "IPXDA6CP",
-    "parent": "S6QUR7NP"
-  },
-  "Drought": {
-    "key": "JT49FD5X",
-    "parent": "GXJEWNFX"
-  },
-  "Cryosphere (Snow & Glacier)": {
-    "key": "4KBJITMN",
-    "parent": "AH62TBHQ"
-  },
-  "Abrupt Transitions/Phase Change": {
-    "key": "H38CKWT4",
-    "parent": "DP3N4X94"
-  },
-  "Abrupt Transitions": {
-    "key": "DP3N4X94",
-    "parent": "7D89DB48"
-  },
-  "Compound Events & DFA": {
-    "key": "HMQAV28V",
-    "parent": "5RIA59DH"
-  },
-  "Machine Learning": {
-    "key": "445HR8SX",
-    "parent": "HKJRI9CP"
-  },
-  "Soil Moisture/Ecosystem GPP": {
-    "key": "B3DEBUVZ",
-    "parent": "GWPEFE7X"
-  },
-  "Heatwaves & Extremes/Extreme Event Attribution": {
-    "key": "BFZ29JI5",
-    "parent": "NNMXPAU7"
-  },
-  "Land Surface Temperature": {
-    "key": "NPG55VNF",
-    "parent": "HANQIQHI"
-  },
-  "Heatwaves & Extremes/Climate Extremes": {
-    "key": "GR8F4BQU",
-    "parent": "NNMXPAU7"
-  },
-  "Data Quality & Validation": {
-    "key": "AZ32IESZ",
-    "parent": "4HE8S8FP"
-  },
-  "Causal Inference": {
-    "key": "9HEZMDMD",
-    "parent": "QQ2IBGUR"
-  },
-  "Evapotranspiration": {
-    "key": "CREPG8HH",
-    "parent": "AH62TBHQ"
-  },
-  "Runoff & Streamflow/Hydrological Attribution": {
-    "key": "QPKWRBWH",
-    "parent": "8TXN2NDM"
-  },
-  "Evapotranspiration (ET)/Methodology": {
-    "key": "4PU93S9V",
-    "parent": "B34FQ4K9"
-  },
-  "Evapotranspiration (ET)/Vegetation": {
-    "key": "XFK8J6DI",
-    "parent": "B34FQ4K9"
-  },
-  "Evapotranspiration (ET)": {
-    "key": "B34FQ4K9",
-    "parent": "S6QUR7NP"
-  },
-  "Groundwater/Spatiotemporal variation": {
-    "key": "6G2DXXX9",
-    "parent": "IPXDA6CP"
-  },
-  "Physics-Informed AI": {
-    "key": "B87H4M5T",
-    "parent": "QQ2IBGUR"
-  },
-  "Evapotranspiration/Energy Balance": {
-    "key": "KKMZWV6E",
-    "parent": "CREPG8HH"
-  },
-  "Evapotranspiration/Vegetation": {
-    "key": "TP39IDRQ",
-    "parent": "CREPG8HH"
-  },
-  "Data Fusion": {
-    "key": "88FUJ8RX",
-    "parent": "HKJRI9CP"
-  },
-  "Land-Atmosphere Coupling": {
-    "key": "5XBFZRDS",
-    "parent": "8ASPCNRZ"
-  },
-  "Ensemble Methods": {
-    "key": "8NT3M9BS",
-    "parent": "QQ2IBGUR"
-  },
-  "Statistical Methods": {
-    "key": "QPV3EMDU",
-    "parent": "4TQTZASN"
-  },
-  "Soil Moisture": {
-    "key": "8Z6AFWPP",
-    "parent": "3TXSRKTG"
-  },
-  "Deep Learning (LSTM_CNN)": {
-    "key": "TFHMV553",
-    "parent": "HKJRI9CP"
-  },
-  "Atmosphere/Water Vapor Transport": {
-    "key": "868RUCUE",
-    "parent": "X3GDNUXB"
-  },
-  "Atmosphere": {
-    "key": "X3GDNUXB",
-    "parent": "AH62TBHQ"
-  },
-  "Deep Learning": {
-    "key": "X7FN74X4",
-    "parent": "HKJRI9CP"
-  },
-  "Mechanism/Land-Atmosphere Coupling": {
-    "key": "3PK2E3E9",
-    "parent": "FJ6A2SAM"
-  },
-  "Mechanism": {
-    "key": "FJ6A2SAM",
-    "parent": "VGDT2GDR"
-  },
-  "Methodology/Physics-Informed AI": {
-    "key": "9BSDXWJT",
-    "parent": "22B93W9F"
-  },
-  "Methodology": {
-    "key": "22B93W9F",
-    "parent": "VGDT2GDR"
-  },
-  "Signal Purification/Uncertainty": {
-    "key": "NBIWINXG",
-    "parent": "86KT3P75"
-  },
-  "Signal Purification": {
-    "key": "86KT3P75",
-    "parent": "5RGD46W5"
-  },
-  "DFA": {
-    "key": "7SVN69VK",
-    "parent": "T9UQRD2Q"
-  },
-  "Multi-Sphere Coupling": {
-    "key": "RCTES962",
-    "parent": "P25BDJHE"
-  },
-  "Heatwaves & Extremes": {
-    "key": "DT9F9A6B",
-    "parent": "F2IM9I29"
-  },
-  "Energy-Water Nexus": {
-    "key": "RIXVUPZN",
-    "parent": "P25BDJHE"
-  },
-  "Compound Events/DFA": {
-    "key": "IH4XVKA4",
-    "parent": "JUQF735C"
-  },
-  "Compound Events": {
-    "key": "JUQF735C",
-    "parent": "F2IM9I29"
-  },
-  "Rapid Onset Events": {
-    "key": "3N43RB2V",
-    "parent": "7D89DB48"
-  },
-  "Remote Sensing/Retrieval": {
-    "key": "EN26W8HG",
-    "parent": "KQXNSVZG"
-  },
-  "Remote Sensing": {
-    "key": "KQXNSVZG",
-    "parent": "HKJRI9CP"
-  },
-  "Vegetation Growth": {
-    "key": "EWWSTIEQ",
-    "parent": "HANQIQHI"
-  },
-  "ET": {
-    "key": "7CPMJGDZ",
-    "parent": "3TXSRKTG"
-  },
-  "Multi-Source Integration": {
-    "key": "S69EKMMV",
-    "parent": "5RGD46W5"
-  },
-  "Non-linearity & Complexity": {
-    "key": "NN9MTCQV",
-    "parent": "MVXCPIG4"
-  },
-  "Flood/Compound Events/DFA": {
-    "key": "IX59Q6MU",
-    "parent": "9KMBJ7DG"
-  },
-  "Flood/Compound Events": {
-    "key": "9KMBJ7DG",
-    "parent": "NSVTC3FE"
-  },
-  "Flood": {
-    "key": "6IUNTR7D",
-    "parent": "IJRWU5NW"
-  },
-  "Tipping Points": {
-    "key": "KK955VN6",
-    "parent": "MVXCPIG4"
-  },
-  "Human-Nature Systems": {
-    "key": "Q25A34RT",
-    "parent": "8ASPCNRZ"
-  },
-  "Applications/Agricultural Systems": {
-    "key": "F9CCWKWW",
-    "parent": "5T9XZMSR"
-  },
-  "Non-linearity & Complexity, 💡 Idea Lab/Coupling/Vegetation-Water Interaction": {
-    "key": "WWFK6EBQ",
-    "parent": "JDBPHHUN"
-  },
-  "Applications/Agricultural Systems, 📚 Archive/Methodology/Remote Sensing/Retrieval": {
-    "key": "ZHR76K8I",
-    "parent": "JTFQQ45R"
-  },
-  "Applications/Agricultural Systems, 📚 Archive/Methodology/Remote Sensing": {
-    "key": "JTFQQ45R",
-    "parent": "38WEI8QV"
-  },
-  "Applications/Agricultural Systems, 📚 Archive/Methodology": {
-    "key": "38WEI8QV",
-    "parent": "6GGU8TBQ"
-  },
-  "Applications/Agricultural Systems, 📚 Archive": {
-    "key": "6GGU8TBQ",
-    "parent": "5T9XZMSR"
-  },
-  "Applications": {
-    "key": "5T9XZMSR",
-    "parent": "S6QUR7NP"
-  },
-  "Non-linearity & Complexity, 💡 Idea Lab/Coupling/Multi-Sphere Coupling": {
-    "key": "4IXQV3JG",
-    "parent": "JDBPHHUN"
-  },
-  "Non-linearity & Complexity, 💡 Idea Lab/Coupling": {
-    "key": "JDBPHHUN",
-    "parent": "Q2V5HVBT"
-  },
-  "Non-linearity & Complexity, 💡 Idea Lab": {
-    "key": "Q2V5HVBT",
-    "parent": "MVXCPIG4"
-  },
-  "Groundwater, 📚 Archive/Applications/Climate Change Impact": {
-    "key": "GEKH578D",
-    "parent": "T7IPZSIE"
-  },
-  "Groundwater, 📚 Archive/Applications": {
-    "key": "T7IPZSIE",
-    "parent": "45KF62FK"
-  },
-  "Groundwater, 📚 Archive": {
-    "key": "45KF62FK",
-    "parent": "3TXSRKTG"
-  },
-  "Uncertainty": {
-    "key": "3U7S3KVB",
-    "parent": "GH2CFJ6G"
+  "💡 Idea Lab/Mechanism/Feedback Loops & Cascades": {
+    "key": "2Q3D7TGH",
+    "parent": "TMSHENQJ"
+  },
+  "💡 Idea Lab/Dynamics/Non-linearity & Complexity, 💡 Idea Lab/Dynamics/Rapid Onset Events, 💡 Idea Lab/Modeling/Physics-Informed AI": {
+    "key": "CPQRGJE9",
+    "parent": "VN8TNPTS"
+  },
+  "💡 Idea Lab/Dynamics/Non-linearity & Complexity, 💡 Idea Lab/Dynamics/Rapid Onset Events, 💡 Idea Lab/Modeling": {
+    "key": "VN8TNPTS",
+    "parent": "SUXS6JGZ"
+  },
+  "💡 Idea Lab/Dynamics/Non-linearity & Complexity, 💡 Idea Lab/Dynamics/Rapid Onset Events, 💡 Idea Lab": {
+    "key": "SUXS6JGZ",
+    "parent": "EX8JEC3G"
+  },
+  "💡 Idea Lab/Dynamics/Non-linearity & Complexity, 💡 Idea Lab/Dynamics": {
+    "key": "EX8JEC3G",
+    "parent": "BK8SKCDU"
+  },
+  "💡 Idea Lab/Dynamics/Non-linearity & Complexity, 💡 Idea Lab": {
+    "key": "BK8SKCDU",
+    "parent": "A28953HD"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards/Flood, 📚 Archive/Methodology/Machine Learning (LSTM_CNN), 📚 Archive/Methodology/Statistical Methods": {
+    "key": "REEXNXDC",
+    "parent": "6R5MJ9RX"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards/Flood, 📚 Archive/Methodology/Machine Learning (LSTM_CNN), 📚 Archive/Methodology": {
+    "key": "6R5MJ9RX",
+    "parent": "I5ASCKVP"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards/Flood, 📚 Archive/Methodology/Machine Learning (LSTM_CNN), 📚 Archive": {
+    "key": "I5ASCKVP",
+    "parent": "GDX42E86"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards/Flood, 📚 Archive/Methodology": {
+    "key": "GDX42E86",
+    "parent": "CWCHNESK"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards/Flood, 📚 Archive": {
+    "key": "CWCHNESK",
+    "parent": "IMJ2XUH8"
+  },
+  "💡 Idea Lab/Data Philosophy/Signal Purification/Uncertainty, 💡 Idea Lab/Data Philosophy/Multi-Source Integration": {
+    "key": "NEX4RFDC",
+    "parent": "RUZNFJS4"
+  },
+  "💡 Idea Lab/Data Philosophy/Signal Purification/Uncertainty, 💡 Idea Lab/Data Philosophy": {
+    "key": "RUZNFJS4",
+    "parent": "6XVA9VNC"
+  },
+  "💡 Idea Lab/Data Philosophy/Signal Purification/Uncertainty, 💡 Idea Lab": {
+    "key": "6XVA9VNC",
+    "parent": "VAJ3N9FS"
+  },
+  "📚 Archive/Processes/Evapotranspiration (ET), 📚 Archive/Methodology/Remote Sensing/Retrieval, 📚 Archive/Methodology/Data Fusion": {
+    "key": "5TRKWEHE",
+    "parent": "9NSTVJUG"
+  },
+  "📚 Archive/Processes/Evapotranspiration (ET), 📚 Archive/Methodology/Remote Sensing/Retrieval, 📚 Archive/Methodology": {
+    "key": "9NSTVJUG",
+    "parent": "RGDXZKTU"
+  },
+  "📚 Archive/Processes/Evapotranspiration (ET), 📚 Archive/Methodology/Remote Sensing/Retrieval, 📚 Archive": {
+    "key": "RGDXZKTU",
+    "parent": "N2WQGHTE"
+  },
+  "📚 Archive/Processes/Evapotranspiration (ET), 📚 Archive/Methodology/Remote Sensing": {
+    "key": "N2WQGHTE",
+    "parent": "MF6UHV8A"
+  },
+  "📚 Archive/Processes/Evapotranspiration (ET), 📚 Archive/Methodology": {
+    "key": "MF6UHV8A",
+    "parent": "RW2NSUNB"
+  },
+  "📚 Archive/Processes/Evapotranspiration (ET), 📚 Archive": {
+    "key": "RW2NSUNB",
+    "parent": "RWJI5QMT"
+  },
+  "💡 Idea Lab/Data Philosophy/Scale Issues (Spatial_Temporal), 💡 Idea Lab/Modeling/Hybrid Modeling (Process+ML)": {
+    "key": "KMEMZRVB",
+    "parent": "2JBDXQM8"
+  },
+  "💡 Idea Lab/Data Philosophy/Scale Issues (Spatial_Temporal), 💡 Idea Lab/Modeling": {
+    "key": "2JBDXQM8",
+    "parent": "KEC5R553"
+  },
+  "💡 Idea Lab/Data Philosophy/Scale Issues (Spatial_Temporal), 💡 Idea Lab": {
+    "key": "KEC5R553",
+    "parent": "VN2WBB57"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Methodology/Statistical Methods, 📚 Archive/Methodology/Reanalysis Data": {
+    "key": "GC7WHGEK",
+    "parent": "4PDSBMBV"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Methodology/Statistical Methods, 📚 Archive/Methodology": {
+    "key": "4PDSBMBV",
+    "parent": "P6TPHWVC"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Methodology/Statistical Methods, 📚 Archive": {
+    "key": "P6TPHWVC",
+    "parent": "JM4GW7RC"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Methodology": {
+    "key": "JM4GW7RC",
+    "parent": "AX3G7XHD"
+  },
+  "💡 Idea Lab/Dynamics/Rapid Onset Events, 💡 Idea Lab/Dynamics/Drought-Flood Transitions, 💡 Idea Lab/Modeling/Hybrid Modeling (Process+ML)": {
+    "key": "ZBMXZ4AC",
+    "parent": "7DSW5DAJ"
+  },
+  "💡 Idea Lab/Dynamics/Rapid Onset Events, 💡 Idea Lab/Dynamics/Drought-Flood Transitions, 💡 Idea Lab/Modeling": {
+    "key": "7DSW5DAJ",
+    "parent": "HVZKAAZH"
+  },
+  "💡 Idea Lab/Dynamics/Rapid Onset Events, 💡 Idea Lab/Dynamics/Drought-Flood Transitions, 💡 Idea Lab": {
+    "key": "HVZKAAZH",
+    "parent": "XDHIX2F5"
+  },
+  "💡 Idea Lab/Dynamics/Rapid Onset Events, 💡 Idea Lab/Dynamics": {
+    "key": "XDHIX2F5",
+    "parent": "MAIA4E2E"
+  },
+  "💡 Idea Lab/Dynamics/Rapid Onset Events, 💡 Idea Lab": {
+    "key": "MAIA4E2E",
+    "parent": "A28953HD"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards/Drought/Flash Drought, 📚 Archive/Methodology/Deep Learning (LSTM_CNN), 📚 Archive/Applications/Climate Change Impact": {
+    "key": "4I2JRSTD",
+    "parent": "DXP6VJ83"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards/Drought/Flash Drought, 📚 Archive/Methodology/Deep Learning (LSTM_CNN), 📚 Archive/Applications": {
+    "key": "DXP6VJ83",
+    "parent": "4BHG64II"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards/Drought/Flash Drought, 📚 Archive/Methodology/Deep Learning (LSTM_CNN), 📚 Archive": {
+    "key": "4BHG64II",
+    "parent": "IGRVVJZ8"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards/Drought/Flash Drought, 📚 Archive/Methodology": {
+    "key": "IGRVVJZ8",
+    "parent": "RQ8BURTI"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards/Drought/Flash Drought, 📚 Archive": {
+    "key": "RQ8BURTI",
+    "parent": "U3DWGUXB"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards/Drought": {
+    "key": "U3DWGUXB",
+    "parent": "IMJ2XUH8"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards": {
+    "key": "IMJ2XUH8",
+    "parent": "AX3G7XHD"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive": {
+    "key": "AX3G7XHD",
+    "parent": "RWJI5QMT"
+  },
+  "💡 Idea Lab/Data Philosophy/Multi-Source Integration, 💡 Idea Lab/Data Philosophy/Signal Purification/Uncertainty, 💡 Idea Lab/Dynamics/Rapid Onset Events": {
+    "key": "894FURIQ",
+    "parent": "SVJ77DMW"
+  },
+  "💡 Idea Lab/Data Philosophy/Multi-Source Integration, 💡 Idea Lab/Data Philosophy/Signal Purification/Uncertainty, 💡 Idea Lab/Dynamics": {
+    "key": "SVJ77DMW",
+    "parent": "BGTPMST5"
+  },
+  "💡 Idea Lab/Data Philosophy/Multi-Source Integration, 💡 Idea Lab/Data Philosophy/Signal Purification/Uncertainty, 💡 Idea Lab": {
+    "key": "BGTPMST5",
+    "parent": "HGNEU7SZ"
+  },
+  "💡 Idea Lab/Data Philosophy/Multi-Source Integration, 💡 Idea Lab/Data Philosophy/Signal Purification": {
+    "key": "HGNEU7SZ",
+    "parent": "7QN2HBCR"
+  },
+  "💡 Idea Lab/Data Philosophy/Multi-Source Integration, 💡 Idea Lab/Data Philosophy": {
+    "key": "7QN2HBCR",
+    "parent": "9F7WBR23"
+  },
+  "💡 Idea Lab/Data Philosophy/Multi-Source Integration, 💡 Idea Lab": {
+    "key": "9F7WBR23",
+    "parent": "VN2WBB57"
+  },
+  "📚 Archive/Processes/Groundwater, 📚 Archive/Hazards/Drought/Flash Drought, 📚 Archive/Methodology/Data Fusion, 📚 Archive/Methodology/Uncertainty Analysis": {
+    "key": "HXZQNJ7C",
+    "parent": "T5SIVZRT"
+  },
+  "📚 Archive/Processes/Groundwater, 📚 Archive/Hazards/Drought/Flash Drought, 📚 Archive/Methodology/Data Fusion, 📚 Archive/Methodology": {
+    "key": "T5SIVZRT",
+    "parent": "3GTCZ8D4"
+  },
+  "📚 Archive/Processes/Groundwater, 📚 Archive/Hazards/Drought/Flash Drought, 📚 Archive/Methodology/Data Fusion, 📚 Archive": {
+    "key": "3GTCZ8D4",
+    "parent": "78DKFICS"
+  },
+  "📚 Archive/Processes/Groundwater, 📚 Archive/Hazards/Drought/Flash Drought, 📚 Archive/Methodology": {
+    "key": "78DKFICS",
+    "parent": "275V7TEH"
+  },
+  "📚 Archive/Processes/Groundwater, 📚 Archive/Hazards/Drought/Flash Drought, 📚 Archive": {
+    "key": "275V7TEH",
+    "parent": "RQ75AQJG"
+  },
+  "📚 Archive/Processes/Groundwater, 📚 Archive/Hazards/Drought": {
+    "key": "RQ75AQJG",
+    "parent": "59U6SCTK"
+  },
+  "📚 Archive/Processes/Groundwater, 📚 Archive/Hazards": {
+    "key": "59U6SCTK",
+    "parent": "3MGZMSG9"
+  },
+  "📚 Archive/Processes/Groundwater, 📚 Archive": {
+    "key": "3MGZMSG9",
+    "parent": "RWJI5QMT"
+  },
+  "💡 Idea Lab/Modeling/Physics-Informed AI": {
+    "key": "5IRKKCVJ",
+    "parent": "IPW5MV3I"
+  },
+  "💡 Idea Lab/Modeling": {
+    "key": "IPW5MV3I",
+    "parent": "SWTSEIVU"
+  },
+  "📚 Archive/Evapotranspiration (ET)/Remote Sensing/Retrieval": {
+    "key": "8AFJZXZF",
+    "parent": "E45ACADZ"
+  },
+  "📚 Archive/Evapotranspiration (ET)/Remote Sensing": {
+    "key": "E45ACADZ",
+    "parent": "4WJJUMIK"
+  },
+  "📚 Archive/Evapotranspiration (ET)": {
+    "key": "4WJJUMIK",
+    "parent": "F4WDPCN8"
+  },
+  "💡 Mechanism": {
+    "key": "4WCQU6IE",
+    "parent": null
+  },
+  "💡 Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity": {
+    "key": "KV74P8DP",
+    "parent": "QGSBKPD5"
+  },
+  "💡 Mechanism/Land-Atmosphere Coupling, Dynamics": {
+    "key": "QGSBKPD5",
+    "parent": "4WCQU6IE"
+  },
+  "📚 Processes/Runoff & Streamflow, Methodology/Climate Modeling, Hazards/Compound Events/DFA": {
+    "key": "6USU6A5S",
+    "parent": "8G935H6M"
+  },
+  "📚 Processes/Runoff & Streamflow, Methodology/Climate Modeling, Hazards/Compound Events": {
+    "key": "8G935H6M",
+    "parent": "KBF89D3S"
+  },
+  "📚 Processes/Runoff & Streamflow, Methodology/Climate Modeling, Hazards": {
+    "key": "KBF89D3S",
+    "parent": "UN6S9I62"
+  },
+  "📚 Processes/Runoff & Streamflow, Methodology": {
+    "key": "UN6S9I62",
+    "parent": "BDRXTMKD"
+  },
+  "💡 Data Philosophy/Multi-Source Integration, Coupling/Vegetation-Water Interaction": {
+    "key": "5ZCR5EGI",
+    "parent": "FP6BSSHR"
+  },
+  "💡 Data Philosophy/Multi-Source Integration, Coupling": {
+    "key": "FP6BSSHR",
+    "parent": "SXP3UPJG"
+  },
+  "📚 Applications/Agricultural Systems, Data Fusion/Global Dataset": {
+    "key": "32U44MP3",
+    "parent": "G3EE98Q7"
+  },
+  "📚 Applications/Agricultural Systems, Data Fusion": {
+    "key": "G3EE98Q7",
+    "parent": "RXI8PUE8"
+  },
+  "📚 Applications": {
+    "key": "RXI8PUE8",
+    "parent": null
+  },
+  "💡 Data Philosophy/Signal Purification/Uncertainty, Modeling/Physics-Informed AI": {
+    "key": "6A6DPR6S",
+    "parent": "JQP2DZFK"
+  },
+  "💡 Data Philosophy/Signal Purification/Uncertainty, Modeling": {
+    "key": "JQP2DZFK",
+    "parent": "Q345PUF7"
+  },
+  "💡 Data Philosophy/Signal Purification": {
+    "key": "Q345PUF7",
+    "parent": "SXP3UPJG"
+  },
+  "📚 Processes/Soil Moisture, Hazards/Drought/Flash Drought, Methodology/Remote Sensing/Retrieval": {
+    "key": "2TXGNUF9",
+    "parent": "9KJAIBJ3"
+  },
+  "📚 Processes/Soil Moisture, Hazards/Drought/Flash Drought, Methodology/Remote Sensing": {
+    "key": "9KJAIBJ3",
+    "parent": "2V5FKXDB"
+  },
+  "📚 Processes/Soil Moisture, Hazards/Drought/Flash Drought, Methodology": {
+    "key": "2V5FKXDB",
+    "parent": "ZIT2E4KK"
+  },
+  "📚 Processes/Soil Moisture, Hazards/Drought": {
+    "key": "ZIT2E4KK",
+    "parent": "E8RK2MAR"
+  },
+  "📚 Processes/Soil Moisture, Hazards": {
+    "key": "E8RK2MAR",
+    "parent": "BDRXTMKD"
+  },
+  "📚 Processes": {
+    "key": "BDRXTMKD",
+    "parent": null
+  },
+  "💡 Dynamics/Tipping Points, Mechanism/Feedback Loops & Cascades": {
+    "key": "Q3ZWTBWB",
+    "parent": "2XKS7WAX"
+  },
+  "💡 Dynamics": {
+    "key": "KFKIKSQN",
+    "parent": null
+  },
+  "💡 Dynamics/Tipping Points, Mechanism": {
+    "key": "2XKS7WAX",
+    "parent": "KFKIKSQN"
+  },
+  "📚 Hazards/Heatwaves & Extremes, Applications/Climate Change Impact": {
+    "key": "6UNZ4H3K",
+    "parent": "4E5AAJZ6"
+  },
+  "📚 Hazards": {
+    "key": "NPE5AZCQ",
+    "parent": null
+  },
+  "📚 Hazards/Heatwaves & Extremes, Applications": {
+    "key": "4E5AAJZ6",
+    "parent": "NPE5AZCQ"
+  },
+  "💡 Data Philosophy": {
+    "key": "SXP3UPJG",
+    "parent": null
+  },
+  "💡 Data Philosophy/Multi-Source Integration, Dynamics/Rapid Onset Events": {
+    "key": "RQ9X3FK6",
+    "parent": "N55T9SJ8"
+  },
+  "💡 Data Philosophy/Multi-Source Integration, Dynamics": {
+    "key": "N55T9SJ8",
+    "parent": "SXP3UPJG"
+  },
+  "📚 Methodology/Remote Sensing/Retrieval, Processes/Runoff & Streamflow": {
+    "key": "FRIZMFKV",
+    "parent": "5Q3UQ388"
+  },
+  "📚 Methodology/Remote Sensing/Retrieval, Processes": {
+    "key": "5Q3UQ388",
+    "parent": "ZZGCQX39"
+  },
+  "📚 Methodology/Remote Sensing": {
+    "key": "ZZGCQX39",
+    "parent": "JX55ZJWI"
+  },
+  "📚 Methodology": {
+    "key": "JX55ZJWI",
+    "parent": null
+  },
+  "💡 Idea Lab/Dynamics/Non-linearity & Complexity/Dynamics/Rapid Onset Events": {
+    "key": "UAK5JSP4",
+    "parent": "SW75TNJ7"
+  },
+  "💡 Idea Lab/Dynamics/Non-linearity & Complexity/Dynamics": {
+    "key": "SW75TNJ7",
+    "parent": "ZDWK2CA8"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow/Hazards/Drought/Methodology/Statistical Methods": {
+    "key": "TJVSNPE3",
+    "parent": "TNDVGRMZ"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow/Hazards/Drought/Methodology": {
+    "key": "TNDVGRMZ",
+    "parent": "I5335UZN"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow/Hazards/Drought": {
+    "key": "I5335UZN",
+    "parent": "CT5BIA7S"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow/Hazards": {
+    "key": "CT5BIA7S",
+    "parent": "JI8T4PMP"
+  },
+  "📚 Archive/Processes/Runoff & Streamflow": {
+    "key": "JI8T4PMP",
+    "parent": "RWJI5QMT"
+  },
+  "💡 Idea Lab/Mechanism/Land-Atmosphere Coupling/Coupling/Vegetation-Water Interaction": {
+    "key": "QUQR4W3D",
+    "parent": "8E9MMXBV"
+  },
+  "💡 Idea Lab/Mechanism/Land-Atmosphere Coupling/Coupling": {
+    "key": "8E9MMXBV",
+    "parent": "4QACSNFX"
+  },
+  "📚 Archive/Processes/Soil Moisture/Runoff & Streamflow/Hazards/Drought/Applications/Water Resources Management": {
+    "key": "RUF7SH9A",
+    "parent": "VND9V2I4"
+  },
+  "📚 Archive/Processes/Soil Moisture/Runoff & Streamflow/Hazards/Drought/Applications": {
+    "key": "VND9V2I4",
+    "parent": "HZ929AMH"
+  },
+  "📚 Archive/Processes/Soil Moisture/Runoff & Streamflow/Hazards/Drought": {
+    "key": "HZ929AMH",
+    "parent": "ZNXPZZDK"
+  },
+  "📚 Archive/Processes/Soil Moisture/Runoff & Streamflow/Hazards": {
+    "key": "ZNXPZZDK",
+    "parent": "NPJMDGHR"
+  },
+  "📚 Archive/Processes/Soil Moisture/Runoff & Streamflow": {
+    "key": "NPJMDGHR",
+    "parent": "AAP97FGR"
+  },
+  "📚 Archive/Processes/Soil Moisture": {
+    "key": "AAP97FGR",
+    "parent": "RWJI5QMT"
+  },
+  "📚 Archive/Processes/Evapotranspiration/Remote Sensing/Data Fusion": {
+    "key": "I4ZSWNTI",
+    "parent": "UQZ7WACE"
+  },
+  "📚 Archive/Processes/Evapotranspiration/Remote Sensing": {
+    "key": "UQZ7WACE",
+    "parent": "PGBKJTGD"
+  },
+  "📚 Archive/Processes/Evapotranspiration": {
+    "key": "PGBKJTGD",
+    "parent": "RWJI5QMT"
+  },
+  "💡 Idea Lab/Dynamics/Non-linearity & Complexity": {
+    "key": "ZDWK2CA8",
+    "parent": "A28953HD"
+  },
+  "📚 Archive/Hazards/Flood": {
+    "key": "2C7EZ5D8",
+    "parent": "54GAXFTP"
+  },
+  "💡 Idea Lab/Data Philosophy/Signal Purification/Data Quality & Validation": {
+    "key": "5UVJ9JAA",
+    "parent": "VAJ3N9FS"
+  },
+  "📚 Archive/Methodology/Statistical Methods": {
+    "key": "F2RC5GX4",
+    "parent": "6ANKUU52"
+  },
+  "💡 Idea Lab/Dynamics/Rapid Onset Events": {
+    "key": "JVFKSWMZ",
+    "parent": "A28953HD"
+  },
+  "📚 Archive/Hazards/Drought/Flash Drought": {
+    "key": "MUC83KZD",
+    "parent": "BJEK8TK4"
+  },
+  "📚 Archive/Hazards/Drought": {
+    "key": "BJEK8TK4",
+    "parent": "54GAXFTP"
+  },
+  "💡 Idea Lab/Data Philosophy/Signal Purification/Uncertainty": {
+    "key": "TBGTKQXC",
+    "parent": "VAJ3N9FS"
+  },
+  "💡 Idea Lab/Data Philosophy/Signal Purification": {
+    "key": "VAJ3N9FS",
+    "parent": "VN2WBB57"
+  },
+  "📚 Archive/Processes/Groundwater": {
+    "key": "9E8V9NS8",
+    "parent": "RWJI5QMT"
+  },
+  "📚 Archive/Processes": {
+    "key": "RWJI5QMT",
+    "parent": "F4WDPCN8"
+  },
+  "💡 Idea Lab/Mechanism/Land-Atmosphere Coupling": {
+    "key": "4QACSNFX",
+    "parent": "TMSHENQJ"
+  },
+  "💡 Idea Lab/Mechanism": {
+    "key": "TMSHENQJ",
+    "parent": "SWTSEIVU"
+  },
+  "📚 Archive/Applications/Agricultural Systems": {
+    "key": "6KSITKX2",
+    "parent": "FGDGQEU7"
+  },
+  "📚 Archive/Applications": {
+    "key": "FGDGQEU7",
+    "parent": "F4WDPCN8"
+  },
+  "💡 Idea Lab/Data Philosophy/Multi-Source Integration": {
+    "key": "4UUASTXU",
+    "parent": "VN2WBB57"
+  },
+  "💡 Idea Lab/Dynamics/Tipping Points": {
+    "key": "NJAGKAP2",
+    "parent": "A28953HD"
+  },
+  "💡 Idea Lab/Dynamics": {
+    "key": "A28953HD",
+    "parent": "SWTSEIVU"
+  },
+  "📚 Archive/Hazards/Heatwaves & Extremes": {
+    "key": "ZKDE8XIG",
+    "parent": "54GAXFTP"
+  },
+  "📚 Archive/Hazards": {
+    "key": "54GAXFTP",
+    "parent": "F4WDPCN8"
+  },
+  "💡 Idea Lab/Data Philosophy/Data Quality & Validation": {
+    "key": "79KBQP9H",
+    "parent": "VN2WBB57"
+  },
+  "💡 Idea Lab": {
+    "key": "SWTSEIVU",
+    "parent": null
+  },
+  "💡 Idea Lab/Data Philosophy": {
+    "key": "VN2WBB57",
+    "parent": "SWTSEIVU"
+  },
+  "📚 Archive/Methodology/Remote Sensing/Retrieval": {
+    "key": "CJEKP2S6",
+    "parent": "EDEG6ZQT"
+  },
+  "📚 Archive/Methodology/Remote Sensing": {
+    "key": "EDEG6ZQT",
+    "parent": "6ANKUU52"
+  },
+  "📚 Archive": {
+    "key": "F4WDPCN8",
+    "parent": null
+  },
+  "📚 Archive/Methodology": {
+    "key": "6ANKUU52",
+    "parent": "F4WDPCN8"
+  },
+  "0-New/test": {
+    "key": "XJU98ZSX",
+    "parent": "V445FAGE"
+  },
+  "0-New/download": {
+    "key": "NENHD8F3",
+    "parent": "V445FAGE"
+  },
+  "0-New/temp": {
+    "key": "89KFH88C",
+    "parent": "V445FAGE"
+  },
+  "0-New": {
+    "key": "V445FAGE",
+    "parent": null
+  },
+  "Hydroclimate Volatility": {
+    "key": "G5PYSE8X",
+    "parent": null
+  },
+  "Atmos/Weather/CO2": {
+    "key": "GMTXZKE9",
+    "parent": "QMWCV77Q"
+  },
+  "Catchment/Memory": {
+    "key": "KHZDY8G2",
+    "parent": "VF8H8ZGN"
+  },
+  "0 Fast Precise Ruthless/GEE-ET": {
+    "key": "LXSR5GIN",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless/Asymmetric": {
+    "key": "VGS9Y4LK",
+    "parent": "5C8GT9JW"
+  },
+  "1 Evaporation/Estimation/Ensemble": {
+    "key": "PG8YLFJJ",
+    "parent": "J7U3H3V4"
+  },
+  "AI for Hydrology": {
+    "key": "GLREAUT9",
+    "parent": null
+  },
+  "0 Fast Precise Ruthless/ET-Diurnal": {
+    "key": "TLLDPA9A",
+    "parent": "5C8GT9JW"
+  },
+  "Snow/Snowfall": {
+    "key": "2BD9ZVNX",
+    "parent": "REA9L8U7"
+  },
+  "5 Runoff/Streamflow/Flood/Finance": {
+    "key": "FN5QXJ3H",
+    "parent": "R6BT5EUG"
+  },
+  "1 Evaporation/Observation/EnergyClosure": {
+    "key": "HKRJNM5U",
+    "parent": "LPJFHGSP"
+  },
+  "0 Fast Precise Ruthless/ETeva components/value/trend/Interception": {
+    "key": "LQZW8HK3",
+    "parent": "4RQEKKYX"
+  },
+  "0 Idea Bank/Continental ET": {
+    "key": "MR6NUM5B",
+    "parent": "L4VC7T8Q"
+  },
+  "1 Evaporation/SEBAL": {
+    "key": "MERSCUK3",
+    "parent": "HJRMBEVG"
+  },
+  "0 Fast Precise Ruthless/Eva-PET-AET/PET/Method": {
+    "key": "B952G7CL",
+    "parent": "Z22SJ4MG"
+  },
+  "1 Evaporation/SWAT": {
+    "key": "X376FUEP",
+    "parent": "HJRMBEVG"
+  },
+  "3 Urban Hydrology/Drought": {
+    "key": "DMWS3ASI",
+    "parent": "QWHFIHIK"
+  },
+  "0 Fast Precise Ruthless/China-Runoff-Data/Baseflow": {
+    "key": "2LZUUDNI",
+    "parent": "WSGUUZ7N"
+  },
+  "5 Runoff/Streamflow/AI": {
+    "key": "QLCVI2XQ",
+    "parent": "SJ7MVDZG"
+  },
+  "5 Runoff/Streamflow/Simulation": {
+    "key": "FJRWI96B",
+    "parent": "SJ7MVDZG"
+  },
+  "0 1-Read": {
+    "key": "9CMP4WKW",
+    "parent": null
+  },
+  "1 Evaporation/Observation/JapanFLUXNET": {
+    "key": "EA4CFSWW",
+    "parent": "LPJFHGSP"
+  },
+  "0 Fast Precise Ruthless/P-E/Veg/Continental/Catchment": {
+    "key": "YPNDGEB7",
+    "parent": "VEA6BGFW"
+  },
+  "1 Evaporation/Continental": {
+    "key": "7A2LZJC6",
+    "parent": "HJRMBEVG"
+  },
+  "Vegetation/NPP": {
+    "key": "A6IHNZUS",
+    "parent": "93D5GR8A"
+  },
+  "4 Drought/PDSI": {
+    "key": "KV2GJZEI",
+    "parent": "2HDA3NDX"
+  },
+  "1 Evaporation/EF fraction": {
+    "key": "S7EG7EIS",
+    "parent": "HJRMBEVG"
+  },
+  "0 Fast Precise Ruthless/ETeva components/value/trend/Seasonality/Annual": {
+    "key": "4ZHI5DSQ",
+    "parent": "4RQEKKYX"
+  },
+  "0 Fast Precise Ruthless/China-Runoff-Data/NS seasonality/attribution": {
+    "key": "PG9HK627",
+    "parent": "WSGUUZ7N"
+  },
+  "5 Runoff/Streamflow/Dataset": {
+    "key": "UWSDM8UY",
+    "parent": "SJ7MVDZG"
+  },
+  "0 Fast Precise Ruthless/P-R-Seasonality/dataset": {
+    "key": "TNGVSEDG",
+    "parent": "RYYPCIDL"
+  },
+  "5 Runoff/Streamflow/Near-surface Runoff": {
+    "key": "8U4X5QDN",
+    "parent": "SJ7MVDZG"
+  },
+  "Catchment/Dataset": {
+    "key": "87WX5UP6",
+    "parent": "VF8H8ZGN"
+  },
+  "3 Urban Hydrology/Flood": {
+    "key": "54QE2WAZ",
+    "parent": "QWHFIHIK"
+  },
+  "Catchment/Groundwater/NCP": {
+    "key": "HPBHZE38",
+    "parent": "G6EM6B8D"
+  },
+  "1 Evaporation/Interception": {
+    "key": "6Q25MRE3",
+    "parent": "HJRMBEVG"
+  },
+  "4 Drought/3D Event": {
+    "key": "R4DAK4SU",
+    "parent": "2HDA3NDX"
+  },
+  "0 Fast Precise Ruthless/ETeva components/value/trend/Soil evaporation": {
+    "key": "YKQJCHBZ",
+    "parent": "4RQEKKYX"
+  },
+  "1 Evaporation/Estimation/FY-satellite": {
+    "key": "BVX5NC2V",
+    "parent": "J7U3H3V4"
+  },
+  "4 Drought/Drought–Flood Alternation": {
+    "key": "6UQ2NCW7",
+    "parent": "2HDA3NDX"
+  },
+  "5 Runoff/Streamflow/Flood/Peak": {
+    "key": "KWTI72EP",
+    "parent": "R6BT5EUG"
+  },
+  "1 Evaporation/Shuttleworth-Wallace": {
+    "key": "26XN5QFN",
+    "parent": "HJRMBEVG"
+  },
+  "4 Drought/Lake Drought": {
+    "key": "282EY9UC",
+    "parent": "2HDA3NDX"
+  },
+  "0 Fast Precise Ruthless/ETeva components/value/trend/Attribute": {
+    "key": "XY9CPSK9",
+    "parent": "4RQEKKYX"
+  },
+  "Catchment/Eco-evolutionary optimality": {
+    "key": "893XR5RU",
+    "parent": "VF8H8ZGN"
+  },
+  "Precipitation/Urban": {
+    "key": "H5ZI7FSX",
+    "parent": "IZTHJEES"
+  },
+  "4 Drought/Dataset": {
+    "key": "TEFGYCLW",
+    "parent": "2HDA3NDX"
+  },
+  "Hydro-Model/PCRGLOBAL": {
+    "key": "8YLCD2WJ",
+    "parent": "AWHLZAQR"
+  },
+  "Catchment/GRACE": {
+    "key": "Q5ZSH47A",
+    "parent": "VF8H8ZGN"
+  },
+  "Vegetation/Tree Cover": {
+    "key": "ND2KTNVJ",
+    "parent": "93D5GR8A"
+  },
+  "0 Fast Precise Ruthless/Urban-ET/related data": {
+    "key": "N7PBUNZJ",
+    "parent": "U9X7ZNQT"
+  },
+  "0 Fast Precise Ruthless/Coastal Line ET problem": {
+    "key": "R4K2GGAW",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless/ETeva components/value/trend/dataset": {
+    "key": "BPAFQTFB",
+    "parent": "4RQEKKYX"
+  },
+  "5 Runoff/Streamflow/Leeve": {
+    "key": "UYTPNRY6",
+    "parent": "SJ7MVDZG"
+  },
+  "Hydro-Model/0 Perspective Concept Review": {
+    "key": "IJRVP6W2",
+    "parent": "AWHLZAQR"
+  },
+  "0 Fast Precise Ruthless/Extreme ET": {
+    "key": "C8QV2KN7",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless/天马行空": {
+    "key": "577WRILM",
+    "parent": "5C8GT9JW"
+  },
+  "0 Idea Bank/Wind Water Energy": {
+    "key": "V92QH75I",
+    "parent": "L4VC7T8Q"
+  },
+  "0 Idea Bank/GHI-lateral water supply": {
+    "key": "5KKM9VNG",
+    "parent": "L4VC7T8Q"
+  },
+  "0 Fast Precise Ruthless/IMERG-NCP-heavy rain-GEE": {
+    "key": "PHBQYABU",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless/Urban-ET/AGU2025": {
+    "key": "TQUBX7P5",
+    "parent": "U9X7ZNQT"
+  },
+  "0 Fast Precise Ruthless/Potential Transpiration": {
+    "key": "AH6VWYZ8",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless/AmeriFLUX-20yrs-T-partition": {
+    "key": "7LYFDGTJ",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless/P-R-Seasonality": {
+    "key": "RYYPCIDL",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless/本子-UrbanET-30m": {
+    "key": "CZR9MC95",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless/LAI problem": {
+    "key": "LSCKTCH8",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless/Urban-ET": {
+    "key": "U9X7ZNQT",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless/WB-Return Period": {
+    "key": "XVKE8JM8",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless/WB-ET": {
+    "key": "AYKMJT2B",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless/AED-Drought-Dryland": {
+    "key": "YGY2JVG6",
+    "parent": "5C8GT9JW"
+  },
+  "1 Evaporation/0 Perspective": {
+    "key": "B59WZ3KE",
+    "parent": "HJRMBEVG"
+  },
+  "2 Water Cycle/Pre-ET": {
+    "key": "35WU8RNL",
+    "parent": "HSPVSRD6"
+  },
+  "2 Water Cycle": {
+    "key": "HSPVSRD6",
+    "parent": null
+  },
+  "4 Drought/0 Perspective Read": {
+    "key": "LDAM74J3",
+    "parent": "2HDA3NDX"
+  },
+  "3 Urban Hydrology/ERRA": {
+    "key": "8M4AK6F9",
+    "parent": "QWHFIHIK"
+  },
+  "0 Fast Precise Ruthless/T/ET T-self historical": {
+    "key": "7XE86PC9",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless": {
+    "key": "5C8GT9JW",
+    "parent": null
+  },
+  "3 Urban Hydrology/PRE": {
+    "key": "F6FJQY66",
+    "parent": "QWHFIHIK"
+  },
+  "5 Runoff/Streamflow/C3WE": {
+    "key": "V7V8QY9Q",
+    "parent": "SJ7MVDZG"
+  },
+  "5 Runoff/Streamflow/0 SWOT": {
+    "key": "IMWNQEJ2",
+    "parent": "SJ7MVDZG"
+  },
+  "3 Urban Hydrology": {
+    "key": "QWHFIHIK",
+    "parent": null
+  },
+  "3 Urban Hydrology/ET/Ge Sun USDA": {
+    "key": "YW3NFKLY",
+    "parent": "GDVF759Q"
+  },
+  "3 Urban Hydrology/ET/Huang/Chen TJU NKU": {
+    "key": "V5GVJLP2",
+    "parent": "GDVF759Q"
+  },
+  "3 Urban Hydrology/ET/Group Qiu": {
+    "key": "I4LQMSQP",
+    "parent": "GDVF759Q"
+  },
+  "3 Urban Hydrology/ET/German Group": {
+    "key": "UBW2EZWQ",
+    "parent": "GDVF759Q"
+  },
+  "3 Urban Hydrology/ET": {
+    "key": "GDVF759Q",
+    "parent": "QWHFIHIK"
+  },
+  "0 Idea Bank/0ErrorLearning-ET": {
+    "key": "9MVJDFB5",
+    "parent": "L4VC7T8Q"
+  },
+  "0 Fast Precise Ruthless/ECO eva": {
+    "key": "I7KBLURU",
+    "parent": "5C8GT9JW"
+  },
+  "0 Idea Bank/0Learning-from-mistake": {
+    "key": "33CGACVB",
+    "parent": "L4VC7T8Q"
+  },
+  "3 Urban Hydrology/ET/Urban Area": {
+    "key": "IE5SB9D7",
+    "parent": "GDVF759Q"
+  },
+  "0 Idea Bank/Fusion-satellite-high resolution ET": {
+    "key": "85G24GMM",
+    "parent": "L4VC7T8Q"
+  },
+  "0 Fast Precise Ruthless/P-E/Veg/P-E-change ratio": {
+    "key": "TKNUZHSG",
+    "parent": "VEA6BGFW"
+  },
+  "0 Idea Bank/SIF-Uncertainty": {
+    "key": "CUD6YTID",
+    "parent": "L4VC7T8Q"
+  },
+  "0 Fast Precise Ruthless/Ocean-ET": {
+    "key": "7UHDE99K",
+    "parent": "5C8GT9JW"
+  },
+  "0 Idea Bank/SM/VPD-Veg-DDWW": {
+    "key": "S8WMCKJZ",
+    "parent": "L4VC7T8Q"
+  },
+  "0 Idea Bank/CAMELE-Update": {
+    "key": "6AMW6T2Q",
+    "parent": "L4VC7T8Q"
+  },
+  "0 Fast Precise Ruthless/RZEM-TC-Fusion-Global": {
+    "key": "KV4MLKG2",
+    "parent": "5C8GT9JW"
+  },
+  "0 Idea Bank/Water year": {
+    "key": "KBYKKM2Z",
+    "parent": "L4VC7T8Q"
+  },
+  "1 Evaporation/Moisture Cycle": {
+    "key": "63NQED4B",
+    "parent": "HJRMBEVG"
+  },
+  "4 Drought/Dryland/Aridity Index": {
+    "key": "4CCHQ7D9",
+    "parent": "SW5MKRWZ"
+  },
+  "Energy/Radiation/Review": {
+    "key": "PQPYV646",
+    "parent": "9MGPEWZG"
+  },
+  "5 Runoff/Streamflow/Baseflow-Groundwater": {
+    "key": "3FZ4Y3F7",
+    "parent": "SJ7MVDZG"
+  },
+  "0 Fast Precise Ruthless/China-Runoff-Data": {
+    "key": "WSGUUZ7N",
+    "parent": "5C8GT9JW"
+  },
+  "1 Evaporation/Estimation/Two Source TSEB": {
+    "key": "I3F64RFJ",
+    "parent": "J7U3H3V4"
+  },
+  "0 Idea Bank/VOD-TC": {
+    "key": "BCVV75RN",
+    "parent": "L4VC7T8Q"
+  },
+  "Temperature/Extreme": {
+    "key": "5W97I6JX",
+    "parent": "5SDTI8SI"
+  },
+  "Precipitation/PMP": {
+    "key": "FKWH9SHF",
+    "parent": "IZTHJEES"
+  },
+  "1 Evaporation/Transpiration/Estimation": {
+    "key": "GHWXDNA5",
+    "parent": "3VL73RVP"
+  },
+  "Hydro-Model/VIC": {
+    "key": "P3GXJRLN",
+    "parent": "AWHLZAQR"
+  },
+  "Atmos/Weather/Extreme Weather": {
+    "key": "RA28JVH6",
+    "parent": "QMWCV77Q"
+  },
+  "5 Runoff/Streamflow/Flood/FEWS：Flood Early Warning System": {
+    "key": "28TBRALS",
+    "parent": "R6BT5EUG"
+  },
+  "4 Drought/Mega Drought": {
+    "key": "QSWJKLCX",
+    "parent": "2HDA3NDX"
+  },
+  "Precipitation/Extreme/Future": {
+    "key": "3XZH9LU6",
+    "parent": "TJ3NEI9R"
+  },
+  "Anthropogenic/Urbanization/Precipitation": {
+    "key": "Z7SI824B",
+    "parent": "RW65XCHC"
+  },
+  "1 Evaporation/Estimation/Energy": {
+    "key": "B7GUXGIE",
+    "parent": "J7U3H3V4"
+  },
+  "Atmos/Weather/Monsoon": {
+    "key": "QPJC483A",
+    "parent": "QMWCV77Q"
+  },
+  "Precipitation/Human": {
+    "key": "QE3IX6R5",
+    "parent": "IZTHJEES"
+  },
+  "4 Drought/Meteorological Drought/SPEI": {
+    "key": "3C7QK7V6",
+    "parent": "YLELLDKH"
+  },
+  "4 Drought/Agriculture Drought/Index": {
+    "key": "33H5GTG7",
+    "parent": "H7DUZVBJ"
+  },
+  "Precipitation/Concept/Review": {
+    "key": "7G64NTY7",
+    "parent": "IZTHJEES"
+  },
+  "4 Drought/Compound-Event/Detection": {
+    "key": "DXTR3THT",
+    "parent": "DDLC3NSK"
+  },
+  "5 Runoff/Streamflow/Ephemeral/Seasonal stream": {
+    "key": "ZL42TTKP",
+    "parent": "SJ7MVDZG"
+  },
+  "1 Evaporation/Estimation/GLEAM": {
+    "key": "HDHY4CHC",
+    "parent": "J7U3H3V4"
+  },
+  "Vegetation/Photosynthesis/NEE": {
+    "key": "GH2SWWF4",
+    "parent": "4XSVZ4XS"
+  },
+  "Vegetation/Productivity/NPP": {
+    "key": "3KI8APNM",
+    "parent": "GIPP6BR7"
+  },
+  "5 Runoff/Streamflow/Elasticity": {
+    "key": "6UBB7AG8",
+    "parent": "SJ7MVDZG"
+  },
+  "Catchment/Budyko/GPP": {
+    "key": "75TSWH8P",
+    "parent": "65Z2LJLH"
+  },
+  "Soil/Soil Temperature": {
+    "key": "VBCUEUAH",
+    "parent": "JR3TGHQE"
+  },
+  "Temperature/diurnal temperature range": {
+    "key": "WZK6MXTQ",
+    "parent": "5SDTI8SI"
+  },
+  "Collocated Analysis/Temperature": {
+    "key": "8TIPAI4S",
+    "parent": "CXP3YLSB"
+  },
+  "1 Evaporation/Estimation/AI-ML": {
+    "key": "WRAHS2N7",
+    "parent": "J7U3H3V4"
+  },
+  "Catchment/Connectivity": {
+    "key": "2YRVPJPK",
+    "parent": "VF8H8ZGN"
+  },
+  "1 Evaporation/PET/Evaluation": {
+    "key": "RKL9KTDW",
+    "parent": "5SQM9K89"
+  },
+  "Soil/SoilMoisture/Attribution/Trend": {
+    "key": "BAMBVQS8",
+    "parent": "ISXIUCHE"
+  },
+  "0 Idea Bank/Global_ET_spatial/temporal_trend": {
+    "key": "SD84YJ98",
+    "parent": "L4VC7T8Q"
+  },
+  "1 Evaporation/Veg-Impact": {
+    "key": "HXUUH3GI",
+    "parent": "HJRMBEVG"
+  },
+  "5 Runoff/Streamflow/Flood/Flash Flood": {
+    "key": "WJ4ZAWHP",
+    "parent": "R6BT5EUG"
+  },
+  "0 Fast Precise Ruthless/RPR-Moisture-Cycle": {
+    "key": "D3M7CVRF",
+    "parent": "5C8GT9JW"
+  },
+  "Precipitation/Recycling Precipitation Ratio": {
+    "key": "DA57X5YW",
+    "parent": "IZTHJEES"
+  },
+  "4 Drought/Soil Drought": {
+    "key": "6H93ZASG",
+    "parent": "2HDA3NDX"
+  },
+  "1 Evaporation/Estimation/Using SIF": {
+    "key": "TZUASX56",
+    "parent": "J7U3H3V4"
+  },
+  "4 Drought/Compound-Event/Attribution/Trend": {
+    "key": "CSXGZHVG",
+    "parent": "DDLC3NSK"
+  },
+  "4 Drought/Flash Drought/ESI": {
+    "key": "G9RVAUBD",
+    "parent": "ZHMGUE4A"
+  },
+  "1 Evaporation/ESI-AET/PET": {
+    "key": "3WHRMU9D",
+    "parent": "HJRMBEVG"
+  },
+  "4 Drought/Ecological Drought": {
+    "key": "KH36FXKW",
+    "parent": "2HDA3NDX"
+  },
+  "4 Drought/Pair": {
+    "key": "L6BLCSVU",
+    "parent": "2HDA3NDX"
+  },
+  "Vegetation/Productivity/GPP/To SoilMoisture": {
+    "key": "48I8MN54",
+    "parent": "ZCDL9DS8"
+  },
+  "Vegetation/Photosynthesis/Peak": {
+    "key": "KIXNAK5C",
+    "parent": "4XSVZ4XS"
+  },
+  "Vegetation/Drought Response": {
+    "key": "28QY6BZI",
+    "parent": "93D5GR8A"
+  },
+  "Vegetation/Photosynthesis/fPAR": {
+    "key": "WIA7L5N4",
+    "parent": "4XSVZ4XS"
+  },
+  "Atmos/Weather/Observation": {
+    "key": "QAUZF2ZL",
+    "parent": "QMWCV77Q"
+  },
+  "Soil/SoilMoisture/SM-Atmos/SM-VPD": {
+    "key": "3XX6LGAC",
+    "parent": "L6E6YR82"
+  },
+  "4 Drought/Compound-Event/Hot+Dry": {
+    "key": "SMDPSF5P",
+    "parent": "DDLC3NSK"
+  },
+  "Anthropogenic/Runoff": {
+    "key": "P68ZEHAW",
+    "parent": "QVJZMWTB"
+  },
+  "Terrestrial/Carbon Cycle": {
+    "key": "7P5XHFHL",
+    "parent": "PTELM6NJ"
+  },
+  "5 Runoff/Streamflow/Veg-CO2": {
+    "key": "TGV2I2IY",
+    "parent": "SJ7MVDZG"
+  },
+  "5 Runoff/Streamflow/Flood/Estimation/Modeling/Forecast/Projection": {
+    "key": "6TWE8RJV",
+    "parent": "R6BT5EUG"
+  },
+  "Collocated Analysis/SeaSurfaceSalinity": {
+    "key": "27KBD4WE",
+    "parent": "CXP3YLSB"
+  },
+  "4 Drought/Meteorological Drought/Trend/Attribution": {
+    "key": "S4872ME6",
+    "parent": "YLELLDKH"
+  },
+  "1 Evaporation/PET/Trend/Attribution": {
+    "key": "6S83DJJC",
+    "parent": "5SQM9K89"
+  },
+  "0 Idea Bank/Terrestrial Moisutre Recycle": {
+    "key": "W7E2YMKZ",
+    "parent": "L4VC7T8Q"
+  },
+  "Terrestrial/Moisture Cycle": {
+    "key": "UDUSLG9K",
+    "parent": "PTELM6NJ"
+  },
+  "Terrestrial": {
+    "key": "PTELM6NJ",
+    "parent": null
+  },
+  "Vegetation/Structural Overshoot": {
+    "key": "2FAQV7AV",
+    "parent": "93D5GR8A"
+  },
+  "Catchment/Groundwater/To Rainfall": {
+    "key": "JHR3XEAS",
+    "parent": "G6EM6B8D"
+  },
+  "Catchment/Groundwater/Aquifer": {
+    "key": "YR9Q2REX",
+    "parent": "G6EM6B8D"
+  },
+  "Catchment/Groundwater/Well": {
+    "key": "HFM9DA2I",
+    "parent": "G6EM6B8D"
+  },
+  "5 Runoff/Streamflow/New/Old Water": {
+    "key": "NJIWM978",
+    "parent": "SJ7MVDZG"
+  },
+  "Catchment/Groundwater/Trend/Attribution": {
+    "key": "63LY7IV6",
+    "parent": "G6EM6B8D"
+  },
+  "Catchment/Total Water Storage/P-TWS": {
+    "key": "LI7A3TDL",
+    "parent": "QPPFU5ES"
+  },
+  "Catchment/Groundwater/Model": {
+    "key": "LWJ9C4JZ",
+    "parent": "G6EM6B8D"
+  },
+  "Catchment/Groundwater/Concept/Review": {
+    "key": "2PQKINBG",
+    "parent": "G6EM6B8D"
+  },
+  "Catchment/Groundwater": {
+    "key": "G6EM6B8D",
+    "parent": "VF8H8ZGN"
+  },
+  "Catchment/Groundwater/Groundwater Depletion": {
+    "key": "FDRND2YQ",
+    "parent": "G6EM6B8D"
+  },
+  "Catchment/Wetlands/Oasis": {
+    "key": "Z8VKJLFB",
+    "parent": "VF8H8ZGN"
+  },
+  "Fire/Concept/Review": {
+    "key": "MRDWSZBP",
+    "parent": "ZZHCEZWL"
+  },
+  "1 Evaporation/Partition": {
+    "key": "8NRBFQU7",
+    "parent": "HJRMBEVG"
+  },
+  "Soil/SoilMoisture/Estimation/Data/NISAR-300m": {
+    "key": "F3B4KEEA",
+    "parent": "JGLCEQ7E"
+  },
+  "Vegetation/Stomatal/Biology": {
+    "key": "7J956QPI",
+    "parent": "K69RFXZP"
+  },
+  "4 Drought/Flash Drought/Vegetation-Interact": {
+    "key": "C3UXLKXX",
+    "parent": "ZHMGUE4A"
+  },
+  "WUE/mWUE": {
+    "key": "QHKH9UP6",
+    "parent": "LGPC76TY"
+  },
+  "WUE/iWUE": {
+    "key": "MA9Y288H",
+    "parent": "LGPC76TY"
+  },
+  "Vegetation/Attribution/Trend-Greening/Energy": {
+    "key": "63BLP4SR",
+    "parent": "8I3YE6XJ"
+  },
+  "Energy/Radiation/Evaluation": {
+    "key": "QR89JFJ5",
+    "parent": "9MGPEWZG"
+  },
+  "Energy/Radiation/Plant-Interact": {
+    "key": "8G6QIU37",
+    "parent": "9MGPEWZG"
+  },
+  "Soil/Concept/Review": {
+    "key": "Z4LNA3C9",
+    "parent": "JR3TGHQE"
+  },
+  "5 Runoff/Streamflow/Runoff-SoilMoisture": {
+    "key": "9RTJ2T56",
+    "parent": "SJ7MVDZG"
+  },
+  "Collocated Analysis/Snow": {
+    "key": "6H57SSP9",
+    "parent": "CXP3YLSB"
+  },
+  "LSM-Reanalysis/CLM": {
+    "key": "7BX4BQTU",
+    "parent": "HCTWC92R"
+  },
+  "LSM-Reanalysis/Noah": {
+    "key": "SL2MXHIZ",
+    "parent": "HCTWC92R"
+  },
+  "WUE/Concept/Review": {
+    "key": "UGVWDJYP",
+    "parent": "LGPC76TY"
+  },
+  "5 Runoff/Streamflow/Flood/Concept/Review": {
+    "key": "XS4Y2XU4",
+    "parent": "R6BT5EUG"
+  },
+  "Open Water/Lake/Ice": {
+    "key": "J4AG5EGL",
+    "parent": "433CU7LP"
+  },
+  "Open Water/Lake/Data": {
+    "key": "E7LAKWXH",
+    "parent": "433CU7LP"
+  },
+  "Open Water/Water Level": {
+    "key": "RAE8BWDX",
+    "parent": "CNTWJ4NL"
+  },
+  "Catchment/Budyko/Runoff": {
+    "key": "2XE8AV5E",
+    "parent": "65Z2LJLH"
+  },
+  "Open Water": {
+    "key": "CNTWJ4NL",
+    "parent": null
+  },
+  "4 Drought/TWS/Groundwater": {
+    "key": "6AET9ICL",
+    "parent": "2HDA3NDX"
+  },
+  "Atmos/Weather/Liquid Water": {
+    "key": "8RX67FQ5",
+    "parent": "QMWCV77Q"
+  },
+  "Vegetation/Photosynthesis/SIF/Product": {
+    "key": "FQLW4I7G",
+    "parent": "5SA43IBR"
+  },
+  "Terrestrial/Albedo/Reflectance": {
+    "key": "PPN9A5FU",
+    "parent": "PTELM6NJ"
+  },
+  "1 Evaporation/PET/Product": {
+    "key": "GIX4ERFF",
+    "parent": "5SQM9K89"
+  },
+  "Snow/Runoff": {
+    "key": "DXQSLPJH",
+    "parent": "REA9L8U7"
+  },
+  "0 Idea Bank/ET/SM-Water/Energy-Regime": {
+    "key": "6LVX3ANM",
+    "parent": "L4VC7T8Q"
+  },
+  "Soil/SoilMoisture/SM-Temperature": {
+    "key": "4VLBYEQD",
+    "parent": "ISXIUCHE"
+  },
+  "Snow/Snow Drought": {
+    "key": "XVS4CVV4",
+    "parent": "REA9L8U7"
+  },
+  "Snow/Impact on Plant/Crop/Agriculture": {
+    "key": "X6P9VU97",
+    "parent": "GHCXU6LX"
+  },
+  "Snow/Impact on Plant/Crop/Phenology": {
+    "key": "RWCDRK5X",
+    "parent": "GHCXU6LX"
+  },
+  "Precipitation/Evaluation": {
+    "key": "9FPSU8NS",
+    "parent": "IZTHJEES"
+  },
+  "0 Fast Precise Ruthless/Eva-PET-AET/PET": {
+    "key": "Z22SJ4MG",
+    "parent": "5C8GT9JW"
+  },
+  "1 Evaporation/Transpiration/Partition": {
+    "key": "HRAY5UAQ",
+    "parent": "3VL73RVP"
+  },
+  "Hydro-Model/Calibration": {
+    "key": "7IUPXEVJ",
+    "parent": "AWHLZAQR"
+  },
+  "Catchment/Total Water Storage/Concept/Review": {
+    "key": "YM5QENCJ",
+    "parent": "QPPFU5ES"
+  },
+  "GCM/CMIP/ET": {
+    "key": "AFAB6ELP",
+    "parent": "I62L7F2K"
+  },
+  "Vegetation/Productivity/SIF-GPP": {
+    "key": "KKEWYNQE",
+    "parent": "GIPP6BR7"
+  },
+  "Snow/Impact on Plant/Crop": {
+    "key": "GHCXU6LX",
+    "parent": "REA9L8U7"
+  },
+  "Hydro-Model/SM": {
+    "key": "GABNUBAZ",
+    "parent": "AWHLZAQR"
+  },
+  "Precipitation/Drought": {
+    "key": "QAYHRDQT",
+    "parent": "IZTHJEES"
+  },
+  "1 Evaporation/Estimation/Tibetan Plateau": {
+    "key": "4YWF5VGA",
+    "parent": "J7U3H3V4"
+  },
+  "Collocated Analysis/TWS": {
+    "key": "I458WUPY",
+    "parent": "CXP3YLSB"
+  },
+  "1 Evaporation/Regime/Energy/Water/Energy limit": {
+    "key": "EGW5G8PK",
+    "parent": "6W2K3TND"
+  },
+  "1 Evaporation/Regime/Energy/Bowen Ratio": {
+    "key": "PV2V7CWK",
+    "parent": "6W2K3TND"
+  },
+  "5 Runoff/Streamflow/Flood/PRE": {
+    "key": "4FG27TB3",
+    "parent": "R6BT5EUG"
+  },
+  "Precipitation/Flood/Extreme-Detection": {
+    "key": "XFKFUUTF",
+    "parent": "IZTHJEES"
+  },
+  "0 Idea Bank/PRE-subDaily-Extreme/Flood": {
+    "key": "9LGHNCAI",
+    "parent": "L4VC7T8Q"
+  },
+  "Catchment/Total Water Storage/Trend/Attribution": {
+    "key": "GHVFABA8",
+    "parent": "QPPFU5ES"
+  },
+  "5 Runoff/Streamflow/Chemicals": {
+    "key": "RJ23CJ29",
+    "parent": "SJ7MVDZG"
+  },
+  "LSM-Reanalysis/Concept/Review": {
+    "key": "32RMK2EL",
+    "parent": "HCTWC92R"
+  },
+  "Catchment/Concept/Review": {
+    "key": "6MNHYD2J",
+    "parent": "VF8H8ZGN"
+  },
+  "5 Runoff/Streamflow/Flood/Frequency": {
+    "key": "QAEVVJEW",
+    "parent": "R6BT5EUG"
+  },
+  "Soil/SoilMoisture/SM-ET (stress)": {
+    "key": "AG6NEW2C",
+    "parent": "ISXIUCHE"
+  },
+  "1 Evaporation/Transpiration/Product": {
+    "key": "3DHF2MQF",
+    "parent": "3VL73RVP"
+  },
+  "Vegetation/Productivity/GPP/Concept/Review": {
+    "key": "QUR469D2",
+    "parent": "ZCDL9DS8"
+  },
+  "1 Evaporation/PET/Theory/Model": {
+    "key": "ELB3R5WY",
+    "parent": "5SQM9K89"
+  },
+  "1 Evaporation/PET/Future": {
+    "key": "D7R6JCHM",
+    "parent": "5SQM9K89"
+  },
+  "0 Fast Precise Ruthless/ERRA-Urban": {
+    "key": "BR9N9VKR",
+    "parent": "5C8GT9JW"
+  },
+  "1 Evaporation/Observation/EC-footprint": {
+    "key": "VRGV5SIW",
+    "parent": "LPJFHGSP"
+  },
+  "LSM-Reanalysis/CRU": {
+    "key": "CYWZ4AVF",
+    "parent": "HCTWC92R"
+  },
+  "1 Evaporation/Observation/FluxNet": {
+    "key": "DDFL3XQC",
+    "parent": "LPJFHGSP"
+  },
+  "1 Evaporation/Observation/SapFluxnet": {
+    "key": "2KP9XND2",
+    "parent": "LPJFHGSP"
+  },
+  "Hydro-Model/Concept/Review": {
+    "key": "J2NWE4L5",
+    "parent": "AWHLZAQR"
+  },
+  "4 Drought/Dryland/Concept/Review": {
+    "key": "7JYD8FDI",
+    "parent": "SW5MKRWZ"
+  },
+  "Catchment/Groundwater/Irrigation": {
+    "key": "JRV9R7WJ",
+    "parent": "G6EM6B8D"
+  },
+  "Vegetation/Veg Model": {
+    "key": "CIV4TFYH",
+    "parent": "93D5GR8A"
+  },
+  "4 Drought/Case Specific/2006 China": {
+    "key": "Z8KAE4X9",
+    "parent": "EBN2EJ4Z"
+  },
+  "Vegetation/Coastal": {
+    "key": "FGZWHN58",
+    "parent": "93D5GR8A"
+  },
+  "Vegetation/Water Stress/Isohydricity": {
+    "key": "JFNQXK2C",
+    "parent": "BKB5MVAP"
+  },
+  "GCM/CMIP/SM": {
+    "key": "VK95A8DN",
+    "parent": "I62L7F2K"
+  },
+  "Precipitation/Estimation/Merge": {
+    "key": "NAMJXQQM",
+    "parent": "UZJYVLBV"
+  },
+  "Vegetation/Concept/Review": {
+    "key": "GLMUH8VM",
+    "parent": "93D5GR8A"
+  },
+  "Cold/Permafrost/To Precipitation": {
+    "key": "46KXDW5M",
+    "parent": "45AFRX3A"
+  },
+  "Catchment/Budyko/ET": {
+    "key": "SIHSJ85M",
+    "parent": "65Z2LJLH"
+  },
+  "Anthropogenic/Breath": {
+    "key": "AV6T4FX8",
+    "parent": "QVJZMWTB"
+  },
+  "WUE/Estimation": {
+    "key": "VUE872ZY",
+    "parent": "LGPC76TY"
+  },
+  "1 Evaporation/SM-VPD-ET": {
+    "key": "XFDCYV6C",
+    "parent": "HJRMBEVG"
+  },
+  "1 Evaporation/WB-ET": {
+    "key": "QKSMZYJJ",
+    "parent": "HJRMBEVG"
+  },
+  "Carbon/Concept/Review": {
+    "key": "UA4PE635",
+    "parent": "ND7SY3KA"
+  },
+  "Vegetation/Water Stress/ELI": {
+    "key": "64K6GFGH",
+    "parent": "BKB5MVAP"
+  },
+  "0 Fast Precise Ruthless/ELI-Now": {
+    "key": "ZAV45ALX",
+    "parent": "5C8GT9JW"
+  },
+  "1 Evaporation/Transpiration/Attribution": {
+    "key": "2XY6H4H3",
+    "parent": "3VL73RVP"
+  },
+  "5 Runoff/Streamflow/Concept/Review": {
+    "key": "4BTM4UNI",
+    "parent": "SJ7MVDZG"
+  },
+  "Collocated Analysis/Wind": {
+    "key": "TD72LAZF",
+    "parent": "CXP3YLSB"
+  },
+  "0 Idea Bank/Collocation-update": {
+    "key": "3RHBAXYN",
+    "parent": "L4VC7T8Q"
+  },
+  "Hydro-Model/Anthropogenic": {
+    "key": "K2AC4I6S",
+    "parent": "AWHLZAQR"
+  },
+  "Vegetation/Water Stress/VWC": {
+    "key": "A8KRC7PM",
+    "parent": "BKB5MVAP"
+  },
+  "4 Drought/Concept/Review": {
+    "key": "57XEQ46F",
+    "parent": "2HDA3NDX"
+  },
+  "Anthropogenic/Groundwater": {
+    "key": "7R9UTIYI",
+    "parent": "QVJZMWTB"
+  },
+  "LSM-Reanalysis/CLDAS": {
+    "key": "2MLEKRCK",
+    "parent": "HCTWC92R"
+  },
+  "1 Evaporation/Atmosphere": {
+    "key": "QQLEE74V",
+    "parent": "HJRMBEVG"
+  },
+  "1 Evaporation/Segment/T-ET": {
+    "key": "KHSEQSDY",
+    "parent": "BEVL3XJJ"
+  },
+  "Atmos/Weather/Atmospheric rivers": {
+    "key": "DKD7TCGB",
+    "parent": "QMWCV77Q"
+  },
+  "Anthropogenic/Aerosols": {
+    "key": "B9A5J9TG",
+    "parent": "QVJZMWTB"
+  },
+  "4 Drought/Flash Drought/Detection": {
+    "key": "VABMZ29Z",
+    "parent": "ZHMGUE4A"
+  },
+  "Atmos/Weather/VPD": {
+    "key": "R6FPR5IC",
+    "parent": "QMWCV77Q"
+  },
+  "Cold/Permafrost/To Runoff": {
+    "key": "WFYLWFP2",
+    "parent": "45AFRX3A"
+  },
+  "Precipitation/Estimation/Regional": {
+    "key": "9D5G4QV2",
+    "parent": "UZJYVLBV"
+  },
+  "Vegetation/Crop/Irrigation": {
+    "key": "IIQS9TFT",
+    "parent": "93D5GR8A"
+  },
+  "4 Drought/Future": {
+    "key": "L23YK6C7",
+    "parent": "2HDA3NDX"
+  },
+  "Collocated Analysis/TCH": {
+    "key": "KJ3FF92H",
+    "parent": "CXP3YLSB"
+  },
+  "WUE/Future": {
+    "key": "GLPIIK6X",
+    "parent": "LGPC76TY"
+  },
+  "1 Evaporation/Atmosphere/Atmos-Available Water": {
+    "key": "MMLKTCDI",
+    "parent": "QQLEE74V"
+  },
+  "1 Evaporation/Atmosphere/ABL": {
+    "key": "HJCRU8NL",
+    "parent": "QQLEE74V"
+  },
+  "Anthropogenic/Urbanization/ET": {
+    "key": "L4AKHW3H",
+    "parent": "RW65XCHC"
+  },
+  "Catchment/Regime": {
+    "key": "J9JCAS6M",
+    "parent": "VF8H8ZGN"
+  },
+  "4 Drought/Meteorological Drought/Index": {
+    "key": "R9DDGTG6",
+    "parent": "YLELLDKH"
+  },
+  "GCM/CMIP/Precipitation": {
+    "key": "MIMQELK8",
+    "parent": "I62L7F2K"
+  },
+  "Anthropogenic/Water Withdrawal": {
+    "key": "TLJVQZI7",
+    "parent": "QVJZMWTB"
+  },
+  "Vegetation/Productivity/AGB": {
+    "key": "MP55FPUT",
+    "parent": "GIPP6BR7"
+  },
+  "Soil/SoilMoisture/Observation": {
+    "key": "NGUSF6RU",
+    "parent": "ISXIUCHE"
+  },
+  "Catchment/Groundwater/Recharge": {
+    "key": "QIY7RSYK",
+    "parent": "G6EM6B8D"
+  },
+  "0 Idea Bank/AI-Explain": {
+    "key": "L6TXXQ6B",
+    "parent": "L4VC7T8Q"
+  },
+  "0 Idea Bank/WUE Global Green Blue": {
+    "key": "27PFDJNM",
+    "parent": "L4VC7T8Q"
+  },
+  "Precipitation/Forecast": {
+    "key": "E7M7KPQM",
+    "parent": "IZTHJEES"
+  },
+  "Anthropogenic/Urbanization/Morphology": {
+    "key": "T4NAUBRA",
+    "parent": "RW65XCHC"
+  },
+  "Catchment/Regime/Morphology": {
+    "key": "7GZ98XT2",
+    "parent": "J9JCAS6M"
+  },
+  "0 Idea Bank/OpenwaterET-trend": {
+    "key": "PTCER8ZK",
+    "parent": "L4VC7T8Q"
+  },
+  "0 Fast Precise Ruthless/EC Tower footprint": {
+    "key": "8VNNHM6M",
+    "parent": "5C8GT9JW"
+  },
+  "Vegetation/Productivity/Ocean": {
+    "key": "YNNCZMUS",
+    "parent": "GIPP6BR7"
+  },
+  "Precipitation/Atmosphere": {
+    "key": "KRKJA797",
+    "parent": "IZTHJEES"
+  },
+  "0 Fast Precise Ruthless/P-E/Veg": {
+    "key": "VEA6BGFW",
+    "parent": "5C8GT9JW"
+  },
+  "Temperature/LST": {
+    "key": "SBZQH59Z",
+    "parent": "5SDTI8SI"
+  },
+  "GCM/Downscaling": {
+    "key": "4WWCGMNX",
+    "parent": "HT4DZ578"
+  },
+  "0 Fast Precise Ruthless/Eva-PET-AET/PET/Veg-PET": {
+    "key": "CDELLEUP",
+    "parent": "Z22SJ4MG"
+  },
+  "Vegetation/Productivity/During Drought": {
+    "key": "XK4BESUZ",
+    "parent": "GIPP6BR7"
+  },
+  "Vegetation/Productivity": {
+    "key": "GIPP6BR7",
+    "parent": "93D5GR8A"
+  },
+  "Precipitation/IDF": {
+    "key": "GCKKPZE8",
+    "parent": "IZTHJEES"
+  },
+  "Anthropogenic/Urbanization/Pollution": {
+    "key": "3J26YN9Y",
+    "parent": "RW65XCHC"
+  },
+  "GCM/CMIP/Veg": {
+    "key": "JEFWWEPX",
+    "parent": "I62L7F2K"
+  },
+  "5 Runoff/Streamflow/Snow/Snow deluge": {
+    "key": "M98F5KUI",
+    "parent": "QZSEW7UH"
+  },
+  "5 Runoff/Streamflow/Snow/Buffer": {
+    "key": "PJRXFUZG",
+    "parent": "QZSEW7UH"
+  },
+  "Precipitation/Extreme/Sensitivity": {
+    "key": "4DQ2VPE9",
+    "parent": "TJ3NEI9R"
+  },
+  "Anthropogenic/Urbanization/Plant": {
+    "key": "V7ATF8LK",
+    "parent": "RW65XCHC"
+  },
+  "1 Evaporation/Observation/Isotope": {
+    "key": "CHVVTTTC",
+    "parent": "LPJFHGSP"
+  },
+  "0 Idea Bank/ABCD model": {
+    "key": "D7VFEUHS",
+    "parent": "L4VC7T8Q"
+  },
+  "4 Drought/Compound-Event/Index": {
+    "key": "K74TCLUX",
+    "parent": "DDLC3NSK"
+  },
+  "4 Drought/Compound-Event/Compound-Veg": {
+    "key": "GC9E5ZU5",
+    "parent": "DDLC3NSK"
+  },
+  "4 Drought/Flash Drought/SM-onset": {
+    "key": "Q4WW8IZF",
+    "parent": "ZHMGUE4A"
+  },
+  "Precipitation/Gauge/Observation": {
+    "key": "E6IMP3N8",
+    "parent": "IZTHJEES"
+  },
+  "GCM/CMIP/Radiation": {
+    "key": "8VI44PJI",
+    "parent": "I62L7F2K"
+  },
+  "4 Drought/Compound-Event/Hot+Humid": {
+    "key": "KV4QBL7I",
+    "parent": "DDLC3NSK"
+  },
+  "Hydro-Model/ET": {
+    "key": "8A9T3T2K",
+    "parent": "AWHLZAQR"
+  },
+  "Catchment/Groundwater/To Streamflow": {
+    "key": "JDIZ65HL",
+    "parent": "G6EM6B8D"
+  },
+  "1 Evaporation/Estimation/OpenET": {
+    "key": "Z93PZGPI",
+    "parent": "J7U3H3V4"
+  },
+  "1 Evaporation/Observation/AmeriFlux": {
+    "key": "PL43KAEW",
+    "parent": "LPJFHGSP"
+  },
+  "Vegetation/Photosynthesis/SIF/SIF-CO2": {
+    "key": "MFLAE3EC",
+    "parent": "5SA43IBR"
+  },
+  "Carbon/Veg-CO2 takein": {
+    "key": "6DF56DPS",
+    "parent": "ND7SY3KA"
+  },
+  "Snow/Rain or Snow": {
+    "key": "SSQ56EAM",
+    "parent": "REA9L8U7"
+  },
+  "Precipitation/Rain or Snow": {
+    "key": "MPXZDVT9",
+    "parent": "IZTHJEES"
+  },
+  "Hydro-Model/Precipitation": {
+    "key": "KSTP3T3T",
+    "parent": "AWHLZAQR"
+  },
+  "Temperature/wet-bulk Tw": {
+    "key": "CCLTYHZH",
+    "parent": "5SDTI8SI"
+  },
+  "5 Runoff/Streamflow/Geo-info": {
+    "key": "ZPMGQNBJ",
+    "parent": "SJ7MVDZG"
+  },
+  "1 Evaporation/Estimation/<100m": {
+    "key": "755QCFX3",
+    "parent": "J7U3H3V4"
+  },
+  "Catchment/Sediment": {
+    "key": "RTW96GJV",
+    "parent": "VF8H8ZGN"
+  },
+  "5 Runoff/Streamflow/Stationarity": {
+    "key": "IL5SDCM6",
+    "parent": "SJ7MVDZG"
+  },
+  "Atmos/Weather/ENSO": {
+    "key": "VB4XZGCZ",
+    "parent": "QMWCV77Q"
+  },
+  "1 Evaporation/Regime/Energy": {
+    "key": "6W2K3TND",
+    "parent": "HJRMBEVG"
+  },
+  "5 Runoff/Streamflow/Snow": {
+    "key": "QZSEW7UH",
+    "parent": "SJ7MVDZG"
+  },
+  "0 Idea Bank/ET-other factors": {
+    "key": "RKT6RKET",
+    "parent": "L4VC7T8Q"
+  },
+  "1 Evaporation/Segment/Groundwater-ET": {
+    "key": "7WDWA87R",
+    "parent": "BEVL3XJJ"
+  },
+  "Soil/SoilMoisture/Memory": {
+    "key": "7D53K9V3",
+    "parent": "ISXIUCHE"
+  },
+  "1 Evaporation/Hydrological Memory": {
+    "key": "H6TZEDQN",
+    "parent": "HJRMBEVG"
+  },
+  "Anthropogenic/Pollution": {
+    "key": "BIN59PQ4",
+    "parent": "QVJZMWTB"
+  },
+  "Vegetation/Cooling": {
+    "key": "KYM54PS4",
+    "parent": "93D5GR8A"
+  },
+  "0 Idea Bank/PML-30-16-more": {
+    "key": "ZVQWG9V6",
+    "parent": "L4VC7T8Q"
+  },
+  "0 Idea Bank/Sap-climate factor attribution": {
+    "key": "5FSPMPPN",
+    "parent": "L4VC7T8Q"
+  },
+  "5 Runoff/Streamflow/Flood/Driver": {
+    "key": "3IHRQPLQ",
+    "parent": "R6BT5EUG"
+  },
+  "Anthropogenic/Urbanization/Heat Island": {
+    "key": "MTSXB5HW",
+    "parent": "RW65XCHC"
+  },
+  "Anthropogenic/Urbanization": {
+    "key": "RW65XCHC",
+    "parent": "QVJZMWTB"
+  },
+  "0 Idea Bank/Conductance": {
+    "key": "T4X2S8LF",
+    "parent": "L4VC7T8Q"
+  },
+  "Vegetation/Canopy Conductance": {
+    "key": "F2GPI2H2",
+    "parent": "93D5GR8A"
+  },
+  "Precipitation/Variation": {
+    "key": "HP5TICUJ",
+    "parent": "IZTHJEES"
+  },
+  "Snow/Snow Cover": {
+    "key": "PBB9XCY4",
+    "parent": "REA9L8U7"
+  },
+  "Hydro-Model/Hydrodynamic": {
+    "key": "YUSHXKJG",
+    "parent": "AWHLZAQR"
+  },
+  "Anthropogenic/Reservoir": {
+    "key": "8MVF3NIL",
+    "parent": "QVJZMWTB"
+  },
+  "Snow/Snowmelte/Extreme": {
+    "key": "FD3LWQQS",
+    "parent": "YBSNM87F"
+  },
+  "Vegetation/Foliar": {
+    "key": "Y2Z7HTTG",
+    "parent": "93D5GR8A"
+  },
+  "Hydro-Model/GBEHM": {
+    "key": "UN8QEVT7",
+    "parent": "AWHLZAQR"
+  },
+  "5 Runoff/Streamflow/Runoff-Precipitation": {
+    "key": "DBZ8YMB3",
+    "parent": "SJ7MVDZG"
+  },
+  "Anthropogenic/Carbon": {
+    "key": "K468JMJ5",
+    "parent": "QVJZMWTB"
+  },
+  "Carbon/Soil Carbon": {
+    "key": "FTF2539J",
+    "parent": "ND7SY3KA"
+  },
+  "Soil/Soil Carbon": {
+    "key": "W8XEKV8B",
+    "parent": "JR3TGHQE"
+  },
+  "0 Idea Bank/VI-stress": {
+    "key": "RSFDZWPP",
+    "parent": "L4VC7T8Q"
+  },
+  "Vegetation/Phenology/Response to Drought": {
+    "key": "KFYHRAS3",
+    "parent": "D2QJ8KBM"
+  },
+  "Vegetation/Phenology/Site": {
+    "key": "I666NVH6",
+    "parent": "D2QJ8KBM"
+  },
+  "Vegetation/Sensitivity": {
+    "key": "IPH2CNHQ",
+    "parent": "93D5GR8A"
+  },
+  "0 Idea Bank/GEE": {
+    "key": "H8XB3YPS",
+    "parent": "L4VC7T8Q"
+  },
+  "0 Fast Precise Ruthless/ETeva components/value/trend": {
+    "key": "4RQEKKYX",
+    "parent": "5C8GT9JW"
+  },
+  "0 Fast Precise Ruthless/Budyko-China": {
+    "key": "5YE76PQS",
+    "parent": "5C8GT9JW"
+  },
+  "Vegetation/VI/FVC": {
+    "key": "8G6J3Z9Y",
+    "parent": "VADQVDGD"
+  },
+  "Vegetation/Photosynthesis/SIF": {
+    "key": "5SA43IBR",
+    "parent": "4XSVZ4XS"
+  },
+  "Anthropogenic/Lake": {
+    "key": "DG2ICN95",
+    "parent": "QVJZMWTB"
+  },
+  "0 Fast Precise Ruthless/P-R-Seasonality/Caravan-GHMs": {
+    "key": "NVWNBVGX",
+    "parent": "RYYPCIDL"
+  },
+  "0 Idea Bank": {
+    "key": "L4VC7T8Q",
+    "parent": null
+  },
+  "GCM/ISIMIP": {
+    "key": "8E6G6SDJ",
+    "parent": "HT4DZ578"
+  },
+  "Terrestrial/Landcover": {
+    "key": "7C6QNHKA",
+    "parent": "PTELM6NJ"
+  },
+  "Open Water/Lake": {
+    "key": "433CU7LP",
+    "parent": "CNTWJ4NL"
+  },
+  "4 Drought/Dryland/Drying but Greening": {
+    "key": "S2WIF7C8",
+    "parent": "SW5MKRWZ"
+  },
+  "GCM/WRF": {
+    "key": "6F4Y9F6N",
+    "parent": "HT4DZ578"
+  },
+  "Catchment/Budyko/WUE": {
+    "key": "V8E9E85H",
+    "parent": "65Z2LJLH"
+  },
+  "1 Evaporation/Transpiration/Global Trend": {
+    "key": "U3JRCCPD",
+    "parent": "3VL73RVP"
+  },
+  "Precipitation/Seasonality": {
+    "key": "98KJ4T88",
+    "parent": "IZTHJEES"
+  },
+  "GCM/CMIP/Energy": {
+    "key": "VWYBAEPS",
+    "parent": "I62L7F2K"
+  },
+  "GCM/CMIP": {
+    "key": "I62L7F2K",
+    "parent": "HT4DZ578"
+  },
+  "Vegetation/Productivity/GPP/Attribution/Trend": {
+    "key": "IH3DPSWM",
+    "parent": "ZCDL9DS8"
+  },
+  "WUE/Ecosystem-Scale": {
+    "key": "RGFG3VAG",
+    "parent": "LGPC76TY"
+  },
+  "WUE/Site-Scale": {
+    "key": "VPXHV7WJ",
+    "parent": "LGPC76TY"
+  },
+  "WUE": {
+    "key": "LGPC76TY",
+    "parent": null
+  },
+  "4 Drought/Case Specific/Amazon": {
+    "key": "HSJP5XJ3",
+    "parent": "EBN2EJ4Z"
+  },
+  "5 Runoff/Streamflow/Flood/Model": {
+    "key": "JUENMIH7",
+    "parent": "R6BT5EUG"
+  },
+  "5 Runoff/Streamflow/Flood": {
+    "key": "R6BT5EUG",
+    "parent": "SJ7MVDZG"
+  },
+  "Snow/Snowmelte/Runoff": {
+    "key": "R33EXKCC",
+    "parent": "YBSNM87F"
+  },
+  "Snow/Snowmelte": {
+    "key": "YBSNM87F",
+    "parent": "REA9L8U7"
+  },
+  "Vegetation/Site-obs-SapFlow": {
+    "key": "32DNTDBP",
+    "parent": "93D5GR8A"
+  },
+  "Catchment/Budyko/Water Resource": {
+    "key": "PXCTHAGQ",
+    "parent": "65Z2LJLH"
+  },
+  "1 Evaporation/Estimation": {
+    "key": "J7U3H3V4",
+    "parent": "HJRMBEVG"
+  },
+  "GCM/Trendy": {
+    "key": "CPPHVT6N",
+    "parent": "HT4DZ578"
+  },
+  "GCM": {
+    "key": "HT4DZ578",
+    "parent": null
+  },
+  "Catchment/Water Erosion": {
+    "key": "PSRLKGPU",
+    "parent": "VF8H8ZGN"
+  },
+  "Catchment/Experiment": {
+    "key": "5AD9IT9D",
+    "parent": "VF8H8ZGN"
+  },
+  "Soil/SoilMoisture/RZSM": {
+    "key": "3TWSILMZ",
+    "parent": "ISXIUCHE"
+  },
+  "Anthropogenic/Social-economy": {
+    "key": "6JPIJJLL",
+    "parent": "QVJZMWTB"
+  },
+  "Hydro-Model/Setup": {
+    "key": "J7I2QIKZ",
+    "parent": "AWHLZAQR"
+  },
+  "LSM-Reanalysis/FLDAS": {
+    "key": "G8N6IWFQ",
+    "parent": "HCTWC92R"
+  },
+  "LSM-Reanalysis/MERRA": {
+    "key": "NIV8DGN7",
+    "parent": "HCTWC92R"
+  },
+  "LSM-Reanalysis/GLDAS": {
+    "key": "QKHGXWM7",
+    "parent": "HCTWC92R"
+  },
+  "Vegetation/Canopy Height": {
+    "key": "CHH97Q7V",
+    "parent": "93D5GR8A"
+  },
+  "Hydro-Model/ABCD": {
+    "key": "PTD9C6ZE",
+    "parent": "AWHLZAQR"
+  },
+  "Hydro-Model": {
+    "key": "AWHLZAQR",
+    "parent": null
+  },
+  "Catchment/Budyko/Attribution": {
+    "key": "RGRG4MZK",
+    "parent": "65Z2LJLH"
+  },
+  "Catchment/Budyko": {
+    "key": "65Z2LJLH",
+    "parent": "VF8H8ZGN"
+  },
+  "5 Runoff/Streamflow/Trend/Attribution": {
+    "key": "D6GGWS3C",
+    "parent": "SJ7MVDZG"
+  },
+  "Catchment/Total Water Storage/Estimation": {
+    "key": "CDNAM23Q",
+    "parent": "QPPFU5ES"
+  },
+  "Vegetation/Hydraulics": {
+    "key": "592ZTS8L",
+    "parent": "93D5GR8A"
+  },
+  "1 Evaporation/Drought-relative": {
+    "key": "36PYS3XT",
+    "parent": "HJRMBEVG"
+  },
+  "Vegetation/Productivity/GPP/Estimation": {
+    "key": "BH8G9BPV",
+    "parent": "ZCDL9DS8"
+  },
+  "Precipitation/Radar": {
+    "key": "ZTXM6R62",
+    "parent": "IZTHJEES"
+  },
+  "Vegetation/Stomatal/Site-obs": {
+    "key": "2FU6YWBR",
+    "parent": "K69RFXZP"
+  },
+  "1 Evaporation/PET/Reference Crop": {
+    "key": "9Z7HA2WK",
+    "parent": "5SQM9K89"
+  },
+  "Anthropogenic/Urbanization/Cooling": {
+    "key": "VDXYVY5W",
+    "parent": "RW65XCHC"
+  },
+  "Soil/SoilMoisture/RZSM/Evaluation": {
+    "key": "X3EPF724",
+    "parent": "3TWSILMZ"
+  },
+  "Vegetation/Stomatal/Model": {
+    "key": "YIXZ2KF3",
+    "parent": "K69RFXZP"
+  },
+  "Vegetation/VI": {
+    "key": "VADQVDGD",
+    "parent": "93D5GR8A"
+  },
+  "5 Runoff/Streamflow/Seasonality": {
+    "key": "NJ9P6T4B",
+    "parent": "SJ7MVDZG"
+  },
+  "Atmos/Weather": {
+    "key": "QMWCV77Q",
+    "parent": null
+  },
+  "4 Drought/Case Specific": {
+    "key": "EBN2EJ4Z",
+    "parent": "2HDA3NDX"
+  },
+  "Vegetation/Vegetation-3R/Restoration": {
+    "key": "L4PZCNHG",
+    "parent": "NLKVBHHY"
+  },
+  "Vegetation/Vegetation-3R/Recovery": {
+    "key": "XVVIMW4F",
+    "parent": "NLKVBHHY"
+  },
+  "Vegetation/Vegetation-3R/Resilience": {
+    "key": "V288P9PA",
+    "parent": "NLKVBHHY"
+  },
+  "4 Drought/Propagation": {
+    "key": "398BLWSU",
+    "parent": "2HDA3NDX"
+  },
+  "4 Drought/Social Drought": {
+    "key": "YBB5YA2D",
+    "parent": "2HDA3NDX"
+  },
+  "4 Drought/Hydrological Drought": {
+    "key": "AKQU97AC",
+    "parent": "2HDA3NDX"
+  },
+  "4 Drought/Agriculture Drought": {
+    "key": "H7DUZVBJ",
+    "parent": "2HDA3NDX"
+  },
+  "4 Drought/Meteorological Drought": {
+    "key": "YLELLDKH",
+    "parent": "2HDA3NDX"
+  },
+  "Vegetation/Vegetation-3R": {
+    "key": "NLKVBHHY",
+    "parent": "93D5GR8A"
+  },
+  "Vegetation/Stomatal/Stomatal-VPD": {
+    "key": "KBB8ALJG",
+    "parent": "K69RFXZP"
+  },
+  "1 Evaporation/Concept/Review": {
+    "key": "XPZZPAKH",
+    "parent": "HJRMBEVG"
+  },
+  "1 Evaporation/Estimation/PML": {
+    "key": "DGGV82PT",
+    "parent": "J7U3H3V4"
+  },
+  "Catchment/Total Water Storage/Data": {
+    "key": "JPVVVN7I",
+    "parent": "QPPFU5ES"
+  },
+  "0 Idea Bank/RZSM-T-HESS": {
+    "key": "P3KG6FGH",
+    "parent": "L4VC7T8Q"
+  },
+  "Temperature/Data": {
+    "key": "53BQMESB",
+    "parent": "5SDTI8SI"
+  },
+  "1 Evaporation/Transpiration/Observation": {
+    "key": "AR2CHHQV",
+    "parent": "3VL73RVP"
+  },
+  "1 Evaporation/Transpiration/Model": {
+    "key": "K8A752JF",
+    "parent": "3VL73RVP"
+  },
+  "Carbon/Measurement": {
+    "key": "7EH59NGQ",
+    "parent": "ND7SY3KA"
+  },
+  "Vegetation/Attribution/Trend-Greening": {
+    "key": "8I3YE6XJ",
+    "parent": "93D5GR8A"
+  },
+  "5 Runoff/Streamflow/Forecast/Projection": {
+    "key": "DSBZYAII",
+    "parent": "SJ7MVDZG"
+  },
+  "Atmos/Weather/LandAtmos/Observation": {
+    "key": "6ZPSSY4H",
+    "parent": "4J6SW643"
+  },
+  "Soil/SoilMoisture/SWC": {
+    "key": "4WV2UMWX",
+    "parent": "ISXIUCHE"
+  },
+  "5 Runoff/Streamflow/Flood/Urban": {
+    "key": "TTNCEWKY",
+    "parent": "R6BT5EUG"
+  },
+  "Vegetation/Water Stress": {
+    "key": "BKB5MVAP",
+    "parent": "93D5GR8A"
+  },
+  "1 Evaporation/Segment/SnowET": {
+    "key": "JDVQDAXJ",
+    "parent": "BEVL3XJJ"
+  },
+  "LSM-Reanalysis/Koppen": {
+    "key": "LZ7DFF3U",
+    "parent": "HCTWC92R"
+  },
+  "1 Evaporation/Transpiration/ToRainfall": {
+    "key": "RVH75TZY",
+    "parent": "3VL73RVP"
+  },
+  "1 Evaporation/Attribution/Trend": {
+    "key": "S5TYT95R",
+    "parent": "HJRMBEVG"
+  },
+  "Soil/SoilMoisture/Evaluation": {
+    "key": "IKWL3PNW",
+    "parent": "ISXIUCHE"
+  },
+  "Snow/Snow depth": {
+    "key": "I7NLCFP5",
+    "parent": "REA9L8U7"
+  },
+  "LSM-Reanalysis/Ensemble": {
+    "key": "3A5HM5VM",
+    "parent": "HCTWC92R"
+  },
+  "Catchment/Total Water Storage/Downscaling": {
+    "key": "NREIZMLB",
+    "parent": "QPPFU5ES"
+  },
+  "5 Runoff/Streamflow/Components": {
+    "key": "IKBBL4ZI",
+    "parent": "SJ7MVDZG"
+  },
+  "1 Evaporation/Transpiration/Evaluation": {
+    "key": "WRYEWFPR",
+    "parent": "3VL73RVP"
+  },
+  "Cold/Permafrost": {
+    "key": "45AFRX3A",
+    "parent": "9RNNC9Y4"
+  },
+  "Cold/Glacier/Ice": {
+    "key": "8IY656CN",
+    "parent": "9RNNC9Y4"
+  },
+  "Precipitation/Downscaling": {
+    "key": "6TLGJLU2",
+    "parent": "IZTHJEES"
+  },
+  "Collocated Analysis/HowFar": {
+    "key": "NC2Y2JB5",
+    "parent": "CXP3YLSB"
+  },
+  "5 Runoff/Streamflow/Index": {
+    "key": "E9NRQKUZ",
+    "parent": "SJ7MVDZG"
+  },
+  "Vegetation/VI/VI-pre": {
+    "key": "P4WPB6VM",
+    "parent": "VADQVDGD"
+  },
+  "Temperature/VI-ET-LST": {
+    "key": "EZV6U5PY",
+    "parent": "5SDTI8SI"
+  },
+  "Precipitation/Extreme": {
+    "key": "TJ3NEI9R",
+    "parent": "IZTHJEES"
+  },
+  "Temperature/Urban": {
+    "key": "FLIQ4PHU",
+    "parent": "5SDTI8SI"
+  },
+  "Catchment/Total Water Storage/Model": {
+    "key": "V4CVG7BB",
+    "parent": "QPPFU5ES"
+  },
+  "Catchment/Total Water Storage/Indices": {
+    "key": "LKT7LAIJ",
+    "parent": "QPPFU5ES"
+  },
+  "Vegetation/Legacy": {
+    "key": "H5P867JW",
+    "parent": "93D5GR8A"
+  },
+  "Precipitation/Estimation": {
+    "key": "UZJYVLBV",
+    "parent": "IZTHJEES"
+  },
+  "Snow/Snow water storage": {
+    "key": "SF9BXG6Q",
+    "parent": "REA9L8U7"
+  },
+  "Soil/SoilMoisture/SM-Atmos/DPTs": {
+    "key": "PE5BYIDG",
+    "parent": "L6E6YR82"
+  },
+  "Soil/SoilMoisture/SM-Atmos": {
+    "key": "L6E6YR82",
+    "parent": "ISXIUCHE"
+  },
+  "Collocated Analysis/Chlorophyll A": {
+    "key": "9EXGKUJI",
+    "parent": "CXP3YLSB"
+  },
+  "Catchment/Reservoir": {
+    "key": "X5JWMM8K",
+    "parent": "VF8H8ZGN"
+  },
+  "Catchment/Effective catchment area": {
+    "key": "LHMJ6J5C",
+    "parent": "VF8H8ZGN"
+  },
+  "Catchment/Water Balance": {
+    "key": "GWYK86Z4",
+    "parent": "VF8H8ZGN"
+  },
+  "Catchment/Water Resource/Yield": {
+    "key": "S4DXFRBN",
+    "parent": "VF8H8ZGN"
+  },
+  "Soil/Soil water Drainage": {
+    "key": "EX6IZ9AM",
+    "parent": "JR3TGHQE"
+  },
+  "Precipitation/Estimation/PRE-bias correct": {
+    "key": "BU8M4SAN",
+    "parent": "UZJYVLBV"
+  },
+  "Soil/SoilMoisture/Estimation/Data": {
+    "key": "JGLCEQ7E",
+    "parent": "ISXIUCHE"
+  },
+  "Atmos/Weather/LandAtmos/ABL": {
+    "key": "BFQBM8RM",
+    "parent": "4J6SW643"
+  },
+  "Catchment/Ungauged": {
+    "key": "YDI2242K",
+    "parent": "VF8H8ZGN"
+  },
+  "1 Evaporation/Evaluation": {
+    "key": "U56VE6UP",
+    "parent": "HJRMBEVG"
+  },
+  "Collocated Analysis/Drought": {
+    "key": "QFY7JRM6",
+    "parent": "CXP3YLSB"
+  },
+  "Collocated Analysis/DEM": {
+    "key": "WZJHNAKS",
+    "parent": "CXP3YLSB"
+  },
+  "Collocated Analysis/SM": {
+    "key": "SNPQQVSP",
+    "parent": "CXP3YLSB"
+  },
+  "Collocated Analysis/Method": {
+    "key": "PP84TU7D",
+    "parent": "CXP3YLSB"
+  },
+  "Collocated Analysis/ET": {
+    "key": "59XTGXMA",
+    "parent": "CXP3YLSB"
+  },
+  "Collocated Analysis/Pre": {
+    "key": "I8MCIDMK",
+    "parent": "CXP3YLSB"
+  },
+  "Collocated Analysis/LH": {
+    "key": "9UTZJL9D",
+    "parent": "CXP3YLSB"
+  },
+  "Energy/Radiation/LW-Downwelling": {
+    "key": "PLFIVBMJ",
+    "parent": "9MGPEWZG"
+  },
+  "Anthropogenic": {
+    "key": "QVJZMWTB",
+    "parent": null
+  },
+  "Atmos/Weather/LandAtmos/Land-atmos-feedback": {
+    "key": "V6UWXRYJ",
+    "parent": "4J6SW643"
+  },
+  "4 Drought/Compound-Event": {
+    "key": "DDLC3NSK",
+    "parent": "2HDA3NDX"
+  },
+  "Vegetation/Mortality": {
+    "key": "V8YUYAFH",
+    "parent": "93D5GR8A"
+  },
+  "Soil/SoilMoisture/SM-P": {
+    "key": "BC7RIXQF",
+    "parent": "ISXIUCHE"
+  },
+  "4 Drought/Case Specific/2022 Yangtze Heat": {
+    "key": "I9RIAAA8",
+    "parent": "EBN2EJ4Z"
+  },
+  "Catchment/Water level": {
+    "key": "JC4KR249",
+    "parent": "VF8H8ZGN"
+  },
+  "Vegetation/Ecosystem": {
+    "key": "A4JUBRP6",
+    "parent": "93D5GR8A"
+  },
+  "1 Evaporation/Segment/EF": {
+    "key": "7JUYDUD6",
+    "parent": "BEVL3XJJ"
+  },
+  "Vegetation/Af/De-forestation": {
+    "key": "6QBRKGW4",
+    "parent": "93D5GR8A"
+  },
+  "Vegetation/Stomatal": {
+    "key": "K69RFXZP",
+    "parent": "93D5GR8A"
+  },
+  "Vegetation/Albedo": {
+    "key": "AX9XSD5C",
+    "parent": "93D5GR8A"
+  },
+  "Snow": {
+    "key": "REA9L8U7",
+    "parent": null
+  },
+  "Cold": {
+    "key": "9RNNC9Y4",
+    "parent": null
+  },
+  "Temperature": {
+    "key": "5SDTI8SI",
+    "parent": null
+  },
+  "Fire": {
+    "key": "ZZHCEZWL",
+    "parent": null
+  },
+  "Carbon": {
+    "key": "ND7SY3KA",
+    "parent": null
+  },
+  "Energy/Radiation": {
+    "key": "9MGPEWZG",
+    "parent": null
+  },
+  "Atmos/Weather/LandAtmos": {
+    "key": "4J6SW643",
+    "parent": "QMWCV77Q"
+  },
+  "Precipitation/Interception": {
+    "key": "NIKX97LS",
+    "parent": "IZTHJEES"
+  },
+  "Review": {
+    "key": "BEJ6LR2U",
+    "parent": null
+  },
+  "1 Evaporation/PET/CR": {
+    "key": "7B5WXG34",
+    "parent": "5SQM9K89"
+  },
+  "1 Evaporation/Segment/ContinentalET": {
+    "key": "79FMRYJS",
+    "parent": "BEVL3XJJ"
+  },
+  "Soil": {
+    "key": "JR3TGHQE",
+    "parent": null
+  },
+  "4 Drought/Dryland": {
+    "key": "SW5MKRWZ",
+    "parent": "2HDA3NDX"
+  },
+  "1 Evaporation/PET": {
+    "key": "5SQM9K89",
+    "parent": "HJRMBEVG"
+  },
+  "1 Evaporation/Transpiration": {
+    "key": "3VL73RVP",
+    "parent": "HJRMBEVG"
+  },
+  "Collocated Analysis/Comb": {
+    "key": "LDEF9ZL7",
+    "parent": "CXP3YLSB"
+  },
+  "5 Runoff/Streamflow": {
+    "key": "SJ7MVDZG",
+    "parent": null
+  },
+  "5 Runoff/Streamflow/Extreme": {
+    "key": "UW8FYMH7",
+    "parent": "SJ7MVDZG"
+  },
+  "Vegetation/Root": {
+    "key": "9V7I2ZXD",
+    "parent": "93D5GR8A"
+  },
+  "1 Evaporation/Segment/Interception": {
+    "key": "QRMSHRTB",
+    "parent": "BEVL3XJJ"
+  },
+  "4 Drought/Heatwave": {
+    "key": "D2927FI2",
+    "parent": "2HDA3NDX"
+  },
+  "Vegetation/Photosynthesis": {
+    "key": "4XSVZ4XS",
+    "parent": "93D5GR8A"
+  },
+  "1 Evaporation/Estimation/ECOSTRESS": {
+    "key": "RUMGI87H",
+    "parent": "J7U3H3V4"
+  },
+  "Vegetation/VI/NDVI": {
+    "key": "QVRMHULU",
+    "parent": "VADQVDGD"
+  },
+  "1 Evaporation/PET/PT-ET": {
+    "key": "QZVW9MJB",
+    "parent": "5SQM9K89"
+  },
+  "Catchment": {
+    "key": "VF8H8ZGN",
+    "parent": null
+  },
+  "4 Drought/Flash Drought": {
+    "key": "ZHMGUE4A",
+    "parent": "2HDA3NDX"
+  },
+  "1 Evaporation/Segment": {
+    "key": "BEVL3XJJ",
+    "parent": "HJRMBEVG"
+  },
+  "1 Evaporation/Observation": {
+    "key": "LPJFHGSP",
+    "parent": "HJRMBEVG"
+  },
+  "Vegetation/Phenology": {
+    "key": "D2QJ8KBM",
+    "parent": "93D5GR8A"
+  },
+  "1 Evaporation": {
+    "key": "HJRMBEVG",
+    "parent": null
+  },
+  "Vegetation": {
+    "key": "93D5GR8A",
+    "parent": null
+  },
+  "4 Drought": {
+    "key": "2HDA3NDX",
+    "parent": null
+  },
+  "Vegetation/Veg-CO2": {
+    "key": "725ERI42",
+    "parent": "93D5GR8A"
+  },
+  "LSM-Reanalysis/LDAS": {
+    "key": "YCL9NWUW",
+    "parent": "HCTWC92R"
+  },
+  "LSM-Reanalysis/ERA5": {
+    "key": "GY2G94NV",
+    "parent": "HCTWC92R"
+  },
+  "LSM-Reanalysis": {
+    "key": "HCTWC92R",
+    "parent": null
+  },
+  "Catchment/Total Water Storage": {
+    "key": "QPPFU5ES",
+    "parent": "VF8H8ZGN"
+  },
+  "Vegetation/VI/LAI": {
+    "key": "T5SVW2YJ",
+    "parent": "VADQVDGD"
+  },
+  "Vegetation/Productivity/GPP": {
+    "key": "ZCDL9DS8",
+    "parent": "GIPP6BR7"
+  },
+  "1 Evaporation/Segment/Wildfire AET": {
+    "key": "PMN525Z7",
+    "parent": "BEVL3XJJ"
+  },
+  "Precipitation": {
+    "key": "IZTHJEES",
+    "parent": null
+  },
+  "Collocated Analysis": {
+    "key": "CXP3YLSB",
+    "parent": null
+  },
+  "Soil/SoilMoisture": {
+    "key": "ISXIUCHE",
+    "parent": "JR3TGHQE"
+  },
+  "Vegetation/VI/VOD": {
+    "key": "G777LXHJ",
+    "parent": "VADQVDGD"
+  },
+  "1 Evaporation/Segment/OpenwaterET": {
+    "key": "SQWAHNUN",
+    "parent": "BEVL3XJJ"
   }
 }

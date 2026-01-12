@@ -20,14 +20,25 @@ def find_config_file(start_dir: str = None) -> Optional[str]:
     自动搜索config.py文件
     
     搜索顺序：
-    1. 当前工作目录
-    2. 脚本所在目录
-    3. 脚本所在目录的父目录（项目根目录）
+    1. 默认配置文件路径（用户指定）
+    2. 当前工作目录
+    3. 脚本所在目录
+    4. 脚本所在目录的父目录（项目根目录）
     """
     if start_dir is None:
         start_dir = os.getcwd()
     
-    # 候选目录列表
+    # 默认配置文件路径（用户指定）
+    DEFAULT_CONFIG_PATH = r'C:\Users\ASUS\OneDrive\SCI\Github\zotero_ai_read_config.py'
+    
+    # 候选文件列表（按优先级排序）
+    candidate_paths = []
+    
+    # 1. 首先检查默认配置文件路径
+    if os.path.exists(DEFAULT_CONFIG_PATH) and os.path.isfile(DEFAULT_CONFIG_PATH):
+        candidate_paths.append(os.path.abspath(DEFAULT_CONFIG_PATH))
+    
+    # 2. 然后检查标准搜索目录中的config.py
     search_dirs = [
         os.getcwd(),  # 当前工作目录
         os.path.dirname(os.path.abspath(__file__)),  # 脚本所在目录
@@ -40,8 +51,13 @@ def find_config_file(start_dir: str = None) -> Optional[str]:
     
     for search_dir in search_dirs:
         config_path = os.path.join(search_dir, 'config.py')
-        if os.path.exists(config_path) and os.path.isfile(config_path):
-            return os.path.abspath(config_path)
+        abs_path = os.path.abspath(config_path)
+        if abs_path not in candidate_paths and os.path.exists(config_path) and os.path.isfile(config_path):
+            candidate_paths.append(abs_path)
+    
+    # 返回第一个找到的配置文件
+    if candidate_paths:
+        return candidate_paths[0]
     
     return None
 

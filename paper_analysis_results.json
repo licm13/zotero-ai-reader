@@ -1,0 +1,269 @@
+{
+  "FNHTPW47": {
+    "title": "How do different precipitation products perform in a dry-climate region?",
+    "archive_path": "📚 Archive/Methodology/Remote Sensing/Retrieval",
+    "idea_path": "💡 Idea Lab/Data Philosophy/Data Quality & Validation",
+    "keyword_assessment": {
+      "current": "Satellite Precipitation / Reanalysis Products / Dry Climate / Performance Evaluation / Hydrology",
+      "suggested": "Satellite Precipitation / Reanalysis Products / Dry Climate / Performance Evaluation / Hydrology / Extreme Events",
+      "reason": "The paper focuses on evaluating precipitation products for both average and extreme events in dry climates. Adding 'Extreme Events' would improve comprehensiveness."
+    },
+    "related_papers": [
+      "Paper 1",
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Investigate the transferability of these findings to other dryland regions globally, considering potential variations in atmospheric circulation and land surface characteristics.",
+      "Explore the development of hybrid precipitation products that leverage the strengths of different existing products (e.g., combining WLDAS for estimation with IMERG/ERA5-MIN for detection) to improve accuracy in dry climates.",
+      "Assess the impact of precipitation product uncertainty on downstream hydrological modeling and drought prediction in dry regions.",
+      "Examine the performance of these products during extreme dry spells or droughts, beyond just single extreme events, to better understand their utility for drought monitoring."
+    ],
+    "processed_time": "2026-01-12 11:10:58"
+  },
+  "9KH3AHBS": {
+    "title": "Future intensification of compound heatwaves and socioeconomic exposure in africa",
+    "archive_path": "📚 Archive/Hazards/Heatwaves & Extremes",
+    "idea_path": "💡 Idea Lab/Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Heatwaves / Climate Change Projection / Africa / CMIP6 / Socioeconomic Exposure",
+      "suggested": "Heatwaves / Climate Change Projection / Africa / CMIP6 / Compound Events / Socioeconomic Exposure / Future Intensification",
+      "reason": "The paper focuses on 'compound heatwaves' which is a crucial aspect of extreme events. The term 'Future Intensification' is also central to the findings."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Investigate the specific physical mechanisms driving the intensification of compound heatwaves in different African sub-regions, differentiating between thermodynamic and dynamic contributions.",
+      "Explore the cascading impacts of intensified compound heatwaves on other hydrological extremes (e.g., drought, water scarcity) and agricultural systems in Africa.",
+      "Analyze the adaptive capacity of African societies to these projected heatwave changes, considering socio-economic factors beyond mere exposure, and identify potential maladaptation risks.",
+      "Examine the potential for compound heatwaves to interact with or exacerbate other climate-related hazards in Africa, such as floods or land degradation, leading to compound extreme events."
+    ],
+    "processed_time": "2026-01-12 11:11:00"
+  },
+  "76S6WLX8": {
+    "title": "A novel high-resolution soil-moisture mapping using sentinel-1-imagery and optimization-based for a new precise remote sensing drought index",
+    "archive_path": "📚 Archive/Processes/Soil Moisture",
+    "idea_path": "💡 Idea Lab/Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Sentinel-1 / Drought Index / Soil Moisture / Optimization / Remote Sensing",
+      "suggested": "Sentinel-1 / Drought Index / Soil Moisture / Optimization / Remote Sensing / High Resolution / Agricultural Drought",
+      "reason": "The paper emphasizes the high-resolution aspect (10m) and its application to agricultural drought, which are key contributions and should be reflected in keywords."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 3"
+    ],
+    "innovation_insights": [
+      "Integrate the developed high-resolution soil moisture product with other high-resolution remote sensing data (e.g., vegetation indices, land surface temperature) to create a more comprehensive and sensitive agricultural drought index.",
+      "Explore the use of machine learning or deep learning models to further refine the OSMCI, potentially incorporating physical constraints or multi-sensor data fusion for improved accuracy and spatio-temporal coverage.",
+      "Validate the OSMCI against ground-based soil moisture observations at finer scales (e.g., within-field variability) to assess its performance in capturing micro-scale agricultural conditions.",
+      "Investigate the potential of this high-resolution index for operational drought monitoring and early warning systems specifically tailored for agricultural regions, considering different crop types and irrigation practices."
+    ],
+    "processed_time": "2026-01-12 11:11:03"
+  },
+  "IHNZ82FI": {
+    "title": "Global crop-specific nitrogen fertilization dataset in 1961–2020",
+    "archive_path": "📚 Archive/Applications/Agricultural Systems",
+    "idea_path": "💡 Idea Lab/Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Nitrogen Fertilization / Crop-Specific Data / Global Dataset / Spatiotemporal Analysis / Agricultural Data",
+      "suggested": "Nitrogen Fertilization / Crop-Specific Data / Global Dataset / Spatiotemporal Analysis / Agricultural Data / Environmental Modeling / GHG Emissions",
+      "reason": "The abstract explicitly mentions the dataset's use for 'land surface models' and its potential to quantify impacts on 'climate change', suggesting inclusion of 'Environmental Modeling' and potentially 'GHG Emissions' given the topic of fertilization."
+    },
+    "related_papers": [
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Integrate this nitrogen fertilization dataset with other agricultural datasets (e.g., crop yields, water usage, land cover change) to develop more sophisticated models of agricultural system dynamics and their environmental footprint.",
+      "Utilize the dataset to investigate the impact of historical and future nitrogen fertilization practices on greenhouse gas emissions (e.g., N2O) and water quality (e.g., nitrate leaching) at a global scale.",
+      "Develop downscaled versions of this dataset for specific regions or countries to support localized agricultural planning, policy-making, and precision agriculture initiatives.",
+      "Use the dataset to explore the trade-offs between food production, nitrogen use efficiency, and environmental sustainability under different climate change and socio-economic scenarios."
+    ],
+    "processed_time": "2026-01-12 11:11:06"
+  },
+  "PKTIFBAU": {
+    "title": "Independent short‐ and longwave pathways for a zonally asymmetric northern hemisphere temperature response to tropical volcanic eruptions",
+    "archive_path": "📚 Archive/Hazards/Heatwaves & Extremes",
+    "idea_path": "💡 Idea Lab/Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Volcanic Aerosols / Climate Modeling / Zonal Asymmetry / Stratospheric Dynamics / ENSO",
+      "suggested": "Volcanic Aerosols / Climate Modeling / Zonal Asymmetry / Stratospheric Dynamics / ENSO / Radiative Forcing / Teleconnections",
+      "reason": "The paper distinguishes between shortwave (reflective) and longwave (absorptive) radiative forcing mechanisms. 'Teleconnections' are implied by the hemispheric response and ENSO linkage."
+    },
+    "related_papers": [
+      "Paper 1"
+    ],
+    "innovation_insights": [
+      "Investigate the potential for coupled teleconnections between stratospheric and tropospheric responses to volcanic eruptions, examining how the identified shortwave and longwave pathways might interact or feedback on each other.",
+      "Explore the role of ENSO phase and intensity in modulating the zonal asymmetry of Northern Hemisphere temperature responses to volcanic eruptions, and vice-versa, how volcanic forcing might influence ENSO.",
+      "Quantify the impact of these eruption-induced temperature asymmetries on regional climate patterns, such as precipitation, storm tracks, and extreme weather events in the Northern Hemisphere mid-latitudes.",
+      "Incorporate more detailed representations of aerosol-cloud interactions and aerosol radiative properties into climate models to better resolve the independent short- and longwave pathways and their geographical impacts."
+    ],
+    "processed_time": "2026-01-12 11:11:08"
+  },
+  "6QVZT74E": {
+    "title": "Global groundwater drought assessment revisited: A holistic re‐evaluation of the GRACE‐groundwater drought index across major aquifers",
+    "archive_path": "📚 Archive/Processes/Groundwater, 📚 Archive/Hazards/Drought/Flash Drought, 📚 Archive/Methodology/Data Fusion, 📚 Archive/Methodology/Uncertainty Analysis",
+    "idea_path": "💡 Idea Lab/Data Philosophy/Multi-Source Integration, 💡 Idea Lab/Data Philosophy/Signal Purification/Uncertainty, 💡 Idea Lab/Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "Groundwater Drought / GRACE / Uncertainty Analysis / Multi-Model / Aquifer Memory",
+      "suggested": "Groundwater Drought / GRACE / GRACE-FO / Hydrological Modeling / Uncertainty Analysis / Multi-Model Ensemble / Aquifer Memory / Hydro-climatology",
+      "reason": "Added GRACE-FO as it's a continuation of GRACE. Included 'Hydrological Modeling' as GRACE data is often assimilated or used within models. 'Multi-Model Ensemble' is more specific than 'Multi-Model'. Added 'Hydro-climatology' as it bridges the gap between hydrology and climate influences on groundwater."
+    },
+    "related_papers": [
+      "Paper 1 title",
+      "Paper 2 title"
+    ],
+    "innovation_insights": [
+      "Investigate how different GRACE data processing techniques propagate uncertainties into drought indices and aquifer memory estimations across diverse hydrogeological settings.",
+      "Develop novel methods for quantifying and reducing uncertainty in GRACE-derived groundwater storage anomalies, potentially through advanced data assimilation or deep learning approaches.",
+      "Explore the impact of aquifer specific characteristics (e.g., hydraulic conductivity, recharge rates) on the propagation of model uncertainty in groundwater drought assessments.",
+      "Expand this multi-model assessment to a wider range of aquifers globally and compare the findings with ground-based groundwater level observations for validation."
+    ],
+    "processed_time": "2026-01-12 11:11:29"
+  },
+  "57YUWIF6": {
+    "title": "Increased streamflow intermittence in europe due to climate change projected by combining global hydrological modeling and machine learning",
+    "archive_path": "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards/Drought/Flash Drought, 📚 Archive/Methodology/Deep Learning (LSTM_CNN), 📚 Archive/Applications/Climate Change Impact",
+    "idea_path": "💡 Idea Lab/Dynamics/Rapid Onset Events, 💡 Idea Lab/Dynamics/Drought-Flood Transitions, 💡 Idea Lab/Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Hydrological Modeling / Climate Change / Machine Learning / Streamflow Intermittence / Europe",
+      "suggested": "Streamflow Intermittence / Climate Change / Hydrological Modeling / Machine Learning / Europe / RCPs/SSPs / Drought Dynamics",
+      "reason": "'Streamflow Intermittence' is the core phenomenon studied. 'Climate Change' and 'Europe' are key context. 'Hydrological Modeling' and 'Machine Learning' are the methods. Added 'RCPs/SSPs' to denote the climate scenarios used. 'Drought Dynamics' captures the focus on the cessation of flow."
+    },
+    "related_papers": [
+      "Paper 2 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Explore the potential of deep learning models to directly predict streamflow intermittence from climate projections, potentially bypassing the need for explicit hydrological models.",
+      "Investigate the regional variations in projected streamflow intermittence across Europe and link these to specific hydroclimatic drivers and land surface characteristics.",
+      "Analyze the compound effects of climate change and human water use on streamflow intermittence, extending the current focus solely on climate change.",
+      "Develop early warning systems for streamflow intermittence based on the developed hybrid modeling approach, providing crucial information for water resource management."
+    ],
+    "processed_time": "2026-01-12 11:11:36"
+  },
+  "ATT9ZG5N": {
+    "title": "Using century-long reanalysis and a rainfall-runoff model to explore multi-decadal variability in catchment hydrology at the european scale",
+    "archive_path": "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Methodology/Statistical Methods, 📚 Archive/Methodology/Reanalysis Data",
+    "idea_path": "💡 Idea Lab/Data Philosophy/Scale Issues (Spatial_Temporal), 💡 Idea Lab/Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Hydrological Model / Reanalysis Data / Multi-decadal Variability / European Scale",
+      "suggested": "Hydrological Modeling / Reanalysis Data / Multi-decadal Variability / European Scale / Catchment Hydrology / Hydroclimatic Variability",
+      "reason": "'Hydrological Modeling' is more descriptive. 'Reanalysis Data' is a key input. 'Multi-decadal Variability' and 'European Scale' are core. Added 'Catchment Hydrology' for specificity and 'Hydroclimatic Variability' to encompass the broader drivers."
+    },
+    "related_papers": [
+      "Paper 1 title"
+    ],
+    "innovation_insights": [
+      "Evaluate the performance of different reanalysis datasets (beyond NOAA 20CR and ERA-20C) for simulating long-term catchment hydrology across various European climate zones.",
+      "Investigate the impact of resolution (spatial and temporal) of reanalysis data on the simulation of multi-decadal hydrological variability and extremes.",
+      "Explore the use of machine learning techniques to improve the bias correction or downscaling of reanalysis data for hydrological modeling at the European scale.",
+      "Extend the analysis to investigate the drivers of observed multi-decadal variability in European streamflow, linking them to atmospheric circulation patterns and large-scale climate modes."
+    ],
+    "processed_time": "2026-01-12 11:11:40"
+  },
+  "C8BY4C5P": {
+    "title": "Long-term solar-induced fluorescence data record from GOME-2A and GOME-2B (2007–2023) using the SIFTER v3 algorithm",
+    "archive_path": "📚 Archive/Processes/Evapotranspiration (ET), 📚 Archive/Methodology/Remote Sensing/Retrieval, 📚 Archive/Methodology/Data Fusion",
+    "idea_path": "💡 Idea Lab/Data Philosophy/Signal Purification/Uncertainty, 💡 Idea Lab/Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Solar-Induced Fluorescence (SIF) / Satellite Data Harmonization / GOME-2 / Sensor Degradation / Time Series Analysis",
+      "suggested": "Solar-Induced Fluorescence (SIF) / Satellite Data Harmonization / GOME-2 / GOME-2A / GOME-2B / Sensor Degradation Correction / Time Series Analysis / Data Record",
+      "reason": "Explicitly mentioning GOME-2A and GOME-2B is beneficial. 'Sensor Degradation Correction' is more descriptive of the method. 'Data Record' highlights the output."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Investigate the relationship between the long-term SIF record and ET trends across different biomes and climate zones, particularly in relation to drought and heat stress.",
+      "Explore the use of this harmonized SIF dataset to improve the parameterization or validation of land surface models and ET estimation algorithms.",
+      "Apply advanced time series analysis techniques (e.g., deep learning) to the SIF data to identify subtle patterns and anomalies related to vegetation stress and ecosystem dynamics.",
+      "Extend the SIF record to include data from other satellite missions (e.g., OCO-2/3, TROPOMI) using similar harmonization techniques to create an even longer and more comprehensive global SIF dataset."
+    ],
+    "processed_time": "2026-01-12 11:11:46"
+  },
+  "MXVQFE56": {
+    "title": "The Effects of Space–Time Dynamics of Precipitation on the Shape and Timing of Streamflow Event Hydrographs",
+    "archive_path": "📚 Archive/Processes/Runoff & Streamflow, 📚 Archive/Hazards/Flood, 📚 Archive/Methodology/Machine Learning (LSTM_CNN), 📚 Archive/Methodology/Statistical Methods",
+    "idea_path": "💡 Idea Lab/Dynamics/Non-linearity & Complexity, 💡 Idea Lab/Dynamics/Rapid Onset Events, 💡 Idea Lab/Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Precipitation Dynamics / Streamflow Events / Machine Learning / Flood Timing & Shape",
+      "suggested": "Precipitation Dynamics / Streamflow Hydrograph / Flood Timing / Flood Shape / Machine Learning / Spatial Precipitation / Event Hydrology",
+      "reason": "'Streamflow Hydrograph' is more specific than 'Streamflow Events'. 'Flood Timing' and 'Flood Shape' are key outputs. 'Spatial Precipitation' highlights a key input characteristic. 'Event Hydrology' is a relevant subfield."
+    },
+    "related_papers": [
+      "Paper 1 title"
+    ],
+    "innovation_insights": [
+      "Develop physics-informed machine learning models that incorporate hydrological principles to better predict flood hydrograph timing and shape, leveraging the insights from this study.",
+      "Investigate the transferability of the findings regarding precipitation spatio-temporal dynamics to different geographical regions and catchment types (e.g., larger catchments, different geological settings).",
+      "Explore the interaction between precipitation dynamics and antecedent soil moisture conditions (as highlighted in the paper) in influencing flash flood generation and characteristics.",
+      "Utilize this understanding to improve flood forecasting models, particularly for rapid onset events, by providing more accurate representations of how precipitation spatial patterns translate into streamflow responses."
+    ],
+    "processed_time": "2026-01-12 11:11:52"
+  },
+  "PVTETB7X": {
+    "title": "High-resolution (1km daily) potential evapotranspiration dataset over europe and the mediterranean region",
+    "archive_path": "📚 Archive/Processes/Evapotranspiration",
+    "idea_path": "💡 Idea Lab/Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Potential Evapotranspiration / Hydrological Modeling / Satellite and In Situ Data Fusion / Europe",
+      "suggested": "Potential Evapotranspiration / Dataset Development / Remote Sensing / Data Fusion / Europe / Hydrological Applications",
+      "reason": "The current keywords are good but could be more specific. 'Dataset Development' highlights the main output. 'Remote Sensing' is a key methodology implied by satellite data. 'Hydrological Applications' broadens the scope beyond just modeling."
+    },
+    "related_papers": [
+      "Paper 1",
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Develop methods to automatically assess the performance of PET models across diverse regions by leveraging large-scale datasets like this.",
+      "Explore the sensitivity of hydrological models to different PET datasets and their spatial/temporal resolutions, especially for water resources management in data-scarce regions.",
+      "Investigate the optimal data fusion strategies for generating high-resolution hydrological variables when multiple data sources (satellite, in-situ) are available.",
+      "Future work could address the uncertainty quantification of the generated PET dataset and its propagation through hydrological models."
+    ],
+    "processed_time": "2026-01-12 11:12:04"
+  },
+  "FFVIM8P3": {
+    "title": "Deep soil water reservoirs modulate land use and drought effects on the water budget of amazon headwaters",
+    "archive_path": "📚 Archive/Hazards/Drought",
+    "idea_path": "💡 Idea Lab/Mechanism/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "Hydrological Model / Land Use Change / Drought / Amazon / Water Budget",
+      "suggested": "Hydrological Model / Land Use Change / Drought / Soil Moisture Dynamics / Water Budget / Amazon Basin",
+      "reason": "Adding 'Soil Moisture Dynamics' is crucial as the paper emphasizes the role of deep soil water. 'Amazon Basin' is more precise than just 'Amazon'. 'Water Budget' is already present and accurate."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term implications of land-use change on deep soil water storage and its resilience to prolonged drought under different climate change scenarios.",
+      "Develop physically-based or hybrid models that explicitly represent deep soil water dynamics to better capture drought impacts in land-use-altered regions.",
+      "Quantify the feedback mechanisms between vegetation type, soil moisture partitioning, and groundwater recharge in response to extreme drought events.",
+      "Future work could focus on scaling up these findings to other tropical regions and understanding the impact of human interventions (e.g., irrigation) on these deep soil water dynamics."
+    ],
+    "processed_time": "2026-01-12 11:12:06"
+  },
+  "SWI82BVS": {
+    "title": "Time shift between precipitation and evaporation has more impact on annual streamflow variability than the elasticity of potential evaporation",
+    "archive_path": "📚 Archive/Processes/Runoff & Streamflow",
+    "idea_path": "💡 Idea Lab/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Streamflow Variability / Climate Elasticity / Precipitation-Evaporation Synchronicity / Large-sample Hydrology",
+      "suggested": "Streamflow Variability / Climate Elasticity / Precipitation-Evaporation Synchronicity / Hydrological Dynamics / Large-sample Hydrology",
+      "reason": "Adding 'Hydrological Dynamics' captures the essence of the paper's finding about the timing shift's impact, which goes beyond simple elasticity. The other keywords are accurate and essential."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 1"
+    ],
+    "innovation_insights": [
+      "Develop more sophisticated hydrological models that explicitly incorporate the temporal dynamics between precipitation and evapotranspiration (or its components) to improve streamflow prediction.",
+      "Explore the implications of changing precipitation-evaporation synchronicity on other hydrological extremes, such as floods or low flows, under future climate change.",
+      "Investigate how different land surface characteristics (e.g., soil type, vegetation cover, water management practices) influence the synchronicity between precipitation and ET, and consequently, streamflow.",
+      "Future work could investigate how the concept of 'synchronicity' can be applied to other water cycle components, such as soil moisture or groundwater recharge, and its implications for drought prediction and management."
+    ],
+    "processed_time": "2026-01-12 11:12:09"
+  }
+}
