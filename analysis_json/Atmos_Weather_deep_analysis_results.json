@@ -1,0 +1,1857 @@
+{
+  "E2LR3ANT": {
+    "title": "Multi‐decadal skill variability in predicting the spatial patterns of ENSO events",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Statistical Methods, Hazards/Drought/Flash Drought, Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Modeling/Ensemble Methods, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "ENSO, seasonal forecasting, SST variability, multi-decadal variability, skill assessment ENSO，季节性预测，SST变异，多年代变异，技能评估",
+      "suggested": "ENSO, Seasonal Prediction Skill, Multi-decadal Variability, SST Patterns, ENSO Teleconnections, Forecasting Skill Assessment",
+      "reason": "The current keywords are a mix of English and Chinese and slightly repetitive. The suggested keywords are more concise, clearly delineate the core concepts (ENSO, skill, variability), and add 'ENSO Teleconnections' to capture the broader atmospheric/oceanic links that are investigated."
+    },
+    "related_papers": [
+      "Paper 0: Global impacts of el niño on terrestrial moisture recycling",
+      "Paper 2: Longer‐ and slower‐moving contiguous heatwaves linked to el niño"
+    ],
+    "innovation_insights": [
+      "Explore the physical drivers behind the observed multi-decadal variability in ENSO prediction skill. This could involve investigating changes in ocean-atmosphere interactions, background climate conditions, or modes of variability that modulate ENSO's development and spatial expression.",
+      "Develop adaptive forecasting systems that can account for decadal shifts in ENSO predictability. This might involve incorporating mechanisms to detect and correct for changes in teleconnection patterns or ENSO amplitude/persistence.",
+      "Investigate how the reduced skill in predicting ENSO's spatial patterns impacts downstream climate variables (e.g., precipitation, temperature) and extreme events, and whether this impact also exhibits multi-decadal variability."
+    ],
+    "processed_time": "2026-01-13 21:18:09"
+  },
+  "X2U6534C": {
+    "title": "Longer‐ and slower‐moving contiguous heatwaves linked to el niño",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes, Processes/Runoff & Streamflow, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, Coupling/Land-Atmosphere Coupling, Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "厄尔尼诺, 连续热浪, 移动模式, 高压异常, 大气环流",
+      "suggested": "El Niño, Heatwaves, Contiguous Heatwaves, Movement Characteristics, High-Pressure Anomalies, Atmospheric Circulation, ENSO Impacts",
+      "reason": "The current keywords are mostly in Chinese and focus on specific findings. The suggested keywords are more comprehensive, including 'El Niño' for the driver, 'Heatwaves' and 'Contiguous Heatwaves' for the phenomenon, and 'Movement Characteristics' for the novel aspect, while retaining key atmospheric drivers."
+    },
+    "related_papers": [
+      "Paper 0: Global impacts of el niño on terrestrial moisture recycling",
+      "Paper 1: Multi‐decadal skill variability in predicting the spatial patterns of ENSO events"
+    ],
+    "innovation_insights": [
+      "Investigate the role of land-atmosphere coupling (e.g., soil moisture, surface energy balance) in modulating the movement characteristics (speed, duration, distance) of heatwaves, especially during ENSO events. This connects the atmospheric drivers to land surface processes.",
+      "Develop early warning systems for contiguous heatwaves that explicitly incorporate ENSO phase and predicted atmospheric circulation patterns that favor slower, longer-duration events.",
+      "Explore the impact of climate change on the ENSO-heatwave relationship, specifically how future changes in ENSO behavior or atmospheric circulation might alter the frequency, intensity, and movement patterns of heatwaves."
+    ],
+    "processed_time": "2026-01-13 21:18:13"
+  },
+  "XQU57BLP": {
+    "title": "East asian summer rainfall stimulated by subseasonal Indian monsoonal heating",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Coupling/Land-Atmosphere Coupling, Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "东亚夏季降雨，印度季风加热，次季节变化，罗斯贝波，湿气输送",
+      "suggested": "East Asian Summer Rainfall, Indian Summer Monsoon Heating, Subseasonal Variability, Rossby Waves, Moisture Advection, Monsoon Coupling, Diabatic Heating",
+      "reason": "The current keywords are good but mostly in Chinese. Suggested keywords are in English for wider accessibility, include 'Monsoon Coupling' to highlight the interaction, and 'Diabatic Heating' to be more precise about the 'heating' aspect."
+    },
+    "related_papers": [
+      "Paper 0: Global impacts of el niño on terrestrial moisture recycling",
+      "Paper 4: Influence of Land–Atmosphere Coupling on Low Temperature Extremes Over Southern Eurasia"
+    ],
+    "innovation_insights": [
+      "Investigate the feedback mechanisms between Indian monsoon heating, Rossby wave propagation, and East Asian rainfall dynamics. This could explore how changes in diabatic heating affect atmospheric wave generation and propagation, and vice versa.",
+      "Quantify the subseasonal predictability of East Asian summer rainfall based on Indian monsoon heating under different climate change scenarios. This would extend the findings to a climate change context.",
+      "Explore the role of moisture advection from other regions (beyond the Indian Ocean) or ocean-atmosphere interactions in modulating the ISM-EASM coupling and its impact on East Asian rainfall extremes. This broadens the scope of teleconnections."
+    ],
+    "processed_time": "2026-01-13 21:18:18"
+  },
+  "4UWK74AH": {
+    "title": "Influence of Land–Atmosphere Coupling on Low Temperature Extremes Over Southern Eurasia",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes, Processes/Soil Moisture",
+    "idea_path": "[IDEA] Coupling/Land-Atmosphere Coupling, Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Land–Atmosphere Coupling / Low Temperature Extremes / Southern Eurasia / Numerical Simulation / Climate Mechanism",
+      "suggested": "Land-Atmosphere Coupling, Low Temperature Extremes, Southern Eurasia, Soil Moisture, Surface Energy Balance, Atmospheric Circulation, Winter Extremes",
+      "reason": "The current keywords are accurate and comprehensive. The suggested keywords are similar, adding 'Soil Moisture' and 'Surface Energy Balance' as key mechanisms discussed in the paper, and 'Winter Extremes' for specificity. 'Climate Mechanism' is broad and can be implied by the other terms."
+    },
+    "related_papers": [
+      "Paper 3: East asian summer rainfall stimulated by subseasonal Indian monsoonal heating"
+    ],
+    "innovation_insights": [
+      "Investigate the role of other land surface characteristics (e.g., vegetation type, snow cover, soil type) in mediating the land-atmosphere coupling and its influence on low-temperature extremes in Southern Eurasia.",
+      "Extend the analysis to other regions or seasons to determine if the identified land-atmosphere coupling mechanisms are universal or region/season-specific for temperature extremes.",
+      "Explore the potential of using AI/ML models, potentially physics-informed, to better predict low-temperature extremes by capturing the complex non-linear interactions between land surface conditions and atmospheric dynamics, especially in data-scarce areas within Southern Eurasia."
+    ],
+    "processed_time": "2026-01-13 21:18:22"
+  },
+  "BFZLER4K": {
+    "title": "The role of interactive soil moisture in land drying under anthropogenic warming",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Hazards/Drought, [ARCHIVE] Methodology/Deep Learning",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Interactive Soil Moisture, Land Drying, Anthropogenic Warming, Land-Atmosphere Feedback, Relative Humidity",
+      "reason": "Keywords should capture the core elements: the role of interactive soil moisture, the outcome of land drying, the forcing (warming), the mechanism (land-atmosphere feedback), and the key variable examined (relative humidity)."
+    },
+    "related_papers": [
+      "Paper 2: Comparing the degree of land–atmosphere interaction in four atmospheric general circulation models",
+      "Paper 1: Thermally direct mesoscale circulations caused by land surface roughness anomalies",
+      "Paper 3: Atmospheric rivers emerge as future freshwater reserves and heat stocks"
+    ],
+    "innovation_insights": [
+      "New insights into the drivers of land drying under warming, highlighting the dominant role of internal land-atmosphere feedbacks over P-E changes or oceanic influence.",
+      "Opportunity to investigate the causal chain from radiative forcing -> CO2 effects -> soil moisture reduction -> relative humidity decrease in more detail, potentially using attribution methods or advanced modeling.",
+      "Future work could explore whether similar interactive soil moisture feedbacks are critical for other hydroclimatic extremes beyond general land drying, such as flash droughts or heatwaves.",
+      "The study suggests a need to re-evaluate climate model assumptions about land-atmosphere coupling, particularly the representation of interactive soil moisture, and its impact on projected future conditions."
+    ],
+    "processed_time": "2026-01-13 21:18:47"
+  },
+  "QIH7KX8P": {
+    "title": "Thermally direct mesoscale circulations caused by land surface roughness anomalies",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Hazards/Flood, [ARCHIVE] Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, [IDEA] Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Surface roughness (地表粗糙度) Mesoscale circulations (中尺度环流) Precipitation (降水) Sensible heat flux (显热通量) Cloud-permitting simulations (云允许模拟)",
+      "suggested": "Land Surface Roughness Anomalies, Differential Heating, Thermally Direct Mesoscale Circulations, Precipitation Formation, Cloud-Permitting Models, Land Use Change Impacts",
+      "reason": "The current keywords are good but can be more specific. 'Differential heating' is a key driver. Explicitly mentioning 'Land Use Change Impacts' would broaden applicability. 'Precipitation Formation' is more descriptive than just 'Precipitation'."
+    },
+    "related_papers": [
+      "Paper 0: The role of interactive soil moisture in land drying under anthropogenic warming",
+      "Paper 2: Comparing the degree of land–atmosphere interaction in four atmospheric general circulation models",
+      "Paper 3: Atmospheric rivers emerge as future freshwater reserves and heat stocks"
+    ],
+    "innovation_insights": [
+      "This paper introduces a novel mechanism where land surface roughness anomalies can directly trigger mesoscale circulations and precipitation through differential heating, independent of typical convergence-driven mechanisms.",
+      "This suggests new avenues for understanding extreme precipitation events in areas with significant land use changes (deforestation, urbanization, wind farms), where roughness heterogeneity is pronounced.",
+      "Future research could explore the quantitative contribution of this mechanism to extreme rainfall events in specific regions and its interplay with larger-scale weather patterns.",
+      "The findings imply that climate models might need to better represent land surface heterogeneity and its impact on atmospheric boundary layer processes to accurately simulate local weather and precipitation, especially in regions with significant land cover modification."
+    ],
+    "processed_time": "2026-01-13 21:18:51"
+  },
+  "PUQYJUN4": {
+    "title": "Comparing the degree of land–atmosphere interaction in four atmospheric general circulation models",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion, [ARCHIVE] Applications/Water Resources Management, [ARCHIVE] Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Land-Atmosphere Interaction Degree, General Circulation Models (GCMs), Climate Model Evaluation, Hydrological Processes",
+      "reason": "The paper's core contribution is comparing the strength of land-atmosphere interaction across different GCMs, which is fundamental for understanding their hydrological behavior and potential biases. Including 'Hydrological Processes' broadens the scope."
+    },
+    "related_papers": [
+      "Paper 0: The role of interactive soil moisture in land drying under anthropogenic warming",
+      "Paper 1: Thermally direct mesoscale circulations caused by land surface roughness anomalies",
+      "Paper 4: A regionally refined quarter-degree global atmospheric rivers database based on ERA5"
+    ],
+    "innovation_insights": [
+      "This paper highlights the critical need to quantify and compare the degree of land-atmosphere interaction across different GCMs, as this significantly impacts simulated hydroclimate and extreme events.",
+      "It suggests that future GCM development should focus on improving the representation of land-atmosphere coupling, potentially through better parameterizations or data assimilation.",
+      "This work can inform efforts to select appropriate GCMs for specific regional hydroclimate impact studies and provides a framework for evaluating model fidelity in representing key land-surface feedbacks.",
+      "The study could spur research into developing diagnostic metrics for land-atmosphere coupling strength that can be applied to both models and observations, facilitating more robust model intercomparison and validation."
+    ],
+    "processed_time": "2026-01-13 21:18:55"
+  },
+  "XRNKCJCQ": {
+    "title": "Atmospheric rivers emerge as future freshwater reserves and heat stocks",
+    "archive_path": "[ARCHIVE] Hazards/Compound Events/DFA, [ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions, [IDEA] Modeling/Causal Inference",
+    "keyword_assessment": {
+      "current": "Atmospheric rivers (大气河流) / Hydroclimate (区域水文气候) / Moisture & Energy Transport (湿静能与经向输送) / CMIP6 情景投影 / 气候归因（FAR）/ 流域水量收支",
+      "suggested": "Atmospheric Rivers, Future Freshwater Reserves, Heat Stocks, Meridional Energy Transport, Extreme Precipitation, Climate Attribution (FAR), CMIP6 Projections",
+      "reason": "The current keywords are good but could be slightly refined for conciseness and impact. 'Future Freshwater Reserves' and 'Heat Stocks' are key framing concepts. 'Meridional Energy Transport' is more precise. 'Climate Attribution (FAR)' is good but adding 'Extreme Precipitation' highlights a key consequence."
+    },
+    "related_papers": [
+      "Paper 4: A regionally refined quarter-degree global atmospheric rivers database based on ERA5",
+      "Paper 1: Thermally direct mesoscale circulations caused by land surface roughness anomalies",
+      "Paper 0: The role of interactive soil moisture in land drying under anthropogenic warming"
+    ],
+    "innovation_insights": [
+      "This paper frames Atmospheric Rivers (ARs) as future 'freshwater reserves' and 'heat stocks,' offering a novel perspective on their role in a warming climate and their potential for both water supply and extreme event intensification.",
+      "It highlights the significant poleward shift and increased intensity of ARs, leading to heightened flood risk in mid-latitudes and potentially exacerbating heat extremes, suggesting new research into managing these dual threats.",
+      "The paper's attribution of AR changes to warming (via FAR) provides a clear direction for future studies on the specific climate change signals within AR dynamics and their hydroclimatic impacts.",
+      "Future work could investigate the hydrological consequences of these intensified ARs, including their impact on soil moisture dynamics, groundwater recharge, and the potential for flash drought initiation or exacerbation in regions impacted by ARs but also experiencing drying trends."
+    ],
+    "processed_time": "2026-01-13 21:19:00"
+  },
+  "IXMKUAAF": {
+    "title": "A regionally refined quarter-degree global atmospheric rivers database based on ERA5",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), [IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Atmospheric rivers (大气河流) ERA5 reanalysis (ERA5再分析) Integrated water vapor transport (综合水汽输送) Climate change (气候变化) Data assimilation (数据同化)",
+      "suggested": "Atmospheric Rivers Database, ERA5, High-Resolution AR Detection, Tropical and Polar ARs, Spatio-temporal Variability, Climate Change Impact Assessment",
+      "reason": "The current keywords are relevant but could be more specific to the paper's contribution, which is the creation of a refined database. 'High-Resolution AR Detection' and 'Spatio-temporal Variability' better capture the novelty. Explicitly mentioning 'Climate Change Impact Assessment' reflects the database's application."
+    },
+    "related_papers": [
+      "Paper 3: Atmospheric rivers emerge as future freshwater reserves and heat stocks",
+      "Paper 1: Thermally direct mesoscale circulations caused by land surface roughness anomalies",
+      "Paper 2: Comparing the degree of land–atmosphere interaction in four atmospheric general circulation models"
+    ],
+    "innovation_insights": [
+      "This paper provides a crucial, high-resolution global database of atmospheric rivers (ARs), enabling more accurate and detailed analysis of AR behavior across different regions, including tropics and poles, which were previously undersampled.",
+      "The refined database is a fundamental resource for validating AR representation in climate models, assessing climate change impacts on ARs, and improving AR-related forecasting and early warning systems.",
+      "Future research can leverage this database to investigate finer-scale AR dynamics, their interaction with local land surface conditions (e.g., Paper 1), and their contribution to specific extreme events, such as heavy precipitation or flood risk.",
+      "The improved detection algorithm itself suggests opportunities for applying similar refinement techniques to other meteorological phenomena or for further enhancing AR detection in future reanalysis datasets or climate model outputs."
+    ],
+    "processed_time": "2026-01-13 21:19:05"
+  },
+  "5RV7V94S": {
+    "title": "The role of atmospheric rivers in the distribution of heavy precipitation events over North America",
+    "archive_path": "[ARCHIVE] Hazards/Flood/Heavy Precipitation, Methodology/Data Fusion, Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, Mechanism/Land-Atmosphere Coupling, Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "大气河流",
+      "suggested": "Atmospheric Rivers, Heavy Precipitation, Spatial-Temporal Synchronization, North America",
+      "reason": "The current keyword is too broad. Expanding it to include the phenomenon (ARs), the event type (Heavy Precipitation), the focus of analysis (Spatial-Temporal Synchronization), and the region (North America) would improve searchability and specificity."
+    },
+    "related_papers": [
+      "The role of external and local atmospheric moisture fluxes in the interannual variability of peak summer precipitation over the northern fringe of the East Asian summer monsoon",
+      "A global poleward shift of atmospheric rivers",
+      "Recent opposite trends of atmospheric rivers over east asia and western north pacific driven by the pacific decadal oscillation",
+      "Role of atmospheric rivers in shaping long term arctic moisture variability"
+    ],
+    "innovation_insights": [
+      "Investigate the impact of ARs on the synchronization of extreme precipitation events across different river basins and its implications for flood risk management.",
+      "Develop advanced statistical or machine learning models to predict the probability and intensity of synchronized heavy precipitation events driven by ARs.",
+      "Explore the role of AR interactions with local hydrological processes (e.g., antecedent soil moisture) in modulating the timing and magnitude of heavy precipitation."
+    ],
+    "processed_time": "2026-01-13 21:19:27"
+  },
+  "QAZRU9DN": {
+    "title": "The role of external and local atmospheric moisture fluxes in the interannual variability of peak summer precipitation over the northern fringe of the East Asian summer monsoon",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Runoff & Streamflow, Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Coupling/Vegetation-Water Interaction, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "水汽输送",
+      "suggested": "Moisture Fluxes, Precipitation Variability, East Asia Summer Monsoon, Water Budget, Interannual Variability",
+      "reason": "The current keyword '水汽输送' (moisture transport) is a key component but too general. More specific keywords would better capture the paper's focus on external vs. local fluxes, their role in interannual precipitation variability, and the specific region and monsoon system."
+    },
+    "related_papers": [
+      "The role of atmospheric rivers in the distribution of heavy precipitation events over North America",
+      "A global poleward shift of atmospheric rivers",
+      "Recent opposite trends of atmospheric rivers over east asia and western north pacific driven by the pacific decadal oscillation"
+    ],
+    "innovation_insights": [
+      "Quantify the contribution of local ET versus large-scale moisture transport to drought onset and intensification in monsoon regions.",
+      "Investigate how changes in land surface conditions (e.g., vegetation cover, soil moisture) due to climate change alter the balance between local and external moisture sources, impacting precipitation variability.",
+      "Develop hybrid models that combine atmospheric moisture budget analysis with land surface models to better understand and predict interannual precipitation variability in monsoon regions."
+    ],
+    "processed_time": "2026-01-13 21:19:30"
+  },
+  "WLLC57BZ": {
+    "title": "A global poleward shift of atmospheric rivers",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Hazards/Heatwaves & Extremes, Processes/Runoff & Streamflow, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Dynamics/Tipping Points, Mechanism/Feedback Loops & Cascades, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Atmospheric Rivers, Poleward Shift, Climate Change, SST Variability, Eddy-Mean Flow Feedback, ENSO",
+      "suggested": "Atmospheric Rivers, Poleward Shift, Climate Change, Tropical-Extratropical Teleconnections, Eddy-Mean Flow Feedback, ENSO",
+      "reason": "The current keywords are good and comprehensive. Adding 'Tropical-Extratropical Teleconnections' explicitly highlights the mechanism by which SST variability in the tropics influences high-latitude AR behavior, which is a core aspect of the paper."
+    },
+    "related_papers": [
+      "The role of atmospheric rivers in the distribution of heavy precipitation events over North America",
+      "The role of external and local atmospheric moisture fluxes in the interannual variability of peak summer precipitation over the northern fringe of the East Asian summer monsoon",
+      "Recent opposite trends of atmospheric rivers over east asia and western north pacific driven by the pacific decadal oscillation",
+      "Role of atmospheric rivers in shaping long term arctic moisture variability"
+    ],
+    "innovation_insights": [
+      "Investigate the impact of AR poleward shifts on regional water availability and extreme event probabilities in newly affected higher-latitude regions.",
+      "Improve climate model parameterizations for eddy-mean flow feedback to better capture observed AR shifts and their impacts.",
+      "Explore the long-term implications of AR poleward shifts on Arctic amplification and its feedback mechanisms with global climate."
+    ],
+    "processed_time": "2026-01-13 21:19:34"
+  },
+  "4LGA5BLV": {
+    "title": "Recent opposite trends of atmospheric rivers over east asia and western north pacific driven by the pacific decadal oscillation",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Hazards/Flood/Heavy Precipitation, Processes/Runoff & Streamflow, Methodology/Data Fusion",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Mechanism/Feedback Loops & Cascades, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Atmospheric rivers (大气河流)",
+      "suggested": "Atmospheric Rivers, Pacific Decadal Oscillation (PDO), East Asia-Western North Pacific, Opposite Trends, Interdecadal Variability",
+      "reason": "The current keyword is too basic. It needs to include the primary driver (PDO), the specific region of focus (EA-WNP), and the key finding (opposite trends, interdecadal variability) to accurately reflect the paper's content."
+    },
+    "related_papers": [
+      "The role of atmospheric rivers in the distribution of heavy precipitation events over North America",
+      "The role of external and local atmospheric moisture fluxes in the interannual variability of peak summer precipitation over the northern fringe of the East Asian summer monsoon",
+      "A global poleward shift of atmospheric rivers",
+      "Role of atmospheric rivers in shaping long term arctic moisture variability"
+    ],
+    "innovation_insights": [
+      "Analyze how PDO-driven AR trends in EA-WNP influence the probability and characteristics of compound extreme events (e.g., drought followed by flood).",
+      "Investigate the physical mechanisms linking PDO phase shifts to changes in atmospheric circulation patterns that favor AR formation and transport over EA-WNP.",
+      "Utilize decadal prediction models incorporating PDO dynamics to forecast future AR activity and associated precipitation extremes in the EA-WNP region."
+    ],
+    "processed_time": "2026-01-13 21:19:39"
+  },
+  "PKPSZUYT": {
+    "title": "Role of atmospheric rivers in shaping long term arctic moisture variability",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Processes/Soil Moisture, Hazards/Drought/Flash Drought, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Coupling/Energy-Water Nexus, Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "大气河流 (AR), 北极, 水分变异, 大尺度环流, 湿度趋势",
+      "suggested": "Atmospheric Rivers, Arctic Moisture Variability, Large-Scale Circulation, Low-Frequency Variability, Summer AR Activity",
+      "reason": "The current keywords are good. Adding 'Low-Frequency Variability' and 'Summer AR Activity' would emphasize the temporal and seasonal aspects highlighted in the abstract, and potentially 'Land-Atmosphere Coupling' to reflect the mechanism."
+    },
+    "related_papers": [
+      "The role of atmospheric rivers in the distribution of heavy precipitation events over North America",
+      "A global poleward shift of atmospheric rivers",
+      "Recent opposite trends of atmospheric rivers over east asia and western north pacific driven by the pacific decadal oscillation"
+    ],
+    "innovation_insights": [
+      "Quantify the impact of increased Arctic AR activity on permafrost thaw and associated carbon release.",
+      "Investigate the role of Arctic ARs in modulating sea ice extent and albedo feedbacks.",
+      "Develop high-resolution models to simulate AR impacts on Arctic hydrological processes and their contribution to long-term moisture variability, potentially linking to flash drought development in surrounding regions."
+    ],
+    "processed_time": "2026-01-13 21:19:43"
+  },
+  "JY4NY2Y2": {
+    "title": "Globally increasing atmospheric aridity over the 21st century",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Atmospheric Demand, Hazards/Drought/Drought Characterization, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity, Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "蒸气压亏缺, 大气干旱, 气候变化, CMIP6, 陆地生态系统 Vapor pressure deficit, Atmospheric aridity, Climate change, CMIP6, Terrestrial ecosystems",
+      "suggested": "Atmospheric Aridity, Vapor Pressure Deficit (VPD), Climate Change, CMIP6, Terrestrial Ecosystems, Trend Analysis, Global",
+      "reason": "Keywords are generally good but could be more specific and comprehensive. Adding 'Trend Analysis' and 'Global' would better reflect the study's scope and findings. The inclusion of Chinese characters alongside English is good for bilingual indexing."
+    },
+    "related_papers": [
+      "Sub-diurnal asymmetric warming has amplified atmospheric dryness since the 1980s",
+      "Impact of diurnal temperature and relative humidity hysteresis on atmospheric dryness in changing climates"
+    ],
+    "innovation_insights": [
+      "New research could explore the specific impacts of increasing atmospheric aridity on different terrestrial ecosystems, particularly in drought-prone regions, and investigate adaptive strategies for these systems.",
+      "Gaps that could be addressed in future work include refining regional projections of VPD increase, incorporating finer-scale climatic variations, and exploring the feedback mechanisms between increasing atmospheric aridity and other climate variables (e.g., soil moisture, precipitation patterns)."
+    ],
+    "processed_time": "2026-01-13 21:19:58"
+  },
+  "BKYL3X53": {
+    "title": "Sub-diurnal asymmetric warming has amplified atmospheric dryness since the 1980s",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Atmospheric Demand, Hazards/Drought/Drought Characterization, Methodology/Statistical Methods/Regression, Methodology/Deep Learning (LSTM_CNN)/Machine Learning",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "VPD；Tmax / Tmin；DTR（日较差）；ERA5-Land；HadISD；FLUXNET；Ridge 回归；Random Forest + SHAP；相对湿度（RH）",
+      "suggested": "Atmospheric Dryness, Vapor Pressure Deficit (VPD), Diurnal Temperature Range (DTR), Asymmetric Warming, Land-Atmosphere Interaction, ERA5-Land, Observational Data, Machine Learning, SHAP",
+      "reason": "The current keywords accurately capture the core concepts. Suggested keywords add broader terms like 'Atmospheric Dryness' and 'Land-Atmosphere Interaction', and specify 'Asymmetric Warming' and 'Machine Learning' for better discoverability within AI/ML contexts."
+    },
+    "related_papers": [
+      "Globally increasing atmospheric aridity over the 21st century",
+      "Impact of diurnal temperature and relative humidity hysteresis on atmospheric dryness in changing climates"
+    ],
+    "innovation_insights": [
+      "This paper suggests research into the physical pathways through which asymmetric diurnal warming (Tmax vs. Tmin trends) influences land-atmosphere water exchange and its broader implications for hydrological cycles and carbon sequestration.",
+      "Future work could focus on quantifying the attribution of observed VPD trends to specific components of diurnal temperature asymmetry across various climate zones and investigating how this phenomenon interacts with other drivers of atmospheric dryness."
+    ],
+    "processed_time": "2026-01-13 21:20:04"
+  },
+  "RFBXA4ZV": {
+    "title": "Impact of diurnal temperature and relative humidity hysteresis on atmospheric dryness in changing climates",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Atmospheric Demand, Hazards/Drought/Drought Characterization, Methodology/Statistical Methods/Phase Analysis, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change, Dynamics/Non-linearity & Complexity, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "VPD；日内迟滞（T/RH hysteresis）；相位差（tφ）；ERA5-Land；HadISD；FLUXNET；PGW（伪全球变暖）；云雾林/临海—临湖生态",
+      "suggested": "VPD, Diurnal Hysteresis, Temperature-Humidity Phase Lag, Atmospheric Dryness, Climate Change Impact, Land-Atmosphere Feedback, ERA5-Land, Observational Data",
+      "reason": "The current keywords are specific and relevant. Suggested keywords include 'Atmospheric Dryness' and 'Climate Change Impact' for broader context, and 'Temperature-Humidity Phase Lag' for a more descriptive term than 'hysteresis'."
+    },
+    "related_papers": [
+      "Globally increasing atmospheric aridity over the 21st century",
+      "Sub-diurnal asymmetric warming has amplified atmospheric dryness since the 1980s"
+    ],
+    "innovation_insights": [
+      "This research opens avenues for investigating the role of diurnal phase lags between temperature and humidity in modulating evaporative demand and its sensitivity to warming across different topographies and land cover types.",
+      "Future research could quantify the impact of weakened diurnal hysteresis on ecosystem water stress and carbon uptake dynamics, and develop improved land surface models that explicitly account for these sub-daily phase relationships."
+    ],
+    "processed_time": "2026-01-13 21:20:08"
+  },
+  "ZJMD8YVB": {
+    "title": "Global daily 1 km gapless XCO₂ (2003−2023) derived from multi-satellite observations and a spatiotemporal deep learning framework",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Spatiotemporal Models, Methodology/Remote Sensing/Satellite Data Fusion, Applications/Climate Change Impact/Carbon Cycle",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Signal Purification/Uncertainty, Modeling/Physics-Informed AI (potential, if physics is implicitly used)",
+    "keyword_assessment": {
+      "current": "Spatiotemporal Deep Learning / XCO₂ / Gapless Dataset / Satellite Remote Sensing / Carbon Cycle",
+      "suggested": "XCO₂ Dataset, Spatiotemporal Deep Learning, Satellite Data Fusion, Carbon Cycle, Gapless Data, High Resolution, Multi-Source Data",
+      "reason": "The current keywords are accurate. 'Gapless Dataset' and 'High Resolution' are key contributions that could be emphasized. 'Satellite Data Fusion' is also a crucial aspect of the methodology."
+    },
+    "related_papers": [
+      "Global daily 1 km gapless XCO₂ (2003−2023) derived from multi-satellite observations and a spatiotemporal deep learning framework"
+    ],
+    "innovation_insights": [
+      "This paper suggests the development of high-resolution, gapless global datasets for other key atmospheric variables using similar spatiotemporal deep learning frameworks, which could greatly enhance climate modeling and impact studies.",
+      "Future work could focus on validating the XCO₂ product against in-situ measurements with higher fidelity, investigating the uncertainties associated with the deep learning model, and exploring its application to other greenhouse gases or atmospheric constituents."
+    ],
+    "processed_time": "2026-01-13 21:20:13"
+  },
+  "E8IZFMJI": {
+    "title": "Global daily 1 km gapless XCO₂ (2003−2023) derived from multi-satellite observations and a spatiotemporal deep learning framework",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Spatiotemporal Models, Methodology/Remote Sensing/Satellite Data Fusion, Applications/Climate Change Impact/Carbon Cycle",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Signal Purification/Uncertainty, Modeling/Physics-Informed AI (potential, if physics is implicitly used)",
+    "keyword_assessment": {
+      "current": "Spatiotemporal Deep Learning / XCO₂ / Satellite Data / Climate Change / Data Product",
+      "suggested": "XCO₂ Dataset, Spatiotemporal Deep Learning, Satellite Data, Carbon Cycle Monitoring, Gapless Data Product, High Resolution, Multi-Source Data",
+      "reason": "Keywords are relevant and cover the main aspects. 'Gapless Data Product' and 'High Resolution' highlight the novelty. 'Satellite Data' is broad; 'Satellite Data Fusion' could be more specific if applicable to the core method."
+    },
+    "related_papers": [
+      "Global daily 1 km gapless XCO₂ (2003−2023) derived from multi-satellite observations and a spatiotemporal deep learning framework"
+    ],
+    "innovation_insights": [
+      "This work paves the way for creating comprehensive, high-resolution global datasets for critical environmental variables by leveraging advanced deep learning techniques and integrating diverse satellite observations.",
+      "Potential future research could involve refining the deep learning architecture for improved accuracy and robustness, assessing the impact of data gaps and spatio-temporal resolutions on carbon flux inversions, and extending this methodology to generate datasets for other climate-relevant variables."
+    ],
+    "processed_time": "2026-01-13 21:20:16"
+  },
+  "YCNSTL6E": {
+    "title": "Land‐atmosphere coupling constrains increases to potential evaporation in a warming climate: Implications at local and global scales",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Potential Evaporation; Methodology/Statistical Methods; Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling; Modeling/Hybrid Modeling (Process+ML); Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "陆地-大气耦合, 潜在蒸发, 地表通量平衡, 气候变暖, 水资源管理",
+      "suggested": "Land-Atmosphere Coupling, Potential Evaporation, Surface Flux Balance, Climate Warming, Water Resources Management, Evaporation Models, Budyko Model",
+      "reason": "Keywords cover key concepts but could be more specific regarding the type of models discussed (e.g., evaporation models, Budyko model) and the core process of land-atmosphere coupling."
+    },
+    "related_papers": [
+      "Relative humidity gradients as a key constraint on terrestrial water and energy fluxes",
+      "Increased atmospheric vapor pressure deficit reduces global vegetation growth",
+      "High-resolution global atmospheric moisture connections from evaporation to precipitation"
+    ],
+    "innovation_insights": [
+      "Develop and validate novel potential evaporation (PE) models that explicitly incorporate land-atmosphere coupling mechanisms to improve accuracy under warming conditions.",
+      "Investigate the quantitative impacts of land-atmosphere coupling on mitigating continental drying trends, with implications for drought forecasting and water resource planning.",
+      "Integrate the proposed PE model with the Budyko framework for more robust runoff and climate impact predictions at various scales.",
+      "Explore the spatial and temporal variability of the 'slowdown' in land PE increase compared to current PE models and identify regions most sensitive to this feedback."
+    ],
+    "processed_time": "2026-01-13 21:20:41"
+  },
+  "TINDKKXE": {
+    "title": "Relative humidity gradients as a key constraint on terrestrial water and energy fluxes",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Land Evapotranspiration; Methodology/Statistical Methods; Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling; Modeling/Hybrid Modeling (Process+ML); Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "相对湿度梯度, 陆地蒸散, 潜热通量, 大气表层, 地表干燥",
+      "suggested": "Relative Humidity Gradient, Terrestrial Evapotranspiration, Latent Heat Flux, Atmospheric Boundary Layer, Surface Dryness, Evaporation Modeling, Penman-Monteith Equation",
+      "reason": "Keywords are accurate but could benefit from including the broader context of evaporation modeling and its relation to established methods like Penman-Monteith, as well as the concept of atmospheric boundary layer dynamics."
+    },
+    "related_papers": [
+      "Land‐atmosphere coupling constrains increases to potential evaporation in a warming climate: Implications at local and global scales",
+      "Increased atmospheric vapor pressure deficit reduces global vegetation growth",
+      "High-resolution global atmospheric moisture connections from evaporation to precipitation"
+    ],
+    "innovation_insights": [
+      "Develop and test a new generation of evaporation models that leverage the joint evolution of near-surface atmospheric relative humidity and surface relative humidity, reducing reliance on complex surface resistance parameterizations.",
+      "Quantify the role of relative humidity gradients and atmospheric boundary layer thermodynamics in constraining terrestrial water and energy fluxes, especially under drought conditions.",
+      "Investigate the transferability and performance of this novel physical evaporation model across diverse land cover types and climate zones.",
+      "Explore how changes in relative humidity gradients, driven by climate change, can serve as an early indicator of land surface drying and potential agricultural stress."
+    ],
+    "processed_time": "2026-01-13 21:20:46"
+  },
+  "RZ53F5KH": {
+    "title": "Increased atmospheric vapor pressure deficit reduces global vegetation growth",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Potential Evaporation; Hazards/Drought/Flash Drought; Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling; Dynamics/Non-linearity & Complexity; Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "Unclassified",
+      "suggested": "Atmospheric Vapor Pressure Deficit (VPD), Vegetation Growth, Terrestrial Ecosystems, Climate Change, Drought Stress, Evapotranspiration",
+      "reason": "The provided excerpt lacks explicit keywords. Based on the title and abstract information, these keywords capture the main themes: the impact of VPD, its effect on vegetation, and the context of climate change and drought."
+    },
+    "related_papers": [
+      "Land‐atmosphere coupling constrains increases to potential evaporation in a warming climate: Implications at local and global scales",
+      "Relative humidity gradients as a key constraint on terrestrial water and energy fluxes",
+      "High-resolution global atmospheric moisture connections from evaporation to precipitation"
+    ],
+    "innovation_insights": [
+      "Quantify the global impact of increasing atmospheric vapor pressure deficit (VPD) on different vegetation types and land ecosystems, identifying vulnerable regions and species.",
+      "Investigate the biophysical mechanisms through which elevated VPD constrains global vegetation growth, beyond simple stomatal closure.",
+      "Explore the potential for using VPD as a key indicator for predicting widespread vegetation stress and reduced carbon uptake under future climate scenarios.",
+      "Develop strategies for ecosystem management and agricultural practices that can mitigate the negative impacts of rising VPD on plant productivity."
+    ],
+    "processed_time": "2026-01-13 21:20:53"
+  },
+  "GXI7GZLD": {
+    "title": "High-resolution global atmospheric moisture connections from evaporation to precipitation",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow; Processes/Evapotranspiration (ET); Methodology/Data Fusion; Methodology/Lagrangian Model",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration; Modeling/Hybrid Modeling (Process+ML); Dynamics/Drought-Flood Transitions",
+    "keyword_assessment": {
+      "current": "Atmospheric Moisture Flow / Lagrangian Model / ERA5 / Hydrological Cycle / Data Synthesis",
+      "suggested": "Atmospheric Moisture Transport, Lagrangian Model, ERA5 Reanalysis, Hydrological Cycle, Water Vapor Flux, Evaporation-Precipitation Linkage, Moisture Recycling",
+      "reason": "Current keywords are good and descriptive. Adding 'Water Vapor Flux', 'Evaporation-Precipitation Linkage', and 'Moisture Recycling' can further specify the core findings and analytical focus."
+    },
+    "related_papers": [
+      "Land‐atmosphere coupling constrains increases to potential evaporation in a warming climate: Implications at local and global scales",
+      "Relative humidity gradients as a key constraint on terrestrial water and energy fluxes",
+      "Increased atmospheric vapor pressure deficit reduces global vegetation growth"
+    ],
+    "innovation_insights": [
+      "Utilize the high-resolution global atmospheric moisture connection dataset to trace the pathways and origins of moisture, improving understanding of regional water resource dependency and teleconnections.",
+      "Investigate the role of land-atmosphere coupling in the continental moisture recycling ratio (e.g., 70% of land evaporation returns to land) and its spatial variations.",
+      "Apply the dataset to analyze extreme events, such as atmospheric rivers or drought formation, by understanding the dynamics of moisture transport.",
+      "Integrate this dataset with land surface models and climate models to enhance simulations of the hydrological cycle and its response to land-use or climate change."
+    ],
+    "processed_time": "2026-01-13 21:20:58"
+  },
+  "RIIQDESA": {
+    "title": "Present and future Köppen-Geiger climate classification maps at 1-km resolution",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion; Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal); Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Climate Classification / Köppen-Geiger / Spatial Resolution / Climate Change Projection",
+      "suggested": "Climate Classification, Köppen-Geiger Classification, High Resolution Data, Climate Change Projections, Data Accuracy, Spatial Downscaling",
+      "reason": "Keywords are relevant. Adding 'High Resolution Data', 'Data Accuracy', and 'Spatial Downscaling' better reflects the paper's contribution of providing a refined and accurate high-resolution dataset for climate analysis."
+    },
+    "related_papers": [
+      "Land‐atmosphere coupling constrains increases to potential evaporation in a warming climate: Implications at local and global scales",
+      "Relative humidity gradients as a key constraint on terrestrial water and energy fluxes",
+      "Increased atmospheric vapor pressure deficit reduces global vegetation growth",
+      "High-resolution global atmospheric moisture connections from evaporation to precipitation"
+    ],
+    "innovation_insights": [
+      "Leverage the 1-km resolution Köppen-Geiger climate classification maps to downscale climate change impact studies and hydrological models, revealing finer-scale climate zone shifts.",
+      "Analyze the implications of high-resolution climate classification changes for localized water resource management, agricultural suitability, and ecosystem vulnerability assessments.",
+      "Investigate the sensitivity of hydrological processes and climate extremes (e.g., flash droughts, floods) to shifts in climate classifications at a fine spatial scale.",
+      "Explore the potential for integrating these updated climate classification maps with other high-resolution datasets (e.g., soil type, topography) for enhanced regional climate impact modeling."
+    ],
+    "processed_time": "2026-01-13 21:21:04"
+  },
+  "MN2KV2VC": {
+    "title": "Global 3-Hourly 0.1° Bias-Corrected Meteorological Data Including Near-Real-Time Updates and Forecast Ensembles",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Data Fusion, Methodology/Remote Sensing/Retrieval, Applications/Early Warning Systems, Hazards/Drought/Flash Drought, Hazards/Flood, Hazards/Heatwaves & Extremes",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML), Dynamics/Rapid Onset Events, Dynamics/Drought-Flood Transitions",
+    "keyword_assessment": {
+      "current": "Meteorological Data / Near-Real-Time Updates / Forecast Ensembles / Hydrological Modeling",
+      "suggested": "Meteorological Data / Bias Correction / Near-Real-Time Updates / Forecast Ensembles / Hydrological Modeling / Climate Data Products / Global Datasets",
+      "reason": "Keywords are accurate but could be more comprehensive by including terms like 'Bias Correction' (mentioned in the title), 'Climate Data Products', and 'Global Datasets' to better capture the scope and specific methodology of the paper."
+    },
+    "related_papers": [
+      "Paper 1: TerraClimate, a high-resolution global dataset of monthly climate and climatic water balance from 1958-2015",
+      "Paper 2: The 30 year TAMSAT African Rainfall Climatology And Time series (TARCAT) data set: 30-YEAR AFRICAN RAINFALL DATASET",
+      "Paper 3: A comparison of statistical and model-based downscaling techniques for estimating local climate variations"
+    ],
+    "innovation_insights": [
+      "This paper suggests the development of advanced hydrological models that can directly ingest high-resolution, near-real-time meteorological data with ensemble forecasts, potentially leading to more accurate and timely flood and drought predictions.",
+      "The availability of a seamless, long-term dataset with near-real-time updates opens avenues for studying the rapid onset and evolution of hydrological extremes (e.g., flash droughts) and for building robust AI models that leverage both historical and current conditions.",
+      "Future work could explore the optimal integration strategies for such diverse data sources within AI-driven hydrological forecasting systems, focusing on how to best utilize ensemble forecasts for uncertainty quantification in hydrological predictions.",
+      "The paper's bias-correction and downscaling aspects could inspire research into improving the quality and resolution of other meteorological datasets for specific hydrological applications."
+    ],
+    "processed_time": "2026-01-13 21:21:35"
+  },
+  "C64XDWDX": {
+    "title": "TerraClimate, a high-resolution global dataset of monthly climate and climatic water balance from 1958-2015",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Processes/Soil Moisture, Processes/Evapotranspiration (ET), Hazards/Drought/Flash Drought, Applications/Water Resources Management, Applications/Climate Change Impact, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Dynamics/Tipping Points, Data Philosophy/Scale Issues (Spatial_Temporal), Data Philosophy/Multi-Source Integration, Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "No keywords provided",
+      "suggested": "Climate Data / Water Balance / TerraClimate / Global Dataset / Monthly Climate / Soil Moisture / ET / Drought",
+      "reason": "The paper is a foundational dataset paper. Keywords should reflect its content: global coverage, monthly temporal resolution, climate variables, and water balance components like soil moisture and ET, which are crucial for hydrological applications."
+    },
+    "related_papers": [
+      "Paper 0: Global 3-hourly 0.1° Bias-Corrected Meteorological Data Including Near-Real-Time Updates and Forecast Ensembles",
+      "Paper 2: The 30 year TAMSAT African Rainfall Climatology And Time series (TARCAT) data set: 30-YEAR AFRICAN RAINFALL DATASET"
+    ],
+    "innovation_insights": [
+      "This dataset provides a high-resolution, long-term baseline for studying climate variability and its impact on water resources, particularly for understanding drought dynamics and water balance at regional to global scales.",
+      "It can serve as a crucial input for developing and validating AI models for predicting hydrological variables (ET, soil moisture) and assessing drought risk, especially in data-scarce regions where ground observations are limited.",
+      "Future research could focus on integrating TerraClimate data with near-real-time or higher-frequency datasets (like from Paper 0) to extend drought monitoring and early warning systems beyond monthly timescales.",
+      "The dataset's monthly resolution could be a limitation for flash drought studies; future work might involve developing methods to disaggregate or infer finer-scale variability from this monthly product, potentially using AI techniques."
+    ],
+    "processed_time": "2026-01-13 21:21:42"
+  },
+  "PAF63D2X": {
+    "title": "The 30 year TAMSAT African Rainfall Climatology And Time series (TARCAT) data set: 30-YEAR AFRICAN RAINFALL DATASET",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Processes/Runoff & Streamflow, Hazards/Drought/Flash Drought, Applications/Early Warning Systems, Applications/Agricultural Systems, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Data Philosophy/Multi-Source Integration, Dynamics/Rapid Onset Events, Dynamics/Drought-Flood Transitions, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Rainfall Dataset / Satellite Remote Sensing / Climate Variability / Africa",
+      "suggested": "Rainfall Dataset / Satellite Remote Sensing / Africa / Drought Monitoring / Climate Variability / TARCAT",
+      "reason": "Keywords are good but could be enhanced by specifically mentioning 'Drought Monitoring' as a key application area and including the dataset's acronym 'TARCAT' for easier retrieval. The focus on Africa is appropriate."
+    },
+    "related_papers": [
+      "Paper 0: Global 3-hourly 0.1° Bias-Corrected Meteorological Data Including Near-Real-Time Updates and Forecast Ensembles",
+      "Paper 1: TerraClimate, a high-resolution global dataset of monthly climate and climatic water balance from 1958-2015",
+      "Paper 3: A comparison of statistical and model-based downscaling techniques for estimating local climate variations"
+    ],
+    "innovation_insights": [
+      "The TARCAT dataset is vital for drought monitoring and early warning systems in Africa, where rainfall is highly variable and often the primary driver of water stress and agricultural impacts.",
+      "Its 30-year record, derived from satellite data and calibrated with ground observations, provides a valuable resource for training and validating AI models aimed at detecting drought onset, intensity, and spatial extent, especially flash droughts.",
+      "Future research could involve fusing TARCAT data with other meteorological variables (e.g., temperature, ET from Paper 1 or 0) to develop more comprehensive drought indices or AI-based prediction models tailored for African contexts.",
+      "The paper highlights the challenges of rainfall estimation in data-sparse regions, encouraging further work on robust satellite rainfall retrieval algorithms and their validation, potentially leveraging AI for improved bias correction and uncertainty estimation."
+    ],
+    "processed_time": "2026-01-13 21:21:49"
+  },
+  "EFEDB2EZ": {
+    "title": "A comparison of statistical and model-based downscaling techniques for estimating local climate variations",
+    "archive_path": "[ARCHIVE] Methodology/Statistical Methods, Methodology/Deep Learning (LSTM_CNN)/Downscaling, Methodology/Remote Sensing/Retrieval, Processes/Runoff & Streamflow, Processes/Soil Moisture",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML), Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Statistical Downscaling / Regional Climate Model / Temperature / Precipitation / New Zealand",
+      "suggested": "Statistical Downscaling / Regional Climate Model / Temperature / Precipitation / Downscaling Techniques / Climate Variability / Complex Terrain",
+      "reason": "Current keywords are specific but could be broadened to include 'Downscaling Techniques' as a general methodology and 'Complex Terrain' as a key factor influencing method choice. 'Climate Variability' is also a relevant outcome."
+    },
+    "related_papers": [
+      "Paper 0: Global 3-hourly 0.1° Bias-Corrected Meteorological Data Including Near-Real-Time Updates and Forecast Ensembles",
+      "Paper 2: The 30 year TAMSAT African Rainfall Climatology And Time series (TARCAT) data set: 30-YEAR AFRICAN RAINFALL DATASET"
+    ],
+    "innovation_insights": [
+      "This paper's comparison of statistical and model-based downscaling techniques is highly relevant for generating high-resolution climate inputs needed for hydrological modeling, especially in regions with complex topography.",
+      "It suggests that AI-driven downscaling methods (e.g., deep learning) could be explored as a modern, potentially more efficient, alternative to traditional statistical methods, especially when integrating with reanalysis or GCM outputs.",
+      "Future work could investigate the performance of advanced deep learning architectures for downscaling in diverse topographic and climatic settings, comparing their accuracy, computational cost, and ability to preserve physical consistency against both statistical methods and RCM outputs.",
+      "The findings on monthly anomaly prediction from monthly mean fields could inform strategies for using coarse-resolution climate model outputs for hydrological impact studies, guiding the choice of downscaling approach based on the specific variable and temporal scale of interest."
+    ],
+    "processed_time": "2026-01-13 21:21:55"
+  },
+  "4GEDKLF8": {
+    "title": "Machine learning reveals climate forcing from aerosols is dominated by increased cloud cover",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN), Methodology/Remote Sensing/Retrieval, Processes/Runoff & Streamflow, Processes/Soil Moisture, Hazards/Drought/Flash Drought, Hazards/Heatwaves & Extremes, Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Data Philosophy/Multi-Source Integration, Modeling/Hybrid Modeling (Process+ML), Mechanism/Land-Atmosphere Coupling, Mechanism/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "Aerosol-Cloud Interactions / Machine Learning / Volcanic Eruption / Cloud Fraction / Climate Forcing",
+      "suggested": "Aerosol-Cloud Interactions / Machine Learning / Volcanic Eruption / Cloud Fraction / Climate Forcing / Satellite Data / MODIS / Attribution",
+      "reason": "Keywords are accurate and highlight the core ML application. Adding 'Satellite Data', 'MODIS' (specific sensor), and 'Attribution' would improve specificity and better reflect the paper's focus on identifying causal links from observational data."
+    },
+    "related_papers": [
+      "Paper 0: Global 3-hourly 0.1° Bias-Corrected Meteorological Data Including Near-Real-Time Updates and Forecast Ensembles",
+      "Paper 1: TerraClimate, a high-resolution global dataset of monthly climate and climatic water balance from 1958-2015"
+    ],
+    "innovation_insights": [
+      "This paper demonstrates the power of machine learning for isolating subtle climate signals (e.g., aerosol-cloud interactions) from noisy observational data, suggesting potential for AI applications in attributing hydrological extremes to specific physical drivers.",
+      "The focus on aerosol-cloud interactions and their impact on climate forcing highlights complex land-atmosphere interactions that influence regional climate and, consequently, hydrological regimes. This could inspire research into AI-based attribution of meteorological droughts or heavy rainfall events to such influences.",
+      "Future work could extend this ML approach to disentangle the contributions of various factors (e.g., aerosols, land-use change, greenhouse gases) to observed changes in precipitation patterns or ET, informing climate change impact studies.",
+      "The use of a natural experiment (volcanic eruption) to validate ML models suggests opportunities for using extreme events (like major floods, heatwaves, or droughts) as training/validation datasets for AI models aimed at understanding climate system behavior and its impact on water resources."
+    ],
+    "processed_time": "2026-01-13 21:22:01"
+  },
+  "ND56CUFY": {
+    "title": "Relative Controls of Vapor Pressure Deficit and Soil Water Stress on Canopy Conductance in Global Simulations by an Earth System Model",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Canopy Conductance, Methodology/Earth System Model",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Earth System Model / Canopy Conductance / Soil Water Stress / Vapor Pressure Deficit / Plant Hydraulics",
+      "suggested": "Canopy Conductance / Soil Moisture Stress / Vapor Pressure Deficit / Plant Hydraulics / Earth System Models / Land-Atmosphere Interaction",
+      "reason": "The current keywords are good but could be more descriptive by including 'Land-Atmosphere Interaction' to capture the broader context of the research. 'Canopy Conductance' and 'Soil Water Stress' are core concepts. 'Earth System Model' is also relevant. Adding 'Plant Hydraulics' is important. The summary emphasizes the interaction between soil moisture and VPD, which is crucial. 'Land-Atmosphere Interaction' would encompass this."
+    },
+    "related_papers": [
+      "Paper 1"
+    ],
+    "innovation_insights": [
+      "Investigate the explicit representation of plant hydraulics in Earth System Models and its impact on predicting vegetation responses to drought and heat stress.",
+      "Quantify the role of soil moisture-vapor pressure deficit interactions in modulating ET and its feedback on land-atmosphere coupling, particularly under future climate scenarios.",
+      "Develop more sophisticated parameterizations for canopy conductance that account for hydraulic limitations and their interplay with atmospheric demand, potentially using ML approaches informed by plant hydraulics theory.",
+      "Explore how uncertainties in soil moisture and VPD representation within ESMs contribute to biases in simulated terrestrial water and energy cycles.",
+      "Address the limitation of using empirical models to represent SW-VPD interactions by developing process-based or hybrid models."
+    ],
+    "processed_time": "2026-01-13 21:22:23"
+  },
+  "HPJNECGL": {
+    "title": "A New Perspective on Terrestrial Hydrologic Intensity That Incorporates Atmospheric Water Demand",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Water Cycle Intensity, Hazards/Drought/Drought Intensity, Methodology/Statistical Methods, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Dynamics/Drought-Flood Transitions, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Hydrological Intensity / Atmospheric Water Demand / Climate Change / Terrestrial Hydrology",
+      "suggested": "Hydrological Intensity / Atmospheric Water Demand / Terrestrial Water Cycle / Water Availability / Climate Change / Land Surface Hydrology",
+      "reason": "The current keywords are relevant. 'Hydrological Intensity' and 'Atmospheric Water Demand' are central. 'Climate Change' and 'Terrestrial Hydrology' provide context. Adding 'Terrestrial Water Cycle' and 'Water Availability' would broaden the scope slightly and better reflect the interplay of supply and demand that the SDI index captures."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Develop and apply novel indices like SDI to quantify the 'intensity' of terrestrial hydrological processes, considering both water supply (precipitation) and atmospheric water demand (evapotranspiration).",
+      "Investigate the mechanisms driving the intensification of the terrestrial water cycle globally and regionally, particularly the roles of surplus intensity and deficit duration.",
+      "Project future changes in terrestrial hydrological intensity under various climate change scenarios, with a focus on understanding regional vulnerabilities.",
+      "Explore the teleconnections between changes in atmospheric water demand and the intensification of hydrological cycles across different scales.",
+      "Utilize datasets like MSWX (Paper 4) for more robust and spatially explicit assessments of hydrological intensity by incorporating better atmospheric demand estimates."
+    ],
+    "processed_time": "2026-01-13 21:22:27"
+  },
+  "A8ZCQ2YU": {
+    "title": "A 1D Var Retrieval of Relative Humidity Using the ERA5 Dataset for the Assimilation of Raman Lidar Measurements",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion, Methodology/Remote Sensing/Retrieval, Methodology/Statistical Methods, Data Sources/Reanalysis Data",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Data Philosophy/Multi-Source Integration, Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Data Assimilation / Raman Lidar / Relative Humidity / ERA5 / Reanalysis",
+      "suggested": "Data Assimilation / Raman Lidar / Relative Humidity / ERA5 / Reanalysis / Observational Data Fusion / Uncertainty Quantification",
+      "reason": "The current keywords accurately reflect the core methodology and data used. Adding 'Observational Data Fusion' emphasizes the integration aspect, and 'Uncertainty Quantification' highlights a key outcome and area of research for such studies."
+    },
+    "related_papers": [
+      "Paper 3",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Advance data assimilation techniques to fuse ground-based remote sensing data (e.g., Raman lidar, satellite retrievals) with reanalysis products (e.g., ERA5) for improved accuracy and spatio-temporal coverage of atmospheric variables.",
+      "Quantify uncertainties associated with fused datasets and understand how these uncertainties propagate into downstream applications like climate modeling or hydrological forecasting.",
+      "Develop operational systems for near-real-time assimilation of diverse observational data into reanalysis frameworks to enhance the quality of weather and climate information.",
+      "Explore the potential of using AI/ML for more efficient and sophisticated data assimilation schemes, particularly for handling complex error structures and non-linear relationships.",
+      "Investigate the impact of improved humidity profiles on ET estimates and drought monitoring, bridging atmospheric and terrestrial hydrological perspectives."
+    ],
+    "processed_time": "2026-01-13 21:22:31"
+  },
+  "ABA65BCA": {
+    "title": "Detailed investigation of discrepancies in Köppen-Geiger climate classification using seven global gridded products",
+    "archive_path": "[ARCHIVE] Methodology/Statistical Methods, Data Sources/Gridded Datasets, Applications/Hydrological Modeling, Data Sources/Climate Data",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), Data Philosophy/Data Quality & Validation, Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Koppen-Geiger Classification / Climate Data Uncertainty / Gridded Datasets / Hydrological Modeling",
+      "suggested": "Climate Classification / Koppen-Geiger / Gridded Datasets / Data Uncertainty / Hydrological Modeling / Climate Data Validation",
+      "reason": "The current keywords are appropriate. 'Koppen-Geiger Classification' is a specific method. 'Climate Data Uncertainty' and 'Gridded Datasets' are key themes. 'Hydrological Modeling' indicates an application. Adding 'Climate Data Validation' reflects the paper's core task of assessing discrepancies, and 'Climate Classification' is a broader, more encompassing term."
+    },
+    "related_papers": [
+      "Paper 2",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Develop robust methods for evaluating and synthesizing information from multiple climate datasets to create more reliable climate classifications for various applications.",
+      "Investigate the sensitivity of hydrological model performance to different climate classification schemes and underlying climate data products.",
+      "Quantify the impact of climate classification uncertainty on understanding climate change impacts on water resources and ecosystems.",
+      "Explore the use of ensemble approaches to generate probabilistic climate classification maps, reflecting the inherent uncertainties in gridded climate data.",
+      "Apply advanced statistical or machine learning techniques to reconcile discrepancies between different climate datasets for improved classification accuracy."
+    ],
+    "processed_time": "2026-01-13 21:22:37"
+  },
+  "CM3WBRUZ": {
+    "title": "MSWX: Global 3-Hourly 0.1° Bias-Corrected Meteorological Data Including Near-Real-Time Updates and Forecast Ensembles",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion, Methodology/Remote Sensing/Retrieval, Data Sources/Gridded Datasets, Data Sources/Reanalysis Data, Data Sources/Forecasts",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Data Quality & Validation, Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "MSWX：全球3小时0.1°偏差校正气象数据，包含近实时更新和预报集合",
+      "suggested": "Meteorological Datasets / Bias Correction / Near-Real-Time / Forecast Ensembles / Spatio-temporal Resolution / Data Fusion / Hydrometeorology",
+      "reason": "The current keywords are more of a description than keywords. A better set would capture the essence: 'Meteorological Datasets' as the primary output, 'Bias Correction' and 'Near-Real-Time' as key features, 'Forecast Ensembles' as another critical component, 'Spatio-temporal Resolution' for its characteristics, 'Data Fusion' for its creation method, and 'Hydrometeorology' for the overarching field. The current Chinese phrase is too long and descriptive."
+    },
+    "related_papers": [
+      "Paper 1",
+      "Paper 2",
+      "Paper 3"
+    ],
+    "innovation_insights": [
+      "Utilize the MSWX dataset for high-resolution, near-real-time hydrological modeling and drought/flood forecasting applications, leveraging its updated information and forecast ensembles.",
+      "Assess the impact of bias-corrected and downscaled meteorological data on simulating key hydrological processes, including ET, soil moisture, and runoff.",
+      "Develop methodologies to effectively integrate near-real-time meteorological data and ensemble forecasts into operational water management and early warning systems.",
+      "Compare and contrast the performance of MSWX with other global meteorological datasets (e.g., ERA5, GPCP) in driving hydrological models and climate studies.",
+      "Investigate the added value of ensemble forecasts within MSWX for predicting extreme weather events and their hydrological consequences."
+    ],
+    "processed_time": "2026-01-13 21:22:43"
+  },
+  "86N9Z3W3": {
+    "title": "Water-vapor transfer over the North American continent",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/ET Estimation / Methodology/Deep Learning (LSTM_CNN)/Remote Sensing/Data Fusion",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Evapotranspiration / Machine Learning / Hydrological Model / Remote Sensing / Physical Constraints",
+      "suggested": "Evapotranspiration / Deep Learning / Hydrological Modeling / Remote Sensing / Physical Constraints / Multi-scale",
+      "reason": "Keywords are generally accurate. Adding 'Deep Learning' specifies the ML type. 'Multi-scale' is a core aspect of the methodology. The current keywords could be more specific about the ML technique used."
+    },
+    "related_papers": [
+      "Paper 1 title",
+      "Paper 3 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Explore the integration of various physical constraints within deep learning frameworks for ET estimation beyond traditional ML models.",
+      "Investigate the transferability of such physics-constrained DL models to different geographical regions or under varying climatic conditions, especially where ground data is scarce.",
+      "Quantify the 'efficiency' gains from using DL models with physical constraints compared to purely data-driven or process-based models."
+    ],
+    "processed_time": "2026-01-13 21:22:56"
+  },
+  "HY7Z3VAB": {
+    "title": "Upscaled diurnal cycles of land–atmosphere fluxes: a new global half-hourly data product",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Land-Atmosphere Fluxes / Methodology/Machine Learning (LSTM_CNN)/Remote Sensing/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Scale Issues (Spatial_Temporal)/Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "Land-Atmosphere Fluxes / Upscaling / Diurnal Cycles / Machine Learning / Global Data Product",
+      "suggested": "Land-Atmosphere Fluxes / Upscaling / Diurnal Cycles / Deep Learning / Global Data Product / Half-hourly Resolution",
+      "reason": "Current keywords are good. Replacing 'Machine Learning' with 'Deep Learning' aligns with current AI focus and potential for advanced upscaling. Adding 'Half-hourly Resolution' highlights the key output. 'Upscaling' is a crucial method."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 3 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Develop advanced deep learning architectures for upscaling land-atmosphere fluxes, potentially capturing non-linear relationships more effectively than random forests.",
+      "Utilize the high-resolution global flux data product to investigate diurnal land-atmosphere coupling dynamics under different land cover types and climatic regimes.",
+      "Explore the use of this global half-hourly flux data for evaluating and improving land surface models and climate models, particularly their representation of diurnal cycles."
+    ],
+    "processed_time": "2026-01-13 21:23:01"
+  },
+  "RKZW8EQS": {
+    "title": "A shift in the dominant role of atmospheric vapor pressure deficit and soil moisture on vegetation greening in China",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture/Vegetation Dynamics / Methodology/Remote Sensing / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades/Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "植被动态 / 土壤水分 / 水汽压亏缺 / 遥感 / 中国",
+      "suggested": "Vegetation Dynamics / Soil Moisture / Vapor Pressure Deficit / Remote Sensing / China / Dominant Driver Shift / SIF",
+      "reason": "Current keywords are descriptive of the content. Adding 'Dominant Driver Shift' and 'SIF' better captures the core findings and methodology (SIF as a proxy for productivity). Specifying the role of 'VPD' and 'Soil Moisture' is key."
+    },
+    "related_papers": [
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Investigate the temporal and spatial dynamics of the shift in dominant drivers (SM vs. VPD) for vegetation greening in other regions, especially those experiencing different climate change trajectories.",
+      "Develop predictive models using AI to forecast future vegetation productivity under different climate scenarios, explicitly accounting for potential shifts in driver dominance.",
+      "Explore the implications of this shifting dominance for ecosystem services, such as carbon sequestration and agricultural yields, by integrating findings with other relevant datasets."
+    ],
+    "processed_time": "2026-01-13 21:23:07"
+  },
+  "9IAWTNIW": {
+    "title": "Scaling Land‐Atmosphere Interactions: Special or Fundamental?",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion/Earth System Science / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)/Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Land-Atmosphere Interaction / Scaling / Modeling / Earth System Science / Interdisciplinary Research",
+      "suggested": "Land-Atmosphere Interaction / Scaling / Earth System Modeling / Multidisciplinary / Observational Methods",
+      "reason": "Keywords are appropriate for a review/perspective paper. 'Scaling' is central. Adding 'Earth System Modeling' and 'Multidisciplinary' reinforces the scope. 'Observational Methods' could be implied but is relevant to the discussion."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 1 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Propose frameworks or methods for systematically addressing scaling challenges in land-atmosphere interactions, perhaps by developing scale-aware AI models or data fusion techniques.",
+      "Foster interdisciplinary collaborations to bridge the gap between different scales of observation and modeling in land-atmosphere studies.",
+      "Evaluate the fundamental nature of scaling in land-atmosphere interactions by designing experiments or modeling studies that explicitly test the hypothesis across various scales."
+    ],
+    "processed_time": "2026-01-13 21:23:11"
+  },
+  "ZBXCF4IE": {
+    "title": "Disentangling the Effects of Vapor Pressure Deficit and Soil Water Availability on Canopy Conductance in a Seasonal Tropical Forest During the 2015 El Niño Drought",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Drought/Plant Hydraulics / Methodology/Modeling",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling/Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Tropical Forest / Drought / Plant Hydraulics / Evapotranspiration / Canopy Conductance",
+      "suggested": "Tropical Forest / Drought / Plant Hydraulics / Evapotranspiration / Canopy Conductance / Soil Moisture Stress / VPD",
+      "reason": "Keywords accurately reflect the paper's focus. Adding 'Soil Moisture Stress' and 'VPD' explicitly highlights the two key factors investigated and their relative importance, which is the core finding."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 2 title"
+    ],
+    "innovation_insights": [
+      "Investigate the relative importance of soil moisture vs. VPD in limiting canopy conductance in other ecosystem types and under different drought intensities and durations.",
+      "Integrate plant hydraulic models with deep learning approaches to improve the representation of vegetation water stress and its impact on ET in Earth system models.",
+      "Explore the implications of these findings for predicting forest resilience and vulnerability to extreme drought events, especially in tropical regions."
+    ],
+    "processed_time": "2026-01-13 21:23:15"
+  },
+  "NPB8ZQ8E": {
+    "title": "Do Uncertainties in the Reconstruction of Land Cover Affect the Simulation of Air Temperature and Rainfall in the CORDEX Region of East Asia?",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Processes/Atmosphere Interactions, Hazards/Drought",
+    "idea_path": "[IDEA] Data Philosophy/Data Quality & Validation, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Regional Climate Model / Land Cover Uncertainty / WRF Model / East Asia / Temperature and Rainfall Simulation",
+      "suggested": "Land Cover Uncertainty / Regional Climate Simulation / WRF Model / East Asia / Temperature & Rainfall / Surface Energy Balance",
+      "reason": "Adding 'Surface Energy Balance' highlights a key mechanism discussed. 'Regional Climate Simulation' is a broader and more descriptive term than 'Temperature and Rainfall Simulation'."
+    },
+    "related_papers": [
+      "Paper 1",
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Investigate the threshold of land cover classification uncertainty that *does* significantly impact regional climate simulations, especially for regions beyond the Tibetan Plateau or for variables other than temperature and rainfall.",
+      "Develop methods to quantify and propagate land cover uncertainty in climate model inputs to improve the reliability of regional climate projections, potentially using ensemble approaches with varying land cover datasets.",
+      "Explore the non-linear impacts of land cover changes on surface energy fluxes and their subsequent feedback to atmospheric variables, particularly in regions with distinct land cover transitions."
+    ],
+    "processed_time": "2026-01-13 21:23:35"
+  },
+  "4WMDRZR9": {
+    "title": "Does Dynamic Downscaling Modify the Projected Impacts of Stabilized 1.5°C and 2°C Warming on Hot Extremes Over China?",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN), Hazards/Heatwaves & Extremes, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity, Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Regional Climate Modeling / Climate Change Impacts / Hot Extremes / Dynamic Downscaling / China",
+      "suggested": "Dynamic Downscaling / Climate Change Impacts / Hot Extremes / Regional Climate Modeling / China / Intensification",
+      "reason": "Adding 'Intensification' captures the finding that downscaling leads to more intense extremes. 'Dynamic Downscaling' is a key method and should be prioritized."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Investigate the role of dynamic downscaling in amplifying or mitigating other climate extremes (e.g., heavy precipitation, droughts) beyond hot extremes over China.",
+      "Develop advanced downscaling techniques, possibly integrating AI/ML, that can better resolve fine-scale processes contributing to extreme events, particularly in complex terrain like the Tibetan Plateau.",
+      "Quantify the uncertainties associated with different downscaling methods and global climate models when projecting future extreme events, and explore how these uncertainties translate to impacts on water resources and agriculture."
+    ],
+    "processed_time": "2026-01-13 21:23:42"
+  },
+  "WEKW6HGB": {
+    "title": "Land–atmosphere interactions in the tropics – a review",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Atmosphere Interactions, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Coupling/Energy-Water Nexus, Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Land–Atmosphere Interaction / Tropical Climate / Convection / Clouds / Ecosystem Processes",
+      "suggested": "Land-Atmosphere Interaction / Tropical Climate / Convection / Clouds / Ecosystem Processes / Water-Energy Nexus / Model Bias",
+      "reason": "Adding 'Water-Energy Nexus' is crucial as it's a central theme. 'Model Bias' or 'Model Deficiencies' better reflects the review's critique of current models."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 3"
+    ],
+    "innovation_insights": [
+      "Develop improved parameterizations for land-atmosphere interactions, especially shallow cloud formation and its feedback on surface energy and water fluxes in tropical regions, for use in climate models.",
+      "Investigate the role of vegetation and ecosystem processes in modulating land-atmosphere feedbacks, and how these feedbacks might change under different climate scenarios or land use changes.",
+      "Apply advanced data assimilation techniques or AI-driven approaches to better represent complex land-atmosphere exchanges in climate and hydrological models, potentially leading to more accurate simulations of ET and convection."
+    ],
+    "processed_time": "2026-01-13 21:23:46"
+  },
+  "ZL3PKPWM": {
+    "title": "Tracing anomalies in moisture recycling and transport to two record-breaking droughts over the Mid-to-Lower Reaches of the Yangtze River",
+    "archive_path": "[ARCHIVE] Hazards/Drought, Processes/Runoff & Streamflow, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, Dynamics/Drought-Flood Transitions, Mechanism/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "Drought / Moisture Recycling / Moisture Transport / Yangtze River Basin / Atmospheric Dynamics",
+      "suggested": "Drought / Moisture Transport / Moisture Recycling / Yangtze River Basin / Atmospheric Dynamics / Teleconnections",
+      "reason": "Adding 'Teleconnections' is important as the study traces moisture from distant sources (Pacific, Bay of Bengal). 'Atmospheric Dynamics' is well-covered but could be complemented by specifying the types of dynamics."
+    },
+    "related_papers": [
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Extend this moisture transport analysis to other major river basins experiencing extreme droughts to identify common and distinct atmospheric mechanisms.",
+      "Investigate the role of soil moisture memory and antecedent conditions in conjunction with atmospheric moisture transport anomalies for predicting drought onset and severity, especially for flash droughts.",
+      "Utilize advanced AI techniques to diagnose the relative contributions of dynamic and thermodynamic processes to moisture transport anomalies under different climate change scenarios, informing early warning systems for droughts."
+    ],
+    "processed_time": "2026-01-13 21:23:50"
+  },
+  "547SRNLE": {
+    "title": "High Mountain Asia hydropower systems threatened by climate-driven landscape instability",
+    "archive_path": "[ARCHIVE] Hazards/Floods, Hazards/Compound Events/DFA, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Dynamics/Tipping Points, Mechanism/Abrupt Transitions/Phase Change, Coupling/Human-Nature Systems",
+    "keyword_assessment": {
+      "current": "High Mountain Asia / Climate Change / Hydropower / Landscape Instability / Hazards",
+      "suggested": "High Mountain Asia / Climate Change / Hydropower / Landscape Instability / Hazards / Cryosphere Melting / Compound Hazards",
+      "reason": "Adding 'Cryosphere Melting' is critical as it's the primary driver of instability. 'Compound Hazards' reflects the interconnected risks (floods, landslides, sediment). 'Hydropower' is an application area."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Develop integrated risk assessment frameworks that explicitly account for cascading and compound hazards in High Mountain Asia hydropower systems under future climate change.",
+      "Investigate novel monitoring and early warning systems using remote sensing and AI to detect landscape instabilities (e.g., glacier lake outburst floods, landslides) in near real-time.",
+      "Explore adaptation strategies for hydropower infrastructure and water resource management in High Mountain Asia that are resilient to rapid cryospheric changes and associated geohazards."
+    ],
+    "processed_time": "2026-01-13 21:23:56"
+  },
+  "49TF33YV": {
+    "title": "Diel ecosystem conductance response to vapor pressure deficit is suboptimal and independent of soil moisture",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Stomatal Response",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "Ecosystem Conductance / Vapor Pressure Deficit / Soil Moisture / FLUXNET / Stomatal Response",
+      "suggested": "Ecosystem Conductance / Vapor Pressure Deficit / Soil Moisture / Stomatal Response / FLUXNET / Land-Atmosphere Interaction",
+      "reason": "Keywords are generally good. Added 'Land-Atmosphere Interaction' to better capture the broader theme of how ecosystem conductance responds to atmospheric drivers, which is a core concept explored in relation to VPD and soil moisture."
+    },
+    "related_papers": [
+      "Paper 3: Variation of Atmospheric Boundary Layer Height Over the Northern, Central, and Southern Parts of the Tibetan Plateau During Three Monsoon Seasons",
+      "Paper 4: Revisiting the variations of precipitation and water vapour budget over the Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Investigate the diurnal and sub-daily dynamics of stomatal closure and ecosystem conductance under different moisture stress levels and VPD conditions using advanced modeling or eddy covariance data with higher temporal resolution.",
+      "Explore the implications of suboptimal conductance responses for carbon and water cycles, particularly under future climate scenarios with increased VPD and potential changes in soil moisture availability.",
+      "Develop improved parameterizations for ecosystem conductance in land surface models and Earth system models that account for the observed non-optimal response to VPD and the limited influence of soil moisture beyond a certain threshold.",
+      "Examine if the observed independence from soil moisture at the ecosystem level holds true for different vegetation types or under more extreme drought conditions, where soil moisture is expected to play a more dominant role."
+    ],
+    "processed_time": "2026-01-13 21:24:11"
+  },
+  "JQ5C4K4L": {
+    "title": "HGPT2: An ERA5-Based Global Model to Estimate Relative Humidity",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Signal Purification(Uncertainty)",
+    "keyword_assessment": {
+      "current": "GNSS meteorology / Tropospheric delay / Relative humidity / ERA5 / Global model",
+      "suggested": "GNSS meteorology / Tropospheric delay / Relative humidity / ERA5 / Global model / Data Assimilation",
+      "reason": "Current keywords are highly accurate. Added 'Data Assimilation' as the methodology heavily relies on reanalysis data (ERA5) which is a product of assimilation systems, and the model itself can be seen as a form of retrieval or assimilation for humidity."
+    },
+    "related_papers": [
+      "Paper 3: Variation of Atmospheric Boundary Layer Height Over the Northern, Central, and Southern Parts of the Tibetan Plateau During Three Monsoon Seasons",
+      "Paper 4: Revisiting the variations of precipitation and water vapour budget over the Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Explore the integration of HGPT2-derived relative humidity into numerical weather prediction (NWP) models or reanalysis systems to improve the representation of atmospheric moisture, especially in data-sparse regions.",
+      "Investigate the impact of high-resolution relative humidity estimates on other GNSS-derived products or applications, such as precise positioning or atmospheric monitoring, beyond ZWD and PWV.",
+      "Develop methods to quantify and reduce the uncertainties in relative humidity estimates derived from GNSS and reanalysis data, potentially using techniques like ensemble modeling or machine learning.",
+      "Examine the added value of HGPT2's high-resolution RH data for understanding land-atmosphere interactions, evapotranspiration modeling, or drought monitoring, by correlating it with other hydrological variables."
+    ],
+    "processed_time": "2026-01-13 21:24:15"
+  },
+  "UQEEQ5RS": {
+    "title": "Future projections of East Asian climate change from multi-AOGCM ensembles of IPCC SRES scenario simulations",
+    "archive_path": "[ARCHIVE] Applications/Climate Change Impact/Water Resources Management",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity/Tipping Points",
+    "keyword_assessment": {
+      "current": "Climate Change Projection / East Asia / Multi-model Ensemble / IPCC SRES Scenarios / Atmosphere-Ocean General Circulation Models",
+      "suggested": "Climate Change Projection / East Asia / Multi-model Ensemble / IPCC SRES Scenarios / Atmosphere-Ocean General Circulation Models / Regional Climate Modeling",
+      "reason": "Keywords are accurate and cover the main aspects. Added 'Regional Climate Modeling' as the focus is on a specific region (East Asia) and the use of AOGCM ensembles for regional projections falls under this umbrella."
+    },
+    "related_papers": [
+      "Paper 0: Diel ecosystem conductance response to vapor pressure deficit is suboptimal and independent of soil moisture",
+      "Paper 1: HGPT2: An ERA5-Based Global Model to Estimate Relative Humidity",
+      "Paper 3: Variation of Atmospheric Boundary Layer Height Over the Northern, Central, and Southern Parts of the Tibetan Plateau During Three Monsoon Seasons",
+      "Paper 4: Revisiting the variations of precipitation and water vapour budget over the Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Utilize the findings on future warming and wetting trends in East Asia to conduct more detailed impact assessments on hydrological extremes (e.g., floods, droughts, flash droughts) and water resources under different emission scenarios.",
+      "Investigate the robustness of regional climate projections by comparing AOGCM outputs with higher-resolution dynamical downscaling or statistical downscaling techniques tailored for East Asia.",
+      "Analyze the uncertainties in climate projections stemming from different GCMs and emission scenarios, and explore their implications for adaptation strategies and water management planning in the region.",
+      "Focus future research on the inter-annual and inter-decadal variability of precipitation and temperature in East Asia, linking these to large-scale climate drivers and understanding their potential for non-linear responses or shifts."
+    ],
+    "processed_time": "2026-01-13 21:24:18"
+  },
+  "8QVP5Y27": {
+    "title": "Variation of Atmospheric Boundary Layer Height Over the Northern, Central, and Southern Parts of the Tibetan Plateau During Three Monsoon Seasons",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Atmospheric Boundary Layer Height",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Atmospheric Boundary Layer Height / Tibetan Plateau / Westerlies / Monsoon / Radiosonde Observations",
+      "suggested": "Atmospheric Boundary Layer Height / Tibetan Plateau / Westerlies / Monsoon / Radiosonde Observations / Land-Atmosphere Interaction / Diurnal Cycle",
+      "reason": "Keywords are specific and relevant. Added 'Land-Atmosphere Interaction' to highlight the coupling between surface fluxes and ABLH, and 'Diurnal Cycle' because ABLH is inherently a diurnal phenomenon. The paper mentions 'diel' in its abstract, supporting this addition."
+    },
+    "related_papers": [
+      "Paper 0: Diel ecosystem conductance response to vapor pressure deficit is suboptimal and independent of soil moisture",
+      "Paper 1: HGPT2: An ERA5-Based Global Model to Estimate Relative Humidity",
+      "Paper 4: Revisiting the variations of precipitation and water vapour budget over the Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Investigate the role of ABLH dynamics on near-surface meteorology and subsequent impacts on land surface processes (like ET) and hydrological cycles over the Tibetan Plateau.",
+      "Explore the potential of integrating remote sensing data (e.g., satellite-derived ABLH products) with ground-based observations and model simulations to improve the spatial and temporal coverage of ABLH over data-scarce regions like the TP.",
+      "Analyze how changes in ABLH, driven by factors like land use change or climate warming, might alter atmospheric stability, convection, and precipitation patterns over the Tibetan Plateau.",
+      "Examine the diurnal and seasonal evolution of ABLH in relation to extreme weather events (e.g., heavy rainfall, heatwaves) occurring over the Tibetan Plateau and its surrounding areas."
+    ],
+    "processed_time": "2026-01-13 21:24:22"
+  },
+  "MN4CCVIZ": {
+    "title": "Revisiting the variations of precipitation and water vapour budget over the Tibetan Plateau",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Water Vapor Budget",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Precipitation Variation / Water Vapor Budget / Tibetan Plateau / CMFD / Reanalysis Data",
+      "suggested": "Precipitation Variation / Water Vapor Budget / Tibetan Plateau / CMFD / Reanalysis Data / Hydrological Extremes / Teleconnections",
+      "reason": "Keywords are good and capture the core topics. Added 'Hydrological Extremes' because the paper discusses regional precipitation shifts and transitions, relevant to drought/flood dynamics. 'Teleconnections' could be relevant for understanding the drivers of TP precipitation variability across different scales."
+    },
+    "related_papers": [
+      "Paper 0: Diel ecosystem conductance response to vapor pressure deficit is suboptimal and independent of soil moisture",
+      "Paper 1: HGPT2: An ERA5-Based Global Model to Estimate Relative Humidity",
+      "Paper 3: Variation of Atmospheric Boundary Layer Height Over the Northern, Central, and Southern Parts of the Tibetan Plateau During Three Monsoon Seasons"
+    ],
+    "innovation_insights": [
+      "Investigate the causes and mechanisms behind the observed regional precipitation shifts and the inter-decadal transition in Northern TP precipitation, and how these relate to larger-scale atmospheric circulation patterns.",
+      "Assess the implications of altered water vapor budgets and precipitation patterns over the Tibetan Plateau for downstream water resources in major Asian river basins.",
+      "Develop and validate hydrological models that can accurately simulate precipitation and water vapor transport over the complex Tibetan Plateau terrain, incorporating high-resolution datasets like CMFD.",
+      "Explore the potential links between changes in water vapor budget over the Tibetan Plateau and the occurrence of hydrological extremes (e.g., flash droughts in arid regions, intensified monsoonal rainfall) in surrounding areas."
+    ],
+    "processed_time": "2026-01-13 21:24:26"
+  },
+  "USG7PGKB": {
+    "title": "Near-real-time monitoring of land disturbance with harmonized Landsats 7–8 and Sentinel-2 data",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Processes/Land Cover Change",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Near-real-time / Land disturbance / Forgetting Factor / Time series analysis / Harmonized Landsat-Sentinel2",
+      "suggested": "Near-real-time monitoring / Land disturbance / Harmonized Landsat-Sentinel2 / Time series analysis / Recursive regression",
+      "reason": "Keywords are good and descriptive. 'Forgetting Factor' can be replaced by 'Recursive regression' for broader understanding of the method."
+    },
+    "related_papers": [
+      "Global land change from 1982 to 2016",
+      "Landsat 9: Empowering open science and applications through continuity"
+    ],
+    "innovation_insights": [
+      "Develop advanced algorithms for near-real-time monitoring of various land surface disturbances, integrating even more diverse data sources (e.g., SAR, hyperspectral) to capture different types of changes.",
+      "Explore the application of the NRT-MONITOR approach to other Earth observation domains, such as monitoring of water quality or agricultural health, by adapting the time series analysis and disturbance detection techniques.",
+      "Investigate the transferability of the 'forgetting factor' method to other time-series analysis problems in hydrology and climate science where rapid adaptation to changing conditions is crucial."
+    ],
+    "processed_time": "2026-01-13 21:24:47"
+  },
+  "SZA8BTPX": {
+    "title": "Landsat 9: Empowering open science and applications through continuity",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Applications/Data Continuity",
+    "idea_path": "[IDEA] Data Philosophy/Data Quality & Validation, Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Remote Sensing / Earth Observation / Landsat / Satellite Instrumentation / Data Continuity",
+      "suggested": "Remote Sensing / Earth Observation / Landsat Program / Satellite Instrumentation / Data Continuity / Open Science",
+      "reason": "Current keywords are accurate. Adding 'Landsat Program' provides better context and 'Open Science' reflects a key theme of the paper."
+    },
+    "related_papers": [
+      "Near-real-time monitoring of land disturbance with harmonized Landsats 7–8 and Sentinel-2 data",
+      "Global land change from 1982 to 2016"
+    ],
+    "innovation_insights": [
+      "Explore the synergistic use of Landsat 9 with other satellite missions (e.g., Sentinel-2, Planet) to achieve even higher temporal and spatial resolutions for land change monitoring, building upon the data continuity theme.",
+      "Develop new data products or analytical frameworks that leverage the enhanced data quality and continuity provided by Landsat 9 to address specific scientific questions in land use change, climate impact, or water resource management.",
+      "Investigate the long-term implications of satellite data continuity for understanding decadal-scale climate variability and its impact on hydrological processes, using the extended Landsat record."
+    ],
+    "processed_time": "2026-01-13 21:24:51"
+  },
+  "4FWRUPAX": {
+    "title": "Global land change from 1982 to 2016",
+    "archive_path": "[ARCHIVE] Processes/Land Cover Change, Methodology/Time Series Analysis, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Global Land Cover / Satellite Data / Time Series Analysis / Forest Change",
+      "suggested": "Global Land Cover Change / Satellite Data Analysis / Time Series Analysis / Vegetation Dynamics / Human-Environment Interaction",
+      "reason": "Keywords are relevant. 'Forest Change' is too specific, 'Vegetation Dynamics' is broader. Adding 'Global Land Cover Change' and 'Human-Environment Interaction' captures the core findings better."
+    },
+    "related_papers": [
+      "Near-real-time monitoring of land disturbance with harmonized Landsats 7–8 and Sentinel-2 data",
+      "Landsat 9: Empowering open science and applications through continuity"
+    ],
+    "innovation_insights": [
+      "Investigate the complex interplay between human activities and climate change in driving land cover change at regional and local scales, moving beyond global averages and simple attribution.",
+      "Develop advanced modeling techniques to project future land cover change scenarios under different climate and socio-economic pathways, incorporating the non-linear dynamics observed in the dataset.",
+      "Explore the use of multi-source remote sensing data (e.g., higher resolution, different sensors) to refine the understanding of specific land cover change processes (e.g., forest degradation, agricultural expansion) and their drivers."
+    ],
+    "processed_time": "2026-01-13 21:24:55"
+  },
+  "ZHUH9CKP": {
+    "title": "Global dominance of tectonics over climate in shaping river longitudinal profiles",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Hazards/Drought/Flash Drought (indirectly, as climate is a factor in river profiles)",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change (indirectly, through landscape evolution), Dynamics/Tipping Points (indirectly)",
+    "keyword_assessment": {
+      "current": "River Morphology / Tectonics / Climate / Global Analysis / Geomorphology",
+      "suggested": "River Longitudinal Profiles / Tectonics / Climate Influence / Geomorphology / Global Analysis",
+      "reason": "Keywords are accurate. 'River Morphology' can be more specifically 'River Longitudinal Profiles'. 'Climate Influence' is more precise than 'Climate' in this context."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Investigate the potential feedback mechanisms between river incision/alluviation, tectonic uplift, and climate shifts, especially in tectonically active regions with significant climate variability.",
+      "Explore how long-term geomorphological changes shaped by tectonics might influence hydrological processes and landscape response to extreme events (e.g., floods, landslides) over geological timescales.",
+      "Examine if the dominance of tectonics over climate in shaping river profiles implies a certain resilience or lag in landscape response to rapid climate change, and how this might manifest in hydrological system behavior."
+    ],
+    "processed_time": "2026-01-13 21:25:00"
+  },
+  "XKQ3LNXZ": {
+    "title": "Global assessment of spatiotemporal changes of frequency of terrestrial wind speed",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (indirectly, wind is a factor), Hazards/Heatwaves & Extremes (wind speed is related to weather extremes)",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Wind Speed / Frequency Changes / Wind Energy / Power Curve / Global Assessment",
+      "suggested": "Wind Speed Frequency / Temporal Trends / Wind Energy Potential / Global Assessment / Power Curve",
+      "reason": "Keywords are good. 'Frequency Changes' can be more specifically 'Wind Speed Frequency' and 'Temporal Trends' adds temporal dimension. 'Wind Energy' is better as 'Wind Energy Potential'."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Investigate the drivers behind the observed changes in wind speed frequency globally, potentially linking them to broader atmospheric circulation patterns, climate change, or land-use changes.",
+      "Develop improved methods for downscaling global wind speed trends to regional and local scales to better assess localized impacts on wind energy generation and other wind-dependent processes (e.g., evaporation, dust transport).",
+      "Explore the implications of these wind speed frequency changes for other meteorological variables and their impacts, such as evaporation rates, air pollution dispersion, and extreme weather events."
+    ],
+    "processed_time": "2026-01-13 21:25:03"
+  },
+  "SRL2NYTH": {
+    "title": "EM-Earth: The Ensemble Meteorological Dataset for Planet Earth",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion/Remote Sensing, Methodology/Deep Learning/Data Merging, Methodology/Uncertainty Quantification, Processes/Meteorological Variables",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Signal Purification/Uncertainty, Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Meteorological Dataset / Probabilistic Estimates / Uncertainty Quantification / Data Merging / Global Land",
+      "suggested": "Global Ensemble Meteorological Dataset / Probabilistic Reanalysis / Uncertainty Quantification / Data Fusion / Land Surface Variables",
+      "reason": "Keywords capture the essence but could be more specific. 'Ensemble' reflects the probabilistic nature. 'Reanalysis' implies merging observational and model data. 'Data Fusion' is a better fit than 'Data Merging' for complex dataset creation. Including 'Land Surface Variables' is more descriptive than 'Global Land'."
+    },
+    "related_papers": [
+      "Analysis of local land-atmosphere coupling in rainy season over a typical underlying surface in Tibetan Plateau based on field measurements and ERA5",
+      "Bias-corrected CMIP6 global dataset for dynamical downscaling of the historical and future climate (1979-2100)"
+    ],
+    "innovation_insights": [
+      "Opportunity to use probabilistic datasets like EM-Earth for uncertainty-aware hydrological modeling, particularly for extreme events where ensemble spread is critical.",
+      "Investigate how the probabilistic nature of EM-Earth can improve AI-driven hydrological predictions, moving beyond deterministic inputs.",
+      "Address the gap in understanding how different ensemble members in EM-Earth contribute to characterizing extreme weather events and their hydrological impacts.",
+      "Explore the use of EM-Earth's uncertainty quantification to validate or improve other reanalysis datasets or remote sensing products."
+    ],
+    "processed_time": "2026-01-13 21:25:28"
+  },
+  "DIHWTFB2": {
+    "title": "Do Surface and Air Temperatures Contain Similar Imprints of Evaporative Conditions?",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration, Processes/Land-Atmosphere Coupling, Methodology/Remote Sensing",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Surface Temperature / Air Temperature / Evaporative Fraction / Boundary Layer / Land-Atmosphere Interaction",
+      "suggested": "Surface Temperature / Air Temperature / Evaporative Demand / Boundary Layer Dynamics / Land-Atmosphere Coupling Strength",
+      "reason": "While current keywords are accurate, 'Evaporative Fraction' can be broadened to 'Evaporative Demand' to encompass moisture availability more broadly. 'Boundary Layer' can be enhanced to 'Boundary Layer Dynamics' to highlight the process. 'Land-Atmosphere Interaction' is good, but 'Land-Atmosphere Coupling Strength' is more specific to the paper's focus on quantifying the responsiveness."
+    },
+    "related_papers": [
+      "Analysis of local land-atmosphere coupling in rainy season over a typical underlying surface in Tibetan Plateau based on field measurements and ERA5"
+    ],
+    "innovation_insights": [
+      "Investigate how differences in the response of surface vs. air temperature to evaporative conditions can be exploited by AI models for better ET estimation, especially under drought stress.",
+      "Explore the potential of using remote sensing-derived surface temperature as a more sensitive indicator of hydrological stress (related to evaporative conditions) than air temperature for flash drought detection.",
+      "Develop hybrid models that combine physics-based understanding of boundary layer dynamics with AI to better model the land-atmosphere coupling strength and its impact on surface and air temperature.",
+      "Examine the role of boundary layer growth and its compensation effect on air temperature in different land cover types or climate zones, using datasets like EM-Earth or ERA5 for validation."
+    ],
+    "processed_time": "2026-01-13 21:25:32"
+  },
+  "DIIRRH9E": {
+    "title": "Bias-corrected CMIP6 global dataset for dynamical downscaling of the historical and future climate (1979-2100)",
+    "archive_path": "[ARCHIVE] Methodology/Statistical Methods/Bias Correction, Methodology/Deep Learning, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML), Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "CMIP6 / Dynamical Downscaling / Bias Correction / Climate Datasets / Historical and Future Climate",
+      "reason": "The original keywords were empty. These suggested keywords cover the core aspects: the source of data (CMIP6), the method (dynamical downscaling, bias correction), and the temporal scope (historical and future climate)."
+    },
+    "related_papers": [
+      "EM-Earth: The Ensemble Meteorological Dataset for Planet Earth",
+      "Analysis of local land-atmosphere coupling in rainy season over a typical underlying surface in Tibetan Plateau based on field measurements and ERA5"
+    ],
+    "innovation_insights": [
+      "Utilize bias-corrected CMIP6 data for downscaled climate projections to drive AI-based hydrological models, assessing the impact of improved climate forcing on drought/flood predictions.",
+      "Investigate the efficacy of different bias-correction techniques (including AI-based methods) for CMIP6 data, specifically for variables crucial for hydrological extremes.",
+      "Combine downscaled climate projections from CMIP6 with observational datasets (e.g., EM-Earth) to create hybrid forcing datasets for high-resolution hydrological modeling.",
+      "Assess the propagation of uncertainties from CMIP6 to downscaled products and subsequently to AI-driven hydrological impact assessments, especially for compound events or DFA."
+    ],
+    "processed_time": "2026-01-13 21:25:37"
+  },
+  "3SAJ9LM2": {
+    "title": "Analysis of local land-atmosphere coupling in rainy season over a typical underlying surface in Tibetan Plateau based on field measurements and ERA5",
+    "archive_path": "[ARCHIVE] Processes/Land-Atmosphere Coupling, Methodology/Field Measurements, Methodology/Statistical Methods/Mixing Diagram, Methodology/Remote Sensing/ERA5",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Mechanism/Feedback Loops & Cascades, Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "Land-Atmosphere Coupling / Tibetan Plateau / Mixing Diagram / Field Measurements / ERA5",
+      "suggested": "Local Land-Atmosphere Coupling / Tibetan Plateau / Planetary Boundary Layer / Mixing Diagram / ERA5 Validation",
+      "reason": "Current keywords are good. 'Local' specificity of coupling is key. Adding 'Planetary Boundary Layer' highlights a core mechanism investigated. 'ERA5 Validation' emphasizes the comparison aspect which is crucial for assessing data usability."
+    },
+    "related_papers": [
+      "EM-Earth: The Ensemble Meteorological Dataset for Planet Earth",
+      "Do Surface and Air Temperatures Contain Similar Imprints of Evaporative Conditions?",
+      "Bias-corrected CMIP6 global dataset for dynamical downscaling of the historical and future climate (1979-2100)"
+    ],
+    "innovation_insights": [
+      "Apply AI models to diagnose land-atmosphere coupling strength on the Tibetan Plateau, using the mixing diagram approach as a feature or validation tool.",
+      "Investigate how ERA5's biases (cold/wet) in the Tibetan Plateau impact AI-driven hydrological modeling and explore methods to correct these biases, potentially using EM-Earth or field data.",
+      "Analyze feedback loops between land surface states (e.g., soil moisture inferred from ET) and atmospheric variables on the Tibetan Plateau, potentially using higher-resolution climate data or AI.",
+      "Extend the analysis of land-atmosphere coupling to different regions or seasons, validating the effectiveness of ERA5 and other reanalysis products (like EM-Earth) in capturing these processes."
+    ],
+    "processed_time": "2026-01-13 21:25:43"
+  },
+  "LWMKHJZ5": {
+    "title": "An analysis of the IGBP global land-cover characterization process",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Classification, Methodology/GIS, Applications/Land Cover Mapping",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), Data Philosophy/Data Quality & Validation",
+    "keyword_assessment": {
+      "current": "Land Cover Mapping / AVHRR / IGBP / Remote Sensing / GIS",
+      "suggested": "Global Land Cover Classification / AVHRR / IGBP DISCover / Remote Sensing Data Fusion / Validation Metrics",
+      "reason": "Keywords are accurate for the time. 'Classification' is better than 'Mapping' in this context. Adding 'IGBP DISCover' is more specific. 'Remote Sensing Data Fusion' reflects the multi-source aspect implied. 'Validation Metrics' is important given the discussion on accuracy."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Develop AI-based methods for land cover classification that can overcome the limitations of coarse resolution data (like AVHRR) and spectral similarity issues by integrating multi-temporal and multi-source data.",
+      "Use datasets like EM-Earth or ERA5 to analyze the impact of land cover changes (derived from historical maps or improved classifications) on meteorological variables and hydrological processes.",
+      "Investigate the use of advanced remote sensing techniques (e.g., deep learning on higher-resolution imagery) to produce more accurate and dynamic global land cover datasets, essential for modern environmental models.",
+      "Address the validation gap identified in the paper by developing more robust validation strategies for global land cover products, potentially incorporating AI for quality control or error assessment."
+    ],
+    "processed_time": "2026-01-13 21:25:47"
+  },
+  "EA9MG87N": {
+    "title": "Amplification Effect of Urbanization on Atmospheric Aridity Over China Under Past Global Warming",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Methodology/Remote Sensing/Retrieval, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Rapid Onset Events, Coupling/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Urbanization, Atmospheric aridity, Vapor pressure deficit, China, Climate change",
+      "suggested": "Urbanization, Atmospheric Aridity, Vapor Pressure Deficit (VPD), Amplification Effect, China, Climate Change, Hydrological Extremes",
+      "reason": "Current keywords are good but could be more specific by including 'Amplification Effect' to capture the core finding and 'Hydrological Extremes' to link with Prof. Li's focus."
+    },
+    "related_papers": [
+      "Paper 3: Large influence of atmospheric vapor pressure deficit on ecosystem production efficiency",
+      "Paper 2: Soil moisture–atmosphere feedback dominates land carbon uptake variability"
+    ],
+    "innovation_insights": [
+      "Investigate the non-linear amplification mechanisms of urbanization on atmospheric aridity across different scales and regions globally, beyond China.",
+      "Explore how projected future urbanization patterns and climate change interact to exacerbate or mitigate atmospheric aridity and its impacts on water resources and ecosystems.",
+      "Quantify the feedback loops between urban heat islands, altered land surface properties, and amplified atmospheric aridity, potentially using advanced AI methods for complex interactions."
+    ],
+    "processed_time": "2026-01-13 21:26:09"
+  },
+  "XGAQP4WZ": {
+    "title": "A study of the hydrology of eastern North America using atmospheric vapor flux data",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Methodology/Statistical Methods, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Atmospheric Water Vapor Flux / Water Balance / Eastern North America / Hydrology / Interannual Variation",
+      "suggested": "Atmospheric Water Vapor Flux, Water Balance, Hydrology, Eastern North America, Interannual Variation, Water Cycle Dynamics, Evapotranspiration Estimation",
+      "reason": "Keywords are generally good but could be expanded to explicitly include 'Water Cycle Dynamics' and 'Evapotranspiration Estimation' which are key aspects investigated."
+    },
+    "related_papers": [
+      "Paper 0: Amplification Effect of Urbanization on Atmospheric Aridity Over China Under Past Global Warming",
+      "Paper 3: Large influence of atmospheric vapor pressure deficit on ecosystem production efficiency",
+      "Paper 4: Land–Atmosphere Interactions Partially Offset the Accelerated Tibetan Plateau Water Cycle through Dynamical Processes"
+    ],
+    "innovation_insights": [
+      "Apply modern data assimilation techniques or AI-driven approaches to reconstruct historical hydrological variables (ET, storage change) using atmospheric water vapor flux data in data-scarce regions.",
+      "Investigate the long-term interannual variability of water storage changes and its implications for drought onset and recovery, building upon the early findings in this paper.",
+      "Explore the spatial and temporal scales of atmospheric water vapor transport and its influence on regional water balance components, potentially using finer resolution climate models or remote sensing data."
+    ],
+    "processed_time": "2026-01-13 21:26:12"
+  },
+  "GJTIWIKX": {
+    "title": "Soil moisture–atmosphere feedback dominates land carbon uptake variability",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, Hazards/Drought/Flash Drought, Methodology/Deep Learning (LSTM_CNN), Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Coupling/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Land Carbon Cycle / Soil Moisture-Atmosphere Feedback / Climate Models / Interannual Variability",
+      "suggested": "Soil Moisture-Atmosphere Feedback, Land Carbon Cycle, Interannual Variability, Ecosystem Productivity, Climate Models, Water-Carbon Coupling",
+      "reason": "The suggested keywords are more focused on the core feedback mechanism and its link to the carbon cycle and ecosystem productivity, which aligns better with the paper's findings."
+    },
+    "related_papers": [
+      "Paper 3: Large influence of atmospheric vapor pressure deficit on ecosystem production efficiency",
+      "Paper 0: Amplification Effect of Urbanization on Atmospheric Aridity Over China Under Past Global Warming",
+      "Paper 4: Land–Atmosphere Interactions Partially Offset the Accelerated Tibetan Plateau Water Cycle through Dynamical Processes"
+    ],
+    "innovation_insights": [
+      "Develop advanced AI models (e.g., physics-informed neural networks) to explicitly represent and quantify the soil moisture-atmosphere feedback loop in land surface models, improving carbon cycle projections.",
+      "Investigate how this soil moisture-atmosphere feedback mechanism influences other hydrological extremes, such as flash floods, through changes in land surface conditions.",
+      "Explore the role of this feedback in amplifying or dampening climate change impacts on terrestrial ecosystems, particularly under different land management strategies or land cover changes."
+    ],
+    "processed_time": "2026-01-13 21:26:17"
+  },
+  "PXV78QG9": {
+    "title": "Large influence of atmospheric vapor pressure deficit on ecosystem production efficiency",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Hazards/Drought/Flash Drought, Methodology/Remote Sensing/Retrieval, Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Mechanism/Threshold Behavior, Coupling/Vegetation-Water Interaction, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Ecosystem Production / Vapor Pressure Deficit / Soil Moisture / Eddy Covariance / SIF",
+      "suggested": "Vapor Pressure Deficit (VPD), Ecosystem Production Efficiency, Soil Moisture, Land-Atmosphere Interaction, Eddy Covariance, SIF, Drought Stress",
+      "reason": "Keywords are good. Adding 'Land-Atmosphere Interaction', 'Drought Stress', and specifying 'VPD' and 'Ecosystem Production Efficiency' would enhance clarity and relevance to the core findings."
+    },
+    "related_papers": [
+      "Paper 0: Amplification Effect of Urbanization on Atmospheric Aridity Over China Under Past Global Warming",
+      "Paper 2: Soil moisture–atmosphere feedback dominates land carbon uptake variability",
+      "Paper 4: Land–Atmosphere Interactions Partially Offset the Accelerated Tibetan Plateau Water Cycle through Dynamical Processes"
+    ],
+    "innovation_insights": [
+      "Investigate the non-linear relationships between VPD, soil moisture, and ecosystem productivity across different biomes and under various climate scenarios using deep learning architectures.",
+      "Develop improved methods for estimating ecosystem production efficiency that robustly decouple the effects of VPD from soil moisture, potentially integrating SIF with other remote sensing data.",
+      "Explore the implications of VPD-driven ecosystem response for agricultural water management and crop yield forecasting, particularly in arid and semi-arid regions prone to drought."
+    ],
+    "processed_time": "2026-01-13 21:26:22"
+  },
+  "ENSU9M5D": {
+    "title": "Land–Atmosphere Interactions Partially Offset the Accelerated Tibetan Plateau Water Cycle through Dynamical Processes",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Hazards/Flood, Methodology/Deep Learning (LSTM_CNN), Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Drought-Flood Transitions, Coupling/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Land-Atmosphere Interactions / Tibetan Plateau / Climate Change / Regional Climate Model / Water Cycle",
+      "suggested": "Land-Atmosphere Interactions, Tibetan Plateau, Water Cycle, Climate Change, Dynamical Processes, Precipitation Variability, Regional Climate Modeling",
+      "reason": "The current keywords are appropriate. Suggesting 'Dynamical Processes' and 'Precipitation Variability' would better highlight the specific mechanisms and outcomes discussed in the paper."
+    },
+    "related_papers": [
+      "Paper 0: Amplification Effect of Urbanization on Atmospheric Aridity Over China Under Past Global Warming",
+      "Paper 1: A study of the hydrology of eastern North America using atmospheric vapor flux data",
+      "Paper 2: Soil moisture–atmosphere feedback dominates land carbon uptake variability",
+      "Paper 3: Large influence of atmospheric vapor pressure deficit on ecosystem production efficiency"
+    ],
+    "innovation_insights": [
+      "Utilize machine learning or AI to explicitly model the complex dynamical feedback mechanisms between land surface changes and atmospheric circulation on the Tibetan Plateau.",
+      "Investigate how the observed weakening of land-atmosphere feedbacks on the Tibetan Plateau affects the occurrence and intensity of extreme hydrological events (e.g., floods, droughts) in surrounding regions.",
+      "Evaluate the sensitivity of Tibetan Plateau water cycle dynamics to different climate change scenarios and land use changes, considering the interplay of thermodynamic and dynamic processes."
+    ],
+    "processed_time": "2026-01-13 21:26:26"
+  },
+  "MJWXBXWP": {
+    "title": "The decadal abrupt change in the global land vapor pressure deficit",
+    "archive_path": "[ARCHIVE] Hazards/Drought/DFA, [ARCHIVE] Processes/ET, [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, [IDEA] Mechanism/Abrupt Transitions/Phase Change, [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "N/A",
+      "suggested": "Vapor Pressure Deficit / Decadal Abrupt Change / Global Aridity / Trend Analysis / Regional Differences",
+      "reason": "Current keywords are missing. Suggested keywords reflect the main topic of global VPD decadal abrupt change, its drivers, and regional variations."
+    },
+    "related_papers": [
+      "Paper 1: Plant responses to rising vapor pressure deficit",
+      "Paper 2: Sensitivity of atmospheric CO2 growth rate to observed changes in terrestrial water storage",
+      "Paper 4: Advances in understanding large-scale responses of the water cycle to climate change"
+    ],
+    "innovation_insights": [
+      "Investigate the specific physical mechanisms driving the identified decadal abrupt changes in VPD and whether these changes represent critical transitions or tipping points in the climate system.",
+      "Explore the impact of different starting years and data sources (beyond CRU) on the detection and characterization of VPD abrupt changes to assess robustness and potential biases.",
+      "Quantify the future projections of VPD abrupt changes and their cascading impacts on regional climate, ecosystems, and water resources, addressing the future work questions about further strengthening of water limitation and increased aridity.",
+      "Analyze the relative contributions of energy (e.g., temperature) and water limitations to VPD changes and abrupt events, and how these contributions evolve over time and across regions.",
+      "Develop advanced statistical or AI models to better identify and predict these decadal abrupt change events in VPD, potentially integrating other climate variables."
+    ],
+    "processed_time": "2026-01-13 21:26:53"
+  },
+  "EK4P5FTZ": {
+    "title": "Plant responses to rising vapor pressure deficit",
+    "archive_path": "[ARCHIVE] Processes/ET, [ARCHIVE] Hazards/Drought/Drought Stress, [ARCHIVE] Applications/Agricultural Systems, [ARCHIVE] Methodology/Land Surface Models",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, [IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Vapor Pressure Deficit / Plant Physiology / Climate Change / Drought Stress / Land Surface Models",
+      "suggested": "Vapor Pressure Deficit / Plant Physiology / Climate Change / Drought Stress / Land Surface Models / Stomatal Conductance / Photosynthesis / Ecosystem Response",
+      "reason": "Current keywords are good and capture the essence. Adding terms like 'Stomatal Conductance', 'Photosynthesis', and 'Ecosystem Response' would enhance specificity to the physiological and ecological impacts discussed."
+    },
+    "related_papers": [
+      "Paper 0: The decadal abrupt change in the global land vapor pressure deficit",
+      "Paper 2: Sensitivity of atmospheric CO2 growth rate to observed changes in terrestrial water storage",
+      "Paper 4: Advances in understanding large-scale responses of the water cycle to climate change"
+    ],
+    "innovation_insights": [
+      "Develop more sophisticated land surface models that explicitly capture the non-linear physiological responses of diverse plant species to rising VPD, moving beyond aggregated parameterizations.",
+      "Investigate the potential for vegetation 'acclimation' or 'adaptation' to prolonged periods of high VPD and its implications for ecosystem resilience and carbon sequestration.",
+      "Quantify the feedback mechanisms between plant responses (e.g., stomatal closure, reduced photosynthesis) and atmospheric VPD, particularly under different land cover and management scenarios.",
+      "Explore the role of plant functional traits in determining species-specific vulnerability to VPD-induced stress and its contribution to increased drought mortality events, linking to broader drought dynamics.",
+      "Utilize AI/ML approaches to upscale observed physiological responses to VPD across different scales and ecosystems, improving predictions of ecosystem-level impacts."
+    ],
+    "processed_time": "2026-01-13 21:26:59"
+  },
+  "KJWQ7V26": {
+    "title": "Sensitivity of atmospheric CO2 growth rate to observed changes in terrestrial water storage",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Hazards/Drought/Drought, [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Modeling/Ensemble Methods, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "N/A",
+      "suggested": "Terrestrial Water Storage / Atmospheric CO2 Growth Rate / Water Cycle / Climate Variability / Land Surface Hydrology / Precipitation",
+      "reason": "Current keywords are missing. Suggested keywords reflect the paper's focus on the link between water storage variations and atmospheric CO2 growth rate, implying a connection to hydrological processes and climate drivers."
+    },
+    "related_papers": [
+      "Paper 0: The decadal abrupt change in the global land vapor pressure deficit",
+      "Paper 1: Plant responses to rising vapor pressure deficit",
+      "Paper 3: Contribution of Tibetan Plateau ecosystems to local and remote precipitation through moisture recycling",
+      "Paper 4: Advances in understanding large-scale responses of the water cycle to climate change"
+    ],
+    "innovation_insights": [
+      "Investigate the causality and temporal lags between changes in terrestrial water storage (including soil moisture, groundwater, snowpack) and their impact on the atmospheric CO2 growth rate, disentangling hydrological and meteorological influences.",
+      "Quantify the contribution of different components of terrestrial water storage (e.g., snowmelt vs. soil moisture availability) to the variability in the carbon cycle, especially in regions with strong seasonal water limitations.",
+      "Develop advanced data assimilation or fusion techniques to improve the estimation of global terrestrial water storage anomalies and their representation in climate and carbon cycle models.",
+      "Explore how extreme hydrological events (e.g., floods, prolonged droughts) influence the interannual variability of CO2 growth rate through their impact on terrestrial water storage.",
+      "Apply AI/ML methods to better model the complex, non-linear relationships between water storage dynamics and carbon fluxes across various spatial and temporal scales."
+    ],
+    "processed_time": "2026-01-13 21:27:05"
+  },
+  "3ZMACLY5": {
+    "title": "Contribution of Tibetan Plateau ecosystems to local and remote precipitation through moisture recycling",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Multi-Sphere Coupling, [IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "N/A",
+      "suggested": "Tibetan Plateau / Moisture Recycling / Precipitation / Ecosystems / Water Cycle / Teleconnections",
+      "reason": "Current keywords are missing. Suggested keywords highlight the geographic focus (Tibetan Plateau), the core process (moisture recycling), and its impact on precipitation and the broader water cycle."
+    },
+    "related_papers": [
+      "Paper 2: Sensitivity of atmospheric CO2 growth rate to observed changes in terrestrial water storage",
+      "Paper 4: Advances in understanding large-scale responses of the water cycle to climate change"
+    ],
+    "innovation_insights": [
+      "Quantify the regional and remote impacts of Tibetan Plateau ecosystem changes (e.g., deforestation, glacier melt) on precipitation patterns, building on the identified moisture recycling mechanisms.",
+      "Investigate the role of teleconnections and atmospheric circulation patterns in mediating the influence of Tibetan Plateau moisture recycling on precipitation in downwind regions.",
+      "Develop high-resolution hydrological and land surface models specifically for the Tibetan Plateau to better represent complex processes and their impact on regional and global water cycles.",
+      "Assess how climate change, including changes in temperature, glacier melt, and land use, might alter the moisture recycling capacity of Tibetan Plateau ecosystems.",
+      "Explore the use of advanced remote sensing techniques or AI-driven approaches for monitoring and quantifying moisture fluxes and recycling ratios over the Tibetan Plateau."
+    ],
+    "processed_time": "2026-01-13 21:27:10"
+  },
+  "WYQ96BZ4": {
+    "title": "Advances in understanding large-scale responses of the water cycle to climate change",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drought, [ARCHIVE] Hazards/Flood, [ARCHIVE] Hazards/Heatwaves & Extremes, [ARCHIVE] Applications/Climate Change Impact, [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Dynamics/Tipping Points, [IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "N/A",
+      "suggested": "Water Cycle / Climate Change / Large-Scale Response / Extreme Events / Hydrological Extremes / Global Water Balance",
+      "reason": "Current keywords are missing. Suggested keywords accurately reflect the broad scope of advances in understanding large-scale water cycle responses to climate change, encompassing extreme events."
+    },
+    "related_papers": [
+      "Paper 0: The decadal abrupt change in the global land vapor pressure deficit",
+      "Paper 1: Plant responses to rising vapor pressure deficit",
+      "Paper 2: Sensitivity of atmospheric CO2 growth rate to observed changes in terrestrial water storage",
+      "Paper 3: Contribution of Tibetan Plateau ecosystems to local and remote precipitation through moisture recycling"
+    ],
+    "innovation_insights": [
+      "Identify and characterize potential 'tipping points' or critical thresholds in the global water cycle beyond which responses to climate change become rapid and potentially irreversible.",
+      "Investigate the intensification of hydrological extremes (both wet and dry) and their spatial and temporal variability under different climate change scenarios, seeking to understand regional disparities.",
+      "Develop hybrid models that combine process-based understanding with AI/ML techniques to improve predictions of large-scale water cycle behavior and extreme event occurrences under future climate change.",
+      "Analyze the feedback loops and cascading effects within the global water cycle that contribute to the amplification or dampening of climate change impacts.",
+      "Examine the role of land-atmosphere and ocean-atmosphere interactions in shaping the large-scale response of the water cycle to climate change, particularly concerning moisture transport and precipitation patterns."
+    ],
+    "processed_time": "2026-01-13 21:27:16"
+  },
+  "G593WP6S": {
+    "title": "基于柯本气候分类的1961-2013年我国气候区类型及变化",
+    "archive_path": "[ARCHIVE] Archive/Hazards/Drought/Climate Classification, [ARCHIVE] Archive/Methodology/Statistical Methods/Climate Classification",
+    "idea_path": "[IDEA] Idea Lab/Dynamics/Non-linearity & Complexity, [IDEA] Idea Lab/Data Philosophy/Data Quality & Validation",
+    "keyword_assessment": {
+      "current": "Climate Classification / Köppen Classification / Climate Change / China",
+      "suggested": "Köppen Climate Classification / Climate Zonation / Climate Change / China / Temporal-Spatial Variation",
+      "reason": "The current keywords are good but could be more specific. Adding 'Climate Zonation' clarifies the primary output. Including 'Temporal-Spatial Variation' directly reflects the analysis of changes over time and space."
+    },
+    "related_papers": [
+      "Paper 3: The first high-resolution meteorological forcing dataset for land process studies over China",
+      "Paper 4: Dataset of spatially extensive long-term quality-assured land–atmosphere interactions over the tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Insight: This paper establishes a baseline climate classification for China using a globally recognized method. Future work could integrate this classification with hydrological models to assess how different climate zones influence water resource availability and drought risk under climate change scenarios.",
+      "Gap: The paper focuses on broad climate zone changes. A future direction could be to downscale these climate zones or their changes to finer resolutions relevant for regional hydrological impact studies, or to investigate the specific hydrological implications of transitions between climate zones."
+    ],
+    "processed_time": "2026-01-13 21:27:40"
+  },
+  "N2FTTR3X": {
+    "title": "Learning Atmospheric Boundary Layer Turbulence",
+    "archive_path": "[ARCHIVE] Archive/Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Archive/Processes/Runoff & Streamflow/Turbulence Parameterization",
+    "idea_path": "[IDEA] Idea Lab/Modeling/Physics-Informed AI, [IDEA] Idea Lab/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Atmospheric Boundary Layer / Machine Learning / Turbulence Parameterization / Physics-Informed Neural Networks",
+      "suggested": "Atmospheric Boundary Layer / Turbulence Parameterization / Physics-Informed Neural Networks / Deep Learning / Fluxes",
+      "reason": "The current keywords are relevant. Adding 'Deep Learning' explicitly states the ML technique used, and 'Fluxes' highlights the specific atmospheric transport being modeled, which is crucial for land-atmosphere interactions."
+    },
+    "related_papers": [
+      "Paper 2: An improvement in accuracy and spatiotemporal continuity of the MODIS precipitable water vapor product based on a data fusion approach",
+      "Paper 3: The first high-resolution meteorological forcing dataset for land process studies over China"
+    ],
+    "innovation_insights": [
+      "Insight: The paper introduces a physics-informed neural network approach for turbulence parameterization. This opens avenues for developing similar hybrid models for other complex hydrological processes where traditional parameterizations are insufficient, such as land-atmosphere exchange of moisture and energy.",
+      "Gap: While successful for the atmospheric boundary layer, the application of physics-informed AI to parameterize turbulent transport in other hydrological contexts (e.g., within soil, in surface water bodies, or for cloud microphysics) remains a significant research gap."
+    ],
+    "processed_time": "2026-01-13 21:27:46"
+  },
+  "QMBN4KSV": {
+    "title": "An improvement in accuracy and spatiotemporal continuity of the MODIS precipitable water vapor product based on a data fusion approach",
+    "archive_path": "[ARCHIVE] Archive/Methodology/Data Fusion, [ARCHIVE] Archive/Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Idea Lab/Data Philosophy/Multi-Source Integration, [IDEA] Idea Lab/Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Precipitable water vapor (可降水量), Data fusion (数据融合), MODIS, ERA5, Upper Brahmaputra River (雅鲁藏布江上游)",
+      "suggested": "Precipitable Water Vapor / Data Fusion / Remote Sensing / Reanalysis Data / Spatial-Temporal Continuity / MODIS / ERA5",
+      "reason": "The current keywords are good and specific to the paper's content. Adding 'Remote Sensing' and 'Reanalysis Data' clarifies the data sources, and 'Spatial-Temporal Continuity' highlights a key improvement achieved."
+    },
+    "related_papers": [
+      "Paper 3: The first high-resolution meteorological forcing dataset for land process studies over China",
+      "Paper 0: 基于柯本气候分类的1961-2013年我国气候区类型及变化",
+      "Paper 4: Dataset of spatially extensive long-term quality-assured land–atmosphere interactions over the tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Insight: This paper demonstrates a successful data fusion approach to enhance the quality of a crucial atmospheric variable (PWV) for hydrological studies. This methodology can be extended to fuse other satellite and reanalysis products for different hydrological variables (e.g., soil moisture, ET) to create more reliable datasets for water resource management and climate research.",
+      "Gap: The paper focuses on PWV. Future research could explore optimal fusion strategies for combining diverse data sources (remote sensing, reanalysis, in-situ observations) for other key hydrological variables, especially in data-scarce regions or under challenging topographical conditions like those in the Tibetan Plateau."
+    ],
+    "processed_time": "2026-01-13 21:27:52"
+  },
+  "QB94A8J3": {
+    "title": "The first high-resolution meteorological forcing dataset for land process studies over China",
+    "archive_path": "[ARCHIVE] Archive/Methodology/Data Fusion, [ARCHIVE] Archive/Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Idea Lab/Data Philosophy/Multi-Source Integration, [IDEA] Idea Lab/Data Philosophy/Data Quality & Validation",
+    "keyword_assessment": {
+      "current": "Meteorological Dataset / Land Surface Processes / China / Data Fusion / High Resolution",
+      "suggested": "Meteorological Dataset / Land Surface Processes / China / High-Resolution Data / Data Fusion / Remote Sensing / Reanalysis Data",
+      "reason": "The current keywords accurately represent the dataset. Adding 'High-Resolution Data' emphasizes a key characteristic. Explicitly mentioning 'Remote Sensing' and 'Reanalysis Data' clarifies the data fusion components used."
+    },
+    "related_papers": [
+      "Paper 2: An improvement in accuracy and spatiotemporal continuity of the MODIS precipitable water vapor product based on a data fusion approach",
+      "Paper 0: 基于柯本气候分类的1961-2013年我国气候区类型及变化",
+      "Paper 4: Dataset of spatially extensive long-term quality-assured land–atmosphere interactions over the tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Insight: The creation of this high-resolution meteorological dataset is a significant enabler for advanced land surface modeling and hydrological studies in China. It paves the way for more detailed investigations into water-energy-carbon cycles and extreme events within China.",
+      "Gap: The dataset spans up to 2018. Extending this dataset to more recent years and potentially increasing its temporal resolution (if data availability allows) would further enhance its utility for current hydrological research and operational applications."
+    ],
+    "processed_time": "2026-01-13 21:27:56"
+  },
+  "VI8TJJ62": {
+    "title": "Dataset of spatially extensive long-term quality-assured land–atmosphere interactions over the tibetan plateau",
+    "archive_path": "[ARCHIVE] Archive/Data/Land Surface Properties, [ARCHIVE] Archive/Data/Meteorological Data",
+    "idea_path": "[IDEA] Idea Lab/Data Philosophy/Data Quality & Validation, [IDEA] Idea Lab/Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Unclassified",
+      "suggested": "Land-Atmosphere Interactions / Tibetan Plateau / Long-term Dataset / Quality-Assured Data / Meteorological Data / Remote Sensing",
+      "reason": "The paper is a dataset description. The current keywords are missing. Suggested keywords highlight the geographic focus (Tibetan Plateau), the core phenomenon (Land-Atmosphere Interactions), the nature of the data (Long-term, Quality-Assured, Meteorological), and the likely data sources (Remote Sensing, potentially reanalysis and in-situ data as implied by 'quality-assured')."
+    },
+    "related_papers": [
+      "Paper 0: 基于柯本气候分类的1961-2013年我国气候区类型及变化",
+      "Paper 2: An improvement in accuracy and spatiotemporal continuity of the MODIS precipitable water vapor product based on a data fusion approach",
+      "Paper 3: The first high-resolution meteorological forcing dataset for land process studies over China"
+    ],
+    "innovation_insights": [
+      "Insight: This dataset provides a valuable resource for studying land-atmosphere interactions over the Tibetan Plateau, a region with critical climate feedback mechanisms. Future research could use this dataset to investigate the role of land surface processes in driving regional climate variability and extreme events, such as flash droughts or intense rainfall.",
+      "Gap: The description lacks detail on specific variables and their quality assurance protocols. Future work could involve detailed validation of the dataset's components against independent observations and using it to explore the spatial and temporal dynamics of energy and water fluxes, particularly focusing on understanding extreme events like droughts or heatwaves in this sensitive region."
+    ],
+    "processed_time": "2026-01-13 21:28:02"
+  },
+  "WFCF8GDW": {
+    "title": "Verification of long‐term ensemble evapotranspiration hindcast using a conditional nonlinear optimal parameter perturbation ensemble prediction method on the tibetan plateau",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Methodology/Ensemble Methods",
+    "idea_path": "[IDEA] Modeling/Ensemble Methods, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Evapotranspiration, Ensemble prediction, CNOP-PEP method, Tibetan Plateau, Land surface model",
+      "suggested": "Evapotranspiration, Ensemble Prediction, Conditional Nonlinear Optimal Perturbation Ensemble Prediction (CNOP-PEP), Tibetan Plateau, Land Surface Model, Hindcast Skill, Interannual Variability",
+      "reason": "Keywords are good but could be more specific about the method (CNOP-PEP) and highlight the hindcasting aspect and the geographical focus (Tibetan Plateau)."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Explore the application of the CNOP-PEP method to other hydrological variables or regions for long-term prediction.",
+      "Investigate the sources of uncertainty in the CNOP-PEP method and explore strategies for further uncertainty reduction in hydrological hindcasts.",
+      "Develop hybrid modeling approaches that combine the CNOP-PEP method with deep learning techniques for improved ET predictions."
+    ],
+    "processed_time": "2026-01-13 21:28:20"
+  },
+  "4VL322NY": {
+    "title": "Using the sensible heat flux eddy covariance-based exchange coefficient to calculate latent heat flux from moisture mean gradients over snow",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Methodology/Remote Sensing/Retrieval, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "涡度协方差, Monin-Obukhov相似理论, 潜热通量, 雪, 边界层, Bowen比率",
+      "suggested": "Latent Heat Flux, Snow, Eddy Covariance, Sensible Heat Flux, Exchange Coefficient, Bowen Ratio Method, Boundary Layer, Monin-Obukhov Similarity Theory, Hydrometeorology",
+      "reason": "The current keywords are a mix of English and Chinese and could be more descriptive of the novel method proposed. Focusing on 'Latent Heat Flux over Snow' and the specific method ('Exchange Coefficient'/'Bowen Ratio Method') would be more informative."
+    },
+    "related_papers": [
+      "Paper 0: Upstream evaporation is the key to extreme summertime heat stress in north China",
+      "Paper 1: Verification of long‐term ensemble evapotranspiration hindcast using a conditional nonlinear optimal parameter perturbation ensemble prediction method on the tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Develop and validate this improved Bowen ratio method (C method) in diverse snow-covered environments, including different snow types and altitudes.",
+      "Integrate the C method into land surface models to improve the representation of latent heat flux over snow and its impact on land-atmosphere interactions.",
+      "Investigate the potential of this method for estimating ET in remote or data-scarce cryospheric regions where direct eddy covariance measurements are challenging."
+    ],
+    "processed_time": "2026-01-13 21:28:24"
+  },
+  "GDTUBW7N": {
+    "title": "A spatially explicit database of wind disturbances in European forests over the period 2000–2018",
+    "archive_path": "[ARCHIVE] Hazards/Compound Events/DFA, Methodology/Remote Sensing/Retrieval, Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Dynamics/Tipping Points, Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "为森林风扰动的研究提供了高质量的数据支持，有助于提高对风扰动及其生态和经济影响的理解，并促进更精确的模型和预测，帮助政策制定者和森林管理者制定更有效的策略来应对气候变化带来的挑战。",
+      "suggested": "Forest Wind Disturbances, European Forests, Spatial Database, Climate Change, Forest Vulnerability, Remote Sensing, Disturbance Ecology, Earth System Science Data",
+      "reason": "The current keywords are descriptive of the paper's impact but not specific enough for retrieval. They should focus on the core subject matter (wind disturbances in European forests), the data product itself (spatial database), and key related themes (climate change, vulnerability, remote sensing)."
+    },
+    "related_papers": [
+      "Paper 0: Upstream evaporation is the key to extreme summertime heat stress in north China"
+    ],
+    "innovation_insights": [
+      "Utilize this FORWIND database to investigate the spatial and temporal scaling of wind disturbance impacts on forest structure, biodiversity, and carbon cycling.",
+      "Integrate the FORWIND data with climate models and land surface models to improve projections of forest response to future climate change, particularly under increased storm frequency or intensity.",
+      "Explore the cascading effects of wind disturbances on hydrological processes (e.g., altered snowmelt, runoff patterns) and soil erosion, linking forest dynamics to water resources and hazards."
+    ],
+    "processed_time": "2026-01-13 21:28:29"
+  },
+  "SIMX2CYK": {
+    "title": "Drivers of changes to the ENSO–europe teleconnection under future warming",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Methodology/Deep Learning (LSTM_CNN), Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity, Coupling/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "ENSO, Teleconnection, Global Warming, El Niño, Climate Model",
+      "suggested": "ENSO, Teleconnection, Global Warming, El Niño-Southern Oscillation, Climate Model, Tropical Pacific, European Climate, Atmospheric Circulation",
+      "reason": "The current keywords are relevant but could be expanded to include more specific terms related to the study's focus, such as the tropical Pacific's role and European climate impacts. 'El Niño' is a part of ENSO, so explicitly mentioning ENSO is broader and more accurate. Adding 'Atmospheric Circulation' would also be beneficial given the study's findings."
+    },
+    "related_papers": [
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Investigate the specific mechanisms through which background state changes amplify or dampen ENSO-Europe teleconnections under different warming scenarios.",
+      "Explore the predictability of these teleconnection changes using advanced statistical or machine learning models trained on idealized and observational data.",
+      "Quantify the uncertainties in projected changes to ENSO-Europe teleconnections arising from model biases in tropical Pacific SST trends, as highlighted in the paper."
+    ],
+    "processed_time": "2026-01-13 21:28:50"
+  },
+  "9NXJHV8W": {
+    "title": "Impacts of shifting phenology on boundary layer dynamics in north America in the CESM",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Methodology/Remote Sensing/Retrieval, Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, Mechanism/Land-Atmosphere Coupling, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Plant Phenology, Land-Atmosphere Interaction, Boundary Layer, Community Earth System Model (CESM)",
+      "suggested": "Plant Phenology, Land-Atmosphere Interaction, Planetary Boundary Layer (PBL) Dynamics, Land-Surface Coupling, CESM, North America, Seasonal Cycles, Evapotranspiration",
+      "reason": "The current keywords are good but could be more specific. Adding 'Planetary Boundary Layer (PBL) Dynamics' and 'Land-Surface Coupling' provides a clearer picture of the study's focus. Including the geographical region ('North America') and the temporal aspect ('Seasonal Cycles') is also important. 'Evapotranspiration' is a key process affected by phenology and boundary layer dynamics."
+    },
+    "related_papers": [
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Investigate how shifting phenology affects diurnal cycles of the boundary layer and associated energy fluxes, not just seasonal averages.",
+      "Examine the feedback mechanisms between altered boundary layer dynamics and vegetation stress or growth under changing phenological patterns.",
+      "Develop and validate statistical or ML models to downscale CESM-simulated phenology-PBL interactions to regional or local scales for agricultural applications."
+    ],
+    "processed_time": "2026-01-13 21:28:54"
+  },
+  "47WCMYFB": {
+    "title": "Future changes in south asian summer monsoon circulation under global warming: Role of the tibetan plateau latent heating",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Processes/Runoff & Streamflow, Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Mechanism/Feedback Loops & Cascades, Coupling/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "South Asian Summer Monsoon (SASM), Global Warming, Tibetan Plateau Latent Heating, CMIP6, Atmospheric Circulation",
+      "suggested": "South Asian Summer Monsoon (SASM), Global Warming, Tibetan Plateau Latent Heating, CMIP6, Atmospheric Circulation, Moisture Budget, Teleconnection, Monsoon Dynamics",
+      "reason": "The current keywords capture the main elements. Adding 'Moisture Budget' reflects a key analysis method used. 'Teleconnection' is relevant given the broad impact of monsoons. 'Monsoon Dynamics' is a good overarching term for the study's focus."
+    },
+    "related_papers": [
+      "Paper 0 title"
+    ],
+    "innovation_insights": [
+      "Investigate the role of stratospheric pathways in transmitting Tibetan Plateau latent heating anomalies to the SASM circulation.",
+      "Explore the potential for using AI/ML to improve the representation of Tibetan Plateau latent heating and its impact on SASM in climate models.",
+      "Analyze the combined effects of intensified TP latent heating and other climate change drivers (e.g., Arctic warming) on SASM variability."
+    ],
+    "processed_time": "2026-01-13 21:28:58"
+  },
+  "GC9R5RLE": {
+    "title": "Accounting for pacific climate variability increases projected global warming",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes, Methodology/Statistical Methods, Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Ensemble Methods, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Observational constraint, Pacific climate variability, Global warming, Pattern effect, Climate model",
+      "suggested": "Observational Constraint, Pacific Climate Variability, Global Warming, Pattern Effect, Climate Model, Climate Sensitivity, Paris Agreement, Internal Variability, Emission Scenarios",
+      "reason": "The current keywords are good and specific. Adding 'Climate Sensitivity', 'Paris Agreement', and 'Internal Variability' directly reflects key concepts and implications discussed in the abstract. 'Emission Scenarios' is also relevant given the context of future projections."
+    },
+    "related_papers": [
+      "Paper 0 title"
+    ],
+    "innovation_insights": [
+      "Develop new observational constraint methodologies that are less sensitive to specific regional variabilities like the Pacific.",
+      "Investigate the extent to which other major ocean basins' internal variability (e.g., Atlantic Multidecadal Oscillation) influences global warming projections.",
+      "Explore the implications of these higher warming projections for the efficacy of different geoengineering strategies."
+    ],
+    "processed_time": "2026-01-13 21:29:02"
+  },
+  "Q7RQUTP6": {
+    "title": "Dominant role of eurasian evaporation on the moisture sources of the interannual variations in central asian summer precipitation",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Soil Moisture, Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Eurasian evaporation, Central Asian summer precipitation, moisture sources, Lagrangian model, FLEXPART, interannual variations",
+      "suggested": "Eurasian Evaporation, Central Asian Summer Precipitation, Moisture Sources, Lagrangian Model, FLEXPART, Interannual Variability, Land-Atmosphere Coupling, Water Vapor Transport, Arid Regions",
+      "reason": "The current keywords are accurate and comprehensive. Adding 'Land-Atmosphere Coupling' and 'Water Vapor Transport' further clarifies the physical processes being investigated. 'Arid Regions' is also a key characteristic of the study area and its precipitation sensitivity."
+    },
+    "related_papers": [
+      "Paper 1 title"
+    ],
+    "innovation_insights": [
+      "Investigate the influence of soil moisture memory in Eurasia on the interannual variations of Central Asian precipitation.",
+      "Apply deep learning models to identify complex non-linear relationships between Eurasian evaporation and Central Asian precipitation, going beyond linear correlations.",
+      "Quantify the contribution of different land cover types within Eurasia to the moisture supply of Central Asian precipitation variations."
+    ],
+    "processed_time": "2026-01-13 21:29:10"
+  },
+  "BE22F7P9": {
+    "title": "Siberian vegetation growth intensifies monsoon precipitation in southern east asia in late spring and early summer",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Land-Atmosphere Coupling, [ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, [IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "西伯利亚植被, 季风降水, 东亚, 气候变暖, 反照率",
+      "suggested": "Siberian vegetation, East Asian monsoon, land-atmosphere coupling, albedo, vegetation growth, precipitation intensification",
+      "reason": "Keywords are somewhat relevant but lack specificity regarding the mechanism (land-atmosphere coupling) and the temporal/spatial scale of the interaction. 'Climate warming' is broad; 'albedo' is a key parameter but not the sole driver. Adding terms like 'vegetation growth' and 'precipitation intensification' would improve searchability for this specific research."
+    },
+    "related_papers": [
+      "Global climate impacts of land‐surface and atmospheric processes over the tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Investigate the role of vegetation changes in other regions (beyond Siberia) on regional precipitation patterns and monsoon dynamics.",
+      "Quantify the feedback strength of vegetation greening on precipitation intensification under different climate scenarios, potentially using advanced remote sensing and modeling techniques.",
+      "Explore the impact of changes in land surface properties (like albedo due to vegetation) on atmospheric circulation and moisture transport relevant to monsoon systems.",
+      "Develop methods to disentangle the influence of vegetation growth from other factors (e.g., SST, anthropogenic aerosols) affecting monsoon precipitation."
+    ],
+    "processed_time": "2026-01-13 21:29:28"
+  },
+  "5BVFPLVM": {
+    "title": "Causal analysis discovers an enhanced impact of tropical western pacific on Indian summer monsoon subseasonal anomalies",
+    "archive_path": "Unclassified",
+    "idea_path": "[IDEA] Modeling/Causal Inference, [IDEA] Dynamics/Drought-Flood Transitions, [IDEA] Coupling/Multi-Sphere Coupling",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Tropical Western Pacific, Indian Summer Monsoon, subseasonal anomalies, causal inference, atmospheric teleconnections, ocean-atmosphere interaction",
+      "reason": "The provided excerpt is minimal, stating 'atmospheric circulation etc., don't understand.' Based on the title, keywords related to the geographical focus (Tropical Western Pacific, Indian Summer Monsoon), the phenomena studied (subseasonal anomalies), the methodology (causal inference), and the underlying processes (atmospheric teleconnections, ocean-atmosphere interaction) are crucial for proper indexing and understanding."
+    },
+    "related_papers": [
+      "Siberian vegetation growth intensifies monsoon precipitation in southern east asia in late spring and early summer",
+      "Global climate impacts of land‐surface and atmospheric processes over the tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Apply causal inference methods to other monsoon systems (e.g., East Asian monsoon) and investigate teleconnections from different tropical regions.",
+      "Explore the physical mechanisms uncovered by causal inference, focusing on how specific ocean-atmosphere interactions in the Tropical Western Pacific influence the Indian Summer Monsoon at subseasonal timescales.",
+      "Develop early warning systems for subseasonal monsoon variability by leveraging the identified causal links.",
+      "Investigate whether similar causal structures exist for other hydro-climatic phenomena, such as drought onset or flood prediction."
+    ],
+    "processed_time": "2026-01-13 21:29:32"
+  },
+  "VKEJB497": {
+    "title": "Scalar flux profiles in the unstable atmospheric surface layer under the influence of large eddies: Implications for eddy covariance flux measurements and the non‐closure problem",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Land-Atmosphere Coupling, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Data Fusion, [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Modeling/Physics-Informed AI, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "对流边界层，感热通量，潜热通量，二氧化碳通量，大涡模拟，表面能量平衡",
+      "suggested": "unstable atmospheric surface layer, scalar flux profiles, large eddies, eddy covariance, non-closure problem, sensible heat flux, latent heat flux, CO2 flux, ABL turbulence",
+      "reason": "The current keywords are good and capture the core concepts. Adding terms like 'unstable atmospheric surface layer', 'large eddies', and 'ABL turbulence' would provide more specific context. Explicitly mentioning the 'non-closure problem' in keywords could also improve discoverability for researchers focused on this specific issue."
+    },
+    "related_papers": [
+      "Scalar flux profiles in the unstable atmospheric surface layer under the influence of large eddies: Implications for eddy covariance flux measurements and the non‐closure problem"
+    ],
+    "innovation_insights": [
+      "Develop advanced machine learning models (potentially Physics-Informed AI) to better represent the impact of large eddies on scalar flux profiles, aiming to improve the accuracy of flux measurements.",
+      "Investigate the non-closure problem in surface energy balance using high-resolution simulations or novel observational techniques to better understand the role of sub-grid scale turbulence.",
+      "Explore how uncertainties in scalar flux measurements due to large eddy effects propagate into larger-scale hydrological and climate models.",
+      "Apply similar large-eddy simulation (LES) or advanced statistical techniques to study flux profiles in different boundary layer conditions (e.g., stable, neutral) or over different land surfaces (e.g., forests, croplands)."
+    ],
+    "processed_time": "2026-01-13 21:29:37"
+  },
+  "TRKDL2KN": {
+    "title": "The relationship between the present‐day seasonal cycles of clouds in the mid‐latitudes and cloud‐radiative feedback",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Land-Atmosphere Coupling, [ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, [IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "季节性周期",
+      "suggested": "seasonal cycle, clouds, mid-latitudes, cloud radiative feedback, climate models, low clouds, climate sensitivity, observational data",
+      "reason": "The keyword 'seasonal cycle' is too general. It needs to be combined with specific elements of the paper such as 'clouds', 'mid-latitudes', and the core topic of 'cloud radiative feedback'. Including 'climate models' and 'climate sensitivity' is also essential given the paper's focus and implications."
+    },
+    "related_papers": [
+      "Siberian vegetation growth intensifies monsoon precipitation in southern east asia in late spring and early summer",
+      "Global climate impacts of land‐surface and atmospheric processes over the tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Utilize the 'natural laboratory' concept in mid-latitudes to test and improve cloud parameterizations in climate models, especially concerning low cloud feedbacks.",
+      "Investigate the influence of different land-surface properties and processes (potentially linked to vegetation, as in Paper 0) on seasonal cloud cycle variations and their subsequent impact on cloud radiative feedbacks.",
+      "Explore methods to better constrain cloud feedbacks in climate models using observational data, particularly focusing on seasonal cycles and transitions.",
+      "Examine potential non-linear relationships or tipping points within the seasonal cloud cycle that could indicate shifts in cloud radiative properties or larger climate system behavior."
+    ],
+    "processed_time": "2026-01-13 21:29:40"
+  },
+  "GW6L8JYS": {
+    "title": "Global climate impacts of land‐surface and atmospheric processes over the tibetan plateau",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Land-Atmosphere Coupling, [ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, [IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Tibetan Plateau, land-surface processes, atmospheric processes, global climate impacts, regional climate, land-atmosphere interactions, review",
+      "reason": "No keywords are provided. Based on the title and description ('Climate impacts of the Tibetan Plateau, Prof. Huang's Review, worth reading carefully'), keywords should encompass the geographical region, the types of processes studied (land-surface, atmospheric), the scope of impacts (global, regional), and the nature of the paper (review). Land-atmosphere interactions are a key component of such studies."
+    },
+    "related_papers": [
+      "Siberian vegetation growth intensifies monsoon precipitation in southern east asia in late spring and early summer",
+      "Causal analysis discovers an enhanced impact of tropical western pacific on Indian summer monsoon subseasonal anomalies"
+    ],
+    "innovation_insights": [
+      "Synthesize the findings from this review to identify critical land-surface and atmospheric processes over the Tibetan Plateau that require further high-resolution modeling or observational studies.",
+      "Investigate potential feedback loops and cascading effects between Tibetan Plateau processes and global climate patterns, possibly linking to monsoon systems (as in Papers 0 and 1).",
+      "Assess how changes in land-surface characteristics (e.g., cryosphere melt, vegetation changes) in the Tibetan Plateau, driven by climate change, impact regional and global hydro-climatic extremes.",
+      "Use the review as a foundation to develop integrated modeling frameworks that couple Tibetan Plateau processes with global climate models more effectively."
+    ],
+    "processed_time": "2026-01-13 21:29:43"
+  },
+  "7YL9FM7A": {
+    "title": "Missing increase in summer greenland blocking in climate models",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Drought/Flood/Compound Events/DFA",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "Geophysical Research Letters, climate models, summertime Greenland blocking, ice sheet melt, global sea level rise, model simulations, sea surface temperatures, anthropogenic aerosols, Greenland blocking",
+      "suggested": "Climate Models, Greenland Blocking, Summer Arctic Climate, Ice Sheet Melt, Sea Level Rise, Teleconnections, Arctic Amplification",
+      "reason": "The current keywords are too descriptive and contain journal information. Suggested keywords are more focused on the core scientific concepts and relevant to the user's interests."
+    },
+    "related_papers": [
+      "Storylines reveal contrasting thermodynamic effects of climate change on 2020/21 east asian cold extremes"
+    ],
+    "innovation_insights": [
+      "Investigate the physical mechanisms (e.g., atmospheric dynamics, land-atmosphere interactions, ocean-atmosphere coupling) responsible for the discrepancy between climate models and observations of Greenland blocking.",
+      "Develop improved parameterizations or sub-grid scale processes within climate models to better represent regional blocking phenomena, especially in the Arctic.",
+      "Explore the potential for using novel observational datasets or advanced statistical techniques to validate and improve climate model representations of Arctic blocking.",
+      "Quantify the precise impact of improved Greenland blocking simulation on projecting future Greenland ice sheet melt and sea level rise."
+    ],
+    "processed_time": "2026-01-13 21:30:03"
+  },
+  "D3YMRP4G": {
+    "title": "A 300-year tree-ring δ18O-based precipitation reconstruction for the south American altiplano highlights decadal hydroclimate teleconnections",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Soil Moisture",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Tree rings, δ18O, Precipitation reconstruction, South American Altiplano, Climate teleconnections, Hydroclimate variability, South American summer monsoon, El Niño-Southern Oscillation",
+      "suggested": "Tree Rings, Paleoclimate, Precipitation Reconstruction, South American Altiplano, Hydroclimate Variability, Teleconnections, ENSO, South American Monsoon",
+      "reason": "The current keywords are good and cover the main aspects. 'Paleoclimate' can be added for broader archival retrieval. The addition of ENSO and South American Monsoon is beneficial. The current description in the 'current' field is too narrative."
+    },
+    "related_papers": [
+      "Missing increase in summer greenland blocking in climate models",
+      "Storylines reveal contrasting thermodynamic effects of climate change on 2020/21 east asian cold extremes"
+    ],
+    "innovation_insights": [
+      "Investigate the role of teleconnections in driving hydroclimate variability in other arid or semi-arid regions using paleoclimate proxies.",
+      "Explore the use of multi-proxy approaches (e.g., combining tree rings with other archives like lake sediments or speleothems) to reconstruct hydroclimate variability and assess data uncertainty.",
+      "Analyze the influence of past abrupt climate shifts on regional hydroclimate in the Altiplano and their teleconnections.",
+      "Develop methods to fuse paleoclimate reconstructions with instrumental data and climate model outputs to create more comprehensive hydroclimate datasets."
+    ],
+    "processed_time": "2026-01-13 21:30:07"
+  },
+  "432CAJRV": {
+    "title": "Storylines reveal contrasting thermodynamic effects of climate change on 2020/21 east asian cold extremes",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity/Tipping Points",
+    "keyword_assessment": {
+      "current": "Climate change, East Asian cold spells, Thermodynamic effects, Arctic amplification, Aerosols, Scenario analysis",
+      "suggested": "Cold Extremes, Climate Change, East Asia, Thermodynamics, Arctic Amplification, Aerosols, Radiative Forcing, Scenario Analysis",
+      "reason": "The current keywords are relevant. 'Cold Extremes' is more precise than 'cold spells'. 'Radiative Forcing' is a key thermodynamic concept related to aerosols. The current description in the 'current' field is too narrative and contains noise."
+    },
+    "related_papers": [
+      "Missing increase in summer greenland blocking in climate models"
+    ],
+    "innovation_insights": [
+      "Investigate the interplay between thermodynamic and dynamic changes in driving extreme weather events under different warming scenarios, not just cold extremes.",
+      "Quantify the uncertainty associated with aerosol-climate interactions and their impact on regional extreme events.",
+      "Explore the potential for 'storylines' or scenario-based approaches to assess compound risks and cascading impacts of climate change on various regions and sectors.",
+      "Analyze how changes in Arctic amplification feedback loops influence mid-latitude extreme events, and if these relationships exhibit threshold behavior."
+    ],
+    "processed_time": "2026-01-13 21:30:10"
+  }
+}

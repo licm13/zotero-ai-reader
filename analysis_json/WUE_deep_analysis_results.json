@@ -1,0 +1,1497 @@
+{
+  "9YR885AH": {
+    "title": "Disentangling the impact of photosynthesis and stomatal conductance on rising water-use efficiency at different altitudes on the tibetan plateau",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Methodologies/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "iWUE, Tree rings, Stable isotopes, Stomatal conductance, Photosynthesis",
+      "suggested": "iWUE, Tree rings, Stable isotopes, Stomatal conductance, Photosynthesis, Altitude, Tibetan Plateau, Water-use efficiency",
+      "reason": "Current keywords are good but lack context on the study's specific location and the broader concept of water-use efficiency."
+    },
+    "related_papers": [
+      "Paper 1: Responses of marginal and intrinsic water‐use efficiency to changing aridity using FLUXNET observations",
+      "Paper 2: Crop water use efficiency from eddy covariance methods in cold water-limited regions",
+      "Paper 4: Prediction of global water use efficiency and its response to vapor pressure deficit and soil moisture coupling in the 21st century"
+    ],
+    "innovation_insights": [
+      "Investigate altitudinal gradients of plant physiological responses to climate change beyond the Tibetan Plateau, using similar multi-proxy approaches.",
+      "Explore the long-term temporal dynamics of photosynthesis and stomatal conductance changes in relation to various environmental drivers (e.g., CO2 fertilization, nitrogen deposition) using tree ring and isotopic data.",
+      "Develop process-based models that explicitly incorporate the disentangled roles of photosynthesis and stomatal conductance to improve predictions of ecosystem water use efficiency under future climates."
+    ],
+    "processed_time": "2026-01-14 09:50:55"
+  },
+  "55K3EYEJ": {
+    "title": "Responses of marginal and intrinsic water‐use efficiency to changing aridity using FLUXNET observations",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Hazards/Drought/Flash Drought / Methodologies/Statistical Methods",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration / Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "这篇文章通过FLUXNET观测数据，深入探讨了边际和内在水分利用效率对不同干旱条件的响应，为全球生态系统模型提供了重要的理论依据。",
+      "suggested": "WUE, iWUE, mWUE, FLUXNET, Aridity, Drought, Vapor Pressure Deficit (VPD), Land-Atmosphere Coupling",
+      "reason": "The current keywords are a descriptive summary rather than concise, searchable terms. The suggested keywords cover the main concepts, data source, and environmental drivers explored in the paper."
+    },
+    "related_papers": [
+      "Paper 0: Disentangling the impact of photosynthesis and stomatal conductance on rising water-use efficiency at different altitudes on the tibetan plateau",
+      "Paper 2: Crop water use efficiency from eddy covariance methods in cold water-limited regions",
+      "Paper 4: Prediction of global water use efficiency and its response to vapor pressure deficit and soil moisture coupling in the 21st century"
+    ],
+    "innovation_insights": [
+      "Investigate the spatial heterogeneity of marginal water-use efficiency (mWUE) responses across different biomes and climatic zones using a finer-scale FLUXNET subset or regional flux tower networks.",
+      "Develop more sophisticated models that link plant physiological water-use strategies (e.g., stomatal optimization) to ecosystem-level water stress responses and drought resilience, incorporating findings on mWUE.",
+      "Explore the potential for using satellite-derived vegetation indices or other remote sensing products to estimate mWUE and its dynamics across broader spatial scales, complementing FLUXNET data."
+    ],
+    "processed_time": "2026-01-14 09:50:59"
+  },
+  "NHXS994Y": {
+    "title": "Crop water use efficiency from eddy covariance methods in cold water-limited regions",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Applications/Agricultural Systems / Methodologies/Statistical Methods",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML) / Data Philosophy/Data Quality & Validation",
+    "keyword_assessment": {
+      "current": "水分利用效率, 蒸散发, 作物生长, 土壤水分, 旱地农业, 土地-大气相互作用",
+      "suggested": "Crop Water Use Efficiency (WUE), Eddy Covariance (EC), Cold Regions, Water-Limited Agriculture, Evapotranspiration (ET), Soil Moisture, Land-Atmosphere Interaction",
+      "reason": "The current keywords are a good starting point but could be more specific and include key methodologies and study regions/conditions. Including 'Eddy Covariance' and 'Cold Regions' would enhance searchability."
+    },
+    "related_papers": [
+      "Paper 0: Disentangling the impact of photosynthesis and stomatal conductance on rising water-use efficiency at different altitudes on the tibetan plateau",
+      "Paper 1: Responses of marginal and intrinsic water‐use efficiency to changing aridity using FLUXNET observations",
+      "Paper 4: Prediction of global water use efficiency and its response to vapor pressure deficit and soil moisture coupling in the 21st century"
+    ],
+    "innovation_insights": [
+      "Apply the eddy covariance methodology to quantify WUE in other challenging water-limited environments, such as arid Mediterranean climates or high-latitude boreal agricultural zones.",
+      "Investigate the uncertainty in water balance residual methods compared to eddy covariance in more detail, potentially developing hybrid approaches to improve regional WUE estimations.",
+      "Explore the impact of specific agricultural management practices (e.g., tillage, irrigation scheduling, crop rotation) on WUE in cold, water-limited regions using the insights gained from EC measurements."
+    ],
+    "processed_time": "2026-01-14 09:51:03"
+  },
+  "AL3FX5S4": {
+    "title": "Differential responses in water-use strategies of evergreen (ligustrum lucidum) and deciduous (robinia pseudoacacia) trees to tunnel excavation in a subtropical karst trough valley",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture / Hazards/Drought/Flash Drought / Methodologies/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades / Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Tunnel(s) excavation, Sap flow density, Stable isotopes, Water-use strategies, Evergreen and deciduous trees, Subtropical karst area 关键词: 隧道开挖，液流密度，稳定同位素，水分利用策略，常绿和落叶树种，亚热带喀斯特区",
+      "suggested": "Karst hydrology, Tunnel excavation, Water-use strategies, Evergreen trees, Deciduous trees, Sap flow, Soil moisture, Groundwater, Subtropical",
+      "reason": "The current keywords are relevant but could be slightly more concise and better integrate the hydrological and ecological aspects. Adding 'Karst hydrology' and 'Groundwater' would be beneficial."
+    },
+    "related_papers": [
+      "Paper 1: Responses of marginal and intrinsic water‐use efficiency to changing aridity using FLUXNET observations",
+      "Paper 2: Crop water use efficiency from eddy covariance methods in cold water-limited regions"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term impact of groundwater depletion due to tunnel excavation on forest ecosystem stability and species composition in karst regions.",
+      "Compare the water-use strategies and resilience of different tree species (evergreen vs. deciduous) to various anthropogenic disturbances (e.g., deforestation, land reclamation) in karst landscapes.",
+      "Develop integrated hydrological-vegetation models for karst areas that account for the complex interactions between surface water, groundwater, soil moisture, and tree water uptake, especially in response to human activities."
+    ],
+    "processed_time": "2026-01-14 09:51:07"
+  },
+  "2VT35PR5": {
+    "title": "Prediction of global water use efficiency and its response to vapor pressure deficit and soil moisture coupling in the 21st century",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Hazards/Drought/Flash Drought / Methodologies/Deep Learning (LSTM_CNN)",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI / Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "全球植被, 水分利用效率, 蒸汽压差, 土壤水分, 耦合",
+      "suggested": "Global WUE, Water-use efficiency, Vapor Pressure Deficit (VPD), Soil Moisture, Climate Change Scenarios, CMIP6, Land-Atmosphere Coupling",
+      "reason": "The current keywords are too broad. Adding 'Global' to WUE, specifying 'VPD', and including 'Climate Change Scenarios' and 'CMIP6' would provide crucial context."
+    },
+    "related_papers": [
+      "Paper 0: Disentangling the impact of photosynthesis and stomatal conductance on rising water-use efficiency at different altitudes on the tibetan plateau",
+      "Paper 1: Responses of marginal and intrinsic water‐use efficiency to changing aridity using FLUXNET observations",
+      "Paper 2: Crop water use efficiency from eddy covariance methods in cold water-limited regions"
+    ],
+    "innovation_insights": [
+      "Investigate potential tipping points in global water-use efficiency under different CO2 emission scenarios, focusing on the critical thresholds of soil moisture and VPD coupling.",
+      "Utilize machine learning or deep learning approaches to downscale CMIP6 projections of VPD and soil moisture, and their impact on WUE, to regional or local scales.",
+      "Explore the role of land management practices and land-use change in modulating the future global water-use efficiency response to soil-atmospheric coupling, beyond the influence of climate change alone."
+    ],
+    "processed_time": "2026-01-14 09:51:11"
+  },
+  "UI2AN5S6": {
+    "title": "Global reduction in sensitivity of vegetation water use efficiency to increasing CO2",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water Use Efficiency, Hazards/Drought/Drought Impacts, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "水分利用效率，蒸汽压亏缺，碳汇，水资源，可持续发展",
+      "suggested": "Water Use Efficiency (WUE), Vapor Pressure Deficit (VPD), CO2 fertilization effect, Carbon sink, Water resources, Climate change adaptation, Land-atmosphere feedback",
+      "reason": "The current keywords are mostly in Chinese and lack specificity regarding the mechanisms and broader context. Suggested keywords are in English, include key terms like VPD and CO2 fertilization, and expand to cover related concepts like land-atmosphere feedback and climate change adaptation."
+    },
+    "related_papers": [
+      "Response of ecosystem water-use efficiency to global vegetation greening",
+      "Soil water availability induces divergent ecosystem water-use strategies to dry-heat conditions in two poplar plantations in north China",
+      "The ratio of transpiration to evapotranspiration dominates ecosystem water use efficiency response to drought"
+    ],
+    "innovation_insights": [
+      "Investigate the saturation point of CO2 fertilization on WUE and its implications for different biomes.",
+      "Develop improved modeling approaches that explicitly incorporate VPD dynamics to better predict future WUE changes and water resource availability.",
+      "Quantify the regional differences in WUE sensitivity to VPD and its linkage to water stress across diverse climate zones.",
+      "Explore the synergistic or antagonistic effects of increasing CO2 and VPD on carbon sequestration and water loss under future climate scenarios."
+    ],
+    "processed_time": "2026-01-14 09:51:31"
+  },
+  "DRUIGNA2": {
+    "title": "Response of ecosystem water-use efficiency to global vegetation greening",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water Use Efficiency, Processes/Runoff & Streamflow/Streamflow Dynamics, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, Dynamics/Non-linearity & Complexity, Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Water use efficiency, Vegetation greening, Gross primary productivity, Evapotranspiration, Climate factors",
+      "suggested": "Water Use Efficiency (WUE), Vegetation greening, Gross Primary Productivity (GPP), Evapotranspiration (ET), Carbon-water coupling, NDVI, Land-atmosphere interaction",
+      "reason": "Current keywords are good and relevant. Suggested keywords add 'NDVI' as a common proxy for vegetation greening and explicitly mention 'Carbon-water coupling' and 'Land-atmosphere interaction' for a more comprehensive representation of the study's focus."
+    },
+    "related_papers": [
+      "Global reduction in sensitivity of vegetation water use efficiency to increasing CO2",
+      "Soil water availability induces divergent ecosystem water-use strategies to dry-heat conditions in two poplar plantations in north China",
+      "The ratio of transpiration to evapotranspiration dominates ecosystem water use efficiency response to drought"
+    ],
+    "innovation_insights": [
+      "Explore the long-term decoupling or coupling of vegetation greening trends and actual WUE responses in different eco-regions.",
+      "Investigate how the drivers of vegetation greening (e.g., land use change, climate change, CO2 fertilization) differentially impact WUE.",
+      "Develop remote sensing-based methods to distinguish the contributions of GPP and ET changes to WUE variations driven by greening.",
+      "Assess the role of vegetation greening in modulating land-atmosphere feedbacks under changing climatic conditions."
+    ],
+    "processed_time": "2026-01-14 09:51:36"
+  },
+  "SUN2HAA8": {
+    "title": "Impacts of environmental factors on ecosystem water use efficiency: An insight from gross primary production and evapotranspiration dynamics",
+    "archive_path": "[ARCHIVE] Hazards/Flood, Hazards/Drought, Methodology/Statistical Methods, Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions, Dynamics/Rapid Onset Events, Modeling/Ensemble Methods, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "水文极端、季节预测、水文过程、E-HYPE、SEAS5、预测能力归因",
+      "suggested": "Seasonal predictability, Streamflow extremes, Hydrological regimes, Hydrological memory, Flood forecasting, Drought forecasting, E-HYPE, SEAS5, Predictability attribution",
+      "reason": "The current keywords are mostly in Chinese and are specific to the study. Suggested keywords are in English and provide a more general, yet descriptive, overview of the paper's contribution to the field of seasonal prediction of extreme events, emphasizing 'hydrological memory' and 'predictability attribution'."
+    },
+    "related_papers": [
+      "Global reduction in sensitivity of vegetation water use efficiency to increasing CO2"
+    ],
+    "innovation_insights": [
+      "Extend the analysis of 'hydrological memory' to understand its role in other hydrological extremes like flash floods or heatwaves.",
+      "Investigate how different climate forceme models (beyond SEAS5) impact the seasonal predictability of hydrological extremes across various hydrological regimes.",
+      "Develop transfer learning techniques to apply predictability attribution findings from well-studied regions (like Europe) to data-scarce regions.",
+      "Explore the potential of integrating land surface model states (beyond just hydrological regimes) into seasonal prediction systems to improve extreme event forecasts."
+    ],
+    "processed_time": "2026-01-14 09:51:43"
+  },
+  "75G7HGFL": {
+    "title": "Soil water availability induces divergent ecosystem water-use strategies to dry-heat conditions in two poplar plantations in north China",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, Processes/Evapotranspiration (ET), Hazards/Drought, Hazards/Heatwaves & Extremes, Methodology/Deep Learning (LSTM_CNN)/Machine Learning",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Mechanism/Feedback Loops & Cascades, Coupling/Vegetation-Water Interaction, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "ecosystem water-use strategy, compound environmental stresses, land-atmosphere feedback, eddy covariance, machine learning, Shapley additive explanation",
+      "suggested": "Water-use strategy (WUS), Dry-heat conditions, Soil water availability (SWA), Land-atmosphere feedback (LAF), Compound events, Poplar plantations, Explainable AI (XAI), Eddy covariance",
+      "reason": "The current keywords are excellent and accurately reflect the paper's content, including the methods used. Suggested keywords are very similar, but 'Explainable AI (XAI)' is a more standard term for methods like Shapley additive explanation, and 'Dry-heat conditions' is a more direct translation of the specific stress. Added 'Compound events' for broader context."
+    },
+    "related_papers": [
+      "Global reduction in sensitivity of vegetation water use efficiency to increasing CO2",
+      "Response of ecosystem water-use efficiency to global vegetation greening",
+      "The ratio of transpiration to evapotranspiration dominates ecosystem water use efficiency response to drought"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term consequences of divergent WUS under dry-heat conditions on forest health, carbon sequestration, and ecosystem resilience.",
+      "Apply explainable AI techniques to disentangle the complex interactions between soil water availability, atmospheric demand, and vegetation physiological responses across different species and ecosystems.",
+      "Develop predictive models for ecosystem vulnerability to dry-heat compound events based on soil water status and land-atmosphere feedback mechanisms.",
+      "Explore how different irrigation or management strategies can influence WUS and mitigate the negative impacts of dry-heat conditions."
+    ],
+    "processed_time": "2026-01-14 09:51:49"
+  },
+  "93F6R896": {
+    "title": "The ratio of transpiration to evapotranspiration dominates ecosystem water use efficiency response to drought",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Transpiration Partitioning, Processes/Evapotranspiration (ET)/Water Use Efficiency, Hazards/Drought, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Data Philosophy/Signal Purification/Uncertainty, Mechanism/Threshold Behavior, Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "T/ET，干旱维度，GPP，通量观测，蒸散分区，水分利用效率",
+      "suggested": "Transpiration fraction (T/ET), Ecosystem water use efficiency (WUE), Drought response, Gross Primary Productivity (GPP), Evapotranspiration (ET), Flux tower observations, Carbon-water coupling, Drought intensity, Drought duration",
+      "reason": "The current keywords are good but mostly in Chinese and use abbreviations. Suggested keywords are in English, provide full terms, and explicitly include 'Drought response', 'Carbon-water coupling', and 'Drought intensity/duration' for a more comprehensive description. 'T/ET' is replaced by 'Transpiration fraction (T/ET)' for clarity."
+    },
+    "related_papers": [
+      "Global reduction in sensitivity of vegetation water use efficiency to increasing CO2",
+      "Response of ecosystem water-use efficiency to global vegetation greening",
+      "Soil water availability induces divergent ecosystem water-use strategies to dry-heat conditions in two poplar plantations in north China"
+    ],
+    "innovation_insights": [
+      "Develop a unified framework to assess drought impacts on ecosystems using a portfolio of WUE metrics, explicitly accounting for the T/ET ratio.",
+      "Investigate the thresholds of drought intensity and duration at which the T/ET ratio shifts significantly and leads to contrasting WUE responses.",
+      "Quantify the influence of different land cover types and vegetation functional types on the dominant WUE metric response to drought.",
+      "Explore the role of VPD and other atmospheric factors in modulating the T/ET ratio and its subsequent impact on WUE during drought events."
+    ],
+    "processed_time": "2026-01-14 09:51:58"
+  },
+  "EFABY7TT": {
+    "title": "An increasing effect of soil moisture on semiempirical water‐use efficiency models from wet to dry climate regions",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Semi-empirical Models",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Not provided in the excerpt",
+      "suggested": "Soil Moisture, Evapotranspiration (ET), Water-Use Efficiency (WUE), Semi-empirical Models, Climate Regions, Interception Term",
+      "reason": "The excerpt mentions using uWUE to estimate ET, focusing on the interception term, and considering wet/dry climate regions. Keywords should reflect these core aspects for better retrieval and understanding."
+    },
+    "related_papers": [
+      "Diminishing CO2-driven gains in water-use efficiency of global forests",
+      "Temporal and among-site variability of inherent water use efficiency at the ecosystem level",
+      "Threshold of vapour–pressure deficit constraint on light use efficiency varied with soil water content",
+      "Relationships between stomatal regulation, water-use, and water-use efficiency of two coexisting Mediterranean tree species"
+    ],
+    "innovation_insights": [
+      "Develop improved semi-empirical ET models that explicitly incorporate the varying influence of soil moisture across different climatic zones.",
+      "Investigate the physical and physiological mechanisms behind the changing 'interception term' in WUE models under different moisture conditions.",
+      "Explore how AI/ML can be used to calibrate or enhance the performance of semi-empirical models by learning complex relationships between soil moisture, climate, and ET/WUE.",
+      "Address the limitations of current semi-empirical models in capturing the full spectrum of soil moisture impacts by integrating more process-based understanding."
+    ],
+    "processed_time": "2026-01-14 09:52:13"
+  },
+  "WDVIBG9P": {
+    "title": "Diminishing CO2-driven gains in water-use efficiency of global forests",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water-Use Efficiency",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Water-Use Efficiency / Tree Rings / Climate Change / CO2 Fertilization / Forest Hydrology",
+      "suggested": "Water-Use Efficiency (WUE), CO2 Fertilization, Tree Rings, Forest Hydrology, Climate Change, Stomatal Conductance, Deciduous/Coniferous Forests",
+      "reason": "The current keywords are good but could be more specific regarding the mechanisms and outcomes. Adding 'Stomatal Conductance' and specifying forest types (deciduous/coniferous) would improve precision."
+    },
+    "related_papers": [
+      "An increasing effect of soil moisture on semiempirical water‐use efficiency models from wet to dry climate regions",
+      "Temporal and among-site variability of inherent water use efficiency at the ecosystem level",
+      "Threshold of vapour–pressure deficit constraint on light use efficiency varied with soil water content",
+      "Relationships between stomatal regulation, water-use, and water-use efficiency of two coexisting Mediterranean tree species"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term trends and mechanisms behind the diminishing CO2 fertilization effect on forest WUE, particularly in the context of other climate change stressors.",
+      "Develop dynamic models that can capture the declining rate of WUE gains (dW/dca) and predict future forest responses under different climate scenarios.",
+      "Explore the role of plant functional types (e.g., angiosperms vs. gymnosperms) and their stomatal regulation strategies in mediating the global WUE response to rising CO2.",
+      "Utilize tree ring isotope data in conjunction with remote sensing and flux tower data to better understand spatial and temporal variations in WUE and its drivers."
+    ],
+    "processed_time": "2026-01-14 09:52:17"
+  },
+  "WUXUW5TC": {
+    "title": "Temporal and among-site variability of inherent water use efficiency at the ecosystem level",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water-Use Efficiency",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Ecosystem WUE / Eddy Covariance / Stomatal Conductance / Soil Moisture / LAI",
+      "suggested": "Inherent Water Use Efficiency (IWUE), Ecosystem WUE, Eddy Covariance, Stomatal Conductance, Soil Moisture, Leaf Area Index (LAI), Vapor Pressure Deficit (VPD)",
+      "reason": "The paper introduces 'inherent WUE' (IWUE), which should be highlighted. Including 'Vapor Pressure Deficit (VPD)' is crucial as it's discussed in the abstract and related to WUE."
+    },
+    "related_papers": [
+      "An increasing effect of soil moisture on semiempirical water‐use efficiency models from wet to dry climate regions",
+      "Diminishing CO2-driven gains in water-use efficiency of global forests",
+      "Threshold of vapour–pressure deficit constraint on light use efficiency varied with soil water content",
+      "Relationships between stomatal regulation, water-use, and water-use efficiency of two coexisting Mediterranean tree species"
+    ],
+    "innovation_insights": [
+      "Develop improved ecosystem process models that incorporate the proposed 'inherent WUE' (IWUE) metric and its dependencies on soil moisture and LAI.",
+      "Investigate the short-term (drought response) vs. long-term (site variability) dynamics of IWUE and their implications for ecosystem productivity and water balance.",
+      "Explore the interplay between IWUE, stomatal conductance, soil moisture, and VPD across different biomes and climate types.",
+      "Apply advanced statistical techniques or machine learning to disentangle the contributions of various environmental drivers (soil moisture, LAI, VPD) to IWUE variability."
+    ],
+    "processed_time": "2026-01-14 09:52:20"
+  },
+  "2TPNP9FF": {
+    "title": "Threshold of vapour–pressure deficit constraint on light use efficiency varied with soil water content",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Light Use Efficiency",
+    "idea_path": "[IDEA] Dynamics/Threshold Behavior",
+    "keyword_assessment": {
+      "current": "Light Use Efficiency / Vapour Pressure Deficit / Soil Moisture Content / Threshold / Dryland Ecosystems",
+      "suggested": "Light Use Efficiency (LUE), Vapor Pressure Deficit (VPD), Soil Moisture Content (SMC), Threshold Behavior, Dryland Ecosystems, Land-Atmosphere Interaction",
+      "reason": "The current keywords are accurate and capture the core concepts well. Adding 'Land-Atmosphere Interaction' could broaden the scope slightly."
+    },
+    "related_papers": [
+      "An increasing effect of soil moisture on semiempirical water‐use efficiency models from wet to dry climate regions",
+      "Diminishing CO2-driven gains in water-use efficiency of global forests",
+      "Temporal and among-site variability of inherent water use efficiency at the ecosystem level",
+      "Relationships between stomatal regulation, water-use, and water-use efficiency of two coexisting Mediterranean tree species"
+    ],
+    "innovation_insights": [
+      "Quantify the critical thresholds of VPD and SMC that trigger significant changes in LUE across diverse dryland ecosystems.",
+      "Investigate the feedback mechanisms between SMC, VPD, LUE, and overall ecosystem productivity and water stress.",
+      "Develop more sophisticated models that incorporate these threshold dynamics to improve predictions of vegetation response to drought and heatwaves.",
+      "Explore how changes in land cover or land management in dryland areas might alter these LUE-VPD-SMC relationships and thresholds."
+    ],
+    "processed_time": "2026-01-14 09:52:28"
+  },
+  "8SPQ78U2": {
+    "title": "Relationships between stomatal regulation, water-use, and water-use efficiency of two coexisting key Mediterranean tree species",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water-Use Efficiency",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Stomatal Regulation / Water-Use Efficiency / Mediterranean Trees / Isohydric / Anisohydric",
+      "suggested": "Stomatal Regulation, Water-Use Efficiency (WUE), Isohydric Strategy, Anisohydric Strategy, Mediterranean Trees, Transpiration, Tree Rings (δ13C)",
+      "reason": "The current keywords are appropriate. Adding 'Transpiration' and specifying 'Tree Rings (δ13C)' as the method for assessing WUE would add valuable detail."
+    },
+    "related_papers": [
+      "An increasing effect of soil moisture on semiempirical water‐use efficiency models from wet to dry climate regions",
+      "Diminishing CO2-driven gains in water-use efficiency of global forests",
+      "Temporal and among-site variability of inherent water use efficiency at the ecosystem level",
+      "Threshold of vapour–pressure deficit constraint on light use efficiency varied with soil water content"
+    ],
+    "innovation_insights": [
+      "Compare the physiological and hydrological impacts of contrasting stomatal strategies (isohydric vs. anisohydric) on water resource partitioning in water-limited ecosystems.",
+      "Investigate how these different stomatal regulation strategies influence the resilience and vulnerability of Mediterranean tree species to climate change (e.g., increased drought frequency and intensity).",
+      "Develop regional water balance models that explicitly account for the differential water use of dominant tree species based on their stomatal regulation traits.",
+      "Utilize stable isotope techniques (like δ13C in tree rings) more broadly to assess long-term WUE trends and link them to specific stomatal behaviors across different species and environments."
+    ],
+    "processed_time": "2026-01-14 09:52:31"
+  },
+  "4JMBPKEL": {
+    "title": "Contrasting Trends in Water Use Efficiency of the Alpine Grassland in Tibetan Plateau",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Methodology/Ecosystem Model",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction / Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Water Use Efficiency / Tibetan Plateau / Alpine Grassland / Remote Sensing / Ecosystem Model",
+      "suggested": "Water Use Efficiency / Tibetan Plateau / Alpine Grassland / Remote Sensing / Ecosystem Model / Climate Change / Land Cover Change",
+      "reason": "Keywords are good but could be expanded to include broader drivers like climate change and land cover change, which are implicitly discussed as drivers of the observed trends."
+    },
+    "related_papers": [
+      "Paper 4: Transpiration Dominates Ecosystem Water-Use Efficiency in Response to Warming in an Alpine Meadow",
+      "Paper 1: Water Use Efficiency‐Based Multiscale Assessment of Ecohydrological Resilience to Ecosystem Shifts Over the Continent of Africa During 1992–2015",
+      "Paper 3: Trends in tree growth and intrinsic water-use efficiency in the tropics under elevated CO2 and climate change",
+      "Paper 2: Variation and attribution of water use efficiency in sunflower and maize fields in an irrigated semi‐arid area"
+    ],
+    "innovation_insights": [
+      "Investigate the specific mechanisms driving the contrasting WUE trends between alpine meadows and grasslands in the Tibetan Plateau, potentially using higher-resolution data or finer ecosystem classifications.",
+      "Explore the impact of different land management practices on alpine grassland WUE, given the observed stability in some areas.",
+      "Develop more robust remote sensing or model-based approaches to disentangle the contributions of CO2, climate variability, and land cover/land use change on WUE at regional scales.",
+      "Assess the implications of these divergent WUE trends for carbon sequestration, water resources, and biodiversity in the Tibetan Plateau."
+    ],
+    "processed_time": "2026-01-14 09:52:47"
+  },
+  "UADGGP4R": {
+    "title": "Water Use Efficiency‐Based Multiscale Assessment of Ecohydrological Resilience to Ecosystem Shifts Over the Continent of Africa During 1992–2015",
+    "archive_path": "[ARCHIVE] Applications/Water Resources Management / Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Dynamics/Tipping Points / Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Ecohydrological Resilience / Water Use Efficiency / Climate Shifts / Africa / Remote Sensing",
+      "suggested": "Ecohydrological Resilience / Water Use Efficiency / Climate Shifts / Africa / Remote Sensing / Drought Risk / Ecosystem Vulnerability",
+      "reason": "The current keywords are relevant. Adding 'Drought Risk' and 'Ecosystem Vulnerability' would better capture the paper's focus on risk assessment and the implications of climate shifts."
+    },
+    "related_papers": [
+      "Paper 0: Contrasting Trends in Water Use Efficiency of the Alpine Grassland in Tibetan Plateau",
+      "Paper 4: Transpiration Dominates Ecosystem Water-Use Efficiency in Response to Warming in an Alpine Meadow",
+      "Paper 3: Trends in tree growth and intrinsic water-use efficiency in the tropics under elevated CO2 and climate change",
+      "Paper 2: Variation and attribution of water use efficiency in sunflower and maize fields in an irrigated semi‐arid area"
+    ],
+    "innovation_insights": [
+      "Apply the multi-scale resilience assessment framework using WUE to other continents or specific vulnerable regions to understand broader patterns of ecohydrological adaptation.",
+      "Investigate the specific biophysical and socio-economic factors that contribute to the high-risk areas identified in Africa, moving beyond remote sensing to ground-based validation and case studies.",
+      "Explore the role of land-atmosphere feedbacks in modulating ecohydrological resilience across different scales in Africa.",
+      "Integrate climate model projections with the WUE-based resilience assessment to forecast future ecohydrological vulnerability in Africa."
+    ],
+    "processed_time": "2026-01-14 09:52:51"
+  },
+  "T4KK62DS": {
+    "title": "Variation and attribution of water use efficiency in sunflower and maize fields in an irrigated semi‐arid area",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Water Use Efficiency / Eddy Covariance / Arid Agriculture / Crop Physiology / Water Management",
+      "suggested": "Water Use Efficiency / Eddy Covariance / Arid Agriculture / Crop Physiology / Water Management / Crop Type Comparison / VPD",
+      "reason": "Keywords are appropriate. Adding 'Crop Type Comparison' and 'VPD' would more specifically highlight the key findings and comparative aspect of the study."
+    },
+    "related_papers": [
+      "Paper 0: Contrasting Trends in Water Use Efficiency of the Alpine Grassland in Tibetan Plateau",
+      "Paper 4: Transpiration Dominates Ecosystem Water-Use Efficiency in Response to Warming in an Alpine Meadow",
+      "Paper 3: Trends in tree growth and intrinsic water-use efficiency in the tropics under elevated CO2 and climate change",
+      "Paper 1: Water Use Efficiency‐Based Multiscale Assessment of Ecohydrological Resilience to Ecosystem Shifts Over the Continent of Africa During 1992–2015"
+    ],
+    "innovation_insights": [
+      "Investigate the physiological traits that explain the significant difference in WUE between sunflower and maize in arid environments, and whether these can be leveraged through breeding programs.",
+      "Conduct similar eddy covariance studies in other semi-arid agricultural systems globally to assess the transferability of findings regarding VPD and soil moisture influence on WUE.",
+      "Develop targeted irrigation and water management strategies for semi-arid regions that account for crop-specific responses to VPD and soil moisture, aiming to optimize WUE.",
+      "Explore the potential of using machine learning models, informed by physiological understanding like the VPD response, to predict and manage WUE in agricultural fields at larger scales."
+    ],
+    "processed_time": "2026-01-14 09:52:55"
+  },
+  "CIS8LEBG": {
+    "title": "Trends in tree growth and intrinsic water-use efficiency in the tropics under elevated CO2 and climate change",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades / Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Tropical Forests / Climate Change / Tree Growth / Water-Use Efficiency / Stable Isotopes",
+      "suggested": "Tropical Forests / Climate Change / Tree Growth / Water-Use Efficiency / Stable Isotopes / Elevated CO2 / Carbon Cycle",
+      "reason": "Keywords are good but could explicitly include 'Elevated CO2' and 'Carbon Cycle' as they are central to the paper's discussion on environmental changes and their impact."
+    },
+    "related_papers": [
+      "Paper 0: Contrasting Trends in Water Use Efficiency of the Alpine Grassland in Tibetan Plateau",
+      "Paper 4: Transpiration Dominates Ecosystem Water-Use Efficiency in Response to Warming in an Alpine Meadow",
+      "Paper 1: Water Use Efficiency‐Based Multiscale Assessment of Ecohydrological Resilience to Ecosystem Shifts Over the Continent of Africa During 1992–2015",
+      "Paper 2: Variation and attribution of water use efficiency in sunflower and maize fields in an irrigated semi‐arid area"
+    ],
+    "innovation_insights": [
+      "Conduct experimental studies (e.g., Free-Air CO2 Enrichment) in tropical forests to directly test the hypothesis that negative climate impacts are offsetting the growth benefits of elevated CO2.",
+      "Investigate the long-term implications of decoupling between iWUE and tree growth for forest carbon sequestration capacity and ecosystem stability.",
+      "Analyze how different tropical forest types (e.g., rainforest vs. dry forest) respond to elevated CO2 and climate change in terms of iWUE and growth.",
+      "Develop integrated models that couple plant physiology, tree growth, and climate dynamics to better predict the future trajectory of tropical forests under ongoing environmental change."
+    ],
+    "processed_time": "2026-01-14 09:52:58"
+  },
+  "AG8JIGN2": {
+    "title": "Transpiration Dominates Ecosystem Water-Use Efficiency in Response to Warming in an Alpine Meadow",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Hazards/Heatwaves & Extremes",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "Alpine Meadow / Climate Warming / Water Use Efficiency / Ecosystem Fluxes / Plant Transpiration",
+      "suggested": "Alpine Meadow / Climate Warming / Water Use Efficiency / Ecosystem Fluxes / Plant Transpiration / Transpiration / Soil Evaporation",
+      "reason": "The keywords are fitting. Adding 'Transpiration' and 'Soil Evaporation' would directly reflect the paper's core finding about transpiration dominating WUE response to warming."
+    },
+    "related_papers": [
+      "Paper 0: Contrasting Trends in Water Use Efficiency of the Alpine Grassland in Tibetan Plateau",
+      "Paper 3: Trends in tree growth and intrinsic water-use efficiency in the tropics under elevated CO2 and climate change",
+      "Paper 1: Water Use Efficiency‐Based Multiscale Assessment of Ecohydrological Resilience to Ecosystem Shifts Over the Continent of Africa During 1992–2015",
+      "Paper 2: Variation and attribution of water use efficiency in sunflower and maize fields in an irrigated semi‐arid area"
+    ],
+    "innovation_insights": [
+      "Examine the influence of precipitation patterns and soil moisture variability on the relationship between warming, transpiration, and ecosystem WUE in alpine meadows.",
+      "Investigate how changes in plant community composition, driven by warming, might alter the dominance of transpiration in regulating WUE.",
+      "Apply similar experimental warming approaches to other high-altitude or sensitive ecosystems to assess the generality of transpiration's role in WUE response to warming.",
+      "Integrate these findings into ecosystem models to improve projections of water use efficiency and hydrological responses under future climate warming scenarios."
+    ],
+    "processed_time": "2026-01-14 09:53:01"
+  },
+  "P6ENY23F": {
+    "title": "The role of groundwater in the spatio-temporal variations of vegetation water use efficiency in the Ordos Plateau, China",
+    "archive_path": "[ARCHIVE] Processes/Groundwater / Hazards/Drought Response / Applications/Ecological Systems",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction / Mechanism/Threshold Behavior",
+    "keyword_assessment": {
+      "current": "Groundwater Depth / Vegetation Water Use Efficiency / Spatio-temporal Variation / Arid Regions / Drought Response",
+      "suggested": "Groundwater Depth / Vegetation Water Use Efficiency (WUE) / Spatio-temporal Dynamics / Arid Ecosystems / Drought Impacts / Land-Atmosphere Interactions",
+      "reason": "Expanded 'Arid Regions' to 'Arid Ecosystems' for broader context. Added 'Drought Impacts' to capture the response aspect more explicitly. Included 'Land-Atmosphere Interactions' as groundwater's influence on surface processes is a key theme. 'Spatio-temporal Variation' can be more dynamically represented as 'Spatio-temporal Dynamics'."
+    },
+    "related_papers": [
+      "The potential of remote sensing-based models on global water-use efficiency estimation: An evaluation and intercomparison of an ecosystem model (BESS) and algorithm (MODIS) using site level and upscaled eddy covariance data",
+      "The lagged effect and impact of soil moisture drought on terrestrial ecosystem water use efficiency",
+      "Spatiotemporal variations in productivity and water use efficiency across a temperate forest landscape of Northeast China"
+    ],
+    "innovation_insights": [
+      "Investigate the non-linear or threshold responses of vegetation water use efficiency (WUE) to groundwater depth, particularly under different drought intensities.",
+      "Develop hybrid models that integrate groundwater dynamics (e.g., from hydrological models) with vegetation response models (e.g., using AI) to better predict WUE under future climate and groundwater depletion scenarios.",
+      "Explore the role of shallow groundwater in buffering drought impacts on vegetation productivity and its implications for drought resilience in arid and semi-arid regions.",
+      "Quantify the spatial extent and magnitude of groundwater's influence on WUE across different arid and semi-arid landscapes, moving beyond single-site or regional studies."
+    ],
+    "processed_time": "2026-01-14 09:53:20"
+  },
+  "6T8HT6IF": {
+    "title": "The potential of remote sensing-based models on global water-use efficiency estimation: An evaluation and intercomparison of an ecosystem model (BESS) and algorithm (MODIS) using site level and upscaled eddy covariance data",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval / Processes/Evapotranspiration (ET) / Applications/Ecosystem Monitoring",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Remote Sensing / Water Use Efficiency / Ecosystem Models / FLUXNET / Model Intercomparison",
+      "suggested": "Remote Sensing / Water Use Efficiency (WUE) / Ecosystem Models / Satellite Data / FLUXNET / Model Evaluation / Global Gridded Datasets",
+      "reason": "Added 'Water Use Efficiency (WUE)' for clarity and consistency. 'Ecosystem Models' is good. 'Satellite Data' is more specific than just 'Remote Sensing' in this context. 'Model Evaluation' is more descriptive of the intercomparison. 'Global Gridded Datasets' highlights the scale of application and data used."
+    },
+    "related_papers": [
+      "The role of groundwater in the spatio-temporal variations of vegetation water use efficiency in the Ordos Plateau, China",
+      "The lagged effect and impact of soil moisture drought on terrestrial ecosystem water use efficiency",
+      "Spatiotemporal variations in productivity and water use efficiency across a temperate forest landscape of Northeast China"
+    ],
+    "innovation_insights": [
+      "Develop novel algorithms or AI models that fuse remote sensing data with flux tower observations (FLUXNET) to improve the accuracy and spatial resolution of global WUE estimations.",
+      "Investigate the underlying reasons for the poor performance of models in arid and high-latitude regions, potentially through improved parameterization or inclusion of specific eco-hydrological processes.",
+      "Utilize the insights from model intercomparisons to build more robust and adaptable ecosystem models for WUE estimation, possibly through ensemble approaches or machine learning techniques.",
+      "Evaluate the transferability of ecosystem models and algorithms across diverse biomes and climate zones, identifying areas where current models fail and why."
+    ],
+    "processed_time": "2026-01-14 09:53:24"
+  },
+  "YVR7VHXJ": {
+    "title": "The lagged effect and impact of soil moisture drought on terrestrial ecosystem water use efficiency",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture / Hazards/Drought/Flash Drought / Applications/Ecosystem Monitoring",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / Mechanism/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "Soil Moisture Drought / Water Use Efficiency / Lagged Effect / Global Terrestrial Ecosystems",
+      "suggested": "Soil Moisture Drought / Water Use Efficiency (WUE) / Lagged Effects / Terrestrial Ecosystems / Drought Propagation / Land Surface Processes",
+      "reason": "Clarified 'Water Use Efficiency' to 'WUE'. 'Lagged Effect' is accurate. 'Global Terrestrial Ecosystems' is descriptive. Added 'Drought Propagation' to emphasize the sequential nature of drought impacts. 'Land Surface Processes' is a broader term encompassing the biophysical interactions relevant to WUE."
+    },
+    "related_papers": [
+      "The role of groundwater in the spatio-temporal variations of vegetation water use efficiency in the Ordos Plateau, China",
+      "The potential of remote sensing-based models on global water-use efficiency estimation: An evaluation and intercomparison of an ecosystem model (BESS) and algorithm (MODIS) using site level and upscaled eddy covariance data",
+      "Spatiotemporal variations in productivity and water use efficiency across a temperate forest landscape of Northeast China"
+    ],
+    "innovation_insights": [
+      "Quantify the temporal dynamics of drought impacts on WUE across different vegetation types and climate zones, moving beyond a single average lag time to explore variable lag responses.",
+      "Investigate the underlying mechanisms driving the lagged effect of soil moisture drought on WUE, considering feedback loops between soil moisture, ET, and carbon uptake.",
+      "Develop predictive models (potentially AI-based) that can capture these lagged responses to provide earlier warnings of drought impacts on ecosystem productivity and health.",
+      "Explore how other drought characteristics (e.g., intensity, duration, frequency) interact with soil moisture to influence the lagged effect on WUE, and how this varies across different terrestrial ecosystems."
+    ],
+    "processed_time": "2026-01-14 09:53:27"
+  },
+  "EMEILIBM": {
+    "title": "Temporal and Spatial Changes in Crop Water Use Efficiency in Central Asia from 1960 to 2016",
+    "archive_path": "[ARCHIVE] Applications/Agricultural Systems / Processes/Evapotranspiration (ET) / Hazards/Drought Response",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Crop Water Use Efficiency / Central Asia / Spatiotemporal Analysis / FAO Crop Coefficient Method / Agricultural Statistics",
+      "suggested": "Crop Water Use Efficiency (WUE) / Central Asia / Spatiotemporal Dynamics / Agricultural Productivity / FAO Crop Coefficients / Statistical Modeling / Crop Yield",
+      "reason": "Added 'WUE' for consistency. 'Spatiotemporal Analysis' is good; 'Spatiotemporal Dynamics' is slightly more active. Included 'Agricultural Productivity' and 'Crop Yield' as they are key outcomes and drivers. 'Statistical Modeling' acknowledges the methods used beyond just FAO coefficients."
+    },
+    "related_papers": [
+      "The potential of remote sensing-based models on global water-use efficiency estimation: An evaluation and intercomparison of an ecosystem model (BESS) and algorithm (MODIS) using site level and upscaled eddy covariance data"
+    ],
+    "innovation_insights": [
+      "Investigate the causal relationships between agricultural practices, climate change, and crop WUE in Central Asia, potentially using advanced statistical methods or AI for causal inference.",
+      "Develop dynamic crop models or AI-based systems that can predict crop WUE and yield under different climate change scenarios and water management strategies for the region.",
+      "Analyze the trade-offs between different crop types (e.g., grains vs. cotton) regarding water use efficiency and economic return, informing regional agricultural policy.",
+      "Extend the analysis of crop WUE dynamics to other arid and semi-arid agricultural regions facing similar water scarcity challenges."
+    ],
+    "processed_time": "2026-01-14 09:53:33"
+  },
+  "QSXL9T6V": {
+    "title": "Spatiotemporal variations in productivity and water use efficiency across a temperate forest landscape of Northeast China",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow / Processes/Evapotranspiration (ET) / Applications/Forest Management",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction / Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Forest Ecosystems / Remote Sensing / Net Primary Productivity / Water Use Efficiency / Stand Age",
+      "suggested": "Forest Ecosystems / Remote Sensing / Net Primary Productivity (NPP) / Water Use Efficiency (WUE) / Stand Age / Forest Management / Ecosystem Productivity",
+      "reason": "Added 'NPP' and 'WUE' abbreviations for consistency. 'Forest Management' is a key implication. 'Ecosystem Productivity' is a broader term that encompasses NPP. 'Stand Age' is a specific factor, but the broader 'Forest Characteristics' could also be relevant."
+    },
+    "related_papers": [
+      "The role of groundwater in the spatio-temporal variations of vegetation water use efficiency in the Ordos Plateau, China",
+      "The potential of remote sensing-based models on global water-use efficiency estimation: An evaluation and intercomparison of an ecosystem model (BESS) and algorithm (MODIS) using site level and upscaled eddy covariance data",
+      "The lagged effect and impact of soil moisture drought on terrestrial ecosystem water use efficiency"
+    ],
+    "innovation_insights": [
+      "Explore the influence of stand age and forest type on the resilience of forest ecosystems to drought, and how this impacts their long-term water use efficiency and carbon sequestration.",
+      "Develop remote sensing-based indices or AI models that can accurately differentiate between natural and planted forests and quantify their respective productivity and water use efficiency.",
+      "Investigate the spatial heterogeneity of WUE within different forest types and ages, and how factors like soil properties and microclimate contribute to these variations.",
+      "Quantify the carbon-water trade-offs in different forest management scenarios, considering the impact of stand age, thinning, and species selection on both productivity and water consumption."
+    ],
+    "processed_time": "2026-01-14 09:53:37"
+  },
+  "E4UAUWUS": {
+    "title": "Response of ecosystem intrinsic water use efficiency and gross primary productivity to rising vapor pressure deficit",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water Use Efficiency / Methodology/Remote Sensing/Retrieval / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Dynamics/Non-linearity & Complexity / Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Ecosystem iWUE / Vapor Pressure Deficit / FLUXNET / Climate Change / Plant Physiology",
+      "suggested": "Ecosystem iWUE / Vapor Pressure Deficit / Stomatal Conductance / Gross Primary Productivity / FLUXNET / Climate Change / Plant Physiology",
+      "reason": "The current keywords are good, but adding 'Stomatal Conductance' and 'Gross Primary Productivity' would better reflect the paper's findings on the specific mechanisms (Gs decrease) and outcomes (GPP decrease) discussed."
+    },
+    "related_papers": [
+      "Paper 1: Plant Growth Nullifies the Effect of Increased Water‐Use Efficiency on Streamflow Under Elevated CO 2 in the Southeastern United States",
+      "Paper 2: Increased water-use efficiency during the 20th century did not translate into enhanced tree growth",
+      "Paper 3: Increased water-use efficiency and reduced CO2 uptake by plants during droughts at a continental-scale",
+      "Paper 4: Increased carbon uptake and water use efficiency in global semi-arid ecosystems"
+    ],
+    "innovation_insights": [
+      "Investigate the independent role of VPD on iWUE under various water stress levels and ecosystem types, beyond FLUXNET data.",
+      "Quantify the threshold of VPD increase that leads to significant GPP decline, and explore the physiological trade-offs involved.",
+      "Develop more sophisticated models that explicitly incorporate the independent effect of VPD on stomatal conductance and ecosystem productivity, moving beyond simple correlations."
+    ],
+    "processed_time": "2026-01-14 09:53:53"
+  },
+  "HG4AG74X": {
+    "title": "Plant Growth Nullifies the Effect of Increased Water‐Use Efficiency on Streamflow Under Elevated CO 2 in the Southeastern United States",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow / Applications/Climate Change Impact / Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction / Dynamics/Non-linearity & Complexity / Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Hydrological Model / Elevated CO2 / Plant Growth / Water-Use Efficiency / Southeastern US",
+      "suggested": "Hydrological Model / Elevated CO2 / Leaf Area Expansion / Water-Use Efficiency / Streamflow / Southeastern US",
+      "reason": "The term 'Plant Growth' is a bit broad. Specifying 'Leaf Area Expansion' is more precise as it's the mechanism driving increased canopy interception and transpiration, directly impacting streamflow. 'Streamflow' is also a key output variable that should be explicitly mentioned."
+    },
+    "related_papers": [
+      "Paper 0: Response of ecosystem intrinsic water use efficiency and gross primary productivity to rising vapor pressure deficit",
+      "Paper 2: Increased water-use efficiency during the 20th century did not translate into enhanced tree growth",
+      "Paper 3: Increased water-use efficiency and reduced CO2 uptake by plants during droughts at a continental-scale",
+      "Paper 4: Increased carbon uptake and water use efficiency in global semi-arid ecosystems"
+    ],
+    "innovation_insights": [
+      "Explore how varying levels of CO2, VPD, and precipitation interact to influence the balance between WUE gains and growth-driven streamflow reduction in different regions.",
+      "Develop hybrid models that couple process-based hydrology with mechanistic plant growth modules to better simulate the non-linear responses of streamflow to climate and CO2.",
+      "Investigate the long-term implications of increased leaf area and altered WUE on regional water availability, especially in the context of compounding climate change impacts."
+    ],
+    "processed_time": "2026-01-14 09:53:57"
+  },
+  "A62CEVRC": {
+    "title": "Increased water-use efficiency during the 20th century did not translate into enhanced tree growth",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water Use Efficiency / Applications/Climate Change Impact / Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Dynamics/Non-linearity & Complexity / Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Water Use Efficiency / Tree Growth / Climate Change / Carbon Isotopes / Meta-analysis",
+      "suggested": "Water Use Efficiency / Tree Growth / CO2 Fertilization / Climate Change / Carbon Isotopes / Meta-analysis",
+      "reason": "The paper discusses the impact of elevated CO2. Adding 'CO2 Fertilization' to the keywords would more accurately capture this significant driver influencing the relationship between WUE and tree growth."
+    },
+    "related_papers": [
+      "Paper 0: Response of ecosystem intrinsic water use efficiency and gross primary productivity to rising vapor pressure deficit",
+      "Paper 1: Plant Growth Nullifies the Effect of Increased Water‐Use Efficiency on Streamflow Under Elevated CO 2 in the Southeastern United States",
+      "Paper 3: Increased water-use efficiency and reduced CO2 uptake by plants during droughts at a continental-scale",
+      "Paper 4: Increased carbon uptake and water use efficiency in global semi-arid ecosystems"
+    ],
+    "innovation_insights": [
+      "Investigate the 'growth-decoupling' phenomenon of iWUE and tree growth under different climate zones and tree species, looking for specific environmental or physiological triggers.",
+      "Explore the role of other environmental factors (e.g., nutrient availability, extreme weather events) that might limit tree growth despite increased iWUE.",
+      "Develop process-based models that can reconcile the observed decoupling of iWUE and growth, potentially by incorporating more detailed carbon allocation and resource limitation dynamics."
+    ],
+    "processed_time": "2026-01-14 09:54:02"
+  },
+  "T7YEY7ZM": {
+    "title": "Increased water-use efficiency and reduced CO2 uptake by plants during droughts at a continental-scale",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought / Processes/Evapotranspiration (ET)/Water Use Efficiency / Methodology/Statistical Methods / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades / Dynamics/Drought-Flood Transitions / Data Philosophy/Multi-Source Integration / Modeling/Causal Inference",
+    "keyword_assessment": {
+      "current": "Stable Isotopes / Drought Impact / Terrestrial Biosphere Models / Water Use Efficiency",
+      "suggested": "Stable Isotopes / Drought Impact / Terrestrial Biosphere Models / Water Use Efficiency / Carbon Uptake / Continental Scale",
+      "reason": "The paper highlights both WUE and reduced carbon uptake as key findings during drought. Adding 'Carbon Uptake' and 'Continental Scale' would better represent the scope and core findings of the study."
+    },
+    "related_papers": [
+      "Paper 0: Response of ecosystem intrinsic water use efficiency and gross primary productivity to rising vapor pressure deficit",
+      "Paper 1: Plant Growth Nullifies the Effect of Increased Water‐Use Efficiency on Streamflow Under Elevated CO 2 in the Southeastern United States",
+      "Paper 2: Increased water-use efficiency during the 20th century did not translate into enhanced tree growth",
+      "Paper 4: Increased carbon uptake and water use efficiency in global semi-arid ecosystems"
+    ],
+    "innovation_insights": [
+      "Quantify the threshold of drought intensity and duration that triggers the 'drought-induced decoupling' of WUE increase and carbon uptake reduction across various biomes.",
+      "Improve terrestrial biosphere models to better capture the observed stronger impact of drought on carbon dynamics and WUE, especially concerning the rapid onset and feedback mechanisms.",
+      "Investigate the potential for using stable isotopes (δ¹³C) in a more integrated way with remote sensing data to monitor continental-scale drought impacts on vegetation function in near real-time."
+    ],
+    "processed_time": "2026-01-14 09:54:09"
+  },
+  "LNIBJIP9": {
+    "title": "Increased carbon uptake and water use efficiency in global semi-arid ecosystems",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water Use Efficiency / Applications/Climate Change Impact / Methodology/Machine Learning",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / Data Philosophy/Multi-Source Integration / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Semi-arid Ecosystems / Carbon Uptake / Water Use Efficiency / Machine Learning / Climate Change",
+      "suggested": "Semi-arid Ecosystems / Carbon Uptake / Water Use Efficiency / Machine Learning / Climate Change / Remote Sensing",
+      "reason": "The paper mentions using machine learning on remote sensing data to infer trends. Including 'Remote Sensing' in the keywords would better reflect the methodology used to assess these large-scale ecosystem changes."
+    },
+    "related_papers": [
+      "Paper 0: Response of ecosystem intrinsic water use efficiency and gross primary productivity to rising vapor pressure deficit",
+      "Paper 1: Plant Growth Nullifies the Effect of Increased Water‐Use Efficiency on Streamflow Under Elevated CO 2 in the Southeastern United States",
+      "Paper 2: Increased water-use efficiency during the 20th century did not translate into enhanced tree growth",
+      "Paper 3: Increased water-use efficiency and reduced CO2 uptake by plants during droughts at a continental-scale"
+    ],
+    "innovation_insights": [
+      "Explore the specific climate change drivers (e.g., rainfall patterns, temperature, VPD) responsible for the observed increase in WUE and carbon uptake in semi-arid regions.",
+      "Develop regionalized machine learning models that can forecast future trends in semi-arid ecosystem carbon and water use efficiency under different climate change scenarios.",
+      "Investigate potential trade-offs and vulnerabilities within semi-arid ecosystems, even with increased WUE and carbon uptake, considering factors like biodiversity, soil degradation, and extreme events."
+    ],
+    "processed_time": "2026-01-14 09:54:13"
+  },
+  "XKRKNGV2": {
+    "title": "High Vapor Pressure Deficit Decreases the Productivity and Water Use Efficiency of Rain‐Induced Pulses in Semiarid Ecosystems",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Hazards/Drought/Methodology/Remote Sensing/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Dynamics/Non-linearity & Complexity / Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Ecosystem Fluxes / Water Use Efficiency / Vapor Pressure Deficit / Semiarid Ecosystems / Pulse Events",
+      "suggested": "Vapor Pressure Deficit (VPD) / Water Use Efficiency (WUE) / Ecosystem Productivity / Semiarid Ecosystems / Pulse Hydrology",
+      "reason": "The suggested keywords are more specific and incorporate key acronyms (VPD, WUE) which are central to the paper's findings. 'Pulse Events' is broadened to 'Pulse Hydrology' to better reflect the context. 'Ecosystem Fluxes' is replaced with 'Ecosystem Productivity' which is more directly addressed by NEP."
+    },
+    "related_papers": [
+      "Paper 3 title",
+      "Paper 1 title",
+      "Paper 2 title"
+    ],
+    "innovation_insights": [
+      "Investigate the threshold behavior of VPD in triggering abrupt changes in ecosystem productivity and WUE across different semiarid vegetation types.",
+      "Explore the potential of using high-resolution VPD data from remote sensing to develop early warning systems for productivity declines in semiarid regions during pulse events.",
+      "Quantify the feedback loop between increased VPD (driven by climate change) and reduced WUE, potentially exacerbating water stress in semiarid ecosystems.",
+      "Future work could focus on scaling these findings to regional levels and incorporating them into land surface models to better predict ecosystem responses under future climate scenarios."
+    ],
+    "processed_time": "2026-01-14 09:54:30"
+  },
+  "TMYLBYTC": {
+    "title": "Evapotranspiration and gross primary productivity of secondary vegetation in Amazonia inferred by eddy covariance",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Processes/Runoff & Streamflow / Applications/Climate Change Impact / Methodology/Eddy Covariance",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration / Dynamics/Non-linearity & Complexity / Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Eddy Covariance / Secondary Forest / Amazonia / Evapotranspiration / Gross Primary Productivity",
+      "suggested": "Secondary Forests / Amazonia / Evapotranspiration (ET) / Gross Primary Productivity (GPP) / Land Restoration / Eddy Covariance",
+      "reason": "Added 'Secondary Forests' and 'Land Restoration' to highlight the paper's focus on ecosystem recovery. Included key acronyms ET and GPP. 'Eddy Covariance' is retained as a core methodology."
+    },
+    "related_papers": [
+      "Paper 2 title",
+      "Paper 0 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Explore the long-term carbon sequestration potential of secondary forests in Amazonia and how it compares to mature forests, considering different successional stages.",
+      "Investigate the role of secondary forests in regulating regional hydrology, specifically their impact on evapotranspiration and water availability compared to primary forests.",
+      "Develop predictive models for the rate of recovery of ET and GPP in secondary forests under varying land-use change scenarios and climate conditions in the Amazon.",
+      "Future research could focus on the soil carbon dynamics and biodiversity recovery in these secondary forests, and how these factors influence overall ecosystem function and resilience."
+    ],
+    "processed_time": "2026-01-14 09:54:35"
+  },
+  "FC5IWK8Q": {
+    "title": "Evaluation of Water Use Efficiency Algorithms for Flux Variance Similarity‐Based Evapotranspiration Partitioning in C 3 and C 4 Grain Crops",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Applications/Agricultural Systems / Methodology/Eddy Covariance / Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty / Modeling/Hybrid Modeling (Process+ML) / Data Philosophy/Data Quality & Validation",
+    "keyword_assessment": {
+      "current": "Evapotranspiration Partitioning / Water Use Efficiency / Eddy Covariance / Grain Crops / C3 &amp; C4 Plants",
+      "suggested": "Evapotranspiration Partitioning / Water Use Efficiency (WUE) / Eddy Covariance / C3 Crops / C4 Crops / Algorithm Evaluation",
+      "reason": "Specified 'Water Use Efficiency (WUE)' with its acronym. Added 'Algorithm Evaluation' to reflect the paper's primary contribution. 'Grain Crops' is maintained for specificity."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 3 title",
+      "Paper 1 title"
+    ],
+    "innovation_insights": [
+      "Develop a standardized framework for evaluating different WUE algorithms used in conjunction with EC measurements, particularly for diverse agricultural systems.",
+      "Investigate the transferability of the most robust WUE algorithms across different crop types and geographical regions, accounting for varying environmental conditions.",
+      "Explore the integration of machine learning approaches with process-based models to improve the accuracy and reduce the uncertainty in ET partitioning and WUE estimation.",
+      "Future work could focus on validating these algorithms with finer-scale, ground-based measurements (e.g., sap flow) and assess their performance in precision agriculture applications."
+    ],
+    "processed_time": "2026-01-14 09:54:40"
+  },
+  "9JABSB79": {
+    "title": "Evaluation and mechanism exploration of the diurnal hysteresis of ecosystem fluxes",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Processes/Runoff & Streamflow / Methodology/Eddy Covariance / Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change / Mechanism/Feedback Loops & Cascades / Dynamics/Non-linearity & Complexity / Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Ecosystem Fluxes / Diurnal Hysteresis / Stomatal Conductance / Eddy Covariance / FLUXNET",
+      "suggested": "Diurnal Hysteresis / Ecosystem Fluxes / Stomatal Conductance / Vapor Pressure Deficit (VPD) / Leaf Energy Balance / FLUXNET",
+      "reason": "Added 'Vapor Pressure Deficit (VPD)' and 'Leaf Energy Balance' as these are identified as key drivers and mechanisms in the paper. 'Ecosystem Fluxes' is retained for broader context."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 2 title",
+      "Paper 1 title"
+    ],
+    "innovation_insights": [
+      "Investigate the role of diurnal hysteresis in ecosystem fluxes as an indicator of ecosystem stress or resilience, particularly in response to rapid environmental changes like heatwaves or drought.",
+      "Explore the potential for parameterizing and improving land surface models by explicitly incorporating the mechanisms driving diurnal hysteresis, leading to more accurate ET and GPP simulations.",
+      "Quantify the impact of diurnal hysteresis on the energy and water balance at broader scales, considering how these sub-daily dynamics might influence regional climate.",
+      "Future work could involve utilizing machine learning to identify patterns of diurnal hysteresis in large datasets and link them to specific environmental drivers and ecosystem states."
+    ],
+    "processed_time": "2026-01-14 09:54:45"
+  },
+  "PD6RI9G6": {
+    "title": "Estimation of Global Irrigation Water Use by the Integration of Multiple Satellite Observations",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Methodology/Remote Sensing/Data Fusion / Methodology/Hydrological Modeling / Applications/Water Resources Management",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration / Data Philosophy/Data Quality & Validation / Modeling/Hybrid Modeling (Process+ML) / Applications/Early Warning Systems",
+    "keyword_assessment": {
+      "current": "Remote Sensing / Irrigation Water Use / Hydrological Modeling / Data Integration",
+      "suggested": "Global Irrigation Water Use / Multi-Source Remote Sensing / Data Integration / Hydrological Modeling / Evapotranspiration (ET)",
+      "reason": "Specified 'Global Irrigation Water Use' for clarity. Added 'Multi-Source Remote Sensing' and 'Evapotranspiration (ET)' to better reflect the paper's scope and methods. 'Data Integration' is kept as a core concept."
+    },
+    "related_papers": [
+      "Paper 2 title",
+      "Paper 0 title",
+      "Paper 1 title"
+    ],
+    "innovation_insights": [
+      "Develop advanced data assimilation techniques for integrating diverse satellite observations to create high-resolution, near-real-time maps of global irrigation water use.",
+      "Investigate the uncertainties associated with different satellite products and their impact on integrated IWU estimates, proposing methods for uncertainty quantification and reduction.",
+      "Utilize the integrated IWU datasets to evaluate the effectiveness of irrigation management strategies and their influence on water resources at regional and global scales.",
+      "Future research could focus on extending this data integration framework to estimate other critical water components, such as soil moisture and actual ET, with improved accuracy."
+    ],
+    "processed_time": "2026-01-14 09:54:50"
+  },
+  "4YI7BI58": {
+    "title": "Effects of soil water content on forest ecosystem water use efficiency through changes in transpiration/evapotranspiration ratio",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / [ARCHIVE] Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / [IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Forest Ecosystems / Water Use Efficiency / Soil Water Content / Vapor Pressure Deficit / Evapotranspiration Partitioning",
+      "suggested": "Forest WUE / Soil Moisture Effects / VPD / Transpiration-Evapotranspiration Ratio / Land-Atmosphere Interaction",
+      "reason": "Keywords are largely accurate but could be more specific and aligned with common research terms. 'Water Use Efficiency' can be specified as 'Forest WUE'. 'Soil Water Content' is good, but its 'Effects' can be highlighted. 'Vapor Pressure Deficit' is accurate. 'Evapotranspiration Partitioning' can be more directly linked to 'Transpiration-Evapotranspiration Ratio'. Adding 'Land-Atmosphere Interaction' could broaden its reach."
+    },
+    "related_papers": [
+      "Paper 2: Divergent spatial responses of plant and ecosystem water-use efficiency to climate and vegetation gradients in the Chinese Loess Plateau",
+      "Paper 3: Correlation-based flux partitioning of water vapor and carbon dioxide fluxes: Method simplification and estimation of canopy water use efficiency",
+      "Paper 4: Atmospheric Water Demand Dominates Daily Variations in Water Use Efficiency in Alpine Meadows, Northeastern Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Investigate the non-linear and threshold behaviors of forest WUE response to soil moisture under different VPD regimes, potentially using machine learning to identify critical thresholds.",
+      "Explore the reciprocal feedback mechanisms between soil moisture, VPD, and the T/ET ratio in forest ecosystems, moving beyond correlative studies to investigate causal pathways.",
+      "Address the scale dependency of these relationships by integrating plot-level eddy covariance data with remote sensing estimates of ET and GPP to map WUE sensitivities across larger landscapes.",
+      "Quantify the implications of these soil moisture-VPD interactions on forest resilience to drought events, particularly under future climate scenarios with increasing VPD."
+    ],
+    "processed_time": "2026-01-14 09:55:12"
+  },
+  "XQQJXPCE": {
+    "title": "Effects of Elevated Air Temperature and CO2 on Maize Production and Water Use Efficiency under Future Climate Change Scenarios in Shaanxi Province, China",
+    "archive_path": "[ARCHIVE] Applications/Agricultural Systems / [ARCHIVE] Climate Change Impact",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML) / [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "CERES-Maize Model / Climate Change / CO2 Fertilization / Maize Production / Shaanxi Province",
+      "suggested": "Maize Production / Climate Change Impacts / CO2 Fertilization Effect / Temperature Effects / Water Use Efficiency / CERES-Maize Model / Shaanxi Province",
+      "reason": "Current keywords are relevant but can be expanded to better reflect the paper's findings. Explicitly mentioning 'Temperature Effects' and 'Water Use Efficiency' will improve searchability. 'CO2 Fertilization Effect' is more descriptive than 'CO2 Fertilization'."
+    },
+    "related_papers": [
+      "Paper 0: Effects of soil water content on forest ecosystem water use efficiency through changes in transpiration/evapotranspiration ratio",
+      "Paper 2: Divergent spatial responses of plant and ecosystem water-use efficiency to climate and vegetation gradients in the Chinese Loess Plateau",
+      "Paper 4: Atmospheric Water Demand Dominates Daily Variations in Water Use Efficiency in Alpine Meadows, Northeastern Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Develop and validate hybrid models that combine the mechanistic understanding of crop growth (like CERES-Maize) with AI to better predict maize responses to complex future climate scenarios (e.g., interactions between heat, drought, and elevated CO2).",
+      "Investigate the adaptive capacity of different maize varieties or farming practices (e.g., irrigation strategies, drought-resistant cultivars) to mitigate the negative impacts of rising temperatures and enhance benefits from elevated CO2.",
+      "Quantify the uncertainty associated with GCM projections and RCP scenarios for regional climate impacts on agriculture, and explore methods for downscaling these projections to finer scales for local adaptation planning.",
+      "Explore the physiological mechanisms behind the differential response of rainfed vs. irrigated maize to CO2 fertilization, and how this might change under varying water availability scenarios."
+    ],
+    "processed_time": "2026-01-14 09:55:16"
+  },
+  "MD5ZIHQZ": {
+    "title": "Divergent spatial responses of plant and ecosystem water-use efficiency to climate and vegetation gradients in the Chinese Loess Plateau",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / [ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration / [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Water-Use Efficiency / Climate Gradient / Vegetation Gradient / Loess Plateau / Remote Sensing",
+      "suggested": "Ecosystem WUE / Plant WUE / Climate Gradients / Vegetation Gradients / Loess Plateau / Remote Sensing / Precipitation Sensitivity / Temperature Sensitivity",
+      "reason": "Current keywords are good and descriptive. Adding terms like 'Ecosystem WUE' and 'Plant WUE' clarifies the distinction made in the paper. 'Precipitation Sensitivity' and 'Temperature Sensitivity' highlight key findings and drivers."
+    },
+    "related_papers": [
+      "Paper 0: Effects of soil water content on forest ecosystem water use efficiency through changes in transpiration/evapotranspiration ratio",
+      "Paper 3: Correlation-based flux partitioning of water vapor and carbon dioxide fluxes: Method simplification and estimation of canopy water use efficiency",
+      "Paper 4: Atmospheric Water Demand Dominates Daily Variations in Water Use Efficiency in Alpine Meadows, Northeastern Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Advance remote sensing techniques to disentangle plant-level WUE (PWUE) from ecosystem-level WUE (EWUE) across diverse landscapes, and investigate how differing sensitivities to climate drivers can be identified from satellite data.",
+      "Explore the causal relationships between precipitation, temperature, vegetation cover, and WUE across spatial gradients, potentially employing causal inference methods to better understand the underlying mechanisms.",
+      "Investigate the role of land-atmosphere feedbacks in shaping the divergent WUE responses along climate and vegetation gradients, particularly how changes in ET partitioning influence ecosystem water balance.",
+      "Apply the findings from the Loess Plateau to other arid and semi-arid regions, assessing the generality of the observed WUE-climate-vegetation relationships and identifying regional adaptation strategies."
+    ],
+    "processed_time": "2026-01-14 09:55:19"
+  },
+  "2FQ36JYE": {
+    "title": "Correlation-based flux partitioning of water vapor and carbon dioxide fluxes: Method simplification and estimation of canopy water use efficiency",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / [ARCHIVE] Methodology/Eddy Covariance",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI / [IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Flux Partitioning / Eddy Covariance / Water Use Efficiency / Canopy Exchange",
+      "suggested": "Flux Partitioning / Eddy Covariance / Canopy WUE / Transpiration Estimation / Photosynthesis Estimation / Method Simplification",
+      "reason": "Keywords are accurate and capture the core methods and concepts. 'Canopy WUE' is more specific than 'Water Use Efficiency' in this context. Adding 'Transpiration Estimation' and 'Photosynthesis Estimation' highlights the key outputs. 'Method Simplification' points to the methodological contribution."
+    },
+    "related_papers": [
+      "Paper 0: Effects of soil water content on forest ecosystem water use efficiency through changes in transpiration/evapotranspiration ratio",
+      "Paper 2: Divergent spatial responses of plant and ecosystem water-use efficiency to climate and vegetation gradients in the Chinese Loess Plateau",
+      "Paper 4: Atmospheric Water Demand Dominates Daily Variations in Water Use Efficiency in Alpine Meadows, Northeastern Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Integrate the simplified flux partitioning method with machine learning techniques to improve the accuracy and robustness of WUE estimation, especially in complex ecosystems or under non-ideal conditions.",
+      "Apply this simplified method to large eddy covariance datasets to conduct meta-analyses on WUE responses to various environmental drivers across different biomes, potentially revealing generalizable patterns.",
+      "Develop further theoretical underpinnings or empirical validations for the 'optimization theory' used to estimate W, exploring its limitations and applicability under different atmospheric conditions or plant physiological states.",
+      "Explore how the simplified flux partitioning can be adapted for use with other flux measurement techniques or even remote sensing data to provide broader spatial and temporal coverage of canopy exchange and WUE."
+    ],
+    "processed_time": "2026-01-14 09:55:22"
+  },
+  "K3VLPY7C": {
+    "title": "Atmospheric Water Demand Dominates Daily Variations in Water Use Efficiency in Alpine Meadows, Northeastern Tibetan Plateau",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / [ARCHIVE] Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Alpine Meadow / Water Use Efficiency / Vapor Pressure Deficit / Eddy Covariance / Tibetan Plateau",
+      "suggested": "Alpine Meadow WUE / Atmospheric Water Demand / Vapor Pressure Deficit (VPD) / Eddy Covariance / Tibetan Plateau / Daily WUE Dynamics",
+      "reason": "Keywords are good and specific. Highlighting 'Atmospheric Water Demand' as a dominant factor is crucial. 'Daily WUE Dynamics' reflects the temporal scale of analysis. Adding 'VPD' in parenthesis clarifies the abbreviation."
+    },
+    "related_papers": [
+      "Paper 0: Effects of soil water content on forest ecosystem water use efficiency through changes in transpiration/evapotranspiration ratio",
+      "Paper 2: Divergent spatial responses of plant and ecosystem water-use efficiency to climate and vegetation gradients in the Chinese Loess Plateau",
+      "Paper 3: Correlation-based flux partitioning of water vapor and carbon dioxide fluxes: Method simplification and estimation of canopy water use efficiency"
+    ],
+    "innovation_insights": [
+      "Investigate the critical thresholds of VPD that lead to abrupt changes or declines in WUE in alpine meadows, and how these thresholds might shift under projected climate change.",
+      "Explore the coupling strength between atmospheric water demand (VPD) and ecosystem water use in alpine meadows, and how this coupling influences the ecosystem's vulnerability to drought stress.",
+      "Develop predictive models, potentially using AI, to forecast daily WUE variations in alpine meadows based on atmospheric conditions, and assess the implications for ecosystem services like carbon sequestration.",
+      "Examine how changes in atmospheric water demand interact with soil moisture availability to drive WUE dynamics, and whether VPD can serve as an early indicator of water stress in these ecosystems."
+    ],
+    "processed_time": "2026-01-14 09:55:25"
+  },
+  "ENPH429K": {
+    "title": "Annual carbon dioxide exchange in irrigated and rainfed maize-based agroecosystems",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Carbon Exchange / [ARCHIVE] Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction / [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Carbon Exchange / Agricultural Systems / Eddy Covariance / Maize-Soybean",
+      "suggested": "Carbon Sequestration / Agroecosystems / Eddy Covariance / Irrigation Effects / Crop Rotation / Maize-Soybean",
+      "reason": "Current keywords are too narrow. Adding 'Carbon Sequestration' clarifies the primary focus. 'Agroecosystems' is broader than 'Agricultural Systems'. Including 'Irrigation Effects' and 'Crop Rotation' directly addresses key variables investigated. 'Maize-Soybean' is specific and relevant."
+    },
+    "related_papers": [
+      "Rising water-use efficiency in European grasslands is driven by increased primary production",
+      "Recent increases in terrestrial carbon uptake at little cost to the water cycle",
+      "Global water use efficiency saturation due to increased vapor pressure deficit"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term soil carbon dynamics under different irrigation and crop rotation scenarios, as this study only observed changes over three years.",
+      "Explore the role of soil microbial communities in mediating carbon exchange differences between irrigated and rainfed systems.",
+      "Develop process-based models that explicitly incorporate the effects of irrigation management and crop rotation on both GPP and ecosystem respiration to better predict agroecosystem carbon budgets.",
+      "Examine the trade-offs between increased irrigation (water use) and carbon sequestration in different agroecosystems globally."
+    ],
+    "processed_time": "2026-01-14 09:55:42"
+  },
+  "AYYJJAQZ": {
+    "title": "Accurate estimates of land surface energy fluxes and irrigation requirements from UAV-based thermal and multispectral sensors",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval / [ARCHIVE] Processes/Evapotranspiration (ET) / [ARCHIVE] Applications/Precision Agriculture",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration / [IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "UAV Remote Sensing / Evapotranspiration / Two-Source Energy Balance / Irrigation Requirements / Precision Agriculture",
+      "suggested": "UAV Remote Sensing / Evapotranspiration (ET) / Two-Source Energy Balance Model (TSEB-PT) / Irrigation Needs / Spatial Resolution Analysis / Precision Agriculture",
+      "reason": "Current keywords are good and specific. Adding 'Spatial Resolution Analysis' highlights a key methodological contribution. Specifying the model name 'TSEB-PT' is also beneficial for precise retrieval."
+    },
+    "related_papers": [
+      "Recent increases in terrestrial carbon uptake at little cost to the water cycle",
+      "Global water use efficiency saturation due to increased vapor pressure deficit",
+      "Rising water-use efficiency in European grasslands is driven by increased primary production"
+    ],
+    "innovation_insights": [
+      "Explore the application of the UAV-TSEB-PT framework to other crops and ecosystems to assess its generalizability.",
+      "Investigate the optimal UAV sensor configurations (e.g., spectral bands, thermal resolution) for various hydrological applications.",
+      "Integrate UAV-based ET estimates with other remote sensing data (e.g., satellite) to create hybrid systems for larger-scale monitoring.",
+      "Develop adaptive irrigation scheduling strategies based on real-time UAV-derived ET and crop water stress information."
+    ],
+    "processed_time": "2026-01-14 09:55:46"
+  },
+  "3N3DYPES": {
+    "title": "Rising water-use efficiency in European grasslands is driven by increased primary production",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / [IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Water-Use Efficiency (WUE) / Primary Production (GPP) / Evapotranspiration (ET) / Grasslands / Climate Change / Remote Sensing Data / GLASS / GLEAM",
+      "reason": "No keywords were provided for this paper. The suggested keywords cover the core elements: WUE, GPP, ET, the ecosystem type (grasslands), the context (climate change), and the data sources (GLASS, GLEAM) which are crucial for understanding the study."
+    },
+    "related_papers": [
+      "Recent increases in terrestrial carbon uptake at little cost to the water cycle",
+      "Global water use efficiency saturation due to increased vapor pressure deficit",
+      "Annual carbon dioxide exchange in irrigated and rainfed maize-based agroecosystems"
+    ],
+    "innovation_insights": [
+      "Investigate the drivers of increased primary production in grasslands beyond CO2 fertilization, such as changes in land management or nutrient availability.",
+      "Analyze the spatial and temporal heterogeneity of WUE trends in grasslands and their relationship with climatic and environmental factors.",
+      "Compare the performance of different ET/Tr datasets (e.g., GLEAM vs. ERA5-Land) in driving large-scale WUE trends and identify potential biases.",
+      "Explore the implications of rising WUE in grasslands for carbon sequestration potential and water resource availability at regional scales."
+    ],
+    "processed_time": "2026-01-14 09:55:49"
+  },
+  "BE7LXD3C": {
+    "title": "Recent increases in terrestrial carbon uptake at little cost to the water cycle",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction / [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Carbon Cycle / Water Cycle / Water Use Efficiency / CO2 Fertilization / Terrestrial Ecosystems",
+      "suggested": "Water-Use Efficiency (WUE) / Carbon Uptake / Terrestrial Ecosystems / CO2 Fertilization / Evapotranspiration (ET) / Vapor Pressure Deficit (VPD) / Climate Change",
+      "reason": "Current keywords are relevant but could be more specific. Adding 'Water-Use Efficiency (WUE)' and 'Evapotranspiration (ET)' explicitly mentioned in the summary. Including 'Vapor Pressure Deficit (VPD)' and 'Climate Change' aligns with broader trends in this research area and potential future directions."
+    },
+    "related_papers": [
+      "Rising water-use efficiency in European grasslands is driven by increased primary production",
+      "Global water use efficiency saturation due to increased vapor pressure deficit",
+      "Annual carbon dioxide exchange in irrigated and rainfed maize-based agroecosystems"
+    ],
+    "innovation_insights": [
+      "Investigate the specific mechanisms by which increased CO2 concentration enhances WUE, and whether these mechanisms differ across ecosystem types.",
+      "Quantify the contribution of other factors, such as nitrogen deposition or changes in Leaf Area Index, to the observed increases in GPP and WUE.",
+      "Explore the potential for WUE saturation or decline in the future, considering the interplay of CO2, VPD, and other climate variables.",
+      "Assess the long-term sustainability of increased terrestrial carbon uptake driven by WUE, and its implications for global carbon budgets."
+    ],
+    "processed_time": "2026-01-14 09:55:52"
+  },
+  "LEHF6WYV": {
+    "title": "Global water use efficiency saturation due to increased vapor pressure deficit",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / [IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "水资源利用效率, 蒸汽压亏缺, 气候变化, 碳循环, 水循环",
+      "suggested": "Water-Use Efficiency (WUE) / Vapor Pressure Deficit (VPD) / Terrestrial Ecosystems / Carbon Cycle / Water Cycle / Climate Change / Machine Learning",
+      "reason": "The current keywords are in Chinese and could be translated for broader understanding. Adding 'Terrestrial Ecosystems' specifies the scope. Including 'Machine Learning' highlights the methodology used in this study."
+    },
+    "related_papers": [
+      "Rising water-use efficiency in European grasslands is driven by increased primary production",
+      "Recent increases in terrestrial carbon uptake at little cost to the water cycle",
+      "Annual carbon dioxide exchange in irrigated and rainfed maize-based agroecosystems"
+    ],
+    "innovation_insights": [
+      "Investigate the spatial variability of WUE saturation across different biomes and climatic zones and identify the key factors driving this variability.",
+      "Develop more sophisticated climate models that accurately represent the complex interactions between VPD, GPP, and ET to improve future projections of carbon and water cycles.",
+      "Explore the ecological and agricultural implications of WUE saturation, such as potential limitations on crop yields or changes in ecosystem structure and function.",
+      "Examine the potential for adaptation strategies (e.g., breeding drought-tolerant crops, improving water management practices) to mitigate the negative impacts of increasing VPD on WUE."
+    ],
+    "processed_time": "2026-01-14 09:55:55"
+  },
+  "64WAGM73": {
+    "title": "Linking variation in intrinsic water-use efficiency to isohydricity: a comparison at multiple spatiotemporal scales",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water-use Efficiency, Methodology/Statistical Methods, Hazards/Drought/Drought",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Coupling/Vegetation-Water Interaction, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Anisohydric",
+      "suggested": "Anisohydric, Isohydric, Water-Use Efficiency (WUE), Stable Isotopes, Plant Physiology, Drought Response, Spatiotemporal Scales",
+      "reason": "Current keyword is too narrow. It is one of the main concepts but lacks comprehensiveness. Added related concepts like Isohydric, WUE, and methodology (Stable Isotopes) as well as the context (Drought Response, Spatiotemporal Scales)."
+    },
+    "related_papers": [
+      "Paper 1: Global variations in ecosystem-scale isohydricity",
+      "Paper 4: Drought and water-use efficiency are dominant environmental factors affecting greenness in the Yellow River Basin, China"
+    ],
+    "innovation_insights": [
+      "Investigate the mechanistic links between intrinsic WUE variation and isohydricity across a wider range of plant functional types and environmental gradients, potentially using physiological modeling informed by stable isotope data.",
+      "Develop integrated frameworks to link plant-level WUE-isohydricity strategies to ecosystem-level carbon and water fluxes, especially under changing climate conditions, addressing the gap in understanding how species-specific strategies scale up."
+    ],
+    "processed_time": "2026-01-14 09:56:13"
+  },
+  "DG6DKGQM": {
+    "title": "Global variations in ecosystem-scale isohydricity",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water-use Efficiency, Methodology/Remote Sensing/Retrieval, Hazards/Drought/Drought",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Dynamics/Non-linearity & Complexity, Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Diurnal cycle",
+      "suggested": "Isohydricity, Ecosystem Scale, Remote Sensing, Drought, Water Use Efficiency (WUE), Land-Atmosphere Interactions, Global Variations",
+      "reason": "The current keyword 'Diurnal cycle' is too specific and does not capture the main theme of the paper. Suggested keywords cover the core concepts of isohydricity, scale, methodology (remote sensing), and the environmental context (drought, WUE)."
+    },
+    "related_papers": [
+      "Paper 0: Linking variation in intrinsic water-use efficiency to isohydricity: a comparison at multiple spatiotemporal scales",
+      "Paper 4: Drought and water-use efficiency are dominant environmental factors affecting greenness in the Yellow River Basin, China"
+    ],
+    "innovation_insights": [
+      "Explore the use of new satellite sensors or data fusion techniques to refine the measurement of ecosystem-scale isohydricity and its spatial-temporal variability, particularly in data-scarce regions.",
+      "Investigate the drivers of observed global variations in isohydricity beyond climate (e.g., soil type, nutrient availability, plant functional type distribution) and their implications for ecosystem resilience under climate change."
+    ],
+    "processed_time": "2026-01-14 09:56:21"
+  },
+  "2GRGD3LU": {
+    "title": "A stomatal optimization theory to describe the effects of atmospheric CO2 on leaf photosynthesis and transpiration",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Transpiration, Methodology/Statistical Methods, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI, Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Stomatal Optimization / Photosynthesis / Transpiration / CO2 Fertilization / Leaf Gas Exchange",
+      "suggested": "Stomatal Optimization, Leaf Gas Exchange, Photosynthesis, Transpiration, CO2 Effects, Water-Use Efficiency (WUE), Plant Physiology, Analytical Models",
+      "reason": "Current keywords are quite good and capture the essence. Added 'Water-Use Efficiency (WUE)' as it's directly related to the optimization aspect and 'Analytical Models' to highlight the methodological contribution."
+    },
+    "related_papers": [
+      "Paper 0: Linking variation in intrinsic water-use efficiency to isohydricity: a comparison at multiple spatiotemporal scales",
+      "Paper 4: Drought and water-use efficiency are dominant environmental factors affecting greenness in the Yellow River Basin, China"
+    ],
+    "innovation_insights": [
+      "Integrate the derived analytical stomatal conductance equations into land surface models or climate models to improve projections of water cycle changes under elevated CO2, addressing the need for physically-based parameterizations.",
+      "Investigate the 'optimization' framework for stomatal behavior under a wider range of environmental stresses (e.g., heat, nutrient limitation) and for diverse plant types to refine our understanding of plant responses to global change."
+    ],
+    "processed_time": "2026-01-14 09:56:27"
+  },
+  "R4U6PXPG": {
+    "title": "Climate-Driven Variability and Trends in Plant Productivity Over Recent Decades Based on Three Global Products",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Evapotranspiration, Processes/Soil Moisture/Soil Moisture, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Ensemble Methods, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Gross Primary Productivity / Climate Change / Global Models / Land Carbon Sink / Interannual Variability",
+      "suggested": "Gross Primary Productivity (GPP), Climate Change, Global Vegetation Models, Land Carbon Sink, Interannual Variability (IAV), Precipitation, Spatial Heterogeneity",
+      "reason": "Current keywords are appropriate. Added 'Precipitation' as it is highlighted as a key driver, and 'Spatial Heterogeneity' to emphasize the regional differences in GPP variability."
+    },
+    "related_papers": [
+      "Paper 4: Drought and water-use efficiency are dominant environmental factors affecting greenness in the Yellow River Basin, China"
+    ],
+    "innovation_insights": [
+      "Develop advanced data fusion techniques to combine multiple GPP products and direct flux tower observations for more robust estimates of land carbon sink dynamics and their climatic drivers, addressing the uncertainty in current products.",
+      "Focus on understanding the specific mechanisms driving GPP variability in identified hotspots (tropical forests, grasslands) under different climate forcings (e.g., precipitation, temperature), potentially through integrated modeling and targeted field studies."
+    ],
+    "processed_time": "2026-01-14 09:56:31"
+  },
+  "C8QUFHY3": {
+    "title": "Drought and water-use efficiency are dominant environmental factors affecting greenness in the Yellow River Basin, China",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water-use Efficiency, Hazards/Drought/Drought, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Data Philosophy/Multi-Source Integration, Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "植被绿度 / 驱动因子分析 / 随机森林 / 结构方程模型 / 黄河流域",
+      "suggested": "Vegetation Greenness (LAI), Drought, Water-Use Efficiency (WUE), Driving Factors, Random Forest, Structural Equation Modeling (SEM), Yellow River Basin, Spatiotemporal Dynamics",
+      "reason": "Current keywords are in Chinese and too specific to the methods used. Suggested keywords are in English, broader, and include key concepts like 'Drought' and 'WUE' which are central to the findings, and 'Spatiotemporal Dynamics' to cover the first research question."
+    },
+    "related_papers": [
+      "Paper 0: Linking variation in intrinsic water-use efficiency to isohydricity: a comparison at multiple spatiotemporal scales",
+      "Paper 1: Global variations in ecosystem-scale isohydricity",
+      "Paper 3: Climate-Driven Variability and Trends in Plant Productivity Over Recent Decades Based on Three Global Products"
+    ],
+    "innovation_insights": [
+      "Apply and adapt the combined driver analysis (e.g., RF and SEM) to other arid and semi-arid regions globally to assess the generality of drought and WUE as dominant drivers of vegetation greenness, and identify regional specificities.",
+      "Investigate the feedback mechanisms between drought, WUE, and vegetation greenness dynamics in the Yellow River Basin, and how these interactions influence land-atmosphere feedbacks and water resource availability in the region."
+    ],
+    "processed_time": "2026-01-14 09:56:36"
+  },
+  "M3MSFJ5D": {
+    "title": "Drought limitations to leaf-level gas exchange: results from a model linking stomatal optimization and cohesion-tension theory",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Plant Physiology",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "Stomatal Optimization / Cohesion–Tension Theory / Drought Response / Plant Physiology / Gas Exchange",
+      "suggested": "Stomatal Optimization / Cohesion-Tension Theory / Drought Response / Plant Physiology / Gas Exchange / Hydraulic Limitation / Water Potential / Leaf Hydraulics",
+      "reason": "The current keywords are good but could be expanded to include more specific concepts like 'Hydraulic Limitation' and 'Water Potential' which are central to the cohesion-tension theory and the paper's findings on drought response."
+    },
+    "related_papers": [
+      "Paper 1",
+      "Paper 2",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Investigate the integration of stomatal optimization and cohesion-tension theory in more complex hydrological models, potentially incorporating AI for parameterization or prediction under varying drought intensities.",
+      "Explore the 'non-stomatal limitation' concept further, investigating its physiological underpinnings and its role in enhancing drought resilience across different plant species and ecosystems.",
+      "Develop diagnostic frameworks similar to the one presented to disentangle various drought limitation mechanisms in real-world field observations and remote sensing data.",
+      "Address the limitations of the model by incorporating dynamic soil moisture, root water uptake, and hydraulic redistribution processes to provide a more holistic view of plant responses to drought."
+    ],
+    "processed_time": "2026-01-14 09:56:52"
+  },
+  "TKPV8RMV": {
+    "title": "GABA signalling modulates stomatal opening to enhance plant water use efficiency and drought resilience",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Plant Physiology",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "GABA Signaling / Stomatal Regulation / Water Use Efficiency / Drought Resilience / Plant Physiology",
+      "suggested": "GABA Signaling / Stomatal Regulation / Water Use Efficiency / Drought Resilience / Plant Physiology / ALMT9 / Endogenous Signaling",
+      "reason": "The current keywords are appropriate. Adding 'ALMT9' would highlight the specific molecular mechanism identified, and 'Endogenous Signaling' emphasizes the novel finding of GABA's role as a signal."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 2",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Investigate the application of GABA signaling pathways in crop breeding programs to enhance drought resilience and water use efficiency, particularly in staple crops.",
+      "Explore the potential for exogenous application of GABA or modulators of its signaling pathway to mitigate drought stress in agricultural settings.",
+      "Uncover the upstream triggers and downstream effects of GABA accumulation under different types of stress (e.g., heat, salinity) beyond drought.",
+      "Examine the evolutionary history of GABA signaling in stomatal regulation across diverse plant lineages and its contribution to adaptation to arid environments."
+    ],
+    "processed_time": "2026-01-14 09:56:55"
+  },
+  "GB9NFW2N": {
+    "title": "How do leaf and ecosystem measures of water-use efficiency compare?",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Soil Moisture",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "WUE / Scaling / Leaf Gas Exchange / Stable Isotopes / Eddy Covariance",
+      "suggested": "Water Use Efficiency (WUE) / Scaling / Leaf Gas Exchange / Stable Isotopes / Eddy Covariance / Measurement Bias / Ecosystem Modeling",
+      "reason": "The current keywords are good. Adding 'Measurement Bias' and 'Ecosystem Modeling' would better reflect the paper's core contribution in highlighting discrepancies between methods and their impact on model parameterization."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 3",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Develop robust data assimilation schemes for ecosystem models that explicitly account for the biases and uncertainties associated with different WUE measurement techniques.",
+      "Investigate the underlying reasons for the systematic differences in WUE measurements across methods and plant functional types, potentially through meta-analysis or targeted experimental studies.",
+      "Propose standardized protocols for WUE measurements to improve intercomparison and consistency across different research groups and applications.",
+      "Explore how AI-driven approaches, such as machine learning, can help reconcile discrepancies between different WUE measurement methods or improve the transferability of WUE parameters across scales."
+    ],
+    "processed_time": "2026-01-14 09:56:58"
+  },
+  "XI7KKIPP": {
+    "title": "Gross primary productivity and water use efficiency are increasing in a high rainfall tropical savanna",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Runoff & Streamflow",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity/Tipping Points",
+    "keyword_assessment": {
+      "current": "Tropical Savanna / Eddy Covariance / Carbon Fluxes / Climate Change / CO2 Fertilization",
+      "suggested": "Tropical Savanna / Eddy Covariance / Carbon Fluxes / Climate Change / CO2 Fertilization / Gross Primary Productivity (GPP) / Water Use Efficiency (WUE) / Rainfall / Savanna Dynamics",
+      "reason": "The current keywords are relevant but could be enhanced by explicitly including 'Gross Primary Productivity (GPP)' and 'Water Use Efficiency (WUE)' as these are the primary variables analyzed. 'Rainfall' and 'Savanna Dynamics' are also key contextual elements."
+    },
+    "related_papers": [
+      "Paper 2",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term interactive effects of increasing CO2, altered rainfall patterns, and temperature on savanna productivity and water use efficiency using more advanced modeling approaches, possibly incorporating machine learning for trend attribution.",
+      "Explore the potential for savanna ecosystems to undergo abrupt shifts or tipping points under future climate scenarios, particularly concerning the balance between woody encroachment and grassland persistence.",
+      "Examine how changes in GPP and WUE in savannas impact downstream hydrological processes and carbon storage at larger spatial scales.",
+      "Conduct detailed analyses of the dry season flux dynamics to better understand the role of woody vegetation and its water limitations under intensifying dry periods."
+    ],
+    "processed_time": "2026-01-14 09:57:01"
+  },
+  "HGAR4GKX": {
+    "title": "Leaf habit affects the distribution of drought sensitivity but not water transport efficiency in the tropics",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Plant Physiology",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "热带植物 / 水分运输 / 旱敏感性 / 叶片习性 / 气候梯度",
+      "suggested": "Tropical Plants / Drought Sensitivity / Leaf Habit / Water Transport Efficiency / Climate Gradient / Turgor Loss Point (ΨTLP) / Hydraulic Conductivity (KS) / Deciduous vs. Evergreen",
+      "reason": "The current keywords are in Chinese and could be translated to English for broader understanding and searchability. Adding specific traits like 'Turgor Loss Point (ΨTLP)' and 'Hydraulic Conductivity (KS)', along with the distinction 'Deciduous vs. Evergreen', would make the keywords more precise and informative."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 2",
+      "Paper 3"
+    ],
+    "innovation_insights": [
+      "Explore the evolutionary trade-offs between hydraulic safety (avoiding embolism) and hydraulic efficiency (maximizing water transport) in tropical plants under different climate conditions and leaf habits.",
+      "Investigate the role of hydraulic capacitance (related to leaf water content) in mediating drought sensitivity, especially in evergreen species, and how it interacts with turgor loss point.",
+      "Develop spatially explicit models that incorporate leaf habit and climate gradients to predict the distribution of drought-sensitive tropical plant species under future climate change scenarios.",
+      "Examine whether the decoupling of drought sensitivity from environmental humidity in deciduous species is a strategy to tolerate extreme dry periods or if it implies other underlying physiological constraints."
+    ],
+    "processed_time": "2026-01-14 09:57:04"
+  },
+  "DCWUQTR5": {
+    "title": "Observed and modelled historical trends in the water-use efficiency of plants and ecosystems",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal) / Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Water-use efficiency / Tree rings / Eddy covariance / Scale dependency / Vegetation modeling",
+      "suggested": "Water-use efficiency / Scale dependency / Tree rings / Eddy covariance / Vegetation modeling / Leaf-level vs. Ecosystem-level",
+      "reason": "The current keywords are good, but adding 'Leaf-level vs. Ecosystem-level' would better capture the core conflict and scale issue highlighted in the paper."
+    },
+    "related_papers": [
+      "Paper 1: Physiological and environmental control on ecosystem water use efficiency in response to drought across the northern hemisphere",
+      "Paper 2: Rapid increases in shrubland and forest intrinsic water-use efficiency during an ongoing megadrought",
+      "Paper 4: Rising vegetation activity dominates growing water use efficiency in the Asian permafrost region from 1900 to 2100"
+    ],
+    "innovation_insights": [
+      "Develop novel methodologies or data fusion techniques to reconcile the discrepancies between leaf-level and ecosystem-level WUE measurements, potentially involving advanced statistical methods or machine learning.",
+      "Investigate the specific biophysical and biochemical processes that lead to the observed scale dependency in WUE trends, moving beyond simple aggregations to understand emergent properties at the ecosystem scale.",
+      "Explore the long-term stability and reliability of different WUE proxies (e.g., tree rings vs. eddy covariance) and their suitability for detecting subtle, long-term climate change signals."
+    ],
+    "processed_time": "2026-01-14 09:57:21"
+  },
+  "CRYP25MK": {
+    "title": "Physiological and environmental control on ecosystem water use efficiency in response to drought across the northern hemisphere",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Hazards/Drought/Flash Drought / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "WUE / Drought / FLUXNET / Physiological Control / Northern Hemisphere",
+      "suggested": "Water-use efficiency / Drought / FLUXNET / Physiological Control / Environmental Control / Northern Hemisphere",
+      "reason": "Adding 'Environmental Control' would better reflect the paper's emphasis on factors like VPD alongside physiological responses."
+    },
+    "related_papers": [
+      "Paper 0: Observed and modelled historical trends in the water-use efficiency of plants and ecosystems",
+      "Paper 2: Rapid increases in shrubland and forest intrinsic water-use efficiency during an ongoing megadrought",
+      "Paper 4: Rising vegetation activity dominates growing water use efficiency in the Asian permafrost region from 1900 to 2100"
+    ],
+    "innovation_insights": [
+      "Investigate the interactive effects of different drought characteristics (intensity, duration, timing) on WUE across diverse Northern Hemisphere ecosystems, particularly focusing on critical thresholds.",
+      "Develop more sophisticated physiological models that integrate environmental drivers (like VPD) and plant responses to better predict WUE dynamics under varying drought conditions.",
+      "Explore the spatial heterogeneity of WUE responses to drought, using high-resolution remote sensing data to complement FLUXNET observations and understand localized impacts."
+    ],
+    "processed_time": "2026-01-14 09:57:24"
+  },
+  "VF8UBPY4": {
+    "title": "Rapid increases in shrubland and forest intrinsic water-use efficiency during an ongoing megadrought",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Hazards/Drought/Flash Drought / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Stable Isotopes / Arid Ecosystems / Climate Change / Plant Physiology / Drought",
+      "suggested": "Water-use efficiency / Stable Isotopes / Arid Ecosystems / Climate Change / Plant Physiology / Drought / Megadrought",
+      "reason": "Adding 'Water-use efficiency' as it's the core metric, and 'Megadrought' to emphasize the extreme nature of the drought studied."
+    },
+    "related_papers": [
+      "Paper 0: Observed and modelled historical trends in the water-use efficiency of plants and ecosystems",
+      "Paper 1: Physiological and environmental control on ecosystem water use efficiency in response to drought across the northern hemisphere",
+      "Paper 4: Rising vegetation activity dominates growing water use efficiency in the Asian permafrost region from 1900 to 2100"
+    ],
+    "innovation_insights": [
+      "Quantify the non-linear relationships between megadrought intensity, CO2 concentrations, and plant WUE across different arid vegetation types, identifying potential tipping points.",
+      "Investigate the long-term acclimation and adaptation strategies of arid ecosystems to prolonged drought and elevated CO2, and how these influence WUE trends.",
+      "Compare the WUE responses of shrublands and forests in other arid/semi-arid regions globally, to determine if the observed patterns in the US Southwest are broadly applicable or unique."
+    ],
+    "processed_time": "2026-01-14 09:57:28"
+  },
+  "BWSAR6BD": {
+    "title": "Responses of sap flux and intrinsic water use efficiency to canopy and understory nitrogen addition in a temperate broadleaved deciduous forest",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction / Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Nitrogen Addition / Sap Flux / Water Use Efficiency / Forest Ecosystem / Canopy vs. Understory",
+      "suggested": "Nitrogen Addition / Sap Flux / Water Use Efficiency / Forest Ecosystem / Canopy vs. Understory / Nitrogen Deposition / Plant Physiology",
+      "reason": "Adding 'Nitrogen Deposition' to link to broader environmental change, and 'Plant Physiology' as the underlying mechanism."
+    },
+    "related_papers": [
+      "Paper 0: Observed and modelled historical trends in the water-use efficiency of plants and ecosystems",
+      "Paper 4: Rising vegetation activity dominates growing water use efficiency in the Asian permafrost region from 1900 to 2100"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term impacts of different nitrogen deposition scenarios (including spatial patterns and forms of nitrogen) on forest WUE and water stress.",
+      "Explore how nitrogen addition interacts with other environmental factors (e.g., CO2, temperature, water availability) to modulate WUE, potentially using controlled experiments or advanced modeling.",
+      "Develop models that can differentiate the effects of canopy versus understory nitrogen enrichment on tree physiology and water use, aiming for more targeted forest management strategies."
+    ],
+    "processed_time": "2026-01-14 09:57:31"
+  },
+  "HEWKYE72": {
+    "title": "Rising vegetation activity dominates growing water use efficiency in the Asian permafrost region from 1900 to 2100",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Climate Change / Permafrost Region / Water Use Efficiency / Earth System Models / Remote Sensing",
+      "suggested": "Water Use Efficiency / Climate Change / Permafrost Region / Vegetation Activity / Earth System Models / Remote Sensing",
+      "reason": "Adding 'Vegetation Activity' highlights the key driver identified in the summary and abstract."
+    },
+    "related_papers": [
+      "Paper 0: Observed and modelled historical trends in the water-use efficiency of plants and ecosystems",
+      "Paper 1: Physiological and environmental control on ecosystem water use efficiency in response to drought across the northern hemisphere",
+      "Paper 2: Rapid increases in shrubland and forest intrinsic water-use efficiency during an ongoing megadrought",
+      "Paper 3: Responses of sap flux and intrinsic water use efficiency to canopy and understory nitrogen addition in a temperate broadleaved deciduous forest"
+    ],
+    "innovation_insights": [
+      "Integrate high-resolution remote sensing data with Earth System Model outputs to improve projections of WUE changes in permafrost regions, particularly focusing on the role of vegetation dynamics.",
+      "Investigate the feedback mechanisms between thawing permafrost, vegetation shifts, and WUE in Arctic/sub-Arctic regions, considering potential changes in hydrological regimes.",
+      "Assess the uncertainties associated with different Earth System Models in simulating GPP, NPP, and ET for permafrost regions and their combined impact on future WUE projections."
+    ],
+    "processed_time": "2026-01-14 09:57:35"
+  },
+  "JRSNQW36": {
+    "title": "Separating the effects of climate change and human activity on water use efficiency over the Beijing-Tianjin Sand Source Region of China",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water Use Efficiency , Methodology/Statistical Methods/Attribution Analysis , Applications/Water Resources Management/Land Use Change",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction , Modeling/Hybrid Modeling (Process+ML)/Ecosystem Models , Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Water Use Efficiency / Attribution Analysis / Climate Change / Human Activity / Beijing-Tianjin Sand Source Region",
+      "suggested": "Water Use Efficiency / Attribution Analysis / Land Use Change / Ecological Restoration / Climate Change Impacts / Beijing-Tianjin Sand Source Region",
+      "reason": "Current keywords are good but could be more specific about the 'human activity' which is primarily ecological restoration. Adding 'Land Use Change' and 'Ecological Restoration' provides better context. 'Climate Change Impacts' is also more descriptive than just 'Climate Change'."
+    },
+    "related_papers": [
+      "Paper 1: The three major axes of terrestrial ecosystem function",
+      "Paper 2: Towards physiologically meaningful water-use efficiency estimates from eddy covariance data",
+      "Paper 3: Water use efficiency in terrestrial ecosystem over East Asia: Effects of climate regimes and land cover types",
+      "Paper 4: Water-Use Efficiency: Advances and Challenges in a Changing Climate"
+    ],
+    "innovation_insights": [
+      "Future research could explore the differential impacts of various human activities (e.g., afforestation vs. agricultural intensification) on WUE, moving beyond a general 'human activity' category.",
+      "Investigate the long-term sustainability of WUE gains driven by human activities, considering potential trade-offs with other ecosystem services or hydrological impacts.",
+      "Apply advanced AI/ML techniques to disentangle the complex interactions between climate variability, land cover change, and human interventions on WUE at finer spatial and temporal scales."
+    ],
+    "processed_time": "2026-01-14 09:57:57"
+  },
+  "IFMDGEUZ": {
+    "title": "The three major axes of terrestrial ecosystem function",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Ecosystem Function , Methodology/Statistical Methods/Principal Component Analysis , Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades , Dynamics/Non-linearity & Complexity , Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Ecosystem Function / Principal Component Analysis / FLUXNET / Land Surface Models",
+      "suggested": "Ecosystem Function / Principal Component Analysis / FLUXNET / Land Surface Models / Vegetation Dynamics / Carbon Cycle",
+      "reason": "The current keywords are accurate but could be expanded to include broader concepts like 'Vegetation Dynamics' and 'Carbon Cycle' which are inherently linked to the identified axes of ecosystem function. Mentioning FLUXNET and Land Surface Models correctly captures the data and modeling aspects."
+    },
+    "related_papers": [
+      "Paper 0: Separating the effects of climate change and human activity on water use efficiency over the Beijing-Tianjin Sand Source Region of China",
+      "Paper 2: Towards physiologically meaningful water-use efficiency estimates from eddy covariance data",
+      "Paper 3: Water use efficiency in terrestrial ecosystem over East Asia: Effects of climate regimes and land cover types",
+      "Paper 4: Water-Use Efficiency: Advances and Challenges in a Changing Climate"
+    ],
+    "innovation_insights": [
+      "This paper provides a framework for understanding ecosystem responses. Future work could apply this framework to investigate how extreme events (droughts, heatwaves) manifest across these functional axes, particularly in relation to rapid onset events.",
+      "Explore the use of AI/deep learning to identify and predict shifts along these functional axes in response to complex climate change scenarios, going beyond PCA.",
+      "Investigate potential tipping points or abrupt transitions within these functional dimensions, linking them to threshold behaviors in land-atmosphere coupling."
+    ],
+    "processed_time": "2026-01-14 09:58:03"
+  },
+  "WYDRYYTM": {
+    "title": "Towards physiologically meaningful water-use efficiency estimates from eddy covariance data",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water Use Efficiency , Methodology/Remote Sensing/Eddy Covariance , Methodology/Statistical Methods/Uncertainty Analysis",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty , Modeling/Physics-Informed AI/Physiological Models , Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Eddy Covariance / Water-Use Efficiency / Stomatal Conductance / Ecosystem Fluxes / Ecophysiology",
+      "suggested": "Eddy Covariance / Water-Use Efficiency / Stomatal Conductance / Ecosystem Fluxes / Ecophysiology / Flux Tower Data Quality / Energy Balance Closure",
+      "reason": "The current keywords are highly relevant. Adding 'Flux Tower Data Quality' and 'Energy Balance Closure' directly addresses the core methodological challenges and findings of the paper, which are crucial for accurate WUE estimation from EC data."
+    },
+    "related_papers": [
+      "Paper 0: Separating the effects of climate change and human activity on water use efficiency over the Beijing-Tianjin Sand Source Region of China",
+      "Paper 1: The three major axes of terrestrial ecosystem function",
+      "Paper 3: Water use efficiency in terrestrial ecosystem over East Asia: Effects of climate regimes and land cover types",
+      "Paper 4: Water-Use Efficiency: Advances and Challenges in a Changing Climate"
+    ],
+    "innovation_insights": [
+      "This paper highlights critical data quality issues in EC measurements for WUE. Future research could focus on developing AI-driven methods to automatically correct for energy balance closure and other biases in EC data for improved WUE estimation.",
+      "Explore the integration of eddy covariance data with remote sensing products, using AI to bridge the scale gap and address spatial heterogeneity in WUE estimation.",
+      "Further investigate the physiological underpinnings of ecosystem-scale WUE variations identified by this study, potentially linking stomatal conductance responses to broader ecosystem functional traits."
+    ],
+    "processed_time": "2026-01-14 09:58:10"
+  },
+  "JVHZGGSS": {
+    "title": "Water use efficiency in terrestrial ecosystem over East Asia: Effects of climate regimes and land cover types",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water Use Efficiency , Applications/Climate Change Impact , Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)/Regional Scale , Dynamics/Non-linearity & Complexity , Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Water Use Efficiency / Climate Zones / Land Cover / East Asia / CLM4.0",
+      "suggested": "Water Use Efficiency / Regional Climate / Land Cover Types / East Asia / Ecosystem Modeling / Spatial Variability",
+      "reason": "The current keywords are accurate for the specific study. Expanding to 'Regional Climate', 'Ecosystem Modeling', and 'Spatial Variability' better reflects the broader implications and methodological approach of analyzing WUE across diverse regions and using models like CLM4.0."
+    },
+    "related_papers": [
+      "Paper 0: Separating the effects of climate change and human activity on water use efficiency over the Beijing-Tianjin Sand Source Region of China",
+      "Paper 1: The three major axes of terrestrial ecosystem function",
+      "Paper 2: Towards physiologically meaningful water-use efficiency estimates from eddy covariance data",
+      "Paper 4: Water-Use Efficiency: Advances and Challenges in a Changing Climate"
+    ],
+    "innovation_insights": [
+      "This study shows regional variations in WUE. Future work could use AI to model these regional variations more dynamically, incorporating finer-scale land cover and climate interactions.",
+      "Investigate the interaction between climate zones and land cover types on WUE under future climate change scenarios, predicting potential shifts in ecosystem types and their WUE.",
+      "Explore how different land cover types influence the relationship between climate drivers and WUE, potentially identifying sensitive regions or ecosystem types that require targeted management."
+    ],
+    "processed_time": "2026-01-14 09:58:19"
+  },
+  "K8XV3K2H": {
+    "title": "Water-Use Efficiency: Advances and Challenges in a Changing Climate",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water Use Efficiency , Applications/Agricultural Systems/Crop Physiology , Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction/Crop Physiology , Modeling/Hybrid Modeling (Process+ML)/Crop Models , Dynamics/Non-linearity & Complexity/Climate Change Response",
+    "keyword_assessment": {
+      "current": "Water-Use Efficiency / Climate Change / Crop Physiology / Agronomy",
+      "suggested": "Water Use Efficiency / Climate Change Impacts / Crop Physiology / Agronomy / CO2 Fertilization / Agricultural Management",
+      "reason": "Current keywords are good. Adding 'CO2 Fertilization' and 'Agricultural Management' directly reflects key findings and future directions discussed in the paper, providing a more comprehensive overview of the topics covered."
+    },
+    "related_papers": [
+      "Paper 0: Separating the effects of climate change and human activity on water use efficiency over the Beijing-Tianjin Sand Source Region of China",
+      "Paper 1: The three major axes of terrestrial ecosystem function",
+      "Paper 2: Towards physiologically meaningful water-use efficiency estimates from eddy covariance data",
+      "Paper 3: Water use efficiency in terrestrial ecosystem over East Asia: Effects of climate regimes and land cover types"
+    ],
+    "innovation_insights": [
+      "Future research could focus on developing AI-driven crop models that integrate physiological responses to CO2, temperature, and water availability with advanced agronomic management strategies for optimizing WUE under climate change.",
+      "Explore the potential for genetic modification or breeding to enhance inherent WUE in crops, considering the complex interactions between genetics, environment, and management.",
+      "Investigate the trade-offs between WUE and other crop performance metrics (e.g., yield, nutritional quality) under different climate change scenarios and management practices."
+    ],
+    "processed_time": "2026-01-14 09:58:26"
+  },
+  "VH7JJU84": {
+    "title": "Water use efficiency and evapotranspiration partitioning for three typical ecosystems in the Heihe River Basin, northwestern China",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/ET Partitioning, [ARCHIVE] Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "潜在WUE",
+      "suggested": "Water Use Efficiency (WUE), Evapotranspiration (ET), ET Partitioning, Heihe River Basin, Potential WUE (uWUE), Arid Regions",
+      "reason": "The current keyword '潜在WUE' is too specific and in Chinese. Broader English terms are needed for better searchability and to capture the core concepts of ET partitioning and water resource management in arid regions."
+    },
+    "related_papers": [
+      "Paper 1: Water use efficiency: A review of spatial and temporal variability",
+      "Paper 3: Dynamic process of ecosystem water use efficiency and response to drought in the yellow river basin, China",
+      "Paper 4: Seasonal trends in leaf‐level photosynthetic capacity and water use efficiency in a north American eastern deciduous forest and their impact on canopy‐scale gas exchange"
+    ],
+    "innovation_insights": [
+      "Develop and validate the proposed 'potential WUE' (uWUE) methods further across diverse ecosystem types and climatic zones to assess their general applicability.",
+      "Investigate the mechanistic links between uWUE, LAI, and irrigation events more deeply, potentially using process-based models or more advanced statistical techniques to disentangle these relationships.",
+      "Explore the use of uWUE for optimizing irrigation strategies in arid and semi-arid regions by integrating it into water resource management models."
+    ],
+    "processed_time": "2026-01-14 09:58:42"
+  },
+  "P7EA8LST": {
+    "title": "Water use efficiency: A review of spatial and temporal variability",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), [ARCHIVE] Hazards/Droughts, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Climate change, Crop water productivity, Crop yield, Droughts, Ecohydrology, Evapotranspiration, Gross primary production, Photosynthesis, Plant water stress, Stomatal conductance, Water cycle",
+      "suggested": "Water Use Efficiency (WUE), Spatial Variability, Temporal Variability, Ecohydrology, Carbon Cycle, Water Cycle, Climate Change, Remote Sensing Limitations, Photosynthesis, Evapotranspiration",
+      "reason": "The current keywords are good and comprehensive. However, 'Crop water productivity' and 'Crop yield' are specific applications. For a review, broader terms like 'Spatial Variability' and 'Temporal Variability' related to WUE are crucial. Also, highlighting the 'Remote Sensing Limitations' mentioned in the abstract would be beneficial."
+    },
+    "related_papers": [
+      "Paper 0: Water use efficiency and evapotranspiration partitioning for three typical ecosystems in the Heihe River Basin, northwestern China",
+      "Paper 3: Dynamic process of ecosystem water use efficiency and response to drought in the yellow river basin, China",
+      "Paper 4: Seasonal trends in leaf‐level photosynthetic capacity and water use efficiency in a north American eastern deciduous forest and their impact on canopy‐scale gas exchange"
+    ],
+    "innovation_insights": [
+      "Advance remote sensing retrieval algorithms to accurately capture WUE variability, especially considering the influence of increasing atmospheric CO2.",
+      "Investigate the scaling up of WUE from leaf to ecosystem and regional scales, and how different drivers (climate, land use, CO2) influence this scaling.",
+      "Explore the long-term implications of WUE changes on carbon sequestration and water resource availability under future climate change scenarios."
+    ],
+    "processed_time": "2026-01-14 09:58:46"
+  },
+  "ECKCFZYT": {
+    "title": "Dynamic process of ecosystem water use efficiency and response to drought in the yellow river basin, China",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), [ARCHIVE] Hazards/Droughts, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions, [IDEA] Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Water use efficiency",
+      "suggested": "Water Use Efficiency (WUE), Yellow River Basin, Drought Response, Ecosystem Dynamics, Spatial-Temporal Variability, Gross Primary Production (GPP), Evapotranspiration (ET), Climate Change Impact",
+      "reason": "The current keyword 'Water use efficiency' is too broad. To capture the essence of the paper, keywords related to the specific geographical region (Yellow River Basin), the hazard studied (drought response), and the key components of WUE (GPP, ET) are necessary."
+    },
+    "related_papers": [
+      "Paper 0: Water use efficiency and evapotranspiration partitioning for three typical ecosystems in the Heihe River Basin, northwestern China",
+      "Paper 1: Water use efficiency: A review of spatial and temporal variability",
+      "Paper 4: Seasonal trends in leaf‐level photosynthetic capacity and water use efficiency in a north American eastern deciduous forest and their impact on canopy‐scale gas exchange"
+    ],
+    "innovation_insights": [
+      "Investigate the critical thresholds of drought intensity and duration that trigger significant changes in WUE in the Yellow River Basin.",
+      "Explore the potential for using WUE dynamics as an early warning indicator for drought in arid and semi-arid river basins.",
+      "Analyze how different land management practices within the Yellow River Basin modify the ecosystem's response of WUE to drought."
+    ],
+    "processed_time": "2026-01-14 09:58:50"
+  },
+  "CJ7CIXHA": {
+    "title": "Seasonal trends in leaf‐level photosynthetic capacity and water use efficiency in a north American eastern deciduous forest and their impact on canopy‐scale gas exchange",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "地球系统模型，g1，气体交换，物候学，季节性生理，Vcmax，水分利用效率",
+      "suggested": "Leaf-level Photosynthetic Capacity, Water Use Efficiency (WUE), Seasonal Trends, Canopy Gas Exchange, Stomatal Conductance (g1), Photosynthetic Capacity (Vcmax), Phenology, Eastern Deciduous Forest",
+      "reason": "The current keywords are in Chinese and some are very technical. Translating them and including broader terms like 'Leaf-level Photosynthetic Capacity', 'Seasonal Trends', and 'Canopy Gas Exchange' would improve comprehensibility and discoverability. Including the specific ecosystem type ('Eastern Deciduous Forest') is also beneficial."
+    },
+    "related_papers": [
+      "Paper 0: Water use efficiency and evapotranspiration partitioning for three typical ecosystems in the Heihe River Basin, northwestern China",
+      "Paper 1: Water use efficiency: A review of spatial and temporal variability",
+      "Paper 3: Dynamic process of ecosystem water use efficiency and response to drought in the yellow river basin, China"
+    ],
+    "innovation_insights": [
+      "Integrate detailed leaf-level physiological models (e.g., with dynamic Vcmax and g1) into Earth System Models to improve predictions of carbon and water fluxes under climate change.",
+      "Investigate how phenological shifts, driven by climate change, alter the seasonal dynamics of WUE and its impact on annual carbon sequestration.",
+      "Explore the role of non-stomatal limitations (e.g., changes in Vcmax) in driving WUE variability across different forest ecosystems and seasons."
+    ],
+    "processed_time": "2026-01-14 09:58:53"
+  }
+}

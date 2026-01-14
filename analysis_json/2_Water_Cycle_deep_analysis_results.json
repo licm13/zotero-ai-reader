@@ -1,0 +1,65 @@
+{
+  "BXIXMK2X": {
+    "title": "Vegetation and wind speed dominate precipitation-evaporation recycling processes during 1980–2021",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Runoff & Streamflow, Hazards/Drought/Flash Drought, Methodology/Statistical Methods, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity, Coupling/Vegetation-Water Interaction, Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "降水再循环率(PRR)，蒸发再循环率(ERR)，叶面积指数(LAI)，风速，水循环，流域分类",
+      "suggested": "Precipitation Recycling Ratio (PRR), Evaporation Recycling Ratio (ERR), Leaf Area Index (LAI), Wind Speed, Water Cycle, River Basin Classification, Vegetation-Water Interaction, Land-Atmosphere Coupling",
+      "reason": "Current keywords are good but could be expanded to include English terms for broader searchability and to better capture the key drivers (vegetation-water interaction) and processes discussed (land-atmosphere coupling)."
+    },
+    "related_papers": [
+      "High-resolution satellite imagery reveals a recent accelerating rate of increase in land evapotranspiration",
+      "The influence of topography on the global terrestrial water cycle"
+    ],
+    "innovation_insights": [
+      "Investigate the non-linear relationships and feedback loops between vegetation, wind speed, and ET/PRR/ERR across different climatic zones using advanced modeling techniques (e.g., deep learning, causal inference).",
+      "Explore how the proposed 'basin classification' framework can be integrated into operational water resource management and early warning systems for hydrological extremes, particularly flash droughts, by analyzing the sensitivity of each basin type to specific drivers.",
+      "Quantify the uncertainties associated with the identified drivers (LAI, wind speed) and their impacts on PRR/ERR, and explore methods for data fusion to improve the accuracy of long-term estimations.",
+      "Examine the spatial and temporal dynamics of 'benefit type' basins to understand their resilience and vulnerability under future climate change scenarios and to identify potential tipping points."
+    ],
+    "processed_time": "2026-01-13 16:09:32"
+  },
+  "BFEKUCPA": {
+    "title": "High-resolution satellite imagery reveals a recent accelerating rate of increase in land evapotranspiration",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Methodology/Remote Sensing/Retrieval, Methodology/Deep Learning (LSTM_CNN), Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Dynamics/Rapid Onset Events, Modeling/Machine learning",
+    "keyword_assessment": {
+      "current": "气候变化 (Climate change), 水资源使用 (Water use), 土地蒸发蒸散 (Land ET), Landsat, 能量平衡 (Energy balance), 机器学习 (Machine learning)",
+      "suggested": "Land Evapotranspiration (ET), Satellite Remote Sensing, Landsat, Climate Change, Water Cycle Intensification, Accelerating ET Trends, Machine Learning, Energy Balance, High-Resolution Imagery",
+      "reason": "Keywords are relevant but can be more specific and descriptive. 'Land ET' is key. Including terms like 'Accelerating ET Trends' and 'High-Resolution Imagery' better reflects the paper's novel findings and methods. 'Water use' is less central than 'Water Cycle Intensification'."
+    },
+    "related_papers": [
+      "Vegetation and wind speed dominate precipitation-evaporation recycling processes during 1980–2021",
+      "The influence of topography on the global terrestrial water cycle"
+    ],
+    "innovation_insights": [
+      "Develop advanced deep learning models that integrate high-resolution satellite ET data with other relevant variables (e.g., vegetation indices, meteorological data, soil moisture) to better understand the fine-scale spatial heterogeneity and temporal acceleration of ET.",
+      "Investigate the drivers of accelerated ET increase in specific regions identified in the study (e.g., Southwest South America, parts of West Asia) by combining remote sensing data with land surface models and process-based analyses.",
+      "Explore the implications of accelerating ET for regional water availability, agricultural productivity, and the intensification of hydrological cycles, particularly in arid and semi-arid regions, linking these findings to flash drought risk.",
+      "Validate and improve machine learning models used for ET estimation by incorporating ground-truth measurements and exploring uncertainty quantification methods."
+    ],
+    "processed_time": "2026-01-13 16:09:37"
+  },
+  "ACQFZ34X": {
+    "title": "The influence of topography on the global terrestrial water cycle",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Processes/Groundwater, Hazards/Drought/Flash Drought, Hazards/Flood, Methodology/Statistical Methods, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change, Dynamics/Non-linearity & Complexity, Coupling/Multi-Sphere Coupling, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "地形学，水文学，全球水循环，地形降水，地下水，气候变化",
+      "suggested": "Topography, Global Terrestrial Water Cycle, Hydrology, Precipitation Patterns, Groundwater Flow, Climate Change Impacts, Scale Dependence, Surface-Subsurface Interactions",
+      "reason": "Current keywords are accurate but could be more comprehensive. Adding 'Scale Dependence' and 'Surface-Subsurface Interactions' would better reflect the paper's cross-scale and multi-sphere approach. Including English terms is also beneficial for broader accessibility."
+    },
+    "related_papers": [
+      "Vegetation and wind speed dominate precipitation-evaporation recycling processes during 1980–2021",
+      "High-resolution satellite imagery reveals a recent accelerating rate of increase in land evapotranspiration"
+    ],
+    "innovation_insights": [
+      "Develop high-resolution, spatially explicit models that incorporate detailed topographic information to simulate the impact of terrain on local and regional ET, runoff, and groundwater recharge, especially in complex mountainous regions.",
+      "Investigate how climate change-induced shifts in precipitation patterns and temperature influence the 'gradients' and 'contrasts' created by topography, potentially leading to abrupt transitions in water availability or increased drought-flood dynamics.",
+      "Utilize advanced data assimilation techniques to integrate remote sensing data (e.g., ET, soil moisture, snow cover) with hydrological models that explicitly account for topographic influences across different spatial and temporal scales.",
+      "Examine the feedback mechanisms between surface water, groundwater, and vegetation distribution, considering how topographic controls mediate these interactions under changing climatic and land-use conditions."
+    ],
+    "processed_time": "2026-01-13 16:09:44"
+  }
+}

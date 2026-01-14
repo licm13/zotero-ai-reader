@@ -1,0 +1,1330 @@
+{
+  "EV2H7E8P": {
+    "title": "OPEN GLAMOUR: GLobAl building data descriptor MOrphology dataset for URban hydroclimate modelling",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Applications/Urban Systems/Urban Hydroclimate",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Modeling/Data-Driven",
+    "keyword_assessment": {
+      "current": "Building morphology (建筑形态), Urban hydroclimate modelling (城市水文气候建模), Sentinel imagery (Sentinel影像), 3D building model (3D建筑模型), Hazard assessment (灾害评估)",
+      "suggested": "Building morphology, Urban hydroclimate, Remote sensing data, Sentinel-2, 3D urban models, Disaster risk",
+      "reason": "Current keywords are generally good but can be more specific and directly linked to the data source (Sentinel-2) and the primary application domain (urban hydroclimate). Adding 'Disaster risk' might also be beneficial given the mention of hazard assessment."
+    },
+    "related_papers": [
+      "Persistent urban heat",
+      "The contrasting trend of global urbanization-induced impacts on day and night land surface temperature from a time-series perspective",
+      "Elevated increases in human-perceived winter temperature in urban areas over China: Acceleration by urbanization",
+      "Changes in urban heat island intensity during heatwaves in China"
+    ],
+    "innovation_insights": [
+      "Develop advanced methods to integrate GLaMOUR data with hydrological models to explicitly simulate the impact of building morphology on urban water cycle processes (e.g., infiltration, surface runoff, evapotranspiration).",
+      "Investigate the relationship between specific building morphological characteristics (e.g., height variability, street canyon geometry) and the intensity and spatial distribution of urban heat islands, potentially using GLaMOUR alongside thermal data.",
+      "Explore how GLaMOUR data can be used to parameterize and validate urban canopy models for climate and weather forecasting applications.",
+      "Quantify the uncertainty introduced by building morphology representation in large-scale urban hydroclimate models and explore methods for uncertainty reduction."
+    ],
+    "processed_time": "2026-01-13 21:06:06"
+  },
+  "GPMN7IYW": {
+    "title": "Persistent urban heat",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes, Methodology/Deep Learning/LSTM_CNN, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "中文：城市热岛效应，温度持久性，全球气候模型，地表能量平衡，热带城市, 英文：Urban heat island effect, Temperature persistence, Global climate model, Surface energy balance, Tropical cities",
+      "suggested": "Urban heat island, Temperature persistence, Surface energy balance, Land surface models, Tropical cities, Urbanization impacts",
+      "reason": "Keywords are comprehensive. Adding 'Urbanization impacts' can provide a broader context for the findings, linking temperature persistence directly to urban development."
+    },
+    "related_papers": [
+      "OPEN GLAMOUR: GLobAl building data descriptor MOrphology dataset for URban hydroclimate modelling",
+      "The contrasting trend of global urbanization-induced impacts on day and night land surface temperature from a time-series perspective",
+      "Elevated increases in human-perceived winter temperature in urban areas over China: Acceleration by urbanization",
+      "Changes in urban heat island intensity during heatwaves in China"
+    ],
+    "innovation_insights": [
+      "Investigate the role of specific urban materials and their thermal properties in driving temperature persistence using finer-scale datasets or experimental approaches.",
+      "Explore the feedback mechanisms between increased temperature persistence and changes in local atmospheric circulation patterns within urban areas.",
+      "Develop predictive models that incorporate temperature persistence as a key indicator for early warning systems for extreme heat events.",
+      "Examine how different urban planning strategies or green infrastructure interventions might mitigate the increased temperature persistence identified in this study."
+    ],
+    "processed_time": "2026-01-13 21:06:11"
+  },
+  "4P6PZAGS": {
+    "title": "The contrasting trend of global urbanization-induced impacts on day and night land surface temperature from a time-series perspective",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes, Methodology/Statistical Methods, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Mechanism/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "中文：地表城市热岛效应，地表变暖，城市化，背景气候，时间序列, 英文：Surface urban heat island, Surface warming, Urbanization, Background climate, Time-series",
+      "suggested": "Surface urban heat island, Diurnal temperature variation, Urbanization trends, Land surface temperature, MODIS LST, Multi-decadal analysis",
+      "reason": "The current keywords are good but could be more specific. 'Diurnal temperature variation' captures the day/night contrast, and 'MODIS LST' and 'Multi-decadal analysis' highlight the data source and temporal scope, respectively."
+    },
+    "related_papers": [
+      "OPEN GLAMOUR: GLobAl building data descriptor MOrphology dataset for URban hydroclimate modelling",
+      "Persistent urban heat",
+      "Elevated increases in human-perceived winter temperature in urban areas over China: Acceleration by urbanization",
+      "Changes in urban heat island intensity during heatwaves in China"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term trends of diurnal temperature ranges in urban vs. rural areas beyond the study period and link them to specific urban development phases.",
+      "Develop a framework to disentangle the contributions of urbanization, background climate change, and land cover changes to observed LST trends at finer spatial scales.",
+      "Explore the implications of contrasting diurnal LST trends on urban ecosystems, energy consumption for cooling/heating, and human thermal comfort.",
+      "Examine the spatial heterogeneity of these trends across different climatic zones and urban morphologies globally, potentially using data from Paper 0."
+    ],
+    "processed_time": "2026-01-13 21:06:14"
+  },
+  "24G7EMIV": {
+    "title": "Elevated increases in human-perceived winter temperature in urban areas over China: Acceleration by urbanization",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes, Methodology/Statistical Methods, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "近地表空气温度",
+      "suggested": "Human-perceived temperature, Winter chill, Urbanization, China, Wind chill temperature, Air temperature trends",
+      "reason": "The current keyword is too narrow. The paper focuses on 'human-perceived winter temperature' and 'wind chill temperature', which are more descriptive. Including 'China' and 'Urbanization' is essential. 'Air temperature trends' can be added for completeness."
+    },
+    "related_papers": [
+      "OPEN GLAMOUR: GLobAl building data descriptor MOrphology dataset for URban hydroclimate modelling",
+      "Persistent urban heat",
+      "The contrasting trend of global urbanization-induced impacts on day and night land surface temperature from a time-series perspective",
+      "Changes in urban heat island intensity during heatwaves in China"
+    ],
+    "innovation_insights": [
+      "Investigate the role of microclimatic factors (e.g., street canyon geometry, building height) in modulating the acceleration of human-perceived winter temperature by urbanization.",
+      "Quantify the impact of these changes in perceived winter temperature on energy consumption for heating and public health outcomes in different Chinese urban regions.",
+      "Explore the applicability of these findings to other mid-latitude regions experiencing rapid urbanization.",
+      "Develop improved indices for human-perceived temperature that better capture the combined effects of temperature, wind, and potentially humidity, using long-term data for specific urban areas."
+    ],
+    "processed_time": "2026-01-13 21:06:18"
+  },
+  "FK3ES2CA": {
+    "title": "Changes in urban heat island intensity during heatwaves in China",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes, Methodology/Remote Sensing/Retrieval, Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "urban heat islands, heatwaves, background precipitation, urban agglomeration",
+      "suggested": "Urban heat island intensity, Heatwaves, Urban agglomerations, China, Land surface temperature, Climate interactions",
+      "reason": "The current keywords are relevant. Adding 'Urban agglomerations' is good. 'Land surface temperature' and 'Climate interactions' can provide more context on what is being measured and the broader scientific context. 'China' is also crucial for geographical specificity."
+    },
+    "related_papers": [
+      "OPEN GLAMOUR: GLobAl building data descriptor MOrphology dataset for URban hydroclimate modelling",
+      "Persistent urban heat",
+      "The contrasting trend of global urbanization-induced impacts on day and night land surface temperature from a time-series perspective",
+      "Elevated increases in human-perceived winter temperature in urban areas over China: Acceleration by urbanization"
+    ],
+    "innovation_insights": [
+      "Investigate the underlying physical mechanisms driving the amplified UHI intensity during heatwaves, considering factors like atmospheric stability, advection, and surface energy balance modifications.",
+      "Develop more sophisticated UHI intensity metrics that account for the duration and intensity of heatwaves, and how these metrics vary across different urban morphologies (potentially using data from Paper 0).",
+      "Explore the role of background precipitation patterns (as mentioned in keywords) in modulating the UHI-heatwave interaction and its impact on urban hydroclimate.",
+      "Integrate these findings into urban climate models to improve projections of heat-related risks under future climate change scenarios and inform urban adaptation strategies."
+    ],
+    "processed_time": "2026-01-13 21:06:22"
+  },
+  "8B7KW68R": {
+    "title": "Decreases in the urban heat island effect during the coronavirus disease 2019 ( <span style=\"font-variant:Small-caps;\">COVID</span> ‐19) lockdown in wuhan, China: observational evidence",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Urban Heat Island",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity/Environmental Change",
+    "keyword_assessment": {
+      "current": "N/A",
+      "suggested": "Urban Heat Island effect, COVID-19 lockdown, Air temperature, Wuhan",
+      "reason": "Keywords should be specific to the study's focus. The current keywords are missing and need to be derived from the title and content. The suggested keywords cover the core elements: the phenomenon studied (UHI), the context (COVID-19 lockdown), the measurement (air temperature), and the location (Wuhan)."
+    },
+    "related_papers": [
+      "Paper 1: Vegetation net primary productivity in urban areas of China responded positively to the COVID-19 lockdown in spring 2020"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term persistence or rebound of UHI effects post-lockdown to understand the resilience of urban climate regulation.",
+      "Quantify the specific meteorological and land-use factors that contributed to the observed UHI reduction during the lockdown.",
+      "Explore the potential for targeted urban planning or policy interventions inspired by lockdown effects to mitigate UHI in the long term."
+    ],
+    "processed_time": "2026-01-13 21:06:42"
+  },
+  "39BECBFS": {
+    "title": "Vegetation net primary productivity in urban areas of China responded positively to the COVID-19 lockdown in spring 2020",
+    "archive_path": "[ARCHIVE] Processes/Vegetation/Net Primary Productivity",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity/Environmental Change",
+    "keyword_assessment": {
+      "current": "N/A",
+      "suggested": "Vegetation NPP, COVID-19 lockdown, Urban areas, China, GEE, NDVI",
+      "reason": "The current keywords are missing and need to be derived from the title and content. The suggested keywords highlight the main variable (Vegetation NPP), the context (COVID-19 lockdown), the study area (Urban areas, China), and a key method (GEE, likely related to remote sensing data like NDVI which is commonly used for NPP estimation)."
+    },
+    "related_papers": [
+      "Paper 0: Decreases in the urban heat island effect during the coronavirus disease 2019 (COVID‐19) lockdown in wuhan, China: observational evidence"
+    ],
+    "innovation_insights": [
+      "Quantify the specific drivers (e.g., reduced emissions, altered human activity, improved air quality) that led to the positive NPP response.",
+      "Examine how the response of vegetation NPP varied across different types of urban land cover (e.g., parks, residential areas, industrial zones).",
+      "Explore the implications of these lockdown-induced vegetation changes for urban ecosystem services and biodiversity."
+    ],
+    "processed_time": "2026-01-13 21:06:46"
+  },
+  "ASLJZPK7": {
+    "title": "Socio-economic inequality exacerbated by climate change",
+    "archive_path": "[ARCHIVE] Hazards/Compound Events/DFA",
+    "idea_path": "[IDEA] Coupling/Human-Nature Systems/Socio-economic Impacts",
+    "keyword_assessment": {
+      "current": "气候变化，社会经济不平等，温室气体排放，气候危机，联合国气候变化大会",
+      "suggested": "Climate change, Socio-economic inequality, Intergenerational equity, Regional disparities, Fossil fuels, Renewable energy, Tax policy, Land restoration",
+      "reason": "The current keywords are a mix of Chinese and English terms, and while relevant, they could be more specific to the paper's core findings and proposed solutions. The suggested keywords are in English and cover the main themes: the overarching issue (climate change, socio-economic inequality), specific impacts (intergenerational equity, regional disparities), and proposed solutions (fossil fuels, renewable energy, tax policy, land restoration)."
+    },
+    "related_papers": [
+      "Paper 4: Human influence can explain the widespread exceptional warmth in 2023",
+      "Paper 3: Global assessment of nature’s contributions to people"
+    ],
+    "innovation_insights": [
+      "Develop quantitative models to precisely measure the feedback loop between climate change impacts and socio-economic inequality.",
+      "Investigate the effectiveness of proposed policy interventions (e.g., tax reforms, land restoration, flexible renewables) in mitigating climate-induced inequality across different socio-economic groups and regions.",
+      "Explore the role of international climate finance and technology transfer in addressing the disproportionate impacts of climate change on vulnerable populations."
+    ],
+    "processed_time": "2026-01-13 21:06:50"
+  },
+  "Z9H9528N": {
+    "title": "Global assessment of nature’s contributions to people",
+    "archive_path": "[ARCHIVE] Processes/Ecosystem Services/Nature's Contributions to People",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Nature’s contributions to people (NCP), landscape multifunctionality, transitional climate areas, human well-being, global basins",
+      "suggested": "Nature's Contributions to People (NCP), Ecosystem services, Spatiotemporal assessment, Global scale, Landscape multifunctionality, Sustainable Development Goals (SDGs)",
+      "reason": "The current keywords are good and capture key concepts. The suggested keywords enhance comprehensiveness by explicitly including 'Ecosystem services' (a closely related and widely used term) and 'Sustainable Development Goals (SDGs)' as the overarching framework, and clarifying the spatio-temporal aspect of the assessment."
+    },
+    "related_papers": [
+      "Paper 2: Socio-economic inequality exacerbated by climate change",
+      "Paper 4: Human influence can explain the widespread exceptional warmth in 2023"
+    ],
+    "innovation_insights": [
+      "Develop high-resolution, dynamic models of NCP distribution and change to better inform local and regional conservation and management decisions.",
+      "Investigate the socio-economic drivers and feedbacks influencing the decline or enhancement of specific NCPs, particularly in transitional climate areas.",
+      "Explore the trade-offs and synergies between different NCPs and their implications for achieving multiple SDGs simultaneously."
+    ],
+    "processed_time": "2026-01-13 21:06:54"
+  },
+  "MZZGIJLI": {
+    "title": "Human influence can explain the widespread exceptional warmth in 2023",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Global Warming",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity/Climate Change Attribution",
+    "keyword_assessment": {
+      "current": "人类影响，异常温暖，气候变化，厄尔尼诺，气候模型",
+      "suggested": "Global temperature, Anthropogenic influence, Climate change attribution, Extreme heat events, El Niño, Climate models, 2023 warmth",
+      "reason": "The current keywords are a mix of Chinese and English and cover the main topics. The suggested keywords are in English and provide a more precise and comprehensive description, including 'Anthropogenic influence' and 'Climate change attribution' for methodological clarity, and specifying 'Extreme heat events' and the year '2023 warmth' for temporal and event specificity."
+    },
+    "related_papers": [
+      "Paper 2: Socio-economic inequality exacerbated by climate change",
+      "Paper 3: Global assessment of nature’s contributions to people"
+    ],
+    "innovation_insights": [
+      "Investigate the role of specific extreme weather events, beyond El Niño, in contributing to or amplifying global warming trends.",
+      "Improve climate model capabilities to better represent and predict the compound effects of anthropogenic forcing and natural variability on extreme temperatures.",
+      "Analyze the cascading impacts of widespread exceptional warmth on critical Earth systems (e.g., cryosphere, oceans) and human societies."
+    ],
+    "processed_time": "2026-01-13 21:06:57"
+  },
+  "3UTU686K": {
+    "title": "Potential benefits of limiting global warming for the mitigation of temperature extremes in China",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Temperature Extremes, Methodology/Statistical Methods/Bias Correction, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity/Tipping Points, Modeling/Ensemble Methods/Climate Models",
+    "keyword_assessment": {
+      "current": "global warming, extreme temperature indices, CMIP6, China, SSP scenarios, bias correction",
+      "suggested": "global warming, extreme temperature, China, CMIP6, SSPs, bias correction, temperature extremes, climate change mitigation",
+      "reason": "Keywords are good but could be more comprehensive. Adding 'temperature extremes' and 'climate change mitigation' would better capture the paper's focus on the benefits of limiting warming. 'SSP scenarios' can be shortened to 'SSPs'."
+    },
+    "related_papers": [
+      "Paper 2: Twentieth-century hydroclimate changes consistent with human influence",
+      "Paper 3: Extreme weather should be defined according to impacts on climate-vulnerable communities"
+    ],
+    "innovation_insights": [
+      "This paper suggests further research into the non-linear responses of extreme temperature indices to incremental warming levels (e.g., 1.5°C vs 2.0°C) and how these responses vary spatially across China.",
+      "Future work could explore the societal and economic implications of these projected changes in extreme temperatures, especially focusing on vulnerable populations within China, building upon the impact-based definition proposed in Paper 3.",
+      "The study highlights the importance of using multi-model ensembles (like CMIP6) and robust bias correction techniques for projecting future climate extremes, suggesting research into improved bias correction methods or ensemble weighting strategies."
+    ],
+    "processed_time": "2026-01-13 21:07:15"
+  },
+  "X76TLXI9": {
+    "title": "Changes of total and artificial water bodies in inland China over the past three decades",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Water Bodies, Processes/Runoff & Streamflow/Dams, Applications/Water Resources Management, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity/Scale Issues (Spatial_Temporal), Data Philosophy/Multi-Source Integration/Data Quality & Validation, Coupling/Human-Nature Systems",
+    "keyword_assessment": {
+      "current": "水体、人工水体面积、气候变化、水坝建设、中国内陆",
+      "suggested": "water bodies, artificial water, natural water, inland China, climate change, human activities, dam construction, spatiotemporal changes, remote sensing",
+      "reason": "The current keywords are in Chinese and are decent. Translating to English and adding terms like 'natural water', 'human activities', 'spatiotemporal changes', and 'remote sensing' would make them more globally relevant and comprehensive for search indexing."
+    },
+    "related_papers": [
+      "Paper 2: Twentieth-century hydroclimate changes consistent with human influence",
+      "Paper 4: China's vegetation restoration programs accelerated vegetation greening on the loess plateau"
+    ],
+    "innovation_insights": [
+      "This paper opens avenues for investigating the complex interplay between climate change (driving water body changes in the west) and human infrastructure (dam construction driving changes in the east) in shaping regional water availability and dynamics.",
+      "Future research could focus on quantifying the feedback mechanisms between changes in water body extent (both artificial and natural) and local climate, or even regional hydrological cycles.",
+      "The study's methodology of differentiating artificial and natural water bodies provides a foundation for more granular studies on water resource management and the effectiveness of different water management strategies under varying climatic and anthropogenic pressures."
+    ],
+    "processed_time": "2026-01-13 21:07:21"
+  },
+  "KNXNPKXS": {
+    "title": "Twentieth-century hydroclimate changes consistent with human influence",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drought, Methodology/Statistical Methods/Climate Models, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades/Land-Atmosphere Coupling, Modeling/Causal Inference/Attribution Studies",
+    "keyword_assessment": {
+      "current": "水文气候变化，干旱，树轮，气候模型，人类影响",
+      "suggested": "hydroclimate change, drought, tree rings, climate models, human influence, attribution, paleoclimatology, twentieth century",
+      "reason": "The keywords are accurate and cover the main aspects. Adding 'attribution' and 'paleoclimatology' would better reflect the paper's focus on detecting and attributing human influence using long-term proxy data. 'Twentieth century' could be added for temporal specificity."
+    },
+    "related_papers": [
+      "Paper 0: Potential benefits of limiting global warming for the mitigation of temperature extremes in China",
+      "Paper 1: Changes of total and artificial water bodies in inland China over the past three decades",
+      "Paper 3: Extreme weather should be defined according to impacts on climate-vulnerable communities"
+    ],
+    "innovation_insights": [
+      "This paper highlights the challenge and importance of attributing hydroclimatic changes, particularly drought, to human influence even in the presence of significant natural variability, suggesting research into more sophisticated attribution techniques for other hydroclimatic extremes.",
+      "The use of tree-ring data for long-term drought reconstruction opens doors for integrating paleoclimate data with climate models to understand longer-term hydroclimatic regimes and how they are being altered by anthropogenic forcing.",
+      "The findings suggest that human influence on hydroclimate may be detectable earlier than previously thought, prompting research into the historical evolution of human impacts on water cycles and drought across different regions."
+    ],
+    "processed_time": "2026-01-13 21:07:26"
+  },
+  "VAVQMI3W": {
+    "title": "Extreme weather should be defined according to impacts on climate-vulnerable communities",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Extreme Weather, Hazards/Drought/Drought, Applications/Adaptation & Mitigation, Methodology/Statistical Methods/Threshold Analysis",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML)/Impact Models, Dynamics/Tipping Points/Threshold Behavior",
+    "keyword_assessment": {
+      "current": "极端天气事件，气候变化，脆弱社区，自报影响，阈值，非正规定居点",
+      "suggested": "extreme weather events, climate change, vulnerable communities, self-reported impacts, impact-based thresholds, adaptation, Nairobi, informal settlements",
+      "reason": "The current keywords are good and capture the essence. Adding 'impact-based thresholds' and 'adaptation' would explicitly state the proposed methodology and its goal. Including 'Nairobi' and 'informal settlements' can make it more specific for targeted searches."
+    },
+    "related_papers": [
+      "Paper 0: Potential benefits of limiting global warming for the mitigation of temperature extremes in China",
+      "Paper 2: Twentieth-century hydroclimate changes consistent with human influence"
+    ],
+    "innovation_insights": [
+      "This paper strongly advocates for a paradigm shift in defining extreme weather events, moving beyond purely meteorological thresholds to impact-based definitions, which suggests research into developing and validating such impact-based metrics for various types of extremes and different socio-economic contexts.",
+      "The study highlights the critical need to integrate local knowledge and lived experiences of climate-vulnerable communities into the scientific framework for understanding and responding to extreme weather, opening research opportunities in participatory science and co-production of knowledge.",
+      "Future work could explore how these impact-based thresholds can be effectively integrated into early warning systems and adaptation planning, particularly for marginalized and informal settlements where traditional meteorological warnings may be insufficient."
+    ],
+    "processed_time": "2026-01-13 21:07:33"
+  },
+  "9DH9KJIQ": {
+    "title": "China's vegetation restoration programs accelerated vegetation greening on the loess plateau",
+    "archive_path": "[ARCHIVE] Processes/Vegetation Dynamics, Processes/Runoff & Streamflow, Applications/Climate Change Impact, Methodology/Remote Sensing/Retrieval, Methodology/Statistical Methods/Causal Inference",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades/Land-Atmosphere Coupling, Data Philosophy/Scale Issues (Spatial_Temporal)/Multi-Source Integration, Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Vegetation restoration, Vegetation greening, Grain for green program, Global climate change, Loess Plateau",
+      "suggested": "vegetation restoration, vegetation greening, Loess Plateau, Grain for Green program, climate change, CO2 fertilization, nitrogen deposition, remote sensing, attribution, land-atmosphere interactions",
+      "reason": "The current keywords are relevant. Expanding to include specific drivers like 'CO2 fertilization' and 'nitrogen deposition', and methodological aspects like 'remote sensing', 'attribution', and 'land-atmosphere interactions' would provide a more complete picture of the study's scope and findings."
+    },
+    "related_papers": [
+      "Paper 1: Changes of total and artificial water bodies in inland China over the past three decades"
+    ],
+    "innovation_insights": [
+      "This paper's use of the Difference-in-Differences (DID) method to disentangle the contributions of restoration programs versus natural environmental changes to vegetation greening provides a valuable methodological approach that can be adapted for other impact assessment studies.",
+      "The finding that natural environmental factors might contribute more to greening than restoration programs (though programs are significant) opens research questions about the synergistic or antagonistic interactions between human-induced restoration and ongoing global changes like CO2 rise and nitrogen deposition.",
+      "Future research could investigate the hydrological consequences of this accelerated greening on the Loess Plateau, particularly regarding its impact on water availability and potential links to regional water cycle changes or land-atmosphere feedbacks, potentially connecting with themes in Paper 1."
+    ],
+    "processed_time": "2026-01-13 21:07:41"
+  },
+  "RPFIGXZ3": {
+    "title": "Trends and climate‐sensitivity of phenology in China's natural and planted forests",
+    "archive_path": "[ARCHIVE] Processes/Vegetation/Phenology",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Forest phenology, Climate sensitivity, Natural forests, Planted forests, China 关键词: 森林物候, 气候敏感性, 自然林, 人工林, 中国",
+      "suggested": "Forest phenology, Climate sensitivity, Land-atmosphere interactions, Growing season, China",
+      "reason": "The current keywords are good for basic retrieval but could be more descriptive of the study's focus on the dynamics of the growing season and its interaction with climate. Including 'Land-atmosphere interactions' hints at the broader implications of phenological changes."
+    },
+    "related_papers": [
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Investigate the feedback mechanisms between altered forest phenology (e.g., earlier start, later end of growing season) and regional climate patterns, especially in the context of land-atmosphere coupling.",
+      "Explore the long-term carbon sequestration implications of the observed phenological shifts in both natural and planted forests and how these might be influenced by differential climate sensitivities.",
+      "Develop more nuanced models that capture the non-linear responses of phenology to specific climate drivers (temperature, precipitation) beyond linear trends."
+    ],
+    "processed_time": "2026-01-13 21:08:03"
+  },
+  "HJ2PHRGD": {
+    "title": "Anthropogenic forcings reverse a simulated multi-century naturally-forced northern hemisphere hadley cell intensification",
+    "archive_path": "[ARCHIVE] Hazards/Drought/DFA",
+    "idea_path": "[IDEA] Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Recent and future human-induced weakening of the Northern Hemisphere Hadley circulation is unprecedented compared to natural forcings over the last millennium.",
+      "suggested": "Hadley circulation, Anthropogenic influence, Hydrological cycle, Climate change, Atmospheric circulation, Paleoclimate",
+      "reason": "The current keywords are a statement from the abstract rather than distinct search terms. Suggested keywords are more comprehensive and representative of the paper's content and its implications for understanding large-scale hydrological patterns."
+    },
+    "related_papers": [
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Investigate the cascading impacts of Hadley cell weakening on regional precipitation patterns and the intensification or weakening of drought and flood events in tropical and subtropical areas.",
+      "Explore potential 'tipping points' in the Hadley circulation where anthropogenic forcing might lead to irreversible shifts in its behavior, with significant consequences for global hydrology.",
+      "Quantify the uncertainty in climate model projections of Hadley cell dynamics, particularly in distinguishing between natural variability and human-induced trends over multi-century timescales."
+    ],
+    "processed_time": "2026-01-13 21:08:06"
+  },
+  "NCABKHXW": {
+    "title": "Evidence of human influence on northern hemisphere snow loss",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow cover",
+    "idea_path": "[IDEA] Dynamics/Abrupt Transitions/Phase Change",
+    "keyword_assessment": {
+      "current": "积雪减少",
+      "suggested": "Snow cover, Northern Hemisphere, Anthropogenic warming, Nonlinear response, Water security, Climate change attribution",
+      "reason": "The current keyword is too brief. The suggested keywords provide a much more comprehensive overview of the paper's scope, including the geographical focus, the cause (anthropogenic warming), the key finding (nonlinear response), and the implications (water security, attribution)."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 1"
+    ],
+    "innovation_insights": [
+      "Develop predictive models that explicitly incorporate the identified non-linear sensitivity of snowpack to temperature increases, particularly at critical thresholds (e.g., -8°C).",
+      "Assess the downstream hydrological impacts (e.g., changes in streamflow timing and volume, water availability for irrigation and human consumption) resulting from the projected accelerated snow loss.",
+      "Investigate the potential for positive feedback loops where reduced snow cover leads to lower albedo, further increasing local temperatures and accelerating snow melt."
+    ],
+    "processed_time": "2026-01-13 21:08:10"
+  },
+  "E5MEHQXA": {
+    "title": "Towards transient connectivity of river networks during rainfall events: Insight from hydrological observation and functional data analysis",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Streamflow",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "中文：过程连通性，水文观测，功能数据分析，人工神经网络，河网平原 英文：Process connectivity, Hydrological observation, Functional data analysis, Artificial neural network, River network plain",
+      "suggested": "River network connectivity, Process connectivity, Rainfall events, Hydrological observation, Functional data analysis, Artificial neural networks, Flood dynamics",
+      "reason": "The current keywords are good but could be slightly expanded to emphasize the dynamic aspect ('Process connectivity' and 'Hydrological observation') and the specific event context ('Rainfall events'). Adding 'Flood dynamics' broadens the potential applications."
+    },
+    "related_papers": [
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Apply the functional data analysis approach to understand how transient connectivity changes influence the propagation of flood waves and the spatial extent of inundation during extreme rainfall events.",
+      "Investigate the role of different network structures and geomorphological characteristics in modulating the process connectivity under varying rainfall intensities and durations.",
+      "Explore the use of this methodology for real-time flood forecasting and warning systems, especially in densely managed riverine landscapes."
+    ],
+    "processed_time": "2026-01-13 21:08:13"
+  },
+  "VNIY6SRL": {
+    "title": "Enhancing physically-based hydrological modeling with an ensemble of machine-learning reservoir operation modules under heavy human regulation using easily accessible data",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Ensemble Methods",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Dams and reservoirs have significantly altered river flow dynamics worldwide. Accurately representing reservoir operations in hydrological models is crucial yet challenging. Detailed reservoir operation data is often inaccessible, leading to reliance on simplified reservoir operation modules in most hydrological models. To improve the capability of hydrological models to capture flow variability influenced by reservoirs, this study proposes a hybrid hydrological modeling framework, combining a process-based hydrological model with a machine-learning-based reservoir operation module designed to simulate runoff under reservoir operations. The reservoir operation module employs an ensemble of three machine learning models: random forest, support vector machine, and AutoGluon. These models predict reservoir outflows using precipitation and temperature data as inputs. The Soil and Water Assessment Tool (SWAT) integrates these outflow predictions to simulate runoff. The performance of this hybrid approach is evaluated in the Xijiang Basin within the Pearl River Basin, China. Results highlight the superiority of the SWAT model coupled with machine learning-based reservoir operation models compared to alternative modeling approaches. This hybrid model effectively captures peak flows and dry period runoff, significantly improving the Nash-Sutcliffe Efficiency (NSE) and the coefficient of determination (R2) compared to original SWAT modules and parameterization techniques lacking dedicated reservoir modules.",
+      "suggested": "Hybrid hydrological modeling, Reservoir operation, Machine learning, Ensemble models, SWAT, River flow regulation, Data scarcity",
+      "reason": "The current 'keyword' is the abstract itself. The suggested keywords are concise and accurately represent the core themes: the hybrid modeling approach, the focus on reservoir operations, the use of machine learning and ensemble methods, the specific model (SWAT), and the challenge of data scarcity."
+    },
+    "related_papers": [
+      "Paper 3"
+    ],
+    "innovation_insights": [
+      "Develop and test the generalizability of this hybrid modeling framework to different geographical regions and hydro-climatic conditions, particularly those with extensive human regulation of river systems.",
+      "Investigate the potential for incorporating more advanced machine learning techniques (e.g., deep learning) within the reservoir operation module to capture complex non-linear dynamics and improve predictions.",
+      "Explore the application of this hybrid approach to assess the impacts of future climate change scenarios and altered reservoir management strategies on water resources and downstream ecosystems."
+    ],
+    "processed_time": "2026-01-13 21:08:16"
+  },
+  "JQBQRC7U": {
+    "title": "Uncovering historical reservoir operation rules and patterns: Insights from 452 large reservoirs in the contiguous united states",
+    "archive_path": "[ARCHIVE] Applications/Water Resources Management/Reservoir Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "水库运行规则，数据驱动模型，操作模块，季节性模式，美国本土",
+      "suggested": "Reservoir operation rules, data-driven models, operational modules, seasonal patterns, contiguous United States, hydrological modeling, water management, pattern recognition",
+      "reason": "Current keywords are mostly in Chinese and lack technical depth for broader retrieval. Suggested keywords are in English, more descriptive, and include relevant technical terms like 'hydrological modeling' and 'pattern recognition' which are core to the methodology."
+    },
+    "related_papers": [
+      "Paper 1: Toward improved simulations of disruptive reservoirs in global hydrological modeling",
+      "Paper 2: Quantifying the regulation capacity of the three gorges reservoir on extreme hydrological events and its impact on flow regime in a changing climate",
+      "Paper 3: Coupling reservoir operation and rainfall‐runoff processes for streamflow simulation in watersheds"
+    ],
+    "innovation_insights": [
+      "This paper suggests developing generalized 'LEGO' blocks for reservoir operations, which could lead to a new paradigm for reservoir modeling that is more flexible and data-efficient, especially for data-scarce regions.",
+      "The identification of distinct operational modules opens avenues for research into the 'drivers' of these modules (e.g., specific climate regimes, socio-economic demands) and their inter-relationships, potentially leading to more adaptive and optimized reservoir management strategies.",
+      "Future work could focus on using these identified modules to forecast reservoir behavior under future climate scenarios or to explore novel control strategies that leverage combinations of these modules.",
+      "A limitation could be the generalizability of these modules across different reservoir types and geographical locations; future work could investigate the transferability and adaptation of these modules."
+    ],
+    "processed_time": "2026-01-13 21:08:46"
+  },
+  "WNFYYDU8": {
+    "title": "Toward improved simulations of disruptive reservoirs in global hydrological modeling",
+    "archive_path": "[ARCHIVE] Applications/Water Resources Management/Reservoir Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Reservoir simulation, global hydrological models, disruptive reservoirs, model improvement, scale effects, human impact on hydrology",
+      "reason": "No keywords were provided. Suggested keywords cover the core aspects of simulating reservoir impacts, particularly in a global context and considering their 'disruptive' nature on natural hydrological processes."
+    },
+    "related_papers": [
+      "Paper 0: Uncovering historical reservoir operation rules and patterns: Insights from 452 large reservoirs in the contiguous united states",
+      "Paper 2: Quantifying the regulation capacity of the three gorges reservoir on extreme hydrological events and its impact on flow regime in a changing climate",
+      "Paper 3: Coupling reservoir operation and rainfall‐runoff processes for streamflow simulation in watersheds"
+    ],
+    "innovation_insights": [
+      "This paper likely explores how to better represent the significant impact of reservoirs (often oversimplified in global models) on simulated hydrological processes, suggesting research into more sophisticated reservoir parameterization or component modules within global hydrological models.",
+      "It could pave the way for research into understanding the 'disruptive' nature of human infrastructure on natural water cycles at a global scale, potentially linking to studies on land-use change or water management impacts.",
+      "Future work could focus on developing specific algorithms or data assimilation techniques to improve reservoir representation in large-scale models, especially considering their complex operational rules and cascading effects.",
+      "A gap that could be addressed is the validation of improved reservoir simulations against observed hydrological regimes, particularly in regions with high reservoir density."
+    ],
+    "processed_time": "2026-01-13 21:08:49"
+  },
+  "DY6UZ7S5": {
+    "title": "Quantifying the regulation capacity of the three gorges reservoir on extreme hydrological events and its impact on flow regime in a changing climate",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Hazards/Flood, [ARCHIVE] Hazards/Compound Events/DFA, [ARCHIVE] Applications/Water Resources Management/Dam Operation",
+    "idea_path": "[IDEA] Dynamics/Tipping Points, [IDEA] Dynamics/Drought-Flood Transitions, [IDEA] Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Three Gorges Reservoir, regulation capacity, extreme hydrological events, flow regime, climate change impact, flood control, drought mitigation, dam operation, hydrological impact",
+      "reason": "No keywords were provided. Suggested keywords are specific to the paper's content, highlighting the key aspects of reservoir regulation, impact on extreme events, and climate change context."
+    },
+    "related_papers": [
+      "Paper 0: Uncovering historical reservoir operation rules and patterns: Insights from 452 large reservoirs in the contiguous united states",
+      "Paper 1: Toward improved simulations of disruptive reservoirs in global hydrological modeling",
+      "Paper 3: Coupling reservoir operation and rainfall‐runoff processes for streamflow simulation in watersheds"
+    ],
+    "innovation_insights": [
+      "This research offers insights into the complex interplay between large-scale infrastructure (like the Three Gorges Dam) and extreme hydrological events, suggesting further investigation into the 'tipping points' at which reservoir regulation might fail or have unintended consequences under severe conditions or rapid climate change.",
+      "The quantification of regulation capacity under a changing climate opens doors for research on adaptive reservoir management strategies specifically designed to cope with non-stationary hydrological regimes and increased event intensity.",
+      "Future research could explore the multi-objective optimization of such large reservoirs, balancing flood control, hydropower generation, and ecological flows, especially in the context of projected climate change.",
+      "A gap could be the assessment of the long-term ecological impacts of altered flow regimes downstream of major dams like the Three Gorges, which could be a focus for future studies."
+    ],
+    "processed_time": "2026-01-13 21:08:54"
+  },
+  "3B9BQ2AZ": {
+    "title": "Coupling reservoir operation and rainfall‐runoff processes for streamflow simulation in watersheds",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Reservoir operation, rainfall-runoff, streamflow simulation, watershed modeling, hydrological processes, machine learning, integrated modeling, data-driven hydrology",
+      "reason": "No keywords were provided. Suggested keywords cover the integration of reservoir operations into watershed hydrological models using advanced simulation techniques, implying a need for hybrid or integrated modeling approaches."
+    },
+    "related_papers": [
+      "Paper 0: Uncovering historical reservoir operation rules and patterns: Insights from 452 large reservoirs in the contiguous united states",
+      "Paper 1: Toward improved simulations of disruptive reservoirs in global hydrological modeling",
+      "Paper 2: Quantifying the regulation capacity of the three gorges reservoir on extreme hydrological events and its impact on flow regime in a changing climate"
+    ],
+    "innovation_insights": [
+      "This paper demonstrates the value of explicitly coupling reservoir operations with rainfall-runoff processes, suggesting that future research should prioritize integrated hydrological models that do not treat reservoirs as simple boundary conditions but as dynamic components.",
+      "The 'nice figures' might imply the development of visualization or diagnostic tools for understanding complex hydrological simulations, opening research avenues in scientific visualization for hydrological sciences.",
+      "Future work could explore different coupling strategies (e.g., sequential vs. concurrent simulation, different levels of detail for reservoir operations) and their impact on simulation accuracy and computational efficiency.",
+      "A gap could be the evaluation of such coupled models under various hydrological extremes (droughts, floods) and climate change scenarios to assess their robustness and predictive skill in these critical situations."
+    ],
+    "processed_time": "2026-01-13 21:08:58"
+  },
+  "EUK9P7QE": {
+    "title": "Effects of urbanization in China on the east asian summer monsoon as revealed by two global climate models",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Applications/Climate Change Impact, [ARCHIVE] Hazards/Heatwaves & Extremes",
+    "idea_path": "[IDEA] Coupling/Land-Atmosphere Coupling, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Urbanization, China, East Asian summer monsoon, global climate models, land-atmosphere interaction, precipitation patterns, atmospheric circulation, climate impact",
+      "reason": "No keywords were provided. Suggested keywords reflect the core focus on urbanization's impact on regional climate, specifically the East Asian summer monsoon."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "This paper highlights the significant impact of land-use change (urbanization) on atmospheric dynamics, specifically the East Asian summer monsoon. This suggests research into the teleconnections between local land surface modifications and regional climate patterns.",
+      "The finding about increased surface friction potentially weakening the monsoon and altering precipitation distribution (more in the south, less in the north) opens avenues for studying the mechanisms of atmospheric response to localized changes in surface properties and roughness.",
+      "Future work could involve investigating the 'thresholds' of urbanization beyond which significant monsoon changes are observed, or exploring the role of other urban characteristics (e.g., heat island effect, moisture emissions) in modulating monsoon behavior.",
+      "A gap that could be addressed is the downscaling of these large-scale climate model results to understand the localized impacts of altered monsoon patterns on water resources, agriculture, and extreme events within China."
+    ],
+    "processed_time": "2026-01-13 21:09:02"
+  },
+  "9C9H6MC5": {
+    "title": "Historical land use and land cover change reduced the temperature of cold extremes more than that of hot extremes",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Temperature Extremes, Methodology/Model Simulations, Processes/Climate Feedback",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "land use and land cover change (LULCC), temperature extremes, biophysical effects, climate feedback, model simulations 土地利用和土地覆盖变化（LULCC），温度极端值，生物物理效应，气候反馈，模型模拟",
+      "suggested": "land use and land cover change (LULCC), temperature extremes, biophysical effects, climate feedback, model simulations, Northern Hemisphere, mid-latitudes, cold extremes, hot extremes",
+      "reason": "Keywords are mostly good, but could be more specific about the geographical focus (Northern Hemisphere, mid-latitudes) and the distinction between cold and hot extremes, which are central to the findings."
+    },
+    "related_papers": [
+      "Paper 1: Increased heat risk in wet climate induced by urban humid heat",
+      "Paper 3: Evapotranspiration from developed land and urban watersheds in a humid subtropical climate",
+      "Paper 4: Evapotranspiration evaluation using three different protocols on a large green roof in the greater paris area"
+    ],
+    "innovation_insights": [
+      "Investigate the differential impact of LULCC on various types of temperature extremes (e.g., cold vs. hot, diurnal temperature range) across different geographical regions and under varying background climate conditions.",
+      "Quantify the contribution of specific biophysical mechanisms and climate feedback loops (e.g., albedo changes, evapotranspiration alterations, atmospheric circulation adjustments) to the observed differential impacts of LULCC on temperature extremes.",
+      "Explore the potential for LULCC mitigation or adaptation strategies tailored to reduce the severity of specific temperature extremes, particularly cold extremes, which seem more sensitive to LULCC-induced changes.",
+      "Develop improved land surface models that can better capture the complex interactions between LULCC, land-atmosphere feedbacks, and the generation of temperature extremes."
+    ],
+    "processed_time": "2026-01-13 21:09:27"
+  },
+  "2QP97SGR": {
+    "title": "Increased heat risk in wet climate induced by urban humid heat",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Heat Stress, Processes/Land-Atmosphere Interactions, Methodology/Data Analysis, Applications/Urban Environments",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Rapid Onset Events, Coupling/Energy-Water Nexus, Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "中：湿球温度、城市湿热岛、动态混合、热应激、湿润气候 英：Wet-bulb temperature, urban humid heat island, dynamic mixing, heat stress, wet climate",
+      "suggested": "urban humid heat island, wet-bulb temperature, heat stress, wet climate, dynamic mixing, urban-rural differences, human health, climate change amplification",
+      "reason": "Keywords are relevant. Suggestion includes 'urban-rural differences' to highlight the core comparison and 'human health' and 'climate change amplification' to emphasize the significance and implications."
+    },
+    "related_papers": [
+      "Paper 0: Historical land use and land cover change reduced the temperature of cold extremes more than that of hot extremes",
+      "Paper 3: Evapotranspiration from developed land and urban watersheds in a humid subtropical climate",
+      "Paper 4: Evapotranspiration evaluation using three different protocols on a large green roof in the greater paris area"
+    ],
+    "innovation_insights": [
+      "Investigate the role of dynamic mixing (or lack thereof) in amplifying heat stress in urban areas across various climate zones, not just wet climates.",
+      "Quantify the threshold of background wet-bulb temperature above which urban dynamic mixing effects become critical for human health.",
+      "Explore how different urban morphologies and land cover types influence the urban humid heat island effect and its impact on wet-bulb temperature.",
+      "Develop early warning systems specifically for dangerous heat-stress days in urban areas, considering the amplification effect of the urban humid heat island.",
+      "Assess the effectiveness of urban planning strategies (e.g., increasing green spaces, improving ventilation) in mitigating the amplified heat risk in wet climates."
+    ],
+    "processed_time": "2026-01-13 21:09:32"
+  },
+  "7EQXVZUY": {
+    "title": "Evapotranspiration increment was underestimated in China due to underrepresented land cover changes",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Methodology/Remote Sensing/Retrieval, Applications/Agricultural Systems, Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), Data Philosophy/Multi-Source Integration, Dynamics/Non-linearity & Complexity, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Evapotranspiration (ET), China, land cover change, urbanization, underestimation, data assimilation, remote sensing, land surface models",
+      "reason": "The current keywords are missing. Suggested keywords cover the key aspects mentioned in the excerpt: the process (ET), the region (China), the drivers (land cover change, urbanization), the problem (underestimation), and potential methods (data assimilation, remote sensing, land surface models)."
+    },
+    "related_papers": [
+      "Paper 3: Evapotranspiration from developed land and urban watersheds in a humid subtropical climate",
+      "Paper 4: Evapotranspiration evaluation using three different protocols on a large green roof in the greater paris area"
+    ],
+    "innovation_insights": [
+      "Develop and validate improved methods for estimating ET in China that explicitly account for the impact of historical and ongoing land cover changes, particularly urbanization.",
+      "Investigate the magnitude and spatial patterns of ET underestimation across different land use types (urban, agricultural, natural) in China.",
+      "Explore the use of multi-source data fusion techniques (e.g., combining satellite observations with ground measurements and model outputs) to improve ET estimates in data-scarce regions or complex landscapes.",
+      "Quantify how different land cover change scenarios (e.g., rapid urbanization, afforestation) affect regional water balances and ET in China.",
+      "Integrate more accurate ET estimations into hydrological and climate models to improve their predictive capabilities for water resources management and climate change impact assessments in China."
+    ],
+    "processed_time": "2026-01-13 21:09:38"
+  },
+  "HV38HFZH": {
+    "title": "Evapotranspiration from developed land and urban watersheds in a humid subtropical climate",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Applications/Urban Environments, Processes/Runoff & Streamflow, Methodology/Data Analysis",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, Data Philosophy/Scale Issues (Spatial_Temporal), Dynamics/Non-linearity & Complexity, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "urban evapotranspiration (ET), developed land, urban watersheds, humid subtropical climate, impervious surfaces, land use intensity, Nature Water",
+      "reason": "Current keywords are missing. Suggested keywords highlight the key focus: ET in urban environments and watersheds, the distinction between different land development intensities, and the climate context. Mentioning the journal ('Nature Water') can be useful for context but less so for retrieval."
+    },
+    "related_papers": [
+      "Paper 1: Increased heat risk in wet climate induced by urban humid heat",
+      "Paper 2: Evapotranspiration increment was underestimated in China due to underrepresented land cover changes",
+      "Paper 4: Evapotranspiration evaluation using three different protocols on a large green roof in the greater paris area"
+    ],
+    "innovation_insights": [
+      "Investigate the variability of ET across different urban land cover types (e.g., high-intensity developed vs. open-space developed) and its implications for water management in urban watersheds.",
+      "Develop methodologies to accurately quantify ET from impervious surfaces and other urban features, which are often poorly represented in traditional ET models.",
+      "Explore the relationship between urban ET, surface runoff, and the urban heat island effect in humid subtropical climates.",
+      "Assess how changes in land development intensity (driven by urbanization) impact the overall water balance and hydrological regimes of urban watersheds.",
+      "Apply advanced modeling techniques (e.g., physically-based models coupled with machine learning) to improve ET estimation in complex urban landscapes."
+    ],
+    "processed_time": "2026-01-13 21:09:43"
+  },
+  "JP75KCR9": {
+    "title": "Evapotranspiration evaluation using three different protocols on a large green roof in the greater paris area",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Applications/Urban Environments, Methodology/Remote Sensing/Retrieval, Methodology/Data Fusion, Methodology/Surface Energy Balance",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Data Philosophy/Scale Issues (Spatial_Temporal), Modeling/Hybrid Modeling (Process+ML), Applications/Nature-Based Solutions",
+    "keyword_assessment": {
+      "current": "蒸散量, 绿色屋顶, 城市热岛, 自然基解决方案, 表面能量平衡, 蒸散室, 水量平衡",
+      "suggested": "evapotranspiration (ET) evaluation, green roofs, urban heat island, nature-based solutions (NBSs), surface energy balance, chamber method, water balance, inter-protocol comparison, ESSD data",
+      "reason": "Current keywords are good. Suggested keywords add 'evaluation' to emphasize the paper's core task, 'inter-protocol comparison' to highlight the methodological contribution, and 'ESSD data' to indicate the dataset nature, which is relevant for the journal."
+    },
+    "related_papers": [
+      "Paper 1: Increased heat risk in wet climate induced by urban humid heat",
+      "Paper 3: Evapotranspiration from developed land and urban watersheds in a humid subtropical climate"
+    ],
+    "innovation_insights": [
+      "Conduct inter-comparison studies of ET estimation methods across various urban green infrastructure types (e.g., green roofs, urban parks, street trees) to assess their performance and uncertainty.",
+      "Investigate the long-term performance and hydrological benefits of green roofs and other NBSs under different climatic conditions and urban settings.",
+      "Develop standardized protocols or best practices for measuring and evaluating ET from urban green infrastructure.",
+      "Quantify the contribution of ET from green infrastructure to mitigating urban heat island effects and improving urban microclimates.",
+      "Utilize the high-quality dataset provided to calibrate and validate urban hydrological and land surface models."
+    ],
+    "processed_time": "2026-01-13 21:09:49"
+  },
+  "3D3P2UMT": {
+    "title": "Modeling thermal comfort indicators in an urban environment using remote sensing, open geodata, and artificial intelligence",
+    "archive_path": "[ARCHIVE] Remote Sensing/Urban Climate/Thermal Comfort",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling/Urban Heat Island",
+    "keyword_assessment": {
+      "current": "Remote Sensing / Artificial Intelligence / Urban Climate / Thermal Comfort / Evapotranspiration",
+      "suggested": "Remote Sensing / Artificial Intelligence / Urban Climate / Thermal Comfort / Evapotranspiration / Geospatial Data / Urban Planning",
+      "reason": "The current keywords are good, but adding 'Geospatial Data' acknowledges the use of open geodata, and 'Urban Planning' highlights a key application area mentioned in the paper."
+    },
+    "related_papers": [
+      "The city is breathing: Mapping urban evapotranspiration with remote sensing, artificial intelligence, and footprint modeling"
+    ],
+    "innovation_insights": [
+      "Develop more sophisticated AI models that integrate diverse remote sensing data (e.g., thermal, vegetation indices, urban structure) with real-time open geodata for highly localized and dynamic thermal comfort monitoring.",
+      "Explore the transferability of these AI models to different urban morphologies and climate zones, addressing the 'domain adaptation' challenge in AI for urban climatology.",
+      "Investigate the feedback mechanisms between urban heat island intensity, ET patterns, and human thermal comfort using the high-resolution data generated, potentially leading to new insights into land-atmosphere coupling in urban environments.",
+      "Address the limitation of focusing primarily on night-time Tair by extending the methodology to capture diurnal variations and their impact on thermal comfort.",
+      "Quantify the uncertainty associated with different data sources and AI model configurations in estimating Tair and ET in urban areas."
+    ],
+    "processed_time": "2026-01-13 21:10:13"
+  },
+  "FS2XPP4N": {
+    "title": "The city is breathing: Mapping urban evapotranspiration with remote sensing, artificial intelligence, and footprint modeling",
+    "archive_path": "[ARCHIVE] Remote Sensing/Evapotranspiration (ET)/Urban Systems",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity/Urban ET Dynamics",
+    "keyword_assessment": {
+      "current": "Urban ET / Remote Sensing / Machine Learning / Footprint Modeling / Berlin",
+      "suggested": "Urban Evapotranspiration / Remote Sensing / Machine Learning / Footprint Modeling / Urban Ecology / Geospatial Analysis",
+      "reason": "Replacing 'Urban ET' with 'Urban Evapotranspiration' is more explicit. Adding 'Urban Ecology' and 'Geospatial Analysis' better reflects the broader context and methodologies used."
+    },
+    "related_papers": [
+      "Modeling thermal comfort indicators in an urban environment using remote sensing, open geodata, and artificial intelligence"
+    ],
+    "innovation_insights": [
+      "Advance footprint modeling techniques to better resolve ET contributions from specific urban surfaces (e.g., green roofs, vertical gardens) at finer scales.",
+      "Investigate the impact of urban form (e.g., street canyons, building density) and land cover heterogeneity on ET patterns using AI and high-resolution remote sensing, potentially revealing non-linear relationships.",
+      "Develop methods to integrate ET maps with urban water balance models to assess urban water resources and resilience, especially under changing climate conditions.",
+      "Explore the potential of fusing satellite-based ET estimates with ground-based eddy covariance flux tower data in urban areas, leveraging footprint models to bridge the spatial scale gap.",
+      "Analyze the intra-annual variability of urban ET across different climate zones and identify key drivers (e.g., vegetation status, irrigation, impervious surfaces) using the developed modeling framework."
+    ],
+    "processed_time": "2026-01-13 21:10:18"
+  },
+  "VEKYK9XX": {
+    "title": "Spatial scale effect of surface routing and its parameter upscaling for urban flood simulation using a grid‐based model",
+    "archive_path": "[ARCHIVE] Hazards/Flood/Urban Flooding",
+    "idea_path": "[IDEA] Scale Issues (Spatial_Temporal)/Parameterization in Urban Models",
+    "keyword_assessment": {
+      "current": "Urban Hydrology / Spatial Scale Effects / Overland Flow Routing / Parameter Upscaling / Grid-Based Model",
+      "suggested": "Urban Hydrology / Spatial Scale Effects / Overland Flow Routing / Parameter Upscaling / Grid-Based Modeling / Flood Simulation",
+      "reason": "Adding 'Flood Simulation' makes the primary application of the model clearer and more aligned with the research question."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Develop scale-adaptive hydrological models for urban flood simulation that can automatically adjust parameterization based on the input data resolution, reducing the need for manual upscaling.",
+      "Investigate the non-linear relationship between spatial scale, hydrological processes (e.g., infiltration, routing), and flood inundation extent, particularly for flash flood events in complex urban terrains.",
+      "Explore the use of machine learning or data assimilation techniques to estimate or upscale parameters related to surface routing characteristics based on remote sensing or other observational data.",
+      "Quantify the uncertainty introduced by parameter upscaling methods for urban flood forecasting systems and assess its impact on warning accuracy.",
+      "Extend the concept of upscaling surface routing parameters to other hydrological processes in urban areas, such as snowmelt runoff or contaminant transport."
+    ],
+    "processed_time": "2026-01-13 21:10:22"
+  },
+  "TXRCYIBH": {
+    "title": "An approach for assessing human respiration CO <sub>2</sub> emissions using radiocarbon measurements and bottom‐up data sets",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Urban Systems",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Human-CO2",
+    "keyword_assessment": {
+      "current": "Human respiration CO2 emissions (人体呼吸CO2排放)",
+      "suggested": "Human Respiration CO2 Emissions / Radiocarbon Measurement / Bottom-up Data / Urban Carbon Cycle / Beijing",
+      "reason": "The current keyword is too narrow. Expanding to include the methodology (radiocarbon measurement, bottom-up data), the broader topic (urban carbon cycle), and the study location (Beijing) provides a more comprehensive description."
+    },
+    "related_papers": [
+      "The city is breathing: Mapping urban evapotranspiration with remote sensing, artificial intelligence, and footprint modeling"
+    ],
+    "innovation_insights": [
+      "Integrate human respiration CO2 emissions into urban climate models to better understand their contribution to local heat island effects, especially during winter.",
+      "Investigate the spatiotemporal variability of human respiration CO2 emissions within urban environments using fine-scale demographic and activity data.",
+      "Develop methods to disentangle CO2 emissions from human respiration from other anthropogenic sources (e.g., traffic, heating) using advanced analytical techniques or tracer gas measurements.",
+      "Explore the potential of using radiocarbon measurements for source apportionment of CO2 in highly urbanized areas, potentially identifying the relative contributions of different emission types.",
+      "Assess how changes in urban population density, age structure, and daily activity patterns influence total human respiration CO2 emissions and their impact on the urban carbon budget."
+    ],
+    "processed_time": "2026-01-13 21:10:26"
+  },
+  "X8W3IXPU": {
+    "title": "Climate damage projections beyond annual temperature",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Tipping Points/Economic Impacts of Climate Extremes",
+    "keyword_assessment": {
+      "current": "Climate damage (气候损害)",
+      "suggested": "Climate Damage / Economic Impact / Temperature Variability / Extreme Precipitation / GDP Loss / Climate Change",
+      "reason": "The current keyword is too general. Expanding to include the specific factors analyzed (temperature variability, extreme precipitation), the outcome measured (GDP loss), and the overarching theme (climate change) provides a much clearer picture."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Develop more refined regional economic models that incorporate the non-linear impacts of temperature variability and extreme precipitation events, moving beyond simple annual temperature averages.",
+      "Investigate the cascading effects of climate-related economic damages on different sectors (e.g., agriculture, infrastructure, tourism) and their interdependencies, especially in vulnerable regions.",
+      "Explore the potential for early warning systems that can predict the economic consequences of extreme weather events based on meteorological forecasts and dose-response functions.",
+      "Quantify the uncertainties in damage projections arising from different climate model outputs, empirical relationships, and assumptions about future socioeconomic development.",
+      "Analyze the role of adaptation strategies in mitigating the economic damages caused by temperature variability and extreme precipitation events, providing insights for policy decisions."
+    ],
+    "processed_time": "2026-01-13 21:10:30"
+  },
+  "ZVF97324": {
+    "title": "Listening to stakeholders II: Adapting research products on subseasonal to seasonal heavy precipitation events by exploring options with users",
+    "archive_path": "[ARCHIVE] Applications/Early Warning Systems/Extreme Weather",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/User Engagement",
+    "keyword_assessment": {
+      "current": "社会科学，通信/决策制定，社会影响 Social Science; Communications/decision making; Societal impacts",
+      "suggested": "Social Science; Decision Making; Extreme Precipitation; Subseasonal to Seasonal (S2S); User Engagement; Stakeholder Collaboration",
+      "reason": "Current keywords are too broad and don't capture the specific hydrological focus (extreme precipitation) or the temporal scale (S2S). Keywords related to the methodology (user engagement, stakeholder collaboration) and the application (decision making) are missing. Adding 'Social Science' is good, but needs to be more specific."
+    },
+    "related_papers": [
+      "Paper 1 title",
+      "Paper 2 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Develop frameworks for co-production of hydrological forecast products with diverse stakeholder groups, moving beyond simple feedback loops.",
+      "Investigate how different communication strategies and levels of uncertainty in S2S forecasts impact decision-making in various sectors (e.g., emergency management, water resources).",
+      "Explore the potential for using AI to personalize or tailor S2S information products based on user needs and decision contexts, informed by stakeholder input.",
+      "Address the gap in understanding the effectiveness and scalability of translating research products into operational decision-support tools across different regions and institutional settings."
+    ],
+    "processed_time": "2026-01-13 21:10:54"
+  },
+  "R4TUCG4L": {
+    "title": "Higher exposure of poorer people to emerging weather whiplash in a warmer world",
+    "archive_path": "[ARCHIVE] Hazards/Compound Events/DFA",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Climate Change / Poverty / Compound Events / Extreme Weather / Global Scale",
+      "suggested": "Climate Change; Poverty; Weather Whiplash; Drought-Flood Transitions; Compound Events; Inequality; Vulnerability; Global Scale",
+      "reason": "The current keywords are good but could be more specific. 'Weather Whiplash' is a key term in the paper. Adding 'Drought-Flood Transitions', 'Inequality', and 'Vulnerability' would better reflect the paper's focus on the differential impacts on poorer populations."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 2 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Investigate the socio-hydrological mechanisms driving the disproportionate exposure of poverty-stricken populations to weather whiplash events.",
+      "Develop spatially explicit vulnerability indices that integrate climate exposure with socio-economic factors to identify high-risk regions for future weather whiplash.",
+      "Explore the potential for using AI/ML to predict areas and populations most susceptible to weather whiplash under different climate and socio-economic scenarios.",
+      "Address the limitation of global-scale analysis by downscaling findings to regional or local levels to inform targeted adaptation strategies, focusing on the gap in understanding localized impacts and adaptation needs."
+    ],
+    "processed_time": "2026-01-13 21:10:57"
+  },
+  "N75DKBD6": {
+    "title": "Transboundary cooperation in infrastructure operation generates economic and environmental co-benefits in the lancang-mekong river basin",
+    "archive_path": "[ARCHIVE] Applications/Water Resources Management/Agricultural Systems",
+    "idea_path": "[IDEA] Coupling/Human-Nature Systems/Multi-Sphere Coupling",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Transboundary Water Management; Hydropower Development; River Basin Cooperation; Economic-Environmental Co-benefits; Lancang-Mekong River Basin; Water-Energy-Food-Ecosystem Nexus; Multi-objective Optimization; Game Theory",
+      "reason": "Current keywords are missing. The suggested keywords capture the interdisciplinary nature, the specific geographic focus, the core problem (transboundary cooperation in infrastructure operation), and the key outcomes (economic and environmental co-benefits) along with the nexus approach."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 1 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Develop integrated assessment frameworks that quantify the trade-offs and synergies between economic benefits (hydropower, agriculture) and environmental impacts (fisheries, sediment transport, ecological flow) in transboundary river basins.",
+      "Explore the application of advanced game theory and multi-agent modeling to simulate negotiation processes and identify equitable benefit-sharing mechanisms among riparian countries.",
+      "Investigate the role of climate change in altering the potential for cooperation and exacerbating existing tensions in transboundary water resource management, as suggested by the finding that cooperation benefits grow with climate change.",
+      "Address the gap in understanding how to effectively implement 'energy-for-rice' or similar cross-sectoral cooperation initiatives, moving from theoretical recommendations to practical implementation strategies in complex geopolitical settings."
+    ],
+    "processed_time": "2026-01-13 21:11:01"
+  },
+  "I7BQFU9J": {
+    "title": "Investing in sustainable intensification for smallholders: Quantifying large-scale costs and benefits in uganda",
+    "archive_path": "[ARCHIVE] Applications/Agricultural Systems/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Uganda, agriculture, sustainable intensification, archetype analysis, smallholder farming, sustainability science",
+      "suggested": "Sustainable Intensification; Smallholder Farming; Agricultural Development; Cost-Benefit Analysis; Land and Water Management; Uganda; Sustainability Science; Scalability",
+      "reason": "The current keywords are good and capture the essence of the paper. Adding 'Cost-Benefit Analysis', 'Land and Water Management', and 'Scalability' would provide a more complete picture of the study's focus and implications."
+    },
+    "related_papers": [
+      "Paper 2 title"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term economic and ecological impacts of scaling up sustainable intensification practices, addressing the gap in understanding the sustained benefits and potential drawbacks beyond the initial investment.",
+      "Develop adaptive management strategies for smallholder farming systems that can respond to dynamic environmental conditions and market demands, incorporating insights from archetype analysis.",
+      "Explore the potential of digital tools and AI-driven platforms to support smallholders in adopting and managing sustainable intensification practices, particularly in data-scarce regions.",
+      "Address the limitation of cost-benefit analysis by incorporating broader societal impacts and resilience building as key metrics for evaluating sustainable intensification investments."
+    ],
+    "processed_time": "2026-01-13 21:11:05"
+  },
+  "88RU62ZG": {
+    "title": "Modelling to assess the suitability of hydrological-hydrodynamic model under the hydropower development impact in the lancang-mekong river basin",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Lancang-Mekong River Basin, Hydropower Development, Hydrological-Hydrodynamic Model, Flood Inundation",
+      "suggested": "Hydrological Modeling; Hydrodynamic Modeling; Hydropower Impact; Lancang-Mekong River Basin; Flood Inundation; Model Suitability;VIC-CaMa-Flood; Water Management; Remote Sensing Data",
+      "reason": "The current keywords are accurate but could be expanded to include the specific model used (VIC-CaMa-Flood), the broader context of water management, and the underlying data sources (implied by 'modelling'). Adding 'Model Suitability' directly reflects the research question."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 1 title",
+      "Paper 2 title"
+    ],
+    "innovation_insights": [
+      "Develop and validate hybrid hydrological-hydrodynamic models that can capture the complex interactions between upstream hydropower operations and downstream flood dynamics across different scales.",
+      "Investigate the potential of machine learning techniques to improve the accuracy and computational efficiency of hydrological-hydrodynamic models, particularly for real-time flood forecasting in data-limited transboundary basins.",
+      "Explore the application of the VIC-CaMa-Flood model or similar integrated approaches to assess the impacts of other land-use changes or climate variability on riverine ecosystems and water resource availability.",
+      "Address the limitation of site-specific or data-limited assessments by using remote sensing data and advanced modeling to provide basin-wide, consistent evaluations of infrastructure impacts, contributing to improved transboundary water governance."
+    ],
+    "processed_time": "2026-01-13 21:11:08"
+  },
+  "XUN4M479": {
+    "title": "Trade-driven model of “hydropower for rice” cooperation in the lancang-mekong river basin",
+    "archive_path": "[ARCHIVE] Applications/Water Resources Management/Transboundary Water Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Transboundary cooperation; Hydropower; Rice; Trade; Optimization model 跨界合作；水电；稻米；贸易；优化模型",
+      "suggested": "Transboundary water management; Hydropower-agriculture nexus; Trade-driven cooperation; Optimization modeling; Lancang-Mekong River Basin",
+      "reason": "Keywords are relevant but could be more specific. 'Hydropower-agriculture nexus' is more precise than just 'hydropower' and 'rice'. Adding the river basin name provides geographical context. 'Transboundary water management' is a standard and more encompassing term than just 'transboundary cooperation'."
+    },
+    "related_papers": [
+      "Hydropower versus irrigation—an analysis of global patterns"
+    ],
+    "innovation_insights": [
+      "This paper suggests a novel approach to modeling transboundary water resource conflicts by integrating economic trade mechanisms. Future research could explore the transferability of this 'hydropower for rice' trade model to other regions facing similar upstream-downstream water allocation challenges.",
+      "The study highlights the need for systematic cooperation patterns. Future work could focus on developing dynamic optimization models that account for seasonal variations in water availability and demand for both hydropower and irrigation, as well as investigating the role of international agreements and governance structures in facilitating such trade-driven cooperation."
+    ],
+    "processed_time": "2026-01-13 21:11:23"
+  },
+  "437H892M": {
+    "title": "Impacts of future changes in heavy precipitation and extreme drought on the economy over south China and indochina",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Hazards/Flood/Heavy Precipitation, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "预测在未来气候变化情景下，南中国和中南半岛的强降水事件（RX5day）将显著增加。",
+      "suggested": "Climate change impacts; Extreme precipitation; Extreme drought; Economic impacts; South China; Indochina; CMIP6",
+      "reason": "The current keyword is a one-sentence summary. Suggested keywords are more descriptive, encompassing the key elements: the phenomena studied (extreme precipitation, drought), the impacts (economic), the geographical region, the methodology/data source (CMIP6), and the driver (climate change)."
+    },
+    "related_papers": [
+      "Listening to stakeholders III: Potential users evaluate product content and design for subseasonal extreme precipitation forecasts",
+      "More heavy precipitation in world urban regions captured through a two-way subgrid land-atmosphere coupling framework in the NCAR CESM2"
+    ],
+    "innovation_insights": [
+      "This paper demonstrates a significant impact of future climate-driven extreme precipitation and drought on economic outcomes. Future research could quantify these economic impacts using more disaggregated economic sectors or regional economies and explore adaptation strategies to mitigate these negative effects.",
+      "The study utilizes CMIP6 data, which is a standard. Future work could investigate the inter-model variability and the influence of different emission scenarios on these economic impacts more rigorously, potentially employing bias-correction methods or downscaling techniques to provide more localized economic projections."
+    ],
+    "processed_time": "2026-01-13 21:11:27"
+  },
+  "95HYSNVM": {
+    "title": "Listening to stakeholders III: Potential users evaluate product content and design for subseasonal extreme precipitation forecasts",
+    "archive_path": "[ARCHIVE] Applications/Early Warning Systems, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Hazards/Flood/Heavy Precipitation",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Social Science; Communications/decision making; Societal impacts",
+      "suggested": "Subseasonal-to-seasonal (S2S) forecasts; Extreme precipitation; Stakeholder engagement; Decision making; Product design; Forecast validation; Uncertainty communication",
+      "reason": "The current keywords are too broad and focus on the social science aspect only. Suggested keywords are more specific to the hydrological/meteorological context of the paper, highlighting the S2S timescale, extreme precipitation, the collaborative development process, decision-making utility, and the critical aspect of uncertainty."
+    },
+    "related_papers": [
+      "Impacts of future changes in heavy precipitation and extreme drought on the economy over south China and indochina",
+      "More heavy precipitation in world urban regions captured through a two-way subgrid land-atmosphere coupling framework in the NCAR CESM2"
+    ],
+    "innovation_insights": [
+      "This paper highlights the limitations of traditional skill metrics for evaluating S2S forecasts tailored for decision-making. Future research should focus on developing and applying 'object-oriented' or impact-based validation methods that better capture stakeholder preferences and forecast utility for longer lead times.",
+      "The study emphasizes increased tolerance for uncertainty with longer lead times. This suggests a research avenue into developing AI-driven forecast systems that can dynamically adapt their uncertainty representation based on forecast lead time and user needs, moving beyond fixed probabilistic products."
+    ],
+    "processed_time": "2026-01-13 21:11:41"
+  },
+  "2RKJVLLP": {
+    "title": "Hydropower versus irrigation—an analysis of global patterns",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Water Resources Management",
+    "idea_path": "[IDEA] Coupling/Energy-Water Nexus, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "水电, 灌溉, 水库运营, 全球水电数据集, 食物-能源-水关系",
+      "suggested": "Hydropower-irrigation nexus; Reservoir operation; Global water resources; Food-Energy-Water (FEW) nexus; Machine learning; Water competition/complementarity",
+      "reason": "The current keywords are good and capture the essence. 'Nexus' terminology is strong. 'Machine learning' is mentioned in the abstract as a key technique, so it should be included. 'Water competition/complementarity' specifically describes the core findings about the relationship."
+    },
+    "related_papers": [
+      "Trade-driven model of “hydropower for rice” cooperation in the Lancang-Mekong River Basin"
+    ],
+    "innovation_insights": [
+      "This paper quantifies the global competition and complementarity between hydropower and irrigation, a critical component of the Food-Energy-Water (FEW) nexus. Future research could expand this analysis by incorporating the impacts of climate change and varying precipitation patterns on these relationships, as well as exploring optimized operational strategies for reservoirs under different future scenarios.",
+      "The study uses machine learning and multi-source datasets for global assessment. Future work could delve into developing more sophisticated, physics-informed machine learning models that can better represent the underlying hydrological and energetic processes governing reservoir operations for dual purposes, potentially improving predictions of water availability and hydropower generation."
+    ],
+    "processed_time": "2026-01-13 21:11:45"
+  },
+  "ZG4G5RPR": {
+    "title": "More heavy precipitation in world urban regions captured through a two‐way subgrid land‐atmosphere coupling framework in the NCAR CESM2",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Hazards/Flood/Heavy Precipitation",
+    "idea_path": "[IDEA] Coupling/Land-Atmosphere Coupling, [IDEA] Dynamics/Abrupt Transitions/Phase Change",
+    "keyword_assessment": {
+      "current": "双向子网格耦合，城市热岛效应，强降水，轻降水，气候模型，NCAR CESM2",
+      "suggested": "Urban precipitation; Land-atmosphere coupling; Urban Heat Island (UHI); Subgrid parameterization; CESM2; Heavy precipitation; Light precipitation; Urban-Rural contrast",
+      "reason": "The current keywords are very good and capture the core concepts. Adding 'Urban-Rural contrast' and 'Subgrid parameterization' would enhance specificity. Explicitly mentioning 'Urban Heat Island (UHI)' as an acronym is also helpful."
+    },
+    "related_papers": [
+      "Impacts of future changes in heavy precipitation and extreme drought on the economy over south China and indochina",
+      "Listening to stakeholders III: Potential users evaluate product content and design for subseasonal extreme precipitation forecasts"
+    ],
+    "innovation_insights": [
+      "This paper introduces a novel two-way subgrid land-atmosphere coupling framework that resolves urban-rural differences in precipitation. Future research could extend this framework to investigate the impact of other urban land surface characteristics (e.g., albedo, surface roughness) on precipitation and explore how urbanization-induced changes in precipitation patterns might affect urban hydrological extremes like flash floods.",
+      "The findings suggest that UHI enhances heavy precipitation but suppresses light precipitation in urban areas. This implies a complex, non-linear interaction between land use, atmospheric dynamics, and precipitation regimes. Future work could explore the potential for 'tipping points' in urban precipitation response, where small changes in urban land cover or UHI intensity lead to disproportionately large shifts in precipitation patterns, potentially requiring new modeling approaches."
+    ],
+    "processed_time": "2026-01-13 21:11:50"
+  },
+  "FE7SCPKV": {
+    "title": "ET cool home: Innovative educational activities on evapotranspiration and urban heat",
+    "archive_path": "[ARCHIVE] Applications/Educational Tools/Environmental Science",
+    "idea_path": "[IDEA] Modeling/Pedagogical Approaches",
+    "keyword_assessment": {
+      "current": "该研究提出了一种将蒸腾作用（ET）与城市热量动态相结合的教育活动，融合了理论与实践设计。",
+      "suggested": "Evapotranspiration (ET), Urban Heat, Educational Activities, Applied Learning, Benchtop Experiments",
+      "reason": "The current keywords are descriptive but lack specificity and English equivalents. Suggested keywords are more precise and cover the core concepts and methodology."
+    },
+    "related_papers": [
+      "Unprivileged groups are less served by green cooling services in major European urban areas",
+      "Moderating AC usage can reduce thermal disparity between indoor and outdoor environments"
+    ],
+    "innovation_insights": [
+      "Develop interactive digital tools or simulations for ET and urban heat education, moving beyond benchtop experiments.",
+      "Explore the application of this educational approach in different geographical and climatic contexts to assess its adaptability.",
+      "Investigate how this hands-on learning experience influences students' understanding of broader environmental justice issues related to urban climate."
+    ],
+    "processed_time": "2026-01-13 21:12:33"
+  },
+  "A76E79SB": {
+    "title": "Unprivileged groups are less served by green cooling services in major european urban areas",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Urban Heat Islands",
+    "idea_path": "[IDEA] Coupling/Human-Nature Systems",
+    "keyword_assessment": {
+      "current": "中文：环境正义，热应激，绿色基础设施，城市规划，欧洲城市; 英文：Environmental justice, Heat stress, Green infrastructure, Urban planning, European cities",
+      "suggested": "Environmental Justice, Urban Heat Islands, Green Infrastructure, Vulnerable Populations, Heat Stress, European Cities, Spatial Inequality",
+      "reason": "The current keywords are good but could be enhanced by including 'Urban Heat Islands' as a specific phenomenon and 'Vulnerable Populations' and 'Spatial Inequality' to capture the core findings more comprehensively."
+    },
+    "related_papers": [
+      "ET cool home: Innovative educational activities on evapotranspiration and urban heat",
+      "Moderating AC usage can reduce thermal disparity between indoor and outdoor environments"
+    ],
+    "innovation_insights": [
+      "Investigate the efficacy of different types of green infrastructure in mitigating heat stress for various socio-economic groups.",
+      "Develop targeted urban planning strategies that explicitly address environmental justice concerns in heat mitigation efforts.",
+      "Explore the transferability of these findings to other global regions and urban contexts, considering different socio-economic and climatic conditions."
+    ],
+    "processed_time": "2026-01-13 21:12:36"
+  },
+  "CQRBWQ92": {
+    "title": "Moderating AC usage can reduce thermal disparity between indoor and outdoor environments",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Urban Heat Islands",
+    "idea_path": "[IDEA] Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "空调 (AC)",
+      "suggested": "Air Conditioning (AC), Indoor-Outdoor Thermal Disparity, Urban Heat, Energy Consumption, Thermal Equity, Climate Change Adaptation, China",
+      "reason": "The current keyword '空调 (AC)' is too narrow. The suggested keywords encompass the problem (thermal disparity), the solution (moderating AC), the impact (energy consumption, thermal equity), the context (urban heat, climate change), and the location (China)."
+    },
+    "related_papers": [
+      "ET cool home: Innovative educational activities on evapotranspiration and urban heat",
+      "Unprivileged groups are less served by green cooling services in major European urban areas"
+    ],
+    "innovation_insights": [
+      "Develop advanced hybrid models that integrate building energy models with urban climate models to better predict the coupled effects of AC usage on both indoor and outdoor thermal environments.",
+      "Quantify the 'thermal equity' implications of AC usage across different socio-economic groups within urban areas, similar to Paper 1's focus.",
+      "Explore the potential of smart grid technologies and demand-side management strategies to moderate AC usage and reduce its negative externalities on the urban heat island effect and energy systems."
+    ],
+    "processed_time": "2026-01-13 21:12:39"
+  },
+  "IA279UUW": {
+    "title": "Drought in the middle growing season inhibited carbon uptake more critical in an anthropogenic shrub ecosystem of northwest China",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Carbon Fluxes",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Large-scale ecological restoration efforts of the degraded desert steppe ecosystem in northwestern China have effectively combated desertification but have also resulted in the encroachment of shrubs. However, the function of the anthropogenic shrub ecosystem is still unknown under climate change, especially the response of carbon fluxes to drought, which hinders our further understanding of its sustainability in the future. Hence, based on the eddy covariance and environment sensors, continuous carbon and water fluxes and biophysical factors were monitored during 2019–2022 to investigate the characteristics of carbon fluxes and their response to seasonal drought in an anthropogenic shrub ecosystem dominated by Caragana liouana in the southern Mu Us sandy land, northwestern China. The results showed the shrub ecosystem was a stable carbon sink over the 4 years despite large interannual variability, with annual net ecosystem production (NEP) ranging from 54.37 to 150.35 g C⋅m−2⋅y−1. Interannual variability in NEP was mainly due to variation in gross primary productivity (GPP), which is driven by the fact that interannual variability in GPP was higher than interannual variability in ecosystem respiration (Reco). While drought inhibited GPP more than Reco, thus weakening the carbon sequestration ability of the ecosystem during the middle growing season, and thereby carbon fluxes in the shrub ecosystem were significantly suppressed by drought in the middle growing season but slightly in the early growing season. Furthermore, the magnitude and variation of carbon fluxes were determined by the maximum apparent photosynthetic capacity of the canopy (Pmax), leaf area index (LAI), and canopy conductance (gc), all of which are limited by water stress during drought. The work suggests that to keep the carbon sink of anthropogenic shrub ecosystems in arid and semi-arid areas, managers should focus on drought-relief measures in the middle growing season that are better adapted to future climate change.",
+      "suggested": "Anthropogenic Shrub Ecosystem, Carbon Fluxes, Drought Impact, Growing Season, Northwest China, Desertification Control, Carbon Sequestration, Water Stress, Eddy Covariance",
+      "reason": "The current 'keywords' are actually the abstract. The suggested keywords are concise, relevant, and cover the ecosystem type, key process (carbon flux), primary driver (drought), timing (growing season), location, context (desertification control), and methodology."
+    },
+    "related_papers": [
+      "Large potential of strengthening the land carbon sink in China through anthropogenic interventions"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term carbon sequestration potential and stability of these anthropogenic shrub ecosystems under various future climate change scenarios, including increased drought frequency and intensity.",
+      "Explore the role of soil moisture dynamics and feedback mechanisms between vegetation and soil in mediating the carbon flux response to drought in these ecosystems.",
+      "Compare the carbon sequestration efficiency and drought resilience of anthropogenic shrub ecosystems with natural ecosystems in similar arid/semi-arid regions."
+    ],
+    "processed_time": "2026-01-13 21:12:43"
+  },
+  "JLACKDJH": {
+    "title": "Large potential of strengthening the land carbon sink in China through anthropogenic interventions",
+    "archive_path": "[ARCHIVE] Applications/Climate Change Impact/Carbon Neutrality",
+    "idea_path": "[IDEA] Modeling/Dynamic Vegetation Models",
+    "keyword_assessment": {
+      "current": "The terrestrial ecosystem in China mitigates 21%-45% of the national contemporary fossil fuel CO2 emissions every year. Maintaining and strengthening the land carbon sink is essential for reaching China’s target of carbon neutrality. However, this sink is subject to large uncertainties due to the joint impacts of climate change, air pollution, and human activities. Here, we explore the potential of strengthening land carbon sink in China through anthropogenic interventions, including forestation, ozone reduction, and litter removal, taking advantage of a well-validated dynamic vegetation model and meteorological forcings from 16 climate models. Without anthropogenic interventions, considering Shared Socioeconomic Pathways (SSP) scenarios, the land sink is projected to be 0.26-0.56 Pg C a-1 at 2060, to which climate change contributes 0.06-0.13 Pg C a-1 and CO2 fertilization contributes 0.08-0.44 Pg C a-1 with the stronger effects for higher emission scenarios. With anthropogenic interventions, under a close-to-neutral emission scenario (SSP1-2.6), the land sink becomes 0.47-0.57 Pg C a-1 at 2060, including the contributions of 0.12 Pg C a-1 by conservative forestation, 0.07 Pg C a-1 by ozone pollution control, and 0.06-0.16 Pg C a-1 by 20% litter removal over planted forest. This sink can mitigate 90%-110% of the residue anthropogenic carbon emissions at 2060, providing a solid foundation for the carbon neutrality in China.",
+      "suggested": "Land Carbon Sink, China, Anthropogenic Interventions, Carbon Neutrality, Forestation, Ozone Pollution, Litter Removal, Dynamic Vegetation Model, Climate Change Mitigation, SSP Scenarios",
+      "reason": "The provided text is the abstract. The suggested keywords are more specific and capture the core elements: the subject (land carbon sink), location (China), approach (anthropogenic interventions), goal (carbon neutrality), specific interventions (forestation, ozone, litter), modeling approach (dynamic vegetation model), and context (climate change, SSP scenarios)."
+    },
+    "related_papers": [
+      "Drought in the middle growing season inhibited carbon uptake more critical in an anthropogenic shrub ecosystem of northwest China"
+    ],
+    "innovation_insights": [
+      "Investigate the synergistic and antagonistic effects of combining different anthropogenic interventions (e.g., forestation with ozone reduction) on the land carbon sink.",
+      "Refine dynamic vegetation models to better represent the complex interactions between climate, air pollution, land management, and carbon cycle processes.",
+      "Analyze the socio-economic feasibility and potential trade-offs associated with implementing large-scale anthropogenic interventions for carbon sink enhancement in China."
+    ],
+    "processed_time": "2026-01-13 21:12:47"
+  },
+  "NSP9GDFN": {
+    "title": "Coping with the concurrent heatwaves and ozone extremes in China under a warming climate",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes, [ARCHIVE] Hazards/Compound Events/DFA, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Rapid Onset Events, [IDEA] Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "中文：热浪，臭氧污染，气候变暖，人类活动，排放控制, 英文：Heatwaves, Ozone pollution, Climate warming, Human activities, Emission control",
+      "suggested": "Heatwaves, Ozone pollution, Climate warming, Human activities, Emission control, Compound events, China, Climate-chemical coupling, Extreme events",
+      "reason": "Current keywords are good but can be expanded to include 'Compound events' as the paper focuses on concurrent extremes, 'China' for geographical specificity, 'Climate-chemical coupling' to highlight the interdisciplinary nature, and 'Extreme events' for broader coverage."
+    },
+    "related_papers": [
+      "Paper 1: Air quality improvements can strengthen China’s food security",
+      "Paper 2: Temperature-dependent emissions dominate aerosol and ozone formation in los angeles"
+    ],
+    "innovation_insights": [
+      "Investigate the specific feedback mechanisms between heatwaves and ozone formation under different emission scenarios using advanced climate-chemical models.",
+      "Develop integrated early warning systems for compound heatwave-ozone events in China and other vulnerable regions, incorporating both meteorological and emission factors.",
+      "Quantify the co-benefits of emission control strategies on both climate mitigation and air quality improvement, particularly for extreme event reduction."
+    ],
+    "processed_time": "2026-01-13 21:13:10"
+  },
+  "ZD7WE9W2": {
+    "title": "Air quality improvements can strengthen China’s food security",
+    "archive_path": "[ARCHIVE] Applications/Agricultural Systems, [ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Dynamics/Drought-Flood Transitions, [IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "空气污染, 粮食安全, 作物产量, 卫星观测, 中国",
+      "suggested": "Air pollution, Ozone, Aerosols, Food security, Crop yield, Satellite observations, China, Policy implications",
+      "reason": "The current keywords are relevant but could be more specific. Adding 'Ozone' and 'Aerosols' clarifies the types of air pollution studied. 'Policy implications' highlights the practical applications of the findings."
+    },
+    "related_papers": [
+      "Paper 0: Coping with the concurrent heatwaves and ozone extremes in China under a warming climate",
+      "Paper 2: Temperature-dependent emissions dominate aerosol and ozone formation in los angeles"
+    ],
+    "innovation_insights": [
+      "Explore the direct impact of specific air pollutants (e.g., ozone vs. aerosols) on different crop types and their nutritional value, not just yield.",
+      "Integrate these findings into agricultural management practices to mitigate air pollution impacts and enhance climate resilience.",
+      "Investigate the economic implications of improved air quality for the agricultural sector and food security in China and other developing nations."
+    ],
+    "processed_time": "2026-01-13 21:13:17"
+  },
+  "ZFHJVTEW": {
+    "title": "Temperature-dependent emissions dominate aerosol and ozone formation in los angeles",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Hazards/Compound Events/DFA, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Methodology/Data Fusion",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Coupling/Energy-Water Nexus, [IDEA] Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "高温下树木反而会加剧城市空气污染, 洛杉矶, 萜类化合物, VOCs, 臭氧, PM2.5, 气候变化",
+      "suggested": "Urban air pollution, Biogenic VOCs, Temperature-dependent emissions, Ozone formation, PM2.5, Climate change, Land-atmosphere interaction, Los Angeles",
+      "reason": "The provided 'keywords' were more of a summary snippet. The suggested keywords are more standard and comprehensive, capturing the core elements of the study: biogenic VOCs, temperature dependence, pollutant formation, and the urban/climate context."
+    },
+    "related_papers": [
+      "Paper 0: Coping with the concurrent heatwaves and ozone extremes in China under a warming climate",
+      "Paper 1: Air quality improvements can strengthen China’s food security"
+    ],
+    "innovation_insights": [
+      "Develop high-resolution models to disentangle the contributions of biogenic and anthropogenic VOCs to ozone and PM2.5 formation under varying meteorological conditions.",
+      "Investigate the role of urban green infrastructure design and plant species selection in mitigating or exacerbating air pollution.",
+      "Quantify the feedback loops between increasing temperatures (due to climate change) and plant emissions, leading to enhanced air pollution in urban areas."
+    ],
+    "processed_time": "2026-01-13 21:13:22"
+  },
+  "A8QUY35L": {
+    "title": "Asymmetrical impact of daytime and nighttime warming on the interannual variation of urban spring vegetation phenology",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change, [IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Urban warming, Vegetation phenology, Daytime and nighttime warming, Remote sensing, Climate change, Northern Hemisphere cities",
+      "suggested": "Vegetation phenology, Urban heat island, Daytime warming, Nighttime warming, Asymmetrical response, Remote sensing, Climate change, Northern Hemisphere cities",
+      "reason": "The current keywords are good and cover the main aspects. 'Urban heat island' is a key concept directly related to urban warming. 'Asymmetrical response' directly reflects the paper's central finding."
+    },
+    "related_papers": [
+      "Paper 4: Nonuniform response of vegetation phenology to daytime and nighttime warming in urban areas"
+    ],
+    "innovation_insights": [
+      "Investigate the physiological mechanisms behind the asymmetrical response of vegetation phenology to daytime vs. nighttime warming, considering factors like respiration and photosynthesis.",
+      "Explore the impact of this phenological shift on urban ecosystems, including species interactions, carbon cycling, and habitat suitability.",
+      "Develop spatially explicit models that integrate remote sensing data with urban meteorological data to predict future phenological changes under different warming scenarios."
+    ],
+    "processed_time": "2026-01-13 21:13:27"
+  },
+  "NN9WUEXI": {
+    "title": "Nonuniform response of vegetation phenology to daytime and nighttime warming in urban areas",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "研究了北方地区早春叶片萌发对空气温度的影响",
+      "suggested": "Vegetation phenology, Daytime temperature, Nighttime temperature, Urban heat island, Artificial light at night (ALAN), Remote sensing, Seoul",
+      "reason": "The provided 'keywords' were a research question summary. The suggested keywords are more standard and comprehensive, highlighting the key factors investigated (daytime/nighttime temperature, ALAN), the phenomenon (phenology), the context (urban heat island), the method (remote sensing), and the location (Seoul)."
+    },
+    "related_papers": [
+      "Paper 3: Asymmetrical impact of daytime and nighttime warming on the interannual variation of urban spring vegetation phenology"
+    ],
+    "innovation_insights": [
+      "Quantify the interactive effects of urban heat island, daytime/nighttime warming, and artificial light at night (ALAN) on vegetation phenology across a wider range of cities with varying urbanization levels.",
+      "Assess the implications of these altered phenological patterns on urban biodiversity, ecosystem services (e.g., carbon sequestration), and urban climate regulation.",
+      "Utilize time-series analysis of multi-sensor remote sensing data to detect subtle, non-linear responses of vegetation phenology to these complex urban environmental drivers."
+    ],
+    "processed_time": "2026-01-13 21:13:31"
+  },
+  "RYZ6M53N": {
+    "title": "Understanding the shift in drivers of terrestrial water storage decline in the central inner mongolian steppe over the past two decades",
+    "archive_path": "[ARCHIVE] Processes/Groundwater, Methodology/Remote Sensing/Retrieval, Hazards/Drought/Flash Drought, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Data Philosophy/Multi-Source Integration, Dynamics/Rapid Onset Events, Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Terrestrial water storage, Drivers, Human interventions, GRACE (-FO) satellites, Climate change",
+      "suggested": "Terrestrial water storage, GRACE-FO, anthropogenic drivers, climate drivers, Inner Mongolia steppe, TWS decline, hydrological change",
+      "reason": "The current keywords are good but could be more specific. Adding 'anthropogenic drivers' and 'climate drivers' clarifies the contrast. 'Inner Mongolia steppe' and 'TWS decline' provide geographical and process context. 'Hydrological change' is a broader term that encapsulates the overall impact."
+    },
+    "related_papers": [
+      "Aerosol forcing regulating recent decadal change of summer water vapor budget over the tibetan plateau",
+      "Thermodynamically enhanced precipitation extremes due to counterbalancing influences of anthropogenic greenhouse gases and aerosols",
+      "Elevated aerosol enhances plant water‐use efficiency by increasing carbon uptake while reducing water loss",
+      "Are northern hemisphere boreal forest fires more sensitive to future aerosol mitigation than to greenhouse gas–driven warming?"
+    ],
+    "innovation_insights": [
+      "Investigate the detailed mechanisms and spatial heterogeneity of human interventions (e.g., irrigation, land-use change) driving TWS decline in arid/semi-arid regions.",
+      "Develop integrated modeling frameworks that combine GRACE data with high-resolution land surface models to disentangle human and climate impacts on water resources.",
+      "Explore the ecological consequences of long-term TWS decline on grassland resilience and ecosystem services in the Inner Mongolian steppe.",
+      "Assess the transferability of the findings to other vulnerable dryland regions facing similar pressures."
+    ],
+    "processed_time": "2026-01-13 21:13:48"
+  },
+  "WVJ3AVWX": {
+    "title": "Thermodynamically enhanced precipitation extremes due to counterbalancing influences of anthropogenic greenhouse gases and aerosols",
+    "archive_path": "[ARCHIVE] Hazards/Flood, Methodology/Statistical Methods, Applications/Early Warning Systems, Hazards/Heatwaves & Extremes",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change, Dynamics/Non-linearity & Complexity, Modeling/Physics-Informed AI, Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Precipitation extremes (降水极",
+      "suggested": "Precipitation extremes, anthropogenic influences, greenhouse gases, aerosols, thermodynamic effects, dynamic effects, climate change, extreme precipitation intensity",
+      "reason": "The current keyword is incomplete. The suggested keywords provide a comprehensive overview of the paper's focus on the dual influences of greenhouse gases and aerosols on precipitation extremes, highlighting both thermodynamic and dynamic aspects and their net effect."
+    },
+    "related_papers": [
+      "Aerosol forcing regulating recent decadal change of summer water vapor budget over the tibetan plateau",
+      "Elevated aerosol enhances plant water‐use efficiency by increasing carbon uptake while reducing water loss",
+      "Are northern hemisphere boreal forest fires more sensitive to future aerosol mitigation than to greenhouse gas–driven warming?",
+      "Understanding the shift in drivers of terrestrial water storage decline in the central inner mongolian steppe over the past two decades"
+    ],
+    "innovation_insights": [
+      "Quantify the threshold at which the counterbalancing effects of aerosols and greenhouse gases shift significantly, leading to abrupt changes in precipitation extremes.",
+      "Develop regional-specific attribution studies to understand the interplay of thermodynamic and dynamic factors for precipitation extremes under different emission scenarios.",
+      "Investigate the cascading impacts of altered precipitation extremes on hydrological systems, agriculture, and societal infrastructure.",
+      "Explore the potential for 'geoengineering' implications, considering how intentional aerosol management might impact precipitation patterns and extremes."
+    ],
+    "processed_time": "2026-01-13 21:13:53"
+  },
+  "KWI3BFWG": {
+    "title": "Elevated aerosol enhances plant water‐use efficiency by increasing carbon uptake while reducing water loss",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Applications/Agricultural Systems, Methodology/Statistical Methods, Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, Mechanism/Land-Atmosphere Coupling, Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "气溶胶, 光合作用, 树液流动, 树干生长, 蒸腾, 水分利用效率",
+      "suggested": "Aerosols, plant water-use efficiency (WUE), photosynthesis, transpiration, carbon uptake, stomatal regulation, diffuse radiation, land-atmosphere interaction",
+      "reason": "The current keywords are in Chinese and are a good starting point. The suggested keywords are in English, more comprehensive, and include key physiological processes and concepts like 'stomatal regulation' and 'diffuse radiation' which are central to the paper's findings, as well as the broader 'land-atmosphere interaction'."
+    },
+    "related_papers": [
+      "Aerosol forcing regulating recent decadal change of summer water vapor budget over the tibetan plateau",
+      "Thermodynamically enhanced precipitation extremes due to counterbalancing influences of anthropogenic greenhouse gases and aerosols",
+      "Are northern hemisphere boreal forest fires more sensitive to future aerosol mitigation than to greenhouse gas–driven warming?",
+      "Understanding the shift in drivers of terrestrial water storage decline in the central inner mongolian steppe over the past two decades"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term, ecosystem-level impacts of aerosol-induced changes in WUE on forest productivity and carbon sequestration, particularly under varying climate conditions.",
+      "Develop parameterizations for land surface models that explicitly account for the distinct physiological responses of plants to direct and diffuse radiation under aerosol pollution.",
+      "Explore the role of stomatal closure and its impact on both carbon uptake and water loss under different aerosol loading scenarios and humidity levels.",
+      "Examine the potential for aerosol mitigation strategies to influence regional hydrology through changes in vegetation water use, beyond direct impacts on precipitation."
+    ],
+    "processed_time": "2026-01-13 21:14:00"
+  },
+  "XMHETPW7": {
+    "title": "Are northern hemisphere boreal forest fires more sensitive to future aerosol mitigation than to greenhouse gas–driven warming?",
+    "archive_path": "[ARCHIVE] Hazards/Flood, Hazards/Compound Events/DFA, Methodology/Deep Learning (LSTM_CNN), Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Tipping Points, Mechanism/Feedback Loops & Cascades, Modeling/Physics-Informed AI, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "气溶胶减排，温室气体，北半球，针叶林，火灾活动，气候变化",
+      "suggested": "Boreal forest fires, aerosol mitigation, greenhouse gas warming, climate change, fire sensitivity, soil moisture dynamics, albedo effect",
+      "reason": "The current keywords are relevant but could be more concise and encompassing. 'Boreal forest fires' specifies the ecosystem, 'aerosol mitigation' and 'greenhouse gas warming' highlight the key forcings, and 'fire sensitivity' captures the core question. Including 'soil moisture dynamics' and 'albedo effect' hints at the underlying mechanisms discussed."
+    },
+    "related_papers": [
+      "Aerosol forcing regulating recent decadal change of summer water vapor budget over the tibetan plateau",
+      "Thermodynamically enhanced precipitation extremes due to counterbalancing influences of anthropogenic greenhouse gases and aerosols",
+      "Elevated aerosol enhances plant water‐use efficiency by increasing carbon uptake while reducing water loss",
+      "Understanding the shift in drivers of terrestrial water storage decline in the central inner mongolian steppe over the past two decades"
+    ],
+    "innovation_insights": [
+      "Develop high-resolution fire models that can better integrate the complex feedback loops between aerosols, vegetation physiology, soil moisture, and fire behavior.",
+      "Investigate the potential for tipping points in boreal forest fire regimes, where aerosol mitigation could trigger disproportionately large increases in fire activity.",
+      "Explore the synergistic or antagonistic effects of simultaneous aerosol mitigation and greenhouse gas warming on fire risk across different boreal forest ecosystems.",
+      "Assess the socio-economic implications of increased boreal forest fires due to aerosol mitigation, including impacts on carbon emissions, air quality, and ecosystem services."
+    ],
+    "processed_time": "2026-01-13 21:14:06"
+  },
+  "TCUDSJYM": {
+    "title": "Aerosol forcing regulating recent decadal change of summer water vapor budget over the tibetan plateau",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Processes/Evapotranspiration (ET), Hazards/Drought/Flash Drought, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity, Data Philosophy/Scale Issues (Spatial_Temporal), Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "气溶胶强迫",
+      "suggested": "Aerosol forcing, Tibetan Plateau, summer water vapor budget, decadal variability, atmospheric circulation, Rossby waves, moisture transport, regional climate",
+      "reason": "The current keyword is too broad. The suggested keywords specify the geographical region (Tibetan Plateau), the key variable (summer water vapor budget), the temporal scale (decadal variability), and hint at the mechanisms (atmospheric circulation, moisture transport) explored in the paper."
+    },
+    "related_papers": [
+      "Thermodynamically enhanced precipitation extremes due to counterbalancing influences of anthropogenic greenhouse gases and aerosols",
+      "Elevated aerosol enhances plant water‐use efficiency by increasing carbon uptake while reducing water loss",
+      "Are northern hemisphere boreal forest fires more sensitive to future aerosol mitigation than to greenhouse gas–driven warming?",
+      "Understanding the shift in drivers of terrestrial water storage decline in the central inner mongolian steppe over the past two decades"
+    ],
+    "innovation_insights": [
+      "Investigate the detailed regional teleconnections and atmospheric wave dynamics through which aerosol forcing impacts moisture transport over the Tibetan Plateau.",
+      "Develop advanced statistical or machine learning models to disentangle the contributions of greenhouse gases, aerosols, natural variability, and internal climate modes to the observed changes in the plateau's water vapor budget.",
+      "Assess the implications of altered water vapor budgets for regional precipitation patterns, cryosphere stability, and downstream water availability.",
+      "Explore how the spatial heterogeneity of aerosol forcing across Eurasia influences the specific pathways and magnitudes of water vapor transport relevant to the Tibetan Plateau."
+    ],
+    "processed_time": "2026-01-13 21:14:10"
+  },
+  "AHT2V3PB": {
+    "title": "Anthropogenic aerosols weaken land–atmosphere coupling over north China",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Methodology/Deep Learning (LSTM_CNN), Processes/Runoff & Streamflow, Processes/Soil Moisture",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity, Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "None provided",
+      "suggested": "Land-atmosphere coupling, Aerosols, Air pollution, WRF model, North China, Water-energy exchange",
+      "reason": "The current keywords are not provided. Suggested keywords cover the main components of the paper: the topic (land-atmosphere coupling, aerosols), the tool (WRF model), the region (North China), and the affected process (water-energy exchange)."
+    },
+    "related_papers": [
+      "Paper 1 title",
+      "Paper 2 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Investigate the specific mechanisms through which anthropogenic aerosols weaken land-atmosphere coupling, potentially using more detailed process-based models or targeted observational studies.",
+      "Quantify the impact of this weakened coupling on regional hydrological extremes (e.g., flash droughts, floods) and water resource availability in North China.",
+      "Explore the spatial and temporal variability of aerosol impacts on land-atmosphere coupling across different regions and seasons.",
+      "Develop methods to disentangle the effects of aerosols from other drivers of land-atmosphere coupling changes, such as land-use change or climate change."
+    ],
+    "processed_time": "2026-01-13 21:14:26"
+  },
+  "ZYSPU8WR": {
+    "title": "Future slower reduction of anthropogenic aerosols enhances extratropical ocean surface warming trends",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Processes/Soil Moisture, Hazards/Drought/Flash Drought, Methodology/Deep Learning (LSTM_CNN), Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Abrupt Transitions/Phase Change, Coupling/Energy-Water Nexus, Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Anthropogenic aerosols, Surface warming, Atlantic meridional overturning circulation, Low-cloud feedback, Oceanic dynamical adjustment",
+      "suggested": "Anthropogenic aerosols, Aerosol reduction slowdown, Ocean warming, Extratropical regions, Atlantic Meridional Overturning Circulation (AMOC), Low-cloud feedback, Oceanic dynamics",
+      "reason": "Current keywords are good but could be more descriptive. 'Surface warming' is broad; specifying 'Extratropical ocean surface warming' is better. Including 'Aerosol reduction slowdown' captures a key aspect of the research. Explicitly mentioning AMOC and low-cloud feedback highlights critical mechanisms."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 2 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term implications of slower aerosol reduction on global precipitation patterns and the hydrological cycle, considering potential feedback mechanisms.",
+      "Explore how changes in AMOC driven by aerosol forcing might interact with other climate system components, such as ocean heat uptake and carbon cycle.",
+      "Develop improved climate models that can more accurately represent the complex interactions between aerosols, ocean circulation, and cloud feedbacks.",
+      "Assess the potential for unintended consequences of aerosol reduction policies on regional climate and extreme events."
+    ],
+    "processed_time": "2026-01-13 21:14:30"
+  },
+  "C3I5QXQ3": {
+    "title": "Uncertainty in aerosol optical depth from modern aerosol‐climate models, reanalyses, and satellite products",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion, Methodology/Triple Collocation/Uncertainty, Methodology/Remote Sensing/Retrieval, Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Data Philosophy/Multi-Source Integration, Data Philosophy/Data Quality & Validation, Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Aerosol Optical Depth (τ), Aerosol-climate models, Uncertainty, Reanalysis, Satellite products",
+      "suggested": "Aerosol Optical Depth (AOD), Uncertainty assessment, Aerosol-climate models, Reanalysis data, Satellite retrieval, Data intercomparison, CMIP6, AeroCom",
+      "reason": "Current keywords are accurate. 'Aerosol Optical Depth (τ)' is standard, but 'Aerosol Optical Depth (AOD)' is also widely used and could be included. Adding 'Data intercomparison', 'CMIP6', and 'AeroCom' provides context for the datasets used and highlights the comparative nature of the study."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 1 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Develop advanced data fusion techniques to create more accurate and reliable global AOD products by optimally combining information from satellite, model, and reanalysis data, while accounting for their respective uncertainties.",
+      "Investigate the impact of AOD uncertainty on downstream hydrological and climate applications, such as ET estimation, drought monitoring, and climate change projections.",
+      "Propose standardized protocols for evaluating and validating AOD datasets from different sources to improve consistency and comparability.",
+      "Explore the use of machine learning or deep learning approaches for AOD retrieval or bias correction, leveraging the insights gained from this intercomparison."
+    ],
+    "processed_time": "2026-01-13 21:14:35"
+  },
+  "2E3NZPA3": {
+    "title": "Contributions of anthropogenic greenhouse gases and aerosol emissions to changes in summer precipitation over southern China",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Processes/Runoff & Streamflow, Processes/Soil Moisture, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Coupling/Vegetation-Water Interaction, Dynamics/Non-linearity & Complexity, Dynamics/Drought-Flood Transitions",
+    "keyword_assessment": {
+      "current": "Greenhouse Gases, Aerosol Emissions, Summer Precipitation, Southern China, CMIP6 Models",
+      "suggested": "Greenhouse gases, Aerosol emissions, Summer precipitation, Southern China, Regional climate change, Land-atmosphere interactions, Drought trends, Wetting trends, CMIP6 models",
+      "reason": "Current keywords are good and capture the core elements. 'Regional climate change' and 'Land-atmosphere interactions' could be added to emphasize the focus on regional impacts and underlying physical processes. 'Drought trends' and 'Wetting trends' better describe the observed precipitation changes."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 1 title",
+      "Paper 2 title"
+    ],
+    "innovation_insights": [
+      "Investigate the compound effects of GHG and aerosols on other hydro-climatic variables in Southern China, such as temperature, ET, and soil moisture, and their implications for water resources.",
+      "Disentangle the relative contributions of aerosols and GHGs to specific extreme events (e.g., severe droughts or heavy rainfall) in Southern China, beyond average trends.",
+      "Apply similar attribution methodologies to other regions experiencing contrasting precipitation trends to assess the generalizability of the findings.",
+      "Explore the potential for aerosol intervention strategies (e.g., targeted emission reductions) to mitigate negative impacts of climate change on regional precipitation patterns."
+    ],
+    "processed_time": "2026-01-13 21:14:41"
+  }
+}

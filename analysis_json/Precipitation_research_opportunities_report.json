@@ -1,0 +1,223 @@
+{
+  "research_landscape": {
+    "main_themes": [
+      "Extreme precipitation analysis and trends",
+      "Hydrological impacts of extreme precipitation",
+      "Climate model evaluation for precipitation extremes",
+      "Development and evaluation of precipitation datasets",
+      "Application of AI/Deep Learning in precipitation research"
+    ],
+    "emerging_directions": [
+      "Attribution of extreme precipitation events to anthropogenic climate change",
+      "Compound extreme events (e.g., precipitation and floods, rain-on-snow)",
+      "Eco-hydrological impacts of extreme precipitation",
+      "Improving physical understanding of precipitation extremes using advanced modeling and data",
+      "Explainable AI for precipitation prediction and analysis"
+    ],
+    "common_methodologies": [
+      "Statistical analysis (frequency analysis, trend analysis)",
+      "Climate model simulations (CMIP5, CMIP6)",
+      "Gridded precipitation datasets (observational, reanalysis, satellite-based)",
+      "Machine Learning/Deep Learning (LSTM, CNN, U-Net)",
+      "Data fusion and bias correction techniques",
+      "Hydrological modeling"
+    ]
+  },
+  "cross_paper_opportunities": [
+    {
+      "title": "Advancing Extreme Precipitation Prediction with Hybrid Physics-Informed Deep Learning",
+      "related_papers": [
+        "Intercomparison of deep learning architectures for the prediction of precipitation fields with a focus on extremes",
+        "Improving subseasonal‐to‐seasonal prediction of summer extreme precipitation over southern China based on a deep learning method",
+        "Can Near-Real-Time Satellite Precipitation Products Capture Rainstorms and Guide Flood Warning for the 2016 Summer in South China?",
+        "Improving explainability of deep learning for polarimetric radar rainfall estimation",
+        "A new method to improve precipitation estimates by blending multiple satellite/reanalysis-based precipitation products and considering observations and terrestrial water budget balance",
+        "Modeling/Hybrid Modeling (Process+ML)",
+        "Modeling/Physics-Informed AI",
+        "Modeling/Deep Learning (LSTM_CNN)"
+      ],
+      "rationale": "There is a significant and growing interest in applying deep learning to precipitation prediction and estimation. However, many current DL models lack physical interpretability and can struggle with capturing extreme events accurately. Integrating physical principles (e.g., thermodynamic constraints, hydrological processes) into DL architectures can lead to more robust, explainable, and physically consistent predictions of extreme precipitation.",
+      "research_questions": [
+        "How can physical laws or process-based model outputs be effectively integrated into DL architectures to improve the prediction of extreme precipitation intensity and frequency?",
+        "What are the most effective ways to incorporate data fusion techniques for multi-source precipitation data into hybrid DL models for enhanced spatial-temporal resolution and accuracy?",
+        "How can explainable AI (XAI) be used to validate the physical plausibility of hybrid DL model predictions for extreme precipitation events?",
+        "Can physics-informed DL models better capture the tail of the precipitation distribution, crucial for extreme event forecasting?"
+      ],
+      "methodologies": [
+        "Hybrid deep learning (e.g., Physics-Informed Neural Networks - PINNs, hybrid CNN-LSTM with physical constraints)",
+        "Multi-source data fusion (gauge, radar, satellite, reanalysis)",
+        "Explainable AI (XAI) techniques (e.g., SHAP, LIME)",
+        "Downscaling methods"
+      ]
+    },
+    {
+      "title": "Understanding and Projecting Precipitation Extremes under Nonstationary Conditions Using Integrated Data and Models",
+      "related_papers": [
+        "Nonstationary frequency analysis of extreme precipitation: Embracing trends in observations",
+        "Constraining extreme precipitation projections using past precipitation variability",
+        "How Credibly Do CMIP6 Simulations Capture Historical Mean and Extreme Precipitation Changes?",
+        "Comparative analysis of extreme precipitation simulations over China by CMIP6 and CMIP5 models: Similarities, differences, and uncertainty assessment",
+        "Intensified response of extreme precipitation to rising temperature over the tibetan plateau from CMIP6 multi-model ensembles",
+        "An upgraded high-precision gridded precipitation dataset for the Chinese mainland considering spatial autocorrelation and covariates",
+        "HRLT: A high-resolution (1 d, 1 km) and long-term (1961–2019) gridded dataset for surface temperature and precipitation across China",
+        "Methodology/Statistical Methods/Unclassified",
+        "Methodology/Statistical Methods",
+        "Data Philosophy/Scale Issues (Spatial_Temporal)"
+      ],
+      "rationale": "Future precipitation extremes are highly uncertain due to climate change leading to nonstationary conditions. This opportunity focuses on integrating advanced statistical methods for nonstationary analysis with robust precipitation datasets and critically evaluated climate model outputs to better understand and project future extreme precipitation trends and their drivers.",
+      "research_questions": [
+        "How do different methods for nonstationary frequency analysis perform when applied to various high-resolution precipitation datasets (e.g., HRLT, gridded data)?",
+        "What is the added value of using multi-source fused precipitation data in nonstationary analysis compared to single-source data?",
+        "How can past precipitation variability and observed nonstationarity be used to constrain projections from CMIP6 models, particularly for extreme events?",
+        "What are the key uncertainties in CMIP6 simulations of historical and future nonstationary extreme precipitation, and how can they be reduced?"
+      ],
+      "methodologies": [
+        "Advanced nonstationary frequency analysis (e.g., incorporating multiple trend components)",
+        "Data fusion and homogenization of precipitation datasets",
+        "Bias correction and intercomparison of climate model outputs (CMIP6)",
+        "Statistical downscaling",
+        "Uncertainty quantification"
+      ]
+    },
+    {
+      "title": "Quantifying the Role of Moisture Transport and Thermodynamic Drivers in Extreme Precipitation Events",
+      "related_papers": [
+        "Human enhanced moisture transport exacerbated the extreme precipitation in northern China",
+        "Thermodynamically inconsistent extreme precipitation sensitivities across continents driven by cloud-radiative effects",
+        "The role of regional water vapor dynamics in creating precipitation extremes",
+        "Human enhanced moisture transport exacerbated the extreme precipitation in northern China",
+        "Are dependencies of extreme rainfall on humidity more reliable in convection-permitting climate models?",
+        "Thermodynamically inconsistent extreme precipitation sensitivities across continents driven by cloud-radiative effects",
+        "The potential of absorbing aerosols to enhance extreme precipitation",
+        "Methodology/Statistical Methods/Information Theory"
+      ],
+      "rationale": "Understanding the fundamental physical mechanisms driving extreme precipitation is crucial. This opportunity aims to bridge studies on moisture transport, thermodynamic drivers, and cloud processes to provide a more holistic understanding of why and how extreme precipitation events occur and intensify, particularly at continental and regional scales.",
+      "research_questions": [
+        "What are the dominant pathways of moisture transport contributing to extreme precipitation events in different regions, and how do these pathways interact with local thermodynamic conditions?",
+        "How do cloud-radiative effects and aerosol interactions modulate the thermodynamic sensitivities of extreme precipitation across continents?",
+        "To what extent can convection-permitting models capture the complex interactions between moisture transport, thermodynamics, and precipitation extremes?",
+        "Can we develop new metrics or indices to quantify the contributions of specific moisture transport patterns and thermodynamic states to extreme precipitation events?"
+      ],
+      "methodologies": [
+        "Lagrangian moisture transport analysis",
+        "Thermodynamic analysis (e.g., Clausius-Clapeyron scaling, CAPE, LCL)",
+        "Convection-permitting climate model simulations",
+        "Analysis of reanalysis data and satellite observations",
+        "Information theory metrics"
+      ]
+    },
+    {
+      "title": "Investigating Eco-hydrological Feedbacks of Extreme Precipitation and Associated Changes in Wetlands",
+      "related_papers": [
+        "Extreme precipitation events trigger abrupt vegetation succession in emerging coastal wetlands",
+        "Plant responses to changing rainfall frequency and intensity",
+        "Quantifying the feedback loops between vegetation changes (e.g., altered albedo, evapotranspiration) and local climate/hydrology in response to extreme events.",
+        "Dynamics/Tipping Points, Dynamics/Non-linearity & Complexity, Dynamics/Abrupt Transitions/Phase Change",
+        "Mechanism/Threshold Behavior, Dynamics/Non-linearity & Complexity",
+        "Processes/Evapotranspiration (ET)"
+      ],
+      "rationale": "Extreme precipitation events can have significant and complex impacts on ecosystems, particularly wetlands, leading to abrupt changes and feedback loops. This research area combines hydrology, ecology, and climate change to understand these interactions and their implications for ecosystem resilience and services.",
+      "research_questions": [
+        "What are the specific thresholds of extreme precipitation frequency and intensity that trigger abrupt vegetation succession or shifts in wetland ecosystems?",
+        "How do changes in vegetation cover (due to extreme events) feedback on local hydrology, evapotranspiration, and microclimate?",
+        "What is the role of flash droughts following extreme precipitation events in driving wetland dynamics?",
+        "How do coastal wetlands respond to the combined stresses of extreme precipitation and sea-level rise, and what are the implications for ecosystem services?"
+      ],
+      "methodologies": [
+        "Ecological field surveys and remote sensing (e.g., for vegetation mapping)",
+        "Hydrological modeling with coupled ecological modules",
+        "Statistical analysis of long-term ecological and climate data",
+        "AI for identifying ecological tipping points and feedback loops",
+        "Process-based ecosystem models"
+      ]
+    },
+    {
+      "title": "Benchmarking and Improving Gridded Precipitation Datasets for Hydrological Applications",
+      "related_papers": [
+        "Frequency analysis of extreme rainfall over the japanese archipelago by leveraging gauge-adjusted radar and satellite estimates",
+        "Evaluating the performance of global precipitation products for precipitation and extreme precipitation in arid and semiarid China",
+        "Evaluation of daily precipitation extremes in reanalysis and gridded observation‐based data sets over germany",
+        "An upgraded high-precision gridded precipitation dataset for the Chinese mainland considering spatial autocorrelation and covariates",
+        "GMCP: A fully global multi-source merging-and-calibration precipitation dataset (1-hourly, 0.1°, global, 2000–present)",
+        "Rainfall Estimates on a Gridded Network (REGEN) – a global land-based gridded dataset of daily precipitation from 1950 to 2016",
+        "A downscaling-calibrating framework for generating gridded daily precipitation estimates with a high spatial resolution",
+        "A new method to improve precipitation estimates by blending multiple satellite/reanalysis-based precipitation products and considering observations and terrestrial water budget balance",
+        "An integration of gauge, satellite, and reanalysis precipitation datasets for the largest river basin of the tibetan plateau",
+        "HRLT: A high-resolution (1 d, 1 km) and long-term (1961–2019) gridded dataset for surface temperature and precipitation across China",
+        "HRLT: A high-resolution (1 day, 1 km) and long-term (1961–2019) gridded dataset for temperature and precipitation across China",
+        "A new daily gridded precipitation dataset for the Chinese mainland based on gauge observations",
+        "Methodology/Triple Collocation/Data Validation",
+        "Data Philosophy/Data Quality & Validation/Multi-Source Integration"
+      ],
+      "rationale": "High-quality, high-resolution precipitation datasets are fundamental for hydrological research, particularly for studying extremes. This opportunity focuses on evaluating, improving, and fusing existing datasets, as well as developing new ones, to enhance their accuracy and utility for hydrological applications across various spatial and temporal scales.",
+      "research_questions": [
+        "What are the strengths and weaknesses of various global and regional gridded precipitation datasets (e.g., GMCP, REGEN, HRLT) in capturing extreme precipitation events?",
+        "How can triple collocation and other validation techniques be systematically applied to assess the uncertainty across different precipitation datasets?",
+        "What are the optimal strategies for fusing multiple precipitation sources (gauge, satellite, reanalysis) to create enhanced datasets for specific regions or applications?",
+        "How can advanced statistical methods and machine learning improve the spatial-temporal resolution and accuracy of gridded precipitation estimates, especially in data-sparse areas?"
+      ],
+      "methodologies": [
+        "Multi-source data fusion and merging",
+        "Triple collocation and other intercomparison/validation methods",
+        "Statistical downscaling and bias correction",
+        "Development of new gridded precipitation products",
+        "Machine learning for data assimilation and quality control"
+      ]
+    }
+  ],
+  "research_gaps": [
+    "Lack of comprehensive physical understanding of the compound effects of multiple drivers (e.g., GHGs, aerosols, land-use change, moisture transport) on extreme precipitation intensification.",
+    "Limited availability of long-term, high-resolution, and consistently validated precipitation datasets, especially for complex terrains and data-scarce regions.",
+    "Deficiencies in the representation of extreme precipitation events in current climate models, leading to uncertainties in future projections.",
+    "Insufficient research on the direct and indirect eco-hydrological impacts of extreme precipitation, including feedback mechanisms and ecosystem resilience.",
+    "Challenges in developing robust and universally applicable nonstationary frequency analysis methods that account for complex temporal and spatial dependencies.",
+    "Gaps in understanding the transferability and generalizability of deep learning models for precipitation prediction across different climatic zones and event types.",
+    "Limited interdisciplinary research bridging atmospheric science, hydrology, ecology, and social sciences to address the full spectrum of extreme precipitation risks and impacts."
+  ],
+  "future_directions": [
+    "Develop and apply advanced hybrid modeling approaches that couple physical process-based models with deep learning for more accurate and interpretable extreme precipitation prediction and attribution.",
+    "Create new, globally consistent, high-resolution precipitation datasets by rigorously fusing multi-source observations and leveraging AI for improved quality control and gap-filling.",
+    "Conduct targeted attribution studies using ensemble climate model simulations and sophisticated statistical methods to quantify the contribution of anthropogenic climate change to specific extreme precipitation events.",
+    "Investigate the cascading impacts of extreme precipitation on terrestrial and aquatic ecosystems, focusing on threshold behaviors, feedback loops, and tipping points.",
+    "Advance the understanding of compound and cascading extreme events (e.g., flash droughts following extreme rainfall, heavy precipitation on snowpack) through integrated modeling and observational analysis.",
+    "Improve the representation of microphysical processes and land-atmosphere interactions within convection-permitting models to enhance their skill in simulating extreme precipitation.",
+    "Explore the application of novel statistical and AI techniques for more robust nonstationary frequency analysis and extreme value theory under rapidly changing climate conditions."
+  ],
+  "keyword_trends": {
+    "common_keywords": [
+      "extreme precipitation",
+      "climate change",
+      "CMIP6",
+      "deep learning",
+      "gridded precipitation",
+      "trend analysis",
+      "hydrology",
+      "rainfall",
+      "data fusion",
+      "bias correction"
+    ],
+    "emerging_keywords": [
+      "flash drought",
+      "compound events",
+      "attribution",
+      "physics-informed AI",
+      "nonstationary",
+      "convection-permitting models",
+      "eco-hydrology",
+      "vegetation succession",
+      "aerosols",
+      "cloud radiative effects"
+    ],
+    "promising_combinations": [
+      "extreme precipitation AND deep learning AND attribution",
+      "nonstationary AND extreme precipitation AND frequency analysis",
+      "compound events AND extreme precipitation AND hydrology",
+      "physics-informed AI AND extreme precipitation AND prediction",
+      "eco-hydrology AND extreme precipitation AND wetlands",
+      "CMIP6 AND extreme precipitation AND nonstationary",
+      "gridded precipitation AND data fusion AND extreme events",
+      "moisture transport AND extreme precipitation AND thermodynamic drivers",
+      "flash drought AND extreme precipitation AND eco-hydrology"
+    ]
+  }
+}

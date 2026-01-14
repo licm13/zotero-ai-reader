@@ -1,0 +1,493 @@
+{
+  "DJ8MWSEC": {
+    "title": "A consensus estimate for the ice thickness distribution of all glaciers on Earth",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Glacier Mass Balance; Methodology/Ensemble Modeling; Applications/Sea Level Rise",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration; Modeling/Ensemble Methods; Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Glacier Ice Thickness / Ensemble Modeling / Global Scale / Bedrock Topography / Sea Level Rise",
+      "suggested": "Glacier Ice Thickness / Ensemble Modeling / Global Glacier Volume / Bedrock Topography / Sea Level Rise Contribution",
+      "reason": "Current keywords are good, but 'Global Scale' could be more specific to 'Global Glacier Volume' to better reflect the output. 'Sea Level Rise' could be enhanced to 'Sea Level Rise Contribution' to highlight the direct implication."
+    },
+    "related_papers": [
+      "Response of Two Glaciers in Different Climate Settings of the Tibetan Plateau to Climate Change Through Year 2100 Using a Hybrid Modeling Approach",
+      "Ice velocity and thickness of the world’s glaciers",
+      "Cryosphere-groundwater connectivity is a missing link in the mountain water cycle"
+    ],
+    "innovation_insights": [
+      "Develop more sophisticated ensemble techniques for glacier ice thickness estimation by incorporating diverse data sources and model uncertainties.",
+      "Investigate the impact of refined ice thickness and volume estimates on regional water resource availability, particularly in High Mountain Asia, where previous estimates were found to be lower.",
+      "Explore the potential for using AI/ML to directly infer bedrock topography from surface characteristics to further improve ice thickness models.",
+      "Quantify the cascading effects of reduced ice volume on downstream hydrological systems and ecosystems, beyond just sea level rise."
+    ],
+    "processed_time": "2026-01-14 09:03:02"
+  },
+  "LKCCIUX6": {
+    "title": "Response of Two Glaciers in Different Climate Settings of the Tibetan Plateau to Climate Change Through Year 2100 Using a Hybrid Modeling Approach",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Glacier Mass Balance; Applications/Climate Change Impact/Water Resources Management; Methodology/Hybrid Modeling",
+    "idea_path": "[IDEA] Dynamics/Tipping Points; Modeling/Hybrid Modeling (Process+ML); Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Glacier Model / Climate Change Projection / Tibetan Plateau / Hydrological Impact / Maritime vs. Continental Glaciers",
+      "suggested": "Glacier Dynamics / Climate Change Projection / Tibetan Plateau / Hydrological Impact / Maritime vs. Continental Glaciers / Hybrid Modeling",
+      "reason": "Adding 'Glacier Dynamics' would better capture the focus on changes in mass, geometry, and flow. 'Hybrid Modeling' is a key methodology that should be included as a keyword."
+    },
+    "related_papers": [
+      "A consensus estimate for the ice thickness distribution of all glaciers on Earth",
+      "Ice velocity and thickness of the world’s glaciers",
+      "Cryosphere-groundwater connectivity is a missing link in the mountain water cycle"
+    ],
+    "innovation_insights": [
+      "Develop and validate hybrid glacier models that can be applied to data-scarce regions globally, not just the Tibetan Plateau.",
+      "Investigate the long-term feedbacks between glacier retreat, changes in meltwater runoff, and downstream ecosystems and human water use in different climatic settings.",
+      "Explore how different glacier types (maritime vs. continental) influence the timing and magnitude of peak water availability and potential water scarcity.",
+      "Integrate projections from these hybrid models with socio-economic models to assess the vulnerability of communities dependent on glacier meltwater."
+    ],
+    "processed_time": "2026-01-14 09:03:08"
+  },
+  "RZ3GI8WY": {
+    "title": "Ice velocity and thickness of the world’s glaciers",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Glacier Mass Balance; Methodology/Remote Sensing/Retrieval; Applications/Sea Level Rise",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty; Dynamics/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Glacier Flow Velocity / Ice Thickness / Sea-Level Rise / Remote Sensing / Glacier Volume",
+      "suggested": "Glacier Flow Velocity / Ice Thickness Estimation / Sea Level Rise Contribution / Remote Sensing / Glacier Volume",
+      "reason": "Changing 'Sea-Level Rise' to 'Sea Level Rise Contribution' is more precise. Adding 'Estimation' to 'Ice Thickness' clarifies the paper's contribution. 'Glacier Volume' is good but could be implicitly covered by the other terms."
+    },
+    "related_papers": [
+      "A consensus estimate for the ice thickness distribution of all glaciers on Earth",
+      "Response of Two Glaciers in Different Climate Settings of the Tibetan Plateau to Climate Change Through Year 2100 Using a Hybrid Modeling Approach",
+      "Cryosphere-groundwater connectivity is a missing link in the mountain water cycle"
+    ],
+    "innovation_insights": [
+      "Explore advanced remote sensing techniques to derive more accurate glacier surface velocity and elevation change data, especially in challenging polar and high-mountain environments.",
+      "Investigate the physical mechanisms that link glacier flow velocity to ice thickness and basal conditions to improve inversion models.",
+      "Use the high-resolution velocity data to identify regions of rapid ice discharge and potential instability, contributing to better sea-level rise projections.",
+      "Quantify how changes in glacier ice volume and velocity affect regional hydrology and geomorphological processes (e.g., glacial lake outburst floods)."
+    ],
+    "processed_time": "2026-01-14 09:03:13"
+  },
+  "PQCEKEPR": {
+    "title": "Constraining CMIP6 Projections of an Ice‐Free Arctic Using a Weighting Scheme",
+    "archive_path": "[ARCHIVE] Hazards/Compound Events/DFA (Drought-Flood-Atmosphere); Methodology/Statistical Methods/Weighting Schemes; Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Modeling/Ensemble Methods; Data Philosophy/Signal Purification/Uncertainty; Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Arctic Sea Ice / Climate Model Projections / CMIP6 / Weighting Scheme / Uncertainty Reduction",
+      "suggested": "Arctic Sea Ice / Climate Model Ensemble / CMIP6 / Model Weighting / Ice-Free Arctic Projection",
+      "reason": "Changing 'Projections' to 'Ensemble' emphasizes the use of multiple models. 'Uncertainty Reduction' is a result, while 'Ice-Free Arctic Projection' describes the specific prediction being constrained. 'Weighting Scheme' is good but 'Model Weighting' is slightly more direct."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Apply similar model weighting schemes, which consider model skill and independence, to other critical climate variables and regions beyond Arctic sea ice.",
+      "Investigate the physical basis for the skill and independence differences among CMIP6 models regarding Arctic sea ice, potentially leading to improved model development.",
+      "Explore the implications of earlier ice-free Arctic predictions on Arctic amplification, extreme weather events in mid-latitudes, and polar ecosystems.",
+      "Develop robust methods for assessing model independence in climate science to improve ensemble reliability."
+    ],
+    "processed_time": "2026-01-14 09:03:20"
+  },
+  "YE8PJ7XM": {
+    "title": "Cryosphere-groundwater connectivity is a missing link in the mountain water cycle",
+    "archive_path": "[ARCHIVE] Processes/Groundwater; Processes/Cryosphere (Snow & Glacier)/Glacier Mass Balance; Applications/Water Resources Management; Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades; Coupling/Energy-Water Nexus; Dynamics/Abrupt Transitions/Phase Change",
+    "keyword_assessment": {
+      "current": "冰冻圈, 地下水连通性, 山地水循环, 水资源管理, 气候变化影响",
+      "suggested": "Cryosphere-Groundwater Connectivity / Mountain Hydrology / Water Resources Management / Climate Change Impact / Recharge-Discharge Dynamics",
+      "reason": "The current keywords are in Chinese. Translating and refining them to 'Cryosphere-Groundwater Connectivity' is more standard. 'Mountain Hydrology' is a broader but relevant context. 'Recharge-Discharge Dynamics' specifically addresses the process of connectivity."
+    },
+    "related_papers": [
+      "A consensus estimate for the ice thickness distribution of all glaciers on Earth",
+      "Response of Two Glaciers in Different Climate Settings of the Tibetan Plateau to Climate Change Through Year 2100 Using a Hybrid Modeling Approach",
+      "Ice velocity and thickness of the world’s glaciers"
+    ],
+    "innovation_insights": [
+      "Develop integrated hydrological models that explicitly represent the connectivity between the cryosphere (glaciers, snow) and groundwater in mountain systems.",
+      "Quantify how glacier retreat and changes in snowpack affect groundwater recharge rates and storage, and vice versa, under various climate change scenarios.",
+      "Investigate the role of cryosphere-groundwater connectivity in regulating streamflow seasonality and baseflow, especially during dry periods or in the long term as glaciers disappear.",
+      "Assess the impact of altered cryosphere-groundwater interactions on mountain ecosystem health and the availability of water resources for human consumption and agriculture."
+    ],
+    "processed_time": "2026-01-14 09:03:26"
+  },
+  "6IQJLL8V": {
+    "title": "Abrupt permafrost thaw drives spatially heterogeneous soil moisture and carbon dioxide fluxes in upland tundra",
+    "archive_path": "Processes/Soil Moisture / Hazards/Drought/Flash Drought / Methodology/Deep Learning (LSTM_CNN) / Applications/Early Warning Systems",
+    "idea_path": "Mechanism/Abrupt Transitions/Phase Change / Modeling/Physics-Informed AI / Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "Permafrost Thaw / Soil Moisture Heterogeneity / Carbon Fluxes / Arctic Tundra / Long-Term Experiment",
+      "suggested": "Permafrost Thaw / Soil Moisture Heterogeneity / Carbon Fluxes / Arctic Tundra / Land-Atmosphere Interactions / Abrupt Changes",
+      "reason": "The current keywords are good but could be expanded to include the crucial aspects of land-atmosphere interactions and the 'abrupt' nature of the thaw highlighted in the paper's abstract and title, which points towards abrupt transitions."
+    },
+    "related_papers": [
+      "Possible negative effects of earlier thaw onset and longer thaw duration on vegetation greenness over the Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Develop predictive models using AI that can forecast the spatial patterns of soil moisture heterogeneity and resulting carbon fluxes following abrupt permafrost thaw events, potentially for early warning systems.",
+      "Investigate the role of microtopography and hydrological processes (e.g., surface water redistribution) in driving the observed soil moisture heterogeneity and its impact on carbon cycling post-thaw."
+    ],
+    "processed_time": "2026-01-14 09:03:45"
+  },
+  "5RS3SXCP": {
+    "title": "Characterizing satellite-derived freeze/thaw regimes through spatial and temporal clustering for the identification of growing season constraints on vegetation productivity",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Freeze-Thaw Cycles, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "研究表明，SMOS和SMAP衍生的冻融指标与植被生产力的空间模式相对应，揭示了冻融循环对土壤湿度、营养物和适宜土壤温度季节性可用性的限制。",
+      "suggested": "Freeze-Thaw Cycles, Vegetation Productivity, Boreal Ecosystems, Microwave Remote Sensing, SMOS, SMAP, Growing Season Constraints, Spatial Clustering, Temporal Clustering",
+      "reason": "Current keywords are in Chinese and descriptive of findings rather than key concepts. Suggested keywords are in English, cover the core methods (remote sensing, clustering), the phenomenon (freeze-thaw cycles), the application domain (vegetation productivity, boreal ecosystems), and specific data sources (SMOS, SMAP)."
+    },
+    "related_papers": [
+      "Paper 2: Retrieving freeze-thaw states using deep learning with remote sensing data in permafrost landscapes",
+      "Paper 1: No respite from permafrost-thaw impacts in the absence of a global tipping point",
+      "Paper 3: Pervasive permafrost thaw exacerbates future risk of water shortage across the tibetan plateau",
+      "Paper 4: Permafrost thawing puts the frozen carbon at risk over the tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Investigate the direct causal links between freeze-thaw regime characteristics (derived via clustering) and specific physiological constraints on vegetation productivity in boreal regions.",
+      "Explore how different spatial and temporal scales of freeze-thaw events influence vegetation response, potentially revealing thresholds for productivity limitation.",
+      "Develop more sophisticated algorithms to disentangle the influences of freeze-thaw cycles from other environmental factors (e.g., light, temperature, nutrients) on vegetation productivity using multi-source remote sensing data."
+    ],
+    "processed_time": "2026-01-14 09:04:02"
+  },
+  "LV3K3I47": {
+    "title": "No respite from permafrost-thaw impacts in the absence of a global tipping point",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Hazards/Heatwaves & Extremes, [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Tipping Points, [IDEA] Dynamics/Tipping Points, [IDEA] Mechanism/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "Permafrost thaw, climate tipping point, Arctic, greenhouse gas emissions, climate feedbacks",
+      "suggested": "Permafrost Thaw, Arctic Amplification, Climate Feedbacks, Greenhouse Gas Emissions, Tipping Points, Quasilinear Response, Cryosphere",
+      "reason": "Current keywords are good but can be expanded to include related concepts like Arctic amplification and the quasilinear response observed. Removing 'climate tipping point' as a confirmed finding and rephrasing it to indicate the *lack* of a global tipping point is important. Adding 'Cryosphere' provides a broader disciplinary context."
+    },
+    "related_papers": [
+      "Paper 2: Retrieving freeze-thaw states using deep learning with remote sensing data in permafrost landscapes",
+      "Paper 3: Pervasive permafrost thaw exacerbates future risk of water shortage across the tibetan plateau",
+      "Paper 4: Permafrost thawing puts the frozen carbon at risk over the tibetan plateau",
+      "Paper 0: Characterizing satellite-derived freeze/thaw regimes through spatial and temporal clustering for the identification of growing season constraints on vegetation productivity"
+    ],
+    "innovation_insights": [
+      "Investigate the 'quasilinear' response of permafrost to warming: is it truly linear at all scales, or are there non-linear dynamics emerging at finer scales or over shorter time periods that are masked in cumulative global responses?",
+      "Quantify the precise mechanisms and magnitudes of local and regional feedbacks from permafrost thaw (e.g., GHG emissions, hydrological changes) and how they contribute to global warming, even in the absence of a global tipping point.",
+      "Explore potential regional tipping points within the permafrost system that might not manifest as a singular global event but could still lead to abrupt changes in Arctic ecosystems and feedbacks."
+    ],
+    "processed_time": "2026-01-14 09:04:07"
+  },
+  "3BUJP3PC": {
+    "title": "Retrieving freeze-thaw states using deep learning with remote sensing data in permafrost landscapes",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI, [IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "冻融状态，永久冻土景观，Sentinel-1，后向散射，深度学习，卷积神经网络",
+      "suggested": "Freeze-Thaw State Retrieval, Permafrost Landscapes, Deep Learning, Convolutional Neural Networks (CNN), Sentinel-1, Backscatter Coefficient, Remote Sensing, Soil Moisture",
+      "reason": "Current keywords are in Chinese and focus on methods. Suggested keywords are in English, broaden the scope to 'state retrieval', include the primary application of monitoring soil moisture, and explicitly mention 'remote sensing' as a key methodology."
+    },
+    "related_papers": [
+      "Paper 0: Characterizing satellite-derived freeze/thaw regimes through spatial and temporal clustering for the identification of growing season constraints on vegetation productivity",
+      "Paper 1: No respite from permafrost-thaw impacts in the absence of a global tipping point",
+      "Paper 3: Pervasive permafrost thaw exacerbates future risk of water shortage across the tibetan plateau",
+      "Paper 4: Permafrost thawing puts the frozen carbon at risk over the tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Develop physics-informed deep learning models for freeze-thaw state retrieval that incorporate land surface physics to improve accuracy and generalization, especially in complex permafrost environments.",
+      "Investigate the transferability and adaptability of the proposed deep learning models to different permafrost regions and sensor types, addressing potential domain shift issues.",
+      "Quantify the uncertainties associated with deep learning-based freeze-thaw state retrieval and explore methods for uncertainty quantification and communication, crucial for downstream applications."
+    ],
+    "processed_time": "2026-01-14 09:04:11"
+  },
+  "GQPLXE6M": {
+    "title": "Pervasive permafrost thaw exacerbates future risk of water shortage across the tibetan plateau",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Applications/Climate Change Impact, [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions, [IDEA] Mechanism/Feedback Loops & Cascades, [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Unclassified",
+      "suggested": "Permafrost Thaw, Tibetan Plateau, Water Scarcity, Climate Change, Hydrological Impacts, Land Surface Models, CMIP6, High Emission Scenarios",
+      "reason": "No keywords were provided. The suggested keywords cover the main topic (permafrost thaw), the region (Tibetan Plateau), the primary consequence (water scarcity), the driving force (climate change), the modeling approach (land surface models, CMIP6), and the scenario context (high emission)."
+    },
+    "related_papers": [
+      "Paper 1: No respite from permafrost-thaw impacts in the absence of a global tipping point",
+      "Paper 4: Permafrost thawing puts the frozen carbon at risk over the tibetan plateau",
+      "Paper 2: Retrieving freeze-thaw states using deep learning with remote sensing data in permafrost landscapes",
+      "Paper 0: Characterizing satellite-derived freeze/thaw regimes through spatial and temporal clustering for the identification of growing season constraints on vegetation productivity"
+    ],
+    "innovation_insights": [
+      "Quantify the cascading effects of permafrost thaw on water resources beyond just scarcity, including impacts on water quality, river flow regimes, and the increased risk of extreme hydrological events (e.g., Glacial Lake Outburst Floods - GLOFs).",
+      "Investigate the spatial heterogeneity of permafrost thaw impacts on water resources across the Tibetan Plateau, identifying 'hotspots' of vulnerability and exploring localized adaptation strategies.",
+      "Refine high-resolution modeling of permafrost thaw and its hydrological consequences, explicitly incorporating feedbacks between thawing permafrost, soil moisture dynamics, and regional climate in the Tibetan Plateau."
+    ],
+    "processed_time": "2026-01-14 09:04:15"
+  },
+  "LIGAYFAA": {
+    "title": "Permafrost thawing puts the frozen carbon at risk over the tibetan plateau",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Applications/Climate Change Impact, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Permafrost Thaw / Carbon Release / Tibetan Plateau / Climate Change / Machine Learning",
+      "suggested": "Permafrost Thaw, Carbon Release, Tibetan Plateau, Soil Organic Carbon (SOC), Climate Change, Machine Learning, Carbon Cycle, Climate Feedbacks",
+      "reason": "Current keywords are accurate but can be slightly refined. Adding 'Soil Organic Carbon (SOC)' provides more specificity, and 'Carbon Cycle' and 'Climate Feedbacks' highlight the broader implications of carbon release."
+    },
+    "related_papers": [
+      "Paper 1: No respite from permafrost-thaw impacts in the absence of a global tipping point",
+      "Paper 3: Pervasive permafrost thaw exacerbates future risk of water shortage across the tibetan plateau",
+      "Paper 2: Retrieving freeze-thaw states using deep learning with remote sensing data in permafrost landscapes",
+      "Paper 0: Characterizing satellite-derived freeze/thaw regimes through spatial and temporal clustering for the identification of growing season constraints on vegetation productivity"
+    ],
+    "innovation_insights": [
+      "Investigate the uncertainties in deep permafrost carbon storage and release estimations, particularly considering the influence of deep permafrost thaw, which is often underrepresented in current models.",
+      "Develop more sophisticated machine learning or hybrid models to capture the complex, non-linear dynamics of carbon release from thawing permafrost, integrating various environmental drivers and feedbacks.",
+      "Assess the net carbon balance of the Tibetan Plateau under different climate scenarios, considering both permafrost carbon release and potential changes in land carbon uptake, to determine its future role as a carbon source or sink."
+    ],
+    "processed_time": "2026-01-14 09:04:19"
+  },
+  "K5KB2X66": {
+    "title": "Unsustainable water supply from thawing permafrost on the tibetan plateau in a changing climate",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Permafrost Thaw ; Hazards/Drought/Flash Drought ; Methodology/Hydrological Model ; Applications/Water Resources Management ; Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades ; Dynamics/Tipping Points ; Coupling/Vegetation-Water Interaction ; Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Permafrost Thaw / Tibetan Plateau / Hydrological Model / Climate Change / Water Resources",
+      "suggested": "Permafrost Thaw / Tibetan Plateau / Hydrological Modeling / Climate Change Impacts / Water Resources Sustainability / Glacier Runoff",
+      "reason": "Keywords are generally good but could be more specific about sustainability and the role of glacier runoff as it's a key output."
+    },
+    "related_papers": [
+      "A new method of diagnosing the historical and projected changes in permafrost on the tibetan plateau",
+      "QLB-NET: A dense soil moisture and freeze–thaw monitoring network in the qinghai lake basin on the qinghai–tibetan plateau",
+      "Daily landscape freeze/thaw state detection using spaceborne GNSS-R data in qinghai–tibet plateau",
+      "Irreversible glacier change and trough water for centuries after overshooting 1.5°C"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term feedback mechanisms between permafrost thaw, vegetation changes, and water availability in the Tibetan Plateau under various climate scenarios.",
+      "Develop more sophisticated hydrological models that can accurately capture the non-linear and potentially abrupt changes in water supply from thawing permafrost.",
+      "Explore the implications of permafrost thaw on water security for downstream communities and ecosystems, moving beyond just 'water resources'.",
+      "Quantify the uncertainty associated with predicting the timing and magnitude of permafrost thaw tipping points."
+    ],
+    "processed_time": "2026-01-14 09:04:40"
+  },
+  "Q345ZZYC": {
+    "title": "A new method of diagnosing the historical and projected changes in permafrost on the tibetan plateau",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Permafrost Thaw ; Methodology/Permafrost Modeling ; Climate Change Impact ; Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI ; Data Philosophy/Scale Issues (Spatial_Temporal) ; Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Permafrost Modeling / Climate Change Projection / Tibetan Plateau / Frost Number Model / Eco-hydrology",
+      "suggested": "Permafrost Modeling / Climate Change Projection / Tibetan Plateau / Frost Number Model / Eco-hydrology / Temperature-Index Model",
+      "reason": "The suggested addition of 'Temperature-Index Model' reflects the underlying principle of using air temperature to infer permafrost conditions."
+    },
+    "related_papers": [
+      "Unsustainable water supply from thawing permafrost on the tibetan plateau in a changing climate",
+      "QLB-NET: A dense soil moisture and freeze–thaw monitoring network in the qinghai lake basin on the qinghai–tibetan plateau",
+      "Daily landscape freeze/thaw state detection using spaceborne GNSS-R data in qinghai–tibet plateau"
+    ],
+    "innovation_insights": [
+      "Explore the potential of integrating AI/ML techniques with the Frost Number Model for more accurate and computationally efficient permafrost change projections.",
+      "Validate and calibrate the proposed method using high-resolution ground-based data from networks like QLB-NET.",
+      "Investigate the eco-hydrological consequences of the projected significant permafrost degradation on the Tibetan Plateau, linking it to vegetation and water availability.",
+      "Analyze the scale dependencies of permafrost thaw predictions and their implications for regional water resource management."
+    ],
+    "processed_time": "2026-01-14 09:04:45"
+  },
+  "5TREKTQB": {
+    "title": "QLB-NET: A dense soil moisture and freeze–thaw monitoring network in the qinghai lake basin on the qinghai–tibetan plateau",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture ; Processes/Cryosphere (Snow & Glacier)/Freeze-Thaw ; Methodology/Remote Sensing/Retrieval ; Data Fusion ; Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration ; Data Philosophy/Data Quality & Validation ; Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "土壤水分, 土壤温度, 冻融状态, 地面观测, 数据质量控制, 青藏高原",
+      "suggested": "Soil Moisture / Soil Temperature / Freeze-Thaw State / Ground Observations / Data Quality Control / Tibetan Plateau / Hydrological Monitoring Network",
+      "reason": "The current keywords are in Chinese and could be more universally recognized. Adding 'Hydrological Monitoring Network' captures the essence of QLB-NET."
+    },
+    "related_papers": [
+      "Unsustainable water supply from thawing permafrost on the tibetan plateau in a changing climate",
+      "A new method of diagnosing the historical and projected changes in permafrost on the tibetan plateau",
+      "Daily landscape freeze/thaw state detection using spaceborne GNSS-R data in qinghai–tibet plateau"
+    ],
+    "innovation_insights": [
+      "Utilize QLB-NET data to develop and validate AI/ML models for estimating soil moisture and freeze-thaw states at finer spatial resolutions than currently available from remote sensing.",
+      "Investigate the uncertainty propagation from ground observations to multi-scale products and explore methods for multi-source data fusion to improve spatio-temporal coverage.",
+      "Apply QLB-NET data to analyze the diurnal and seasonal dynamics of soil freeze-thaw cycles and their influence on land-atmosphere interactions.",
+      "Examine how the density and spatial distribution of monitoring networks like QLB-NET impact the accuracy of permafrost thaw predictions."
+    ],
+    "processed_time": "2026-01-14 09:04:51"
+  },
+  "RUNVRVJ9": {
+    "title": "Daily landscape freeze/thaw state detection using spaceborne GNSS-R data in qinghai–tibet plateau",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture ; Processes/Cryosphere (Snow & Glacier)/Freeze-Thaw ; Methodology/Remote Sensing/Retrieval ; Methodology/Deep Learning (LSTM_CNN) ; Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration ; Data Philosophy/Signal Purification/Uncertainty ; Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "本文使用空间GNSS-R数据高效监测青藏高原每日地表冻结-解冻状态。",
+      "suggested": "GNSS-R / CYGNSS / Freeze-Thaw Detection / Tibetan Plateau / Machine Learning / Soil Moisture / High Spatio-temporal Resolution",
+      "reason": "The current 'keyword' is a sentence. Suggested keywords are more specific, cover the methodology (GNSS-R, ML), the phenomenon (Freeze-Thaw), the location, and highlight the key advantage (high spatio-temporal resolution)."
+    },
+    "related_papers": [
+      "Unsustainable water supply from thawing permafrost on the tibetan plateau in a changing climate",
+      "A new method of diagnosing the historical and projected changes in permafrost on the tibetan plateau",
+      "QLB-NET: A dense soil moisture and freeze–thaw monitoring network in the qinghai lake basin on the qinghai–tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Explore the application of GNSS-R data for near-real-time monitoring of rapid freeze-thaw events and their potential impacts on hydrological processes.",
+      "Integrate GNSS-R derived freeze-thaw information with other remote sensing data (e.g., SMAP, optical) and ground observations (e.g., QLB-NET) to create more robust and comprehensive freeze-thaw datasets.",
+      "Develop advanced machine learning algorithms to improve the accuracy and interpretability of GNSS-R based freeze-thaw detection, potentially identifying transitional states.",
+      "Investigate the transferability of the developed GNSS-R method to other permafrost regions globally."
+    ],
+    "processed_time": "2026-01-14 09:04:56"
+  },
+  "QLNLKT96": {
+    "title": "Irreversible glacier change and trough water for centuries after overshooting 1.5°C",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Glacier Change ; Hazards/Heatwaves & Extremes ; Climate Change Impact ; Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change ; Dynamics/Tipping Points ; Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "冰川变化 (Glacier change), 温度超调 (Temperature overshoot), 不可逆性 (Irreversibility), 槽谷水 (Trough water), 冰川质量损失 (Glacier mass loss), 冰川径流 (Glacier runoff), 海平面上升 (Sea-level rise), 气候变化 (Climate change), 气候模拟 (Climate simulations).",
+      "suggested": "Glacier Change / Temperature Overshoot / Irreversibility / Trough Water / Glacier Mass Loss / Glacier Runoff / Sea-Level Rise / Climate Change Scenarios / Mountain Hydrology",
+      "reason": "The current keywords are good and comprehensive. 'Mountain Hydrology' is added to better capture the broader context of glacier runoff implications."
+    },
+    "related_papers": [
+      "Unsustainable water supply from thawing permafrost on the tibetan plateau in a changing climate"
+    ],
+    "innovation_insights": [
+      "Quantify the duration and magnitude of 'trough water' phenomena across different mountain glacier systems and its implications for regional water resource planning.",
+      "Investigate the potential for coupled human-natural system feedbacks related to glacier retreat and reduced water availability, particularly in regions with high glacier dependency.",
+      "Explore the synergistic or antagonistic effects of glacier melt and permafrost thaw on downstream hydrology under transient temperature overshoot scenarios.",
+      "Develop early warning systems for irreversible glacier changes and associated hydrological risks, considering the inertia in glacier systems."
+    ],
+    "processed_time": "2026-01-14 09:05:01"
+  },
+  "HZM2KD7Y": {
+    "title": "Glacier preservation doubled by limiting warming to 1.5°C versus 2.7°C",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Glacier Mass Balance, Hazards/Drought/Flash Drought, Methodology/Deep Learning (LSTM_CNN), Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Tipping Points, Modeling/Hybrid Modeling (Process+ML), Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "冰川 (Glaciers), 气候变化 (Climate change), 承诺物质损失 (Committed mass loss), 海平面上升 (Sea-level rise), 巴黎协定 (Paris Agreement), 气候减缓 (Climate mitigation)",
+      "suggested": "Glaciers, Climate Change, Committed Mass Loss, Sea-Level Rise, Paris Agreement, Climate Mitigation, Long-term Glacier Evolution, Climate Policy",
+      "reason": "The current keywords are good but could be more descriptive. Adding 'Long-term Glacier Evolution' and 'Climate Policy' would better reflect the paper's focus on the long-term equilibrium state and the implications of policy decisions."
+    },
+    "related_papers": [
+      "Modeling the streamflow response to heatwaves across glacierized basins in southwestern canada",
+      "A warming-induced glacier reduction causes lower streamflow in the upper tarim river basin",
+      "Ice sheet height retrievals from spire grazing angle GNSS-R"
+    ],
+    "innovation_insights": [
+      "This paper highlights the critical role of ambitious climate mitigation targets in preserving glacial mass. Future research could explore the socio-economic implications of differential glacier loss under various warming scenarios, and investigate the feasibility and effectiveness of specific mitigation strategies.",
+      "The study's focus on long-term equilibrium states suggests a gap in understanding the decadal to centennial-scale hydrological impacts of committed glacier loss. Further research could integrate these long-term projections into water resource management models, particularly for regions heavily reliant on glacial meltwater.",
+      "The paper's findings on the stark contrast between 1.5°C and 2.7°C warming underscore the need for advanced climate modeling that can accurately predict tipping points in ice mass loss. Future work could focus on refining these models and incorporating more complex feedback mechanisms.",
+      "The quantitative estimation of committed mass loss and its contribution to sea-level rise provides a strong baseline for policy-making. Future research could explore how other cryospheric components (e.g., ice sheets, permafrost) respond similarly to these warming levels and contribute to global sea-level rise."
+    ],
+    "processed_time": "2026-01-14 09:05:21"
+  },
+  "VM39FVAS": {
+    "title": "Modeling the streamflow response to heatwaves across glacierized basins in southwestern canada",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Glacier Mass Balance, Processes/Runoff & Streamflow, Hazards/Heatwaves & Extremes, Methodology/Deep Learning (LSTM_CNN), Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Rapid Onset Events, Modeling/Hybrid Modeling (Process+ML), Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "关键词：热浪、径流响应、冰川化流域、深度学习、水文模型、气候变化",
+      "suggested": "Heatwaves, Streamflow Response, Glacierized Basins, Deep Learning, Hydrological Modeling, Climate Change, Glacier Melt, Snowmelt, Seasonal Runoff",
+      "reason": "The current keywords are relevant. Adding 'Glacier Melt', 'Snowmelt', and 'Seasonal Runoff' would provide more specific details about the hydrological processes investigated in response to heatwaves."
+    },
+    "related_papers": [
+      "Glacier preservation doubled by limiting warming to 1.5°C versus 2.7°C",
+      "A warming-induced glacier reduction causes lower streamflow in the upper tarim river basin",
+      "Ice sheet height retrievals from spire grazing angle GNSS-R"
+    ],
+    "innovation_insights": [
+      "This paper highlights the buffering role of glaciers in mitigating the impacts of heatwaves on streamflow. Future research could quantify the diminishing buffering capacity as glaciers recede and explore how this transition affects water resource availability and flood/drought risks in glacier-fed basins.",
+      "The study's use of deep learning to model streamflow response to heatwaves suggests opportunities for applying similar AI techniques to other extreme weather events (e.g., droughts, heavy precipitation) in glacierized regions, potentially improving early warning systems.",
+      "Understanding the temporal dynamics of heatwave impacts (e.g., initial excess flow followed by deficit) is crucial. Future work could focus on high-resolution temporal analysis of meltwater contributions from glaciers and snowpacks during different phases of heatwaves.",
+      "The paper's findings on reduced streamflow response to spring heatwaves under increased temperatures warrant further investigation into the complex interactions between antecedent conditions, snow cover, and glacier melt timing in modulating heatwave impacts."
+    ],
+    "processed_time": "2026-01-14 09:05:26"
+  },
+  "F3YMI3HU": {
+    "title": "A warming-induced glacier reduction causes lower streamflow in the upper tarim river basin",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Glacier Mass Balance, Processes/Runoff & Streamflow, Hazards/Drought/Flash Drought, Applications/Water Resources Management, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Tipping Points, Mechanism/Abrupt Transitions/Phase Change, Modeling/Hybrid Modeling (Process+ML), Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "- 气候变化, - 河流流量, - 冰川, - SPHY模型, - 塔里木河上游",
+      "suggested": "Glacier Reduction, Streamflow, Tarim River Basin, Climate Change Scenarios, SPHY Model, CMIP6, Glacier Melt, Rainfall Runoff, Water Resource Management",
+      "reason": "The current keywords are adequate but can be made more specific. Adding 'Glacier Reduction', 'CMIP6', 'Glacier Melt', 'Rainfall Runoff', and 'Water Resource Management' would better capture the paper's contributions."
+    },
+    "related_papers": [
+      "Glacier preservation doubled by limiting warming to 1.5°C versus 2.7°C",
+      "Modeling the streamflow response to heatwaves across glacierized basins in southwestern canada",
+      "Ice sheet height retrievals from spire grazing angle GNSS-R"
+    ],
+    "innovation_insights": [
+      "This study reveals a projected future shift in the primary source of streamflow from glacial melt to rainfall in the Tarim River Basin. Future research could focus on the implications of this transition for water availability, agricultural practices, and ecosystem health, particularly during dry seasons.",
+      "The paper's use of improved SPHY models and CMIP6 data to project hydrological changes highlights the potential for refining regional hydrological models under various climate change scenarios. Future work could apply these refined models to other arid and semi-arid regions reliant on glacial melt.",
+      "The finding that increased rainfall cannot compensate for reduced glacial melt suggests a critical threshold for water security. Further research could investigate the specific rainfall patterns and intensities required to offset glacial melt losses and the associated uncertainties.",
+      "The effectiveness of climate mitigation measures in delaying glacial disappearance is noted. Future research could quantify the precise benefits of different mitigation levels on long-term water security in glacier-dependent basins and explore adaptation strategies to manage the transition away from glacial water sources."
+    ],
+    "processed_time": "2026-01-14 09:05:32"
+  },
+  "2HQJ79BR": {
+    "title": "Ice sheet height retrievals from spire grazing angle GNSS-R",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Ice Sheet Mass Balance, Methodology/Remote Sensing/Retrieval, Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Signal Purification/Uncertainty, Methodology/Modeling, Applications/Climate Change Impact",
+    "keyword_assessment": {
+      "current": "展示了GNSS-R技术在冰盖高度测量中的应用潜力：提供了一种高效、精确的冰盖高度测量方法，能够补充现有的卫星测高产品。",
+      "suggested": "GNSS-R, Ice Sheet Height, Greenland, Antarctica, Spire CubeSat, Grazing Angle, Radar Altimetry, Remote Sensing, Geodesy",
+      "reason": "The current keywords are descriptive but not in a standard keyword format. A more concise and direct set of keywords related to the technology, geographic focus, and application would be more effective for retrieval."
+    },
+    "related_papers": [
+      "Glacier preservation doubled by limiting warming to 1.5°C versus 2.7°C",
+      "A warming-induced glacier reduction causes lower streamflow in the upper tarim river basin",
+      "Does the continuous wetting of the Tibetan plateau contribute to the accelerated degradation of permafrost?"
+    ],
+    "innovation_insights": [
+      "This paper demonstrates the potential of GNSS-R for measuring ice sheet height, complementing existing satellite altimetry. Future research could focus on integrating GNSS-R data with other remote sensing products (e.g., SAR, optical imagery) for more comprehensive cryospheric monitoring.",
+      "The quantitative assessment of RMSE (1.7m) for ice sheet height retrieval is valuable. Further work could explore methods to further reduce this uncertainty, perhaps through advanced signal processing techniques or by combining data from multiple GNSS-R constellations.",
+      "The application of this technology to Greenland and Antarctica opens avenues for observing remote or under-sampled regions. Future studies could expand the temporal and spatial coverage of GNSS-R observations and validate its performance against in-situ measurements.",
+      "The use of Spire's CubeSat constellation highlights the growing role of small satellites in Earth observation. Research could investigate how constellations of smaller satellites equipped with GNSS-R can provide higher temporal resolution data for monitoring ice sheet dynamics."
+    ],
+    "processed_time": "2026-01-14 09:05:37"
+  },
+  "P9TKZJU6": {
+    "title": "Does the continuous wetting of the tibetan plateau contribute to the accelerated degradation of permafrost?",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Permafrost, Hazards/Drought/Flash Drought, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Mechanism/Feedback Loops & Cascades, Dynamics/Abrupt Transitions/Phase Change, Coupling/Multi-Sphere Coupling",
+    "keyword_assessment": {
+      "current": "Tibetan Plateau",
+      "suggested": "Permafrost Degradation, Tibetan Plateau, Humidification, Climate Change, Ground Temperature, Active Layer Thickness, Carbon Cycling, Hydrological Connectivity, Regional Climate",
+      "reason": "The current keyword 'Tibetan Plateau' is too broad. More specific keywords detailing the phenomenon (permafrost degradation, humidification) and its impacts (carbon cycling, climate) are necessary for effective indexing and retrieval."
+    },
+    "related_papers": [
+      "Ice sheet height retrievals from spire grazing angle GNSS-R"
+    ],
+    "innovation_insights": [
+      "This paper links continuous wetting on the Tibetan Plateau to permafrost degradation, suggesting a complex interplay between precipitation trends and thermal regimes. Future research could investigate the specific mechanisms by which increased moisture content affects permafrost thaw rates and stability, potentially involving changes in thermal conductivity and capacity.",
+      "The research highlights permafrost degradation's impact on carbon cycling and hydrological connectivity. Further studies could quantify the magnitude of carbon release from thawing permafrost under humidification scenarios and assess the impact on water resources and infrastructure in the region.",
+      "The paper's focus on the Tibetan Plateau as a region experiencing both warming and humidification presents an opportunity to study unique climate-permafrost-hydrology interactions. Future work could explore how these coupled processes influence regional climate feedbacks and ecosystem changes.",
+      "Given the mention of potential warming through increased thermal conductivity and cooling through enhanced thermal capacity, future research could experimentally or numerically evaluate these opposing thermal effects of wetting on permafrost dynamics under varying conditions."
+    ],
+    "processed_time": "2026-01-14 09:05:43"
+  },
+  "65HAXYLT": {
+    "title": "Permafrost degradation and concomitant hydrological changes dominated by anthropogenic greenhouse gas emissions in the northeastern tibetan plateau",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Permafrost / Hazards/Drought/Flash Drought / Methodology/Deep Learning (LSTM_CNN) / Methodology/Statistical Methods / Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Mechanism/Feedback Loops & Cascades / Dynamics/Rapid Onset Events / Data Philosophy/Signal Purification/Uncertainty / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "冻土退化，水文变化，人为温室气体排放，青藏高原，黄河源区，CMIP6，Geomorphology-Based Ecohydrological Model (GBEHM)，最佳指纹法",
+      "suggested": "Permafrost degradation, Hydrological change, Anthropogenic greenhouse gas emissions, Tibetan Plateau, Yellow River Source Region, CMIP6, Ecohydrological modeling, Attribution, Fingerprinting method",
+      "reason": "The current keywords are a mix of Chinese and English, and some are too specific or could be more broadly representative. Including 'Attribution' and 'Fingerprinting method' would better capture the methodological contribution. 'Permafrost degradation' is a key term that should be in English for broader reach."
+    },
+    "related_papers": [
+      "Impacts of permafrost degradation on streamflow in the northern Himalayas"
+    ],
+    "innovation_insights": [
+      "Investigate the non-linear impacts of permafrost degradation on hydrological processes under varying greenhouse gas scenarios.",
+      "Explore the potential for using GBEHM coupled with advanced machine learning techniques for more accurate and spatially explicit projections of hydrological changes in permafrost regions.",
+      "Quantify the indirect effects of permafrost thaw on extreme hydrological events (e.g., floods, droughts) beyond changes in mean streamflow.",
+      "Address the uncertainty in CMIP6 model outputs for driving ecohydrological models in high-altitude, permafrost-dominated regions and explore methods for uncertainty reduction or propagation."
+    ],
+    "processed_time": "2026-01-14 09:06:00"
+  },
+  "DM3CZVLA": {
+    "title": "Impacts of permafrost degradation on streamflow in the northern himalayas",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow / Processes/Groundwater / Hazards/Drought/Flash Drought / Methodology/Statistical Methods / Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change / Mechanism/Feedback Loops & Cascades / Dynamics/Drought-Flood Transitions / Data Philosophy/Signal Purification/Uncertainty / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "永久冻土退化, 水文, 径流, 地表径流, 地下水, 喜马拉雅山脉",
+      "suggested": "Permafrost degradation, Streamflow, Baseflow, Surface runoff, Groundwater, Himalayas, Water tower, Hydrological modeling, 'Fill and Overflow' mechanism, Dissolved Organic Carbon (DOC)",
+      "reason": "Current keywords are too general. Including 'Baseflow', 'Water tower', and the specific mechanism 'Fill and Overflow' would better reflect the paper's contributions. Mentioning 'DOC' is also important as it's discussed in the abstract. Using English keywords is preferred for wider accessibility."
+    },
+    "related_papers": [
+      "Permafrost degradation and concomitant hydrological changes dominated by anthropogenic greenhouse gas emissions in the northeastern tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Elucidate the contrasting impacts of permafrost degradation on baseflow and surface runoff across different permafrost regions by further developing and applying the 'fill and overflow' mechanism.",
+      "Investigate the feedback loops between permafrost thaw, changes in runoff, and dissolved organic carbon (DOC) dynamics in high-mountain river systems.",
+      "Develop advanced hydrological models that explicitly incorporate permafrost thermal regimes and their influence on water flow paths and storage, especially in data-scarce regions.",
+      "Explore the 'water tower' function of permafrost regions and how degradation affects water availability for downstream populations under changing climate conditions."
+    ],
+    "processed_time": "2026-01-14 09:06:08"
+  }
+}

@@ -1,0 +1,1119 @@
+{
+  "PXIQID82": {
+    "title": "Large streamflow differences between forested and urbanized watersheds in the eastern united states: The role of evapotranspiration and impervious surfaces",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Hazards/Flood, Methodology/Remote Sensing/Retrieval, Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, Coupling/Vegetation-Water Interaction, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Water Resources Research 是水资源领域的顶级期刊，重点关注水循环的物理、化学和生物过程及其与人类活动的相互作用。这篇文章之所以适合该期刊，主要原因如下：",
+      "suggested": "Watershed Hydrology / Urbanization Impacts / Evapotranspiration / Runoff / Flood Control / Land Use Change / Nature-Based Solutions",
+      "reason": "The current keywords are more of a journal description and missing key scientific terms. Suggested keywords better reflect the paper's focus on comparing watershed hydrology under different land covers, the role of ET, and implications for flood control and urban water management."
+    },
+    "related_papers": [
+      "Urban evapotranspiration and its effects on water budget and energy balance: Review and perspectives",
+      "A modified PML model considering anthropogenic heat to estimate urban evapotranspiration",
+      "Seasonal and interannual variability in urban neighborhood evapotranspiration and its controlling factors in a subtropical city"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term performance and scalability of 'biological drainage' as a Nature-based Solution (NbS) in urban planning for flood mitigation.",
+      "Explore the synergistic effects of maximizing vegetation ET and implementing Low-Impact Development (LID) techniques in urban watersheds.",
+      "Quantify the uncertainty associated with ET estimates in urban vs. forested catchments and its impact on hydrological model predictions."
+    ],
+    "processed_time": "2026-01-13 16:34:38"
+  },
+  "GX5Y4LXB": {
+    "title": "Inter‐basin transfers extend the benefits of water from forests to population centers across the conterminous U.S.",
+    "archive_path": "[ARCHIVE] Applications/Water Resources Management, Processes/Runoff & Streamflow, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Coupling/Human-Nature Systems, Dynamics/Drought-Flood Transitions, Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Forest Hydrology / Water Supply / Inter-Basin Transfers / Land Use Change / Hydrological Modeling",
+      "suggested": "Forest Hydrology / Water Supply / Inter-Basin Transfers / Water Resources Management / Land Use Change / Hydrological Modeling / Population Benefits",
+      "reason": "The current keywords are good but could be expanded to explicitly include 'Water Resources Management' as it's a direct application and 'Population Benefits' which is a key finding."
+    },
+    "related_papers": [
+      "Large streamflow differences between forested and urbanized watersheds in the eastern United States: The role of evapotranspiration and impervious surfaces",
+      "Urban evapotranspiration and its effects on water budget and energy balance: Review and perspectives"
+    ],
+    "innovation_insights": [
+      "Develop integrated models that explicitly account for inter-basin water transfers when assessing the impact of land use change (e.g., deforestation) on regional water supply.",
+      "Quantify the 'virtual water' contribution from forested regions to population centers via inter-basin transfers and its implications for water resource allocation.",
+      "Investigate the socio-hydrological implications of water transfers from forested catchments, including potential impacts on downstream ecosystems and upstream water security."
+    ],
+    "processed_time": "2026-01-13 16:34:43"
+  },
+  "KRSPTS3N": {
+    "title": "Urban evapotranspiration and its effects on water budget and energy balance: Review and perspectives",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Methodology/Remote Sensing/Retrieval, Applications/Urban Hydrology",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Data Philosophy/Signal Purification/Uncertainty, Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Urban ET / Eddy-covariance / Energy-water coupling / Budyko / Footprint &amp; ML关键词：urban neighborhood; evapotranspiration (ET); energy balance; Penman-Monteith ETp; footprint (FFP); vegetation coverage; random forest; water budget.",
+      "suggested": "Urban Evapotranspiration / Neighborhood Scale / Energy Balance / Eddy Covariance / Remote Sensing / Vegetation Impacts / Subtropical Climate / Machine Learning",
+      "reason": "The current keywords are good but are a mix of technical terms and a long list. The suggested keywords are more concise and categorize the main themes, including the specific scale (neighborhood) and climate (subtropical), and the application of ML."
+    },
+    "related_papers": [
+      "A modified PML model considering anthropogenic heat to estimate urban evapotranspiration",
+      "Large streamflow differences between forested and urbanized watersheds in the eastern United States: The role of evapotranspiration and impervious surfaces",
+      "Urban evapotranspiration and its effects on water budget and energy balance: Review and perspectives"
+    ],
+    "innovation_insights": [
+      "Explore the potential of integrating high-resolution remote sensing data with eddy covariance flux measurements to upscale urban ET estimates from neighborhood to city scales.",
+      "Investigate the role of urban green infrastructure (vegetation) in regulating the energy-water nexus within urban neighborhoods, particularly in response to varying water availability.",
+      "Develop advanced machine learning models that can capture the complex, non-linear relationships between meteorological factors, land cover, and ET variability at fine spatial and temporal resolutions in urban areas."
+    ],
+    "processed_time": "2026-01-13 16:34:47"
+  },
+  "8E63FV93": {
+    "title": "Seasonal and interannual variability in urban neighborhood evapotranspiration and its controlling factors in a subtropical city",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Methodology/Remote Sensing/Retrieval, Applications/Urban Hydrology",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Modeling/Hybrid Modeling (Process+ML), Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Urban evapotranspiration；Remote sensing；Anthropogenic heat flux；Land use；Tianjin。",
+      "suggested": "Urban Evapotranspiration / Physics-Based Modeling (PML) / Anthropogenic Heat Flux / Land Use Change / Remote Sensing / Model Modification / Urban Hydrology",
+      "reason": "The current keywords are relevant but could be more descriptive. Adding 'Physics-Based Modeling (PML)' clarifies the method, 'Land Use Change' specifies the aspect of land use, and 'Model Modification' highlights a key contribution of the paper."
+    },
+    "related_papers": [
+      "Urban evapotranspiration and its effects on water budget and energy balance: Review and perspectives",
+      "Seasonal and interannual variability in urban neighborhood evapotranspiration and its controlling factors in a subtropical city",
+      "Large streamflow differences between forested and urbanized watersheds in the eastern United States: The role of evapotranspiration and impervious surfaces"
+    ],
+    "innovation_insights": [
+      "Develop and validate improved urban ET models that explicitly incorporate the influence of anthropogenic heat flux (AHF) and urban land use/land cover change (LUCC) for long-term assessments.",
+      "Investigate the disentanglement of the impacts of AHF and LUCC on urban ET. For instance, how does the increase in impervious surfaces offset or amplify the effects of AHF on ET?",
+      "Utilize remote sensing data, particularly nighttime lights for AHF proxies, in conjunction with physical models to provide spatially explicit estimates of urban ET across different cities and climates."
+    ],
+    "processed_time": "2026-01-13 16:34:52"
+  },
+  "ZKMQZTEU": {
+    "title": "Urbanization alters atmospheric dryness through land evapotranspiration",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / [ARCHIVE] Hazards/Drought/Flash Drought / [ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Dynamics/Abrupt Transitions/Phase Change / [IDEA] Coupling/Land-Atmosphere Coupling / [IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "城市干岛，蒸散发，城市热岛，大气湿度，基于自然的解决方案",
+      "suggested": "Urban Heat Island, Urban Dry Island, Evapotranspiration, Land-Atmosphere Interaction, Nature-based Solutions, Climate Change Adaptation",
+      "reason": "The current keywords are in Chinese and focus on the direct phenomena. Suggested keywords are in English, broaden the scope to include the underlying mechanisms (Land-Atmosphere Interaction), related phenomena (Urban Heat Island, Urban Dry Island), and the proposed solutions and broader implications (Climate Change Adaptation, Nature-based Solutions)."
+    },
+    "related_papers": [
+      "Urbanization Impacts on Evapotranspiration Across Various Spatio‐Temporal Scales",
+      "Unequal exposure to heatwaves in los angeles: Impact of uneven green spaces",
+      "Contribution of impervious surfaces to urban evaporation"
+    ],
+    "innovation_insights": [
+      "Investigate the cascading effects of altered ET on urban water cycles and microclimates beyond just atmospheric dryness.",
+      "Develop integrated models that couple urban land surface processes (including ET from impervious surfaces) with atmospheric dynamics to better predict UDI/UWI.",
+      "Explore the scalability and effectiveness of 'nature-based solutions' for ET restoration in diverse urban typologies globally.",
+      "Quantify the role of ET in mediating the impact of global warming on urban heat island intensity."
+    ],
+    "processed_time": "2026-01-13 16:35:11"
+  },
+  "84LTXT2I": {
+    "title": "Urbanization Impacts on Evapotranspiration Across Various Spatio‐Temporal Scales",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / [ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal) / [IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Unclassified",
+      "suggested": "Urbanization, Evapotranspiration, Spatio-temporal Scales, Remote Sensing, Flux Towers, Urban Water Balance",
+      "reason": "The paper's title and excerpt clearly indicate a focus on urbanization's impact on ET across different scales. The current keywords are missing, so comprehensive keywords are suggested to cover the main themes: urbanization, ET, scale issues, methods (remote sensing, flux towers), and the broader context (urban water balance)."
+    },
+    "related_papers": [
+      "Urbanization alters atmospheric dryness through land evapotranspiration",
+      "Unequal exposure to heatwaves in los angeles: Impact of uneven green spaces",
+      "Contribution of impervious surfaces to urban evaporation"
+    ],
+    "innovation_insights": [
+      "Develop novel remote sensing techniques or data fusion methods to overcome the limitations of sparse flux tower data in urban areas.",
+      "Create multi-scale models that can accurately represent ET processes under varying degrees of urbanization and across different spatial and temporal resolutions.",
+      "Investigate how urbanization-induced changes in ET propagate to regional water resources and energy budgets.",
+      "Explore the dynamic interplay between ET, land cover change, and urban microclimate over different time scales."
+    ],
+    "processed_time": "2026-01-13 16:35:16"
+  },
+  "I4VE7WEV": {
+    "title": "Unequal exposure to heatwaves in los angeles: Impact of uneven green spaces",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes / [ARCHIVE] Processes/Soil Moisture / [ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / [IDEA] Coupling/Vegetation-Water Interaction / [IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Urban Heat Island / Socioeconomic Disparities / Remote Sensing / Land Surface Temperature / Evapotranspiration",
+      "suggested": "Urban Heat Island, Heatwave Exposure, Green Space, Socioeconomic Disparities, Land Surface Temperature, Evapotranspiration, Remote Sensing, Los Angeles",
+      "reason": "The current keywords are good but can be slightly expanded to explicitly include 'Heatwave Exposure' and 'Green Space' as they are central to the findings. Adding 'Los Angeles' is also beneficial for specificity. 'Evapotranspiration' is relevant as it's implied to be affected by green space."
+    },
+    "related_papers": [
+      "Urbanization alters atmospheric dryness through land evapotranspiration",
+      "Urbanization Impacts on Evapotranspiration Across Various Spatio‐Temporal Scales",
+      "Contribution of impervious surfaces to urban evaporation"
+    ],
+    "innovation_insights": [
+      "Investigate the causal mechanisms linking green space distribution, ET, and LST disparities in urban areas, potentially using causal inference methods.",
+      "Develop predictive models that integrate socioeconomic factors, land surface characteristics, and ET to forecast unequal heatwave exposure.",
+      "Assess the effectiveness of urban greening strategies as a nature-based solution for mitigating heat disparities and their impact on human health.",
+      "Explore how different types of urban vegetation and their associated ET contribute to mitigating the urban heat island effect at finer scales."
+    ],
+    "processed_time": "2026-01-13 16:35:22"
+  },
+  "P6MSVHSU": {
+    "title": "Contribution of impervious surfaces to urban evaporation",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / [ARCHIVE] Methodology/Statistical Methods / [ARCHIVE] Methodology/Data Fusion",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / [IDEA] Coupling/Energy-Water Nexus / [IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Urban Hydrology / Evaporation / Urban Canopy Model / Surface Energy Balance",
+      "suggested": "Impervious Surfaces, Urban Evaporation, Urban Hydrology, Surface Energy Balance, Urban Canopy Model, Water Resources",
+      "reason": "The current keywords accurately reflect the core topic. 'Impervious Surfaces' is a critical component and should be explicitly included as a keyword. 'Water Resources' can be added to link it to broader applications."
+    },
+    "related_papers": [
+      "Urbanization alters atmospheric dryness through land evapotranspiration",
+      "Urbanization Impacts on Evapotranspiration Across Various Spatio‐Temporal Scales",
+      "Unequal exposure to heatwaves in los angeles: Impact of uneven green spaces"
+    ],
+    "innovation_insights": [
+      "Integrate the role of impervious surface evaporation into urban hydrological models to improve flood prediction and water resource management under changing precipitation patterns.",
+      "Develop advanced urban canopy models that better capture the complex energy and water exchanges associated with impervious surfaces, especially during intermittent wetting events.",
+      "Quantify the feedback mechanisms between impervious surface evaporation, urban heat island intensity, and atmospheric moisture content.",
+      "Explore the potential of using impervious surfaces as a (limited) water source for urban cooling or other purposes through engineered solutions."
+    ],
+    "processed_time": "2026-01-13 16:35:26"
+  },
+  "95ZBW4QT": {
+    "title": "Global variation in vegetation carbon use efficiency inferred from eddy covariance observations",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty / [IDEA] Dynamics/Non-linearity & Complexity / [IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Eddy Covariance / Carbon Use Efficiency (CUE) / Terrestrial Ecosystems / Biome Types / Climate Drivers",
+      "suggested": "Carbon Use Efficiency (CUE), Eddy Covariance, Vegetation Physiology, Climate Drivers, Biome Types, Ecosystem Carbon Cycle, Global Variation",
+      "reason": "The current keywords are relevant and specific. Suggested keywords add 'Vegetation Physiology' to highlight the biological aspect, 'Ecosystem Carbon Cycle' for broader context, and 'Global Variation' to emphasize a key finding. The existing keywords are strong, so this is more of a refinement."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Investigate the influence of hydrological extremes (drought, flash floods) on vegetation carbon use efficiency (CUE) using eddy covariance data.",
+      "Develop machine learning models to predict CUE based on a wider range of environmental predictors, including atmospheric dryness (UDI) and land surface temperature.",
+      "Explore the relationship between CUE and evapotranspiration rates across different biomes and under varying climatic conditions.",
+      "Examine how changes in CUE, driven by climate or land management, feedback on atmospheric processes and contribute to urban or regional climate dynamics."
+    ],
+    "processed_time": "2026-01-13 16:35:30"
+  },
+  "IBHX5RXP": {
+    "title": "High-resolution spatio-temporal characteristics of urban evapotranspiration measured by unmanned aerial vehicle and infrared remote sensing",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Urban ET / UAV Remote Sensing / 3T Model / High Resolution / Spatio-temporal Variability",
+      "suggested": "Urban Evapotranspiration / UAV-based Remote Sensing / Three-Temperature Model / High-Resolution Spatio-temporal ET / Urban Hydrology",
+      "reason": "Keywords are generally good but can be more specific. '3T Model' could be expanded to 'Three-Temperature Model'. Adding 'Urban Hydrology' broadens the context."
+    },
+    "related_papers": [
+      "Paper 1: The effect of urban evaporation on building energy demand in an arid environment",
+      "Paper 2: A global terrestrial evapotranspiration product based on the three-temperature model with fewer input parameters and no calibration requirement",
+      "Paper 3: Dynamics of urban latent heat in response to climate change and urbanization: What would be a global threshold?",
+      "Paper 4: Evapotranspiration of residential lawns across the united states"
+    ],
+    "innovation_insights": [
+      "New research direction: Integrating high-resolution UAV-based ET measurements with urban planning models to optimize green infrastructure for cooling and water management.",
+      "Gap/limitation: Scaling up the 'UAV+IRs+3T' methodology from individual sites to city-wide applications, and exploring its application in extreme weather events.",
+      "New research direction: Investigating the impact of different urban surface types (e.g., buildings, roads, vegetation) on the spatial heterogeneity of ET at very high resolution.",
+      "Gap/limitation: Long-term validation and intercomparison of the developed UAV-based ET method with other ground-based measurements and flux towers."
+    ],
+    "processed_time": "2026-01-13 16:35:48"
+  },
+  "LYRZUFPS": {
+    "title": "The effect of urban evaporation on building energy demand in an arid environment",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Energy-Water Nexus / Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Urban Climate / Evaporative Cooling / Building Energy Demand / Scale Model / Arid Regions",
+      "suggested": "Urban Evapotranspiration / Evaporative Cooling Effect / Building Energy Consumption / Arid Urban Climate / Scale Modeling",
+      "reason": "Current keywords are relevant. 'Urban Climate' can be specified as 'Urban Evapotranspiration' since ET is the core mechanism. 'Scale Model' is a method, better to clarify its use in the context of urban climate. Added 'Arid Urban Climate' for specificity."
+    },
+    "related_papers": [
+      "Paper 0: High-resolution spatio-temporal characteristics of urban evapotranspiration measured by unmanned aerial vehicle and infrared remote sensing",
+      "Paper 2: A global terrestrial evapotranspiration product based on the three-temperature model with fewer input parameters and no calibration requirement",
+      "Paper 3: Dynamics of urban latent heat in response to climate change and urbanization: What would be a global threshold?",
+      "Paper 4: Evapotranspiration of residential lawns across the united states"
+    ],
+    "innovation_insights": [
+      "New research direction: Quantifying the energy savings from urban evaporative cooling in various arid and semi-arid cities, and linking it to water availability and urban design.",
+      "Gap/limitation: The study uses a scale model; future work could involve field measurements or higher-fidelity simulations to validate the findings and explore dynamic effects.",
+      "New research direction: Investigating the trade-offs between urban greening for evaporative cooling and water scarcity in arid regions, informing sustainable urban planning.",
+      "Gap/limitation: Limited exploration of the impact of humidity distribution variations within the urban canopy on evaporative cooling efficiency."
+    ],
+    "processed_time": "2026-01-13 16:35:51"
+  },
+  "XF8XLSPL": {
+    "title": "A global terrestrial evapotranspiration product based on the three-temperature model with fewer input parameters and no calibration requirement",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty / Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Evapotranspiration / Remote Sensing / Three-Temperature Model / Data Product / Extreme Events",
+      "suggested": "Global Evapotranspiration Product / Three-Temperature Model / Remote Sensing ET / Data-Driven ET Modeling / Extreme Event Monitoring",
+      "reason": "Keywords are accurate. Expanding 'Data Product' to 'Global Evapotranspiration Product' and 'Extreme Events' to 'Extreme Event Monitoring' provides more context and actionability. Explicitly mentioning 'Data-Driven ET Modeling' highlights the methodological aspect."
+    },
+    "related_papers": [
+      "Paper 0: High-resolution spatio-temporal characteristics of urban evapotranspiration measured by unmanned aerial vehicle and infrared remote sensing",
+      "Paper 1: The effect of urban evaporation on building energy demand in an arid environment",
+      "Paper 3: Dynamics of urban latent heat in response to climate change and urbanization: What would be a global threshold?",
+      "Paper 4: Evapotranspiration of residential lawns across the united states"
+    ],
+    "innovation_insights": [
+      "New research direction: Using this global ET product to identify regions with significant ET anomalies during extreme events (droughts, heatwaves) and investigate the underlying drivers.",
+      "Gap/limitation: While calibration is not required, exploring methods to explicitly incorporate validation against site-specific measurements (e.g., flux towers) could further improve confidence in the product.",
+      "New research direction: Developing similar global products for other key land surface variables using the 'fewer input parameters and no calibration' principle.",
+      "Gap/limitation: The paper focuses on terrestrial ET. Expanding the 3T model or similar approaches to include ET in urban areas, considering their unique characteristics."
+    ],
+    "processed_time": "2026-01-13 16:35:54"
+  },
+  "7SU3965Z": {
+    "title": "Dynamics of urban latent heat in response to climate change and urbanization: What would be a global threshold?",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Hazards/Drought/Flash Drought / Coupling/Land-Atmosphere Coupling",
+    "idea_path": "[IDEA] Mechanism/Threshold Behavior / Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Urban Latent Heat / Climate Change / Urbanization / Threshold / Hydrological Cycle",
+      "suggested": "Urban Latent Heat Flux / Urbanization Effects / Climate Change Impact / Hydrological Thresholds / Urban Hydrological Cycle",
+      "reason": "Keywords are appropriate. 'Urban Latent Heat' can be more descriptive as 'Urban Latent Heat Flux'. Clarifying 'Urbanization' and 'Climate Change' as 'Urbanization Effects' and 'Climate Change Impact' is better. 'Threshold' can be linked to 'Hydrological Thresholds' for better classification."
+    },
+    "related_papers": [
+      "Paper 0: High-resolution spatio-temporal characteristics of urban evapotranspiration measured by unmanned aerial vehicle and infrared remote sensing",
+      "Paper 1: The effect of urban evaporation on building energy demand in an arid environment",
+      "Paper 2: A global terrestrial evapotranspiration product based on the three-temperature model with fewer input parameters and no calibration requirement",
+      "Paper 4: Evapotranspiration of residential lawns across the united states"
+    ],
+    "innovation_insights": [
+      "New research direction: Applying the identified 'global threshold' (vegetation/impervious ratio) to other urban areas worldwide to assess their vulnerability to climate change and urbanization impacts on ET.",
+      "Gap/limitation: The study focuses on the Hong Kong-Shenzhen region. Expanding the analysis to diverse climatic and urbanization contexts globally to test the universality of the identified threshold.",
+      "New research direction: Investigating the feedback mechanisms between urban heat island effect, increased ET (latent heat), and local atmospheric circulation patterns.",
+      "Gap/limitation: The study uses a specific ET estimation model. Comparing results with other models or direct measurements would strengthen the findings."
+    ],
+    "processed_time": "2026-01-13 16:35:59"
+  },
+  "PA5D8I84": {
+    "title": "Evapotranspiration of residential lawns across the united states",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal) / Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Evapotranspiration / Residential Lawns / Urban Water Use / Climate / Landscape Management",
+      "suggested": "Residential Lawn Evapotranspiration / Urban Water Consumption / Landscape Management / Climate Influence on ET / Irrigation Demand",
+      "reason": "Keywords are good. 'Urban Water Use' can be more specific as 'Urban Water Consumption' or 'Irrigation Demand'. 'Climate' could be 'Climate Influence on ET'. Added 'Residential Lawn Evapotranspiration' for better specificity."
+    },
+    "related_papers": [
+      "Paper 0: High-resolution spatio-temporal characteristics of urban evapotranspiration measured by unmanned aerial vehicle and infrared remote sensing",
+      "Paper 1: The effect of urban evaporation on building energy demand in an arid environment",
+      "Paper 2: A global terrestrial evapotranspiration product based on the three-temperature model with fewer input parameters and no calibration requirement",
+      "Paper 3: Dynamics of urban latent heat in response to climate change and urbanization: What would be a global threshold?"
+    ],
+    "innovation_insights": [
+      "New research direction: Developing data-driven models to predict ET for specific lawn types and climatic zones, aiding in targeted water conservation strategies for residential areas.",
+      "Gap/limitation: The study measures instantaneous ET (ETinst). Expanding to continuous ET monitoring and analyzing diurnal/seasonal patterns in different climates would provide a more complete picture.",
+      "New research direction: Assessing the contribution of residential lawns to urban heat island mitigation and evaluating the effectiveness of different landscape management practices (e.g., drought-tolerant species).",
+      "Gap/limitation: The research focuses on ET rates. Quantifying the total water volume consumed by lawns across the US and its implications for municipal water resources is a key next step."
+    ],
+    "processed_time": "2026-01-13 16:36:02"
+  },
+  "QSRSC7QY": {
+    "title": "Analyzing temporal trends of urban evaporation using generalized additive models",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Urban ET / Methodology/Statistical Methods/Generalized Additive Models",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Modeling/Statistical Models / Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Urban Hydrology / Pavement Evaporation / Generalized Additive Models / Time Series Analysis",
+      "suggested": "Urban Hydrology / Pavement Evaporation / Generalized Additive Models (GAM) / Climate Drivers / Time Series Analysis / Urban Surface",
+      "reason": "Keywords are good but can be more specific. Adding 'Urban Surface' clarifies the context. Including 'Climate Drivers' highlights the factors analyzed, and 'GAM' in parentheses is helpful for disambiguation."
+    },
+    "related_papers": [
+      "Mechanisms and empirical modeling of evaporation from hardened surfaces in urban areas",
+      "Urbanization impacts on evapotranspiration change across seven typical urban agglomerations in China",
+      "Urbanization Aggravates Effects of Global Warming on Local Atmospheric Drying"
+    ],
+    "innovation_insights": [
+      "Investigate the non-linear interactions between specific climate variables and different urban surface types for ET using more advanced statistical or machine learning models.",
+      "Quantify the role of micro-scale urban geometry and material properties on pavement evaporation, moving beyond general surface types.",
+      "Explore the transferability of GAM-based models for urban pavement ET across different climatic zones and urban morphologies."
+    ],
+    "processed_time": "2026-01-13 16:36:21"
+  },
+  "6TMY2TEG": {
+    "title": "Shifting from homogeneous to heterogeneous surfaces in estimating terrestrial evapotranspiration: Review and perspectives",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/ET Estimation / Methodology/Remote Sensing/Retrieval / Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration / Dynamics/Non-linearity & Complexity / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Evapotranspiration / Review / Heterogeneous Surface / ET Estimation",
+      "suggested": "Evapotranspiration / Heterogeneous Surfaces / ET Estimation Methods / Multi-Scale ET / Review",
+      "reason": "The current keywords are accurate and concise. 'ET Estimation Methods' and 'Multi-Scale ET' could provide slightly more specific retrieval pathways within the broad topic."
+    },
+    "related_papers": [
+      "Urbanization impacts on evapotranspiration change across seven typical urban agglomerations in China",
+      "Urbanization Aggravates Effects of Global Warming on Local Atmospheric Drying",
+      "Mechanisms and empirical modeling of evaporation from hardened surfaces in urban areas",
+      "Analyzing temporal trends of urban evaporation using generalized additive models"
+    ],
+    "innovation_insights": [
+      "Develop and validate new ET estimation models specifically designed for highly heterogeneous urban environments, potentially integrating multi-source data (e.g., remote sensing, in-situ sensors).",
+      "Investigate emergent phenomena in urban ET, such as lagged responses, spatial heterogeneity of surface resistance, and their impact on Land-Atmosphere coupling.",
+      "Explore the integration of process-based understanding of urban surfaces (e.g., pavement, vegetation, water bodies) into AI-driven ET models to improve accuracy and transferability."
+    ],
+    "processed_time": "2026-01-13 16:36:26"
+  },
+  "697MXJE2": {
+    "title": "Urbanization impacts on evapotranspiration change across seven typical urban agglomerations in China",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Urban ET / Hazards/Drought/Flash Drought / Methodology/Statistical Methods/Non-stationary Analysis",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events / Coupling/Vegetation-Water Interaction / Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Evapotranspiration / Urbanization / Climate Change / Urban Agglomeration",
+      "suggested": "Evapotranspiration / Urbanization / Climate Change Impact / Urban Agglomerations / ΔET / Extreme Events",
+      "reason": "Adding 'Urban Agglomerations' is more specific. Including 'ΔET' directly references the key metric explored and 'Extreme Events' highlights a significant finding."
+    },
+    "related_papers": [
+      "Urbanization Aggravates Effects of Global Warming on Local Atmospheric Drying",
+      "Analyzing temporal trends of urban evaporation using generalized additive models",
+      "Mechanisms and empirical modeling of evaporation from hardened surfaces in urban areas"
+    ],
+    "innovation_insights": [
+      "Investigate the non-stationary dynamics of ET changes due to urbanization, especially focusing on the increasing probability and intensity of extreme ET events in urban areas.",
+      "Quantify the feedback mechanisms between urban form, ET changes, and local atmospheric conditions (e.g., humidity, temperature) under ongoing climate change.",
+      "Develop early warning systems for urban hydrological extremes (e.g., flash droughts or floods exacerbated by altered ET) by integrating urbanization impact assessments into drought/flood prediction models."
+    ],
+    "processed_time": "2026-01-13 16:36:31"
+  },
+  "MBBZ36YZ": {
+    "title": "Mechanisms and empirical modeling of evaporation from hardened surfaces in urban areas",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Urban ET / Methodology/Empirical Modeling",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Dynamics/Non-linearity & Complexity / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Urban Hydrology / Evaporation / Hardened Surfaces / Urban Environment",
+      "suggested": "Urban Hydrology / Hardened Surface Evaporation / Impervious Surfaces / Permeable Pavements / Water Balance / Empirical Models",
+      "reason": "The current keywords are good but can be more descriptive. Specifying 'Hardened Surface Evaporation' and differentiating between 'Impervious Surfaces' and 'Permeable Pavements' adds crucial detail. 'Water Balance' and 'Empirical Models' also highlight key aspects."
+    },
+    "related_papers": [
+      "Analyzing temporal trends of urban evaporation using generalized additive models",
+      "Urbanization impacts on evapotranspiration change across seven typical urban agglomerations in China",
+      "Urbanization Aggravates Effects of Global Warming on Local Atmospheric Drying"
+    ],
+    "innovation_insights": [
+      "Develop physics-informed AI models for hardened surface evaporation that capture the distinct mechanisms of impervious vs. permeable surfaces, moving beyond purely empirical approaches.",
+      "Quantify the contribution of hardened surface evaporation to the urban water balance and its potential impact on flood generation and drought mitigation in urban areas.",
+      "Investigate the role of surface properties (e.g., albedo, thermal inertia, water retention capacity) of different hardened surfaces on their evaporation dynamics and interaction with the urban atmosphere."
+    ],
+    "processed_time": "2026-01-13 16:36:35"
+  },
+  "BF2BFIRG": {
+    "title": "Urbanization aggravates effects of global warming on local atmospheric drying",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes / Processes/Evapotranspiration (ET)/Urban ET / Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades / Coupling/Energy-Water Nexus / Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Urbanization / Climate Change / Atmospheric Humidity / Evapotranspiration / China",
+      "suggested": "Urbanization / Climate Change / Atmospheric Drying / Urban Heat Island (UHI) / Urban Dry Island (UDI) / Evapotranspiration / Land-Atmosphere Interaction",
+      "reason": "Adding 'Atmospheric Drying', 'Urban Heat Island (UHI)', and 'Urban Dry Island (UDI)' provides more specific context on the observed phenomena. 'Land-Atmosphere Interaction' better captures the underlying mechanisms."
+    },
+    "related_papers": [
+      "Urbanization impacts on evapotranspiration change across seven typical urban agglomerations in China",
+      "Analyzing temporal trends of urban evaporation using generalized additive models",
+      "Mechanisms and empirical modeling of evaporation from hardened surfaces in urban areas"
+    ],
+    "innovation_insights": [
+      "Quantify the relative contributions of urbanization vs. global warming to atmospheric drying in different climate zones, and how these interactions influence ET.",
+      "Investigate the feedback loops between urban heat island (UHI), urban dry island (UDI), and ET changes, particularly the role of reduced ET in exacerbating local drying and heat stress.",
+      "Explore nature-based solutions and urban planning strategies (e.g., increasing green infrastructure) to mitigate the combined effects of urbanization and global warming on local atmospheric drying and ET."
+    ],
+    "processed_time": "2026-01-13 16:36:40"
+  },
+  "GNJXKGVD": {
+    "title": "Inequality in human exposure to future climate extremes",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flood/Heatwaves & Extremes, Methodology/Statistical Methods, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Coupling/Human-Nature Systems, Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Exposure &amp; Risk / Inequality；Compound Extremes；CMIP6/ISIMIP情景评估；SSP人口与发展路径；Flood/Heatwave/Drought比较。关键词：exposure inequality；floods；heatwaves；droughts；compound hot-dry events；SSPs；population growth。",
+      "suggested": "Exposure Inequality, Compound Extremes, SSPs, Climate Change Impact, Population Growth, Flood, Heatwave, Drought",
+      "reason": "The current keywords are quite comprehensive. The suggested keywords simplify them slightly and make them more standard for searchability, focusing on the core concepts and impact areas."
+    },
+    "related_papers": [
+      "The accelerating loss of resilience in suburban woodlands can largely be attributed to the changes in urban precipitation patterns"
+    ],
+    "innovation_insights": [
+      "The paper's decomposition of inequality drivers (population growth vs. climate change) opens avenues for targeted policy interventions.",
+      "Investigating the interaction between event severity and inequality trends across different hazard types can lead to more nuanced risk assessments.",
+      "Extending this analysis to other socio-economic factors beyond income level (e.g., age, gender, access to resources) could reveal further dimensions of exposure inequality.",
+      "The methodology of comparing inequality across different extreme events (flood, heatwave, drought, compound hot-dry) provides a framework for integrated disaster risk management."
+    ],
+    "processed_time": "2026-01-13 16:37:02"
+  },
+  "LIXFG8SH": {
+    "title": "Transfer learning reveals large discrepancies between air and land surface temperatures in cities",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Applications/Climate Change Impact, Hazards/Heatwaves & Extremes",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Physics-Informed AI, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "由于缺乏真实的城市气象站，城市天气和气候的研究受到“数据贫困”的严重制约 1010。因此，遥感获取的地表温度（Ts）被广泛用作近地面气温（Ta）的替代品，尽管两者尤其在城市地区存在根本差异 11。本研究开发了一种新颖的城市迁移学习框架（U-TL），以填补这一关键空白，并为美国本土（CONUS）大规模生成了名为U-HAT的高分辨率城市气温数据 12。U-TL框架即使在训练数据有限的情况下，也表现出高精度和强鲁棒性 13。生成的U-HAT是首个能够准确再现观测到的城市气候学特征的高分辨率城市气温数据集 141414。该数据集揭示了Ts与Ta之间存在显著差异，并警示了使用Ts来表征城市热量的风险 1515。研究表明，卫星测量的Ts会大幅高估城市热应激的强度和城市内部的热点差异，这对城市热暴露、脆弱性和适应性政策的制定具有极其重要的影响 1616。",
+      "suggested": "Urban Air Temperature, Land Surface Temperature, Remote Sensing, Transfer Learning, Data Scarcity, Urban Heat Island, Data Assimilation",
+      "reason": "The current keywords are more of a description. The suggested keywords are concise and capture the core technical aspects (Urban Air Temperature, Land Surface Temperature, Transfer Learning, Data Assimilation) and the problem addressed (Data Scarcity, Urban Heat Island)."
+    },
+    "related_papers": [
+      "A global urban tree leaf area index dataset for urban climate modeling"
+    ],
+    "innovation_insights": [
+      "This work highlights the critical need for high-resolution, ground-truth urban air temperature data, suggesting opportunities for denser urban weather station networks or novel remote sensing calibration techniques.",
+      "The discrepancy between land surface temperature (Ts) and air temperature (Ta) in urban areas points to research on urban energy balance and microclimate dynamics, and how Ts proxy can lead to misinterpretation of heat stress.",
+      "The application of transfer learning (U-TL) to generate urban air temperature data (U-HAT) can be explored for other urban environmental variables or in regions with different urban characteristics.",
+      "Investigating the physical mechanisms causing the observed Ts-Ta discrepancies across different urban morphologies and materials could refine urban climate models."
+    ],
+    "processed_time": "2026-01-13 16:37:06"
+  },
+  "3VRQTANB": {
+    "title": "A global urban tree leaf area index dataset for urban climate modeling",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Methodology/Deep Learning (LSTM_CNN), Applications/Agricultural Systems, Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Modeling/Hybrid Modeling (Process+ML), Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "城市树木 (Urban Trees), 叶面积指数 (Leaf Area Index, LAI), 城市气候模型 (Urban Climate Modeling), 机器学习 (Machine Learning), 遥感 (Remote Sensing), 数据集 (Dataset)",
+      "suggested": "Urban Trees, Leaf Area Index (LAI), Urban Climate Modeling, Machine Learning, Remote Sensing, Dataset, Vegetation",
+      "reason": "The current keywords are good and directly reflect the paper's content. Adding 'Vegetation' could broaden its applicability to general vegetation studies beyond just urban trees, though 'Urban Trees' is quite specific. The existing set is strong."
+    },
+    "related_papers": [
+      "Transfer learning reveals large discrepancies between air and land surface temperatures in cities"
+    ],
+    "innovation_insights": [
+      "The generated high-resolution global urban tree LAI dataset can be integrated into urban climate models to improve simulations of urban heat island effects and ventilation.",
+      "This dataset provides a foundation for studying the role of urban vegetation in microclimate regulation, energy balance, and ET, especially in conjunction with ET models.",
+      "Further research could explore the impact of urban tree LAI dynamics on local hydrology, air quality, and biodiversity.",
+      "Investigating how urban tree LAI varies with different urban forms, tree species, and management practices could lead to more effective urban greening strategies."
+    ],
+    "processed_time": "2026-01-13 16:37:12"
+  },
+  "37KPDJM6": {
+    "title": "Ecohydrological resilience and the landscape water storage continuum in droughts",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Processes/Soil Moisture, Processes/Groundwater, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change, Mechanism/Threshold Behavior, Dynamics/Tipping Points, Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Ecohydrological resilience, Landscape water storage continuum, Droughts, Catchment management, Water connectivity",
+      "suggested": "Ecohydrological Resilience, Drought, Water Storage Continuum, Landscape Hydrology, Catchment Management, Water Connectivity",
+      "reason": "The current keywords are accurate and well-chosen. The suggested keywords are very similar, slightly rephrased for standard search terms. 'Landscape Hydrology' is a good addition to capture the overarching theme."
+    },
+    "related_papers": [
+      "The accelerating loss of resilience in suburban woodlands can largely be attributed to the changes in urban precipitation patterns"
+    ],
+    "innovation_insights": [
+      "The 'water storage continuum' concept offers a novel framework for assessing drought impacts across different water reservoirs (soil moisture, groundwater), guiding more holistic water management strategies.",
+      "Research into the ecohydrological resilience of different landscape units during droughts can lead to dynamic drought management plans that account for spatial heterogeneity.",
+      "This paper's emphasis on the interaction between shallow and deep water storage could inspire studies on groundwater-surface water connectivity under drying conditions.",
+      "Investigating the tipping points within the water storage continuum and their ecological consequences could be a fruitful area for future research, potentially linking to DFA."
+    ],
+    "processed_time": "2026-01-13 16:37:17"
+  },
+  "6K8EWE2P": {
+    "title": "The accelerating loss of resilience in suburban woodlands can largely be attributed to the changes in urban precipitation patterns",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drought, Methodology/Statistical Methods, Processes/Soil Moisture, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Tipping Points, Mechanism/Abrupt Transitions/Phase Change, Dynamics/Non-linearity & Complexity, Modeling/Causal Inference",
+    "keyword_assessment": {
+      "current": "降水模式改变 (altered precipitation pattern), 临界慢化 (critical slowing down), 归一化植被指数 (normalized difference vegetation index), 恢复速率 (recovery rate), 郊区林地 (suburban woodlands), 植被韧性 (vegetation resilience)",
+      "suggested": "Vegetation Resilience, Critical Slowing Down, Urbanization, Precipitation Patterns, Suburban Woodlands, Drought, Regime Shifts",
+      "reason": "The current keywords are good and specific. The suggested keywords add 'Urbanization' as a key driver and 'Drought' as a primary impact, and 'Regime Shifts' to better capture the 'critical slowing down' concept and potential tipping points. 'Altered precipitation pattern' is well covered by 'Precipitation Patterns'."
+    },
+    "related_papers": [
+      "Inequality in human exposure to future climate extremes",
+      "Ecohydrological resilience and the landscape water storage continuum in droughts"
+    ],
+    "innovation_insights": [
+      "The study's finding that urbanization alters precipitation patterns, leading to drought stress in suburban woodlands, suggests a need to investigate urban-induced hydro-meteorological shifts beyond the immediate urban core.",
+      "Applying the 'critical slowing down' methodology to other ecohydrological systems under stress (e.g., wetlands, grasslands) could reveal widespread patterns of resilience loss.",
+      "Investigating feedback loops between reduced vegetation resilience in suburban areas and intensified urban heat island effects or flood risks in city centers presents a complex system dynamics research opportunity.",
+      "Developing strategies to restore precipitation levels or enhance water availability in suburban woodlands under altered urban precipitation regimes is a critical area for future research and intervention."
+    ],
+    "processed_time": "2026-01-13 16:37:22"
+  },
+  "ZSTW86C4": {
+    "title": "Concepts and evolution of urban hydrology",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Urban Hydrology, Hazards/Flood, Methodology/Remote Sensing/Retrieval, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Threshold Behavior, Dynamics/Non-linearity & Complexity, Coupling/Human-Nature Systems, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Urban hydrology, Stormwater management, Nature-based solutions, Climate change, Water scarcity, Real-time control",
+      "suggested": "Urban hydrology, Stormwater management, Nature-based solutions, Climate change adaptation, Water scarcity, Urban resilience, Green infrastructure, Integrated urban water management",
+      "reason": "Keywords are decent but could be expanded to include 'urban resilience' and 'green infrastructure' to better reflect the broader scope of evolution beyond traditional stormwater management. 'Climate change adaptation' is more specific than just 'climate change'."
+    },
+    "related_papers": [
+      "Mapping global urban boundaries from the global artificial impervious area (GAIA) data",
+      "U-surf: A global 1 km spatially continuous urban surface property dataset for kilometer-scale urban-resolving Earth system modeling",
+      "Global 10-m impervious surface area mapping: A big earth data based extraction and updating approach"
+    ],
+    "innovation_insights": [
+      "Investigate the integration of nature-based solutions into existing urban infrastructure and quantify their performance under different climate change scenarios.",
+      "Develop frameworks for adaptive management of urban water systems that can respond to extreme events and long-term changes, moving beyond static infrastructure design.",
+      "Explore the socio-economic and governance aspects of urban water management evolution, considering equity and accessibility of nature-based solutions.",
+      "Advance the understanding of urban water cycle dynamics and their non-linear responses to urbanization and climate change through advanced modeling and data assimilation."
+    ],
+    "processed_time": "2026-01-13 16:37:42"
+  },
+  "VGGQYRG5": {
+    "title": "Adaptive capacity for multimodal transport network resilience to extreme floods",
+    "archive_path": "[ARCHIVE] Hazards/Flood, Methodology/Statistical Methods, Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Dynamics/Tipping Points, Modeling/Ensemble Methods, Dynamics/Rapid Onset Events, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "* Adaptive capacity (自适应能力)",
+      "suggested": "Adaptive capacity, Multimodal transport network, Extreme floods, Resilience, Mode shift, Route switching, Infrastructure resilience, Climate change adaptation",
+      "reason": "The current keyword is too narrow. The paper's abstract clearly indicates a focus on 'Multimodal transport network', 'Extreme floods', and 'Resilience'. Adding these and related terms like 'mode shift', 'route switching', 'infrastructure resilience', and 'climate change adaptation' will greatly improve discoverability."
+    },
+    "related_papers": [
+      "Concepts and evolution of urban hydrology",
+      "Mapping global urban boundaries from the global artificial impervious area (GAIA) data",
+      "U-surf: A global 1 km spatially continuous urban surface property dataset for kilometer-scale urban-resolving Earth system modeling",
+      "Global 10-m impervious surface area mapping: A big earth data based extraction and updating approach"
+    ],
+    "innovation_insights": [
+      "Develop advanced agent-based models that capture dynamic adaptive behaviors of infrastructure networks in response to various extreme events.",
+      "Quantify the cascading failures and interdependencies between different infrastructure systems (e.g., transport, energy, communication) under climate-induced stresses.",
+      "Explore how multi-modal transport networks can be designed or retrofitted to enhance adaptive capacity and resilience, considering both technological and operational strategies.",
+      "Investigate the potential of real-time adaptive strategies informed by predictive modeling and AI for infrastructure management during extreme events."
+    ],
+    "processed_time": "2026-01-13 16:37:51"
+  },
+  "6T5VRXRU": {
+    "title": "Mapping global urban boundaries from the global artificial impervious area (GAIA) data",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Applications/Urban Hydrology, Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML), Applications/Urban Climate Modeling",
+    "keyword_assessment": {
+      "current": "Environmental Research Letters (ERL) 是一本专注于快速发表具有广泛环境意义的、高质量研究的期刊。这篇文章非常契合ERL的定位：",
+      "suggested": "Urban boundary, Impervious surface, Remote sensing, Google Earth Engine, Big Earth Data, Urbanization, Global dataset, Spatial analysis, Land cover",
+      "reason": "The current 'keywords' are actually a description of the journal. The paper's content, as indicated by the title and summary, is about mapping urban boundaries using remote sensing and specific data sources. Suggested keywords should reflect this core focus."
+    },
+    "related_papers": [
+      "Concepts and evolution of urban hydrology",
+      "U-surf: A global 1 km spatially continuous urban surface property dataset for kilometer-scale urban-resolving Earth system modeling",
+      "Global 10-m impervious surface area mapping: A big earth data based extraction and updating approach"
+    ],
+    "innovation_insights": [
+      "Utilize the generated global urban boundary dataset for large-scale analysis of urban expansion impacts on local and regional hydrological processes.",
+      "Integrate this urban boundary data with other global datasets (e.g., elevation, land cover, climate) to develop more accurate urban hydrological models or urban climate models.",
+      "Develop methods for updating urban boundary data more frequently or in near real-time to support dynamic urban planning and disaster management.",
+      "Explore the application of this dataset in understanding urban heat island effects or changes in imperviousness which directly impact runoff generation."
+    ],
+    "processed_time": "2026-01-13 16:37:57"
+  },
+  "7NYUY6WW": {
+    "title": "U-surf: A global 1 km spatially continuous urban surface property dataset for kilometer-scale urban-resolving earth system modeling",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Processes/Runoff & Streamflow, Applications/Urban Hydrology, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Scale Issues (Spatial_Temporal), Modeling/Hybrid Modeling (Process+ML), Applications/Urban Climate Modeling",
+    "keyword_assessment": {
+      "current": "城市地表模型 (Urban surface model), 全球数据集 (Global dataset), 城市参数 (Urban parameters), 遥感 (Remote sensing), 机器学习 (Machine learning), 城市气候建模 (Urban climate modeling), 地球系统模型 (Earth system model)",
+      "suggested": "Urban surface properties, Global dataset, Remote sensing, Earth system modeling, Urban climate modeling, Geospatial data, Land surface characteristics, High-resolution modeling",
+      "reason": "The current keywords are good and capture the essence of the paper. Adding 'Urban surface properties' and 'Geospatial data' could provide slightly more specificity, but the current set is comprehensive."
+    },
+    "related_papers": [
+      "Concepts and evolution of urban hydrology",
+      "Mapping global urban boundaries from the global artificial impervious area (GAIA) data",
+      "Global 10-m impervious surface area mapping: A big earth data based extraction and updating approach"
+    ],
+    "innovation_insights": [
+      "Integrate the U-surf dataset into Earth System Models to improve simulations of urban climate interactions and their feedback on regional weather patterns.",
+      "Use this dataset to analyze the spatial variability of urban surface properties and their influence on hydrological processes, such as evapotranspiration and runoff generation, at a kilometer scale.",
+      "Develop downscaling techniques for using this 1 km dataset to inform higher-resolution urban hydrological or microclimate models.",
+      "Explore how changes in urban surface properties over time (if historical data can be derived or linked) impact urban resilience and vulnerability to heatwaves or floods."
+    ],
+    "processed_time": "2026-01-13 16:38:02"
+  },
+  "CMQXKBM6": {
+    "title": "Global 10-m impervious surface area mapping: A big earth data based extraction and updating approach",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Processes/Runoff & Streamflow, Applications/Urban Hydrology",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Data Philosophy/Multi-Source Integration, Dynamics/Non-linearity & Complexity, Applications/Urban Climate Modeling",
+    "keyword_assessment": {
+      "current": "Impervious Surface Area / Remote Sensing / Google Earth Engine / Big Earth Data / Urbanization",
+      "suggested": "Impervious Surface Area (ISA), Remote Sensing, Sentinel-1, Sentinel-2, Google Earth Engine, Big Earth Data, Urbanization, Land cover mapping, High-resolution mapping, Annual updating",
+      "reason": "The current keywords are accurate and capture the main components. Adding 'Sentinel-1', 'Sentinel-2' as specific data sources and 'Annual updating' as a key methodological contribution would enhance precision."
+    },
+    "related_papers": [
+      "Concepts and evolution of urban hydrology",
+      "Mapping global urban boundaries from the global artificial impervious area (GAIA) data",
+      "U-surf: A global 1 km spatially continuous urban surface property dataset for kilometer-scale urban-resolving Earth system modeling"
+    ],
+    "innovation_insights": [
+      "Apply the 10-m ISA mapping methodology to specific urban areas to assess fine-scale hydrological impacts, such as flash flood susceptibility or urban heat island intensity.",
+      "Utilize the annually updated ISA data to track rapid urbanization and its environmental consequences in near real-time, supporting sustainable development goals.",
+      "Integrate the high-resolution ISA data with other urban datasets (e.g., building footprints, elevation models) to create more sophisticated urban hydrological or ecological models.",
+      "Investigate the accuracy and limitations of ISA mapping at 10-m resolution across diverse urban landscapes and under varying environmental conditions."
+    ],
+    "processed_time": "2026-01-13 16:38:06"
+  },
+  "BBGB7L4D": {
+    "title": "Global urban growth between 1870 and 2100 from integrated high resolution mapped data and urban dynamic modeling",
+    "archive_path": "[ARCHIVE] Processes/Land Cover Change / Methodology/Modeling / Applications/Urban Planning",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML) / Dynamics/Long-term Trends",
+    "keyword_assessment": {
+      "current": "Urban Growth / Cellular Automata / Climate Scenarios / Long-term Dataset",
+      "suggested": "Urban Expansion / Cellular Automata / Socioeconomic Pathways / Global Dataset / Long-term Projection",
+      "reason": "Expanded 'Urban Growth' to 'Urban Expansion' for clarity. Included 'Socioeconomic Pathways' as it's a key input for future projections. Specified 'Global Dataset' and 'Long-term Projection' for better searchability."
+    },
+    "related_papers": [
+      "A global dataset of annual urban extents (1992–2020) from harmonized nighttime lights",
+      "Mapping global urban land for the 21st century with data-driven simulations and shared socioeconomic pathways"
+    ],
+    "innovation_insights": [
+      "Develop more sophisticated CA models that incorporate finer-scale socio-economic drivers and feedback mechanisms between urban growth and environmental changes.",
+      "Integrate the generated urban growth dataset with hydrological or climate models to assess the cascading impacts of urbanization on water resources and climate extremes at a global scale.",
+      "Validate model outputs using independent high-resolution datasets or ground-truth data for specific regions to improve confidence in long-term projections."
+    ],
+    "processed_time": "2026-01-13 16:38:23"
+  },
+  "W55G7UGI": {
+    "title": "A global dataset of annual urban extents (1992–2020) from harmonized nighttime lights",
+    "archive_path": "[ARCHIVE] Processes/Land Cover Change / Methodology/Remote Sensing / Applications/Urban Planning",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration / Dynamics/Spatiotemporal Dynamics",
+    "keyword_assessment": {
+      "current": "Nighttime Lights / Urban Extents / Spatiotemporal Dynamics / Remote Sensing / Urbanization",
+      "suggested": "Urban Extents / Nighttime Lights (NTL) / Spatiotemporal Dynamics / Remote Sensing / Data Harmonization",
+      "reason": "Emphasized 'Urban Extents' as the primary output. Added 'Data Harmonization' as a key methodological contribution. Clarified 'Nighttime Lights' with the common abbreviation (NTL)."
+    },
+    "related_papers": [
+      "Global urban growth between 1870 and 2100 from integrated high resolution mapped data and urban dynamic modeling",
+      "Mapping global urban land for the 21st century with data-driven simulations and shared socioeconomic pathways"
+    ],
+    "innovation_insights": [
+      "Explore the use of other remote sensing data (e.g., Sentinel, Landsat) to further refine urban extent mapping, especially for low-light or cloud-covered areas, and validate NTL-derived products.",
+      "Investigate the sub-pixel dynamics of urban expansion using higher-resolution data to understand the transition from non-urban to urban land.",
+      "Analyze the statistical properties of urban growth patterns derived from this dataset to identify universal scaling laws or regional specificities in urbanization."
+    ],
+    "processed_time": "2026-01-13 16:38:32"
+  },
+  "8H5XN7IJ": {
+    "title": "Mapping global urban land for the 21st century with data-driven simulations and shared socioeconomic pathways",
+    "archive_path": "[ARCHIVE] Processes/Land Cover Change / Methodology/Modeling / Applications/Urban Planning",
+    "idea_path": "[IDEA] Modeling/Data-Driven Simulation / Dynamics/Long-term Trends",
+    "keyword_assessment": {
+      "current": "Urban Land Expansion / Global Projection / Data-Driven Simulation / Socioeconomic Pathways / Remote Sensing",
+      "suggested": "Urban Land Expansion / Global Projection / Data-Driven Models / Shared Socioeconomic Pathways (SSPs) / Remote Sensing",
+      "reason": "Changed 'Data-Driven Simulation' to 'Data-Driven Models' for broader scope. Used the common abbreviation 'SSPs'. Retained 'Remote Sensing' as a core methodology."
+    },
+    "related_papers": [
+      "Global urban growth between 1870 and 2100 from integrated high resolution mapped data and urban dynamic modeling",
+      "A global dataset of annual urban extents (1992–2020) from harmonized nighttime lights"
+    ],
+    "innovation_insights": [
+      "Develop hybrid models that combine data-driven approaches with physical process understanding to improve the realism of urban land expansion projections.",
+      "Investigate the uncertainty associated with different SSP scenarios and the data-driven model, potentially using ensemble simulations or probabilistic forecasts.",
+      "Link the projected urban land expansion to potential impacts on other Earth system components, such as water resources, carbon cycles, and biodiversity, using integrated assessment frameworks."
+    ],
+    "processed_time": "2026-01-13 16:38:36"
+  },
+  "DS4TQKNA": {
+    "title": "Assessing the impact of urbanization on urban evapotranspiration and its components using a novel four-source energy balance model",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Methodology/Modeling / Applications/Urban Systems",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Unclassified",
+      "suggested": "Urban Evapotranspiration (ET) / Four-Source Energy Balance Model / Urbanization Impact / ET Components",
+      "reason": "Extracted key concepts from the excerpt. 'Urban Evapotranspiration' is the core topic. The 'Four-Source Energy Balance Model' is the novel method. The paper explicitly addresses the 'Impact of Urbanization' and its 'ET Components'."
+    },
+    "related_papers": [
+      "Urbanization diminishes net ecosystem productivity by changing the landscape pattern"
+    ],
+    "innovation_insights": [
+      "Develop and validate advanced urban ET models that can capture the complex interactions between urban morphology, surface properties, and atmospheric conditions.",
+      "Utilize the developed model to quantify the contributions of different urban land use types and surfaces (e.g., buildings, roads, green spaces) to total urban ET.",
+      "Explore the application of machine learning or deep learning techniques to improve the parameterization or emulation of complex urban ET models, especially for data-scarce regions."
+    ],
+    "processed_time": "2026-01-13 16:38:41"
+  },
+  "QZ7IZE3U": {
+    "title": "Urbanization diminishes net ecosystem productivity by changing the landscape pattern",
+    "archive_path": "[ARCHIVE] Processes/Carbon Cycle / Methodology/Deep Learning (LSTM_CNN) / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Urban Carbon Flux / Deep Learning / Ecosystem Model / Climate Change Impact",
+      "suggested": "Urban Net Ecosystem Productivity (NEPu) / Landscape Pattern / Deep Learning / Ecosystem Modeling / Urbanization",
+      "reason": "Refined 'Urban Carbon Flux' to the more specific 'Urban Net Ecosystem Productivity (NEPu)'. Added 'Landscape Pattern' as a key factor driving changes. Kept 'Deep Learning', 'Ecosystem Modeling', and 'Urbanization' as they are central."
+    },
+    "related_papers": [
+      "Assessing the impact of urbanization on urban evapotranspiration and its components using a novel four-source energy balance model"
+    ],
+    "innovation_insights": [
+      "Investigate the bi-directional feedbacks between urbanization, NEPu, and other urban environmental factors like ET, surface temperature, and air quality.",
+      "Apply the ResNets-CASA model to other urban areas globally to assess the universality of the observed trends and the influence of different urbanization patterns and climatic conditions.",
+      "Integrate NEPu estimations with urban planning tools to design cities that can enhance carbon sequestration and mitigate climate change impacts."
+    ],
+    "processed_time": "2026-01-13 16:38:47"
+  },
+  "PG45BM9E": {
+    "title": "Can evaporation from urban impervious surfaces be ignored?",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Urban ET / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "城市不透水地表蒸发；通量足迹；涡度相关；湍流输送相似性；不透水地表材料",
+      "suggested": "Urban impervious surface evaporation, Flux footprint, Eddy covariance, Turbulent similarity, Pervious surface materials, Urban hydrology, Energy balance",
+      "reason": "Keywords accurately reflect the core content but could be expanded to include broader disciplinary terms like 'Urban hydrology' and 'Energy balance' for better discoverability."
+    },
+    "related_papers": [
+      "Paper 1 title",
+      "Paper 2 title"
+    ],
+    "innovation_insights": [
+      "Develop more sophisticated methods to disentangle E_i from total ET in diverse urban materials and conditions, potentially using advanced sensor networks or ML techniques.",
+      "Investigate the long-term impact of E_i on urban water balance and its role in mitigating urban heat island effects under different climate change scenarios.",
+      "Explore the scalability of these findings to other cities with varying urban structures and material compositions.",
+      "Further research the precise mechanisms by which different impervious materials (gravel, concrete, asphalt) influence E_i duration and magnitude, and their thermodynamic properties."
+    ],
+    "processed_time": "2026-01-13 16:39:06"
+  },
+  "5CB3X684": {
+    "title": "Altered landscape pattern dominates the declined urban evapotranspiration trend",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Urban ET / Applications/Climate Change Impact / Methodology/Deep Learning (LSTM_CNN)",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "城市蒸散发 (Urban evapotranspiration), 城市景观格局 (Urban landscape pattern), 城市热环境 (Urban thermal environment), 机器学习 (Machine learning)",
+      "suggested": "Urban evapotranspiration, Urban landscape pattern, Urban heat island effect, Land cover change, Green infrastructure, Machine learning, Hybrid modeling, Urban hydrology",
+      "reason": "Keywords are relevant but could be enhanced to include 'Urban heat island effect' more explicitly as it's a major finding, and 'Land cover change' and 'Green infrastructure' which are driving forces, as well as 'Hybrid modeling' to reflect the methodology."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 2 title"
+    ],
+    "innovation_insights": [
+      "Quantify the specific contributions of different landscape pattern changes (e.g., conversion of forest to grassland, increase in impervious surfaces) to ET decline and UHI intensification.",
+      "Investigate the effectiveness of different green infrastructure strategies (e.g., increasing water bodies, restoring natural forests, specific types of vegetation) in counteracting the ET decline and UHI effect.",
+      "Develop a transferable framework for analyzing ET trends and drivers in other rapidly urbanizing regions globally.",
+      "Explore the role of scale in landscape pattern impacts on ET, examining how different spatial resolutions of landscape data affect the identified relationships."
+    ],
+    "processed_time": "2026-01-13 16:39:11"
+  },
+  "IX3AIJMD": {
+    "title": "Revealing the response of urban heat island effect to water body evaporation from main urban and suburb areas",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes / Processes/Evapotranspiration (ET)/Urban ET / Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades / Dynamics/Drought-Flood Transitions",
+    "keyword_assessment": {
+      "current": "城市热岛效应 (Urban heat island effect), 城市水体蒸发 (Urban water body evaporation), 人为热通量 (Anthropogenic heat flux), 水体蓄热量变化 (Water storage heat change), 城市化 (Urbanization), 气候变化 (Climate change)",
+      "suggested": "Urban heat island effect, Urban water body evaporation, Anthropogenic heat flux, Urban hydrology, Energy balance, Blue-green infrastructure, Climate change adaptation",
+      "reason": "Keywords are comprehensive and capture the core elements. Adding 'Urban hydrology', 'Energy balance', 'Blue-green infrastructure', and 'Climate change adaptation' could broaden the searchability and highlight the applied aspects."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 1 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Investigate the optimal design and placement of urban water bodies (size, shape, location relative to urban core vs. suburbs) to maximize UHI mitigation and water resource benefits.",
+      "Quantify the net impact of urban water bodies on overall urban water balance, considering both evaporation and potential infiltration/runoff effects.",
+      "Explore the trade-offs between UHI mitigation by water bodies and potential impacts on local humidity and increased nighttime temperatures in certain conditions.",
+      "Develop predictive models for UHI response to water body evaporation under various future urbanization and climate change scenarios, incorporating feedback loops."
+    ],
+    "processed_time": "2026-01-13 16:39:16"
+  },
+  "WW7F5J3M": {
+    "title": "Re-examining urban rainfall enhancement over north America",
+    "archive_path": "[ARCHIVE] Hazards/Flood / Processes/Runoff & Streamflow / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "URE；降水强化；年总降水；IMERG；降水概率；极端事件。",
+      "suggested": "Urban rainfall enhancement (URE), Precipitation frequency, Annual precipitation, Extreme precipitation, Urban hydrology, Satellite precipitation (IMERG), Regional climate modulation",
+      "reason": "Keywords are accurate but 'URE' could be expanded to its full term. 'Regional climate modulation' is a key finding and could be added. Also, 'Satellite precipitation' provides context for the data source."
+    },
+    "related_papers": [
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Investigate the underlying physical mechanisms causing enhanced rainfall frequency but not necessarily intensity in urban areas, particularly the role of urban aerosols and thermal effects.",
+      "Quantify the impact of 'Urban Rainfall Enhancement' (URE) on urban flood risk, considering the increased frequency of moderate rainfall events alongside potential changes in extreme event behavior.",
+      "Develop improved parameterizations for URE in weather and climate models, especially for regions with varying hydrological climates and urban scales.",
+      "Explore the 'urban depression' of extreme precipitation intensity in humid regions: is it a robust finding, and what are the associated atmospheric dynamics?"
+    ],
+    "processed_time": "2026-01-13 16:39:22"
+  },
+  "GRWIJZ2C": {
+    "title": "Observational evidence of increased afternoon rainfall downwind of irrigated areas",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Hazards/Drought/Flash Drought / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "灌溉、水文气候反馈、降水模式、蒸散发、边界层过程、局地气候调节",
+      "suggested": "Irrigation, Hydrometeorological feedback, Precipitation patterns, Evapotranspiration, Boundary layer processes, Local climate modulation, Agricultural impact on precipitation, Convective initiation",
+      "reason": "Keywords are relevant and capture the essence. Adding 'Agricultural impact on precipitation' and 'Convective initiation' would better highlight the specific findings and mechanisms discussed."
+    },
+    "related_papers": [
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Investigate the thresholds of irrigation extent and intensity required to induce statistically significant changes in local precipitation patterns.",
+      "Quantify the downstream impacts of irrigation-induced precipitation changes on agricultural yields, water resources, and potential flood risks.",
+      "Develop physics-informed AI models that incorporate irrigation as a key driver to improve precipitation forecasts in agricultural regions.",
+      "Explore the potential for targeted irrigation strategies to enhance beneficial rainfall in drought-prone areas, while mitigating potential negative impacts such as reduced extreme event intensity."
+    ],
+    "processed_time": "2026-01-13 16:39:25"
+  },
+  "S65L2VUR": {
+    "title": "Urban development pattern’s influence on extreme rainfall occurrences",
+    "archive_path": "[ARCHIVE] Hazards/Flood/Extreme Rainfall, Methodology/Deep Learning (LSTM_CNN), Methodology/Remote Sensing/Retrieval, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Modeling/Hybrid Modeling (Process+ML), Data Philosophy/Scale Issues (Spatial_Temporal), Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Urban development pattern, Compact city, Dispersed city, Extreme rainfall, Urban heat island, Convection-permitting modeling",
+      "suggested": "Urban morphology, Extreme precipitation, Convection-permitting models, Land-atmosphere interactions, Urban heat island effect, Climate change adaptation",
+      "reason": "Keywords should better reflect the core concepts. 'Urban development pattern' can be more specific as 'urban morphology'. While UHI is mentioned, the interaction with rainfall is key. Convection-permitting modeling is a method, but the focus is on the atmospheric processes it helps resolve. Adding 'climate change adaptation' broadens the application scope."
+    },
+    "related_papers": [
+      "Paper 1: Dynamics-constrained rainfall projection reveals substantial increase in population exposure to unprecedented floods in the north China plain",
+      "Paper 3: City-wide, high-resolution mapping of evapotranspiration to guide climate-resilient planning",
+      "Paper 4: Attributing urban evapotranspiration from eddy‐covariance to surface cover: Bottom‐up versus top‐down"
+    ],
+    "innovation_insights": [
+      "Investigate the specific microphysical and dynamical processes through which different urban forms influence convective storm initiation and intensification, potentially using high-resolution LES models informed by urban morphology data.",
+      "Develop physically-based indices that link urban form characteristics (e.g., building density, street canyon geometry, green space distribution) to changes in extreme rainfall intensity and spatial patterns, to improve urban planning tools.",
+      "Explore the synergistic effects of urban form and broader climate change on future extreme rainfall events, moving beyond a single-factor analysis."
+    ],
+    "processed_time": "2026-01-13 16:39:47"
+  },
+  "KR5467XF": {
+    "title": "Dynamics-constrained rainfall projection reveals substantial increase in population exposure to unprecedented floods in the north China plain",
+    "archive_path": "[ARCHIVE] Hazards/Flood/Flood Projection, Hazards/Flood/Extreme Rainfall, Applications/Climate Change Impact, Methodology/Statistical Methods, Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Dynamics/Tipping Points, Dynamics/Rapid Onset Events, Modeling/Ensemble Methods, Data Philosophy/Signal Purification/Uncertainty, Mechanism/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "英文 (English): Flood Projection, Climate Change, North China Plain, Population Exposure, Atmospheric Dynamics, Rainfall Extremes",
+      "suggested": "Flood risk, Climate change, North China Plain, Population exposure, Dynamical downscaling, Thermodynamic effects, Extreme precipitation, Hydrological modeling",
+      "reason": " 'Flood Projection' is good, but 'flood risk' is more comprehensive. 'Atmospheric Dynamics' is a component; adding 'thermodynamic effects' provides a more complete picture of climate drivers. 'Rainfall Extremes' is covered by 'Extreme Precipitation'. 'Hydrological modeling' is implied but could be explicit."
+    },
+    "related_papers": [
+      "Paper 0: Urban development pattern’s influence on extreme rainfall occurrences",
+      "Paper 3: City-wide, high-resolution mapping of evapotranspiration to guide climate-resilient planning",
+      "Paper 4: Attributing urban evapotranspiration from eddy‐covariance to surface cover: Bottom‐up versus top‐down"
+    ],
+    "innovation_insights": [
+      "Develop a unified framework that integrates dynamical and thermodynamical changes for projections of both rainfall intensity and duration, to better capture flood hazard characteristics.",
+      "Quantify the uncertainty associated with different components of climate projections (e.g., emissions scenarios, climate model biases, downscaling methods) in assessing future flood exposure.",
+      "Investigate potential hydrological tipping points in the North China Plain under future climate change, where small changes in rainfall could lead to disproportionately large increases in flood risk."
+    ],
+    "processed_time": "2026-01-13 16:39:53"
+  },
+  "4WA7CYPG": {
+    "title": "Intensity-duration-frequency curves in the guangdong-hong kong-macao greater bay area inferred from the bayesian hierarchical model",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Applications/Agricultural Systems, Methodology/Remote Sensing/Retrieval, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Mechanism/Land-Atmosphere Coupling, Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "蒸散发（Evapotranspiration, ET）, 植被绿化（Vegetation greening, VGC）, 植被类型转换（Vegetation type conversion, VTC）, 干旱和半干旱地区（Arid and semi-arid regions, ASAC）, 配对比较分析（Pairwise comparison analysis）",
+      "suggested": "Evapotranspiration (ET), Vegetation change, Land degradation, Arid and semi-arid regions, Remote sensing, Hydrological sensitivity, Water resources management",
+      "reason": "The current keywords are highly specific to the methods and findings. Broader terms like 'Vegetation change' encompass both greening and type conversion. 'Land degradation' is a relevant consequence in ASAC. 'Remote sensing' is the primary data source. 'Hydrological sensitivity' captures the core finding. 'Water resources management' is a key application area."
+    },
+    "related_papers": [
+      "Paper 3: City-wide, high-resolution mapping of evapotranspiration to guide climate-resilient planning",
+      "Paper 4: Attributing urban evapotranspiration from eddy‐covariance to surface cover: Bottom‐up versus top‐down"
+    ],
+    "innovation_insights": [
+      "Explore how different management strategies (e.g., afforestation, agricultural practices) interact with natural climatic variations to influence ET and water availability in arid regions.",
+      "Develop machine learning models that can disentangle the impacts of climate drivers, vegetation greening, and land management on ET at finer spatial and temporal scales.",
+      "Investigate the feedback mechanisms between changes in ET due to vegetation alterations and local/regional climate, particularly in the context of land-atmosphere coupling in drylands."
+    ],
+    "processed_time": "2026-01-13 16:39:58"
+  },
+  "XEMKGTL5": {
+    "title": "City-wide, high-resolution mapping of evapotranspiration to guide climate-resilient planning",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Applications/Water Resources Management, Applications/Climate Change Impact, Methodology/Remote Sensing/Retrieval, Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Scale Issues (Spatial_Temporal), Modeling/Physics-Informed AI, Applications/Urban Planning",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Urban evapotranspiration (ET), High-resolution mapping, Remote sensing, Climate-resilient planning, Urban hydrology, Land use/land cover",
+      "reason": "The current keywords are missing. The suggested keywords reflect the core elements: urban ET, the high-resolution mapping aspect, the use of remote sensing, the application in climate-resilient planning, and its connection to urban hydrology and land cover."
+    },
+    "related_papers": [
+      "Paper 0: Urban development pattern’s influence on extreme rainfall occurrences",
+      "Paper 1: Dynamics-constrained rainfall projection reveals substantial increase in population exposure to unprecedented floods in the north China plain",
+      "Paper 2: Intensity-duration-frequency curves in the guangdong-hong kong-macao greater bay area inferred from the bayesian hierarchical model",
+      "Paper 4: Attributing urban evapotranspiration from eddy‐covariance to surface cover: Bottom‐up versus top‐down"
+    ],
+    "innovation_insights": [
+      "Develop methods for generating city-scale ET maps at very high resolution (e.g., sub-kilometer) using multi-source remote sensing data, potentially incorporating AI for data fusion and gap-filling.",
+      "Integrate high-resolution ET maps into urban planning models to assess the impact of different land cover scenarios on local climate and water balance, particularly for heat island mitigation and water resource management.",
+      "Investigate the spatial variability of ET within cities and its drivers (e.g., vegetation types, irrigation, impervious surfaces, building morphology) to inform microclimate regulation strategies."
+    ],
+    "processed_time": "2026-01-13 16:40:05"
+  },
+  "2IZJRJB3": {
+    "title": "Attributing urban evapotranspiration from eddy‐covariance to surface cover: Bottom‐up versus top‐down",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Methodology/Remote Sensing/Retrieval, Methodology/Data Fusion, Methodology/Triple Collocation/Uncertainty",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Data Philosophy/Scale Issues (Spatial_Temporal), Modeling/Hybrid Modeling (Process+ML), Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Urban Evapotranspiration (ET), Eddy Covariance, Footprint Modeling, Surface Cover, Bottom-up Approach, Top-down Approach, Water Limitation",
+      "suggested": "Urban evapotranspiration (ET), Eddy covariance, Surface heterogeneity, Footprint analysis, Upscaling, Attribution, Land-atmosphere exchange",
+      "reason": "The current keywords are good and specific. 'Surface heterogeneity' captures the essence of varying surface covers. 'Upscaling' is a key challenge addressed by the methods. 'Attribution' is central to the paper's goal. 'Land-atmosphere exchange' is the fundamental process studied."
+    },
+    "related_papers": [
+      "Paper 0: Urban development pattern’s influence on extreme rainfall occurrences",
+      "Paper 1: Dynamics-constrained rainfall projection reveals substantial increase in population exposure to unprecedented floods in the north China plain",
+      "Paper 2: Intensity-duration-frequency curves in the guangdong-hong kong-macao greater bay area inferred from the bayesian hierarchical model",
+      "Paper 3: City-wide, high-resolution mapping of evapotranspiration to guide climate-resilient planning"
+    ],
+    "innovation_insights": [
+      "Refine and validate advanced footprint models that can accurately represent the complex source areas of ET in heterogeneous urban environments.",
+      "Develop hybrid models that combine the strengths of eddy covariance measurements with remote sensing and land surface models to provide spatially continuous and high-resolution ET estimates for urban areas.",
+      "Quantify the impact of urban water management practices (e.g., irrigation, water-efficient landscaping) on urban ET and its contribution to the urban water balance and local climate."
+    ],
+    "processed_time": "2026-01-13 16:40:09"
+  },
+  "APRJTPBA": {
+    "title": "Modeling thermal comfort indicators in an urban environment using remote sensing, open geodata, and artificial intelligence",
+    "archive_path": "[ARCHIVE] Applications/Water Resources Management/Urban Hydrology",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Remote Sensing / Machine Learning / Urban Heat / Evapotranspiration / Air Temperature",
+      "suggested": "Remote Sensing / Machine Learning / Urban Heat Island / Evapotranspiration / Air Temperature / Thermal Comfort / Geospatial Data",
+      "reason": "Keywords capture the core methods and topics. Adding 'Urban Heat Island' is more specific than 'Urban Heat'. Including 'Thermal Comfort' directly reflects the paper's objective. 'Geospatial Data' is a broader and more accurate term for 'open geodata'."
+    },
+    "related_papers": [
+      "Modelling hourly evapotranspiration in urban environments with SCOPE using open remote sensing and meteorological data",
+      "Assessment of evapotranspiration from urban vegetation across space and time: A case study in berlin",
+      "Modeling urban evapotranspiration with sentinel-2, open geodata, and machine learning in summertime",
+      "Mapping evapotranspirative and radiative cooling services in an urban environment"
+    ],
+    "innovation_insights": [
+      "Develop advanced AI models that integrate multi-source geospatial data (e.g., high-resolution satellite imagery, LiDAR, street view data) with meteorological observations for highly localized prediction of thermal comfort, potentially incorporating dynamic factors like human activity.",
+      "Address the challenge of data scarcity in urban areas by exploring transfer learning or domain adaptation techniques to apply models developed in data-rich cities to cities with limited data, thereby improving the generalizability of urban thermal comfort models.",
+      "Investigate the causality between urban design elements (e.g., building density, green space distribution, street canyon geometry) and thermal comfort indicators (air temperature, ET) using causal inference methods, moving beyond correlative analysis to inform targeted urban planning interventions.",
+      "Explore the integration of flux footprint models within deep learning frameworks to improve the spatial representativeness of ET estimates derived from remote sensing, particularly in complex urban landscapes with heterogeneous surface properties."
+    ],
+    "processed_time": "2026-01-13 16:40:30"
+  },
+  "CRHZZ4QN": {
+    "title": "Modelling hourly evapotranspiration in urban environments with SCOPE using open remote sensing and meteorological data",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Urban Evapotranspiration / SCOPE Model / Remote Sensing / Footprint Modelling / Data Assimilation",
+      "suggested": "Urban Evapotranspiration / SCOPE Model / Remote Sensing / Footprint Modelling / Data Assimilation / Land-Atmosphere Exchange / Urban Climatology",
+      "reason": "Current keywords are highly relevant. Adding 'Land-Atmosphere Exchange' better describes the ET process. 'Urban Climatology' broadly frames the context of urban ET studies."
+    },
+    "related_papers": [
+      "Modeling thermal comfort indicators in an urban environment using remote sensing, open geodata, and artificial intelligence",
+      "Assessment of evapotranspiration from urban vegetation across space and time: A case study in berlin",
+      "Modeling urban evapotranspiration with sentinel-2, open geodata, and machine learning in summertime",
+      "Mapping evapotranspirative and radiative cooling services in an urban environment"
+    ],
+    "innovation_insights": [
+      "Explore the integration of the SCOPE model with deep learning architectures for ET estimation, leveraging the strengths of both process-based understanding and data-driven pattern recognition to enhance accuracy and generalizability.",
+      "Investigate the sensitivity of the SCOPE model and its footprint-corrected ET estimates to different types of urban land cover and their spatial configurations, providing insights into how specific urban designs influence local water and energy balances.",
+      "Develop methods to assimilate real-time satellite observations (e.g., from Sentinel-2, Landsat) into the SCOPE model to improve hourly ET predictions, especially during dynamic weather events or periods of rapid land surface change.",
+      "Extend the application of the SCOPE-SCOPE-footprint approach to various city typologies and climate zones to assess its transferability and identify key urban characteristics that most influence ET estimation accuracy."
+    ],
+    "processed_time": "2026-01-13 16:40:33"
+  },
+  "C8MU5KW2": {
+    "title": "Assessment of evapotranspiration from urban vegetation across space and time: A case study in berlin",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Urban Vegetation / Evapotranspiration / Remote Sensing / UAV / Spatio-temporal variability",
+      "suggested": "Urban Vegetation / Evapotranspiration / Remote Sensing / UAV / Spatio-temporal Variability / Energy Balance / Urban Ecology",
+      "reason": "Keywords accurately reflect the paper's focus. Adding 'Energy Balance' is central to ET and cooling. 'Urban Ecology' provides a broader ecological context for urban vegetation ET."
+    },
+    "related_papers": [
+      "Modeling thermal comfort indicators in an urban environment using remote sensing, open geodata, and artificial intelligence",
+      "Modelling hourly evapotranspiration in urban environments with SCOPE using open remote sensing and meteorological data",
+      "Modeling urban evapotranspiration with sentinel-2, open geodata, and machine learning in summertime",
+      "Mapping evapotranspirative and radiative cooling services in an urban environment"
+    ],
+    "innovation_insights": [
+      "Investigate the use of AI/ML techniques to upscale ET estimates from UAV-based remote sensing to larger urban scales, bridging the gap between high-resolution local measurements and city-wide estimations.",
+      "Quantify the contribution of different urban vegetation types (e.g., trees, shrubs, grasses, green roofs) to the overall urban ET and cooling effect, providing a finer-grained understanding for targeted green infrastructure planning.",
+      "Develop methods to integrate ET measurements from UAVs with eddy covariance tower data and land surface models to improve ET partitioning and understanding of surface energy balance in complex urban landscapes.",
+      "Explore the influence of irrigation practices and water availability on urban vegetation ET, linking hydrological processes to urban green space management and water resource allocation."
+    ],
+    "processed_time": "2026-01-13 16:40:36"
+  },
+  "U8VIVK85": {
+    "title": "Modeling urban evapotranspiration with sentinel-2, open geodata, and machine learning in summertime",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Evapotranspiration / Urban Planning / Machine Learning / Remote Sensing / Berlin",
+      "suggested": "Evapotranspiration / Urban Planning / Machine Learning / Remote Sensing / Geospatial Data / Land Use / Summer",
+      "reason": "Keywords are good. 'Geospatial Data' is more general and fitting than just 'Berlin' as a keyword. Explicitly mentioning 'Land Use' highlights a key analyzed factor. 'Summer' is context-specific but useful for retrieval."
+    },
+    "related_papers": [
+      "Modeling thermal comfort indicators in an urban environment using remote sensing, open geodata, and artificial intelligence",
+      "Modelling hourly evapotranspiration in urban environments with SCOPE using open remote sensing and meteorological data",
+      "Assessment of evapotranspiration from urban vegetation across space and time: A case study in berlin",
+      "Mapping evapotranspirative and radiative cooling services in an urban environment"
+    ],
+    "innovation_insights": [
+      "Enhance the ML models for ET estimation by incorporating dynamic variables such as soil moisture and atmospheric vapor pressure deficit, to better capture ET variability across different weather conditions within the summer season.",
+      "Investigate the transferability of the developed ET modeling approach to other cities with similar climatic and land cover characteristics, assessing the robustness of the ML models and the required calibration efforts.",
+      "Explore the use of higher-resolution satellite data (e.g., PlanetScope) or fusion techniques to further improve the spatial detail of urban ET maps, especially in highly heterogeneous areas.",
+      "Apply causal inference techniques to analyze the impact of specific land use/land cover types on ET, disentangling direct effects from confounding factors to provide stronger evidence for urban planning decisions."
+    ],
+    "processed_time": "2026-01-13 16:40:39"
+  },
+  "RE844Y8G": {
+    "title": "Mapping evapotranspirative and radiative cooling services in an urban environment",
+    "archive_path": "[ARCHIVE] Applications/Water Resources Management/Urban Hydrology",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Evapotranspiration / Urban Heat Island / SCOPE Model / Urban Green Infrastructure",
+      "suggested": "Evapotranspiration / Urban Heat Island / SCOPE Model / Urban Green Infrastructure / Cooling Services / Ecosystem Services",
+      "reason": "Keywords are appropriate. Adding 'Cooling Services' directly reflects the paper's focus on services provided by ET. 'Ecosystem Services' provides a broader framework for understanding these benefits."
+    },
+    "related_papers": [
+      "Modeling thermal comfort indicators in an urban environment using remote sensing, open geodata, and artificial intelligence",
+      "Modelling hourly evapotranspiration in urban environments with SCOPE using open remote sensing and meteorological data",
+      "Assessment of evapotranspiration from urban vegetation across space and time: A case study in berlin",
+      "Modeling urban evapotranspiration with sentinel-2, open geodata, and machine learning in summertime"
+    ],
+    "innovation_insights": [
+      "Develop spatially explicit models that integrate ET and radiative cooling services with other urban ecosystem services (e.g., air purification, stormwater management) to provide a holistic assessment of green infrastructure benefits.",
+      "Quantify the synergistic and antagonistic interactions between evapotranspirative cooling and radiative cooling provided by different urban surfaces (vegetation, water bodies, cool materials), informing integrated urban design strategies.",
+      "Investigate the long-term performance and resilience of evapotranspirative cooling services under changing climate conditions (e.g., increased temperatures, altered precipitation patterns) and urban development scenarios.",
+      "Explore the application of deep learning or other advanced AI techniques to predict and map cooling services at finer spatial and temporal resolutions, potentially incorporating real-time weather data and land surface temperature observations."
+    ],
+    "processed_time": "2026-01-13 16:40:42"
+  },
+  "7F5PH3WE": {
+    "title": "Modeling urban evapotranspiration using remote sensing, flux footprints, and artificial intelligence",
+    "archive_path": "[ARCHIVE] Evapotranspiration (ET)/Methodology/Deep Learning (LSTM_CNN)",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Urban Evapotranspiration / Eddy Covariance / Machine Learning / Remote Sensing / Footprint Modeling",
+      "suggested": "Urban Evapotranspiration / Remote Sensing / Machine Learning / Eddy Covariance / Flux Footprint Modeling / Deep Learning",
+      "reason": "Keywords are mostly accurate and comprehensive, but explicitly adding 'Deep Learning' (as CNN was used) and 'Flux Footprint Modeling' for more specificity would improve retrieval and categorization."
+    },
+    "related_papers": [
+      "Paper 1: Assessing progress in urban climate adaptation: A review of indicators for heat‐ and water‐sensitive urban development"
+    ],
+    "innovation_insights": [
+      "This paper suggests a new research direction in developing AI-driven models for urban ET that explicitly incorporate the spatial variability captured by flux footprints and remotely sensed data. Future work could explore optimizing the integration of different data sources (e.g., high-resolution urban morphology data, spectral indices) and investigating the transferability of trained models across different urban environments.",
+      "A limitation could be the reliance on specific flux tower locations for training and validation. Future research could address this by exploring methods for upscaling or transferring knowledge from these sites to larger urban areas with limited ground truth data, potentially using transfer learning or domain adaptation techniques in deep learning."
+    ],
+    "processed_time": "2026-01-13 16:40:59"
+  },
+  "FFTMKU6M": {
+    "title": "Assessing progress in urban climate adaptation: A review of indicators for heat‐ and water‐sensitive urban development",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Applications/Water Resources Management",
+    "idea_path": "[IDEA] Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Urban Climate Adaptation / Indicator Review / Heat Stress / Water Sensitive Urban Development",
+      "suggested": "Urban Climate Adaptation / Heat Stress Indicators / Water Sensitive Urban Development Indicators / Green Infrastructure / Soil Sealing / Urban Hydrology Indicators",
+      "reason": "The current keywords are good but could be more specific about the 'indicators' being reviewed and the key themes identified (Green Infrastructure, Soil Sealing, Water Sensitive Urban Development) to better capture the paper's focus."
+    },
+    "related_papers": [
+      "Paper 0: Modeling urban evapotranspiration using remote sensing, flux footprints, and artificial intelligence"
+    ],
+    "innovation_insights": [
+      "This paper highlights a significant gap in quantifying the effectiveness of urban climate adaptation strategies, especially regarding the interplay between heat and water. Future research could focus on developing integrated monitoring frameworks that combine physical measurements (like ET from Paper 0) with socio-economic and policy data to assess adaptation progress more holistically.",
+      "The review points to the potential of green infrastructure and soil sealing indicators but also notes the need for further research and testing. Future work could involve developing standardized, data-driven methodologies (potentially using AI as in Paper 0) to quantify the impact of these specific indicators on urban heat island mitigation and water management, thereby operationalizing the metrics for practical use."
+    ],
+    "processed_time": "2026-01-13 16:41:02"
+  },
+  "MARDTUJ5": {
+    "title": "Quantifying dynamic linkages between precipitation, groundwater recharge, and streamflow using ensemble rainfall‐runoff analysis",
+    "archive_path": "[ARCHIVE] Runoff & Streamflow/Groundwater/Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Ensemble Rainfall-Runoff Analysis (ERRA); impulse response; groundwater recharge; streamflow; nonlinearity; nonstationarity; model realism.",
+      "suggested": "Ensemble Rainfall-Runoff Analysis (ERRA); Groundwater Recharge; Streamflow; Nonlinearity; Nonstationarity; Data-driven Hydrology; Impulse Response; Model Realism; Hydrologic Linkages",
+      "reason": "The current keywords are highly relevant and descriptive. Adding 'Data-driven Hydrology' and 'Hydrologic Linkages' would further emphasize the methodological approach and the core scientific question about connections between different hydrological components."
+    },
+    "related_papers": [
+      "Paper 3: Characterizing nonlinear, nonstationary, and heterogeneous hydrologic behavior using ensemble rainfall-runoff analysis (ERRA): Proof of concept"
+    ],
+    "innovation_insights": [
+      "This paper demonstrates the power of data-driven methods like ERRA to uncover complex, nonlinear, and nonstationary dynamics in hydrological systems, specifically the precipitation-recharge-streamflow chain. A future research direction could be applying ERRA to investigate compound events (e.g., drought followed by flood) or to better understand the role of antecedent conditions and hysteresis in these linkages under changing climate scenarios.",
+      "The paper critically evaluates traditional model fitting against 'model realism' derived from data-driven impulse responses. This opens a research avenue for developing new metrics or frameworks to assess model performance that prioritize capturing essential physical processes and dynamic linkages, rather than just output statistics, potentially leading to more robust hydrological predictions."
+    ],
+    "processed_time": "2026-01-13 16:41:07"
+  },
+  "RHBNUHV8": {
+    "title": "Characterizing nonlinear, nonstationary, and heterogeneous hydrologic behavior using ensemble rainfall-runoff analysis (ERRA): Proof of concept",
+    "archive_path": "[ARCHIVE] Runoff & Streamflow/Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "提供了改进水文预测和管理的新工具，有助于更好地应对极端天气带来的挑战。",
+      "suggested": "Ensemble Rainfall-Runoff Analysis (ERRA); Nonlinear Hydrology; Nonstationary Hydrology; Spatial Heterogeneity; Data-driven Hydrology; Hydrologic Behavior Characterization; Rainfall-Runoff Relationships",
+      "reason": "The current keywords are a descriptive summary of the paper's impact rather than specific technical terms. The suggested keywords are more precise, reflecting the core methodology (ERRA), the characteristics studied (nonlinearity, nonstationarity, heterogeneity), and the approach (data-driven)."
+    },
+    "related_papers": [
+      "Paper 2: Quantifying dynamic linkages between precipitation, groundwater recharge, and streamflow using ensemble rainfall‐runoff analysis"
+    ],
+    "innovation_insights": [
+      "This paper presents ERRA as a model-agnostic tool to characterize complex hydrological behaviors. This suggests a research direction in applying ERRA to diverse hydrological settings (e.g., urban catchments, glaciated areas, arid regions) to reveal characteristic nonlinear, nonstationary, or heterogeneous patterns that might be masked by traditional model assumptions.",
+      "The proof-of-concept nature of this paper opens up opportunities to develop and validate ERRA further. Future work could involve exploring its application in identifying hydrological tipping points or abrupt transitions, and investigating how spatial heterogeneity impacts the derived impulse responses, thereby advancing our understanding of complex catchment dynamics."
+    ],
+    "processed_time": "2026-01-13 16:41:12"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "ECXR8ENC": {
+    "title": "A reversal in global terrestrial stilling and its implications for wind energy production",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Wind Speed, Methodology/Statistical Methods, Applications/Wind Energy",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Land wind speed / Climate change / Ocean-atmosphere oscillations / Wind energy",
+      "suggested": "Land wind speed trends / Decadal variability / Ocean-atmosphere teleconnections / Wind energy potential / Stilling reversal",
+      "reason": "Current keywords are good but can be more specific. 'Climate change' is broad; 'Decadal variability' and 'Ocean-atmosphere teleconnections' are more precise drivers. 'Stilling reversal' captures the core finding. Explicitly mentioning 'Wind energy potential' is also relevant."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Investigate the fine-scale attribution of the land wind speed reversal to specific ocean-atmosphere oscillations and their teleconnections, potentially using high-resolution climate models or advanced statistical techniques.",
+      "Explore how the reversal in land wind speed, and its regional variations, impacts the reliability and predictability of wind energy generation across different geographical areas.",
+      "Examine the role of human activities (e.g., land-use change, urbanization) in modulating or counteracting the influence of ocean-atmosphere oscillations on land wind speeds, to disentangle drivers.",
+      "Develop improved forecasting models for land wind speed by incorporating the identified ocean-atmosphere drivers, aiming to enhance wind energy resource assessment and operational planning."
+    ],
+    "processed_time": "2026-01-14 09:35:32"
+  }
+}
