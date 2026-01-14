@@ -616,9 +616,35 @@ def find_collection_by_path(zot, collection_path):
     if not path_parts:
         return None
     
-    # 获取所有集合
+    # 获取所有集合（使用分页方式确保获取所有 collections）
+    all_collections = []
     try:
-        all_collections = zot.collections()
+        start = 0
+        page_size = 100
+        
+        while True:
+            try:
+                page = zot.collections(limit=page_size, start=start)
+                if not page:
+                    break
+                all_collections.extend(page)
+                
+                # 如果返回的数量少于 page_size，说明已经获取完所有数据
+                if len(page) < page_size:
+                    break
+                
+                start += page_size
+            except Exception as page_error:
+                error_msg = str(page_error)
+                if 'timeout' in error_msg.lower() or 'timed out' in error_msg.lower():
+                    print(f"   ⚠️  获取集合列表超时（start={start}）: {page_error}")
+                elif '403' in error_msg or 'Forbidden' in error_msg:
+                    print(f"   ⚠️  获取集合列表权限不足（start={start}）: {page_error}")
+                elif '404' in error_msg:
+                    print(f"   ⚠️  库未找到（start={start}）: {page_error}")
+                else:
+                    print(f"   ⚠️  获取集合列表失败（start={start}）: {page_error}")
+                break
     except Exception as e:
         error_msg = str(e)
         if 'timeout' in error_msg.lower() or 'timed out' in error_msg.lower():
