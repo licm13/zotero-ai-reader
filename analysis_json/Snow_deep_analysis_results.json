@@ -1,0 +1,834 @@
+{
+  "Q3LFWHI7": {
+    "title": "Mapping snow depth distribution from 1980 to 2020 on the tibetan plateau using multi-source remote sensing data and downscaling techniques",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Cover, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Dynamics/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Mapping snow depth distribution on the tibetan plateau using multi-source remote sensing data and downscaling techniques",
+      "suggested": "Snow Depth Mapping / Tibetan Plateau / Multi-Source Remote Sensing / Downscaling / Cryosphere",
+      "reason": "Current keywords are too long and descriptive, better to use concise terms that capture the core elements. Added 'Cryosphere' for broader disciplinary context."
+    },
+    "related_papers": [
+      "Paper 1",
+      "Paper 2",
+      "Paper 3"
+    ],
+    "innovation_insights": [
+      "Investigate the accuracy and uncertainty of downscaled snow depth products, especially in complex terrain like the Tibetan Plateau, by comparing with independent validation data or other methods.",
+      "Explore the temporal dynamics of snow depth derived from this long-term dataset and its implications for regional hydrology and climate, considering the 'rough' nature of the method mentioned in the notes.",
+      "Develop more sophisticated downscaling techniques that incorporate physical processes or machine learning to improve the spatial and temporal resolution and accuracy of snow depth mapping."
+    ],
+    "processed_time": "2026-01-15 11:46:14"
+  },
+  "LH2MFT7G": {
+    "title": "Spatial representativeness analysis for snow depth measurements of meteorological stations in northeast China",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Cover, [ARCHIVE] Methodology/Statistical Methods/Triple Collocation/Uncertainty, [ARCHIVE] Methodology/Remote Sensing/Validation",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Triple Collocation / Snow Depth / Spatial Representativeness / Northeast China / Remote Sensing Validation",
+      "suggested": "Snow Depth / Spatial Representativeness / Triple Collocation / Meteorological Stations / Remote Sensing Validation / Northeast China",
+      "reason": "Current keywords are good and capture the essence. Reordered for slightly better flow and added 'Meteorological Stations' for specificity."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 2",
+      "Paper 3"
+    ],
+    "innovation_insights": [
+      "Apply the Triple Collocation (TC) method to assess spatial representativeness of other cryospheric variables (e.g., snow water equivalent, soil freeze depth) or in different geographical regions.",
+      "Investigate the factors influencing station representativeness beyond those explored, such as land cover heterogeneity, topography, and atmospheric forcing data quality, using TC-derived metrics.",
+      "Develop methods to improve the representativeness of sparse observational networks by strategically placing new stations based on TC analysis or by using TC to optimally fuse station data with remote sensing or reanalysis products."
+    ],
+    "processed_time": "2026-01-15 11:46:18"
+  },
+  "DHA4MIEN": {
+    "title": "Evaluation of multiple gridded snowfall datasets using gauge observations over high mountain asia",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Cover, [ARCHIVE] Methodology/Statistical Methods/Triple Collocation/Uncertainty",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Evaluation of multiple gridded snowfall datasets using gauge observations over high mountain asia",
+      "suggested": "Snowfall Datasets / Evaluation / Gauge Observations / High Mountain Asia / Triple Collocation",
+      "reason": "The current keywords are descriptive but could be more concise and include key methods like Triple Collocation which is implied by the content."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 3"
+    ],
+    "innovation_insights": [
+      "Extend the evaluation framework to include other crucial cryospheric variables or different reanalysis/gridded datasets for High Mountain Asia, particularly focusing on the uncertainty quantification using methods like Triple Collocation.",
+      "Investigate the spatial and temporal biases of snowfall datasets in relation to specific meteorological phenomena or topographic features in High Mountain Asia to understand their limitations.",
+      "Develop hybrid approaches that combine the strengths of different snowfall datasets or utilize machine learning to improve snowfall estimations, informed by the evaluation results and TC-derived uncertainty metrics."
+    ],
+    "processed_time": "2026-01-15 11:46:22"
+  },
+  "YP2D2FL8": {
+    "title": "Evaluation of bias and uncertainty in snow depth reanalysis data over south korea",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Cover, [ARCHIVE] Methodology/Statistical Methods/Triple Collocation/Uncertainty, [ARCHIVE] Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Snow Depth / Reanalysis Data / Triple Collocation / South Korea / Hydrometeorology",
+      "suggested": "Snow Depth / Reanalysis Data Evaluation / Triple Collocation / Uncertainty Assessment / South Korea",
+      "reason": "The current keywords are good and specific. 'Reanalysis Data Evaluation' and 'Uncertainty Assessment' are more explicit about the paper's contribution."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Apply the TC methodology to evaluate other reanalysis products for snow depth or other hydrological variables in different climatic regions, especially those with sparse ground observations.",
+      "Explore the reasons behind the performance differences of reanalysis datasets (e.g., LDAPS, MERRA-2, ERA5-Land) over South Korea by analyzing their assimilation systems, model physics, and forcing data.",
+      "Develop bias correction or data fusion techniques for snow depth reanalysis data based on TC-derived uncertainty estimates, aiming to produce more reliable datasets for hydrological applications in South Korea and similar regions."
+    ],
+    "processed_time": "2026-01-15 11:46:25"
+  },
+  "MFW4MPJS": {
+    "title": "Snowmelt causes different limitations on transpiration in a Sierra Nevada conifer forest",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Transpiration, [ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snowmelt, [ARCHIVE] Applications/Agricultural Systems/Water Management",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Drought-Flood Transitions",
+    "keyword_assessment": {
+      "current": "Snowmelt / Transpiration / Sierra Nevada / Conifer Forest / Water Stress",
+      "suggested": "Snowmelt Timing / Transpiration / Water Stress / Conifer Forest / Sierra Nevada / Land-Atmosphere Interaction",
+      "reason": "The current keywords are accurate. Adding 'Snowmelt Timing' highlights a key finding, and 'Land-Atmosphere Interaction' captures the mechanistic aspect better than just 'Water Stress'."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Investigate the broader implications of altered snowmelt timing on forest ecosystem services, such as carbon sequestration, biodiversity, and fire risk, in regions with similar snow-dominated Mediterranean climates.",
+      "Quantify the feedback mechanisms between changing transpiration patterns due to altered snowmelt and atmospheric conditions (e.g., humidity, VPD) to better understand land-atmosphere coupling in these systems.",
+      "Develop predictive models that can forecast the onset and severity of late-season water stress in forests based on snowpack characteristics and melt timing, potentially integrating AI for improved accuracy."
+    ],
+    "processed_time": "2026-01-15 11:46:30"
+  },
+  "ZTWNX3A3": {
+    "title": "Recent strengthening of snow and ice albedo feedback driven by Antarctic sea-ice loss",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Albedo Feedback, [ARCHIVE] Hazards/Climate Change Impact, [ARCHIVE] Methodology/Remote Sensing/Satellite",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Tipping Points, [IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Snow and Ice Albedo Feedback / Satellite Remote Sensing / Arctic and Antarctic / Climate Change / Radiative Kernels",
+      "suggested": "Snow Albedo Feedback / Antarctic Sea Ice Loss / Satellite Remote Sensing / Climate Change / Radiative Forcing",
+      "reason": "Keywords are generally good. 'Antarctic Sea Ice Loss' is more specific and impactful than 'Arctic and Antarctic'. 'Radiative Forcing' is a more direct outcome than 'Radiative Kernels' in the context of the findings."
+    },
+    "related_papers": [
+      "Parameterizations of snow-related physical processes in land surface models",
+      "Estimating snow water equivalent using cosmic‐ray neutron sensors from the COSMOS‐UK network",
+      "A machine learning-based accuracy enhancement on EUMETSAT H-SAF H35 effective snow-covered area product",
+      "Effects of Snow Cover on Spring Vegetation Phenology Vary With Temperature Gradient Across the Pan‐Arctic"
+    ],
+    "innovation_insights": [
+      "Investigate the specific feedback mechanisms and timescales of Antarctic sea ice loss on global albedo and energy balance.",
+      "Explore how uncertainties in satellite remote sensing of sea ice extent and snow/ice albedo impact climate model projections of SIAF.",
+      "Develop advanced data fusion techniques to integrate multiple satellite observations for more robust quantification of SIAF trends, especially during rapid change events.",
+      "Examine the potential for a tipping point in the Antarctic SIAF due to accelerated sea ice loss and its implications for polar amplification."
+    ],
+    "processed_time": "2026-01-15 11:46:55"
+  },
+  "PF85M7DE": {
+    "title": "Parameterizations of snow-related physical processes in land surface models",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Physics, [ARCHIVE] Methodology/Model Intercomparison, [ARCHIVE] Methodology/Land Surface Model",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), [IDEA] Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Land Surface Model / Snow Physics / Parameterization / Model Intercomparison",
+      "suggested": "Land Surface Model / Snow Physics Parameterization / Model Intercomparison / Snow Properties",
+      "reason": "Keywords are accurate. 'Snow Physics Parameterization' is more descriptive. Adding 'Snow Properties' captures the essence of what is being parameterized (albedo, density, etc.)."
+    },
+    "related_papers": [
+      "Recent strengthening of snow and ice albedo feedback driven by Antarctic sea-ice loss",
+      "Estimating snow water equivalent using cosmic‐ray neutron sensors from the COSMOS‐UK network",
+      "A machine learning-based accuracy enhancement on EUMETSAT H-SAF H35 effective snow-covered area product",
+      "Effects of Snow Cover on Spring Vegetation Phenology Vary With Temperature Gradient Across the Pan‐Arctic"
+    ],
+    "innovation_insights": [
+      "Develop hybrid models that combine process-based physics with machine learning to improve snow parameterizations in LSMs, particularly for complex snowpack evolution.",
+      "Investigate the impact of spatial and temporal scaling of snow parameterizations on large-scale land-atmosphere interactions and climate simulations.",
+      "Propose novel parameterization schemes for snow properties (e.g., albedo, density, grain size) that are more responsive to varying environmental conditions and satellite observations.",
+      "Quantify the uncertainty associated with different snow parameterizations in LSMs and its propagation through climate and hydrological models."
+    ],
+    "processed_time": "2026-01-15 11:46:59"
+  },
+  "V46WE8C9": {
+    "title": "Estimating snow water equivalent using cosmic‐ray neutron sensors from the COSMOS‐UK network",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Water Equivalent, [ARCHIVE] Methodology/Remote Sensing/Cosmic-Ray Neutron Sensor, [ARCHIVE] Applications/Hydrological Monitoring",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Hydrological Monitoring / Cosmic-Ray Neutron Sensor / Snow Water Equivalent / UK Hydrology",
+      "suggested": "Snow Water Equivalent (SWE) / Cosmic-Ray Neutron Sensor (CRNS) / Hydrological Monitoring / UK Hydrology / Uncertainty Quantification",
+      "reason": "Keywords are good. Explicitly adding 'Snow Water Equivalent (SWE)' and 'Cosmic-Ray Neutron Sensor (CRNS)' with their abbreviations improves searchability. Adding 'Uncertainty Quantification' reflects the use of Triple Collocation."
+    },
+    "related_papers": [
+      "Recent strengthening of snow and ice albedo feedback driven by Antarctic sea-ice loss",
+      "Parameterizations of snow-related physical processes in land surface models",
+      "A machine learning-based accuracy enhancement on EUMETSAT H-SAF H35 effective snow-covered area product",
+      "Effects of Snow Cover on Spring Vegetation Phenology Vary With Temperature Gradient Across the Pan‐Arctic"
+    ],
+    "innovation_insights": [
+      "Explore the application of CRNS for SWE estimation in diverse hydrological environments beyond the UK, particularly in regions with different snowpack characteristics.",
+      "Integrate CRNS-derived SWE data with other remote sensing products (e.g., satellite-based snow cover) and land surface models to create more comprehensive SWE datasets.",
+      "Develop advanced uncertainty quantification methods (beyond Triple Collocation) for CRNS-based SWE estimates, considering factors like soil moisture variability and sensor calibration drifts.",
+      "Investigate the use of CRNS networks for near-real-time hydrological forecasting and early warning systems, especially for snowmelt-driven floods or water resource assessments."
+    ],
+    "processed_time": "2026-01-15 11:47:03"
+  },
+  "MWMTZPCA": {
+    "title": "A machine learning-based accuracy enhancement on EUMETSAT H-SAF H35 effective snow-covered area product",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Cover, [ARCHIVE] Methodology/Remote Sensing/Machine Learning, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Modeling/Physics-Informed AI, [IDEA] Data Philosophy/Data Quality & Validation",
+    "keyword_assessment": {
+      "current": "Machine Learning / Snow Cover Mapping / Remote Sensing / MARS",
+      "suggested": "Snow Cover Fraction (fSCA) / Machine Learning / Remote Sensing / EUMETSAT H-SAF / Sentinel-2 Validation",
+      "reason": "Keywords are relevant. 'Snow Cover Fraction (fSCA)' is more specific to the product. Mentioning 'EUMETSAT H-SAF' and 'Sentinel-2 Validation' highlights key data sources and validation methods used."
+    },
+    "related_papers": [
+      "Recent strengthening of snow and ice albedo feedback driven by Antarctic sea-ice loss",
+      "Parameterizations of snow-related physical processes in land surface models",
+      "Estimating snow water equivalent using cosmic‐ray neutron sensors from the COSMOS‐UK network",
+      "Effects of Snow Cover on Spring Vegetation Phenology Vary With Temperature Gradient Across the Pan‐Arctic"
+    ],
+    "innovation_insights": [
+      "Apply deep learning architectures beyond MARS (e.g., CNNs, LSTMs) for fSCA estimation to potentially capture more complex spatial and temporal patterns.",
+      "Develop physics-informed machine learning models for fSCA estimation that incorporate physical constraints or relationships derived from snow physics.",
+      "Investigate the transferability of machine learning models trained for fSCA estimation across different geographic regions and sensor types.",
+      "Utilize crowdsourced data or citizen science initiatives to supplement validation datasets for ML-based fSCA products, especially in data-scarce areas."
+    ],
+    "processed_time": "2026-01-15 11:47:08"
+  },
+  "M893ABW6": {
+    "title": "Effects of Snow Cover on Spring Vegetation Phenology Vary With Temperature Gradient Across the Pan‐Arctic",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Cover, [ARCHIVE] Applications/Climate Change Impact, [ARCHIVE] Methodology/Remote Sensing/Satellite, [ARCHIVE] Processes/Vegetation Dynamics",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Vegetation Phenology / Snow Cover / Pan-Arctic / Remote Sensing / Climate Change",
+      "suggested": "Snow Cover Duration / Vegetation Phenology / Pan-Arctic / Climate Gradient / Land-Atmosphere Interactions",
+      "reason": "Keywords are good. 'Snow Cover Duration' (or Snow Cover Exit Date) is a more precise metric than just 'Snow Cover'. Adding 'Climate Gradient' highlights a key finding regarding temperature influence. 'Land-Atmosphere Interactions' captures the broader implication."
+    },
+    "related_papers": [
+      "Recent strengthening of snow and ice albedo feedback driven by Antarctic sea-ice loss",
+      "Parameterizations of snow-related physical processes in land surface models",
+      "Estimating snow water equivalent using cosmic‐ray neutron sensors from the COSMOS‐UK network",
+      "A machine learning-based accuracy enhancement on EUMETSAT H-SAF H35 effective snow-covered area product"
+    ],
+    "innovation_insights": [
+      "Investigate the non-linear interactions between snow cover duration and vegetation phenology under different warming scenarios and their feedback on the carbon cycle.",
+      "Develop coupled land surface and vegetation models that explicitly represent the influence of snowmelt timing on plant growth and ecosystem processes across climate gradients.",
+      "Quantify the uncertainty in remote sensing estimates of snow cover and vegetation phenology and how this uncertainty affects our understanding of their relationship.",
+      "Explore how changes in snow cover phenology influence other land-atmosphere exchange processes, such as evapotranspiration and soil moisture dynamics, in the Arctic."
+    ],
+    "processed_time": "2026-01-15 11:47:13"
+  },
+  "ITANAVAG": {
+    "title": "Changes in the frequency of global high mountain rain-on-snow events due to climate warming",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Methodology/Climate Modeling, [ARCHIVE] Methodology/Hydrological Model",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, [IDEA] Mechanism/Abrupt Transitions, [IDEA] Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Hydrological Model / Climate Change / Rain-on-Snow / High Mountains / Global Assessment",
+      "suggested": "Rain-on-Snow (ROS) Events / Climate Warming / High Mountain Hydrology / Global Assessment / Hydrological Modeling / Snowmelt",
+      "reason": "The current keywords are good but could be more specific about the phenomenon (ROS events) and its relationship with warming. Including 'Snowmelt' is important as it's a key driver. 'Hydrological Modeling' is better than 'Hydrological Model' for a keyword."
+    },
+    "related_papers": [
+      "Paper 1"
+    ],
+    "innovation_insights": [
+      "Investigate the fine-scale spatial patterns of ROS frequency changes within high mountain regions, as the study aggregates to larger regions.",
+      "Explore the role of atmospheric rivers and synoptic-scale weather patterns in driving ROS events under future warming scenarios.",
+      "Develop early warning systems for flood risk associated with increased peak flow from ROS events in specific high mountain basins.",
+      "Quantify the impact of changes in ROS events on glacier mass balance and downstream water availability.",
+      "Examine the biogeochemical implications of increased snowmelt from ROS events on alpine ecosystems, such as nutrient export or carbon release."
+    ],
+    "processed_time": "2026-01-15 11:47:28"
+  },
+  "BT6XASML": {
+    "title": "Asymmetric emergence of low-to-no snow in the midlatitudes of the American Cordillera",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier), [ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Methodology/Climate Modeling, [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Tipping Points, [IDEA] Mechanism/Abrupt Transitions, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Climate Change / Mountain Hydrology / Snowpack Decline / Hemispheric Asymmetry / Climate Modeling",
+      "suggested": "Low-to-No Snow Events / American Cordillera / Hemispheric Asymmetry / Mountain Hydrology / Climate Change Impact / Snow Water Equivalent (SWE)",
+      "reason": "The current keywords capture the essence. 'Low-to-No Snow Events' is more descriptive than 'Snowpack Decline'. Specifying 'American Cordillera' is good. Adding 'Climate Change Impact' and 'Snow Water Equivalent (SWE)' would enhance comprehensiveness."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Investigate the specific microclimatic and topographic factors contributing to the observed hemispheric asymmetry in low-to-no snow emergence.",
+      "Develop a more nuanced understanding of how changes in snow cover duration and timing, beyond just peak SWE, affect water resource reliability in the American Cordillera.",
+      "Extend the analysis to other mountain ranges globally to assess the universality of hemispheric asymmetry in snowpack decline.",
+      "Analyze the socio-economic impacts of earlier low-to-no snow emergence on communities dependent on mountain water resources, particularly in the Southern Hemisphere.",
+      "Explore the potential for using advanced remote sensing techniques to monitor the emergence of low-to-no snow conditions at higher spatial resolutions."
+    ],
+    "processed_time": "2026-01-15 11:47:34"
+  },
+  "X3KETNNW": {
+    "title": "How Well do Global Snow Products Characterize Snow Storage in High Mountain Asia?",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier), [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Methodology/Data Fusion, [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "峰值雪储量, 亚洲高山地区, 积累季节, 消融, 全球雪产品",
+      "suggested": "Snow Storage / High Mountain Asia (HMA) / Global Snow Products / Snow Accumulation / Snow Ablation / Model Evaluation / Snow Water Equivalent (SWE)",
+      "reason": "The current keywords are in Chinese and somewhat informal. English keywords are more standard for international research. 'Snow Storage' and 'Global Snow Products' are good. Adding 'Model Evaluation' and 'Snow Water Equivalent (SWE)' would provide more context and technical detail. Clarifying the regions as 'High Mountain Asia (HMA)' is also beneficial."
+    },
+    "related_papers": [
+      "Paper 1"
+    ],
+    "innovation_insights": [
+      "Develop and validate new global snow products specifically tailored for high mountain regions, potentially incorporating advanced data assimilation or machine learning techniques.",
+      "Investigate the impact of different snow formation and ablation processes on SWE uncertainty in global products for various snow regimes within HMA.",
+      "Combine satellite observations with in-situ measurements using data fusion techniques to improve the accuracy of snow storage estimates in HMA.",
+      "Analyze the long-term trends and variability of peak snow storage in HMA and its implications for water resource management under climate change.",
+      "Assess the performance of different hydrological models in simulating snow accumulation and ablation in HMA when driven by various global snow products."
+    ],
+    "processed_time": "2026-01-15 11:47:39"
+  },
+  "36NX3HCP": {
+    "title": "Carbon response of tundra ecosystems to advancing greenup and snowmelt in Alaska",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier), [ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, [IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Tundra Ecosystems / Greenup / Snowmelt Timing / Carbon Response / Alaska / Phenology / Ecosystem Productivity",
+      "reason": "No keywords were provided in the input. The suggested keywords cover the core aspects: the ecosystem type, the key drivers (greenup, snowmelt), the response variable (carbon), the location, and related concepts like phenology and productivity."
+    },
+    "related_papers": [
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Investigate the feedback mechanisms between earlier snowmelt, altered plant phenology, and subsequent carbon sequestration in Arctic tundra under different warming scenarios.",
+      "Quantify the non-linear relationships between the timing and duration of snow cover, soil moisture dynamics, and permafrost thaw in relation to carbon fluxes.",
+      "Develop integrated models that couple vegetation dynamics, snow processes, and carbon cycle models to better predict tundra ecosystem responses.",
+      "Explore the potential of using AI-driven approaches (e.g., deep learning) to detect and predict 'greenup' events and their associated carbon fluxes from remote sensing data.",
+      "Assess how changes in snowmelt timing affect nutrient availability and microbial activity in tundra soils, thereby influencing carbon cycling."
+    ],
+    "processed_time": "2026-01-15 11:47:44"
+  },
+  "QREX5V6L": {
+    "title": "Earlier snowmelt may lead to late season declines in plant productivity and carbon sequestration in Arctic tundra ecosystems",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier), [ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, [IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Arctic Tundra / Snowmelt Timing / Plant Productivity / Carbon Sequestration / Seasonal Decline / Phenology / Land-Atmosphere Exchange",
+      "reason": "No keywords were provided in the input. The suggested keywords highlight the key components: the ecosystem, the primary driver (snowmelt timing), the observed impact (declines in productivity and carbon sequestration), and related concepts like phenology and land-atmosphere exchange."
+    },
+    "related_papers": [
+      "Paper 3"
+    ],
+    "innovation_insights": [
+      "Investigate the underlying physiological mechanisms driving the late-season decline in plant productivity following early snowmelt in Arctic tundra.",
+      "Quantify the impact of altered snowmelt timing on the energy and water balance of Arctic tundra ecosystems, and its subsequent effect on carbon sequestration.",
+      "Develop more robust methods for predicting the long-term consequences of earlier snowmelt on the carbon balance of Arctic tundra, considering inter-annual variability.",
+      "Examine how different tundra plant functional types respond to earlier snowmelt and the implications for overall ecosystem carbon sequestration.",
+      "Explore the potential for using machine learning models to identify early indicators of late-season productivity declines based on snowmelt and vegetation indices."
+    ],
+    "processed_time": "2026-01-15 11:47:48"
+  },
+  "W7QWGIT3": {
+    "title": "Global snow seasonality regimes from satellite records of snow cover",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Cover, Methodology/Remote Sensing/Retrieval, Methodology/Deep Learning (LSTM_CNN), Methodology/Statistical Methods, Hazards/Drought/Flash Drought, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Tipping Points, Mechanism/Abrupt Transitions/Phase Change, Data Philosophy/Scale Issues (Spatial_Temporal), Modeling/Data Fusion",
+    "keyword_assessment": {
+      "current": "雪覆盖, 气候分类/规律, 遥感, 分类, 多年代变化, 趋势",
+      "suggested": "Snow Cover, Snow Seasonality, Remote Sensing, Machine Learning, Multi-decadal Trends, Climate Classification, Global",
+      "reason": "Keywords should be more specific to the study's contribution (new classification rules, ML application) and include the global scope. Translation to English is also beneficial for broader reach."
+    },
+    "related_papers": [
+      "Combined use of multiple cloud‐free snow cover products in China and its high‐mountain region: Implications from snow cover identification to snow phenology detection",
+      "Spatiotemporal patterns of intermittent snow cover from PlanetScope imagery using deep learning",
+      "Decreasing trends of mean and extreme snowfall in high mountain asia"
+    ],
+    "innovation_insights": [
+      "Develop physically-informed machine learning models to predict future snow seasonality regimes under different climate change scenarios, moving beyond trend analysis to predictive modeling.",
+      "Investigate the impact of different snow seasonality regimes on hydrological processes (e.g., runoff timing, groundwater recharge) and extreme events (e.g., floods, droughts) in various geographical regions.",
+      "Explore the integration of this new global snow seasonality classification with other Earth system components (e.g., vegetation phenology, soil moisture) to understand broader climate-vegetation-water interactions.",
+      "Address the limitations in classifying snow in transitional or intermittent regimes by leveraging higher-resolution or multi-sensor data fusion techniques for improved accuracy."
+    ],
+    "processed_time": "2026-01-15 11:48:09"
+  },
+  "2L2CCE77": {
+    "title": "Combined use of multiple cloud‐free snow cover products in China and its high‐mountain region: Implications from snow cover identification to snow phenology detection",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Cover, Methodology/Remote Sensing/Retrieval, Methodology/Data Fusion, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Signal Purification/Uncertainty, Modeling/Ensemble Methods, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Snow cover",
+      "suggested": "Snow Cover Products, China, High Mountain Region, Snow Phenology, Data Fusion, Satellite Remote Sensing, Intercomparison, Uncertainty Analysis",
+      "reason": "The current keyword is too broad. The paper focuses on the comparison and combination of multiple snow cover products, snow phenology, and the implications for China and its high-mountain region. Including these aspects would improve discoverability."
+    },
+    "related_papers": [
+      "Global snow seasonality regimes from satellite records of snow cover",
+      "Spatiotemporal patterns of intermittent snow cover from PlanetScope imagery using deep learning",
+      "Decreasing trends of mean and extreme snowfall in high mountain asia"
+    ],
+    "innovation_insights": [
+      "Develop a framework for optimal multi-product fusion for snow cover and phenology that accounts for regional differences and uncertainties, potentially using AI-driven approaches.",
+      "Investigate the sensitivity of hydrological models (e.g., for water resource management or flood forecasting) to different snow cover products and their phenological representations in data-scarce regions like China's high-mountain areas.",
+      "Explore how the discrepancies among snow cover products contribute to uncertainties in climate change impact assessments on snow-dependent ecosystems and water resources.",
+      "Extend the intercomparison to include newly emerging high-resolution satellite data and investigate their potential to refine snow phenology detection beyond what is currently achievable with existing products."
+    ],
+    "processed_time": "2026-01-15 11:48:13"
+  },
+  "59L6V5B8": {
+    "title": "Spatiotemporal patterns of intermittent snow cover from PlanetScope imagery using deep learning",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Cover, Methodology/Remote Sensing/Retrieval, Methodology/Deep Learning (LSTM_CNN), Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Dynamics/Rapid Onset Events, Data Philosophy/Scale Issues (Spatial_Temporal), Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Deep Learning / Satellite Imagery / Snow Cover Mapping / Intermittent Snowpack",
+      "suggested": "Deep Learning, High-Resolution Satellite Imagery, PlanetScope, Intermittent Snow Cover, Snowline Dynamics, Spatiotemporal Patterns, Complex Terrain, Hydrology",
+      "reason": "Keywords are good but could be more specific regarding the data source (PlanetScope), the phenomenon studied (intermittent snow, snowline dynamics), and the application domain (hydrology)."
+    },
+    "related_papers": [
+      "Global snow seasonality regimes from satellite records of snow cover",
+      "Combined use of multiple cloud‐free snow cover products in China and its high‐mountain region: Implications from snow cover identification to snow phenology detection",
+      "Decreasing trends of mean and extreme snowfall in high mountain asia"
+    ],
+    "innovation_insights": [
+      "Apply the developed deep learning framework to monitor snow cover dynamics in other complex mountainous regions globally, assessing its transferability and potential for identifying localized climate change impacts.",
+      "Investigate the relationship between high-resolution intermittent snow cover data and hydrological processes such as meltwater runoff and soil moisture dynamics, especially in arid and semi-arid mountainous regions.",
+      "Explore the use of physics-informed neural networks to incorporate snow physics (e.g., snow thermodynamics, ablation processes) into the deep learning model for more robust predictions and a better understanding of snow cover evolution.",
+      "Quantify the uncertainty associated with deep learning-based snow cover mapping, particularly in areas with rapid snow cover changes or limited ground truth data, and develop methods for uncertainty quantification."
+    ],
+    "processed_time": "2026-01-15 11:48:21"
+  },
+  "2MGK9J4M": {
+    "title": "Negative impacts of the withered grass stems on winter snow cover over the tibetan plateau",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Cover, Processes/Runoff & Streamflow, Processes/Soil Moisture, Hazards/Drought/Flash Drought, Applications/Climate Change Impact, Hazards/Heatwaves & Extremes",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Mechanism/Feedback Loops & Cascades, Coupling/Vegetation-Water Interaction, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "中：非生长期植被、积雪覆盖、地表能量收支、地温 英：Non-growing season vegetation, snow cover, surface energy budget, ground temperature",
+      "suggested": "Tibetan Plateau, Withered Grass Stems, Snow Cover, Surface Energy Budget, Ground Temperature, Vegetation-Land Surface Interaction, Climate Change, Remote Sensing",
+      "reason": "The current keywords are good but could be more specific to the study region (Tibetan Plateau) and the core interaction being investigated (vegetation-snow cover-energy budget). Adding 'Climate Change' and 'Remote Sensing' would also enhance relevance."
+    },
+    "related_papers": [
+      "Global snow seasonality regimes from satellite records of snow cover",
+      "Combined use of multiple cloud‐free snow cover products in China and its high‐mountain region: Implications from snow cover identification to snow phenology detection",
+      "Decreasing trends of mean and extreme snowfall in high mountain asia"
+    ],
+    "innovation_insights": [
+      "Quantify the feedback loop between increased withered grass stem cover and altered surface energy balance on snow cover persistence and its subsequent impact on soil moisture and permafrost dynamics in the Tibetan Plateau.",
+      "Investigate how changes in snow cover, influenced by vegetation, affect regional water availability and drought conditions, particularly during the transition from winter to spring in the Tibetan Plateau.",
+      "Develop integrated models that couple vegetation dynamics (including non-growing season states) with snowpack models and land surface energy balance components to simulate these complex interactions under future climate scenarios.",
+      "Expand this research to other high-altitude or high-latitude regions with significant snow cover and grassland/tundra vegetation to assess the global relevance of these findings."
+    ],
+    "processed_time": "2026-01-15 11:48:27"
+  },
+  "DLSGDQT3": {
+    "title": "Decreasing trends of mean and extreme snowfall in high mountain asia",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Cover, Hazards/Drought/Flash Drought, Hazards/Flood, Hazards/Heatwaves & Extremes, Applications/Climate Change Impact, Methodology/Remote Sensing/Retrieval, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Dynamics/Tipping Points, Mechanism/Abrupt Transitions/Phase Change, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Intense warming profoundly alters precipitation phase patterns and intensity in High Mountain Asia (HMA). While snowfall climatology and precipitation extremes have been studied, there is a lack of understanding of snowfall extremes within HMA. Here, we investigate the spatial and temporal variability of non-extreme and extreme snowfall in hydrological years 1979–2020 using multi-source meteorological data, compare weather systems during extreme and non-extreme snowfall events, and identify key circulation factors that influence fluctuations in mean annual snowfall and extreme snowfall. The snowfall amount, days, and fraction were significantly reduced in HMA, with a shorter snowfall season. Some extreme snowfall metrics were insensitive to climate change, whereas others showed significant decreases. Our research provides a reference for assessing the potential impacts of climate change on a regional scale for risk management and disaster adaptation.",
+      "suggested": "High Mountain Asia, Snowfall Trends, Extreme Snowfall, Climate Change, Precipitation Phase, Circulation Patterns, Hydrological Year, Risk Management",
+      "reason": "The current 'keywords' section is a full abstract. It needs to be condensed into concise keywords. Suggested keywords cover the key aspects: region, phenomena (trends, extremes), drivers (climate change, circulation), and application (risk management)."
+    },
+    "related_papers": [
+      "Global snow seasonality regimes from satellite records of snow cover",
+      "Combined use of multiple cloud‐free snow cover products in China and its high‐mountain region: Implications from snow cover identification to snow phenology detection",
+      "Spatiotemporal patterns of intermittent snow cover from PlanetScope imagery using deep learning",
+      "Negative impacts of the withered grass stems on winter snow cover over the tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Investigate the teleconnections between large-scale atmospheric circulation patterns and localized extreme snowfall events in HMA, and how these relationships are being altered by climate change.",
+      "Develop advanced statistical or AI-based methods to downscale climate model projections of snowfall extremes for HMA, providing more granular information for risk assessments and adaptation strategies.",
+      "Explore the cascading impacts of reduced snowfall and altered snowfall seasonality on downstream water resources, ecosystems, and human activities in HMA, and how these might exacerbate existing vulnerabilities.",
+      "Analyze the potential for shifts in precipitation phase (rain vs. snow) to drive transitions from snowfall-dominated to rainfall-dominated extreme events, and the implications for flood risk and water management."
+    ],
+    "processed_time": "2026-01-15 11:48:35"
+  },
+  "8TY2T33B": {
+    "title": "Changing snow water storage in natural snow reservoirs",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snowpack Dynamics, Processes/Runoff & Streamflow/Streamflow, Hazards/Drought/Drought, Methodology/Remote Sensing/Retrieval, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, Dynamics/Tipping Points, Data Philosophy/Signal Purification/Uncertainty, Mechanism/Abrupt Transitions/Phase Change",
+    "keyword_assessment": {
+      "current": "Snow Water Storage / Climate Change Impact / Hydrological Metrics / Snowpack Dynamics / United States",
+      "suggested": "Snow Water Storage (SwS), Snowpack Dynamics, Climate Change Impact, Hydrological Metrics, United States, SWE Curve Flattening",
+      "reason": "Keywords are generally good. Added 'SwS' for specificity, 'SWE Curve Flattening' to capture a key finding."
+    },
+    "related_papers": [
+      "Paper 0: Effects of snow water storage on hydrologic partitioning across the mountainous, western United States",
+      "Paper 2: Snow drought propagation and its impacts on streamflow drought in the alps",
+      "Paper 3: Patterns of snow drought under climate change: From dry to warm dominance",
+      "Paper 4: Northern hemisphere snow drought in earth system model simulations and ERA5‐land data in 1980–2014"
+    ],
+    "innovation_insights": [
+      "Develop and validate a standardized 'Snow Water Storage' (SwS) metric that can be widely applied across different cryospheric regions to better quantify water reservoir functions of snowpack.",
+      "Investigate the physical mechanisms behind the observed 'flattening' of SWE curves and its implications for snowmelt timing and hydrological partitioning, potentially linking to abrupt transitions.",
+      "Explore the use of SwS as a predictor or indicator for other hydrological extremes beyond streamflow drought, such as changes in soil moisture or groundwater recharge."
+    ],
+    "processed_time": "2026-01-15 11:48:53"
+  },
+  "W854VTFV": {
+    "title": "Snow drought propagation and its impacts on streamflow drought in the alps",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drought, Hazards/Drought/Flash Drought, Hazards/Compound Events/DFA, Processes/Runoff & Streamflow/Streamflow, Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions, Dynamics/Rapid Onset Events, Mechanism/Feedback Loops & Cascades, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Snow Drought / Streamflow Drought / Drought Propagation / Alps / Climate Change",
+      "suggested": "Snow Drought, Streamflow Drought, Drought Propagation, Alps, Climate Change, High-Altitude Basins, Snow-to-Streamflow Drought Link",
+      "reason": "Keywords are good. Added 'High-Altitude Basins' and 'Snow-to-Streamflow Drought Link' to highlight specific findings and regional focus."
+    },
+    "related_papers": [
+      "Paper 1: Changing snow water storage in natural snow reservoirs",
+      "Paper 3: Patterns of snow drought under climate change: From dry to warm dominance",
+      "Paper 4: Northern hemisphere snow drought in earth system model simulations and ERA5‐land data in 1980–2014"
+    ],
+    "innovation_insights": [
+      "Quantify the 'propagation efficiency' of snow drought to streamflow drought across different basin types (e.g., high-altitude vs. low-altitude, glaciated vs. non-glaciated) to identify critical thresholds and sensitivities.",
+      "Develop early warning systems that explicitly incorporate snow drought dynamics and their propagation pathways to predict streamflow droughts, particularly in snow-dominated regions.",
+      "Investigate the role of atmospheric drivers (e.g., temperature, precipitation phase) and land surface feedbacks in the snow-to-streamflow drought propagation process, potentially using process-based models or hybrid AI approaches."
+    ],
+    "processed_time": "2026-01-15 11:48:59"
+  },
+  "SMEC9T8T": {
+    "title": "Patterns of snow drought under climate change: From dry to warm dominance",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drought, Hazards/Drought/Flash Drought, Hazards/Compound Events/DFA, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change, Dynamics/Tipping Points, Dynamics/Rapid Onset Events, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "雪旱 (Snow drought, SD), 气候变化 (Climate change), 干旱型雪旱 (Dry-SD), 暖湿型雪旱 (Warm-SD), 干暖复合型雪旱 (Dry-warm compound SD), 温室气体 (Greenhouse gases), 频率 (Frequency), 转变模式 (Transition patterns)",
+      "suggested": "Snow Drought (SD), Climate Change, Dry SD, Warm-SD, Dry-Warm Compound SD, Greenhouse Gases, Snow Drought Transition Patterns, Dominance Shift (Dry to Warm)",
+      "reason": "Current keywords are comprehensive. Suggestions clarify the shift from 'dry dominance' to 'warm dominance' and specify 'transition patterns'."
+    },
+    "related_papers": [
+      "Paper 1: Changing snow water storage in natural snow reservoirs",
+      "Paper 2: Snow drought propagation and its impacts on streamflow drought in the alps",
+      "Paper 4: Northern hemisphere snow drought in earth system model simulations and ERA5‐land data in 1980–2014"
+    ],
+    "innovation_insights": [
+      "Develop AI models capable of distinguishing and predicting the three types of snow drought (dry, warm, compound) and their transition patterns under various climate change scenarios.",
+      "Investigate the attribution of the global shift from dry-dominated to warm-dominated snow droughts to specific greenhouse gas forcing and other climate change factors.",
+      "Explore the cascading impacts of different snow drought types on various sectors (e.g., water resources, ecosystems, agriculture) and assess regional vulnerabilities to these shifts."
+    ],
+    "processed_time": "2026-01-15 11:49:03"
+  },
+  "93BUJ4SA": {
+    "title": "Northern hemisphere snow drought in earth system model simulations and ERA5‐land data in 1980–2014",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drought, Methodology/Deep Learning (LSTM_CNN), Methodology/Data Fusion, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "关键词：雪干旱，地球系统模型，ERA5-Land，标准化雪水当量指数，ENSO",
+      "suggested": "Snow Drought, Earth System Models (ESMs), ERA5-Land, Standardized Snow Water Equivalent Index (SWE Index), ENSO, Model-Data Comparison, Drought Drivers, High Latitudes",
+      "reason": "Keywords are good. Added 'ESMs', 'ERA5-Land', 'SWE Index', 'ENSO', 'Model-Data Comparison', 'Drought Drivers', and 'High Latitudes' for more specificity and to reflect key components of the paper."
+    },
+    "related_papers": [
+      "Paper 1: Changing snow water storage in natural snow reservoirs",
+      "Paper 2: Snow drought propagation and its impacts on streamflow drought in the alps",
+      "Paper 3: Patterns of snow drought under climate change: From dry to warm dominance"
+    ],
+    "innovation_insights": [
+      "Develop advanced data assimilation or fusion techniques to reconcile discrepancies between Earth System Models and observational data (like ERA5-Land) for improved snow drought simulation and prediction.",
+      "Utilize AI/ML to identify complex, non-linear relationships between drivers (soil moisture, temperature, ENSO) and snow drought occurrence, potentially improving model physics or parameterizations.",
+      "Conduct targeted validation studies of ESM snow drought components using high-resolution satellite or in-situ data to diagnose model biases and improve future projections, especially in data-scarce high-latitude regions."
+    ],
+    "processed_time": "2026-01-15 11:49:08"
+  },
+  "NGPGHVIY": {
+    "title": "How does a warm and low-snow winter impact the snow cover dynamics in a humid and discontinuous boreal forest? Insights from observations and modeling in eastern canada",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Dynamics, [ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Methodology/Modeling, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Dynamics/Rapid Onset Events, [IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "少雪冬季（Low-snow winter），雪盖动态（Snow cover dynamics），森林结构（Forest structure），土壤冻结（Soil freezing），积雪融化（Snowmelt）",
+      "suggested": "Low-snow winter, Snow cover dynamics, Boreal forest, Forest structure, Soil freezing, Snowmelt, Hydrological impacts, Climate change, Eastern Canada",
+      "reason": "The current keywords are good but could be more specific by including the geographical region (Eastern Canada), the ecosystem type (Boreal forest), and explicitly mentioning the broader implications like 'Hydrological impacts' and 'Climate change'."
+    },
+    "related_papers": [
+      "Revisiting snowmelt dynamics and its impact on soil moisture and vegetation in mid-high latitude watershed over four decades",
+      "A potential seasonal predictor for summer rainfall over eastern China: Spring eurasian snowmelt",
+      "An examination of water‐related melt processes in arctic snow on tundra and sea‐ice",
+      "Interannual variations in spring snowmelt timing of alaskan black spruce forests using a bulk‐surface energy balance approach"
+    ],
+    "innovation_insights": [
+      "Investigating the specific feedback mechanisms between changing snow cover (reduced depth and duration) and soil thermal regimes in discontinuous boreal forests under warming climates.",
+      "Developing more sophisticated snowpack models that explicitly account for forest structure's influence on snow metamorphosis and melt, moving beyond purely meteorological drivers.",
+      "Quantifying the impact of altered snowmelt timing and volume on spring runoff generation in these specific humid boreal environments, which may differ from drier or continuous snowpack regions.",
+      "Exploring the long-term implications of warm-winter, low-snow conditions on ecosystem resilience and water availability, especially if these become more frequent due to climate change."
+    ],
+    "processed_time": "2026-01-15 11:49:24"
+  },
+  "UC5ANBF4": {
+    "title": "Revisiting snowmelt dynamics and its impact on soil moisture and vegetation in mid-high latitude watershed over four decades",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions, [IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Snowmelt / Soil Moisture / Vegetation / Climate Change / Mongolia",
+      "suggested": "Snowmelt timing, Soil moisture, Vegetation (NDVI), Climate change, Mongolia, Mid-high latitude watershed, Long-term dynamics, Agricultural impact",
+      "reason": "The current keywords capture the core elements. Suggestion adds 'timing' to snowmelt as it's a key aspect, specifies NDVI for vegetation, and includes the geographical context and broader implications for agriculture and long-term dynamics."
+    },
+    "related_papers": [
+      "How does a warm and low-snow winter impact the snow cover dynamics in a humid and discontinuous boreal forest? Insights from observations and modeling in eastern canada",
+      "A potential seasonal predictor for summer rainfall over eastern China: Spring eurasian snowmelt",
+      "An examination of water‐related melt processes in arctic snow on tundra and sea‐ice",
+      "Interannual variations in spring snowmelt timing of alaskan black spruce forests using a bulk‐surface energy balance approach"
+    ],
+    "innovation_insights": [
+      "Investigating the cascading effects of reduced snowmelt on soil moisture and subsequent vegetation productivity in semi-arid and agricultural regions, and how these linkages change under different climate scenarios.",
+      "Developing and validating hybrid models that combine statistical approaches (like SEM) with process-based understanding to disentangle the complex interactions between climate, snowmelt, soil moisture, and vegetation.",
+      "Exploring the regional variability within Mongolia and other mid-high latitude regions regarding snowmelt-soil moisture-vegetation relationships, and identifying areas most vulnerable to climate change impacts.",
+      "Quantifying the economic and food security implications of altered snowmelt patterns for agricultural systems in these regions."
+    ],
+    "processed_time": "2026-01-15 11:49:30"
+  },
+  "CH6C4FQ2": {
+    "title": "A potential seasonal predictor for summer rainfall over eastern China: Spring eurasian snowmelt",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Applications/Climate Change Impact, [ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Modeling/Physics-Informed AI, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "Atmosphere-land interaction; Atmospheric circulation; Precipitation; Snowmelt/icemelt; Interannual variability",
+      "suggested": "Spring snowmelt, Eurasian snow cover, Summer rainfall, Eastern China, Seasonal prediction, Atmosphere-land interaction, Teleconnection, Remote Siberia",
+      "reason": "Current keywords are relevant but lack specificity regarding the core finding: the predictive link between Eurasian snowmelt and Eastern China's summer rainfall. Adding 'seasonal prediction', 'Eastern China', and 'remote Siberia' provides better context."
+    },
+    "related_papers": [
+      "How does a warm and low-snow winter impact the snow cover dynamics in a humid and discontinuous boreal forest? Insights from observations and modeling in eastern canada",
+      "Revisiting snowmelt dynamics and its impact on soil moisture and vegetation in mid-high latitude watershed over four decades",
+      "An examination of water‐related melt processes in arctic snow on tundra and sea‐ice",
+      "Interannual variations in spring snowmelt timing of alaskan black spruce forests using a bulk‐surface energy balance approach"
+    ],
+    "innovation_insights": [
+      "Further investigating the teleconnection mechanisms between spring Eurasian snowmelt and summer rainfall in Eastern China, focusing on atmospheric circulation patterns and land-atmosphere energy exchange.",
+      "Developing and testing advanced seasonal forecasting models that incorporate spring snowmelt (especially over Siberia) as a key predictor for summer rainfall anomalies in Eastern China.",
+      "Assessing the reliability and potential biases of this predictor under different climate change scenarios, considering potential changes in snow cover extent, depth, and melt timing.",
+      "Exploring similar teleconnections between snowmelt in other regions and rainfall patterns in different monsoon systems or climate zones."
+    ],
+    "processed_time": "2026-01-15 11:49:36"
+  },
+  "UNSUYK5A": {
+    "title": "An examination of water‐related melt processes in arctic snow on tundra and sea‐ice",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Dynamics, [ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Applications/Climate Change Impact, [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change, [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), [IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "北极苔原",
+      "suggested": "Arctic snowmelt, Tundra, Sea-ice, Water-related melt processes, Cryosphere, Arctic climate, Hydrological processes, Spatial heterogeneity",
+      "reason": "The current keyword '北极苔原' (Arctic tundra) is too limited. The research covers both tundra and sea-ice, and focuses on the 'water-related melt processes' themselves, their heterogeneity, and implications for the Arctic cryosphere and climate."
+    },
+    "related_papers": [
+      "How does a warm and low-snow winter impact the snow cover dynamics in a humid and discontinuous boreal forest? Insights from observations and modeling in eastern canada",
+      "Revisiting snowmelt dynamics and its impact on soil moisture and vegetation in mid-high latitude watershed over four decades",
+      "A potential seasonal predictor for summer rainfall over eastern China: Spring eurasian snowmelt",
+      "Interannual variations in spring snowmelt timing of alaskan black spruce forests using a bulk‐surface energy balance approach"
+    ],
+    "innovation_insights": [
+      "Investigating the detailed physical processes governing meltwater generation, transport, and fate on Arctic tundra and sea-ice, particularly the role of terrain and basal properties.",
+      "Developing high-resolution models that capture the spatial heterogeneity of snowmelt processes in the Arctic, which is crucial for understanding energy balance and surface hydrology.",
+      "Quantifying the impact of these heterogeneous melt processes on permafrost thaw, ecosystem changes, and feedback mechanisms to the climate system (e.g., albedo, greenhouse gas release).",
+      "Expanding the observational network and monitoring strategies for Arctic snowmelt dynamics to capture interannual and decadal variability."
+    ],
+    "processed_time": "2026-01-15 11:49:42"
+  },
+  "H85588SX": {
+    "title": "Interannual variations in spring snowmelt timing of alaskan black spruce forests using a bulk‐surface energy balance approach",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Dynamics, [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Climate Change Impact, [ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), [IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Spring snowmelt; Bulk-surface energy balance; Black spruce forests; Meteorological drivers; Alaskan ecosystems",
+      "suggested": "Spring snowmelt timing, Black spruce forests, Alaska, Bulk-surface energy balance, Meteorological drivers, Interannual variability, Ecosystem impacts, Boreal forest",
+      "reason": "The current keywords are good and descriptive. Adding 'timing' to snowmelt and explicitly mentioning 'Alaska' and 'interannual variability' as key research aspects would improve comprehensiveness."
+    },
+    "related_papers": [
+      "How does a warm and low-snow winter impact the snow cover dynamics in a humid and discontinuous boreal forest? Insights from observations and modeling in eastern canada",
+      "Revisiting snowmelt dynamics and its impact on soil moisture and vegetation in mid-high latitude watershed over four decades",
+      "A potential seasonal predictor for summer rainfall over eastern China: Spring eurasian snowmelt",
+      "An examination of water‐related melt processes in arctic snow on tundra and sea‐ice"
+    ],
+    "innovation_insights": [
+      "Applying the bulk-surface energy balance approach to other boreal forest ecosystems or different vegetation types to assess the generality of findings on snowmelt timing drivers.",
+      "Investigating the finer-scale spatial variability of snowmelt timing within Alaskan black spruce forests and its relationship to microtopography and forest density.",
+      "Integrating snowmelt timing from this study with vegetation response models (e.g., phenology, productivity) to understand ecosystem-level consequences in Alaskan environments.",
+      "Exploring the use of remote sensing data to upscale the bulk-surface energy balance approach and monitor interannual variations in spring snowmelt timing across large boreal regions."
+    ],
+    "processed_time": "2026-01-15 11:49:48"
+  },
+  "WPEUMTMJ": {
+    "title": "The essential role of local context in shaping risk and risk reduction strategies for snowmelt‐dependent irrigated agriculture",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drought & Agriculture / Processes/Cryosphere (Snow & Glacier) / Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Dynamics/Tipping Points / Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "雪覆盖, 灌溉农业, 风险管理, 适应策略, 气候变化",
+      "suggested": "Snow Cover, Irrigated Agriculture, Risk Management, Adaptation Strategies, Climate Change, Local Context, Snowmelt Runoff, Water Scarcity",
+      "reason": "The current keywords are good but could be more specific. Adding 'Local Context' reflects a key finding. 'Snowmelt Runoff' and 'Water Scarcity' are central themes."
+    },
+    "related_papers": [
+      "Enhanced impact of future temperature on northern hemisphere snowfall",
+      "Snow cover duration delays spring green-up in the northern hemisphere the most for grasslands",
+      "Transitioning climate control on snow and streamflow dynamics over the past 70 years",
+      "Confounding effects of snow cover on remotely sensed vegetation indices of evergreen and deciduous trees: An experimental study"
+    ],
+    "innovation_insights": [
+      "Develop more sophisticated indices to quantify local context in climate adaptation for snowmelt-dependent systems.",
+      "Investigate the long-term effectiveness and scalability of water-saving adaptation strategies beyond changing crop area and type.",
+      "Explore the socio-economic drivers and barriers to implementing context-specific adaptation measures in vulnerable agricultural regions.",
+      "Quantify the feedback loops between changing snowmelt patterns, agricultural water demand, and local water resource availability."
+    ],
+    "processed_time": "2026-01-15 11:50:03"
+  },
+  "XS8LTMRJ": {
+    "title": "Enhanced impact of future temperature on northern hemisphere snowfall",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier) / Methodology/Deep Learning (LSTM_CNN) / Hazards/Drought/Drought & Climate Change",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI / Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Snow/Rain Phase Transition；Snow Hydrology；CMIP6/Climate Projections；Bias Correction（QDM）；Attribution/Path Analysis；Northern Hemisphere Regionalization。",
+      "suggested": "Snowfall, Snow Fraction, CMIP6, Path Analysis, Climate Change, Bias Correction (QDM), Wet-bulb Temperature, Northern Hemisphere, Hydrology, Precipitation Phase",
+      "reason": "The current keywords are quite descriptive and technically accurate. Adding 'Northern Hemisphere', 'Hydrology', and 'Precipitation Phase' would provide broader disciplinary context and explicitly state the core subject."
+    },
+    "related_papers": [
+      "The essential role of local context in shaping risk and risk reduction strategies for snowmelt‐dependent irrigated agriculture",
+      "Snow cover duration delays spring green-up in the northern hemisphere the most for grasslands",
+      "Transitioning climate control on snow and streamflow dynamics over the past 70 years",
+      "Confounding effects of snow cover on remotely sensed vegetation indices of evergreen and deciduous trees: An experimental study"
+    ],
+    "innovation_insights": [
+      "Investigate the physical mechanisms driving the increasing dominance of temperature over precipitation in controlling snowfall under warming.",
+      "Develop advanced bias correction techniques tailored for phase transition variables in climate models.",
+      "Explore the implications of enhanced temperature impact on snowfall for regional water resource planning and infrastructure design.",
+      "Quantify the uncertainty associated with future snowfall projections under different SSP scenarios, considering both model bias and internal variability."
+    ],
+    "processed_time": "2026-01-15 11:50:08"
+  },
+  "2KUVHNED": {
+    "title": "Snow cover duration delays spring green-up in the northern hemisphere the most for grasslands",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier) / Hazards/Drought/Drought & Climate Change / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction / Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "雪覆盖, 植被物候, 碳通量, CMIP6, 气候变化",
+      "suggested": "Snow Cover Duration, Vegetation Phenology, Spring Green-up, Grasslands, CMIP6 Models, Carbon Flux, Climate Change, Remote Sensing, Northern Hemisphere",
+      "reason": "Keywords are relevant. Adding 'Snow Cover Duration', 'Spring Green-up', and 'Grasslands' are more specific to the paper's findings. Including 'Remote Sensing' and 'Northern Hemisphere' provides broader context."
+    },
+    "related_papers": [
+      "The essential role of local context in shaping risk and risk reduction strategies for snowmelt‐dependent irrigated agriculture",
+      "Enhanced impact of future temperature on northern hemisphere snowfall",
+      "Transitioning climate control on snow and streamflow dynamics over the past 70 years",
+      "Confounding effects of snow cover on remotely sensed vegetation indices of evergreen and deciduous trees: An experimental study"
+    ],
+    "innovation_insights": [
+      "Improve the representation of snow cover duration and its impact on vegetation phenology in Earth System Models (ESMs).",
+      "Develop better methods for validating CMIP6 models' ability to capture snow-vegetation interactions.",
+      "Investigate the cascading effects of delayed spring green-up on carbon sequestration, ecosystem services, and regional climate feedbacks.",
+      "Explore the differential responses of various grassland types to snow cover dynamics under climate change."
+    ],
+    "processed_time": "2026-01-15 11:50:12"
+  },
+  "VW2S62UJ": {
+    "title": "Transitioning climate control on snow and streamflow dynamics over the past 70 years",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier) / Runoff & Streamflow / Hazards/Drought/Drought & Climate Change / Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change / Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "气候变化 (Climate Change)，积雪水文 (Snow Hydrology)，径流动态 (Streamflow Dynamics)，主导因素转变 (Transition in Dominance)，温度阈值 (Temperature Thresholds)，水资源管理 (Water Resource Management)",
+      "suggested": "Snow Hydrology, Streamflow Dynamics, Climate Change, Dominant Factor Transition, Temperature Thresholds, Water Resource Management, Cold Season Precipitation, Northern Hemisphere",
+      "reason": "Keywords are highly relevant. 'Cold Season Precipitation' and 'Northern Hemisphere' could be added for more specific context on the study's focus and geographical scope."
+    },
+    "related_papers": [
+      "The essential role of local context in shaping risk and risk reduction strategies for snowmelt‐dependent irrigated agriculture",
+      "Enhanced impact of future temperature on northern hemisphere snowfall",
+      "Snow cover duration delays spring green-up in the northern hemisphere the most for grasslands",
+      "Confounding effects of snow cover on remotely sensed vegetation indices of evergreen and deciduous trees: An experimental study"
+    ],
+    "innovation_insights": [
+      "Quantify the non-linear relationship between temperature thresholds and the timing/magnitude of streamflow changes.",
+      "Develop early warning systems for hydrological shifts in snow-dominated regions based on the identified dominant factor transitions.",
+      "Assess the implications of these transitions for water resource allocation and management strategies, particularly in transitional climate zones.",
+      "Investigate the role of land-use/land-cover change in modulating the climate control on snow and streamflow dynamics."
+    ],
+    "processed_time": "2026-01-15 11:50:17"
+  },
+  "6QLHTLXM": {
+    "title": "Confounding effects of snow cover on remotely sensed vegetation indices of evergreen and deciduous trees: An experimental study",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier) / Methodology/Remote Sensing/Retrieval / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Vegetation indices",
+      "suggested": "Snow Cover, Vegetation Indices, Remote Sensing, Boreal Forests, Photosynthesis, Evergreen Trees, Deciduous Trees, Confounding Effects, Experimental Study",
+      "reason": "The current keyword is too broad. The suggested keywords cover the key elements of the study: the confounding factor (snow cover), the measured variables (vegetation indices), the method (remote sensing, experimental study), the ecosystem (boreal forests, tree types), and the process being monitored (photosynthesis)."
+    },
+    "related_papers": [
+      "The essential role of local context in shaping risk and risk reduction strategies for snowmelt‐dependent irrigated agriculture",
+      "Enhanced impact of future temperature on northern hemisphere snowfall",
+      "Snow cover duration delays spring green-up in the northern hemisphere the most for grasslands",
+      "Transitioning climate control on snow and streamflow dynamics over the past 70 years"
+    ],
+    "innovation_insights": [
+      "Develop novel algorithms for snow cover removal or correction in remote sensing time series of vegetation indices.",
+      "Integrate experimental findings into satellite data processing chains to improve accuracy of photosynthetic estimations in snow-affected regions.",
+      "Investigate the differential impact of snow cover on other spectral indices beyond NDVI, PRI, and CCI for various vegetation types.",
+      "Explore the application of machine learning or physics-informed models to disentangle snow effects from actual vegetation changes in remote sensing data."
+    ],
+    "processed_time": "2026-01-15 11:50:21"
+  },
+  "GFGAV4KD": {
+    "title": "Rolling forecast of snowmelt floods in data-scarce mountainous regions using weather forecast products to drive distributed energy balance hydrological model",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Snowmelt Runoff, Hazards/Flood/Snowmelt Flood, Methodology/Hydrological Modeling, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Dynamics/Rapid Onset Events, Data Philosophy/Data Quality & Validation",
+    "keyword_assessment": {
+      "current": "融雪洪水, 滚动预报, 雪盖, 冻结层, VIC-CAS模型, 新疆北部",
+      "suggested": "Snowmelt Flood, Rolling Forecast, Hydrological Modeling, Data-Scarce Regions, VIC-CAS, Northern Xinjiang",
+      "reason": "The original keywords are good but mostly in Chinese. Translating to English and slightly rephrasing for broader searchability enhances comprehensiveness."
+    },
+    "related_papers": [
+      "Paper 1: Snowmelt-radiation feedback impact on western U.S. streamflow",
+      "Paper 2: Impact of intercepted and sub-canopy snow microstructure on snowpack response to rain-on-snow events under a boreal canopy",
+      "Paper 3: Spatial variation of the rain–snow temperature threshold across the northern hemisphere"
+    ],
+    "innovation_insights": [
+      "Opportunity to explore the transferability of the VIC-CAS model and forecast system to other data-scarce mountainous regions facing similar snowmelt flood challenges.",
+      "Investigate the impact of different weather forecast product resolutions and lead times on the rolling forecast accuracy for snowmelt floods.",
+      "Address the limitation of model calibration in data-scarce regions by exploring data assimilation techniques or transfer learning approaches using data-rich regions."
+    ],
+    "processed_time": "2026-01-15 11:50:35"
+  },
+  "PPLECF5U": {
+    "title": "Snowmelt‐radiation feedback impact on western U.S. streamflow",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Hazards/Drought/Drought Impact, Methodology/Hydrological Modeling, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "snowmelt-radiation feedback, runoff sensitivity, warming, hydrologic model, western U.S.",
+      "suggested": "Snowmelt-Radiation Feedback, Runoff Sensitivity, Warming Impact, Hydrologic Model, Western US, Albedo Effect",
+      "reason": "Keywords are accurate but could be expanded to include the mechanism (albedo effect) and application context more explicitly for better retrieval."
+    },
+    "related_papers": [
+      "Paper 0: Rolling forecast of snowmelt floods in data-scarce mountainous regions using weather forecast products to drive distributed energy balance hydrological model",
+      "Paper 2: Impact of intercepted and sub-canopy snow microstructure on snowpack response to rain-on-snow events under a boreal canopy",
+      "Paper 3: Spatial variation of the rain–snow temperature threshold across the northern hemisphere"
+    ],
+    "innovation_insights": [
+      "Explore the compounding effects of snowmelt-radiation feedback with other climate change impacts (e.g., precipitation changes) on Western US streamflow.",
+      "Investigate how this feedback mechanism varies across different snowpack regimes (e.g., continental vs. maritime) within the Western US or other mountainous regions.",
+      "Develop more sophisticated hybrid models that explicitly capture the snow albedo feedback within the land-surface component to improve climate change projections of streamflow."
+    ],
+    "processed_time": "2026-01-15 11:50:39"
+  },
+  "BJCRUCXY": {
+    "title": "Impact of intercepted and sub-canopy snow microstructure on snowpack response to rain-on-snow events under a boreal canopy",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier), Hazards/Flood/Rain-on-Snow Flood, Methodology/Hydrological Modeling, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Data Philosophy/Multi-Source Integration, Dynamics/Abrupt Transitions/Phase Change",
+    "keyword_assessment": {
+      "current": "Rain-on-snow events",
+      "suggested": "Rain-on-Snow Events, Boreal Forest, Snowpack Microstructure, Intercepted Snow, Sub-canopy Snow, Hydrologic Response",
+      "reason": "The current keyword is too general. It needs to be expanded to include the specific context (boreal forest, canopy) and the focus on microstructure and intercepted snow for better specificity."
+    },
+    "related_papers": [
+      "Paper 0: Rolling forecast of snowmelt floods in data-scarce mountainous regions using weather forecast products to drive distributed energy balance hydrological model",
+      "Paper 1: Snowmelt-radiation feedback impact on western U.S. streamflow",
+      "Paper 3: Spatial variation of the rain–snow temperature threshold across the northern hemisphere"
+    ],
+    "innovation_insights": [
+      "Investigate the impact of different forest types and canopy densities on the rain-on-snow process and subsequent runoff generation.",
+      "Develop improved parameterizations for intercepted snow and sub-canopy snow processes in distributed hydrological models to better simulate extreme events.",
+      "Explore the potential for using ground-based remote sensing techniques (e.g., radar, lidar) to monitor snowpack microstructure and intercepted snow dynamics in near real-time for event prediction."
+    ],
+    "processed_time": "2026-01-15 11:50:44"
+  },
+  "IYAPWJNH": {
+    "title": "Spatial variation of the rain–snow temperature threshold across the northern hemisphere",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier), Hazards/Drought/Drought Trigger, Methodology/Statistical Methods, Methodology/Climate Model Evaluation",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change, Data Philosophy/Signal Purification/Uncertainty, Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Snow temperature threshold, Humidity, Northern Hemisphere, Precipitation phase partitioning, Climate simulations",
+      "suggested": "Rain-Snow Temperature Threshold, Precipitation Phase, Humidity, Spatial Variation, Northern Hemisphere, Climate Models",
+      "reason": "Keywords are good. 'Precipitation phase partitioning' can be simplified to 'Precipitation Phase' and 'Climate simulations' to 'Climate Models' for conciseness."
+    },
+    "related_papers": [
+      "Paper 0: Rolling forecast of snowmelt floods in data-scarce mountainous regions using weather forecast products to drive distributed energy balance hydrological model",
+      "Paper 1: Snowmelt-radiation feedback impact on western U.S. streamflow",
+      "Paper 2: Impact of intercepted and sub-canopy snow microstructure on snowpack response to rain-on-snow events under a boreal canopy"
+    ],
+    "innovation_insights": [
+      "Develop regionally specific algorithms for precipitation phase partitioning that dynamically adjust the rain-snow temperature threshold based on local atmospheric conditions (humidity, wind, etc.).",
+      "Evaluate how uncertainties in the rain-snow temperature threshold affect projections of future water availability and extreme event frequencies (e.g., rain-on-snow events, flash floods) under climate change.",
+      "Integrate improved precipitation phase partitioning schemes into global and regional climate models to enhance their representation of hydrological processes, especially in transitional climate zones."
+    ],
+    "processed_time": "2026-01-15 11:50:50"
+  }
+}

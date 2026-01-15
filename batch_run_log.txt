@@ -1,6 +1,6 @@
-批量运行开始时间: 2026-01-14 11:02:25
-要处理的 collection: ['Fire', 'GCM', 'Hydro-Model', 'Hydroclimate Volatility', 'LSM-Reanalysis', 'Open Water', 'Review', 'Snow', 'Soil', 'Temperature', 'Terrestrial', 'Vegetation']
+批量运行开始时间: 2026-01-14 16:28:11
+要处理的 collection: ['Fire', 'GCM', 'Hydro-Model', 'Hydroclimate Volatility', 'LSM-Reanalysis', 'Open Water', 'Review', 'Snow', 'Soil', 'Temperature', 'Terrestrial']
 ================================================================================
 
-[2026-01-14 11:02:25] 开始处理 collection: Fire
-[2026-01-14 11:02:25] ✅ 配置文件已更新: TARGET_COLLECTION_PATH = 'Fire'
+[2026-01-14 16:28:11] 开始处理 collection: Fire
+[2026-01-14 16:28:11] ✅ 配置文件已更新: TARGET_COLLECTION_PATH = 'Fire'

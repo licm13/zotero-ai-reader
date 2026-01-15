@@ -1,0 +1,1483 @@
+{
+  "4U57JPZN": {
+    "title": "Roles of soil and atmospheric dryness on terrestrial vegetation productivity in China ‐ which dominates at what thresholds",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Vegetation Productivity, Hazards/Drought/Drought Impacts, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Threshold Behavior, Coupling/Vegetation-Water Interaction, Data Philosophy/Signal Purification",
+    "keyword_assessment": {
+      "current": "土壤水分 (Soil moisture, SM), 水汽压亏缺 (Vapor pressure deficit, VPD), 总初级生产力 (Gross primary productivity, GPP), 主导作用 (Dominance), 阈值 (Thresholds), 中国 (China), 联结函数 (Copula)",
+      "suggested": "Soil Moisture, Vapor Pressure Deficit, Gross Primary Productivity, Drought Dominance, Thresholds, China, Copula, Land-Atmosphere Interactions, Vegetation Response",
+      "reason": "Current keywords are good but can be expanded to include broader concepts like Land-Atmosphere Interactions and Vegetation Response, which are central to the paper's theme. Including 'Drought Dominance' captures the core question of which factor is more influential. The Chinese terms are useful for the original context but English equivalents are more standard for broader indexing."
+    },
+    "related_papers": [
+      "Atmospheric vapor pressure deficit outweighs soil moisture deficit in controlling global ecosystem water use efficiency"
+    ],
+    "innovation_insights": [
+      "Investigate the spatial heterogeneity of dominance thresholds for soil vs. atmospheric dryness across different climatic zones globally, not just in China.",
+      "Explore the role of land management practices (e.g., irrigation, afforestation) in modulating the thresholds and dominance of soil and atmospheric dryness on GPP.",
+      "Develop dynamic models that explicitly incorporate these dominance thresholds to improve predictions of vegetation productivity under future climate change scenarios.",
+      "Address the limitations of statistical models like Copulas in capturing complex non-linear interactions between SM, VPD, and GPP, potentially through hybrid modeling approaches."
+    ],
+    "processed_time": "2026-01-14 20:15:35"
+  },
+  "2GNSP48A": {
+    "title": "Global evaluation of the “dry gets drier, and wet gets wetter” paradigm from a terrestrial water storage change perspective",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drought Trends, Methodology/Hydrological Models, Processes/Runoff & Streamflow/Terrestrial Water Storage",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Data Philosophy/Multi-Source Integration, Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Terrestrial Water Storage / Climate Change / Hydrological Models / Drought / Wetting",
+      "suggested": "Terrestrial Water Storage Change, Climate Change, Hydrological Models, DDWW Paradigm, Drought, Wetting, Land Water Balance, Model Uncertainty",
+      "reason": "The current keywords are adequate but can be more specific. Adding 'Terrestrial Water Storage Change' is more precise than just 'Terrestrial Water Storage'. Including 'DDWW Paradigm' directly names the concept being investigated. 'Land Water Balance' encompasses the core idea, and 'Model Uncertainty' reflects the study's findings regarding data source influence."
+    },
+    "related_papers": [
+      "Global evaluation of the “dry gets drier, and wet gets wetter” paradigm from a terrestrial water storage change perspective",
+      "Global greening drives significant soil moisture loss"
+    ],
+    "innovation_insights": [
+      "Investigate the physical mechanisms driving the divergence from the DDWW paradigm at regional scales, going beyond aggregate terrestrial water storage.",
+      "Develop advanced data fusion techniques to reconcile discrepancies between different observational and model-based estimates of terrestrial water storage change.",
+      "Explore the role of extreme events (e.g., intense rainfall, prolonged droughts) in shaping short-term deviations from or confirmations of the DDWW pattern.",
+      "Examine how changes in land use and human water management interact with climate change to influence terrestrial water storage trends and the DDWW paradigm."
+    ],
+    "processed_time": "2026-01-14 20:15:44"
+  },
+  "4T3LGKKW": {
+    "title": "1 global greening drives significant soil moisture loss",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, Processes/Evapotranspiration (ET)/Vegetation Water Use, Applications/Climate Change Impact, Methodology/Remote Sensing/Remote Sensing",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Coupling/Vegetation-Water Interaction, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "植被动态 / 土壤水分 / 遥感 / 地球系统模型 / 气候变化",
+      "suggested": "Global Greening, Soil Moisture Loss, Evapotranspiration, Remote Sensing, Earth System Models, Climate Change, Vegetation Dynamics, Arid Lands",
+      "reason": "The current keywords are relevant. Adding 'Global Greening' directly reflects the paper's title and main driver. 'Soil Moisture Loss' is a key outcome. Explicitly mentioning 'Evapotranspiration' is important as it's the mechanism. 'Arid Lands' is relevant given the authors' affiliations and the topic of soil moisture loss."
+    },
+    "related_papers": [
+      "Roles of soil and atmospheric dryness on terrestrial vegetation productivity in China ‐ which dominates at what thresholds",
+      "Widespread sensitivity of grassland water use efficiency to deep soil moisture on the tibetan plateau",
+      "Atmospheric vapor pressure deficit outweighs soil moisture deficit in controlling global ecosystem water use efficiency"
+    ],
+    "innovation_insights": [
+      "Quantify the feedback loop where increased vegetation cover (greening) leads to increased ET, further drying soils, and potentially limiting future greening or increasing drought risk.",
+      "Investigate how different types of vegetation greening (e.g., forest expansion vs. agricultural intensification) have varying impacts on soil moisture.",
+      "Develop more sophisticated remote sensing algorithms to disentangle the contributions of various drivers (including greening) to soil moisture trends.",
+      "Assess the long-term sustainability of current greening trends given projected soil moisture declines and potential shifts in water availability."
+    ],
+    "processed_time": "2026-01-14 20:15:49"
+  },
+  "E9UXSB52": {
+    "title": "Widespread sensitivity of grassland water use efficiency to deep soil moisture on the tibetan plateau",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, Processes/Evapotranspiration (ET)/Vegetation Water Use, Methodology/Statistical Methods/Machine Learning, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Data Philosophy/Scale Issues (Spatial_Temporal), Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "水分利用效率（WUE，即总初级生产力与蒸散发的比值）是衡量生态系统响应气候变化的关键指标，而土壤湿度是其重要决定因素 6。由于不同土层的水分动态各异，它们对植被的影响也不同，但此前学界对不同土层水分如何影响草地WUE知之甚少 7。本研究利用随机森林和SHAP（Shapley additive explanations）方法，分析了2001-2020年间青藏高原高寒草甸和高寒草原生态系统中，草地WUE对不同土层土壤湿度的敏感性 88。研究发现，草地WUE对深层土壤湿度（deepSM）的敏感性高于表层（surSM）和中层（midSM） 9。结构方程模型表明，深层土壤水受气温、饱和水汽压差（vpd）和风速（ws）的影响较小，能为植被提供更稳定的水源，因此在同等湿度变化下对WUE影响更大 10。此外，由于更强的生态适应性和更深的根系，高寒草原对土壤湿度的敏感性低于高寒草甸 1111。随着时间推移，WUE对深层土壤水的敏感性保持稳定，但对表层和中层土壤水的敏感性在两种草地类型中均显著下降 1212。这种下降与降水增加、风速减小和vpd增加有关 131313。这些发现强调了深层土壤水在维持草地水碳耦合中的重要作用，并为未来更大空间尺度的研究奠定了基础 14。",
+      "suggested": "Water Use Efficiency (WUE), Soil Moisture (Surface, Root Zone, Deep), Tibetan Plateau, Grasslands, Machine Learning (Random Forest, SHAP), Climate Change, Land-Atmosphere Coupling, Vegetation Response, Temporal Trends",
+      "reason": "The provided text from the note is essentially a detailed summary rather than concise keywords. The suggested keywords capture the core elements: the main variable (WUE), the key influencing factors (soil moisture at different depths), the study region (Tibetan Plateau Grasslands), the methodology (ML), and the context (climate change, land-atmosphere coupling)."
+    },
+    "related_papers": [
+      "Roles of soil and atmospheric dryness on terrestrial vegetation productivity in China ‐ which dominates at what thresholds",
+      "Global greening drives significant soil moisture loss",
+      "Atmospheric vapor pressure deficit outweighs soil moisture deficit in controlling global ecosystem water use efficiency"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term implications of declining sensitivity to surface/mid-layer soil moisture and increasing reliance on deep soil moisture for grassland resilience under future water scarcity.",
+      "Explore the physiological mechanisms behind the differing sensitivities of high-altitude meadows and grasslands to soil moisture, especially regarding root depth and water uptake strategies.",
+      "Apply similar machine learning approaches to other water-limited ecosystems globally to assess the universality of deep soil moisture dominance and the observed temporal trends in sensitivity.",
+      "Integrate findings on deep soil moisture dynamics with groundwater recharge models to understand the broader hydrological implications for mountain regions."
+    ],
+    "processed_time": "2026-01-14 20:15:56"
+  },
+  "AV42ZCG9": {
+    "title": "Atmospheric vapor pressure deficit outweighs soil moisture deficit in controlling global ecosystem water use efficiency",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Vegetation Water Use, Processes/Evapotranspiration (ET)/Evapotranspiration, Methodology/Remote Sensing/Remote Sensing, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Coupling/Energy-Water Nexus, Data Philosophy/Signal Purification",
+    "keyword_assessment": {
+      "current": "水汽压亏缺 (VPD) 17, 土壤水分 (SM) 18, 全球生态系统水分利用效率 (WUE_E) 19, 植物冠层水分利用效率 (WUE_Et) 20, 碳水耦合 2121, 气候变化 2222, 陆气相互作用 2323。",
+      "suggested": "Vapor Pressure Deficit (VPD), Soil Moisture (SM), Ecosystem Water Use Efficiency (WUE_E), Canopy Water Use Efficiency (WUE_Et), Carbon-Water Coupling, Climate Change, Land-Atmosphere Interactions, Global Scale",
+      "reason": "The current keywords are accurate and comprehensive, covering the main variables, metrics, and context. Adding 'Global Scale' emphasizes the study's scope. 'Land-Atmosphere Interactions' is a key theme captured by the existing keywords but worth highlighting explicitly."
+    },
+    "related_papers": [
+      "Roles of soil and atmospheric dryness on terrestrial vegetation productivity in China ‐ which dominates at what thresholds",
+      "Global greening drives significant soil moisture loss",
+      "Widespread sensitivity of grassland water use efficiency to deep soil moisture on the tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Investigate the physical and physiological processes that lead to VPD having a greater control on WUE compared to SM, particularly under varying background climate conditions.",
+      "Develop a hierarchical modeling framework that explicitly links VPD and SM dynamics to different scales of water use efficiency (canopy vs. ecosystem) and their impacts on carbon cycles.",
+      "Explore the implications of VPD dominance for drought management, as strategies focused solely on soil moisture may not be sufficient if atmospheric demand is the primary limiter.",
+      "Analyze the long-term trends and projections of VPD and SM, and their combined impact on WUE, considering potential non-linear responses and interactions under future warming scenarios."
+    ],
+    "processed_time": "2026-01-14 20:16:02"
+  },
+  "2VX677H6": {
+    "title": "Widespread underestimation of ecosystem water use efficiency in CMIP6 models",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water Use Efficiency, Methodology/Statistical Methods, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Water Use Efficiency / FLUXNET / CMIP6 Models / Earth System Models / Emergent Constraint",
+      "suggested": "Water Use Efficiency, FLUXNET, CMIP6 Models, Earth System Models, Emergent Constraint, Model Evaluation, Global Scale",
+      "reason": "Current keywords are accurate but could be more comprehensive by adding terms like 'Model Evaluation' to reflect the paper's core task and 'Global Scale' to emphasize its scope."
+    },
+    "related_papers": [
+      "A data-driven method for direct estimation of global 8-day 500 m ecosystem water use efficiency",
+      "Solar-induced chlorophyll fluorescence sheds light on global evapotranspiration"
+    ],
+    "innovation_insights": [
+      "Investigate the specific mechanisms within CMIP6 models that lead to the underestimation of WUE, moving beyond emergent constraints to process-based understanding.",
+      "Explore the application of emergent constraints to other critical hydrological variables simulated by Earth System Models to reduce uncertainty.",
+      "Develop more robust data assimilation techniques for constraining ESMs using observational datasets like FLUXNET for improved climate projections."
+    ],
+    "processed_time": "2026-01-14 20:16:21"
+  },
+  "QJ38UASX": {
+    "title": "A data-driven method for direct estimation of global 8-day 500 m ecosystem water use efficiency",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Water Use Efficiency, Methodology/Deep Learning (LSTM_CNN), Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Ecosystem water use efficiency (WUE), machine learning (ML), remote sensing (RS), gross primary production (GPP), evapotranspiration (ET)",
+      "suggested": "Ecosystem water use efficiency (WUE), machine learning (ML), remote sensing (RS), direct estimation, Random Forest, Gross Primary Production (GPP), Evapotranspiration (ET)",
+      "reason": "The current keywords are good. Adding 'direct estimation' and 'Random Forest' would highlight the methodological novelty and specific ML technique used, making the keywords more informative."
+    },
+    "related_papers": [
+      "Widespread underestimation of ecosystem water use efficiency in CMIP6 models",
+      "Solar-induced chlorophyll fluorescence sheds light on global evapotranspiration",
+      "Soil moisture profiles of ecosystem water use revealed with ECOSTRESS"
+    ],
+    "innovation_insights": [
+      "Explore the potential of this direct data-driven WUE estimation method for near-real-time monitoring and early warning systems for ecosystem stress.",
+      "Investigate the transferability of the DRF model to different ecosystems and geographical regions, and analyze the reasons for any performance variations.",
+      "Develop hybrid models that integrate this direct ML-based WUE estimation with process-based approaches to leverage the strengths of both."
+    ],
+    "processed_time": "2026-01-14 20:16:28"
+  },
+  "KHET9PAV": {
+    "title": "Solar-induced chlorophyll fluorescence sheds light on global evapotranspiration",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Evapotranspiration, Methodology/Remote Sensing/Retrieval, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Energy-Water Nexus, Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "蒸散, 最优气孔导度理论, 太阳诱导荧光, 水碳关系, 全球水文循环",
+      "suggested": "Evapotranspiration (ET), Solar-induced chlorophyll fluorescence (SIF), Optimal stomatal conductance theory, Water-carbon relations, Global hydrology, Remote Sensing",
+      "reason": "The current keywords are good but include Chinese terms. Translating them to English and adding 'Evapotranspiration (ET)', 'Global hydrology', and 'Remote Sensing' would make them more standard and globally recognizable for indexing and retrieval."
+    },
+    "related_papers": [
+      "Widespread underestimation of ecosystem water use efficiency in CMIP6 models",
+      "A data-driven method for direct estimation of global 8-day 500 m ecosystem water use efficiency",
+      "Soil moisture profiles of ecosystem water use revealed with ECOSTRESS"
+    ],
+    "innovation_insights": [
+      "Further investigate the physical mechanisms linking SIF to ET beyond the optimal stomatal conductance theory, potentially uncovering new insights into land-atmosphere coupling.",
+      "Explore the use of SIF data for diagnosing ET limitations under extreme events (e.g., heatwaves, droughts) where traditional methods might struggle.",
+      "Integrate SIF-based ET estimates into global hydrological models to improve their simulation of water and carbon cycles, especially in data-scarce regions."
+    ],
+    "processed_time": "2026-01-14 20:16:35"
+  },
+  "VMS5QPHI": {
+    "title": "Spatiotemporal evolution of global long-term patterns of soil moisture",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, Applications/Climate Change Impact, Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "This article is published in \"Science of the Total Environment\" due to its comprehensive analysis of global soil moisture trends, which is critical for understanding environmental changes and managing water resources. The study's implications include the identification of significant soil drying trends and their potential impacts on agriculture, biodiversity, and climate feedback mechanisms.",
+      "suggested": "Soil moisture, Spatiotemporal evolution, Long-term patterns, Global trends, Climate change, Hydrological cycle, Drought",
+      "reason": "The current 'keywords' are actually a justification for publication and a summary of implications, not actual keywords. They need to be replaced with concise terms that accurately represent the paper's content for retrieval."
+    },
+    "related_papers": [
+      "Soil moisture profiles of ecosystem water use revealed with ECOSTRESS"
+    ],
+    "innovation_insights": [
+      "Investigate the cascading effects of observed long-term soil moisture drying trends on other components of the Earth system, such as groundwater recharge and surface water availability.",
+      "Utilize advanced machine learning techniques to identify non-linear drivers and feedback mechanisms contributing to the observed soil moisture evolution patterns.",
+      "Develop improved soil moisture monitoring networks or data fusion strategies to address spatial scale issues and provide more accurate, high-resolution soil moisture data for various applications."
+    ],
+    "processed_time": "2026-01-14 20:16:40"
+  },
+  "DMV6VBV7": {
+    "title": "Soil moisture profiles of ecosystem water use revealed with ECOSTRESS",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, Processes/Evapotranspiration (ET)/Water Use Efficiency, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "土壤湿度, 生态系统水分利用, ECOSTRESS, 地表温度, 遥感",
+      "suggested": "Soil moisture, Ecosystem water use, ECOSTRESS, Land Surface Temperature (LST), Remote Sensing, Soil moisture profile, Vegetation-water interaction",
+      "reason": "The current keywords are good but include Chinese terms. Translating them to English and adding 'Soil moisture profile' and 'Vegetation-water interaction' would make them more standard and informative, reflecting the paper's specific focus on profile and its ecological implications."
+    },
+    "related_papers": [
+      "Spatiotemporal evolution of global long-term patterns of soil moisture"
+    ],
+    "innovation_insights": [
+      "Integrate ECOSTRESS-derived soil moisture profiles with other remote sensing products (e.g., SIF, GPP) to create a more comprehensive understanding of ecosystem water use across different depths.",
+      "Develop more sophisticated models that explicitly incorporate soil moisture profile information from remote sensing to improve ET and GPP estimations, especially in water-limited environments.",
+      "Investigate how variations in soil moisture profile dynamics, as revealed by ECOSTRESS, influence ecosystem resilience and vulnerability to drought under changing climate conditions."
+    ],
+    "processed_time": "2026-01-14 20:16:46"
+  },
+  "46QVK9EW": {
+    "title": "Use of landsat thermal imagery in monitoring evapotranspiration and managing water resources",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Remote Sensing/Applications/Water Resources Management",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Evapotranspiration",
+      "suggested": "Evapotranspiration, Landsat Thermal Imagery, Land Surface Temperature, Surface Energy Balance, Water Resources Management, Remote Sensing",
+      "reason": "The current keyword is too broad. Adding terms related to the data source (Landsat Thermal Imagery), the key variable derived (Land Surface Temperature), the modeling approach (Surface Energy Balance), the application area (Water Resources Management), and the methodology (Remote Sensing) will significantly improve searchability and comprehensiveness."
+    },
+    "related_papers": [
+      "Paper 1: An unmixing-based spatial downscaling fusion approach for the MODIS evapotranspiration product",
+      "Paper 2: Estimation of daily evapotranspiration and irrigation water efficiency at a Landsat-like scale for an arid irrigation area using multi-source remote sensing data",
+      "Paper 4: geeSEBAL-MODIS: Continental-scale evapotranspiration based on the surface energy balance for south America"
+    ],
+    "innovation_insights": [
+      "Develop advanced fusion techniques that combine the moderate spatial resolution of Landsat thermal data with higher temporal resolution sensors to overcome the limitations of individual satellite revisit times.",
+      "Investigate the transferability of the demonstrated ET mapping techniques to different agro-climatic zones and land cover types, especially those with complex agricultural practices or diverse natural vegetation.",
+      "Explore the integration of ET estimates derived from thermal imagery into hydrological models for improved water resource allocation and drought monitoring systems, particularly in data-scarce regions.",
+      "Address the challenges in accurate LST retrieval and atmospheric correction for thermal data, which can limit the precision of ET estimates."
+    ],
+    "processed_time": "2026-01-14 20:17:09"
+  },
+  "JDN3D45P": {
+    "title": "An unmixing-based spatial downscaling fusion approach for the MODIS evapotranspiration product",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Remote Sensing/Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Evapotranspiration, fusion model, GF-1 WFV, MOD16 ET product, spatial downscaling 关键词: 蒸散发, 融合模型, GF-1 WFV, MOD16 ET 产品, 空间降尺度",
+      "suggested": "Evapotranspiration, Spatial Downscaling, Data Fusion, MODIS ET Product, MOD16, GF-1 WFV, Unmixing Model, Remote Sensing",
+      "reason": "The keywords are good and specific to the paper's content. Adding 'Spatial Downscaling', 'Data Fusion', and 'Unmixing Model' explicitly captures the core methodology. Specifying 'MODIS ET Product' and 'MOD16' is also beneficial. 'GF-1 WFV' is a specific sensor, which is good."
+    },
+    "related_papers": [
+      "Paper 0: Use of landsat thermal imagery in monitoring evapotranspiration and managing water resources",
+      "Paper 2: Estimation of daily evapotranspiration and irrigation water efficiency at a Landsat-like scale for an arid irrigation area using multi-source remote sensing data",
+      "Paper 4: geeSEBAL-MODIS: Continental-scale evapotranspiration based on the surface energy balance for south America"
+    ],
+    "innovation_insights": [
+      "Explore novel unmixing algorithms or machine learning approaches for more robust spatial downscaling of coarse-resolution ET products, especially in heterogeneous landscapes.",
+      "Investigate the application of this unmixing-based fusion approach to other ET products (e.g., GLEAM, PET derived from reanalysis) or other land surface variables derived from remote sensing.",
+      "Develop methods to integrate finer spatial resolution data from new satellite constellations (e.g., Sentinel-2, Planet) into the downscaling process to further enhance ET product resolution.",
+      "Evaluate the impact of different unmixing endmembers on the accuracy of the downscaled ET, and explore automated methods for endmember selection.",
+      "Assess the suitability of the enhanced ET product for specific hydrological applications like precision irrigation or flash drought monitoring at sub-field scales."
+    ],
+    "processed_time": "2026-01-14 20:17:14"
+  },
+  "AI8Y2TAF": {
+    "title": "Estimation of daily evapotranspiration and irrigation water efficiency at a Landsat-like scale for an arid irrigation area using multi-source remote sensing data",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Methodology/Data Fusion/Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "蒸散量，多源遥感，融合，类Landsat尺度，SEBS，涡度协方差系统，灌溉用水效率，黑河流域",
+      "suggested": "Evapotranspiration, Multi-Source Remote Sensing Data Fusion, Landsat-like Scale, Arid Irrigation Area, Water Use Efficiency, SEBS Model, Heihe River Basin",
+      "reason": "The Chinese keywords are good. Translating and adding 'Multi-Source Remote Sensing Data Fusion', 'Landsat-like Scale', 'Arid Irrigation Area', and 'Water Use Efficiency' will make them more comprehensive and internationally searchable. 'SEBS Model' and 'Heihe River Basin' are specific and important."
+    },
+    "related_papers": [
+      "Paper 0: Use of landsat thermal imagery in monitoring evapotranspiration and managing water resources",
+      "Paper 1: An unmixing-based spatial downscaling fusion approach for the MODIS evapotranspiration product",
+      "Paper 4: geeSEBAL-MODIS: Continental-scale evapotranspiration based on the surface energy balance for south America"
+    ],
+    "innovation_insights": [
+      "Investigate the transferability of the ESTARFM-based fusion approach and the SEBS model to other arid or semi-arid irrigation regions globally.",
+      "Refine the SEBS model or explore alternative ET models to improve accuracy over specific land cover types (e.g., orchards, wetlands) where the current study observed biases.",
+      "Develop advanced methods for estimating irrigation water efficiency at higher spatiotemporal resolutions, potentially integrating ET data with soil moisture or crop yield information.",
+      "Explore the use of machine learning techniques to fuse remote sensing data and improve ET estimation and irrigation efficiency assessments, possibly incorporating physics-informed components.",
+      "Extend the analysis to investigate the impacts of different irrigation management strategies on ET and water use efficiency within the Heihe River Basin or similar regions."
+    ],
+    "processed_time": "2026-01-14 20:17:20"
+  },
+  "YWFQKA37": {
+    "title": "Learning spectral-indices-fused deep models for time-series land use and land cover mapping in cloud-prone areas: The case of pearl river delta",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Methodology/Deep Learning (LSTM_CNN)/Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Land Use/Land Cover Mapping, Time Series Analysis, Deep Learning, Spectral Indices, Cloud-Prone Areas, Remote Sensing, Pearl River Delta, Data Fusion",
+      "reason": "No keywords were provided. The suggested keywords cover the core components of the paper based on the title and the limited abstract excerpt: the application (LULC mapping), the temporal aspect (time series), the methodology (Deep Learning, Spectral Indices), the data challenges (cloud-prone areas), the data source (Remote Sensing), the study area (Pearl River Delta), and potentially the data integration (Data Fusion)."
+    },
+    "related_papers": [
+      "Paper 1: An unmixing-based spatial downscaling fusion approach for the MODIS evapotranspiration product",
+      "Paper 0: Use of landsat thermal imagery in monitoring evapotranspiration and managing water resources"
+    ],
+    "innovation_insights": [
+      "Develop more advanced deep learning architectures that can better handle temporal dependencies and spatial patterns in time-series satellite imagery for LULC mapping, especially in complex urban or agricultural landscapes.",
+      "Investigate methods to improve the fusion of spectral indices within deep learning models to enhance their interpretability and physical grounding, moving towards physics-informed AI.",
+      "Explore approaches to mitigate the impact of cloud cover using data assimilation, generative adversarial networks (GANs), or other imputation techniques specifically tailored for time-series LULC data.",
+      "Apply and adapt the developed deep learning fusion models to other regions with similar challenges (e.g., persistent cloud cover, rapid land-use change) and different land cover classification schemes.",
+      "Evaluate the use of multi-source remote sensing data (e.g., optical, radar, thermal) within the deep learning framework for a more comprehensive LULC mapping."
+    ],
+    "processed_time": "2026-01-14 20:17:24"
+  },
+  "IPISPZCS": {
+    "title": "geeSEBAL-MODIS: Continental-scale evapotranspiration based on the surface energy balance for south America",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Methodology/Remote Sensing/Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "本文对大陆尺度蒸散量的估算具有重要科学意义，特别是应用新方法进行地表温度归一化，从而提高了模型在不同气候条件下的适用性。",
+      "suggested": "Evapotranspiration, Continental Scale, Surface Energy Balance, SEBAL Model, MODIS, Remote Sensing, Surface Temperature Normalization, South America",
+      "reason": "The current keyword is a descriptive statement. It needs to be replaced with concise terms. Suggested keywords include the main variable (Evapotranspiration), the scale (Continental Scale), the core model type (Surface Energy Balance, SEBAL Model), the data source (MODIS), the methodology (Remote Sensing, Surface Temperature Normalization), and the study region (South America)."
+    },
+    "related_papers": [
+      "Paper 0: Use of landsat thermal imagery in monitoring evapotranspiration and managing water resources",
+      "Paper 1: An unmixing-based spatial downscaling fusion approach for the MODIS evapotranspiration product",
+      "Paper 2: Estimation of daily evapotranspiration and irrigation water efficiency at a Landsat-like scale for an arid irrigation area using multi-source remote sensing data"
+    ],
+    "innovation_insights": [
+      "Investigate the scalability and transferability of the geeSEBAL-MODIS model to other continents or global scales, assessing its performance across diverse climatic zones and land cover types.",
+      "Explore advanced surface temperature normalization techniques or alternative methods for thermal downscaling to further improve the accuracy and consistency of continental-scale ET estimates.",
+      "Integrate geeSEBAL-MODIS ET products with other gridded hydrological datasets (e.g., precipitation, soil moisture) to conduct large-scale hydrological assessments and water resource analyses.",
+      "Apply the developed model to investigate long-term trends and variability of ET under climate change scenarios across South America.",
+      "Explore the potential of integrating machine learning or deep learning approaches with the physical SEBAL framework to enhance ET estimation accuracy or computational efficiency."
+    ],
+    "processed_time": "2026-01-14 20:17:30"
+  },
+  "E4TU6HWP": {
+    "title": "Prolonged wind droughts in a warming climate threaten global wind power security",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Compound Events, Methodology/Deep Learning, Applications/Energy Systems",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, Mechanism/Land-Atmosphere Coupling, Coupling/Human-Nature Systems",
+    "keyword_assessment": {
+      "current": "风旱 (Wind Drought), 气候变化 (Climate Change), 风力发电 (Wind Power), 能源安全 (Energy Security), CMIP6",
+      "suggested": "Wind Drought, Climate Change, Wind Power, Energy Security, Extreme Events, CMIP6, Mid-latitude Cyclones, Arctic Amplification",
+      "reason": "The current keywords are good and capture the main themes. Adding 'Extreme Events' emphasizes the nature of wind droughts. Including 'Mid-latitude Cyclones' and 'Arctic Amplification' reflects the identified drivers, providing more specific context for advanced searches. The Chinese terms are already present, so ensuring comprehensive English counterparts is important."
+    },
+    "related_papers": [
+      "A global humidity index with lateral hydrologic flows",
+      "Advancing evapotranspiration modeling with optimized soil and canopy resistance combinations"
+    ],
+    "innovation_insights": [
+      "Explore the direct link between projected changes in mid-latitude cyclone frequency and Arctic amplification on wind droughts and their implications for energy infrastructure planning.",
+      "Investigate the potential for early warning systems for wind droughts, integrating climate model projections with real-time wind speed data.",
+      "Quantify the economic and societal impacts of prolonged wind droughts on global wind power generation and energy security, beyond the 20% of current turbines identified.",
+      "Develop statistical or machine learning models to downscale CMIP6 projections of wind drought duration and intensity to specific wind farm locations, considering local meteorological factors.",
+      "Examine the role of land-atmosphere feedbacks in exacerbating or mitigating wind droughts, particularly in regions with significant changes in land cover or atmospheric moisture content."
+    ],
+    "processed_time": "2026-01-14 20:17:48"
+  },
+  "JHV36INB": {
+    "title": "A global humidity index with lateral hydrologic flows",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Processes/Groundwater, Methodology/Statistical Methods, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Data Philosophy/Multi-Source Integration, Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "全球湿度指数 (Global Humidity Index), 侧向水文通量 (Lateral Hydrologic Flows), 水文模型 (Hydrology Model), 水资源可用性 (Water Availability), 地下水 (Groundwater), 干旱指数 (Aridity Index)",
+      "suggested": "Global Humidity Index, Lateral Hydrologic Flows, Surface Runoff, Groundwater Flow, Water Availability, Aridity Index, Topographic Index, Hydrologic Modeling, Water Resources",
+      "reason": "The current keywords are accurate and relevant. 'Surface Runoff' and 'Groundwater Flow' could be added to be more explicit about the components of lateral flows. 'Topographic Index' captures the novel aspect of the proposed index. 'Hydrologic Modeling' and 'Water Resources' are broader terms that could enhance searchability."
+    },
+    "related_papers": [
+      "Paper 0: Prolonged wind droughts in a warming climate threaten global wind power security",
+      "Paper 3: Advancing evapotranspiration modeling with optimized soil and canopy resistance combinations",
+      "Paper 4: Canopy height and climate dryness parsimoniously explain spatial variation of unstressed stomatal conductance"
+    ],
+    "innovation_insights": [
+      "Develop and validate AI/ML models that integrate lateral hydrologic flows into water availability assessments, potentially outperforming traditional methods in complex terrains.",
+      "Investigate the temporal dynamics of lateral water subsidies, specifically their lag and buffering effects on local water availability and their interplay with precipitation variability.",
+      "Quantify the contribution of lateral flows to mitigating drought impacts at regional scales and assess how climate change might alter these contributions.",
+      "Explore the use of high-resolution topographic data and advanced hydrological models to improve the estimation of lateral flows and thus refine the GHI_topo.",
+      "Analyze the impact of land use change (e.g., deforestation, urbanization) on lateral hydrologic flows and their subsequent effect on water resource availability using the new index."
+    ],
+    "processed_time": "2026-01-14 20:17:54"
+  },
+  "NJ4CKV44": {
+    "title": "Advancing evapotranspiration modeling with optimized soil and canopy resistance combinations",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Methodology/Remote Sensing/Retrieval, Methodology/Statistical Methods, Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Data Philosophy/Scale Issues (Spatial_Temporal), Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "English: Dual-source remotely sensed evapotranspiration (ET) models need to accurately separate soil evaporation (Es), plant transpiration (Ec), and precipitation interception (Ei) using soil and canopy resistances8. This study systematically evaluates combinations of five soil resistance methods, eight canopy resistance methods, and two precipitation interception algorithms within the Shuttleworth-Wallace (S-W) framework, using data from 119 FLUXNET sites9. The results show that the Ball-Berry-Leuning (C1), unified stomatal (C2), and RL empirical (C5) methods perform best when paired with the power function method (S2) for soil resistance, which is sensitive to surface soil moisture1010101010. These top-performing combinations are consistent with major ET products and explain 56% of daily ET variation with an RMSE as low as 1.02 mm/day1111. However, model accuracy is significantly lower in arid zones, where prolonged water stress reduced R² by 38%121212. This highlights a critical need for better representation of soil moisture stress in arid regions13. The study offers robust, parsimonious, and widely applicable models for ET estimation14.",
+      "suggested": "Evapotranspiration (ET), Soil Resistance, Canopy Resistance, Dual-Source Models, Shuttleworth-Wallace, FLUXNET, Arid Zones, Soil Moisture Stress, Remote Sensing ET, ET Modeling",
+      "reason": "The provided excerpt contains descriptive text rather than a concise keyword list. The suggested keywords capture the core elements: the process (ET), the key parameters evaluated (soil and canopy resistance), the model framework (dual-source, Shuttleworth-Wallace), the data source (FLUXNET), a key limitation (arid zones, soil moisture stress), and the application (remote sensing ET, ET modeling). The current text is more of a summary than keywords."
+    },
+    "related_papers": [
+      "Paper 1: A global humidity index with lateral hydrologic flows",
+      "Paper 2: Spatiotemporal origin of soil water taken up by vegetation",
+      "Paper 4: Canopy height and climate dryness parsimoniously explain spatial variation of unstressed stomatal conductance"
+    ],
+    "innovation_insights": [
+      "Develop improved parameterization schemes for soil and canopy resistance, particularly under water-stressed conditions in arid and semi-arid regions, using AI or data assimilation.",
+      "Integrate the optimized ET models into larger land surface models or Earth system models to improve simulations of the terrestrial water and energy cycles.",
+      "Investigate how the optimized ET model performance varies across different land cover types and climatic gradients, and identify universal principles or site-specific adaptations.",
+      "Explore the use of machine learning to predict optimal soil and canopy resistance combinations based on observed meteorological conditions and land surface properties.",
+      "Quantify the uncertainty in ET estimates arising from different resistance parameterizations and its impact on downstream hydrological applications, such as drought monitoring or water resource assessments."
+    ],
+    "processed_time": "2026-01-14 20:18:00"
+  },
+  "PJ5MEHIN": {
+    "title": "Canopy height and climate dryness parsimoniously explain spatial variation of unstressed stomatal conductance",
+    "archive_path": "Unclassified",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Dynamics/Non-linearity & Complexity, Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Stomatal Conductance, Canopy Height, Climate Dryness, Unstressed Conditions, Vegetation Physiology, Land Surface Models, Parameterization, Spatial Variation, Ecohydrology",
+      "reason": "The excerpt indicates a focus on factors influencing unstressed stomatal conductance. The suggested keywords cover the main variables (stomatal conductance, canopy height, dryness), the condition (unstressed), the biological context (vegetation physiology, ecohydrology), and the modeling aspect (land surface models, parameterization). The mention of a Python package and Zenodo implies data/code availability is a key aspect."
+    },
+    "related_papers": [
+      "Paper 1: A global humidity index with lateral hydrologic flows",
+      "Paper 2: Spatiotemporal origin of soil water taken up by vegetation",
+      "Paper 3: Advancing evapotranspiration modeling with optimized soil and canopy resistance combinations"
+    ],
+    "innovation_insights": [
+      "Investigate how climate dryness and canopy height interact to regulate stomatal conductance across diverse ecosystems and under varying environmental conditions.",
+      "Develop and validate improved schemes for parameterizing unstressed stomatal conductance in land surface and Earth system models, potentially using machine learning.",
+      "Explore the impact of different vegetation types (PFTs) on the relationship between canopy height, climate dryness, and stomatal conductance, and how this affects water and carbon fluxes.",
+      "Utilize the provided data and code to explore the spatial patterns of stomatal conductance and their link to plant water-use strategies under non-stressed conditions.",
+      "Examine how changes in atmospheric CO2 concentration and vapor pressure deficit (VPD), related to climate dryness, might affect the proposed relationships for stomatal conductance."
+    ],
+    "processed_time": "2026-01-14 20:18:08"
+  },
+  "XJQYBF2Q": {
+    "title": "Optimal stomatal behaviour around the world",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Methodology/Remote Sensing/Retrieval, Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Data Philosophy/Multi-Source Integration, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "气孔导度, 蒸腾作用, 光合作用, 植物功能类型, 全球数据库, 生态系统生产力, 能量平衡, 生态水文过程",
+      "suggested": "Stomatal Conductance, Evapotranspiration, Photosynthesis, Plant Functional Types, Global Dataset, Ecosystem Productivity, Energy Balance, Ecohydrology, Land Surface Models, Climate Change Impacts",
+      "reason": "The current keywords are in Chinese and cover the core concepts. However, for broader accessibility and inclusion in international research databases, English keywords are essential. Adding terms like 'Land Surface Models' and 'Climate Change Impacts' would further enhance discoverability by connecting the work to relevant modeling and application fields."
+    },
+    "related_papers": [
+      "Paper 1",
+      "Paper 2",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Develop more sophisticated globally applicable stomatal models that integrate plant functional types and microclimatic variations for improved Earth System Model parameterizations.",
+      "Investigate the impact of changing climate (e.g., elevated CO2, increased temperature, altered precipitation patterns) on the observed global stomatal behavior and its implications for water and carbon cycles.",
+      "Utilize the global stomatal database to validate and improve ET estimations from remote sensing products and land surface models.",
+      "Explore the direct integration of optimized stomatal conductance parameterizations into land surface models to enhance predictions of ecosystem productivity and energy balance under different climate scenarios."
+    ],
+    "processed_time": "2026-01-14 20:18:29"
+  },
+  "HW72RF2B": {
+    "title": "Empirical insights on the use of sun-induced chlorophyll fluorescence to estimate short-term changes in crop transpiration under controlled water limitation",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Methodology/Remote Sensing/Retrieval, Methodology/Deep Learning (LSTM_CNN)",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Data Philosophy/Signal Purification/Uncertainty, Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "current keywords from note",
+      "suggested": "Sun-Induced Chlorophyll Fluorescence (SIF), Crop Transpiration, Water Limitation, Canopy Conductance, Remote Sensing, Deep Learning, Water Stress, ET Estimation",
+      "reason": "The current keywords are missing. Based on the excerpt, SIF is a key measurement, and the study focuses on estimating crop transpiration under water limitation using this proxy. Explicitly mentioning 'Sun-Induced Chlorophyll Fluorescence (SIF)' and 'Water Limitation' would be crucial. Adding 'Remote Sensing' and 'Deep Learning' (if applicable, though the excerpt suggests empirical correlation) would also be beneficial."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Explore the potential of SIF as a proxy for stomatal conductance under varying water stress levels across different crop types and biomes.",
+      "Develop advanced AI/ML models (e.g., CNNs, LSTMs) that leverage SIF time-series data for real-time monitoring of crop water stress and predicting short-term transpiration changes.",
+      "Integrate SIF-based transpiration estimates into existing hydrological and agricultural models to improve water management strategies and irrigation scheduling, particularly under drought conditions.",
+      "Investigate the physiological mechanisms linking SIF and canopy conductance under water stress to refine SIF-based ET estimation algorithms."
+    ],
+    "processed_time": "2026-01-14 20:18:34"
+  },
+  "QBE2KTEG": {
+    "title": "Simple models outperform more complex big‐leaf models of daily transpiration in forested biomes",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Methodology/Statistical Methods, Methodology/Triple Collocation/Uncertainty",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Data Philosophy/Scale Issues (Spatial_Temporal), Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "森林生态系统, 蒸腾, 大叶模型, 三重配位, 模型评估",
+      "suggested": "Forest Ecosystems, Transpiration, Big-Leaf Models, Triple Collocation, Model Evaluation, Evapotranspiration, Hydrological Models, Model Simplicity, Parameterization",
+      "reason": "The current keywords are good and capture the core aspects. However, adding 'Evapotranspiration' is important as it's often used interchangeably with transpiration in land surface contexts. Including 'Hydrological Models' contextualizes the application. 'Model Simplicity' and 'Parameterization' highlight key findings and methodological considerations."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Systematically evaluate the performance of various simplified ET models against complex models across a wider range of ecosystems and climate conditions using triple collocation.",
+      "Develop a framework for selecting the 'optimal' model complexity and parameterization strategy for ET estimation based on specific data availability and research objectives.",
+      "Investigate the scale dependency of model performance for both simple and complex ET models, and how scale issues affect the reliability of triple collocation results.",
+      "Explore the potential of hybrid modeling approaches that combine the strengths of simple, robust models with the process understanding of more complex models, potentially guided by AI."
+    ],
+    "processed_time": "2026-01-14 20:18:40"
+  },
+  "7RU9KJ7X": {
+    "title": "Community assembly influences plant trait economic spectra and functional trade-offs at ecosystem scales",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Soil Moisture, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Data Philosophy/Multi-Source Integration, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "current keywords from note",
+      "suggested": "Community Assembly, Plant Traits, Functional Trade-offs, Ecosystem Scale, Vegetation Dynamics, Plant Functional Types, Trait Economics, Ecosystem Functioning",
+      "reason": "The current keywords are missing. Based on the title and excerpt, the focus is on how plant communities and their traits influence ecosystem-level processes. Keywords should reflect this, such as 'Community Assembly,' 'Plant Traits,' 'Functional Trade-offs,' and 'Ecosystem Scale.' Adding 'Vegetation Dynamics' and 'Ecosystem Functioning' would broaden the scope."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 1"
+    ],
+    "innovation_insights": [
+      "Investigate how plant functional trait economics influence the land-atmosphere coupling strength and ET partitioning (evaporation vs. transpiration) at ecosystem scales.",
+      "Explore the role of vegetation community composition and trait diversity in mediating ecosystem responses to drought and water stress.",
+      "Integrate trait-based ecological models with hydrological models to better represent vegetation dynamics and their impact on water cycles.",
+      "Analyze the temporal dynamics of trait-based functional trade-offs and their implications for ecosystem resilience under changing environmental conditions."
+    ],
+    "processed_time": "2026-01-14 20:18:45"
+  },
+  "QRB7E8V3": {
+    "title": "Soil Evaporation Stress Determines Soil Moisture‐Evapotranspiration Coupling Strength in Land Surface Modeling",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Soil Moisture, Methodology/Remote Sensing/Retrieval, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Data Philosophy/Signal Purification/Uncertainty, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "土壤-大气耦合, 土壤湿度-蒸散发耦合, 地表建模, 地球系统建模, 土壤湿度, 蒸散发",
+      "suggested": "Soil Evaporation Stress, Soil Moisture-Evapotranspiration Coupling, Land Surface Modeling, Earth System Modeling, Evaporation Partitioning, Hydrological Models, Remote Sensing, Model Bias Correction",
+      "reason": "The current keywords are good and relevant. However, 'Soil Evaporation Stress' is a central concept and should be explicitly stated. 'Evaporation Partitioning' clarifies the specific challenge addressed. Adding 'Remote Sensing' and 'Model Bias Correction' highlights the methods and improvements."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Develop and validate advanced land surface models that explicitly represent soil evaporation stress and its impact on ET partitioning, potentially using deep learning approaches.",
+      "Quantify the uncertainty associated with soil evaporation stress parameterizations in global climate models and assess its impact on regional climate projections.",
+      "Investigate how different land management practices (e.g., mulching, tillage) affect soil evaporation stress and ET coupling strength, and their implications for agricultural drought resilience.",
+      "Explore the use of multi-source remote sensing data (e.g., thermal, microwave, optical) to better constrain soil evaporation stress and improve ET estimates in challenging environments."
+    ],
+    "processed_time": "2026-01-14 20:18:50"
+  },
+  "HF5FQPDM": {
+    "title": "Land Surfaces at the Tipping‐Point for Water and Energy Balance Coupling",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Methodology/Remote Sensing/Retrieval, Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change, Dynamics/Tipping Points, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Evaporation Regimes, Soil Moisture, Water-Energy Balance, Tipping-Point, Remote Sensing",
+      "suggested": "Evaporation Regimes, Soil Moisture Thresholds, Water-Energy Coupling, Tipping Points, Remote Sensing, Drought",
+      "reason": "Added 'Thresholds' to Soil Moisture to reflect the identified critical thresholds. Added 'Coupling' to Water-Energy to be more explicit. Added 'Drought' as it's a core focus of identifying these regimes and tipping points."
+    },
+    "related_papers": [
+      "Paper 1: Transpiration – soil evaporation partitioning determines inter-model differences in soil moisture and evapotranspiration coupling",
+      "Paper 3: Hydrological responses to warming: Insights from centennial‐scale terrestrial evapotranspiration estimates",
+      "Paper 4: Enhanced runoff simulation with improved evapotranspiration accounting for vegetation response to climate variability"
+    ],
+    "innovation_insights": [
+      "Develop more sophisticated remote sensing-based indices to detect and quantify tipping points in land surface processes, moving beyond static thresholds.",
+      "Investigate the physical mechanisms driving the observed water-energy balance coupling shifts, potentially integrating process-based models with AI for deeper understanding.",
+      "Explore the spatial and temporal transferability of identified tipping point indicators across diverse climatic zones and land cover types.",
+      "Address the limitations of current remote sensing data resolution and accuracy for capturing fine-scale soil moisture dynamics that trigger tipping points.",
+      "Investigate the role of extreme events (e.g., heatwaves, intense droughts) in accelerating the approach to or triggering of these water-energy coupling tipping points."
+    ],
+    "processed_time": "2026-01-14 20:19:12"
+  },
+  "AVY8UQTQ": {
+    "title": "Transpiration – soil evaporation partitioning determines inter-model differences in soil moisture and evapotranspiration coupling",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Soil Moisture, Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Evapotranspiration Partitioning, Soil Moisture, ET Models, Model Uncertainty, Land-Atmosphere Coupling",
+      "reason": "The paper focuses on how partitioning transpiration and soil evaporation leads to differences in soil moisture and ET coupling. Keywords should reflect this partitioning, the variables involved (soil moisture, ET), the comparison of models, and the concept of coupling."
+    },
+    "related_papers": [
+      "Paper 0: Land Surfaces at the Tipping‐Point for Water and Energy Balance Coupling",
+      "Paper 3: Hydrological responses to warming: Insights from centennial‐scale terrestrial evapotranspiration estimates",
+      "Paper 4: Enhanced runoff simulation with improved evapotranspiration accounting for vegetation response to climate variability"
+    ],
+    "innovation_insights": [
+      "Quantify the uncertainty introduced by different ET partitioning methods in large-scale hydrological modeling and climate projections.",
+      "Develop new methods or benchmarks for evaluating ET partitioning schemes using observational data or advanced modeling techniques.",
+      "Investigate how variations in ET partitioning influence land-atmosphere feedbacks, particularly under different climate conditions or land management practices.",
+      "Explore the application of machine learning or data assimilation techniques to improve ET partitioning estimates from remote sensing or land surface models.",
+      "Examine the impact of specific land surface characteristics (e.g., vegetation type, canopy structure) on the dominant ET partitioning pathways and their implications for water availability."
+    ],
+    "processed_time": "2026-01-14 20:19:17"
+  },
+  "EBCVZBQ2": {
+    "title": "Streamflow prediction in human‐regulated catchments using multiscale deep learning modeling with anthropogenic similarities",
+    "archive_path": "[ARCHIVE] Applications/Early Warning Systems, Methodology/Deep Learning (LSTM_CNN), Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity, Coupling/Human-Nature Systems",
+    "keyword_assessment": {
+      "current": "Streamflow Prediction / Deep Learning / Human-Regulated Catchments / Multiscale Attributes / LSTM vs DPL",
+      "suggested": "Streamflow Prediction, Deep Learning, Anthropogenic Influences, Human-Regulated Catchments, Multiscale Features, LSTM, Model Performance",
+      "reason": "The current keywords are good and descriptive. Added 'Anthropogenic Influences' and 'Model Performance' for slightly more comprehensive coverage. 'LSTM vs DPL' can be integrated into the description or understood from context."
+    },
+    "related_papers": [
+      "Paper 4: Enhanced runoff simulation with improved evapotranspiration accounting for vegetation response to climate variability"
+    ],
+    "innovation_insights": [
+      "Develop advanced deep learning architectures that can explicitly incorporate and disentangle the impacts of human regulations from natural hydrological variability in streamflow prediction.",
+      "Investigate methods for quantifying model uncertainty, especially regarding the influence of human activities, to improve the reliability of streamflow forecasts in regulated systems.",
+      "Explore the transferability of these deep learning models to other human-regulated catchments with different types or intensities of anthropogenic influences.",
+      "Integrate multi-source data (e.g., satellite observations, operational water management data) into deep learning models to enhance their ability to capture complex human-catchment interactions.",
+      "Utilize causal inference techniques with deep learning to understand the specific causal pathways through which human activities affect streamflow dynamics, beyond correlational analysis."
+    ],
+    "processed_time": "2026-01-14 20:19:22"
+  },
+  "KC4AXJFD": {
+    "title": "Hydrological responses to warming: Insights from centennial‐scale terrestrial evapotranspiration estimates",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Runoff & Streamflow, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Evapotranspiration Reconstruction, Climate Change Impact, Hydrological Response, Water Balance, Remote Sensing, Data Fusion, China, Global",
+      "reason": "The paper focuses on reconstructing ET over long periods and its hydrological responses to warming. Keywords should reflect reconstruction, the impact of warming/climate change, hydrological response, and the data fusion/methodology used, including geographic scope."
+    },
+    "related_papers": [
+      "Paper 0: Land Surfaces at the Tipping‐Point for Water and Energy Balance Coupling",
+      "Paper 1: Transpiration – soil evaporation partitioning determines inter-model differences in soil moisture and evapotranspiration coupling",
+      "Paper 4: Enhanced runoff simulation with improved evapotranspiration accounting for vegetation response to climate variability"
+    ],
+    "innovation_insights": [
+      "Develop more robust methods for 'observational constraint' of ET, potentially by fusing diverse observational datasets (e.g., flux towers, eddy covariance) with remote sensing and reanalysis products.",
+      "Investigate the long-term trends and variability of ET and its components (transpiration, soil evaporation) under various climate change scenarios and land use changes, going beyond simple warming impacts.",
+      "Explore the attribution of changes in ET to natural variability versus human activities using advanced statistical or modeling techniques, building on the ISIMIP framework.",
+      "Quantify the uncertainty associated with long-term ET reconstructions and their impact on downstream hydrological impact assessments.",
+      "Apply the developed 'Obs-constrained ET' framework to study other key hydrological processes or extreme events over centennial scales, leveraging available observational records."
+    ],
+    "processed_time": "2026-01-14 20:19:27"
+  },
+  "QKZD3JNS": {
+    "title": "Enhanced runoff simulation with improved evapotranspiration accounting for vegetation response to climate variability",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Processes/Evapotranspiration (ET), Methodology/Machine Learning",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity, Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Rainfall-runoff Simulation / Evapotranspiration / Stomatal Conductance / Machine Learning / Climate Variability",
+      "suggested": "Rainfall-Runoff Modeling, Evapotranspiration, Stomatal Conductance, Vegetation Response, Machine Learning, Climate Variability, Hydrological Simulation",
+      "reason": "Current keywords are accurate and cover the main aspects. Added 'Vegetation Response' to be more explicit about the core mechanism being investigated and 'Hydrological Simulation' as it's the ultimate goal. 'PETMGAM' can be considered a specific model within ML."
+    },
+    "related_papers": [
+      "Paper 0: Land Surfaces at the Tipping‐Point for Water and Energy Balance Coupling",
+      "Paper 1: Transpiration – soil evaporation partitioning determines inter-model differences in soil moisture and evapotranspiration coupling",
+      "Paper 2: Streamflow prediction in human‐regulated catchments using multiscale deep learning modeling with anthropogenic similarities",
+      "Paper 3: Hydrological responses to warming: Insights from centennial‐scale terrestrial evapotranspiration estimates"
+    ],
+    "innovation_insights": [
+      "Develop more sophisticated hybrid models that integrate plant physiological processes (like stomatal conductance responses to CO2 and VPD) with deep learning frameworks for improved hydrological predictions.",
+      "Investigate the sensitivity of rainfall-runoff simulations to different representations of vegetation physiological responses across a wider range of climatic conditions and vegetation types.",
+      "Quantify the uncertainty in ET estimates arising from parameterization of stomatal conductance and its downstream impact on streamflow simulations.",
+      "Explore the potential of using machine learning to parameterize complex vegetation-atmosphere interaction processes within physically-based hydrological models.",
+      "Assess how improved ET accounting for vegetation response influences the simulation of hydrological extremes (floods and droughts) and the overall water-energy nexus."
+    ],
+    "processed_time": "2026-01-14 20:19:32"
+  },
+  "26GYRVCQ": {
+    "title": "SIF research in the tropics: the overlooked vertical dimension and its implications for interpretation and upscaling of photosynthesis",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Photosynthesis, Methodology/Remote Sensing/Retrieval, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Modeling/Physics-Informed AI, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "叶片能量分配 (leaf energy partitioning), 光合作用 (photosynthesis), 太阳诱导叶绿素荧光 (solar-induced Chl fluorescence (SIF)), 热带雨林 (tropical rainforests), 垂直梯度 (vertical gradient)",
+      "suggested": "SIF, Photosynthesis, Tropical Rainforests, Canopy Structure, Vertical Gradient, Light Interception, Leaf Energy Partitioning, GPP Estimation",
+      "reason": "Current keywords are good but could be more comprehensive. Adding 'Canopy Structure' and 'Light Interception' directly addresses the core issue of the vertical dimension. 'GPP Estimation' links SIF interpretation to its practical application."
+    },
+    "related_papers": [
+      "Paper 1",
+      "Paper 2",
+      "Paper 3",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Investigate how vertical SIF gradients can be incorporated into AI models for more accurate GPP estimation in tropical forests, potentially leading to improved terrestrial carbon cycle modeling.",
+      "Develop novel remote sensing retrieval algorithms that explicitly account for canopy vertical structure to better interpret SIF signals from tropical ecosystems.",
+      "Explore the implications of differing light interception and energy partitioning within the canopy for land-atmosphere energy exchange dynamics, especially under drought conditions.",
+      "Address the limitation that SIF primarily reflects sunlit leaves by developing methods to better constrain the contribution of shaded leaves to the total SIF signal."
+    ],
+    "processed_time": "2026-01-14 20:19:56"
+  },
+  "H36CNJZ6": {
+    "title": "Nonlinear soil moisture loss function reveals vegetation responses to water availability",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, Methodology/Remote Sensing/Retrieval, Methodology/Statistical Methods, Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Mechanism/Threshold Behavior, Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "非线性土壤水分损失、植被水分利用、SMAP、干燥速率、水文利用策略、干旱敏感性",
+      "suggested": "Non-linear Soil Moisture Loss, Vegetation Water Use, SMAP, Drying Rate, Hydrological Use Strategy, Drought Sensitivity, Soil Moisture Dynamics, Evapotranspiration, Vegetation Response",
+      "reason": "The current keywords are descriptive. Adding 'Soil Moisture Dynamics', 'Evapotranspiration', and 'Vegetation Response' provides a broader context for the study's implications."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 2",
+      "Paper 3",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Develop hybrid models that combine the proposed non-linear soil moisture loss function with process-based land surface models to improve ET and soil moisture simulations.",
+      "Investigate the spatial and temporal variability of the non-linear parameter 'q' across different ecosystems and its relationship with plant traits and climate variability.",
+      "Utilize high-resolution satellite soil moisture data (e.g., from SMAP, SMOS) to further validate and refine the non-linear loss function and its ecological interpretations.",
+      "Explore the potential of this non-linear function in improving drought monitoring and early warning systems by better capturing vegetation stress responses."
+    ],
+    "processed_time": "2026-01-14 20:20:02"
+  },
+  "XDZRZXN9": {
+    "title": "Declining contribution of plant physiological effects to global drought characteristics with rising CO<sub>2</sub> using state‐of‐the‐art earth system models",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Applications/Climate Change Impact, Methodology/Deep Learning (LSTM_CNN)",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity, Modeling/Ensemble Methods, Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "干旱特征 (Drought characteristics), 二氧化碳生理效应 (CO2​ physiological effects), 地球系统模型 (Earth System Models), CMIP6, 贡献度下降 (Declining contribution), 气候变化 (Climate change)",
+      "suggested": "Drought Characteristics, CO2 Physiological Effects, Earth System Models, CMIP6, Declining Contribution, Climate Change, Vegetation Feedbacks, Land-Atmosphere Interaction, Drought Mechanisms",
+      "reason": "The current keywords accurately reflect the paper's core findings. Adding 'Vegetation Feedbacks', 'Land-Atmosphere Interaction', and 'Drought Mechanisms' provides a broader scope for understanding the underlying processes driving these changes."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 3",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term implications of the declining contribution of plant physiological effects on drought characteristics, and whether this trend could lead to different drought behaviors or tipping points.",
+      "Develop improved Earth System Models by better parameterizing the changing plant physiological responses to CO2 and their feedbacks on drought development.",
+      "Explore alternative drivers (e.g., changes in atmospheric circulation, land-use change) that may become dominant in shaping drought characteristics as CO2 physiological effects diminish.",
+      "Examine how these findings translate to regional drought projections and their impacts on ecosystems and water resources, especially in regions with strong vegetation responses."
+    ],
+    "processed_time": "2026-01-14 20:20:08"
+  },
+  "W65USK9L": {
+    "title": "Large live biomass carbon losses from droughts in the northern temperate ecosystems during 2016-2022",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Processes/Runoff & Streamflow, Processes/Soil Moisture, Applications/Climate Change Impact, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Tipping Points, Dynamics/Rapid Onset Events, Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Drought; Carbon loss; Biomass; Temperate ecosystems; Remote sensing; Carbon sink stability",
+      "suggested": "Drought, Live Biomass Carbon Loss, Temperate Ecosystems, Carbon Sink Stability, Remote Sensing, Ecosystem Dynamics, Carbon Cycle, Extreme Events",
+      "reason": "The current keywords are strong. Adding 'Live Biomass Carbon Loss' is more specific, and 'Ecosystem Dynamics' and 'Carbon Cycle' provide broader context for the observed phenomenon."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 2",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Develop early warning systems for large-scale live biomass carbon loss events in temperate ecosystems, integrating remote sensing and drought indices.",
+      "Investigate the resilience and recovery potential of temperate ecosystems after experiencing significant live biomass carbon loss due to extreme droughts.",
+      "Explore the long-term consequences of these carbon losses on ecosystem structure, function, and their feedback on the climate system.",
+      "Quantify the contribution of live biomass carbon loss to the overall carbon budget of these ecosystems and its implications for global carbon cycle modeling, especially under future climate change scenarios."
+    ],
+    "processed_time": "2026-01-14 20:20:14"
+  },
+  "ENEPXJIN": {
+    "title": "Seasonality of vegetation greenness in southeast asia unveiled by geostationary satellite observations",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Vegetation Dynamics, Methodology/Remote Sensing/Retrieval, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity, Data Philosophy/Multi-Source Integration, Dynamics/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Greenness seasonality (绿度季节性), Geostationary satellites (地球静止卫星), Himawari-8 (向日葵-8号), NDVI (归一化植被指数), Southeast Asia (东南亚)",
+      "suggested": "Vegetation Greenness Seasonality, Geostationary Satellites, Himawari-8, NDVI, Southeast Asia, Drought-Wet Season Dynamics, Phytology, Phenology, Land-Atmosphere Interaction",
+      "reason": "The current keywords are specific and relevant. Adding 'Drought-Wet Season Dynamics', 'Phytology', and 'Phenology' highlights the ecological processes and temporal aspects being studied, and 'Land-Atmosphere Interaction' connects it to broader climate science."
+    },
+    "related_papers": [
+      "Paper 0",
+      "Paper 1",
+      "Paper 3"
+    ],
+    "innovation_insights": [
+      "Investigate the drivers of the 'wet season green-up' phenomenon in continental Southeast Asia using process-based models and higher-resolution data, and its implications for regional water balance and carbon uptake.",
+      "Explore the transferability of findings from Amazonian 'dry season greening' to other tropical regions by comparing seasonality patterns and their underlying mechanisms across different continents.",
+      "Utilize the high temporal resolution of geostationary satellites to detect rapid vegetation responses to extreme weather events (e.g., heatwaves, flash droughts) in Southeast Asia.",
+      "Integrate these detailed vegetation seasonality observations with ET and soil moisture data to better understand the complex land-atmosphere interactions in this crucial region."
+    ],
+    "processed_time": "2026-01-14 20:20:20"
+  },
+  "C9FNDKXC": {
+    "title": "The intricacies of vegetation responses to changing moisture conditions",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Soil Moisture, Hazards/Drought, Methodology/Statistical Methods, Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity, Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "干旱 (drought), 陆气相互作用 (land-atmosphere interactions), 土壤水分 (soil moisture), 气孔导度 (stomatal conductance), 蒸腾作用 (transpiration), 水汽压亏缺 (vapor pressure deficit), 植被生产力 (vegetation productivity), 植被水分胁迫 (vegetation water stress)",
+      "suggested": "drought, land-atmosphere interaction, soil moisture, stomatal conductance, transpiration, vapor pressure deficit, vegetation productivity, vegetation water stress, air humidity, plant physiology",
+      "reason": "Keywords are generally good and cover the main themes. Adding 'air humidity' and 'plant physiology' would provide more specificity about the drivers and the biological processes studied."
+    },
+    "related_papers": [
+      "Response of solar-induced chlorophyll fluorescence to gross primary productivity, evapotranspiration, and transpiration under aridity gradients of China",
+      "Contrasting vegetation productivity responses in arid and humid zones to recent changes in diurnal temperature range",
+      "Satellite canopy water content from sentinel-2, landsat-8 and MODIS: Principle, algorithm and assessment"
+    ],
+    "innovation_insights": [
+      "Investigate the combined vs. isolated effects of atmospheric VPD and soil moisture deficits on vegetation productivity across different biomes.",
+      "Develop more sophisticated plant trait-based models that explicitly link stomatal behavior, water use efficiency, and productivity under dual atmospheric and soil drying.",
+      "Explore the temporal dynamics of vegetation response: how quickly do plants adjust their physiology and productivity to changes in air humidity and soil moisture?",
+      "Address the limitations in observational tools mentioned in the paper by exploring novel remote sensing or in-situ measurement techniques for simultaneously capturing atmospheric and soil moisture stress indicators."
+    ],
+    "processed_time": "2026-01-14 20:20:42"
+  },
+  "83M335SP": {
+    "title": "Response of solar-induced chlorophyll fluorescence to gross primary productivity, evapotranspiration, and transpiration under aridity gradients of China",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Runoff & Streamflow, Methodology/Remote Sensing/Retrieval, Methodology/Statistical Methods, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Data Philosophy/Multi-Source Integration, Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "干旱梯度, 蒸散发 (ET), 总初级生产力 (GPP), 太阳诱导叶绿素荧光 (SIF), 蒸腾 (Ec)",
+      "suggested": "solar-induced chlorophyll fluorescence (SIF), gross primary productivity (GPP), evapotranspiration (ET), transpiration (Ec), aridity gradients, China, remote sensing, vegetation carbon-water coupling",
+      "reason": "Current keywords are good but could be expanded to include the remote sensing aspect and the geographical focus (China) for better searchability. Adding 'vegetation carbon-water coupling' highlights the core process being investigated."
+    },
+    "related_papers": [
+      "The intricacies of vegetation responses to changing moisture conditions",
+      "Contrasting vegetation productivity responses in arid and humid zones to recent changes in diurnal temperature range",
+      "Satellite canopy water content from sentinel-2, landsat-8 and MODIS: Principle, algorithm and assessment"
+    ],
+    "innovation_insights": [
+      "Explore the spatio-temporal transferability of the SIF-GPP/ET/Ec relationships identified in this study to other arid and semi-arid regions globally.",
+      "Investigate the underlying physiological mechanisms that cause the observed variations in SIF-flux relationships across different aridity gradients and climate types.",
+      "Develop advanced remote sensing algorithms that integrate SIF with other vegetation indices or physical models to improve the accuracy of GPP and ET estimations, especially under water-limited conditions.",
+      "Address the limitations of using satellite-derived SIF and flux data by exploring data fusion techniques or using ground-truth measurements for validation in future studies."
+    ],
+    "processed_time": "2026-01-14 20:20:48"
+  },
+  "9CWUU4SE": {
+    "title": "Contrasting vegetation productivity responses in arid and humid zones to recent changes in diurnal temperature range",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Runoff & Streamflow, Hazards/Drought, Applications/Climate Change Impact, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Mechanism/Abrupt Transitions/Phase Change, Dynamics/Non-linearity & Complexity, Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Diurnal temperature range (DTR), gross primary productivity (GPP), arid zone, humid zone, climate change, asymmetric warming",
+      "suggested": "diurnal temperature range (DTR), gross primary productivity (GPP), arid zone, humid zone, climate change, asymmetric warming, vegetation productivity, climate-ecosystem interactions, regional climate effects",
+      "reason": "Keywords are accurate and cover the main aspects. Adding 'vegetation productivity', 'climate-ecosystem interactions', and 'regional climate effects' would provide more context and encompass the broader implications discussed in the paper."
+    },
+    "related_papers": [
+      "The intricacies of vegetation responses to changing moisture conditions",
+      "Response of solar-induced chlorophyll fluorescence to gross primary productivity, evapotranspiration, and transpiration under aridity gradients of China",
+      "Satellite canopy water content from sentinel-2, landsat-8 and MODIS: Principle, algorithm and assessment"
+    ],
+    "innovation_insights": [
+      "Investigate the role of diurnal temperature range (DTR) changes in modulating drought severity and flash drought development, particularly the interplay between daytime cooling and nighttime warming effects.",
+      "Explore how shifts in DTR influence the land-atmosphere feedback mechanisms, especially in arid regions where soil moisture is a limiting factor.",
+      "Examine the potential for 'asymmetric warming' scenarios to trigger tipping points in vegetation productivity and ecosystem function, distinguishing between arid and humid environments.",
+      "Quantify the impact of DTR changes on evapotranspiration and water stress under different land cover types beyond broad arid/humid classifications."
+    ],
+    "processed_time": "2026-01-14 20:20:56"
+  },
+  "NVZZZDEU": {
+    "title": "Conversion from coniferous to broadleaved trees can make european forests more climate-effective",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Applications/Climate Change Impact, Methodology/Hybrid Modeling (Process+ML), Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Mechanism/Feedback Loops & Cascades, Dynamics/Tipping Points, Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "(本文未直接列出关键词，根据摘要和内容，可归纳如下)",
+      "suggested": "forest management, coniferous to broadleaved conversion, climate effectiveness, regional climate model, summer heat extremes, biophysical cooling, biogeochemical benefits, European forests",
+      "reason": "As no keywords were provided, these are suggested based on the title and summary. They cover the management action, the modeling approach, the impact, the location, and the key benefits discussed."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Investigate the long-term impacts of coniferous-to-broadleaved forest conversion on the water cycle, including changes in evapotranspiration, soil moisture, and runoff patterns.",
+      "Explore how different forest management strategies (e.g., mixed forests, staggered conversion) could optimize the balance between biogeochemical and biophysical climate benefits.",
+      "Apply similar regional climate modeling approaches to other regions with different dominant forest types and climatic conditions to assess the universality of these findings.",
+      "Quantify the uncertainties associated with simulating forest conversion impacts, and explore machine learning approaches to downscale or parameterize these climate effects for hydrological impact assessments."
+    ],
+    "processed_time": "2026-01-14 20:21:02"
+  },
+  "JXIL7BTN": {
+    "title": "Satellite canopy water content from sentinel-2, landsat-8 and MODIS: Principle, algorithm and assessment",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, Methodology/Remote Sensing/Retrieval, Methodology/Deep Learning (LSTM_CNN), Methodology/Data Fusion, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Signal Purification/Uncertainty, Modeling/Physics-Informed AI, Methodology/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "冠层含水量, PROSAIL, MODIS, Landsat-8, Sentinel-2, 机器学习, VOD",
+      "suggested": "canopy water content (CWC), remote sensing, Sentinel-2, Landsat-8, MODIS, PROSAIL model, machine learning, optical satellites, water dynamics",
+      "reason": "Keywords are good and cover the technical aspects. Adding 'optical satellites' clarifies the data source, and 'water dynamics' emphasizes the hydrological relevance."
+    },
+    "related_papers": [
+      "The intricacies of vegetation responses to changing moisture conditions",
+      "Response of solar-induced chlorophyll fluorescence to gross primary productivity, evapotranspiration, and transpiration under aridity gradients of China"
+    ],
+    "innovation_insights": [
+      "Integrate the derived CWC product with hydrological models to improve simulations of soil moisture and ET, especially in heterogeneous land cover areas.",
+      "Use the multi-scale CWC data to investigate the spatial patterns and temporal variability of vegetation water stress across different drought conditions.",
+      "Develop novel deep learning architectures that can further enhance the accuracy and spatial resolution of CWC retrieval by incorporating synergistic information from different sensors or ancillary data.",
+      "Validate the retrieved CWC product using ground-based measurements or microwave-based vegetation water content (VOD) data to assess its performance and identify potential biases or limitations."
+    ],
+    "processed_time": "2026-01-14 20:21:09"
+  },
+  "7822A5YG": {
+    "title": "Reconciling plant water stress response using vegetation and soil moisture data assimilation for vegetation-soil-hydrology interaction estimation over the Chinese loess plateau",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Coupling, [ARCHIVE] Methodology/Data Fusion, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN)",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "陆面模型 (Land surface model) 22, 水分胁迫 (Water stress) 23, 植被-土壤-水文相互作用 (Vegetation-soil-hydrology interaction) 24, 数据同化 (Data assimilation) 25, 叶面积指数-蒸散量耦合 (Leaf area index-evapotranspiration coupling) 26, 黄土高原 (Loess Plateau) 27",
+      "suggested": "Vegetation water stress, Data assimilation, Land surface modeling, Evapotranspiration (ET), Leaf Area Index (LAI), Vegetation-soil-hydrology interaction, Loess Plateau, Machine Learning",
+      "reason": "Current keywords are good but could be more specific to common English search terms. Adding 'Machine Learning' acknowledges the likely underlying methods for data assimilation in modern research. Explicitly listing LAI and ET is beneficial."
+    },
+    "related_papers": [
+      "Paper 1 title",
+      "Paper 2 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "New research could explore how advanced ML techniques (e.g., deep learning) can further improve the reconciliation of LAI-ET coupling under water stress, moving beyond traditional data assimilation.",
+      "Gaps to address include quantifying the uncertainty reduction achieved by data assimilation in land surface models for vegetation-soil-hydrology interaction and assessing the transferability of findings to other arid/semi-arid regions."
+    ],
+    "processed_time": "2026-01-14 20:21:28"
+  },
+  "656M5D5T": {
+    "title": "Amazon rainforest adjusts to long-term experimental drought",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change, [IDEA] Dynamics/Tipping Points, [IDEA] Dynamics/Rapid Onset Events, [IDEA] Coupling/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Amazon rainforest 777, experimental drought 888, eco-hydrological stability 999, tree mortality 1010, biomass loss 111111, hydraulic homeostasis 1212, carbon accumulation 1313, resilience14141414",
+      "suggested": "Amazon rainforest, Experimental drought, Eco-hydrological stability, Tree mortality, Biomass loss, Hydraulic homeostasis, Carbon accumulation, Resilience, Ecosystem dynamics, Long-term response",
+      "reason": "The current keywords are descriptive but lack terms that capture the scientific processes and dynamics being investigated. Adding 'Ecosystem dynamics', 'Long-term response', and explicitly mentioning the experimental nature strengthens the searchability."
+    },
+    "related_papers": [
+      "Paper 2 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "This paper suggests investigating the tipping points and resilience mechanisms of other critical terrestrial ecosystems facing prolonged drought stress, perhaps using similar experimental manipulation or advanced remote sensing/modeling.",
+      "Future work could quantify the 'cost' of resilience more precisely (e.g., long-term reduction in carbon sequestration potential) and explore how different forest structures or species compositions might influence adaptive capacity."
+    ],
+    "processed_time": "2026-01-14 20:21:35"
+  },
+  "PEC5U4EJ": {
+    "title": "Increased amazon evapotranspiration since 1990 in a warming climate",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), [ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Rapid Onset Events, [IDEA] Dynamics/Tipping Point, [IDEA] Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "亚马逊雨林 (Amazon rainforest), 脱水 (Dehydration), 饱和水汽压差 (Vapor Pressure Deficit, VPD), 气候变化, 临界点 (Tipping point), 恢复力 (Resilience)",
+      "suggested": "Amazon rainforest, Evapotranspiration (ET), Vapor Pressure Deficit (VPD), Climate change, Accelerated drying, Tipping points, Resilience, Land-atmosphere coupling, Dry season",
+      "reason": "Current keywords are good. Adding 'Evapotranspiration (ET)' directly links to a key process. 'Accelerated drying' captures the core finding. 'Land-atmosphere coupling' reflects the interaction driving VPD increases."
+    },
+    "related_papers": [
+      "Paper 1 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "This research opens avenues for investigating the acceleration of drying trends in other major terrestrial biomes and assessing their proximity to critical tipping points.",
+      "Future work could focus on diagnosing the specific drivers (e.g., changes in atmospheric circulation, deforestation impacts) behind the accelerated VPD increase and how this phenomenon interacts with other climate stressors."
+    ],
+    "processed_time": "2026-01-14 20:21:42"
+  },
+  "BNBGWJY4": {
+    "title": "The pulse of global vegetation: Do individual rainfall events create a lasting imprint on photosynthesis?",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), [ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Dynamics/Drought-Flood Transitions, [IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "降雨事件；碳–水耦合；GPP；ET；FLUXNET；气候带差异",
+      "suggested": "Rainfall events, Carbon-water coupling, Gross Primary Production (GPP), Evapotranspiration (ET), FLUXNET, Climate zones, Vegetation types, Event-scale dynamics, Soil moisture",
+      "reason": "Current keywords are good and specific. Adding 'Vegetation types' and 'Event-scale dynamics' provides more detail. Including 'Soil moisture' is important as it's highlighted as a key factor influencing the coupling."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 2 title"
+    ],
+    "innovation_insights": [
+      "This paper inspires research into the event-scale regulation of other critical ecosystem processes beyond carbon and water, such as nutrient cycling or trace gas emissions.",
+      "Gaps can be addressed by exploring the non-linear responses of carbon-water coupling to different combinations of rainfall intensity, duration, and antecedent soil moisture, and by developing more sophisticated event-based models."
+    ],
+    "processed_time": "2026-01-14 20:21:48"
+  },
+  "2US2JUKW": {
+    "title": "A global daily seamless 9-km vegetation optical depth (VOD) product from 2010 to 2021",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "植被光学厚度 (Vegetation Optical Depth, VOD), L波段 (L-band), 数据填补 (Gap-filling), 时空融合 (Spatiotemporal fusion), SMOS, SMAP",
+      "suggested": "Vegetation Optical Depth (VOD), L-band microwave, Spatiotemporal fusion, Gap-filling, SMOS, SMAP, High-resolution data product, Remote sensing data, Global VOD",
+      "reason": "Current keywords are accurate. Adding 'High-resolution data product', 'Remote sensing data', and 'Global VOD' further clarifies the output and its scope, making it more discoverable."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "This work suggests developing similar seamless, high-resolution, long-term datasets for other key land surface variables (e.g., soil moisture, Leaf Area Index) by fusing data from different satellite missions with complementary strengths.",
+      "Future research could focus on quantifying the uncertainty introduced by gap-filling and fusion techniques and assessing the impact of using this new VOD product on downstream applications like drought monitoring or carbon flux estimation."
+    ],
+    "processed_time": "2026-01-14 20:21:52"
+  },
+  "K6J39VAT": {
+    "title": "African rainforest moisture contribution to continental agricultural water consumption",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Land-Atmosphere Fluxes",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction/Moisture Recycling",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Rainforest ET, Green Water, Moisture Recycling, Continental Scale Hydrology, Africa",
+      "reason": "Current keywords are missing. Suggested keywords cover the core topics of the paper: the origin of ET (rainforest), its partitioning (green water), its role in the water cycle (moisture recycling), and the geographical scope (continental Africa)."
+    },
+    "related_papers": [
+      "Paper 1: Sensitivity of global hydrological models to potential evapotranspiration estimation methods in the senegal river basin (west africa)",
+      "Paper 3: Soil moisture and atmospheric aridity impact spatio‐temporal changes in evapotranspiration at a global scale",
+      "Paper 4: Improving terrestrial evapotranspiration estimation using physics-guided machine learning model driven by solar-induced chlorophyll fluorescence"
+    ],
+    "innovation_insights": [
+      "Investigate the global implications of regional moisture recycling from large forested areas, moving beyond continental scales.",
+      "Quantify the feedback mechanisms between rainforest ET and regional/continental precipitation patterns, considering potential climate change impacts on forest cover and ET rates.",
+      "Explore how the 'green water' contribution from rainforests influences agricultural water availability and resilience in adjacent regions.",
+      "Develop or refine models that explicitly represent moisture recycling processes to improve large-scale hydrological simulations."
+    ],
+    "processed_time": "2026-01-14 20:22:08"
+  },
+  "4ANFWWZH": {
+    "title": "Sensitivity of global hydrological models to potential evapotranspiration estimation methods in the senegal river basin (west africa)",
+    "archive_path": "[ARCHIVE] Methodology/Statistical Methods/Sensitivity Analysis",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)/Model Uncertainty",
+    "keyword_assessment": {
+      "current": "Global Hydrological models, Evapotranspiration methods, Sensitivity Analysis, Senegal River Basin",
+      "suggested": "Global Hydrological Models, Potential Evapotranspiration (PET), PET Estimation Methods, Model Sensitivity, Senegal River Basin, Hydrological Model Performance",
+      "reason": "The current keywords are good but can be made more specific by including 'Potential Evapotranspiration (PET)' and explicitly mentioning 'Model Sensitivity' and 'Hydrological Model Performance' to better reflect the paper's focus."
+    },
+    "related_papers": [
+      "Paper 0: African rainforest moisture contribution to continental agricultural water consumption",
+      "Paper 2: Can hydrological models benefit from using global soil moisture, evapotranspiration, and runoff products as calibration targets?",
+      "Paper 3: Soil moisture and atmospheric aridity impact spatio‐temporal changes in evapotranspiration at a global scale",
+      "Paper 4: Improving terrestrial evapotranspiration estimation using physics-guided machine learning model driven by solar-induced chlorophyll fluorescence"
+    ],
+    "innovation_insights": [
+      "Explore how the choice of PET methods impacts hydrological model projections under different climate change scenarios in data-scarce regions.",
+      "Develop standardized protocols or guidelines for selecting appropriate PET estimation methods for global hydrological models based on regional characteristics and available data.",
+      "Investigate the transferability of findings regarding PET method sensitivity to other river basins with similar climatic and hydrological regimes.",
+      "Examine the implications of PET estimation uncertainty on water resource management decisions in the Senegal River Basin."
+    ],
+    "processed_time": "2026-01-14 20:22:13"
+  },
+  "YE949YEM": {
+    "title": "Can hydrological models benefit from using global soil moisture, evapotranspiration, and runoff products as calibration targets?",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion/Model Calibration",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Signal Purification & Uncertainty",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Hydrological Models, Calibration Targets, Global Products, Soil Moisture, Evapotranspiration, Runoff, Model Evaluation, Data Assimilation",
+      "reason": "Current keywords are missing. Suggested keywords capture the essence of using global data products (soil moisture, ET, runoff) as targets for calibrating hydrological models and the related evaluation aspect."
+    },
+    "related_papers": [
+      "Paper 1: Sensitivity of global hydrological models to potential evapotranspiration estimation methods in the senegal river basin (west africa)",
+      "Paper 3: Soil moisture and atmospheric aridity impact spatio‐temporal changes in evapotranspiration at a global scale",
+      "Paper 4: Improving terrestrial evapotranspiration estimation using physics-guided machine learning model driven by solar-induced chlorophyll fluorescence"
+    ],
+    "innovation_insights": [
+      "Develop hybrid calibration strategies that optimally weigh different types of observational data (e.g., in-situ vs. satellite) and model outputs as targets.",
+      "Investigate methods to account for the inherent uncertainties and biases in global soil moisture, ET, and runoff products when using them as calibration targets.",
+      "Explore how incorporating multiple global products as calibration targets improves the representation of different hydrological processes within models.",
+      "Quantify the added value of using global ET and soil moisture products as calibration targets compared to solely relying on runoff data, especially in regions with sparse streamflow observations."
+    ],
+    "processed_time": "2026-01-14 20:22:19"
+  },
+  "GPMSV4BU": {
+    "title": "Soil moisture and atmospheric aridity impact spatio‐temporal changes in evapotranspiration at a global scale",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Land-Atmosphere Fluxes",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Evapotranspiration (ET), Soil Moisture, Atmospheric Aridity, VPD, Global Scale, Attribution, CMIP6",
+      "reason": "Current keywords are missing. Suggested keywords highlight the key variables (ET, soil moisture, aridity), the scale (global), the methodological approach (attribution), and the data source (CMIP6)."
+    },
+    "related_papers": [
+      "Paper 0: African rainforest moisture contribution to continental agricultural water consumption",
+      "Paper 1: Sensitivity of global hydrological models to potential evapotranspiration estimation methods in the senegal river basin (west africa)",
+      "Paper 2: Can hydrological models benefit from using global soil moisture, evapotranspiration, and runoff products as calibration targets?",
+      "Paper 4: Improving terrestrial evapotranspiration estimation using physics-guided machine learning model driven by solar-induced chlorophyll fluorescence"
+    ],
+    "innovation_insights": [
+      "Investigate the non-linear and potentially threshold-based relationships between soil moisture, atmospheric aridity, and ET under different climate projections from CMIP6.",
+      "Explore the role of land-atmosphere feedbacks in amplifying or mitigating extreme ET events and their subsequent impacts on drought or flood conditions.",
+      "Compare attribution methods for ET changes derived from observational data versus climate models to understand model biases and improve future projections.",
+      "Analyze how spatial patterns of soil moisture and atmospheric aridity interact to drive ET changes, and how these interactions might shift under future climate change."
+    ],
+    "processed_time": "2026-01-14 20:22:24"
+  },
+  "GQGCTJI9": {
+    "title": "Improving terrestrial evapotranspiration estimation using physics-guided machine learning model driven by solar-induced chlorophyll fluorescence",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Physics-Informed AI",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Evapotranspiration estimation; Solar-induced chlorophyll fluorescence; Physical constraints; Machine learning model; Coupled model 中文关键词：蒸散发估算；太阳诱导叶绿素荧光；物理约束；机器学习模型；耦合模型",
+      "suggested": "Evapotranspiration (ET), Solar-Induced Chlorophyll Fluorescence (SIF), Physics-Guided Machine Learning, Hybrid ET Models, Remote Sensing, Terrestrial Ecosystems",
+      "reason": "Current keywords are good and comprehensive. Suggested keywords are slightly more standardized and concise, emphasizing the core contribution of physics-guided ML and SIF for ET estimation."
+    },
+    "related_papers": [
+      "Paper 0: African rainforest moisture contribution to continental agricultural water consumption",
+      "Paper 1: Sensitivity of global hydrological models to potential evapotranspiration estimation methods in the senegal river basin (west africa)",
+      "Paper 2: Can hydrological models benefit from using global soil moisture, evapotranspiration, and runoff products as calibration targets?",
+      "Paper 3: Soil moisture and atmospheric aridity impact spatio‐temporal changes in evapotranspiration at a global scale"
+    ],
+    "innovation_insights": [
+      "Explore the application of physics-guided ML with SIF for ET estimation in specific ecosystems (e.g., tropical forests, arid regions) to understand regional performance and limitations.",
+      "Investigate the potential of SIF-driven ET models to capture ET dynamics during extreme events (e.g., droughts, heatwaves) where traditional methods might fail.",
+      "Develop methods to integrate SIF-derived ET estimates with hydrological models for improved water balance simulations and drought forecasting.",
+      "Examine how different types of physical constraints (e.g., energy balance, water stress functions) impact the performance and interpretability of physics-guided ML ET models."
+    ],
+    "processed_time": "2026-01-14 20:22:28"
+  },
+  "KNDKEBS4": {
+    "title": "Uniformly elevated future heat stress in China driven by spatially heterogeneous water vapor changes",
+    "archive_path": "[ARCHIVE]/Hazards/Heatwaves & Extremes",
+    "idea_path": "[IDEA]/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Wet bulb temperature",
+      "suggested": "Wet-bulb temperature, Heat stress, China, Climate change, Water vapor pressure, Spatial heterogeneity, Future projections",
+      "reason": "The current keyword 'Wet bulb temperature' is too narrow. The paper discusses heat stress, its drivers (water vapor pressure), geographical scope (China), temporal aspect (future projections), and variability (spatial heterogeneity), all of which are crucial for a comprehensive understanding and searchability."
+    },
+    "related_papers": [
+      "Asymmetric environmental responses on evapotranspiration in tibetan plateau grassland",
+      "Widespread increasing control of water supply on evapotranspiration"
+    ],
+    "innovation_insights": [
+      "Investigate the synergistic effects of elevated heat stress and hydrological extremes (e.g., drought, water scarcity) on human health and ecosystems.",
+      "Develop regionally-specific adaptation strategies that account for the projected heterogeneous increases in heat stress.",
+      "Explore the role of land-atmosphere feedback mechanisms in exacerbating or mitigating future heat stress, especially concerning regional water vapor changes.",
+      "Examine the socioeconomic impacts of uniformly elevated future heat stress in China and identify vulnerable populations and sectors."
+    ],
+    "processed_time": "2026-01-14 20:22:47"
+  },
+  "WDQT52PC": {
+    "title": "Asymmetric environmental responses on evapotranspiration in tibetan plateau grassland",
+    "archive_path": "[ARCHIVE]/Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA]/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "蒸散发 (Evapotranspiration), 青藏高原 (Tibetan Plateau), 环境响应 (Environmental responses), 不对称模式 (Asymmetric patterns), 草地 (Grassland)",
+      "suggested": "Evapotranspiration (ET), Tibetan Plateau, Grassland, Environmental drivers, Spatial heterogeneity, Asymmetric responses, Water-land-atmosphere coupling, Asia's water tower",
+      "reason": "The current keywords are good and capture the core elements. Adding 'Environmental drivers', 'Spatial heterogeneity', 'Water-land-atmosphere coupling', and 'Asia's water tower' would enhance the description by specifying the nature of the responses, the geographical context of water resources, and the underlying physical processes."
+    },
+    "related_papers": [
+      "Vegetation as the catalyst for water circulation on global terrestrial ecosystem",
+      "Using solar-induced chlorophyll fluorescence to estimate forest evapotranspiration",
+      "Widespread increasing control of water supply on evapotranspiration"
+    ],
+    "innovation_insights": [
+      "Quantify the 'Asia's water tower' vulnerability under different climate change scenarios, considering the asymmetric ET responses.",
+      "Investigate the mechanisms behind the East Asian monsoon's influence on Tibetan Plateau's ET, specifically the energy limitation conditions.",
+      "Explore the implications of accelerated ET growth in the Tibetan Plateau for regional water availability and downstream ecosystems.",
+      "Develop hybrid models that integrate process-based understanding of asymmetric responses with machine learning for improved ET prediction in complex terrains."
+    ],
+    "processed_time": "2026-01-14 20:22:52"
+  },
+  "BYJTWWV5": {
+    "title": "Using solar-induced chlorophyll fluorescence to estimate forest evapotranspiration",
+    "archive_path": "[ARCHIVE]/Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA]/Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "蒸散发、太阳诱导叶绿素荧光、两源蒸散发模型、水-碳耦合",
+      "suggested": "Evapotranspiration (ET), Solar-induced chlorophyll fluorescence (SIF), Two-source model, Water-carbon coupling, Forest ecosystems, Remote sensing, Hydrological modeling",
+      "reason": "The current keywords accurately reflect the paper's core components. Expanding to include 'Forest ecosystems', 'Remote sensing', and 'Hydrological modeling' provides broader context and highlights the application domain and methodological approach."
+    },
+    "related_papers": [
+      "Vegetation as the catalyst for water circulation on global terrestrial ecosystem",
+      "Asymmetric environmental responses on evapotranspiration in tibetan plateau grassland",
+      "Widespread increasing control of water supply on evapotranspiration"
+    ],
+    "innovation_insights": [
+      "Explore the potential of SIF in inferring plant physiological stress beyond ET, linking it to drought resilience and carbon sequestration efficiency.",
+      "Develop multi-variate ET models using SIF and other advanced remote sensing data (e.g., thermal, hyperspectral) for improved accuracy and spatial coverage.",
+      "Investigate the transferability of SIF-based ET models to different forest types and geographical regions, addressing potential uncertainties.",
+      "Integrate SIF-based ET estimations into Earth system models to improve the representation of the land-atmosphere feedback in climate simulations."
+    ],
+    "processed_time": "2026-01-14 20:22:56"
+  },
+  "ICGHRB8E": {
+    "title": "Widespread increasing control of water supply on evapotranspiration",
+    "archive_path": "[ARCHIVE]/Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA]/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "蒸散发、土壤水分、饱和水汽压差、供需关系、气候变化、地球系统模型",
+      "suggested": "Evapotranspiration (ET), Soil moisture, Vapor pressure deficit (VPD), Water supply-demand, Climate change, Earth system models (ESMs), Hydrological cycle, Land-atmosphere coupling",
+      "reason": "The current keywords are comprehensive. Adding 'Water supply-demand' clarifies the relationship between soil moisture and VPD. Including 'Hydrological cycle' and 'Land-atmosphere coupling' provides broader context for the processes being studied and their significance."
+    },
+    "related_papers": [
+      "Vegetation as the catalyst for water circulation on global terrestrial ecosystem",
+      "Asymmetric environmental responses on evapotranspiration in tibetan plateau grassland",
+      "Using solar-induced chlorophyll fluorescence to estimate forest evapotranspiration"
+    ],
+    "innovation_insights": [
+      "Investigate the physical mechanisms driving the increasing control of soil moisture on ET, particularly in relation to land-atmosphere feedback under climate change.",
+      "Develop improved ESMs that explicitly represent the dynamic interplay between water supply (soil moisture) and atmospheric demand (VPD) for more accurate climate projections.",
+      "Assess the cascading impacts of enhanced soil moisture control on ET for other hydrological extremes, such as flash droughts and heatwaves.",
+      "Explore how land management practices (e.g., irrigation, land cover change) can influence the balance between water supply and demand and modulate ET trends."
+    ],
+    "processed_time": "2026-01-14 20:23:01"
+  },
+  "4GU2ZH5G": {
+    "title": "Evapotranspiration increase is more sensitive to vegetation greening than to vegetation type conversion in arid and semi-arid regions of China",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Applications/Water Resources Management, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity, Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "地表径流（Surface runoff）, 地下径流（Subsurface runoff）, 辐射效应（Radiative effect）, 生理效应（Physiological effect）, 植被调节（Vegetation regulation）",
+      "suggested": "CO2 fertilization effect, Surface runoff, Subsurface runoff, Vegetation regulation, Earth System Models, Radiative effect, Physiological effect",
+      "reason": "Current keywords are good but could be expanded to include the key modeling approach (ESMs) and the specific CO2 impact mechanism (fertilization)."
+    },
+    "related_papers": [
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Investigate the specific physiological mechanisms through which vegetation regulation alters the partitioning of runoff under elevated CO2.",
+      "Quantify the spatial heterogeneity of vegetation's role in modulating runoff response to CO2, particularly in arid and semi-arid regions.",
+      "Explore the implications of increased subsurface runoff due to CO2 for groundwater recharge and sustainability.",
+      "Develop improved land surface models that explicitly represent the complex interactions between CO2, vegetation physiology, and hydrological partitioning."
+    ],
+    "processed_time": "2026-01-14 20:23:20"
+  },
+  "UNMEF97Q": {
+    "title": "Generating daily 100 m resolution land surface temperature estimates continentally using an unbiased spatiotemporal fusion approach",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Modeling/Hybrid Modeling (Process+ML), Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Not provided in the excerpt.",
+      "suggested": "Land Surface Temperature, Remote Sensing, Spatiotemporal Fusion, Deep Learning, Unbiased Estimation, High Resolution",
+      "reason": "Keywords are needed to assess accuracy. Suggested keywords cover the core elements of generating high-resolution LST from fused data."
+    },
+    "related_papers": [
+      "Paper 3",
+      "Paper 4"
+    ],
+    "innovation_insights": [
+      "Explore novel deep learning architectures for spatiotemporal fusion of remote sensing data to achieve even higher resolutions or reduce uncertainty.",
+      "Investigate the impact of different atmospheric correction methods on the accuracy of fused LST products.",
+      "Apply the developed fusion methodology to other land surface variables (e.g., soil moisture, ET) for improved monitoring.",
+      "Assess the impact of different land cover types and meteorological conditions on the performance of the fusion algorithm."
+    ],
+    "processed_time": "2026-01-14 20:23:24"
+  },
+  "S8YK87C3": {
+    "title": "The performance of IMERG near-real-time estimations during the record-breaking meiyu season in 2020",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Hazards/Drought/Flash Drought, Hazards/Flood, Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Dynamics/Rapid Onset Events, Dynamics/Drought-Flood Transitions, Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "卫星降水, IMERG, 梅雨, 日变化周期, 极端事件",
+      "suggested": "GPM IMERG, Near-Real-Time (NRT), Meiyu Season, Precipitation Estimation, Performance Evaluation, Sub-daily Scale, Extreme Events, Hydrological Applications",
+      "reason": "Current keywords are relevant but could be more specific, particularly including 'GPM IMERG' and 'Near-Real-Time (NRT)' to reflect the product and its operational status. Adding 'Sub-daily Scale' and 'Hydrological Applications' would also be beneficial."
+    },
+    "related_papers": [
+      "Paper 3"
+    ],
+    "innovation_insights": [
+      "Develop bias-correction schemes for IMERG NRT products tailored to specific extreme events like the Meiyu season.",
+      "Integrate IMERG NRT data into hydrological models for improved flood forecasting during extreme precipitation events.",
+      "Investigate the spatio-temporal error characteristics of IMERG NRT for different types of convective and stratiform precipitation.",
+      "Explore the use of machine learning to enhance the accuracy of IMERG NRT estimates by incorporating ground-based or other satellite data."
+    ],
+    "processed_time": "2026-01-14 20:23:31"
+  },
+  "93BJYITY": {
+    "title": "Continental evaluation of GPM IMERG V07B precipitation on a sub-daily scale",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Processes/Runoff & Streamflow, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Scale Issues (Spatial_Temporal), Dynamics/Non-linearity & Complexity, Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Satellite Precipitation / GPM IMERG V07B / Sub-daily Evaluation / Continental Assessment / Hydrological Applications",
+      "suggested": "GPM IMERG V07B, Sub-daily Precipitation, Continental Scale, Performance Evaluation, Hydrological Applications, Diurnal Cycle, Spatial Heterogeneity",
+      "reason": "Current keywords are good and highly relevant. 'Diurnal Cycle' and 'Spatial Heterogeneity' could be added to capture more nuanced aspects of the evaluation, as discussed in the paper."
+    },
+    "related_papers": [
+      "Paper 2"
+    ],
+    "innovation_insights": [
+      "Develop downscaling techniques for IMERG V07B to improve its performance in regions with complex topography or land cover.",
+      "Investigate the impact of different precipitation retrieval algorithms within IMERG on its sub-daily performance evaluation.",
+      "Utilize the detailed sub-daily performance assessment to guide the assimilation of IMERG data into hydrological models.",
+      "Explore the potential of using IMERG V07B for monitoring hydrological extremes other than just floods, such as flash droughts."
+    ],
+    "processed_time": "2026-01-14 20:23:35"
+  },
+  "QDP7DNFI": {
+    "title": "Global dominance of seasonality in shaping lake-surface-extent dynamics",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Processes/Runoff & Streamflow, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Mechanism/Abrupt Transitions/Phase Change, Scale Issues (Spatial_Temporal), Coupling/Human-Nature Systems",
+    "keyword_assessment": {
+      "current": "Lake Dynamics / Remote Sensing / Deep Learning / Seasonality / Hydrology",
+      "suggested": "Lake Surface Extent, Seasonality, Remote Sensing, Deep Learning, Global Dataset, Water Resources, Human Impact, Temporal Dynamics",
+      "reason": "Current keywords are accurate and cover the main themes. 'Global Dataset' and 'Water Resources' are important aspects that could be explicitly included for broader impact."
+    },
+    "related_papers": [
+      "Paper 0"
+    ],
+    "innovation_insights": [
+      "Investigate the feedback mechanisms between seasonal lake level fluctuations and local climate patterns.",
+      "Develop predictive models for seasonal lake dynamics, focusing on forecasting extreme low or high water levels.",
+      "Assess the socio-economic impacts of high seasonal lake variability in densely populated regions.",
+      "Integrate the global lake surface extent dataset with other hydrological variables to understand the broader water cycle dynamics."
+    ],
+    "processed_time": "2026-01-14 20:23:40"
+  },
+  "BG9SVQIF": {
+    "title": "Distinctive patterns of water level change in swedish lakes driven by climate and human regulation",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Hazards/Compound Events/DFA, [ARCHIVE] Applications/Water Resources Management",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "湖泊水位变化，卫星雷达测高，水文气候变化，人为调控，瑞典湖泊",
+      "suggested": "Lake Water Level Dynamics, Satellite Altimetry, Hydrometeorological Change, Human Regulation, Sweden",
+      "reason": "The current keywords are good but can be translated for broader searchability. Adding 'Dynamics' emphasizes the temporal aspect, and 'Hydrometeorological Change' is more comprehensive than just 'climate change'."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Develop robust methods to disentangle the contributions of climate change and human regulation to lake level changes, particularly in regions with extensive water management infrastructure.",
+      "Investigate the downstream impacts of altered lake level dynamics (e.g., on water availability, ecosystems, and flood/drought risks).",
+      "Explore the potential for using AI/ML techniques to forecast future lake level changes based on projected climate scenarios and water management strategies."
+    ],
+    "processed_time": "2026-01-14 20:23:56"
+  },
+  "QM5WD7EW": {
+    "title": "Assessing the impact of soil moisture on canopy transpiration using a modified jarvis-stewart model",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Canopy Transpiration / Soil Moisture / Modified Jarvis-Stewart Model / Larch Plantation / Dryland Region",
+      "suggested": "Canopy Transpiration, Soil Moisture Profile, Jarvis-Stewart Model, Larch Plantation, Dryland, Evapotranspiration",
+      "reason": "The current keywords are accurate. 'Soil Moisture Profile' better reflects the focus on different soil layers, and adding 'Evapotranspiration' clarifies the broader context of the study."
+    },
+    "related_papers": [
+      "Water age dynamics in plant transpiration: The effects of climate patterns and rooting depth"
+    ],
+    "innovation_insights": [
+      "Apply the modified Jarvis-Stewart model, or similar ML-enhanced process-based models, to a wider range of vegetation types and climatic zones to assess the generality of findings.",
+      "Integrate soil moisture from different layers into more complex AI models (e.g., LSTMs, CNNs) to capture non-linear dynamics of transpiration.",
+      "Investigate the temporal dynamics of soil moisture contribution to transpiration under different drought intensities and durations, and how this relates to water age."
+    ],
+    "processed_time": "2026-01-14 20:24:00"
+  },
+  "2HCJGDEX": {
+    "title": "Root zone soil moisture estimation with random forest",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Root Zone Soil Moisture / Random Forest / Machine Learning / Process-Based Modeling",
+      "suggested": "Root Zone Soil Moisture, Random Forest, Machine Learning, Hydrological Modeling, Data Assimilation",
+      "reason": "The current keywords are good. 'Hydrological Modeling' is a broader category, and 'Data Assimilation' can be relevant if the process-based model incorporates it, which is often the case for soil moisture estimation."
+    },
+    "related_papers": [
+      "Assessing the impact of soil moisture on canopy transpiration using a modified jarvis-stewart model"
+    ],
+    "innovation_insights": [
+      "Explore the application of advanced ML techniques (e.g., deep learning) for RZSM estimation, potentially integrating remote sensing data or hydrological model outputs.",
+      "Investigate the transferability of RF models for RZSM estimation across different agricultural regions and soil types.",
+      "Develop hybrid models that combine the strengths of RF for data-driven insights with process-based understanding of soil water dynamics, particularly for improving predictions under extreme conditions."
+    ],
+    "processed_time": "2026-01-14 20:24:06"
+  },
+  "SFLLXITS": {
+    "title": "Water age dynamics in plant transpiration: The effects of climate patterns and rooting depth",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Stable Isotopes / Water Age / Plant Transpiration / Climate Effects / Rooting Depth",
+      "suggested": "Water Age, Plant Transpiration, Stable Isotopes, Rooting Depth, Climate Patterns, Arid/Humid Regions",
+      "reason": "The keywords are accurate and comprehensive. Adding 'Arid/Humid Regions' captures the core findings about water use in different climates."
+    },
+    "related_papers": [
+      "Assessing the impact of soil moisture on canopy transpiration using a modified jarvis-stewart model"
+    ],
+    "innovation_insights": [
+      "Investigate the dynamic relationship between water age in transpiration and actual soil moisture availability at different root depths under various climate scenarios.",
+      "Apply water age concepts to understand plant water stress and drought resilience mechanisms in different ecosystems.",
+      "Combine stable isotope data with advanced hydrological models (including ML-based approaches) to improve the representation of plant water uptake dynamics and water age in land surface models."
+    ],
+    "processed_time": "2026-01-14 20:24:10"
+  },
+  "62ZYPZKG": {
+    "title": "Uncertainty estimation for a new exponential-filter-based long-term root-zone soil moisture dataset from copernicus climate change service (C3S) surface observations",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture/Uncertainty Estimation, Methodology/Remote Sensing/Observation-based Product, Methodology/Statistical Methods/Exponential Filter",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Root-Zone Soil Moisture / Uncertainty Estimation / Satellite Soil Moisture / Exponential Filter / Observation-based Product",
+      "suggested": "Root-Zone Soil Moisture / Uncertainty Quantification / Satellite Soil Moisture / Exponential Filter / Observation-based Dataset",
+      "reason": "Keywords are generally accurate. 'Uncertainty Estimation' can be slightly more precisely termed 'Uncertainty Quantification'. 'Observation-based Product' is good, but 'Observation-based Dataset' might be more specific given the output is a dataset."
+    },
+    "related_papers": [
+      "Paper 2: Estimating root zone soil moisture across diverse land cover types by integrating in-situ and remotely sensed data",
+      "Paper 3: Impact of regional characteristics on the estimation of root-zone soil moisture from the evaporative index or evaporative fraction"
+    ],
+    "innovation_insights": [
+      "This paper's core innovation lies in providing a global, long-term root-zone soil moisture (RZSM) dataset with inherent uncertainty estimates. This opens up avenues for more robust data assimilation into land surface models and improved hydrological forecasting where uncertainty is a critical factor.",
+      "Future work could explore the application of this uncertainty-aware RZSM dataset in improving the performance of various hydrological models, particularly in regions or time periods where data is sparse or traditionally less reliable. Investigating the sensitivity of different model components (e.g., ET, runoff) to the provided RZSM uncertainty could also be a valuable research direction."
+    ],
+    "processed_time": "2026-01-14 20:24:32"
+  },
+  "Y8R4FE3N": {
+    "title": "MODIS-based modeling of evapotranspiration from woody vegetation supported by root-zone water storage",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Soil Moisture/Root-Zone Soil Moisture, Methodology/Remote Sensing",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Evapotranspiration / Woody Vegetation / Root-Zone Water Storage / MODIS / Land Surface Models",
+      "reason": "Current keywords are missing. Suggested keywords cover the main components: the process (ET), the vegetation type, a key influencing factor (root-zone water storage), the remote sensing data source (MODIS), and the modeling context (Land Surface Models)."
+    },
+    "related_papers": [
+      "Paper 0: Uncertainty estimation for a new exponential-filter-based long-term root-zone soil moisture dataset from copernicus climate change service (C3S) surface observations",
+      "Paper 2: Estimating root zone soil moisture across diverse land cover types by integrating in-situ and remotely sensed data",
+      "Paper 4: Climate-controlled root zone parameters show potential to improve water flux simulations by land surface models"
+    ],
+    "innovation_insights": [
+      "This paper suggests that explicitly modeling the role of root-zone water storage is crucial for accurately estimating evapotranspiration, particularly for woody vegetation. This highlights the importance of detailed soil moisture dynamics in ET modeling.",
+      "Future research could investigate how to better integrate detailed root-zone water storage information into existing ET models, potentially using machine learning approaches or more sophisticated soil water models. Exploring the scale dependency of this relationship and its implications for global ET modeling would also be beneficial."
+    ],
+    "processed_time": "2026-01-14 20:24:38"
+  },
+  "P8SDAFL6": {
+    "title": "Estimating root zone soil moisture across diverse land cover types by integrating in-situ and remotely sensed data",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture/Root-Zone Soil Moisture, Methodology/Remote Sensing, Methodology/Statistical Methods/Water Balance Model",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Scale Issues (Spatial_Temporal), Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Soil Moisture / Remote Sensing / Water Balance Model / Land Cover Heterogeneity",
+      "suggested": "Root-Zone Soil Moisture / Remote Sensing / In-situ Data / Water Balance Model / Land Cover Heterogeneity / Vegetation Index",
+      "reason": "Current keywords are good. Adding 'Root-Zone Soil Moisture' makes it more specific. 'In-situ Data' is a key integration component. 'Vegetation Index' is the specific remote sensing product used, which is important."
+    },
+    "related_papers": [
+      "Paper 0: Uncertainty estimation for a new exponential-filter-based long-term root-zone soil moisture dataset from copernicus climate change service (C3S) surface observations",
+      "Paper 3: Impact of regional characteristics on the estimation of root-zone soil moisture from the evaporative index or evaporative fraction"
+    ],
+    "innovation_insights": [
+      "This paper demonstrates the value of integrating multiple data sources (in-situ weather, remote sensing Vegetation Indices) within a simplified water balance framework to improve RZSM estimates across diverse land covers. It highlights how remote sensing-derived proxies can capture land cover specific effects.",
+      "This work opens up research into developing more sophisticated, yet still parsimonious, hybrid models that leverage remote sensing to improve the spatial and temporal representation of soil moisture in heterogeneous landscapes. Further investigation into the transferability of such integrated approaches to different climatic zones and vegetation types could be valuable."
+    ],
+    "processed_time": "2026-01-14 20:24:44"
+  },
+  "Q4LGUCZ5": {
+    "title": "Impact of regional characteristics on the estimation of root-zone soil moisture from the evaporative index or evaporative fraction",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture/Root-Zone Soil Moisture, Methodology/Deep Learning (LSTM_CNN), Applications/Early Warning Systems, Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Dynamics/Rapid Onset Events, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Soil Moisture Estimation / Machine Learning / Hydrological Modeling / Mountainous Areas / SMAP",
+      "suggested": "Root-Zone Soil Moisture / Machine Learning / LSTM / SMAP / Gap Filling / Rainfall-Runoff Modeling / Mountainous Regions",
+      "reason": "Keywords are relevant. Specifying 'Root-Zone Soil Moisture' is more precise. 'LSTM' is the specific ML technique, and 'Gap Filling' is a key function. 'SMAP' is a crucial data source. Explicitly mentioning 'Rainfall-Runoff Modeling' and 'Mountainous Regions' provides better context for the application."
+    },
+    "related_papers": [
+      "Paper 0: Uncertainty estimation for a new exponential-filter-based long-term root-zone soil moisture dataset from copernicus climate change service (C3S) surface observations",
+      "Paper 2: Estimating root zone soil moisture across diverse land cover types by integrating in-situ and remotely sensed data"
+    ],
+    "innovation_insights": [
+      "This paper showcases the potential of deep learning (LSTM) to bridge spatio-temporal gaps in satellite soil moisture data (SMAP), particularly in challenging terrains like mountainous areas. The demonstrated improvement in rainfall-runoff modeling underscores the value of high-fidelity soil moisture inputs.",
+      "This work suggests future research directions in using ML for data fusion and gap-filling of various hydrological variables, especially in data-scarce or complex regions. Exploring the generalizability of ML models for soil moisture estimation and its impact on downstream applications across different geographical and climatic settings is a key opportunity. Investigating the physical interpretability of these ML models in mountainous contexts could also yield significant insights."
+    ],
+    "processed_time": "2026-01-14 20:24:50"
+  },
+  "ZMBWSQJA": {
+    "title": "Climate-controlled root zone parameters show potential to improve water flux simulations by land surface models",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture/Root-Zone Soil Moisture, Methodology/Land Surface Model, Applications/Hydrological Modeling",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Land Surface Model / Root Zone Storage Capacity / Climate Control / Water Fluxes / Hydrological Modeling",
+      "suggested": "Land Surface Model / Root Zone Storage Capacity / Climate Influence / Water Fluxes / Hydrological Modeling / Parameterization",
+      "reason": "Current keywords are accurate and comprehensive. 'Climate Influence' is a slight variation but 'Climate Control' is also fine. Adding 'Parameterization' highlights a key aspect of the methodology."
+    },
+    "related_papers": [
+      "Paper 0: Uncertainty estimation for a new exponential-filter-based long-term root-zone soil moisture dataset from copernicus climate change service (C3S) surface observations",
+      "Paper 1: MODIS-based modeling of evapotranspiration from woody vegetation supported by root-zone water storage",
+      "Paper 2: Estimating root zone soil moisture across diverse land cover types by integrating in-situ and remotely sensed data",
+      "Paper 3: Impact of regional characteristics on the estimation of root-zone soil moisture from the evaporative index or evaporative fraction"
+    ],
+    "innovation_insights": [
+      "This paper's key contribution is demonstrating that climate-informed parameterization of root zone storage capacity (Sr) can significantly improve the accuracy of water flux simulations (runoff, ET) in land surface models. This suggests that static or lookup-table based parameterizations are insufficient and that dynamic, climate-influenced parameters are necessary for robust hydrological modeling.",
+      "This research opens up new avenues for improving land surface model performance by developing better parameterization schemes that account for climate variability and change. Future work could focus on developing similar climate-controlled parameterizations for other critical land surface parameters, exploring the impact of these improved parameters on simulating extreme hydrological events (droughts, floods), and investigating how these climate-controlled parameters interact with land use changes."
+    ],
+    "processed_time": "2026-01-14 20:24:59"
+  },
+  "5G5LIWBM": {
+    "title": "Evaluating soil evaporation and transpiration responses to alternate partial rootzone drying to minimise water losses",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Soil Evaporation, [ARCHIVE] Processes/Evapotranspiration (ET)/Transpiration, [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, [IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Partial Rootzone Drying (PRD) / Soil Evaporation / Transpiration / Irrigation Strategy / Water Use Efficiency",
+      "suggested": "Partial Rootzone Drying (PRD) / Soil Evaporation / Transpiration / Irrigation Strategy / Water Use Efficiency / Soil Moisture Distribution",
+      "reason": "Current keywords are good but miss the crucial aspect of 'Soil Moisture Distribution' which is highlighted as a key factor influencing evaporation and transpiration in the abstract and results."
+    },
+    "related_papers": [
+      "Estimate canopy transpiration in larch plantations via the interactions among reference evapotranspiration, leaf area index, and soil moisture",
+      "Limitation of soil moisture on the response of transpiration to vapor pressure deficit in a subtropical coniferous plantation subjected to seasonal drought",
+      "Observed timescales of evapotranspiration response to soil moisture"
+    ],
+    "innovation_insights": [
+      "Investigating the complex interplay between irrigation placement, soil moisture distribution, and the partitioning of evapotranspiration (ET) into evaporation and transpiration under deficit irrigation strategies.",
+      "Developing process-based or hybrid models that explicitly account for the spatial heterogeneity of soil moisture created by irrigation strategies like PRD to improve ET partitioning and water use efficiency estimations.",
+      "Exploring how different PRD rotation frequencies or water application timings can be optimized to minimize unproductive soil evaporation while maintaining sufficient water supply for transpiration, especially in water-scarce agricultural systems."
+    ],
+    "processed_time": "2026-01-14 20:25:25"
+  },
+  "NRYMJAAE": {
+    "title": "Estimation of root zone soil moisture from ground and remotely sensed soil information with multisensor data fusion and automated machine learning",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Methodology/Data Fusion, [ARCHIVE] Applications/Precision Agriculture",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Remote Sensing / Soil Moisture / Machine Learning / AutoML / Precision Agriculture",
+      "suggested": "Remote Sensing / Soil Moisture / Machine Learning / AutoML / Precision Agriculture / Multi-sensor Data Fusion / Soil Properties",
+      "reason": "The keywords are accurate but could be more comprehensive by including 'Multi-sensor Data Fusion' and 'Soil Properties' which are explicitly mentioned as key components of their methodology for enhancing soil moisture estimation."
+    },
+    "related_papers": [
+      "Evaluating soil evaporation and transpiration responses to alternate partial rootzone drying to minimise water losses",
+      "Estimate canopy transpiration in larch plantations via the interactions among reference evapotranspiration, leaf area index, and soil moisture",
+      "Limitation of soil moisture on the response of transpiration to vapor pressure deficit in a subtropical coniferous plantation subjected to seasonal drought",
+      "Observed timescales of evapotranspiration response to soil moisture"
+    ],
+    "innovation_insights": [
+      "Developing more robust and efficient AutoML pipelines for hydrological variable estimation, potentially incorporating domain knowledge or physics-informed constraints to improve generalization.",
+      "Exploring the synergy between different remote sensing platforms (e.g., satellite, airborne, drone) and ground-based measurements with soil physical properties for improved spatial and temporal resolution of soil moisture.",
+      "Investigating the uncertainty associated with fused data and ML models for soil moisture estimation, and how this uncertainty can be quantified and propagated for better decision-making in precision agriculture."
+    ],
+    "processed_time": "2026-01-14 20:25:32"
+  },
+  "ZYGD6RMI": {
+    "title": "Estimate canopy transpiration in larch plantations via the interactions among reference evapotranspiration, leaf area index, and soil moisture",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Transpiration, [ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Forest Transpiration / Crop Coefficient Method / Larch Plantation / Soil Moisture / Leaf Area Index",
+      "suggested": "Forest Transpiration / Crop Coefficient Method / Larch Plantation / Soil Moisture / Leaf Area Index / Reference Evapotranspiration (ETo)",
+      "reason": "The current keywords are good, but 'Reference Evapotranspiration (ETo)' is a core input and interacting factor in their model, so explicitly including it would improve searchability and capture the essence of the study's inputs."
+    },
+    "related_papers": [
+      "Evaluating soil evaporation and transpiration responses to alternate partial rootzone drying to minimise water losses",
+      "Limitation of soil moisture on the response of transpiration to vapor pressure deficit in a subtropical coniferous plantation subjected to seasonal drought",
+      "Observed timescales of evapotranspiration response to soil moisture"
+    ],
+    "innovation_insights": [
+      "Developing simplified, yet mechanistic, models for forest transpiration that integrate key environmental drivers (ETo, LAI) and soil conditions, moving beyond empirical relationships.",
+      "Investigating the non-linear interactions between environmental drivers (ETo, LAI, soil moisture) and their impact on canopy transpiration dynamics, particularly in forest ecosystems.",
+      "Quantifying the role of water availability (via soil moisture) and atmospheric demand (via ETo) in regulating forest transpiration under different conditions and identifying critical thresholds."
+    ],
+    "processed_time": "2026-01-14 20:25:37"
+  }
+}

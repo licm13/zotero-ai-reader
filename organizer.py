@@ -1097,7 +1097,12 @@ def fetch_all_items(zot, target_coll_key=None, tag=None, cache=None, include_sub
                 break
     else:
         # 从每个collection中获取items
-        for coll_key in collection_keys:
+        total_collections = len(collection_keys)
+        for idx, coll_key in enumerate(collection_keys, 1):
+            # 每10个collection或开始时输出进度
+            if idx % 10 == 0 or idx == 1 or idx == total_collections:
+                print(f"   [INFO] 正在获取items ({idx}/{total_collections} collections)...")
+            
             start = 0
             page_size = 100
             while True:

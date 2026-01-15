@@ -1,0 +1,520 @@
+{
+  "RP45HWGR": {
+    "title": "Remote sensing for wildfire monitoring: Insights into burned area, emissions, and fire dynamics",
+    "archive_path": "[ARCHIVE] Hazards/Wildfire / Methodology/Remote Sensing",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration / Mechanism/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "野火监测",
+      "suggested": "Wildfire Monitoring / Remote Sensing / Burned Area / Fire Emissions / Fire Dynamics / Satellite Monitoring",
+      "reason": "Current keyword is too broad and in Chinese. Suggested keywords are more specific and in English, covering key aspects of the paper like remote sensing, burned area, emissions, and fire dynamics, which are crucial for retrieval and exploration."
+    },
+    "related_papers": [
+      "Droughts impede water balance recovery from fires in the western united states",
+      "Meteorological Environments Associated With California Wildfires and Their Potential Roles in Wildfire Changes During 1984–2017",
+      "Past and future of wildfires in Northern Hemisphere’s boreal forests"
+    ],
+    "innovation_insights": [
+      "Future research could explore the integration of multi-temporal and multi-sensor satellite data for more accurate and continuous wildfire monitoring, addressing the challenges of data consistency and long-term data generation.",
+      "Investigate the application of advanced AI/ML techniques (e.g., deep learning for image analysis) to improve the characterization of fire dynamics (intensity, spread) and emission estimations from remote sensing data.",
+      "Address the gap in generating a truly comprehensive, continuous, and consistent long-term dataset for wildfire monitoring by developing new algorithms or data fusion strategies for legacy and current satellite missions."
+    ],
+    "processed_time": "2026-01-14 19:09:22"
+  },
+  "6CL3UWGU": {
+    "title": "Droughts impede water balance recovery from fires in the western united states",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought / Processes/Evapotranspiration (ET) / Methodology/Remote Sensing / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions / Coupling/Vegetation-Water Interaction / Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "干旱, 火灾, 水量平衡, 蒸散发, 植被恢复, 遥感",
+      "suggested": "Drought / Wildfire / Water Balance / Evapotranspiration (ET) / Vegetation Recovery / Remote Sensing / Ecosystem Resilience / Land-Atmosphere Coupling",
+      "reason": "Current keywords are descriptive but could be more comprehensive and aligned with standard terminology. Adding 'Ecosystem Resilience' and 'Land-Atmosphere Coupling' would better capture the nuanced interactions and implications discussed in the paper, facilitating broader search and discovery."
+    },
+    "related_papers": [
+      "Remote sensing for wildfire monitoring: Insights into burned area, emissions, and fire dynamics",
+      "Meteorological Environments Associated With California Wildfires and Their Potential Roles in Wildfire Changes During 1984–2017",
+      "Past and future of wildfires in Northern Hemisphere’s boreal forests"
+    ],
+    "innovation_insights": [
+      "Explore the differential drought sensitivity and recovery mechanisms across various ecosystem types (grasslands, shrublands, forests) using finer-scale ET data and process-based models.",
+      "Investigate the long-term consequences of compounded drought and fire events on water balance and ecosystem services, particularly concerning shifts in water partitioning and vegetation community composition.",
+      "Develop and validate advanced remote sensing or hybrid modeling approaches to better disentangle the impacts of drought versus fire on ET and water balance recovery, potentially incorporating soil moisture and other hydrological variables."
+    ],
+    "processed_time": "2026-01-14 19:09:29"
+  },
+  "H2WC8ICX": {
+    "title": "Meteorological Environments Associated With California Wildfires and Their Potential Roles in Wildfire Changes During 1984–2017",
+    "archive_path": "[ARCHIVE] Hazards/Wildfire / Methodology/Remote Sensing / Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events / Data Philosophy/Scale Issues (Spatial_Temporal) / Modeling/Causal Inference",
+    "keyword_assessment": {
+      "current": "Wildfire / Meteorology / California / Climate Change / Large-Scale Patterns",
+      "suggested": "Wildfire / Meteorology / California / Climate Change / Large-Scale Patterns / Fire Weather / Extreme Heat / Drought / Fire Intensity",
+      "reason": "Current keywords are adequate but could be expanded to include more specific meteorological factors (fire weather, extreme heat, drought) and the outcome of their influence (fire intensity) to enhance searchability and capture the paper's core focus on meteorological drivers of wildfire."
+    },
+    "related_papers": [
+      "Remote sensing for wildfire monitoring: Insights into burned area, emissions, and fire dynamics",
+      "Droughts impede water balance recovery from fires in the western united states",
+      "Past and future of wildfires in Northern Hemisphere’s boreal forests"
+    ],
+    "innovation_insights": [
+      "Investigate the role of specific synoptic weather patterns (e.g., atmospheric rivers, Santa Ana winds) in driving extreme wildfire events in California, and their future projections under climate change.",
+      "Develop predictive models that integrate detailed meteorological forecasts with vegetation fuel conditions to provide more accurate early warnings for high-risk wildfire periods and potential fire behavior.",
+      "Explore causal inference methods to better understand the direct and indirect relationships between meteorological variables, climate change, and wildfire characteristics (frequency, size, intensity)."
+    ],
+    "processed_time": "2026-01-14 19:09:33"
+  },
+  "J77CKRFS": {
+    "title": "Error Characterization of Significant Wave Heights in Multidecadal Satellite Altimeter Product, Model Hindcast, and In Situ Measurements Using the Triple Collocation Technique",
+    "archive_path": "[ARCHIVE] Methodology/Triple Collocation/Uncertainty / Methodology/Remote Sensing",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty / Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Triple Collocation / Significant Wave Height / Satellite Altimetry / In Situ Measurements / Wave Models",
+      "suggested": "Triple Collocation / Significant Wave Height (Hs) / Satellite Altimetry / Wave Models / In Situ Measurements / Data Uncertainty / Error Characterization / Multi-Source Data Fusion",
+      "reason": "The current keywords are good but can be enhanced by including 'Significant Wave Height (Hs)' for specificity, 'Data Uncertainty', 'Error Characterization', and 'Multi-Source Data Fusion' to better reflect the paper's core contribution in quantifying and addressing uncertainty in multi-source measurements, which is critical for data integration."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Apply the triple collocation technique to characterize uncertainty in other geophysical variables measured by multiple sources (e.g., soil moisture, ET, precipitation), especially where direct validation is difficult.",
+      "Develop advanced data assimilation schemes that explicitly account for the characterized error statistics from triple collocation to improve the accuracy and reliability of integrated datasets (e.g., for climate reanalysis or forecasting).",
+      "Investigate the spatio-temporal evolution of errors for different satellite missions and models, providing insights into instrument performance degradation or model biases over time, and informing future mission design or model development."
+    ],
+    "processed_time": "2026-01-14 19:09:36"
+  },
+  "VXQTAG3G": {
+    "title": "Past and future of wildfires in Northern Hemisphere’s boreal forests",
+    "archive_path": "[ARCHIVE] Hazards/Wildfire / Methodology/Deep Learning (LSTM_CNN) / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Modeling/Ensemble Methods / Dynamics/Tipping Points / Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Wildfire / Boreal Forest / Machine Learning / Climate Teleconnections / Long-term Prediction",
+      "suggested": "Wildfire / Boreal Forest / Machine Learning / Climate Teleconnections / Long-term Prediction / Fire Cycles / Climate Variability / Paleo-fire",
+      "reason": "Current keywords are relevant. Adding 'Fire Cycles', 'Climate Variability', and 'Paleo-fire' would better encompass the paper's focus on historical fire activity cycles, their drivers, and long-term predictive capabilities, aiding in searches related to historical trends and cyclical patterns."
+    },
+    "related_papers": [
+      "Remote sensing for wildfire monitoring: Insights into burned area, emissions, and fire dynamics",
+      "Droughts impede water balance recovery from fires in the western united states",
+      "Meteorological Environments Associated With California Wildfires and Their Potential Roles in Wildfire Changes During 1984–2017"
+    ],
+    "innovation_insights": [
+      "Explore the use of more advanced deep learning architectures (e.g., Transformers, Graph Neural Networks) for long-term wildfire prediction, incorporating a wider range of teleconnection indices and landscape variables.",
+      "Investigate the potential for abrupt shifts or tipping points in boreal forest fire regimes due to climate change, using the identified cycles as a baseline and exploring non-linear responses.",
+      "Combine paleo-fire records with machine learning models to extend the historical context beyond instrumental records, providing a more robust basis for understanding long-term fire cycles and their drivers."
+    ],
+    "processed_time": "2026-01-14 19:09:42"
+  },
+  "5S7GE96N": {
+    "title": "Oak, Fire, and Global Change in the Eastern USA: What Might the Future Hold?",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Archive/Processes/Vegetation, Archive/Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, [IDEA] Coupling/Vegetation-Water Interaction, [IDEA] Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Forest Ecology / Climate Change / Fire Ecology / Oak Forests / Land Management",
+      "suggested": "Forest Ecology / Climate Change / Fire Ecology / Oak Forests / Land Management / Drought Stress / Forest Resilience",
+      "reason": "Current keywords are good but could be enhanced by adding terms related to the physiological responses of oak forests to drought and their resilience, which are key themes in the paper."
+    },
+    "related_papers": [
+      "Increasing forest fire emissions despite the decline in global burned area",
+      "Enhanced dust emission following large wildfires due to vegetation disturbance",
+      "Effect of Reduced Summer Cloud Shading on Evaporative Demand and Wildfire in Coastal Southern California",
+      "Declines in Peak Snow Water Equivalent and Elevated Snowmelt Rates Following the 2020 Cameron Peak Wildfire in Northern Colorado"
+    ],
+    "innovation_insights": [
+      "Investigate the specific physiological mechanisms and thresholds of oak species that confer drought resilience compared to moisture-loving species, potentially using experimental approaches or advanced ecohydrological modeling.",
+      "Quantify the feedback loops between increased fire frequency/intensity, drought, and oak regeneration under different land management scenarios, perhaps through dynamic vegetation modeling.",
+      "Explore the long-term impacts of climate change-induced shifts in forest composition (e.g., towards more drought-tolerant species like oak) on broader ecosystem services such as water yield and carbon sequestration.",
+      "Develop integrated fire and drought management strategies that leverage the inherent resilience of certain species while mitigating risks associated with altered disturbance regimes."
+    ],
+    "processed_time": "2026-01-14 19:10:00"
+  },
+  "GVBY3DTV": {
+    "title": "Enhanced dust emission following large wildfires due to vegetation disturbance",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Archive/Methodology/Remote Sensing/Retrieval, Archive/Processes/Soil Moisture, Archive/Hazards/Compound Events/DFA",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, [IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Dust Emission / Wildfire / Satellite Remote Sensing / Climate Change",
+      "suggested": "Dust Emission / Wildfire / Satellite Remote Sensing / Climate Change / Vegetation Disturbance / Soil Erosion / Arid and Semi-Arid Regions",
+      "reason": "The current keywords are appropriate but could be expanded to include the primary drivers and consequences explored in the paper, such as vegetation disturbance and soil erosion, as well as the specific environmental context."
+    },
+    "related_papers": [
+      "Oak, Fire, and Global Change in the Eastern USA: What Might the Future Hold?",
+      "Increasing forest fire emissions despite the decline in global burned area",
+      "Effect of Reduced Summer Cloud Shading on Evaporative Demand and Wildfire in Coastal Southern California",
+      "Declines in Peak Snow Water Equivalent and Elevated Snowmelt Rates Following the 2020 Cameron Peak Wildfire in Northern Colorado"
+    ],
+    "innovation_insights": [
+      "Quantify the potential for fire-induced dust emissions to exacerbate or trigger drought conditions in downwind regions by altering atmospheric radiative properties and precipitation patterns.",
+      "Investigate the long-term legacy effects of wildfires on soil erodibility and dust generation potential, particularly in arid and semi-arid environments.",
+      "Develop integrated models that couple wildfire spread, vegetation recovery, and dust emission processes to predict the combined impacts of these phenomena.",
+      "Explore the potential for remote sensing to not only detect fire-induced dust but also to estimate its radiative forcing and impact on air quality and human health."
+    ],
+    "processed_time": "2026-01-14 19:10:08"
+  },
+  "I9Y7SG73": {
+    "title": "Effect of Reduced Summer Cloud Shading on Evaporative Demand and Wildfire in Coastal Southern California",
+    "archive_path": "[ARCHIVE] Hazards/Wildfire, Archive/Processes/Evapotranspiration (ET), Archive/Methodology/Remote Sensing/Retrieval, Archive/Hazards/Heatwaves & Extremes",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Modeling/Physics-Informed AI, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "Climate Change / Cloud Shading / Wildfire / Evaporative Demand / Southern California",
+      "suggested": "Climate Change / Cloud Shading / Wildfire / Evaporative Demand / Southern California / Surface Radiation / Convective Inhibition",
+      "reason": "The current keywords are good. Adding 'Surface Radiation' and 'Convective Inhibition' could better reflect the paper's findings on how reduced cloud cover increases incoming radiation and influences atmospheric conditions relevant to fire."
+    },
+    "related_papers": [
+      "Oak, Fire, and Global Change in the Eastern USA: What Might the Future Hold?",
+      "Increasing forest fire emissions despite the decline in global burned area",
+      "Enhanced dust emission following large wildfires due to vegetation disturbance",
+      "Declines in Peak Snow Water Equivalent and Elevated Snowmelt Rates Following the 2020 Cameron Peak Wildfire in Northern Colorado"
+    ],
+    "innovation_insights": [
+      "Investigate how changes in cloud cover dynamics (frequency, type, thickness) under climate change might globally influence the evaporative demand and wildfire risk in other regions, particularly those with similar atmospheric circulation patterns.",
+      "Develop regional climate models that explicitly incorporate fine-scale cloud dynamics to better predict wildfire-prone conditions, leveraging AI/ML for improved parameterizations.",
+      "Explore the role of aerosols (e.g., from wildfires) in influencing cloud formation and longevity, potentially creating complex feedback loops that affect evaporative demand and fire risk.",
+      "Quantify the contribution of reduced cloud shading versus other climate change factors (e.g., temperature increase, precipitation decrease) to enhanced evaporative demand and wildfire risk in susceptible regions."
+    ],
+    "processed_time": "2026-01-14 19:10:15"
+  },
+  "ADINT83Z": {
+    "title": "Declines in Peak Snow Water Equivalent and Elevated Snowmelt Rates Following the 2020 Cameron Peak Wildfire in Northern Colorado",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier), Archive/Hazards/Wildfire, Archive/Methodology/Remote Sensing/Retrieval, Archive/Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, [IDEA] Dynamics/Tipping Points, [IDEA] Coupling/Energy-Water Nexus, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Wildfire Impact / Snowpack Dynamics / Forest Ecosystems / Western US / Climate Change Adaptation",
+      "suggested": "Wildfire Impact / Snowpack Dynamics / Forest Ecosystems / Western US / Climate Change Adaptation / Snowmelt Timing / Hydrology",
+      "reason": "The current keywords are accurate. Adding 'Snowmelt Timing' and 'Hydrology' would more precisely capture the paper's focus on how wildfires alter snowmelt processes and their hydrological consequences."
+    },
+    "related_papers": [
+      "Oak, Fire, and Global Change in the Eastern USA: What Might the Future Hold?",
+      "Increasing forest fire emissions despite the decline in global burned area",
+      "Enhanced dust emission following large wildfires due to vegetation disturbance",
+      "Effect of Reduced Summer Cloud Shading on Evaporative Demand and Wildfire in Coastal Southern California"
+    ],
+    "innovation_insights": [
+      "Investigate the cascading hydrological impacts of wildfire-induced accelerated snowmelt, including changes in streamflow timing, increased flood risk in spring, and reduced water availability in late summer.",
+      "Develop predictive models for wildfire-driven changes in snowpack dynamics across mountainous regions, integrating burn severity, vegetation cover, snow physics, and microclimate data.",
+      "Quantify the impact of altered snowmelt regimes on downstream water resources, agricultural practices, and ecosystem health in regions heavily reliant on snowpack.",
+      "Explore the potential for using AI/ML to forecast changes in snow water equivalent (SWE) and melt rates based on burn severity maps and meteorological data, enabling proactive water resource management."
+    ],
+    "processed_time": "2026-01-14 19:10:23"
+  },
+  "7WJD3P35": {
+    "title": "The season for large fires in Southern California is projected to lengthen in a changing climate",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Methodology/Deep Learning (LSTM_CNN), Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, Modeling/Deep Learning, Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Climate Change / Wildfire Risk / Machine Learning / Southern California",
+      "suggested": "Climate Change / Wildfire Risk / Machine Learning / Southern California / Fire Season Length / Vapor Pressure Deficit",
+      "reason": "Keywords are good but could be more specific by including 'Fire Season Length' as it's a core finding, and 'Vapor Pressure Deficit' as a key driver identified."
+    },
+    "related_papers": [
+      "Paper 1: A monthly gridded burned area database of national wildland fire data",
+      "Paper 2: Drought-related wildfire accounts for one-third of the forest wildfires in subtropical China",
+      "Paper 3: How does wildfire and climate variability affect streamflow in forested catchments? A regional study in eastern Australia",
+      "Paper 4: Aerodynamic effects cause higher forest evapotranspiration and water yield reductions after wildfires in tall forests"
+    ],
+    "innovation_insights": [
+      "Investigate the cascading effects of prolonged fire seasons on regional hydrology and ecosystem services using advanced AI models.",
+      "Explore the precise role of vapor pressure deficit (VPD) and fuel moisture in driving early fire season onset and late cessation, potentially through developing more sophisticated land-atmosphere interaction models.",
+      "Develop and validate AI-driven early warning systems for extended wildfire seasons, moving beyond single fire event prediction."
+    ],
+    "processed_time": "2026-01-14 19:10:42"
+  },
+  "846A9FFK": {
+    "title": "A monthly gridded burned area database of national wildland fire data",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Hazards/Drought/Flash Drought, Methodology/Remote Sensing/Retrieval, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Dynamics/Drought-Flood Transitions, Applications/Climate Change Impact",
+    "keyword_assessment": {
+      "current": "Burned area (烧毁面积)",
+      "suggested": "Burned Area / Wildfire Data / National Fire Inventories / Climate Change / Data Integration / ONFIRE Database",
+      "reason": "The current keyword is too narrow. Expanding to include the source of data (National Fire Inventories), the broader context (Wildfire Data, Climate Change), and the specific contribution (Data Integration, ONFIRE Database) would be more comprehensive."
+    },
+    "related_papers": [
+      "Paper 0: The season for large fires in Southern California is projected to lengthen in a changing climate",
+      "Paper 2: Drought-related wildfire accounts for one-third of the forest wildfires in subtropical China",
+      "Paper 3: How does wildfire and climate variability affect streamflow in forested catchments? A regional study in eastern Australia",
+      "Paper 4: Aerodynamic effects cause higher forest evapotranspiration and water yield reductions after wildfires in tall forests"
+    ],
+    "innovation_insights": [
+      "Leverage the ONFIRE database in conjunction with remote sensing data to investigate the interplay between drought metrics and burned area at finer spatial and temporal resolutions.",
+      "Explore the potential for using this database to train and validate AI models for predicting wildfire susceptibility under various climate change scenarios, especially for regions with limited existing data.",
+      "Further research into the long-term trends and drivers of burned area across different continents using this harmonized dataset, potentially uncovering novel teleconnections or regional patterns."
+    ],
+    "processed_time": "2026-01-14 19:10:46"
+  },
+  "IXSWXE2Z": {
+    "title": "Drought-related wildfire accounts for one-third of the forest wildfires in subtropical China",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Hazards/Flood, Processes/Runoff & Streamflow, Methodology/Deep Learning (LSTM_CNN), Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions, Dynamics/Rapid Onset Events, Mechanism/Threshold Behavior, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Drought, Forest fire, Generalized linear mixed model, Bayesian, Vapor pressure deficit",
+      "suggested": "Drought / Forest Fire / Subtropical China / Vapor Pressure Deficit / Bayesian Modeling / Fire Frequency",
+      "reason": "Keywords are generally good and specific. Adding 'Subtropical China' provides geographical context, and 'Fire Frequency' reflects the focus of the analysis better than just 'Forest fire'."
+    },
+    "related_papers": [
+      "Paper 0: The season for large fires in Southern California is projected to lengthen in a changing climate",
+      "Paper 1: A monthly gridded burned area database of national wildland fire data",
+      "Paper 3: How does wildfire and climate variability affect streamflow in forested catchments? A regional study in eastern Australia",
+      "Paper 4: Aerodynamic effects cause higher forest evapotranspiration and water yield reductions after wildfires in tall forests"
+    ],
+    "innovation_insights": [
+      "Investigate the non-linear relationship between increasing vapor pressure deficit and wildfire occurrence, potentially identifying critical thresholds for drought-induced fire ignition in subtropical regions.",
+      "Develop a hybrid model that combines Bayesian statistical approaches with physical process understanding to forecast drought-fire-flood transitions in the region.",
+      "Extend the analysis to include other meteorological drivers and vegetation types to understand the broader applicability of the drought-fire relationship found in subtropical China."
+    ],
+    "processed_time": "2026-01-14 19:10:51"
+  },
+  "GL2HQN6Z": {
+    "title": "How does wildfire and climate variability affect streamflow in forested catchments? A regional study in eastern Australia",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Hazards/Drought/Flash Drought, Hazards/Flood, Applications/Water Resources Management, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions, Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity, Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "森林, 流量, 径流, 水量, 气候条件, 火灾, 灌木丛火灾",
+      "suggested": "Wildfire / Streamflow / Climate Variability / Forested Catchments / Eastern Australia / Runoff Response / Hydrological Impact",
+      "reason": "Keywords are descriptive but could be more concise and impactful. 'Wildfire' is better than 'Fire' and 'Bushfire'. 'Streamflow' is more technical than 'Flow/Water Quantity'. Adding geographical context and the core outcome (Runoff Response/Hydrological Impact) would improve them."
+    },
+    "related_papers": [
+      "Paper 0: The season for large fires in Southern California is projected to lengthen in a changing climate",
+      "Paper 1: A monthly gridded burned area database of national wildland fire data",
+      "Paper 2: Drought-related wildfire accounts for one-third of the forest wildfires in subtropical China",
+      "Paper 4: Aerodynamic effects cause higher forest evapotranspiration and water yield reductions after wildfires in tall forests"
+    ],
+    "innovation_insights": [
+      "Explore the complex feedback loop where fire severity influences vegetation recovery, which in turn affects soil properties and subsequent runoff generation under varying climatic conditions.",
+      "Develop models that disentangle the additive vs. interactive effects of wildfire and climate variability on streamflow, moving beyond simple attribution.",
+      "Investigate how hydrological shifts post-fire, particularly increases in runoff efficiency, might interact with extreme rainfall events to exacerbate flood risks in burned catchments."
+    ],
+    "processed_time": "2026-01-14 19:10:56"
+  },
+  "24ZYUM53": {
+    "title": "Aerodynamic effects cause higher forest evapotranspiration and water yield reductions after wildfires in tall forests",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Runoff & Streamflow, Hazards/Drought/Flash Drought, Methodology/Deep Learning (LSTM_CNN)",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Coupling/Energy-Water Nexus, Dynamics/Non-linearity & Complexity, Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Forest Evapotranspiration / Water Yield / Wildfire Impact / Aerodynamic Effects / Tall Forests / Post-fire Hydrology",
+      "reason": "No keywords were provided for this paper. Suggested keywords capture the core focus on ET, water yield, and the unique aerodynamic mechanisms post-wildfire in tall forests."
+    },
+    "related_papers": [
+      "Paper 0: The season for large fires in Southern California is projected to lengthen in a changing climate",
+      "Paper 1: A monthly gridded burned area database of national wildland fire data",
+      "Paper 2: Drought-related wildfire accounts for one-third of the forest wildfires in subtropical China",
+      "Paper 3: How does wildfire and climate variability affect streamflow in forested catchments? A regional study in eastern Australia"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term implications of altered aerodynamic properties on forest ET and water yield, and how these changes influence regional water balances and drought resilience.",
+      "Develop coupled land-atmosphere models that explicitly incorporate aerodynamic changes post-wildfire to improve ET and streamflow predictions.",
+      "Explore the potential for using eddy covariance data and advanced remote sensing techniques to quantify changes in aerodynamic roughness and their impact on turbulent fluxes after wildfires."
+    ],
+    "processed_time": "2026-01-14 19:11:01"
+  },
+  "6BYCDHHH": {
+    "title": "Integrating hydrological parameters in wildfire risk assessment: A machine learning approach for mapping wildfire probability",
+    "archive_path": "[ARCHIVE] Hazards/Wildfire & Drought/Wildfire Risk, Methodology/Deep Learning (LSTM_CNN)/Random Forest, Processes/Evapotranspiration (ET), Processes/Groundwater",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Coupling/Vegetation-Water Interaction, Data Philosophy/Multi-Source Integration, Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Wildfire probability, Hydrology, Actual evapotranspiration, Recharge, Random forest",
+      "suggested": "Wildfire probability, Hydrological parameters, Actual evapotranspiration, Groundwater recharge, Machine learning, Remote sensing, California",
+      "reason": "Keywords are generally good but could be more specific. 'Hydrology' is broad; specifying 'hydrological parameters' is better. Adding 'Machine learning' (as RF is a type of ML) and 'Remote sensing' (if used, though not explicit in excerpt) would improve discoverability. Location context 'California' is important for this study."
+    },
+    "related_papers": [
+      "Burn severity and post‐fire weather are key to predicting time‐to‐recover from australian forest fires",
+      "Increasing fire activity in african tropical forests is associated with deforestation and climate change",
+      "Wildfire impacts on the carbon budget of a managed nordic boreal forest",
+      "Evaluating noah‐MP simulated runoff and snowpack in heavily burned pacific‐northwest snow‐dominated catchments"
+    ],
+    "innovation_insights": [
+      "This paper suggests a research direction in developing more sophisticated ML models for wildfire prediction by integrating a wider array of hydrological and meteorological variables, moving beyond simple correlations to understanding complex interactions.",
+      "Future work could explore the transferability of this RF model to other wildfire-prone regions with different hydrological regimes, or investigate the uncertainty associated with the hydrological parameters used as inputs.",
+      "The study highlights the critical role of long-term hydrological processes (like ET and recharge) in influencing short-term wildfire risk, opening avenues for research into how climate change impacts these relationships and consequently wildfire behavior."
+    ],
+    "processed_time": "2026-01-14 19:11:24"
+  },
+  "MPXIPQEI": {
+    "title": "Burn severity and post‐fire weather are key to predicting time‐to‐recover from australian forest fires",
+    "archive_path": "[ARCHIVE] Hazards/Wildfire & Drought/Wildfire Severity, Processes/Vegetation Dynamics, Methodology/Deep Learning (LSTM_CNN)/Machine Learning, Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Dynamics/Tipping Points, Mechanism/Feedback Loops & Cascades, Data Philosophy/Signal Purification/Uncertainty, Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Forest fires (森林火灾)",
+      "suggested": "Forest fire recovery, Burn severity, Post-fire weather, Leaf Area Index (LAI), Eucalyptus forests, Australia, Machine learning, Vegetation regrowth",
+      "reason": "The current keyword is too broad. The paper focuses specifically on the *recovery* from forest fires, influenced by severity and weather. Keywords should reflect this focus, including key metrics (LAI), environmental factors (burn severity, post-fire weather), geographic location (Australia), and methods (Machine learning)."
+    },
+    "related_papers": [
+      "Wildfire impacts on the carbon budget of a managed nordic boreal forest",
+      "Integrating hydrological parameters in wildfire risk assessment: a machine learning approach for mapping wildfire probability",
+      "Increasing fire activity in african tropical forests is associated with deforestation and climate change",
+      "Evaluating noah‐MP simulated runoff and snowpack in heavily burned pacific‐northwest snow‐dominated catchments"
+    ],
+    "innovation_insights": [
+      "This paper points to research opportunities in understanding the non-linear relationship between burn severity, post-fire conditions (especially precipitation), and the rate of vegetation recovery.",
+      "It suggests investigating whether the predictive model developed here can be generalized to other forest types or regions, or if specific parameters need recalibration.",
+      "Future work could explore the impact of different post-fire management strategies on recovery time, or delve deeper into the biophysical mechanisms driving the observed recovery rates (e.g., root system resilience)."
+    ],
+    "processed_time": "2026-01-14 19:11:31"
+  },
+  "T9H2FZUV": {
+    "title": "Increasing fire activity in african tropical forests is associated with deforestation and climate change",
+    "archive_path": "[ARCHIVE] Hazards/Wildfire & Drought/Wildfire Activity, Processes/Vegetation Dynamics, Methodology/Remote Sensing/MODIS, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Abrupt Transitions/Phase Change, Coupling/Land-Atmosphere Coupling, Mechanism/Feedback Loops & Cascades, Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "森林砍伐, 气候变化, 火灾活动, 非洲热带森林, 厄尔尼诺, MODIS",
+      "suggested": "Tropical forest fires, Deforestation, Climate change, Aridity, El Niño, MODIS, Africa, Fire regime shifts",
+      "reason": "The current keywords are good and capture the main themes. Adding 'Aridity' or 'Drought' could strengthen the climate change aspect, and 'Fire regime shifts' might better describe the trend of increasing fires in historically rare fire areas. 'Tropical forest fires' is more specific than just 'fire activity'."
+    },
+    "related_papers": [
+      "Integrating hydrological parameters in wildfire risk assessment: a machine learning approach for mapping wildfire probability",
+      "Burn severity and post‐fire weather are key to predicting time‐to‐recover from australian forest fires",
+      "Wildfire impacts on the carbon budget of a managed nordic boreal forest",
+      "Evaluating noah‐MP simulated runoff and snowpack in heavily burned pacific‐northwest snow‐dominated catchments"
+    ],
+    "innovation_insights": [
+      "This study opens new avenues for research into the synergistic effects of deforestation and climate change (specifically warming and increased aridity) in driving fire activity in previously fire-resistant ecosystems like tropical forests.",
+      "It highlights the need for better understanding of feedback loops where forest degradation leads to increased flammability, which in turn could accelerate further degradation and carbon release.",
+      "Future research could focus on quantifying the impact of these increasing fires on carbon dynamics in tropical forests and their role in global climate feedbacks, as well as the specific socio-economic drivers of deforestation that exacerbate fire risk."
+    ],
+    "processed_time": "2026-01-14 19:11:38"
+  },
+  "NWPJZAGJ": {
+    "title": "Wildfire impacts on the carbon budget of a managed nordic boreal forest",
+    "archive_path": "[ARCHIVE] Hazards/Wildfire & Drought/Wildfire Impacts, Processes/Carbon Cycle, Methodology/Eddy Covariance, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Mechanism/Feedback Loops & Cascades, Data Philosophy/Scale Issues (Spatial_Temporal), Coupling/Human-Nature Systems",
+    "keyword_assessment": {
+      "current": "Eddy covariance (涡度协方差)",
+      "suggested": "Wildfire carbon budget, Nordic boreal forest, Managed forest, Eddy covariance, Net ecosystem exchange (NEE), Salvage logging, Post-fire emissions, Carbon neutrality",
+      "reason": "The current keyword is a methodology. The paper is about the impact of wildfires on the carbon budget. Suggested keywords include the core topic (wildfire carbon budget), location (Nordic boreal forest), context (managed forest, salvage logging), methodology (Eddy covariance), and key metrics (NEE, post-fire emissions, carbon neutrality)."
+    },
+    "related_papers": [
+      "Burn severity and post‐fire weather are key to predicting time‐to‐recover from australian forest fires",
+      "Increasing fire activity in african tropical forests is associated with deforestation and climate change",
+      "Integrating hydrological parameters in wildfire risk assessment: a machine learning approach for mapping wildfire probability",
+      "Evaluating noah‐MP simulated runoff and snowpack in heavily burned pacific‐northwest snow‐dominated catchments"
+    ],
+    "innovation_insights": [
+      "This research suggests a critical research gap in quantifying post-fire carbon emissions, which can exceed fire-induced losses and significantly alter a forest's carbon balance, particularly in managed systems.",
+      "It opens research directions into the long-term carbon neutrality timelines for forests affected by wildfire and subsequent management interventions like salvage logging.",
+      "Future work could investigate how different forest management strategies post-fire (beyond salvage logging) influence the carbon budget recovery, and explore the spatial and temporal variability of these carbon fluxes across different Nordic forest types."
+    ],
+    "processed_time": "2026-01-14 19:11:44"
+  },
+  "DVXDIGIF": {
+    "title": "Evaluating noah‐MP simulated runoff and snowpack in heavily burned pacific‐northwest snow‐dominated catchments",
+    "archive_path": "[ARCHIVE] Hazards/Wildfire & Drought/Wildfire Impacts, Processes/Snowpack & Glacier, Processes/Runoff & Streamflow, Methodology/Land Surface Models, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Data Philosophy/Signal Purification/Uncertainty, Dynamics/Non-linearity & Complexity, Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "火灾, 积雪, 径流, 陆面模型, Noah-MP, 水文模拟",
+      "suggested": "Wildfire impacts, Snowpack, Runoff, Land surface models, Noah-MP, Hydrological modeling, Burned catchments, Pacific Northwest",
+      "reason": "The current keywords are good and descriptive. 'Wildfire impacts' is slightly better than just 'fire'. Adding the geographic region 'Pacific Northwest' provides important context. The terms are specific to the study's focus."
+    },
+    "related_papers": [
+      "Integrating hydrological parameters in wildfire risk assessment: a machine learning approach for mapping wildfire probability",
+      "Burn severity and post‐fire weather are key to predicting time‐to‐recover from australian forest fires",
+      "Increasing fire activity in african tropical forests is associated with deforestation and climate change",
+      "Wildfire impacts on the carbon budget of a managed nordic boreal forest"
+    ],
+    "innovation_insights": [
+      "This paper highlights a significant limitation in current land surface models (like Noah-MP) in accurately capturing the hydrological consequences of wildfires, particularly concerning snow accumulation, melt, and subsequent runoff in mountainous regions.",
+      "It suggests a strong research opportunity in developing hybrid modeling approaches that integrate process-based models with machine learning to better represent the complex, non-linear impacts of fire on snow-hydrology processes.",
+      "Future work could focus on improving parameterizations within land surface models for burned areas, or exploring alternative remote sensing or in-situ data assimilation techniques to correct model biases in post-fire hydrological simulations."
+    ],
+    "processed_time": "2026-01-14 19:11:49"
+  },
+  "VJFCSGUJ": {
+    "title": "Response of land surface albedo to fire disturbance in the sierra nevada seasonal snow zone over the MODIS record",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Land Surface Energy Balance, [ARCHIVE] Hazards/Drought/Climate Change Impact, [ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Coupling/Energy-Water Nexus, [IDEA] Dynamics/Rapid Onset Events, [IDEA] Mechanism/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "fire disturbance, land surface albedo, Sierra Nevada, MODIS, seasonal snow zone 火灾干扰, 地表反照率, 内华达山脉, MODIS, 季节性雪区",
+      "suggested": "wildfire, land surface albedo, snow-covered area, snow albedo, Sierra Nevada, MODIS, land surface energy balance, post-fire effects",
+      "reason": "Keywords can be more specific by using 'wildfire' instead of 'fire disturbance'. Adding 'snow-covered area' and 'snow albedo' clarifies the focus on snow. 'Land surface energy balance' and 'post-fire effects' better capture the implications of albedo changes."
+    },
+    "related_papers": [
+      "Delayed formation of arctic snow cover in response to wildland fires in a warming climate"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term trajectory of albedo changes post-fire and their cumulative impact on snowpack melt dynamics.",
+      "Explore the spatial heterogeneity of albedo response to fire within different land cover types (e.g., forests vs. meadows) within the Sierra Nevada SSZ.",
+      "Quantify the feedback mechanisms between altered albedo, surface temperature, and subsequent snow accumulation/melt under various climate change scenarios.",
+      "Develop more sophisticated models that integrate fire effects on albedo directly into hydrological and energy balance models for improved climate projections and water resource management in snow-dominated regions."
+    ],
+    "processed_time": "2026-01-14 19:12:10"
+  },
+  "MS2E8SX8": {
+    "title": "Delayed formation of arctic snow cover in response to wildland fires in a warming climate",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Snow Cover Phenology, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Hazards/Drought/Climate Change Impact, [ARCHIVE] Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, [IDEA] Mechanism/Abrupt Transitions/Phase Change, [IDEA] Coupling/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Cryosphere/Remote Sensing/Fire–Snow Interaction/Climate Impacts/Phenology.",
+      "suggested": "Arctic wildfire, snow cover phenology, snow cover duration, albedo, land surface temperature, delayed snow formation, climate change, CMIP6, XGBoost, SEM",
+      "reason": "Keywords should be more descriptive and include key variables and methods. 'Snow cover duration' and 'delayed snow formation' are central findings. Mentioning 'albedo' and 'land surface temperature' highlights the physical mechanisms. Including 'climate change' and specific modeling approaches like 'CMIP6', 'XGBoost', and 'SEM' provides a comprehensive overview."
+    },
+    "related_papers": [
+      "Response of land surface albedo to fire disturbance in the sierra nevada seasonal snow zone over the MODIS record"
+    ],
+    "innovation_insights": [
+      "Investigate the cascading effects of delayed Arctic snow cover formation on Arctic amplification and global climate patterns.",
+      "Develop physically-based models that explicitly incorporate fire-induced albedo changes and their influence on snowmelt timing and duration.",
+      "Quantify the uncertainties associated with CMIP6 projections of future wildfire activity and its impact on Arctic snow cover, particularly under different emission scenarios.",
+      "Explore the role of permafrost thaw in modulating the fire-snow interaction and its feedback on Arctic albedo and energy balance."
+    ],
+    "processed_time": "2026-01-14 19:12:17"
+  },
+  "92NLG7VG": {
+    "title": "Machine learning-based observation-constrained projections reveal elevated global socioeconomic risks from wildfire",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Compound Events/DFA, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Applications/Water Resources Management, [ARCHIVE] Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI, [IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Unclassified",
+      "suggested": "wildfire risk, socioeconomic impact, machine learning, observation-constrained projection, global assessment, climate change, fire dynamics",
+      "reason": "Keywords are missing but based on the title and general theme, these suggestions capture the core elements: the focus on wildfire, its socioeconomic consequences, the use of machine learning for projections, and the global scale of the analysis."
+    },
+    "related_papers": [
+      "Reduced global fire activity due to human demography slows global warming by enhanced land carbon uptake",
+      "Dispersal and fire limit Arctic shrub expansion"
+    ],
+    "innovation_insights": [
+      "Develop hybrid models that combine machine learning with process-based fire spread models to improve projection accuracy and mechanistic understanding.",
+      "Investigate the vulnerability of different socioeconomic sectors (e.g., agriculture, infrastructure, human health) to wildfire impacts, and identify regions with the highest risk.",
+      "Explore the potential for AI-driven early warning systems for wildfires and their cascading socioeconomic consequences.",
+      "Analyze the role of human demography and land management practices in shaping future wildfire activity and associated risks."
+    ],
+    "processed_time": "2026-01-14 19:12:22"
+  },
+  "2XYQ6TE2": {
+    "title": "Reduced global fire activity due to human demography slows global warming by enhanced land carbon uptake",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Hazards/Drought/Climate Change Impact, [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Unclassified",
+      "suggested": "human demography, land carbon uptake, wildfire activity, global warming, fire suppression, land use change, climate mitigation, ecosystem services",
+      "reason": "Keywords are missing. Based on the title, these suggested keywords highlight the central themes: the influence of human population on fire activity, the impact of fire on carbon cycles and global warming, and the role of human actions (demography, land use) in modulating these processes."
+    },
+    "related_papers": [
+      "Machine learning-based observation-constrained projections reveal elevated global socioeconomic risks from wildfire",
+      "Dispersal and fire limit Arctic shrub expansion"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term implications of reduced fire activity due to human demography on ecosystem structure and function, particularly concerning biodiversity and carbon sequestration.",
+      "Quantify the extent to which human-induced changes in fire regimes can offset or exacerbate climate change impacts.",
+      "Explore the trade-offs between fire suppression efforts and their potential unintended consequences on ecosystem health and carbon cycles.",
+      "Develop integrated assessment models that link human demographic trends, land use changes, fire dynamics, and global carbon budgets."
+    ],
+    "processed_time": "2026-01-14 19:12:27"
+  },
+  "SLD35CV7": {
+    "title": "Dispersal and fire limit Arctic shrub expansion",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Vegetation Dynamics, [ARCHIVE] Hazards/Drought/Climate Change Impact, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, [IDEA] Mechanism/Feedback Loops & Cascades, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Unclassified",
+      "suggested": "Arctic shrub expansion, wildfire, dispersal, vegetation dynamics, land cover change, climate change, tundra ecosystems, biome shifts",
+      "reason": "Keywords are missing. Based on the title, these suggested keywords reflect the core components: the expansion of Arctic shrubs, the limiting factors of dispersal and fire, and the broader context of vegetation dynamics and climate change in the Arctic."
+    },
+    "related_papers": [
+      "Response of land surface albedo to fire disturbance in the sierra nevada seasonal snow zone over the MODIS record",
+      "Delayed formation of arctic snow cover in response to wildland fires in a warming climate",
+      "Machine learning-based observation-constrained projections reveal elevated global socioeconomic risks from wildfire",
+      "Reduced global fire activity due to human demography slows global warming by enhanced land carbon uptake"
+    ],
+    "innovation_insights": [
+      "Quantify the synergistic or antagonistic effects of fire and dispersal on Arctic shrub expansion rates under various warming scenarios.",
+      "Investigate the feedback loops between shrub expansion, permafrost thaw, albedo changes, and carbon cycling in the Arctic.",
+      "Develop spatially explicit models to predict the future distribution of Arctic vegetation communities, considering the interplay of climate, fire, and dispersal.",
+      "Analyze the impact of Arctic shrub expansion on regional hydrology, including snow cover persistence and soil moisture regimes."
+    ],
+    "processed_time": "2026-01-14 19:12:33"
+  }
+}

@@ -1,0 +1,768 @@
+{
+  "DVJ8URA5": {
+    "title": "Evaluation of 22 CMIP6 model-derived global soil moisture products of different shared socioeconomic pathways",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture/Uncertainty & Evaluation",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Evaluation of 22 CMIP6 model-derived global soil moisture products of different shared socioeconomic pathways",
+      "suggested": "CMIP6 soil moisture, Global products, SSPs, Model evaluation, Intercomparison, ERA5-Land benchmark",
+      "reason": "The current keywords are too long and descriptive of the title. Suggested keywords are more concise and capture the core elements: the data source (CMIP6), variable (soil moisture), scope (global products), scenarios (SSPs), and the evaluation approach (model evaluation, intercomparison, benchmark). The note about ERA5-L is important for the evaluation context."
+    },
+    "related_papers": [
+      "Can typical land surface model parameterizations support the expected soil moisture assimilation efficiency?",
+      "Estimations of potential evapotranspiration from CMIP6 multi-model ensemble over africa",
+      "Development of global monthly dataset of CMIP6 climate variables for estimating evapotranspiration",
+      "Underestimated land heat uptake alters the global energy distribution in CMIP6 climate models"
+    ],
+    "innovation_insights": [
+      "Investigate the impact of different SSPs on soil moisture projections across various CMIP6 models, going beyond simple evaluation to understand the drivers of divergence.",
+      "Develop advanced evaluation metrics and methodologies for large-scale soil moisture products, especially in data-scarce regions, by leveraging benchmark datasets like ERA5-Land.",
+      "Explore how model structural differences, beyond parameterization, contribute to the spread of soil moisture predictions under different climate futures.",
+      "Assess the uncertainty and reliability of CMIP6 soil moisture data for downstream applications like drought monitoring or water resource management."
+    ],
+    "processed_time": "2026-01-14 20:51:49"
+  },
+  "IWZ2XNEV": {
+    "title": "Can typical land surface model parameterizations support the expected soil moisture assimilation efficiency?",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Data Assimilation & Methodology",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "土壤水分 (Soil Moisture), 数据同化 (Data Assimilation), 陆面模型 (Land Surface Model), 数据融合 (Data Merging), 参数化不确定性 (Parameterization Uncertainty), 模型误差 (Model Error)",
+      "suggested": "Soil Moisture, Data Assimilation, Land Surface Models, Parameterization Uncertainty, Model Error, Data Merging, Hydrological Modeling",
+      "reason": "The current keywords are in Chinese and mix concepts with methods. Suggested keywords are in English for broader accessibility and include 'Hydrological Modeling' as a relevant domain. They clearly identify the core problem (parameterization uncertainty) and its impact on data assimilation."
+    },
+    "related_papers": [
+      "Evaluation of 22 CMIP6 model-derived global soil moisture products of different shared socioeconomic pathways"
+    ],
+    "innovation_insights": [
+      "Develop and test hybrid modeling approaches that explicitly incorporate uncertainty quantification for land surface model parameterizations within data assimilation systems.",
+      "Investigate novel data assimilation techniques that are more robust to model deficiencies, potentially leveraging machine learning to improve model error representation.",
+      "Explore alternative data integration methods (beyond traditional merging) that can better leverage satellite observations in regions with poor land surface model performance.",
+      "Quantify the hydrological impacts of improved land surface model parameterizations on key fluxes and states, such as evapotranspiration and soil moisture dynamics."
+    ],
+    "processed_time": "2026-01-14 20:51:53"
+  },
+  "XAS6KG75": {
+    "title": "Estimations of potential evapotranspiration from CMIP6 multi-model ensemble over africa",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity/Climate Change Dynamics",
+    "keyword_assessment": {
+      "current": "该文章通过利用CMIP6多模式集合进行综合分析，提出了未来非洲地区潜在蒸散量（PET）的变化预测，弥补了现有研究在非洲地区气候变化影响评估方面的不足，具有重要的科学意义和实际应用价值。",
+      "suggested": "Potential Evapotranspiration (PET), CMIP6, Africa, Climate Change, SSP Scenarios, Penman-Monteith, Multi-model Ensemble, Regional Analysis",
+      "reason": "The current keywords are a descriptive summary. Suggested keywords are more targeted, capturing the key variables (PET), data source (CMIP6, multi-model ensemble), region (Africa), methodology (Penman-Monteith), and future scenarios (SSP, Climate Change)."
+    },
+    "related_papers": [
+      "Evaluation of 22 CMIP6 model-derived global soil moisture products of different shared socioeconomic pathways",
+      "Development of global monthly dataset of CMIP6 climate variables for estimating evapotranspiration",
+      "Underestimated land heat uptake alters the global energy distribution in CMIP6 climate models"
+    ],
+    "innovation_insights": [
+      "Investigate the specific mechanisms driving the projected changes in PET across different African sub-regions under various SSPs, linking them to changes in temperature, humidity, wind speed, and radiation.",
+      "Assess the uncertainty associated with PET projections from CMIP6 ensembles, and explore methods for ensemble weighting or bias correction tailored to African climate.",
+      "Evaluate the performance of different CMIP6 models in simulating key climatic variables relevant to PET over Africa and identify model biases.",
+      "Explore the implications of projected PET changes for water resources, agriculture, and drought risk across Africa."
+    ],
+    "processed_time": "2026-01-14 20:51:59"
+  },
+  "KPXLIWQ9": {
+    "title": "Development of global monthly dataset of CMIP6 climate variables for estimating evapotranspiration",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Data Generation & Application",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Dataset Development",
+    "keyword_assessment": {
+      "current": "蒸散量、气候变量、CMIP6、GCM、SSP、Penman-Monteith方法",
+      "suggested": "Evapotranspiration (ET), Climate Variables, CMIP6, GCM, SSP Scenarios, Penman-Monteith, Global Dataset, Monthly Resolution, Hydrology Data",
+      "reason": "The current keywords are good but could be more specific. 'Evapotranspiration (ET)' is more standard. Adding 'Global Dataset', 'Monthly Resolution', and 'Hydrology Data' highlights the nature and application of the output. 'SSP Scenarios' is more precise than 'SSP'."
+    },
+    "related_papers": [
+      "Evaluation of 22 CMIP6 model-derived global soil moisture products of different shared socioeconomic pathways",
+      "Estimations of potential evapotranspiration from CMIP6 multi-model ensemble over africa"
+    ],
+    "innovation_insights": [
+      "Utilize this high-resolution, long-term dataset to develop more advanced ET estimation models, potentially incorporating AI or deep learning techniques.",
+      "Investigate the added value of this dataset for specific hydrological applications, such as regional drought monitoring or agricultural water management, compared to existing products.",
+      "Analyze the uncertainties introduced by using CMIP6 GCM outputs and SSP scenarios for ET estimation, and explore bias correction strategies.",
+      "Examine the spatial and temporal patterns of ET across different SSPs and their implications for the global water cycle and climate."
+    ],
+    "processed_time": "2026-01-14 20:52:05"
+  },
+  "XIMXPX37": {
+    "title": "Underestimated land heat uptake alters the global energy distribution in CMIP6 climate models",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Land-Atmosphere Interaction",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Land heat uptake, Global energy distribution, CMIP6, Climate models, Deep land model",
+      "suggested": "Land Heat Uptake, Global Energy Balance, CMIP6, Climate Models, Deep Land Model, Ocean Heat Uptake, Energy Distribution, Model Evaluation",
+      "reason": "The current keywords are accurate. Adding 'Global Energy Balance' and 'Ocean Heat Uptake' provides more context on the energy distribution aspect. 'Model Evaluation' is also relevant given the study's findings."
+    },
+    "related_papers": [
+      "Evaluation of 22 CMIP6 model-derived global soil moisture products of different shared socioeconomic pathways",
+      "Estimations of potential evapotranspiration from CMIP6 multi-model ensemble over africa",
+      "Development of global monthly dataset of CMIP6 climate variables for estimating evapotranspiration"
+    ],
+    "innovation_insights": [
+      "Develop and integrate more sophisticated land surface models, potentially using deep learning, into CMIP models to improve the representation of land heat uptake.",
+      "Investigate the feedback mechanisms between land heat uptake, atmospheric circulation, and regional climate, particularly in the context of extreme events.",
+      "Quantify the impact of improved land heat uptake representation on other climate variables, such as surface temperature, precipitation, and ET.",
+      "Explore how improved land heat uptake modeling could refine projections of global mean temperature and sea-level rise."
+    ],
+    "processed_time": "2026-01-14 20:52:09"
+  },
+  "BBZT474G": {
+    "title": "How interpretable machine learning can benefit process understanding in the geosciences",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Interpretable AI",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI/Explainable AI",
+    "keyword_assessment": {
+      "current": "Interpretable Machine Learning, Geosciences, Process Understanding, Earth System, Predictive Modeling",
+      "suggested": "Interpretable Machine Learning, Geosciences, Earth System Science, Process Understanding, Explainable AI, Scientific Discovery",
+      "reason": "Keywords are good but could be more specific to the geoscience context ('Earth System Science') and highlight the 'Explainable AI' aspect for discoverability. Adding 'Scientific Discovery' emphasizes the core contribution."
+    },
+    "related_papers": [
+      "Paper 1 title",
+      "Paper 2 title",
+      "Paper 3 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Develop IML frameworks specifically tailored for hydrological processes to enhance understanding of complex feedback loops (e.g., land-atmosphere, vegetation-water).",
+      "Explore how IML can be used to interrogate existing Earth System Models (ESMs) or hydrological models, revealing the underlying mechanisms driving their predictions and identifying areas for improvement.",
+      "Investigate the application of IML in diagnosing and understanding the drivers of hydrological extremes (e.g., flash droughts, floods) by analyzing feature importance and model behavior.",
+      "Address the limitations of IML by developing robust validation strategies and quantifying the uncertainty associated with IML-derived process insights."
+    ],
+    "processed_time": "2026-01-14 20:52:28"
+  },
+  "GYYST6BK": {
+    "title": "The Importance of Hyperspectral Soil Albedo Information for Improving Earth System Model Projections",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Remote Sensing Data",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "高光谱土壤反照率, 地球系统模型, 表面辐射强迫, 碳循环",
+      "suggested": "Hyperspectral Soil Albedo, Earth System Models, Surface Radiation Budget, Carbon Cycle, Water Cycle, Remote Sensing, Broad vs. Narrowband Albedo",
+      "reason": "Current keywords are good but in Chinese. Suggesting English equivalents for broader reach. Adding 'Remote Sensing' reflects the data source, and 'Broad vs. Narrowband Albedo' highlights a key comparison within the paper."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 2 title",
+      "Paper 3 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Investigate how high-fidelity spectral information, beyond just soil albedo (e.g., vegetation spectral properties), can be integrated into ESMs to improve projections of other climate-sensitive variables.",
+      "Develop new retrieval algorithms for hyperspectral surface properties that are directly usable by ESMs, potentially bridging the gap between remote sensing observations and model inputs.",
+      "Quantify the impact of improved spectral albedo representation on specific hydrological processes like soil moisture dynamics and evapotranspiration under different land cover and climate conditions.",
+      "Explore the potential for using hyperspectral data to better constrain emergent constraints related to land surface processes in ESMs."
+    ],
+    "processed_time": "2026-01-14 20:52:32"
+  },
+  "TF9WYBL6": {
+    "title": "Comparison of machine learning statistical downscaling and regional climate models for temperature, precipitation, wind speed, humidity and radiation over Europe under present conditions",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Statistical Methods",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "EURO-CORDEX, Evaluation, Machine learning, Regional climate models, Statistical downscaling",
+      "suggested": "EURO-CORDEX, Machine Learning, Statistical Downscaling, Regional Climate Models, Bias Correction, Multi-variable Prediction, Intercomparison",
+      "reason": "Current keywords are accurate but could be expanded to include key methodological aspects like 'Bias Correction' and 'Intercomparison', and highlight the 'Multi-variable Prediction' aspect."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 1 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Apply advanced ML techniques (beyond basic statistical downscaling) to directly model downscaled hydrological variables, potentially incorporating physical constraints.",
+      "Investigate the transferability of ML-based downscaling models to different regions or future climate scenarios, assessing their robustness.",
+      "Explore the use of IML (from Paper 0) to understand *why* ML-based downscaling outperforms RCMs in certain aspects, uncovering the physical processes learned by the ML models.",
+      "Integrate ML-based downscaled variables (e.g., radiation, humidity) into hydrological models to improve the simulation of water and energy fluxes and understand their impact on hydrological extremes."
+    ],
+    "processed_time": "2026-01-14 20:52:37"
+  },
+  "F4M9U2KZ": {
+    "title": "Progressing emergent constraints on future climate change",
+    "archive_path": "[ARCHIVE] Methodology/Statistical Methods/Uncertainty Reduction",
+    "idea_path": "[IDEA] Dynamics/Tipping Points/Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Emergent constraints, Earth System Models, Future climate change, Uncertainty reduction, Climate projections",
+      "suggested": "Emergent Constraints, Earth System Models, Climate Projections, Uncertainty Quantification, Model Evaluation, Climate Sensitivity, Tipping Points",
+      "reason": "Keywords are strong. Adding 'Climate Sensitivity', 'Tipping Points', and 'Uncertainty Quantification' would further enhance discoverability and reflect the paper's implications for fundamental climate science questions."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 1 title",
+      "Paper 2 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Develop and apply emergent constraints to reduce uncertainty in projections of hydrological extremes (e.g., flash droughts, extreme precipitation) using observational data.",
+      "Investigate if emergent constraints can be used to identify potential climate tipping points relevant to hydrological systems.",
+      "Combine emergent constraints with IML (from Paper 0) to understand the underlying physical mechanisms that give rise to these constraints.",
+      "Explore how improved representations of land surface processes (from Paper 1) and better downscaling techniques (from Paper 2) could lead to new or stronger emergent constraints in ESMs."
+    ],
+    "processed_time": "2026-01-14 20:52:41"
+  },
+  "GTJ9RL3T": {
+    "title": "Neural general circulation models for weather and climate",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/AI for Prediction",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Neural General Circulation Models, Machine Learning, Climate Modeling, Weather Prediction, Deep Learning, Physics-Informed AI",
+      "reason": "The current keywords are missing. Suggested keywords cover the core topic of using neural networks to replace or augment traditional GCMs for weather and climate predictions, emphasizing the 'Physics-Informed AI' aspect if applicable."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 2 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Integrate physical process knowledge (e.g., atmospheric dynamics, land-surface interactions) into neural GCMs to improve their physical consistency and predictability, moving towards true Physics-Informed AI.",
+      "Evaluate the performance of neural GCMs not just for general weather/climate but specifically for predicting hydrological variables and extremes.",
+      "Use IML (from Paper 0) to interpret the behavior of neural GCMs, understanding what physical relationships they have learned or where they deviate from known physics.",
+      "Explore hybrid approaches that combine the strengths of traditional GCMs (physical rigor) with neural GCMs (computational efficiency, pattern recognition) for improved climate projections and extreme event forecasting."
+    ],
+    "processed_time": "2026-01-14 20:52:46"
+  },
+  "RVKD2MQ2": {
+    "title": "Transferring climate change physical knowledge",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning/Uncertainty",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "机器学习、温度、CMIP6、预测、不确定性",
+      "suggested": "机器学习, 迁移学习, 气候预测, CMIP6, 不确定性量化, 物理知识融合",
+      "reason": "Current keywords are too general. '迁移学习' (Transfer Learning) is a core method. '气候预测' (Climate Prediction) is more specific than just '预测' (Prediction). '不确定性量化' (Uncertainty Quantification) is a key outcome. '物理知识融合' (Physics Knowledge Integration) highlights the novel aspect of using CMIP6 knowledge."
+    },
+    "related_papers": [
+      "The community earth system model version 2 (CESM2)",
+      "Global mean climate and main patterns of variability in the CMCC‐CM2 coupled model",
+      "The land component LM4.1 of the GFDL earth system model ESM4.1: Model description and characteristics of land surface climate and carbon cycling in the historical simulation"
+    ],
+    "innovation_insights": [
+      "This paper suggests a new paradigm for climate model post-processing and bias correction by explicitly integrating physical knowledge from climate models into machine learning frameworks. Future research could explore how to generalize this transfer learning approach to other climate variables beyond temperature (e.g., precipitation, extreme indices) or for different types of climate models.",
+      "The paper highlights the challenge of obtaining reliable regional climate projections. Further work could investigate the optimal ways to transfer global physical insights to regional scales and how to best validate these improved regional predictions, potentially using novel observational datasets or high-resolution downscaled products.",
+      "The successful reduction in uncertainty (over 50%) opens avenues for more robust climate risk assessment and adaptation planning. Research could focus on translating these uncertainty reductions into tangible benefits for specific sectors (e.g., agriculture, water resources) and informing policy decisions.",
+      "The integration of ESM outputs with observations via transfer learning could be a powerful tool for improving the representation of extreme events. Future work could adapt this method to focus on predicting the characteristics and likelihood of climate extremes, thereby enhancing early warning systems."
+    ],
+    "processed_time": "2026-01-14 20:53:03"
+  },
+  "NZU4B23A": {
+    "title": "The land component LM4.1 of the GFDL earth system model ESM4.1: Model description and characteristics of land surface climate and carbon cycling in the historical simulation",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning/Hybrid Modeling",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "地球系统模型，陆地模型，生态过程，碳循环，气候模拟",
+      "suggested": "地球系统模型, 陆地模型 (LM4.1), 生态过程, 碳循环, 气候模拟, GFDL ESM4.1, 模型改进",
+      "reason": "Keywords are accurate but could be more specific by including the model name (LM4.1, GFDL ESM4.1) for better retrieval. '模型改进' (Model Improvement) reflects the paper's focus on advancements over previous versions."
+    },
+    "related_papers": [
+      "The community earth system model version 2 (CESM2)",
+      "Global mean climate and main patterns of variability in the CMCC‐CM2 coupled model"
+    ],
+    "innovation_insights": [
+      "This paper provides a detailed description of a key component (land surface) of a major Earth System Model (ESM). Future research could build upon this by using LM4.1 within ESM4.1 for specific scientific questions, such as quantifying feedbacks between land surface processes and climate, or assessing the impact of land use changes on carbon cycling under different climate scenarios.",
+      "The paper identifies potential underestimation of current biomass and carbon uptake in tropical regions due to an overestimation of grassland competitiveness. This suggests an opportunity to refine land use/land cover change representation, vegetation competition algorithms, and explore the dynamic interaction between climate, land use, and carbon fluxes in future ESM development.",
+      "The improved representation of ecological processes offers a basis for more accurate climate change impact studies. Researchers could use this model to investigate the sensitivity of terrestrial ecosystems to climate change, focusing on aspects like vegetation dynamics, fire regimes, and their feedbacks to the climate system.",
+      "The work details the coupling of various components within an ESM. This serves as a foundation for studies focusing on the energy-water-carbon nexus, by providing a more robust land surface component for investigating these complex interactions."
+    ],
+    "processed_time": "2026-01-14 20:53:06"
+  },
+  "RE5CGB7R": {
+    "title": "The community earth system model version 2 (CESM2)",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning/Hybrid Modeling",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "CESM2, 社区地球系统模型, 气候模拟, 历史模拟, 前工业控制, 大气化学",
+      "suggested": "CESM2, 社区地球系统模型, 气候模拟, 历史模拟, 大气化学, 模型评估, 模型开发",
+      "reason": "Keywords are appropriate. Adding '模型评估' (Model Evaluation) and '模型开发' (Model Development) better reflects the paper's contribution in describing and assessing CESM2's advancements."
+    },
+    "related_papers": [
+      "The land component LM4.1 of the GFDL earth system model ESM4.1: Model description and characteristics of land surface climate and carbon cycling in the historical simulation",
+      "Global mean climate and main patterns of variability in the CMCC‐CM2 coupled model"
+    ],
+    "innovation_insights": [
+      "This paper offers a comprehensive description and evaluation of CESM2, a major ESM. It provides a valuable resource for researchers intending to use CESM2 for future climate change studies, climate variability analysis, or exploring specific Earth system processes. Future work could involve further diagnosing CESM2's performance for specific regions or phenomena relevant to the user's interests (e.g., hydrological extremes).",
+      "The paper highlights scientific and infrastructural improvements over CESM1. This invites research that quantifies the impact of these specific improvements on climate simulations, particularly concerning aspects like atmospheric chemistry, carbon cycle, and their interactions with climate. Comparing simulations from CESM1 and CESM2 for specific research questions would be valuable.",
+      "The availability of long preindustrial control and historical simulations using CESM2 allows for extensive analysis of climate variability and long-term trends. Future research could focus on identifying emergent phenomena or understanding the model's representation of modes of variability (e.g., ENSO, PDO) and their implications for regional climates.",
+      "The mention of 'low-top' and 'high-top' atmospheric components suggests research into the impact of atmospheric resolution and complexity (including chemistry) on climate simulations. Further investigation into the trade-offs and benefits of different configurations for specific research goals could be undertaken."
+    ],
+    "processed_time": "2026-01-14 20:53:13"
+  },
+  "UEYAP5QP": {
+    "title": "Global mean climate and main patterns of variability in the CMCC‐CM2 coupled model",
+    "archive_path": "[ARCHIVE] Methodology/Statistical Methods/Downscaling",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "CMCC-CM2, 耦合气候模型, 全球气候, 年际变率, 海表温度",
+      "suggested": "CMCC-CM2, 耦合气候模型, 全球气候, 年际变率, 海表温度, 模型评估, 降水偏差",
+      "reason": "Keywords are relevant. Adding '模型评估' (Model Evaluation) reflects the paper's core activity. '降水偏差' (Precipitation Bias) is a key finding mentioned in the abstract, making it a useful keyword for retrieval."
+    },
+    "related_papers": [
+      "The community earth system model version 2 (CESM2)",
+      "The land component LM4.1 of the GFDL earth system model ESM4.1: Model description and characteristics of land surface climate and carbon cycling in the historical simulation"
+    ],
+    "innovation_insights": [
+      "This paper presents the CMCC-CM2 model, contributing to the ensemble of Earth System Models available for climate research. Future work could utilize CMCC-CM2 simulations to investigate climate change impacts, particularly focusing on its strengths (e.g., SST patterns) and addressing its weaknesses (e.g., tropical precipitation bias).",
+      "The identified dry bias in tropical precipitation presents a clear opportunity for future model development or for post-processing studies aiming to correct this bias, potentially using methods similar to those explored in Paper 0. Investigating the physical mechanisms behind this bias in CMCC-CM2 could also be a research direction.",
+      "The analysis of global mean climate and variability patterns provides a baseline for comparison with other models. Researchers could use this paper to benchmark their own model evaluations or to understand the range of variability simulated by different ESMs.",
+      "The paper details the coupling strategy using CESM components. This is valuable for researchers interested in ESM development, particularly in understanding how different components (atmosphere, land, ocean, sea ice) are integrated and interact."
+    ],
+    "processed_time": "2026-01-14 20:53:18"
+  },
+  "4T2URADT": {
+    "title": "HiCPC: A new 10-km CMIP6 downscaled daily climate projections over China",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Data Quality & Validation",
+    "keyword_assessment": {
+      "current": "Not provided",
+      "suggested": "CMIP6, Downscaling, Climate Projections, High Resolution Data, China, Precipitation, Temperature, Extreme Climate Events",
+      "reason": "The provided note content focuses on downscaled climate projections for China, including precipitation and temperature. Keywords should reflect the dataset's origin (CMIP6), its nature (downscaled, high-resolution), geographical scope, and the variables analyzed, especially concerning extreme events."
+    },
+    "related_papers": [
+      "Fast, scale-adaptive and uncertainty-aware downscaling of earth system model fields with generative machine learning",
+      "Is bias correction in dynamical downscaling defensible?",
+      "Understanding the cascade: Removing GCM biases improves dynamically downscaled climate projections"
+    ],
+    "innovation_insights": [
+      "This paper provides a high-resolution CMIP6 dataset for China, which can serve as a crucial input for hydrological and hydro-climatic studies focused on the region. It enables more detailed analyses of climate change impacts on water resources and extreme events at a finer scale than raw GCM outputs.",
+      "The paper's focus on downscaling and evaluating extreme climate projections highlights the need for accessible, high-quality climate data for impact assessment. Future work could involve directly using this dataset to drive hydrological models and assess hydrological extremes (e.g., flash droughts, floods) under projected climate change in China."
+    ],
+    "processed_time": "2026-01-14 20:53:49"
+  },
+  "ZWRRDVKT": {
+    "title": "Fast, scale-adaptive and uncertainty-aware downscaling of earth system model fields with generative machine learning",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Generative Models",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "气候模型降尺度（Climate Model Downscaling）、生成式机器学习（Generative Machine Learning）、一致性模型（Consistency Models）、不确定性量化（Uncertainty Quantification）、零样本学习（Zero-shot Learning）、地球系统模型（Earth System Models）",
+      "suggested": "Generative Machine Learning, Consistency Models, Climate Model Downscaling, Earth System Models, Uncertainty Quantification, Zero-shot Learning, Scale Adaptivity",
+      "reason": "The current keywords are good and capture the essence of the paper. Adding 'Scale Adaptivity' would further highlight a key feature mentioned in the title. The English translations are useful for broader understanding."
+    },
+    "related_papers": [
+      "HiCPC: A new 10-km CMIP6 downscaled daily climate projections over China",
+      "Is bias correction in dynamical downscaling defensible?",
+      "Understanding the cascade: Removing GCM biases improves dynamically downscaled climate projections"
+    ],
+    "innovation_insights": [
+      "This paper introduces a novel 'zero-shot' generative ML approach (Consistency Models) for downscaling ESMs, which bypasses the need for retraining for each ESM. This significantly advances the efficiency and applicability of climate model downscaling, potentially making high-resolution climate projections more accessible.",
+      "The paper's ability to perform scale-adaptive downscaling and quantify uncertainty without explicit physics constraints opens avenues for exploring the trade-offs between data-driven and physics-based approaches. Future research could investigate how to best integrate such generative models with hydrological processes, perhaps by imposing domain-specific constraints or using their outputs in hybrid modeling frameworks to improve hydrological projections."
+    ],
+    "processed_time": "2026-01-14 20:53:54"
+  },
+  "TFPTLHX5": {
+    "title": "Is bias correction in dynamical downscaling defensible?",
+    "archive_path": "[ARCHIVE] Methodology/Statistical Methods/Bias Correction",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)/Causal Inference",
+    "keyword_assessment": {
+      "current": "Not provided",
+      "suggested": "Dynamical Downscaling, Bias Correction (a priori), Climate Change Signals, Uncertainty Quantification, GCM Biases, Western US, Hydroclimate",
+      "reason": "The abstract and excerpt clearly indicate a focus on dynamical downscaling, the defensibility and impact of a priori bias correction, its effect on climate change signals and uncertainty, and the geographical region studied. These keywords capture the core elements."
+    },
+    "related_papers": [
+      "HiCPC: A new 10-km CMIP6 downscaled daily climate projections over China",
+      "Fast, scale-adaptive and uncertainty-aware downscaling of earth system model fields with generative machine learning",
+      "Understanding the cascade: Removing GCM biases improves dynamically downscaled climate projections"
+    ],
+    "innovation_insights": [
+      "This paper provides a quantitative assessment of the impact of a priori bias correction (APBC) on climate change signals in dynamical downscaling, finding it to be negligible compared to GCM choice or internal variability. This strengthens the argument for adopting APBC as a standard procedure, particularly for addressing issues like unrealistic SWE biases.",
+      "The paper's findings suggest that improving the fidelity of GCM outputs through bias correction before dynamical downscaling is crucial for reliable regional climate impact studies. Future research could explore the physical mechanisms through which APBC affects downscaled hydroclimate variables and investigate its performance across different regions and downscaling techniques beyond dynamical downscaling."
+    ],
+    "processed_time": "2026-01-14 20:53:58"
+  },
+  "UIRHCJQQ": {
+    "title": "Understanding the cascade: Removing GCM biases improves dynamically downscaled climate projections",
+    "archive_path": "[ARCHIVE] Methodology/Statistical Methods/Bias Correction",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)/Causal Inference",
+    "keyword_assessment": {
+      "current": "偏差校正, 全球气候模型, 动态下尺度, 降水, 西美国",
+      "suggested": "Bias Correction, Dynamical Downscaling, GCM Biases, Precipitation, Western US, Climate Projections, Hydroclimate Impacts",
+      "reason": "The current keywords are relevant but could be expanded. Adding 'Climate Projections' and 'Hydroclimate Impacts' better reflects the broader context and implications discussed in the excerpt. The Chinese keywords are accurate for the content provided."
+    },
+    "related_papers": [
+      "HiCPC: A new 10-km CMIP6 downscaled daily climate projections over China",
+      "Fast, scale-adaptive and uncertainty-aware downscaling of earth system model fields with generative machine learning",
+      "Is bias correction in dynamical downscaling defensible?"
+    ],
+    "innovation_insights": [
+      "This paper demonstrates that removing GCM biases prior to dynamical downscaling significantly improves the accuracy of regional climate projections, particularly for precipitation, by mitigating systematically wet biases. This reinforces the importance of careful bias correction in climate modeling workflows.",
+      "The study highlights the 'cascade effect' of GCM biases through dynamical downscaling. Future work could extend this analysis to other hydroclimatic variables (e.g., temperature, extreme indices) and other regions, and explore the physical reasons behind the observed improvements. Investigating the optimal methods and timing for bias correction in complex downscaling chains would also be valuable."
+    ],
+    "processed_time": "2026-01-14 20:54:02"
+  },
+  "VSFCEV6S": {
+    "title": "Global hydrological models continue to overestimate river discharge",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Streamflow",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity/Drought-Flood Transitions",
+    "keyword_assessment": {
+      "current": "Not provided",
+      "suggested": "Global Hydrological Models, River Discharge Overestimation, Model Bias, ISIMIP, Observational Data, Model Evaluation, Seasonality, Trends",
+      "reason": "The excerpt points to a persistent issue of global hydrological models overestimating river discharge. Keywords should reflect the models studied (global hydrological models, potentially ISIMIP), the core problem (discharge overestimation), the need for evaluation against observations, and the analysis of specific aspects like seasonality and trends."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "This paper addresses a fundamental and persistent issue in hydrological modeling: the overestimation of river discharge by global hydrological models. It suggests a need for re-evaluation and potential recalibration or revision of these widely used models.",
+      "The 'small idea' mentioned in the excerpt about using Caravan observational data to crop and compare with ISIMIP outputs points towards a methodology for model evaluation and bias detection. Future work could involve in-depth analysis of *why* these models overestimate discharge (e.g., soil parameterization, snowmelt processes, routing schemes) and developing improved model structures or parameterization schemes to address these biases, potentially leading to better predictions of water availability and extremes."
+    ],
+    "processed_time": "2026-01-14 20:54:07"
+  },
+  "TC2UUKN5": {
+    "title": "The ISIMIP groundwater sector: A framework for ensemble modeling of global change impacts on groundwater",
+    "archive_path": "[ARCHIVE] Processes/Groundwater/Groundwater Modeling",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Groundwater Modeling / Climate Change Impacts / Model Intercomparison / ISIMIP",
+      "suggested": "Groundwater Modeling / Climate Change Impacts / Model Intercomparison / Ensemble Modeling / ISIMIP / Global Change",
+      "reason": "Added 'Ensemble Modeling' as it's central to the paper's framework and 'Global Change' to broaden the scope beyond just climate."
+    },
+    "related_papers": [
+      "Paper 2 title",
+      "Paper 3 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "The establishment of a standardized ensemble framework (ISIMIP) for global groundwater models offers a robust platform for future intercomparison studies and a benchmark for evaluating new models.",
+      "Investigating the model dependency of groundwater recharge estimates under climate change is crucial, as the study highlights significant spatial discrepancies between models, suggesting a need for improved parameterization or data assimilation.",
+      "Future work could focus on integrating this groundwater ensemble with land surface and climate model ensembles to analyze compound impacts on the water cycle, potentially using AI to bridge the gap between different model outputs and account for uncertainties."
+    ],
+    "processed_time": "2026-01-14 20:54:28"
+  },
+  "Q4XFA7RI": {
+    "title": "Offline correction of CMIP6 HighResMIP simulated surface solar irradiance with 3D sub‐grid terrain radiative effects",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Surface solar irradiance; CMIP6; HighResMIP; 3D sub-grid terrain radiative effects; Offline correction",
+      "suggested": "Surface Solar Irradiance / Radiative Transfer / Topography Effects / CMIP6 / HighResMIP / Offline Correction / Model Bias Correction",
+      "reason": "Added 'Radiative Transfer' and 'Topography Effects' for more specific process identification, and 'Model Bias Correction' to better reflect the 'Offline correction' action."
+    },
+    "related_papers": [
+      "Paper 2 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Developing offline correction schemes for specific variables like surface solar irradiance, especially considering topographic effects, can significantly improve the accuracy of climate model outputs used in subsequent hydrological studies.",
+      "This paper suggests that high-resolution climate model simulations (like HighResMIP) are essential for capturing localized radiative effects, which are critical for land-atmosphere interactions, and highlights the need for careful validation and correction of these fine-scale processes.",
+      "Future research could explore the transferability of such offline correction techniques to other climate model variables or different regions with complex topography, and investigate how these corrections impact downstream hydrological model performance, particularly in mountainous areas."
+    ],
+    "processed_time": "2026-01-14 20:54:40"
+  },
+  "Y9QEXSAJ": {
+    "title": "CMIP6 Earth System Models Project Greater Acceleration of Climate Zone Change Due To Stronger Warming Rates",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Climate Classification / CMIP6 / CMIP5 / Climate Change Projection / Köppen-Geiger",
+      "suggested": "Climate Classification / Climate Change Projection / CMIP6 / CMIP5 / Köppen-Geiger Classification / Climate Zone Shift / Warming Rates",
+      "reason": "Added 'Climate Zone Shift' and 'Warming Rates' as these are central findings and mechanisms discussed in the paper."
+    },
+    "related_papers": [
+      "Paper 1 title",
+      "Paper 3 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "The finding that CMIP6 models project an acceleration of climate zone changes, driven by higher warming rates, suggests a potentially faster onset of shifts in regional climates and associated hydrological regimes.",
+      "This implies that traditional climate change impact assessments, which might rely on slower transition assumptions, could be underestimating the pace of change, particularly for phenomena like flash droughts or rapid shifts in water availability.",
+      "Future research could investigate the hydrological consequences of these accelerated climate zone shifts, exploring how rapid changes in temperature and precipitation patterns might lead to non-linear responses in water resources and an increased risk of hydrological extremes. Applying AI to predict the timing and magnitude of these shifts could also be a fruitful avenue."
+    ],
+    "processed_time": "2026-01-14 20:54:46"
+  },
+  "F3DEFVLR": {
+    "title": "Quantify uncertainty in historical simulation and future projection of surface wind speed over global land and ocean",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion/Uncertainty",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "表面风速, 预测, 模拟不确定性, 模型不确定性",
+      "suggested": "Surface Wind Speed / Climate Change Projection / Model Uncertainty / Simulation Uncertainty / CMIP6 / Trend Analysis / High Emission Scenarios",
+      "reason": "Translated keywords to English for consistency and added 'CMIP6', 'Trend Analysis', and 'High Emission Scenarios' as they are key aspects of the study."
+    },
+    "related_papers": [
+      "Paper 1 title",
+      "Paper 2 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Quantifying and attributing uncertainty sources (model, internal variability, scenario) in surface wind speed projections is crucial for reliable forecasts, especially for applications like wind energy.",
+      "The study's finding that CMIP6 models underestimate surface wind speed trends and interannual variability highlights a potential bias that needs correction for accurate future projections, particularly under high emission scenarios.",
+      "Future work could focus on developing AI-driven bias correction methods for surface wind speed derived from CMIP6 models or exploring the implications of these underestimated trends on long-term wind energy resource availability and the potential for increased wind-related hazards. The identified model deficiencies also point to areas for model improvement in future climate model development."
+    ],
+    "processed_time": "2026-01-14 20:54:51"
+  },
+  "MCIIDI8N": {
+    "title": "Representation of land–atmosphere coupling processes over Africa in coupled model intercomparison project Phase 6",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Soil moisture, latent heat flux, land–atmosphere coupling, Africa, CMIP6, model",
+      "suggested": "Land-Atmosphere Coupling / Soil Moisture / Latent Heat Flux / Africa / CMIP6 / Model Evaluation / Regional Climate Dynamics",
+      "reason": "Added 'Model Evaluation' and 'Regional Climate Dynamics' to better capture the paper's objective and scope."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 2 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Assessing the representation of land-atmosphere coupling processes in CMIP6 models over Africa is vital, as these processes are fundamental drivers of regional climate variability and change, impacting sectors like agriculture and water resources.",
+      "The paper's findings on model discrepancies across different regions and seasons highlight the need for targeted model improvements and potentially the development of regional-specific parameterizations or data assimilation techniques for better coupling simulation.",
+      "Future research could investigate how improving the representation of land-atmosphere coupling in CMIP6 models impacts the simulation of hydrological extremes like flash droughts in Africa. Applying AI to identify dominant coupling mechanisms or to fuse model outputs with observational data for a more accurate regional assessment could also be beneficial."
+    ],
+    "processed_time": "2026-01-14 20:54:56"
+  },
+  "E7VYPD4V": {
+    "title": "Reduced spread of simulated global warming patterns among CMIP6 models with elevated level of warming",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Statistical Methods",
+    "idea_path": "[IDEA] Modeling/Ensemble Methods/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "The uneven economic impacts of climate change stem from differentiated regional warming rates, which are projected by global climate models that exhibit considerable spread. While the spread in global mean warming is well-studied, the spread in the pattern of global warming remains unclear. This study shows that the multi-model spread in the simulated warming pattern is closely dependent on the level of warming. Among CMIP6 models, the simulated patterns deviated substantially before the 2010s but have converged since then as warming has increased. Under future high and intermediate emission scenarios, models predict increasingly consistent warming patterns. However, under low emission scenarios, this consistency reaches a hiatus around the mid-21st century. While a synchronism between warming level and pattern consistency is detected, the underlying physical mechanisms require further investigation.\nOne-sentence Summary: 通过对不同情景的对比，清晰地展示了模式一致性与变暖水平的紧密耦合关系，论证有力。",
+      "suggested": "CMIP6, climate model spread, warming patterns, emission scenarios, model convergence, climate sensitivity, climate projection uncertainty, warming level",
+      "reason": "Current keywords are more of an abstract summary. Suggested keywords are more concise and cover the key concepts of CMIP6 models, model spread, warming patterns, and the influence of emission scenarios and warming levels."
+    },
+    "related_papers": [
+      "Earth system forcing for CMIP7 and beyond",
+      "To what extent does discounting ‘hot’ climate models improve the predictive skill of climate model ensembles?",
+      "Why does the ensemble mean of CMIP6 models simulate arctic temperature more accurately than global temperature?",
+      "Overview of the coupled model intercomparison project phase 6 (CMIP6) experimental design and organization"
+    ],
+    "innovation_insights": [
+      "Investigate the physical mechanisms behind the synchronism between warming level and pattern consistency. This could involve targeted model experiments or analysis of internal model dynamics.",
+      "Explore how the observed convergence in warming patterns with increasing warming levels might influence projections of regional climate extremes and their impacts.",
+      "Develop methods to better constrain future warming patterns based on observed warming levels, potentially improving climate risk assessments and adaptation strategies."
+    ],
+    "processed_time": "2026-01-14 20:55:10"
+  },
+  "P4L6ZQJI": {
+    "title": "Earth system forcing for CMIP7 and beyond",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion/Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "世界气候研究计划（WCRP）耦合模式比对计划（CMIP）的科研群体共同召开会议，旨在为即将到来的CMIP7项目规划和讨论气候“强迫”数据集的生成工作。 8会议的核心目标不仅是为CMIP7准备好所需的数据 9，更着眼于长远，计划将当前分散的努力转变为一个持续的、可提供稳定资金、资源和基础设施支持的“业务化”强迫数据生成活动 10。这一转型旨在满足从气候研究到天气预报等领域日益增长的用户需求。\nOne-sentence Summary: ",
+      "suggested": "CMIP7, Earth system forcing, climate forcing datasets, climate modeling, sustained data delivery, WCRP, scenario development, climate prediction",
+      "reason": "The current keywords are descriptive of the meeting's purpose but lack specific scientific terms. The suggested keywords are more precise, encompassing the project (CMIP7), the core concept (Earth system forcing), the output (datasets), the context (climate modeling, WCRP), and the operational aspect (sustained delivery)."
+    },
+    "related_papers": [
+      "Reduced spread of simulated global warming patterns among CMIP6 models with elevated level of warming",
+      "To what extent does discounting ‘hot’ climate models improve the predictive skill of climate model ensembles?",
+      "Why does the ensemble mean of CMIP6 models simulate arctic temperature more accurately than global temperature?",
+      "Overview of the coupled model intercomparison project phase 6 (CMIP6) experimental design and organization"
+    ],
+    "innovation_insights": [
+      "Develop standardized protocols and quality control measures for generating sustained Earth system forcing datasets to ensure consistency and reliability across different modeling centers and projects.",
+      "Explore novel data assimilation techniques to better integrate observational data into the generation of climate forcing datasets, particularly for historical periods where data might be sparse or uncertain.",
+      "Investigate the feasibility of creating adaptive or dynamically updated forcing datasets that can respond to emerging scientific understanding and observational constraints, thus improving the long-term utility of climate models."
+    ],
+    "processed_time": "2026-01-14 20:55:14"
+  },
+  "DWUUZK7P": {
+    "title": "To what extent does discounting ‘hot’ climate models improve the predictive skill of climate model ensembles?",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Statistical Methods",
+    "idea_path": "[IDEA] Modeling/Ensemble Methods/Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "气候模型，模型加权，过热模型，多模型集，不确定性\nOne-sentence Summary: ",
+      "suggested": "climate model ensembles, model weighting, 'hot' models, predictive skill, uncertainty quantification, global temperature, regional precipitation, model bias",
+      "reason": "The current keywords are relevant but can be expanded to be more descriptive. 'Overheating models' is a specific term that should be included. The suggested keywords provide a broader scope, including the application areas (global temperature, regional precipitation) and the outcome (predictive skill, uncertainty quantification)."
+    },
+    "related_papers": [
+      "Reduced spread of simulated global warming patterns among CMIP6 models with elevated level of warming",
+      "Earth system forcing for CMIP7 and beyond",
+      "Why does the ensemble mean of CMIP6 models simulate arctic temperature more accurately than global temperature?",
+      "Overview of the coupled model intercomparison project phase 6 (CMIP6) experimental design and organization"
+    ],
+    "innovation_insights": [
+      "Investigate alternative weighting schemes beyond simple temperature bias, such as considering other key climate variables (e.g., sea level pressure, circulation patterns) or statistical properties of model output.",
+      "Explore the impact of 'hot' model discounting on simulating climate extremes and their variability, not just mean values.",
+      "Develop methodologies to dynamically adjust model weights over time as new observational data becomes available, potentially improving the long-term predictive skill of ensembles."
+    ],
+    "processed_time": "2026-01-14 20:55:18"
+  },
+  "HMSXAC8A": {
+    "title": "Why does the ensemble mean of CMIP6 models simulate arctic temperature more accurately than global temperature?",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity/Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Arctic; global warming; climate CMIP6 models; selection of models",
+      "suggested": "Arctic amplification, CMIP6 models, ensemble mean, global temperature, Arctic temperature, model bias, regional climate simulation, model evaluation",
+      "reason": "Current keywords are a bit general. 'Arctic amplification' is a key phenomenon. Suggested keywords include more specific terms related to the study's focus on Arctic versus global temperature and the comparison between ensemble means and model selection."
+    },
+    "related_papers": [
+      "Reduced spread of simulated global warming patterns among CMIP6 models with elevated level of warming",
+      "Earth system forcing for CMIP7 and beyond",
+      "To what extent does discounting ‘hot’ climate models improve the predictive skill of climate model ensembles?",
+      "Overview of the coupled model intercomparison project phase 6 (CMIP6) experimental design and organization"
+    ],
+    "innovation_insights": [
+      "Investigate the underlying physical reasons for the better simulation of Arctic temperature compared to global temperature in CMIP6 models, potentially revealing insights into model biases or specific physical processes better captured in polar regions.",
+      "Develop improved methods for selecting or weighting CMIP6 models based on their performance in specific regions (like the Arctic) for targeted projections.",
+      "Examine if the phenomenon of Arctic amplification itself is better captured by ensemble means or if specific models show superior performance, and what this implies for understanding polar climate dynamics."
+    ],
+    "processed_time": "2026-01-14 20:55:21"
+  },
+  "6XC665QA": {
+    "title": "Overview of the coupled model intercomparison project phase 6 (CMIP6) experimental design and organization",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "CMIP6, experimental design, model intercomparison, climate modeling, simulation protocols, scientific community, climate science infrastructure",
+      "reason": "The paper is an overview and foundational document for CMIP6. The current keywords are missing. The suggested keywords describe the paper's role as a guide for the CMIP6 experiment, focusing on its design, organization, and the collaborative nature of the project."
+    },
+    "related_papers": [
+      "Reduced spread of simulated global warming patterns among CMIP6 models with elevated level of warming",
+      "Earth system forcing for CMIP7 and beyond",
+      "To what extent does discounting ‘hot’ climate models improve the predictive skill of climate model ensembles?",
+      "Why does the ensemble mean of CMIP6 models simulate arctic temperature more accurately than global temperature?"
+    ],
+    "innovation_insights": [
+      "Serve as a foundational document for designing future climate model intercomparison projects (e.g., CMIP7), highlighting successes and lessons learned from CMIP6.",
+      "Inform the development of robust and standardized experimental designs that can yield scientifically valuable and policy-relevant climate projections.",
+      "Underpin efforts to improve the accessibility and usability of CMIP model output for a wider range of researchers and applications by providing clarity on the experimental structure and data provenance."
+    ],
+    "processed_time": "2026-01-14 20:55:25"
+  },
+  "XZCB8BVG": {
+    "title": "Developments in the MPI‐M earth system model version 1.2 (MPI‐ESM1.2) and its response to increasing CO <sub>2</sub>",
+    "archive_path": "[ARCHIVE] Archive/Methodology/Deep Learning (LSTM_CNN)",
+    "idea_path": "[IDEA] Idea Lab/Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "MPI-ESM1.2",
+      "suggested": "Earth System Model Development, MPI-ESM1.2, CO2 Response, Climate Model Improvement, Parameterization Updates",
+      "reason": "The current keyword is too narrow. Expanding to include the model name, its development aspect, and its response to CO2 provides better context for retrieval. Adding 'Climate Model Improvement' and 'Parameterization Updates' reflects the paper's focus on enhancing the model's physical processes and computational performance."
+    },
+    "related_papers": [
+      "Paper 1: Improving the forecast quality of near-term climate projections by constraining internal variability based on decadal predictions and observations",
+      "Paper 2: CMIP6 skill at predicting interannual to multi-decadal summer monsoon precipitation variability",
+      "Paper 3: Constrained tropical land temperature-precipitation sensitivity reveals decreasing evapotranspiration and faster vegetation greening in CMIP6 projections",
+      "Paper 4: Projections and uncertainty decomposition in CMIP6 models for extreme precipitation scaling rates"
+    ],
+    "innovation_insights": [
+      "Investigate the impact of specific parameterization updates (e.g., radiation, aerosol, cloud, convection, turbulence) on various climate variables and extreme events. This could lead to more targeted model improvements.",
+      "Explore the sensitivity of MPI-ESM1.2 to different CO2 emission pathways and their implications for long-term hydrological cycle changes and drought/flood dynamics.",
+      "Develop methods to rigorously validate the improvements in MPI-ESM1.2 against observational data for key hydrological and climate processes, especially in data-scarce regions.",
+      "Analyze how the improvements in MPI-ESM1.2 address or exacerbate known biases in simulating extreme hydrological events, informing future model development."
+    ],
+    "processed_time": "2026-01-14 20:55:52"
+  },
+  "462GDGF5": {
+    "title": "Improving the forecast quality of near-term climate projections by constraining internal variability based on decadal predictions and observations",
+    "archive_path": "[ARCHIVE] Archive/Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Idea Lab/Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Near-term climate projections, internal variability, decadal predictions, sea surface temperature, climate simulations, CMIP6.",
+      "suggested": "Near-term climate projections, internal variability, decadal predictions, sea surface temperature, climate simulations, CMIP6, forecast quality improvement, observational constraints, ensemble selection",
+      "reason": "The current keywords are good but can be enhanced by explicitly mentioning the core goal ('forecast quality improvement') and the key technique ('observational constraints', 'ensemble selection') used to achieve it. This makes the keywords more descriptive of the paper's contribution."
+    },
+    "related_papers": [
+      "Paper 0: Developments in the MPI‐M earth system model version 1.2 (MPI‐ESM1.2) and its response to increasing CO <sub>2</sub>",
+      "Paper 2: CMIP6 skill at predicting interannual to multi-decadal summer monsoon precipitation variability",
+      "Paper 3: Constrained tropical land temperature-precipitation sensitivity reveals decreasing evapotranspiration and faster vegetation greening in CMIP6 projections",
+      "Paper 4: Projections and uncertainty decomposition in CMIP6 models for extreme precipitation scaling rates"
+    ],
+    "innovation_insights": [
+      "Develop advanced ensemble selection techniques that go beyond SST patterns to incorporate other key variables relevant to hydrological extremes (e.g., soil moisture, atmospheric moisture content).",
+      "Investigate the transferability of these 'constrained' ensemble approaches to shorter-term weather forecasts or longer-term climate change projections, and their impact on hydrological model inputs.",
+      "Quantify the impact of constraining internal variability on the prediction of specific hydrological extremes (e.g., flash droughts, heavy rainfall events) at regional scales.",
+      "Explore the potential for using machine learning methods to identify optimal constraints for reducing internal variability in climate projections, beyond simple pattern matching."
+    ],
+    "processed_time": "2026-01-14 20:55:58"
+  },
+  "49HAXRSF": {
+    "title": "CMIP6 skill at predicting interannual to multi-decadal summer monsoon precipitation variability",
+    "archive_path": "[ARCHIVE] Archive/Hazards/Flood",
+    "idea_path": "[IDEA] Idea Lab/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "研究主题的重要性: 季风降水变率对全球大量人口的生活和经济具有重要影响，预测其变化具有重大社会和科学意义。",
+      "suggested": "Summer monsoon precipitation variability, CMIP6, decadal prediction, interannual variability, regional skill assessment, climate model evaluation, monsoon dynamics",
+      "reason": "The current 'keyword' is a statement about the importance of the research topic rather than actual keywords. Suggested keywords are specific to the paper's content, covering the phenomena studied (monsoon precipitation variability), the models used (CMIP6), the prediction scales (decadal, interannual), and the methodology (skill assessment, model evaluation)."
+    },
+    "related_papers": [
+      "Paper 0: Developments in the MPI‐M earth system model version 1.2 (MPI‐ESM1.2) and its response to increasing CO <sub>2</sub>",
+      "Paper 1: Improving the forecast quality of near-term climate projections by constraining internal variability based on decadal predictions and observations",
+      "Paper 3: Constrained tropical land temperature-precipitation sensitivity reveals decreasing evapotranspiration and faster vegetation greening in CMIP6 projections",
+      "Paper 4: Projections and uncertainty decomposition in CMIP6 models for extreme precipitation scaling rates"
+    ],
+    "innovation_insights": [
+      "Identify specific physical mechanisms within CMIP6 models that lead to differential skill in predicting monsoon precipitation variability across regions and timescales. This could inform targeted model development.",
+      "Explore the link between interannual and decadal monsoon precipitation variability predictions and the occurrence of hydrological extremes like floods and droughts in monsoon-affected regions.",
+      "Develop new metrics to assess CMIP6 model skill in capturing the compound effects of monsoon variability on agricultural yields and water resource availability.",
+      "Investigate how improvements in Earth System Models (like MPI-ESM1.2 in Paper 0) translate into better predictions of monsoon precipitation variability, bridging model development and application."
+    ],
+    "processed_time": "2026-01-14 20:56:02"
+  },
+  "ZLEQBSVY": {
+    "title": "Constrained tropical land temperature-precipitation sensitivity reveals decreasing evapotranspiration and faster vegetation greening in CMIP6 projections",
+    "archive_path": "[ARCHIVE] Archive/Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Idea Lab/Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Temperature sensitivity, Precipitation, Evapotranspiration, Vegetation greening, CMIP6, Emergent constraints",
+      "suggested": "Tropical land temperature-precipitation sensitivity, evapotranspiration, vegetation greening, CMIP6, emergent constraints, climate projection uncertainty, CO2 response, land-atmosphere coupling",
+      "reason": "The current keywords are relevant but can be more specific. Adding 'Tropical land' specifies the region, 'climate projection uncertainty' and 'CO2 response' highlight key aspects discussed, and 'land-atmosphere coupling' captures a core interaction investigated."
+    },
+    "related_papers": [
+      "Paper 0: Developments in the MPI‐M earth system model version 1.2 (MPI‐ESM1.2) and its response to increasing CO <sub>2</sub>",
+      "Paper 1: Improving the forecast quality of near-term climate projections by constraining internal variability based on decadal predictions and observations",
+      "Paper 2: CMIP6 skill at predicting interannual to multi-decadal summer monsoon precipitation variability",
+      "Paper 4: Projections and uncertainty decomposition in CMIP6 models for extreme precipitation scaling rates"
+    ],
+    "innovation_insights": [
+      "Investigate the physical processes that lead to the observed decrease in evapotranspiration and accelerated vegetation greening under constrained conditions. Are these primarily driven by changes in atmospheric demand, water availability, or CO2 fertilization?",
+      "Quantify the feedback loops between reduced evapotranspiration, increased soil moisture (potentially), and vegetation response, and their impact on regional climate and water cycles.",
+      "Apply the 'emergent constraints' methodology to other critical hydrological variables or regions to reduce uncertainties in climate projections, particularly those related to extreme events.",
+      "Assess the implications of the predicted decrease in ET and accelerated greening for water resources management in the tropics, considering potential impacts on water availability, agriculture, and ecosystem services."
+    ],
+    "processed_time": "2026-01-14 20:56:07"
+  },
+  "8NYFFGVS": {
+    "title": "Projections and uncertainty decomposition in CMIP6 models for extreme precipitation scaling rates",
+    "archive_path": "[ARCHIVE] Archive/Hazards/Flood",
+    "idea_path": "[IDEA] Idea Lab/Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "标度率 (Scaling rate), 气候预估不确定性 (Climate projection uncertainty), 不确定性贡献 (Uncertainty contribution), 耦合模式比较计划 (Coupled Model Intercomparison Project (CMIP)) 第5阶段 (CMIP5) 和第6阶段 (CMIP6)",
+      "suggested": "Extreme precipitation scaling rates, CMIP6, CMIP5, uncertainty decomposition, GCMs, emission scenarios, Clausius-Clapeyron relation, hydrological extremes",
+      "reason": "The current keywords are descriptive but use a mix of Chinese and English and are somewhat lengthy. Suggested keywords are more concise, in English, and cover the key elements: phenomenon (extreme precipitation scaling rates), models (CMIP6, CMIP5), methodology (uncertainty decomposition), contributing factors (GCMs, emission scenarios), theoretical basis (Clausius-Clapeyron relation), and broader impact (hydrological extremes)."
+    },
+    "related_papers": [
+      "Paper 0: Developments in the MPI‐M earth system model version 1.2 (MPI‐ESM1.2) and its response to increasing CO <sub>2</sub>",
+      "Paper 1: Improving the forecast quality of near-term climate projections by constraining internal variability based on decadal predictions and observations",
+      "Paper 2: CMIP6 skill at predicting interannual to multi-decadal summer monsoon precipitation variability",
+      "Paper 3: Constrained tropical land temperature-precipitation sensitivity reveals decreasing evapotranspiration and faster vegetation greening in CMIP6 projections"
+    ],
+    "innovation_insights": [
+      "Investigate the causes of regional differences in uncertainty contributions from GCMs, emission scenarios, and scaling methods for extreme precipitation. This could lead to more targeted regional climate modeling and downscaling efforts.",
+      "Develop advanced methods for uncertainty quantification in extreme precipitation projections that account for potential non-stationarity and non-linearities beyond the basic Clausius-Clapeyron relationship.",
+      "Apply the uncertainty decomposition framework to other hydrological extremes, such as extreme heat or droughts, to understand the dominant sources of projection uncertainty in those phenomena.",
+      "Explore how improved Earth System Models (like MPI-ESM1.2 in Paper 0) and refined observational datasets can reduce the uncertainty associated with GCMs and improve the accuracy of extreme precipitation scaling rates."
+    ],
+    "processed_time": "2026-01-14 20:56:12"
+  },
+  "JK6RATA5": {
+    "title": "Optimization of <span style=\"font-variant:Small-caps;\">CMIP6</span> models for simulation of summer monsoon rainfall over India by analysis of variance",
+    "archive_path": "[ARCHIVE] Methodology/Statistical Methods/Model Validation, Hazards/Drought, Flood/Compound Events",
+    "idea_path": "[IDEA] Data Philosophy/Data Quality & Validation, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "CMIP6 models, Indian summer monsoon, rainfall variability, variance analysis, model bias correction, observational data, hydrological extremes",
+      "reason": "Current keywords are missing. The title and note content suggest a focus on evaluating CMIP6 models against Indian rainfall data, aiming to improve simulations. Keywords should reflect the models used, the region, the variable of interest, the method of evaluation, and the purpose (bias correction/validation). The note's mention of '搞了一大堆CMIP6' and '用印度IMD观测站纠偏' strongly supports these suggestions. The connection to 'domestic research' hints at potential overlap, but for this paper's keywords, focusing on its core methodology and data is key."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Explore how different statistical approaches (beyond just ANOVA) can be used to identify and correct biases in climate model simulations of regional rainfall, especially for monsoon systems.",
+      "Investigate the potential for integrating machine learning techniques with variance analysis to improve the downscaling or bias correction of CMIP6 rainfall projections for hydrological applications in data-sparse regions.",
+      "Address the limitations of using sparse observational networks (like IMD stations) for validating large-scale climate models by developing spatially explicit uncertainty quantification methods."
+    ],
+    "processed_time": "2026-01-14 20:56:26"
+  },
+  "39ANR7QV": {
+    "title": "Improving hurricane intensity and streamflow forecasts in coupled hydro-meteorological simulations by analyzing precipitation and boundary layer schemes",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN), Hazards/Flood, Hazards/Heatwaves & Extremes, Processes/Runoff & Streamflow, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Dynamics/Rapid Onset Events, Dynamics/Drought-Flood Transitions, Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "Hurricane dynamics, vertical diffusion, hurricane intensity, streamflow forecasts, WRF-Hydro, planetary boundary layer.",
+      "suggested": "Hurricane intensity, streamflow forecasting, coupled hydro-meteorological modeling, WRF-Hydro, precipitation parameterization, boundary layer schemes, atmospheric model bias, extreme events",
+      "reason": "The current keywords are good but can be made more comprehensive. 'Hurricane dynamics' is broad; specifying 'hurricane intensity' is better. 'Streamflow forecasts' is accurate. 'Coupled hydro-meteorological modeling' is a key aspect. WRF-Hydro is specific. 'Precipitation parameterization' and 'boundary layer schemes' are the core mechanisms investigated. Mentioning 'atmospheric model bias' is relevant given the focus on improving simulations. 'Extreme events' captures the broader context of hurricanes."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Develop advanced data assimilation techniques that leverage real-time observational data (e.g., satellite-based precipitation estimates, streamflow gauges) to improve the initial conditions of coupled WRF-Hydro simulations for hurricane events.",
+      "Explore the use of deep learning models to downscale or correct biases in the precipitation output from numerical weather prediction models (like WRF) for more accurate streamflow predictions during extreme events.",
+      "Investigate the sensitivity of streamflow responses to different configurations of atmospheric model physics (e.g., microphysics, planetary boundary layer schemes) under various hurricane intensity scenarios, to better understand cascading impacts on hydrology.",
+      "Quantify the uncertainty in streamflow forecasts stemming from uncertainties in hurricane intensity predictions and associated precipitation fields."
+    ],
+    "processed_time": "2026-01-14 20:56:33"
+  }
+}

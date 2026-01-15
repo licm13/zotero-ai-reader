@@ -13,18 +13,8 @@ from datetime import datetime
 
 # 要处理的 collection 列表
 COLLECTIONS = [
-    'Fire',
-    'GCM',
-    'Hydro-Model',
-    'Hydroclimate Volatility',
-    'LSM-Reanalysis',
-    'Open Water',
-    'Review',
-    'Snow',
-    'Soil',
     'Temperature',
-    'Terrestrial',
-    'Vegetation'
+    'Terrestrial'
 ]
 
 # 配置文件路径（上一级目录）

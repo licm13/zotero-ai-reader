@@ -1,0 +1,451 @@
+{
+  "AKLFCT8Q": {
+    "title": "Surface water temperature observations and ice phenology estimations for 1.4 million lakes globally",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Lake Ice Phenology, [ARCHIVE] Processes/Runoff & Streamflow/Surface Water Temperature, [ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Data Philosophy/Data Quality & Validation, [IDEA] Modeling/Data-Driven Modeling",
+    "keyword_assessment": {
+      "current": "包括全球表面积超过0.1平方公里的约140万个湖泊，填补了大规模湖泊学研究中的数据空白。",
+      "suggested": "Global Lakes, Surface Water Temperature, Ice Phenology, Lake Science, Big Data, Remote Sensing, LakeTEMP Dataset",
+      "reason": "The current keywords are more of a descriptive summary than concise keywords. The suggested keywords are more standard for paper indexing and cover the key aspects of the study: geographical scope, variables measured, phenomenon studied, scientific field, data scale, methodology, and the specific dataset created."
+    },
+    "related_papers": [
+      "Paper 1: Widespread societal and ecological impacts from projected tibetan plateau lake expansion",
+      "Paper 2: Global lakes are warming slower than surface air temperature due to accelerated evaporation",
+      "Paper 3: Multivariate extremes in lakes",
+      "Paper 4: Subsurface heatwaves in lakes"
+    ],
+    "innovation_insights": [
+      "Opportunity to link this comprehensive global lake temperature and ice data with other large-scale environmental datasets (e.g., atmospheric forcing, land use, biological data) to study global lake responses to climate change and human activities.",
+      "Gap: While the dataset provides temperature and ice phenology, it doesn't directly include water quality parameters or stratification dynamics. Future work could focus on integrating these aspects or using this dataset as a basis for modeling them."
+    ],
+    "processed_time": "2026-01-15 11:04:09"
+  },
+  "DSRCLIXX": {
+    "title": "Widespread societal and ecological impacts from projected tibetan plateau lake expansion",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Applications/Climate Change Impact, [ARCHIVE] Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Dynamics/Tipping Points, [IDEA] Dynamics/Rapid Onset Events, [IDEA] Coupling/Human-Nature Systems",
+    "keyword_assessment": {
+      "current": "讨论了湖泊在气候变化中的重要作用。",
+      "suggested": "Tibetan Plateau Lakes, Lake Expansion, Climate Change, Hydrological Connectivity, Societal Impacts, Ecological Impacts, Water Hazard Mitigation",
+      "reason": "The current keywords are too general and do not reflect the specific geographical focus (Tibetan Plateau), the main phenomenon (lake expansion), the driving force (climate change), and the key outcomes (societal/ecological impacts, hydrological connectivity). The suggested keywords are more specific and informative."
+    },
+    "related_papers": [
+      "Paper 0: Surface water temperature observations and ice phenology estimations for 1.4 million lakes globally",
+      "Paper 3: Multivariate extremes in lakes",
+      "Paper 4: Subsurface heatwaves in lakes"
+    ],
+    "innovation_insights": [
+      "Opportunity to investigate the teleconnections between large-scale lake expansion in regions like the Tibetan Plateau and broader hydrological cycles or atmospheric patterns.",
+      "Gap: The study focuses on projected impacts. Future work could validate these projections with high-resolution monitoring and develop more sophisticated risk assessment frameworks for critical infrastructure and ecosystems under rapid lake expansion scenarios."
+    ],
+    "processed_time": "2026-01-15 11:04:14"
+  },
+  "FGF2EC9Z": {
+    "title": "Global lakes are warming slower than surface air temperature due to accelerated evaporation",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Surface Water Temperature, [ARCHIVE] Applications/Climate Change Impact, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Lake surface water temperature, Climate change, Evaporation, High latitudes, Satellite remote sensing, Numerical modelling",
+      "suggested": "Global Lake Temperature, Warming Trends, Evaporation Acceleration, Latent Heat Flux, Surface Energy Balance, High Latitude Lakes, Satellite Observations",
+      "reason": "The current keywords are good but could be refined to be more precise. 'Warming Trends' and 'Evaporation Acceleration' capture the core findings better. Adding 'Latent Heat Flux' and 'Surface Energy Balance' hints at the underlying physical mechanisms driving the slower warming. 'High Latitude Lakes' is already included, but 'Satellite Observations' can be kept as a method."
+    },
+    "related_papers": [
+      "Paper 0: Surface water temperature observations and ice phenology estimations for 1.4 million lakes globally",
+      "Paper 3: Multivariate extremes in lakes",
+      "Paper 4: Subsurface heatwaves in lakes"
+    ],
+    "innovation_insights": [
+      "Opportunity to explore the detailed physical mechanisms (e.g., changes in albedo, stratification, mixing) that lead to the observed discrepancy in warming rates between lake surface water and air temperature, particularly investigating how evaporation acts as a cooling mechanism.",
+      "Gap: This study focuses on the global average and high latitudes. Future research could investigate regional variations in this phenomenon and the influence of other factors like lake depth, morphology, and water clarity on the warming rate discrepancy."
+    ],
+    "processed_time": "2026-01-15 11:04:20"
+  },
+  "EW6E739U": {
+    "title": "Multivariate extremes in lakes",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Hazards/Flood, [ARCHIVE] Hazards/Compound Events/DFA, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Tipping Points, [IDEA] Dynamics/Drought-Flood Transitions, [IDEA] Dynamics/Abrupt Transitions/Phase Change",
+    "keyword_assessment": {
+      "current": "Algal blooms, lake heatwaves, low lake levels, satellite observations, extreme events, multivariate analysis",
+      "suggested": "Multivariate Lake Extremes, Algal Blooms, Lake Heatwaves, Low Lake Levels, Extreme Event Co-occurrence, Satellite Monitoring, Lake Dynamics",
+      "reason": "The current keywords are good and capture the main elements. 'Multivariate Lake Extremes' is a strong overarching term. 'Extreme Event Co-occurrence' is more descriptive than just 'multivariate analysis'. 'Lake Dynamics' can broadly cover the underlying processes."
+    },
+    "related_papers": [
+      "Paper 0: Surface water temperature observations and ice phenology estimations for 1.4 million lakes globally",
+      "Paper 1: Widespread societal and ecological impacts from projected tibetan plateau lake expansion",
+      "Paper 2: Global lakes are warming slower than surface air temperature due to accelerated evaporation",
+      "Paper 4: Subsurface heatwaves in lakes"
+    ],
+    "innovation_insights": [
+      "Opportunity to develop integrated early warning systems for multiple co-occurring lake extreme events by combining satellite observations with mechanistic models, predicting compound impacts on water quality, ecosystem health, and human use.",
+      "Gap: The paper focuses on historical analysis. Future work could involve projecting the frequency and intensity of multivariate extremes under different climate change scenarios and investigating the cascading effects of these events on downstream systems or human societies."
+    ],
+    "processed_time": "2026-01-15 11:04:25"
+  },
+  "7W2IMAXS": {
+    "title": "Subsurface heatwaves in lakes",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes, [ARCHIVE] Applications/Climate Change Impact, [ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Dynamics/Abrupt Transitions/Phase Change, [IDEA] Mechanism/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "Lake Heatwaves / Subsurface Temperatures / Climate Change Impact / Aquatic Ecosystems / Thermal Refugia",
+      "suggested": "Subsurface Lake Heatwaves, Vertical Thermal Structure, Lake Heatwave Dynamics, Aquatic Ecosystems, Thermal Refugia, Climate Change, Compounding Extremes",
+      "reason": "The current keywords are accurate. 'Subsurface Lake Heatwaves' is more specific than just 'Lake Heatwaves'. 'Vertical Thermal Structure' and 'Compounding Extremes' (referencing the joint occurrence with surface heatwaves) add important nuances captured in the paper. 'Lake Heatwave Dynamics' encompasses the temporal and spatial changes discussed."
+    },
+    "related_papers": [
+      "Paper 0: Surface water temperature observations and ice phenology estimations for 1.4 million lakes globally",
+      "Paper 2: Global lakes are warming slower than surface air temperature due to accelerated evaporation",
+      "Paper 3: Multivariate extremes in lakes"
+    ],
+    "innovation_insights": [
+      "Opportunity to develop advanced 3D lake hydrodynamic and thermal models that can accurately simulate subsurface heatwaves and their interaction with surface conditions, particularly for understanding the evolution of thermal refugia for aquatic life.",
+      "Gap: The paper highlights the challenge of limited direct subsurface temperature data. Future research could focus on improving observational networks for subsurface temperatures or utilizing AI/ML techniques to infer these profiles from surface measurements or satellite data, thereby enhancing the spatiotemporal resolution of subsurface heatwave analysis."
+    ],
+    "processed_time": "2026-01-15 11:04:30"
+  },
+  "DPS3AEL3": {
+    "title": "Quantifying the CO2 sink intensity of large and small saline lakes on the tibetan plateau",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Carbon Fluxes",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling/Carbon Cycling",
+    "keyword_assessment": {
+      "current": "Net ecosystem exchange, carbon sinks, saline lakes, eddy covariance, Tibetan Plateau, ice-covered season",
+      "suggested": "Carbon flux, Saline lakes, Eddy covariance, Tibetan Plateau, Ecosystem exchange, Seasonal dynamics",
+      "reason": "Keywords are generally good and cover the main aspects. 'Carbon flux' is a more common term than 'Net ecosystem exchange' in broader search. Adding 'Seasonal dynamics' would capture the ice-covered season aspect more explicitly and its implications."
+    },
+    "related_papers": [
+      "The extreme lake level change and mid-summer rainfall on the tibetan plateau in 2015/2018 from the perspective of atmospheric circulation",
+      "GloLakes: Water storage dynamics for 27 000 lakes globally from 1984 to present derived from satellite altimetry and optical imaging"
+    ],
+    "innovation_insights": [
+      "Investigate the influence of lake ice cover duration and properties on CO2 flux dynamics, extending beyond just the 'ice-covered season' quantification.",
+      "Explore the potential for using remote sensing (e.g., optical, thermal) to upscale eddy covariance measurements of CO2 fluxes from lakes, especially for remote regions like the Tibetan Plateau.",
+      "Quantify the role of saline lake CO2 sink intensity in the broader carbon budget of the Tibetan Plateau and its potential sensitivity to climate change (e.g., warming, altered precipitation patterns affecting lake size and salinity)."
+    ],
+    "processed_time": "2026-01-15 11:04:42"
+  },
+  "5CFQSJBK": {
+    "title": "The extreme lake level change and mid-summer rainfall on the tibetan plateau in 2015/2018 from the perspective of atmospheric circulation",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Lake Level Dynamics",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions/Extreme Events",
+    "keyword_assessment": {
+      "current": "青藏高原, 湖泊水位, 极端降水, 西太平洋副热带高压, 东亚夏季风, 波动活动通量",
+      "suggested": "Tibetan Plateau, Lake level variability, Extreme rainfall, Atmospheric circulation, West Pacific Subtropical High, East Asian Summer Monsoon, Hydroclimate extremes",
+      "reason": "The current keywords are a mix of Chinese and English, and some are too specific or less common in English literature. Suggesting English equivalents and broader terms like 'Hydroclimate extremes' and 'Lake level variability' improves searchability and comprehensiveness."
+    },
+    "related_papers": [
+      "Quantifying the CO2 sink intensity of large and small saline lakes on the tibetan plateau",
+      "GloLakes: Water storage dynamics for 27 000 lakes globally from 1984 to present derived from satellite altimetry and optical imaging"
+    ],
+    "innovation_insights": [
+      "Investigate the teleconnections between atmospheric circulation patterns (like WPSH and EASM) and lake level changes across different lake types (saline vs. freshwater, large vs. small) on the Tibetan Plateau.",
+      "Develop predictive models linking specific atmospheric circulation anomalies to the probability and magnitude of extreme lake level changes, potentially for early warning systems.",
+      "Explore the cascading impacts of extreme lake level changes on local ecosystems, water resources, and human activities in the Tibetan Plateau region."
+    ],
+    "processed_time": "2026-01-15 11:04:46"
+  },
+  "JD7VHCNB": {
+    "title": "GloLakes: Water storage dynamics for 27 000 lakes globally from 1984 to present derived from satellite altimetry and optical imaging",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Lake Level Dynamics",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "湖泊动态, 水储量, 遥感, 光学成像, 卫星高度计",
+      "suggested": "Lake dynamics, Water storage, Satellite altimetry, Optical remote sensing, Global lakes, Long-term monitoring, Data fusion",
+      "reason": "The current keywords are good but could be expanded to better reflect the global scale and the temporal aspect (long-term monitoring), as well as the data fusion aspect of combining different satellite sources."
+    },
+    "related_papers": [
+      "The extreme lake level change and mid-summer rainfall on the tibetan plateau in 2015/2018 from the perspective of atmospheric circulation",
+      "DeepWaterFraction: A globally applicable, self-training deep learning approach for percent surface water area estimation from landsat mission imagery"
+    ],
+    "innovation_insights": [
+      "Integrate GloLakes data with other global hydrological datasets (e.g., precipitation, ET, soil moisture) to better understand the drivers of global lake water storage variability.",
+      "Apply deep learning techniques to the GloLakes dataset to identify regional patterns, trends, and potential tipping points in lake water storage.",
+      "Validate and refine GloLakes water storage estimates by comparing them with in-situ measurements or other independent remote sensing products, focusing on data-scarce regions."
+    ],
+    "processed_time": "2026-01-15 11:04:49"
+  },
+  "W6PRVXBU": {
+    "title": "Controls of variability in the laurentian great lakes terrestrial water budget",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Terrestrial Water Budget",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Terrestrial water budget",
+      "suggested": "Terrestrial water budget, Laurentian Great Lakes, Hydrological variability, Land surface modeling, Climate change impact, Spatial heterogeneity",
+      "reason": "The current keyword is too broad. Expanding to include the specific region, the focus on variability, the modeling approach (land surface modeling), and the implication (climate change impact, spatial heterogeneity) would make it more descriptive and searchable."
+    },
+    "related_papers": [
+      "GloLakes: Water storage dynamics for 27 000 lakes globally from 1984 to present derived from satellite altimetry and optical imaging",
+      "DeepWaterFraction: A globally applicable, self-training deep learning approach for percent surface water area estimation from landsat mission imagery"
+    ],
+    "innovation_insights": [
+      "Investigate how changes in specific terrestrial water budget components (precipitation, ET, runoff, storage) interact to drive extreme hydrological events in the Laurentian Great Lakes basin.",
+      "Apply advanced machine learning or data assimilation techniques to the Noah-MP model outputs to improve the characterization of hydrological variability and its drivers.",
+      "Analyze the impact of land cover change (e.g., urbanization, deforestation) on the terrestrial water budget and its variability in the Laurentian Great Lakes region, particularly in relation to water resource availability and flood/drought risks."
+    ],
+    "processed_time": "2026-01-15 11:04:53"
+  },
+  "JXFWQEB9": {
+    "title": "DeepWaterFraction: A globally applicable, self-training deep learning approach for percent surface water area estimation from landsat mission imagery",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Remote Sensing",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI/Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "地表水面积估算对全球环境动态的理解和水资源管理至关重要，特别是在气候变化和人类活动影响下。",
+      "suggested": "Surface water extent, Deep learning, Self-training, Landsat, Water area estimation, Global applicability, Remote sensing, Water resources management",
+      "reason": "The current 'keyword' is a statement of importance, not actual keywords. Suggested keywords cover the core methodology (deep learning, self-training), data source (Landsat), output (surface water extent), and application (water resources management)."
+    },
+    "related_papers": [
+      "GloLakes: Water storage dynamics for 27 000 lakes globally from 1984 to present derived from satellite altimetry and optical imaging",
+      "Controls of variability in the laurentian great lakes terrestrial water budget"
+    ],
+    "innovation_insights": [
+      "Extend the self-training approach to other satellite platforms (e.g., Sentinel-2, MODIS) or sensors to increase temporal resolution or spatial coverage of surface water mapping.",
+      "Integrate the DeepWaterFraction model with hydrological models or water balance studies to assess the impact of surface water dynamics on regional water resources.",
+      "Explore the application of this self-training deep learning method to other remote sensing applications requiring accurate feature extraction and classification, especially in data-scarce or challenging environments."
+    ],
+    "processed_time": "2026-01-15 11:04:56"
+  },
+  "LZV9VDS3": {
+    "title": "Global lake health in the anthropocene: Societal implications and treatment strategies",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Processes/Evapotranspiration (ET), [ARCHIVE] Applications/Water Resources Management",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, [IDEA] Mechanism/Feedback Loops & Cascades, [IDEA] Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "湖泊健康, 人为压力, 生态系统服务, 气候变化, 水资源管理",
+      "suggested": "Global lake health, Anthropocene, Ecosystem services, Climate change impacts, Water resources management, Lake desiccation, Societal implications",
+      "reason": "Current keywords are a good starting point but could be more specific. Adding 'Global lake health', 'Anthropocene', and 'Lake desiccation' would better reflect the paper's scope. 'Societal implications' captures a key focus."
+    },
+    "related_papers": [
+      "A dataset of lake-catchment characteristics for the Tibetan Plateau",
+      "GLOBathy, the global lakes bathymetry dataset",
+      "A high-resolution dataset of water bodies distribution over the tibetan plateau"
+    ],
+    "innovation_insights": [
+      "Develop a more formalized 'lake health index' analogous to human health indicators, incorporating a wider range of physical, chemical, and biological parameters beyond just desiccation risk.",
+      "Investigate the cascading societal and ecological impacts of widespread lake desiccation due to enhanced evaporation under climate change, specifically quantifying economic losses and displaced populations.",
+      "Explore the efficacy of novel, integrated governance strategies for lake health, moving beyond traditional water resource management to include interdisciplinary and transboundary approaches.",
+      "Quantify the feedback loops between lake desiccation, regional climate patterns, and agricultural productivity, particularly in vulnerable regions identified in the paper."
+    ],
+    "processed_time": "2026-01-15 11:05:13"
+  },
+  "V6R7HWNV": {
+    "title": "A dataset of lake-catchment characteristics for the Tibetan Plateau",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), [IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Lake-catchment characteristics",
+      "suggested": "Tibetan Plateau, Lake-catchment characteristics, Hydrological data, Geospatial dataset, Environmental monitoring",
+      "reason": "The current keyword is too general. Adding 'Tibetan Plateau' is crucial as it's the study region. Including terms like 'Hydrological data', 'Geospatial dataset', and 'Environmental monitoring' better describes the content and utility of the dataset."
+    },
+    "related_papers": [
+      "Global lake health in the anthropocene: Societal implications and treatment strategies",
+      "GLOBathy, the global lakes bathymetry dataset",
+      "A high-resolution dataset of water bodies distribution over the Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Integrate this dataset with remote sensing-derived land surface parameters (e.g., soil moisture, ET) to develop data-driven models for understanding catchment influence on lake dynamics.",
+      "Use this dataset to train and validate deep learning models that predict lake water levels or quality based on catchment characteristics, particularly for ungauged basins on the Tibetan Plateau.",
+      "Investigate how changes in catchment land use and climate (as captured in the dataset) influence lake water balance and water quality across the Tibetan Plateau.",
+      "Explore the spatial heterogeneity of lake-catchment interactions and its implications for regional water resource vulnerability."
+    ],
+    "processed_time": "2026-01-15 11:05:21"
+  },
+  "E5RRJHQ2": {
+    "title": "GLOBathy, the global lakes bathymetry dataset",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Applications/Water Resources Management",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), [IDEA] Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "湖泊水深，水文模型，GLOBathy，最大深度，HydroLAKES，地理信息系统",
+      "suggested": "Global lakes bathymetry, Hydrological modeling, GLOBathy, Water depth, HydroLAKES, GIS, Water volume estimation",
+      "reason": "The current keywords are a mix of Chinese and English and could be more consistently English for broader reach. 'Water depth' and 'Water volume estimation' are more direct and informative than 'maximum depth'."
+    },
+    "related_papers": [
+      "Global lake health in the anthropocene: Societal implications and treatment strategies",
+      "A dataset of lake-catchment characteristics for the Tibetan Plateau",
+      "A high-resolution dataset of water bodies distribution over the Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Combine the GLOBathy dataset with high-resolution topographic data (e.g., from Paper 3 or derived from newer DEMs) to refine lake bathymetry estimations and improve hydrological model accuracy for regional studies.",
+      "Develop AI models (e.g., CNNs, GNNs) that utilize lake bathymetry (from GLOBathy) and catchment characteristics (from Paper 1) to predict lake water storage changes under various climate and land-use scenarios.",
+      "Use GLOBathy to assess the global impact of lake volume changes on regional water availability and associated ecosystem services, linking it with the broader 'lake health' concept in Paper 0.",
+      "Investigate the uncertainty associated with bathymetry estimations in GLOBathy and explore methods for its quantification and reduction, potentially through data fusion techniques."
+    ],
+    "processed_time": "2026-01-15 11:05:25"
+  },
+  "GBQPG2PU": {
+    "title": "A high-resolution dataset of water bodies distribution over the tibetan plateau",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), [IDEA] Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "高分辨率, 水体分布, 青藏高原, 深度学习, Swin-UNet",
+      "suggested": "High-resolution water body distribution, Tibetan Plateau, Deep learning, Swin-UNet, Remote sensing, Small water body extraction",
+      "reason": "The current keywords are primarily in Chinese and could benefit from English equivalents for broader accessibility. Adding 'Remote sensing' and 'Small water body extraction' better highlights the methodology and a key contribution."
+    },
+    "related_papers": [
+      "Global lake health in the anthropocene: Societal implications and treatment strategies",
+      "A dataset of lake-catchment characteristics for the Tibetan Plateau",
+      "GLOBathy, the global lakes bathymetry dataset"
+    ],
+    "innovation_insights": [
+      "Apply the Swin-UNet model and high-resolution remote sensing data to monitor changes in small water bodies across other vulnerable regions globally, not just the Tibetan Plateau.",
+      "Investigate the impact of different spatial resolutions of satellite imagery and DEMs on the accuracy of water body extraction using deep learning models like Swin-UNet.",
+      "Integrate the high-resolution water body distribution data with hydrological models to better simulate water fluxes and storage dynamics in complex mountainous terrain.",
+      "Explore the application of this dataset for studying the ecological health and ecosystem services provided by small lakes and ponds, linking it to the broader theme of Paper 0."
+    ],
+    "processed_time": "2026-01-15 11:05:28"
+  },
+  "59XQGCY5": {
+    "title": "A global topography- and hydrography-based floodability index for the downscaling, analysis, and data-fusion of surface water",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Methodology/Data Fusion",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Modeling/Causal Inference, [IDEA] Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "通过引入更精确的地形数据和神经网络方法，该指数能够更准确地评估洪水风险。",
+      "suggested": "Floodability index, Surface water, Topography, Hydrography, Neural networks, Data fusion, Downscaling, MERIT database",
+      "reason": "The current 'keyword' is a descriptive sentence, not a list of keywords. The suggested keywords are more standard and representative of the paper's content and methods. Including 'Floodability index', 'Surface water', and 'Neural networks' is essential."
+    },
+    "related_papers": [
+      "Global lake health in the anthropocene: Societal implications and treatment strategies",
+      "A dataset of lake-catchment characteristics for the Tibetan Plateau",
+      "GLOBathy, the global lakes bathymetry dataset",
+      "A high-resolution dataset of water bodies distribution over the Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Adapt the floodability index methodology to assess drought risk, particularly focusing on areas prone to rapid drought onset by incorporating soil moisture and ET data.",
+      "Integrate this floodability index with ET and soil moisture datasets to create a comprehensive surface water availability index that accounts for both flood and drought potentials.",
+      "Explore the causal relationships between topographic features, land cover, and floodability using causal inference techniques, moving beyond correlative analysis.",
+      "Apply and refine the floodability index for improved downscaling and data fusion of hydrological models in regions with limited observational data, such as the Tibetan Plateau (Papers 1 & 3)."
+    ],
+    "processed_time": "2026-01-15 11:05:33"
+  },
+  "G2HFR9SS": {
+    "title": "Climatic or regionally induced by humans? Tracing hydro-climatic and land-use changes to better understand the Lake Urmia tragedy",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Lake Drying, Processes/Runoff & Streamflow, Methodology/Remote Sensing/Retrieval, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Tipping Points, Coupling/Vegetation-Water Interaction, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "乌尔米亚湖；气候变化；土地利用变化；人为变化；植被；水资源管理",
+      "suggested": "Lake Urmia, Hydrological Change, Land Use Change, Human Impact, Agricultural Expansion, Water Resources Management, Climate Variability",
+      "reason": "Keywords are in Chinese and lack specificity on the key drivers like agricultural expansion. Suggesting English keywords for broader reach and adding specificity to highlight the main findings and context."
+    },
+    "related_papers": [
+      "Assessment of hydrological response as a function of LULC change and climatic variability in the catchment of the Wular Lake, J&K, using geospatial technique",
+      "Improved maps of surface water bodies, large dams, reservoirs, and lakes in China"
+    ],
+    "innovation_insights": [
+      "Investigate the tipping point dynamics of salt lake desiccation under combined climate and land-use pressures, particularly focusing on the non-linear relationship between irrigation expansion and lake volume.",
+      "Develop integrated models that can disentangle the contributions of climatic variability versus direct human interventions (e.g., agricultural water demand) on surface water bodies at regional scales.",
+      "Explore the ecological and socio-economic consequences of salt lake desiccation and identify sustainable water management strategies that balance agricultural needs with ecosystem preservation."
+    ],
+    "processed_time": "2026-01-15 11:05:47"
+  },
+  "2JV648U4": {
+    "title": "Assessment of hydrological response as a function of LULC change and climatic variability in the catchment of the Wular Lake, J&K, using geospatial technique",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Lake Drying, Processes/Runoff & Streamflow, Processes/Soil Moisture, Methodology/Remote Sensing/Retrieval, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Tipping Points, Coupling/Vegetation-Water Interaction, Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Geospatial technique, Hydrological processes, Land use/land cover change, RUSLE, Sediment yield (SY), Soil conservation service curve number (SCS CN), Wular Lake",
+      "suggested": "Wular Lake, Hydrological Response, Land Use Land Cover Change (LULCC), Climatic Variability, Soil Erosion, Sediment Yield, Geospatial Analysis, Runoff",
+      "reason": "Current keywords are good but could be more descriptive by adding 'Hydrological Response', 'Climatic Variability', and 'Soil Erosion' for clarity. Also, it's beneficial to use the full term 'Land Use Land Cover Change (LULCC)' for standardization."
+    },
+    "related_papers": [
+      "Climatic or regionally induced by humans? Tracing hydro-climatic and land-use changes to better understand the Lake Urmia tragedy",
+      "Improved maps of surface water bodies, large dams, reservoirs, and lakes in China"
+    ],
+    "innovation_insights": [
+      "Explore the long-term impacts of LULC changes on the hydrological regime of Wular Lake, specifically focusing on how increased sediment yield affects lake storage capacity and water availability.",
+      "Integrate advanced remote sensing techniques with hydrological models to improve the accuracy of soil erosion and sediment yield estimations in complex mountainous catchments.",
+      "Investigate the potential for nature-based solutions or land management interventions to mitigate soil erosion and improve water quality in the Wular Lake catchment."
+    ],
+    "processed_time": "2026-01-15 11:05:53"
+  },
+  "XN72IBRA": {
+    "title": "DeepAqua: Semantic segmentation of wetland water surfaces with SAR imagery using deep neural networks without manually annotated data",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Methodology/Deep Learning (LSTM_CNN), Applications/Environmental Monitoring",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Data Philosophy/Multi-Source Integration, Modeling/Physics-Informed AI, Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "深度学习，语义分割，遥感，湿地映射，植被水面，自动数据标注，卷积神经网络（CNN）",
+      "suggested": "Deep Learning, Semantic Segmentation, SAR Imagery, Wetland Mapping, Water Surface Detection, Knowledge Distillation, Unsupervised Annotation, Remote Sensing",
+      "reason": "The current keywords are in Chinese and a bit generic. Suggesting English equivalents and adding specific technical terms like 'SAR Imagery', 'Knowledge Distillation', and 'Unsupervised Annotation' will make them more informative and searchable."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Extend the DeepAqua methodology to other types of water bodies (e.g., rivers, lakes, coastal areas) and investigate its performance under varying environmental conditions and sensor types.",
+      "Explore the integration of multi-sensor SAR data (e.g., Sentinel-1, RADARSAT) with DeepAqua to enhance the robustness and accuracy of wetland water surface mapping.",
+      "Apply DeepAqua for near-real-time monitoring of hydrological changes, such as flood inundation or drought-induced water surface extent reduction, by leveraging its unsupervised annotation capabilities."
+    ],
+    "processed_time": "2026-01-15 11:05:56"
+  },
+  "W9GXK8FE": {
+    "title": "Improved maps of surface water bodies, large dams, reservoirs, and lakes in China",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Data Quality & Validation, Modeling/Hybrid Modeling (Process+ML), Applications/Environmental Monitoring",
+    "keyword_assessment": {
+      "current": "地表水体，大坝，水库，湖泊，中国，水资源管理",
+      "suggested": "Surface Water Bodies, Dams, Reservoirs, Lakes, China, Water Resources Management, Geospatial Dataset, Remote Sensing",
+      "reason": "The current keywords are in Chinese and lack sufficient technical detail. Suggesting English equivalents and adding 'Geospatial Dataset' and 'Remote Sensing' will improve discoverability and reflect the paper's methodology."
+    },
+    "related_papers": [
+      "Climatic or regionally induced by humans? Tracing hydro-climatic and land-use changes to better understand the Lake Urmia tragedy",
+      "Assessment of hydrological response as a function of LULC change and climatic variability in the catchment of the Wular Lake, J&K, using geospatial technique"
+    ],
+    "innovation_insights": [
+      "Investigate the temporal dynamics of surface water bodies, dams, and reservoirs in China using multi-year datasets derived from similar methodologies, to understand changes in water storage and availability over time.",
+      "Couple the improved water body maps with hydrological models to assess the impact of water infrastructure (dams, reservoirs) on downstream water availability and flood risk.",
+      "Develop automated methods for detecting and mapping new dams and reservoirs globally, leveraging advancements in AI and remote sensing to maintain up-to-date water resource inventories."
+    ],
+    "processed_time": "2026-01-15 11:06:00"
+  },
+  "JI5SM4FY": {
+    "title": "Diverging hydrological sensitivity among tropical basins",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Hazards/Drought/DFA, Methodology/Statistical Methods, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change, Mechanism/Threshold Behavior, Dynamics/Non-linearity & Complexity, Dynamics/Drought-Flood Transitions",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Hydrological Sensitivity, Tropical Basins, Precipitation Variability, Surface Warming, Climate Change Impact, Drought, Flood",
+      "reason": "No keywords were provided. Suggested keywords cover the core concepts of hydrological sensitivity, the geographical focus on tropical basins, the drivers (surface warming, precipitation), and the key applications/phenomena (climate change, drought, flood)."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Investigate the physical mechanisms driving the diverging hydrological sensitivities in tropical basins, focusing on feedback loops between land-atmosphere interactions and vegetation responses.",
+      "Develop predictive models that can capture the non-linear responses of tropical hydrological systems to warming, potentially identifying thresholds for abrupt changes in precipitation and runoff patterns.",
+      "Analyze the implications of diverging hydrological sensitivities for water resource availability, drought occurrence, and flood risk across different tropical regions under future climate scenarios."
+    ],
+    "processed_time": "2026-01-15 11:06:05"
+  },
+  "WAG2LP9F": {
+    "title": "Restoring small water bodies to improve lake and river water quality in China",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture/Nutrient Cycling, Processes/Runoff & Streamflow/Water Quality, Hazards/Drought/Pollution, Methodology/Remote Sensing/Data Fusion, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Data Philosophy/Multi-Source Integration, Modeling/Hybrid Modeling (Process+ML), Dynamics/Abrupt Transitions/Phase Change, Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Small water bodies (小型水体), nitrogen pollution (氮污染), water quality (水质), restoration (恢复), land use change (土地利用变化), nutrient removal (营养物去除)",
+      "suggested": "Small water bodies (SWBs), nitrogen pollution, water quality, restoration, eutrophication, nutrient cycling, land use change, ecosystem services, nature-based solutions, hydrological regime",
+      "reason": "The current keywords are good but could be expanded to include 'eutrophication' as a direct consequence of nitrogen pollution, 'ecosystem services' and 'nature-based solutions' to capture the paper's proposed approach, and 'hydrological regime' to reflect the impact on water systems. Including the abbreviation 'SWBs' would also be beneficial for searchability."
+    },
+    "related_papers": [
+      "Paper 1 title"
+    ],
+    "innovation_insights": [
+      "Investigate the precise mechanisms by which SWBs contribute to nitrogen removal, potentially linking hydrological flow paths with biogeochemical processes within these water bodies.",
+      "Explore the socio-economic drivers and barriers to SWB restoration, moving beyond the hydrological and water quality aspects to understand the feasibility of implementation.",
+      "Develop spatially explicit models that integrate land-use change, agricultural practices, and SWB distribution to predict future water quality risks and optimal restoration strategies.",
+      "Quantify the resilience of restored SWBs to climate change impacts (e.g., increased temperatures, altered precipitation patterns) and their potential role in mitigating hydrological extremes.",
+      "Examine the potential for a cascade effect where restoring SWBs not only improves local water quality but also influences larger riverine and lacustrine systems, contributing to broader ecosystem health."
+    ],
+    "processed_time": "2026-01-15 11:06:20"
+  },
+  "2FRJ46NX": {
+    "title": "Global increase in methane production under future warming of lake bottom waters",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Water Quality, Hazards/Heatwaves & Extremes, Methodology/Statistical Methods, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity, Dynamics/Tipping Points, Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "研究首次量化了1901年至2099年全球湖泊底部水温的变化。",
+      "suggested": "Lake methane production, bottom water temperature, global warming, greenhouse gas emissions, climate feedback, aquatic ecosystems, biogeochemistry, Arrhenius equation, RCP scenarios, low-latitude lakes",
+      "reason": "The current 'keyword' is a sentence describing a key finding rather than actual keywords. The suggested keywords are more specific, comprehensive, and directly related to the paper's content, covering the main phenomena, methods, and implications."
+    },
+    "related_papers": [
+      "Paper 0 title"
+    ],
+    "innovation_insights": [
+      "Investigate the role of lake stratification dynamics and how predicted changes in bottom water temperature might alter the frequency and intensity of anoxic events, which are crucial for methane production.",
+      "Quantify the uncertainty associated with the Arrhenius equation and other parameters used to estimate methane production, and explore alternative biogeochemical models for a more robust global assessment.",
+      "Analyze the specific impact of different lake sizes, depths, and trophic states on the projected increase in methane production under future warming scenarios.",
+      "Examine the feedback loop: how increased methane emissions from lakes further contribute to global warming, and how this amplified warming might, in turn, accelerate changes in lake bottom water temperatures.",
+      "Assess the potential for human interventions or mitigation strategies to reduce methane emissions from lakes, considering the projected increases due to climate change."
+    ],
+    "processed_time": "2026-01-15 11:06:25"
+  }
+}

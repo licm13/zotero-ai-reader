@@ -1,0 +1,131 @@
+{
+  "NTJ6AKMW": {
+    "title": "Intensifying hydroclimate whiplash from a 3D perspective",
+    "archive_path": "[ARCHIVE] Hazards/Drought-Flood Transition / Methodology/Spatiotemporal Analysis",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events / Modeling/Data Fusion",
+    "keyword_assessment": {
+      "current": "Hydroclimate Whiplash / 3D Connected Component Labeling / Spatiotemporal Analysis / Extreme Events",
+      "suggested": "Hydroclimate Whiplash / Spatiotemporal Analysis / Connected Component Labeling / Drought-Flood Transitions / Extreme Events",
+      "reason": "Keywords are generally good. 'Hydroclimate Whiplash' is a key term. Adding 'Drought-Flood Transitions' and 'Extreme Events' explicitly would enhance discoverability. '3D Connected Component Labeling' is a specific method, good to keep but maybe clarify its role in identifying spatiotemporal continuity."
+    },
+    "related_papers": [
+      "What is a drought-to-flood transition? Pitfalls and recommendations for defining consecutive hydrological extreme events",
+      "Hydroclimate volatility on a warming earth",
+      "Increasing global precipitation whiplash due to anthropogenic greenhouse gas emissions",
+      "Increasing precipitation volatility in twenty-first-century california"
+    ],
+    "innovation_insights": [
+      "Develop more advanced spatiotemporal analysis methods (beyond 3D CC labeling) to capture complex event dynamics and connectivity across different scales.",
+      "Investigate the physical mechanisms and drivers of the observed increase in wet-dominant hydroclimate whiplash events, particularly in monsoon regions.",
+      "Explore the application of the 3D scanning method to other types of extreme hydrological events and its potential for improving early warning systems."
+    ],
+    "processed_time": "2026-01-14 22:31:46"
+  },
+  "IZDVD2GQ": {
+    "title": "What is a drought-to-flood transition? Pitfalls and recommendations for defining consecutive hydrological extreme events",
+    "archive_path": "[ARCHIVE] Hazards/Drought-Flood Transition / Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Modeling/Threshold Behavior / Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Hydrological Extreme Events / Drought-Flood Transition / Event Detection / Threshold Methods / Hydrological Regimes",
+      "suggested": "Drought-Flood Transition / Hydrological Extremes / Event Definition / Threshold Methods / Hydrological Regimes",
+      "reason": "Keywords are accurate and descriptive. 'Drought-Flood Transition' is central. 'Event Definition' could be a more direct replacement for 'Event Detection' in the context of exploring pitfalls and recommendations. 'Hydrological Extremes' is a good alternative to 'Hydrological Extreme Events'."
+    },
+    "related_papers": [
+      "Intensifying hydroclimate whiplash from a 3D perspective",
+      "Hydroclimate volatility on a warming earth",
+      "Increasing global precipitation whiplash due to anthropogenic greenhouse gas emissions",
+      "Increasing precipitation volatility in twenty-first-century california"
+    ],
+    "innovation_insights": [
+      "Develop standardized, physically-grounded methodologies for defining and detecting drought-to-flood transition events to improve comparability across studies.",
+      "Investigate how different definitions and detection methods impact the assessment of climate change signals on drought-flood transitions.",
+      "Explore the use of machine learning or data-driven approaches for robust and context-aware identification of drought-flood transition events, moving beyond simple threshold methods."
+    ],
+    "processed_time": "2026-01-14 22:31:51"
+  },
+  "DK3FJK5G": {
+    "title": "Hydroclimate volatility on a warming earth",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drought-Flood Transition / Method-ology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / Coupling/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Climate Change / Hydroclimate Volatility / Extreme Events / Thermodynamics / Atmospheric Circulation",
+      "suggested": "Hydroclimate Volatility / Climate Change / Extreme Events / Thermodynamics / Atmospheric Circulation",
+      "reason": "Keywords are appropriate. 'Hydroclimate Volatility' accurately captures the paper's focus. Adding 'Drought-Flood Transition' as a related concept could be beneficial given the focus on rapid shifts."
+    },
+    "related_papers": [
+      "Intensifying hydroclimate whiplash from a 3D perspective",
+      "What is a drought-to-flood transition? Pitfalls and recommendations for defining consecutive hydrological extreme events",
+      "Increasing global precipitation whiplash due to anthropogenic greenhouse gas emissions",
+      "Increasing precipitation volatility in twenty-first-century california"
+    ],
+    "innovation_insights": [
+      "Quantify the specific thermodynamic and dynamic pathways through which global warming amplifies hydroclimate volatility, particularly focusing on land-atmosphere feedbacks.",
+      "Investigate regional variations in hydroclimate volatility increase and their connection to changes in atmospheric circulation patterns and moisture transport.",
+      "Develop improved metrics and models to capture sub-seasonal and interannual hydroclimate volatility, linking it to impacts on water resources and ecosystems."
+    ],
+    "processed_time": "2026-01-14 22:31:56"
+  },
+  "XYE79V6N": {
+    "title": "Increasing global precipitation whiplash due to anthropogenic greenhouse gas emissions",
+    "archive_path": "[ARCHIVE] Hazards/Compound Events/DFA / Method-ology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events / Modeling/Attribution",
+    "keyword_assessment": {
+      "current": "Precipitation Whiplash / Climate Change / Extreme Events / Greenhouse Gases / Attribution",
+      "suggested": "Precipitation Whiplash / Climate Change / Extreme Events / Greenhouse Gas Emissions / Event Attribution",
+      "reason": "Keywords are highly relevant. 'Precipitation Whiplash' is a core term. 'Greenhouse Gas Emissions' and 'Event Attribution' are precise and important for this study."
+    },
+    "related_papers": [
+      "Intensifying hydroclimate whiplash from a 3D perspective",
+      "What is a drought-to-flood transition? Pitfalls and recommendations for defining consecutive hydrological extreme events",
+      "Hydroclimate volatility on a warming earth",
+      "Increasing precipitation volatility in twenty-first-century california"
+    ],
+    "innovation_insights": [
+      "Further investigate the role of specific atmospheric circulation changes, driven by greenhouse gas emissions, in intensifying precipitation whiplash events.",
+      "Explore the potential of different emission scenarios (e.g., in CMIP7) to project future precipitation whiplash, considering different mitigation pathways.",
+      "Quantify the impact of aerosol emissions and their changes on precipitation whiplash, and how their influence might evolve relative to greenhouse gases."
+    ],
+    "processed_time": "2026-01-14 22:32:01"
+  },
+  "4554XUN6": {
+    "title": "Increasing precipitation volatility in twenty-first-century california",
+    "archive_path": "[ARCHIVE] Hazards/Drought-Flood Transition / Method-ology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / Dynamics/Drought-Flood Transitions",
+    "keyword_assessment": {
+      "current": "Climate Change / Precipitation Extremes / California / Large Ensemble Climate Modeling / Hydrological Cycle",
+      "suggested": "Precipitation Volatility / Climate Change / California / Extreme Events / Large Ensemble Modeling",
+      "reason": "Keywords are good for the specific region and methods. 'Precipitation Volatility' might be a more encompassing term than just 'Precipitation Extremes' given the focus on both wet and dry events and transitions. 'Extreme Events' is a broader but relevant term."
+    },
+    "related_papers": [
+      "Intensifying hydroclimate whiplash from a 3D perspective",
+      "What is a drought-to-flood transition? Pitfalls and recommendations for defining consecutive hydrological extreme events",
+      "Hydroclimate volatility on a warming earth",
+      "Increasing global precipitation whiplash due to anthropogenic greenhouse gas emissions"
+    ],
+    "innovation_insights": [
+      "Investigate the specific land-surface and atmospheric feedback mechanisms that contribute to increased precipitation volatility in California under climate change.",
+      "Apply the large ensemble modeling approach to other regions with Mediterranean climates to assess the generality of findings for California.",
+      "Assess the impact of increased precipitation volatility on California's water resources management, agricultural systems, and flood control infrastructure, building on the paper's highlighted significance."
+    ],
+    "processed_time": "2026-01-14 22:32:05"
+  },
+  "UWNBAQGA": {
+    "title": "Global drought-flood abrupt alternation: Spatio-temporal patterns, drivers, and projections",
+    "archive_path": "[ARCHIVE] Hazards/Compound Events/DFA, Methodology/Deep Learning (LSTM_CNN), Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions, Mechanism/Feedback Loops & Cascades, Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Drought-Flood Abrupt Alternation / Climate Change Attribution / CMIP6 Models / Future Projections",
+      "suggested": "Drought-Flood Abrupt Alternation (DFAA) / Climate Change Attribution / CMIP6 Models / Future Projections / Land-Atmosphere Coupling / Anthropogenic Influence",
+      "reason": "The current keywords are good but could be expanded to include the core phenomenon (DFAA) and explicitly mention the study of drivers and future impacts, which are central to the paper. Adding 'Land-Atmosphere Coupling' and 'Anthropogenic Influence' would better reflect the detailed analysis of GHG and aerosol impacts."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Investigate the physical mechanisms driving the abrupt alternation between drought and flood at a global scale, moving beyond attribution to understanding the spatio-temporal dynamics of these transitions.",
+      "Explore the role of land-atmosphere coupling feedbacks in exacerbating or mitigating DFAA events, particularly in regions with high climate sensitivity.",
+      "Develop more sophisticated AI models (e.g., physics-informed neural networks) that can better capture the complex, non-linear dynamics of DFAA and improve future projections.",
+      "Assess the uncertainty associated with DFAA projections under different SSP scenarios and investigate methods for robust decision-making in water resource management under such uncertainties.",
+      "Examine the potential for DFAA to trigger cascading impacts on ecosystems, agriculture, and human systems, and develop early warning systems specifically designed for these rapid transitions."
+    ],
+    "processed_time": "2026-01-14 22:32:18"
+  }
+}

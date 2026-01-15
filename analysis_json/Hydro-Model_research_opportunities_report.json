@@ -1,0 +1,190 @@
+{
+  "research_landscape": {
+    "main_themes": [
+      "Hydrological Modeling (Global and Regional)",
+      "Remote Sensing Data Assimilation (especially ET)",
+      "Uncertainty Quantification and Management",
+      "AI/Deep Learning Applications in Hydrology",
+      "Hydrological Extremes (Floods, Droughts)"
+    ],
+    "emerging_directions": [
+      "Physics-informed AI/Differentiable Modeling",
+      "Hybrid Modeling (Process-based + ML)",
+      "Data-informed parameterization",
+      "Cross-basin data transferability",
+      "Integrating socio-hydrological aspects and human-water interactions"
+    ],
+    "common_methodologies": [
+      "Ensemble methods",
+      "Remote Sensing data retrieval and fusion",
+      "Statistical methods (e.g., Random Forest)",
+      "Deep Learning (LSTM, CNN)",
+      "Physically-based hydrological models",
+      "Conceptual hydrological models",
+      "Data assimilation techniques"
+    ]
+  },
+  "cross_paper_opportunities": [
+    {
+      "title": "Synergistic Integration of Data-Informed Parameters and Remote Sensing ET Assimilation",
+      "related_papers": [
+        "Toward improved regional hydrological model performance using state‐of‐the‐science data‐informed soil parameters",
+        "Remote sensing evapotranspiration in ensemble-based framework to enhance cascade routing and re-infiltration concept in integrated hydrological model applied to support decision making",
+        "Assimilation of remotely sensed evapotranspiration products for streamflow simulation based on the CAMELS data sets"
+      ],
+      "rationale": "These papers highlight the importance of both improved soil parameterization and remote sensing ET data for hydrological modeling. Combining these approaches could lead to more accurate and robust simulations, especially in data-limited regions or for complex hydrological processes.",
+      "research_questions": [
+        "How can data-informed soil parameters and remotely sensed ET products be jointly assimilated to optimize hydrological model performance?",
+        "What are the added values of such synergistic assimilation strategies for simulating hydrological extremes like flash droughts or floods?",
+        "Can uncertainty introduced by data-informed parameters be effectively managed alongside ET assimilation uncertainties?"
+      ],
+      "methodologies": [
+        "Ensemble-based assimilation frameworks",
+        "Data fusion techniques",
+        "Advanced remote sensing ET products (e.g., MODIS, VIIRS)",
+        "Hybrid modeling approaches"
+      ]
+    },
+    {
+      "title": "Advancing Physics-Informed AI for Data-Limited Hydrological Modeling",
+      "related_papers": [
+        "A differentiable, physics-based hydrological model and its evaluation for data-limited basins",
+        "Deep dive into hydrologic simulations at global scale: Harnessing the power of deep learning and physics-informed differentiable models ( <i>δ</i> HBV-globe1.0-hydroDL)",
+        "Comparing a long short-term memory (LSTM) neural network with a physically-based hydrological model for streamflow forecasting over a canadian catchment",
+        "A multi‐resolution deep‐learning surrogate framework for global hydrological models"
+      ],
+      "rationale": "There's a growing trend towards physics-informed AI and differentiable models. These approaches aim to leverage the strengths of both physical understanding and data-driven learning, particularly for improving model performance in data-limited conditions and enhancing interpretability.",
+      "research_questions": [
+        "How can differentiable hydrological models be extended to incorporate a wider range of physical processes and be applied to diverse hydrological settings?",
+        "What is the interpretability of parameters and structures learned by physics-informed AI models in data-limited basins?",
+        "Can physics-informed AI models effectively capture complex hydrological dynamics and uncertainties under various climate change scenarios?"
+      ],
+      "methodologies": [
+        "Differentiable hydrological modeling",
+        "Physics-informed neural networks (PINNs)",
+        "Transfer learning",
+        "Deep learning architectures (LSTM, CNN, Transformers)"
+      ]
+    },
+    {
+      "title": "Benchmarking and Transferability of Hydrological Models and Data-Driven Approaches Across Scales",
+      "related_papers": [
+        "Benchmark framework for global river model (version 1.0)",
+        "Benchmark framework for global river models",
+        "A novel strategy for automatic selection of cross‐basin data to improve local machine learning‐based runoff models",
+        "Predictor importance for hydrological fluxes of global hydrological and land surface models"
+      ],
+      "rationale": "Standardized benchmarking is crucial for model evaluation and intercomparison. The concept of cross-basin data transferability is also gaining importance, especially for ML-based models. Understanding predictor importance can guide both benchmarking and transferability efforts.",
+      "research_questions": [
+        "How can benchmarking frameworks be extended to include ML-based hydrological models and global land surface models?",
+        "What are the most effective strategies for transferring knowledge (parameters, model structures) from data-rich to data-poor basins using ML?",
+        "How does predictor importance vary across different hydrological models and regions, and how can this inform benchmarking and transferability?"
+      ],
+      "methodologies": [
+        "Development of standardized benchmark datasets and metrics",
+        "Machine learning model intercomparison",
+        "Cross-basin validation techniques",
+        "Feature importance analysis (e.g., Random Forest)"
+      ]
+    },
+    {
+      "title": "Quantifying and Reducing Uncertainty in Hydrological Projections under Climate Change",
+      "related_papers": [
+        "Assessment of hydrological parameter uncertainty versus climate projection spread on urban streamflow and floods",
+        "Leveraging multi-variable observations to reduce and quantify the output uncertainty of a global hydrological model: Evaluation of three ensemble-based approaches for the mississippi river basin",
+        "Uncertainty estimation of hydrological modelling using gridded precipitation as model inputs in the gandaki river basin"
+      ],
+      "rationale": "Uncertainty quantification is a persistent challenge in hydrological modeling, especially when projecting future impacts under climate change. This area directly addresses the reliability of predictions for water resources management and risk assessment.",
+      "research_questions": [
+        "How does the relative contribution of parameter uncertainty versus climate projection spread evolve for different hydrological extremes and time horizons?",
+        "What are the most effective strategies for reducing output uncertainty from global hydrological models using multi-variable observations?",
+        "How can uncertainty analysis be tailored to inform decision-making for specific applications like urban flood management or regional water resource planning?"
+      ],
+      "methodologies": [
+        "Ensemble modeling (climate ensembles, parameter ensembles)",
+        "Bayesian inference methods",
+        "Sensitivity analysis",
+        "Multi-variable data assimilation"
+      ]
+    },
+    {
+      "title": "Bridging Hydrological Models with Other Domains: Critical Zone, Hydro-Ecology, and Human-Water Systems",
+      "related_papers": [
+        "Exploring the critical zone heterogeneity and the hydrological diversity using an integrated ecohydrological model in three contrasted long‐term observatories",
+        "On the future of hydroecological models of everywhere",
+        "The water level change and its attribution of the qinghai lake from 1960 to 2020",
+        "Recent advances in integrated hydrologic models: Integration of new domains"
+      ],
+      "rationale": "Hydrology is increasingly being studied in broader contexts. Integrating insights from critical zone science, hydro-ecology, and human influences (e.g., water management, socio-hydrology) is essential for a holistic understanding and sustainable management of water resources.",
+      "research_questions": [
+        "How can integrated hydrological models be enhanced to explicitly represent processes within the critical zone and their influence on hydrological fluxes?",
+        "What are the key feedbacks between hydrological processes and ecological systems, and how can these be incorporated into predictive models?",
+        "How can human activities and water management be better represented in hydrological models to understand their impact on water availability and extremes?"
+      ],
+      "methodologies": [
+        "Integrated ecohydrological modeling",
+        "Socio-hydrological modeling frameworks",
+        "Land surface model coupling with ecosystem models",
+        "Attribution analysis"
+      ]
+    }
+  ],
+  "research_gaps": [
+    "Lack of standardized, globally applicable benchmarks for evaluating a wide range of hydrological models, especially ML-based ones.",
+    "Limited understanding of the transferability of data-driven hydrological models to vastly different hydro-climatic regions.",
+    "Challenges in effectively integrating increasingly diverse data sources (e.g., multi-sensor remote sensing, in-situ networks) into hydrological models, particularly concerning data quality and scale mismatches.",
+    "Insufficient exploration of the interpretability and physical plausibility of complex deep learning models in hydrology.",
+    "Need for better integration of human-water system dynamics, including socio-economic factors and water management practices, into hydrological modeling.",
+    "Limited research on quantifying and managing uncertainties in coupled human-natural systems under future climate and societal change scenarios.",
+    "Under-exploration of hybrid modeling approaches that synergistically combine the strengths of process-based models and advanced AI techniques for specific hydrological challenges.",
+    "Difficulties in representing and modeling hydrological processes in data-scarce regions, especially for extremes like flash droughts."
+  ],
+  "future_directions": [
+    "Development of next-generation physics-informed AI and differentiable hydrological models that are more interpretable, generalizable, and robust, particularly for data-limited regions.",
+    "Creation of comprehensive, multi-objective benchmark frameworks for hydrological models that incorporate diverse data sources and hydrological extremes.",
+    "Advancement of hybrid modeling strategies that optimally integrate process-based knowledge with AI for improved simulation of complex hydrological dynamics and feedbacks.",
+    "Enhanced methods for data-informed parameterization and dynamic data assimilation that dynamically assess data value and adapt measurement strategies.",
+    "Expansion of hydrological modeling to incorporate critical zone processes, hydro-ecological interactions, and human-water system dynamics for holistic water resources management.",
+    "Investigating drought-flood transition dynamics and developing early warning systems that leverage AI and multi-hazard approaches.",
+    "Exploring the potential of novel data sources (e.g., citizen science, high-resolution satellite data) and their integration into hydrological modeling workflows.",
+    "Focus on model diagnostics and intercomparison using AI-driven techniques to identify root causes of model discrepancies and guide model improvements."
+  ],
+  "keyword_trends": {
+    "common_keywords": [
+      "Hydrological modeling",
+      "Remote Sensing",
+      "Data Assimilation",
+      "Streamflow",
+      "Uncertainty Quantification",
+      "Deep Learning",
+      "Ensemble Methods",
+      "Global Hydrological Models",
+      "Water Resources Management",
+      "Climate Change"
+    ],
+    "emerging_keywords": [
+      "Differentiable Models",
+      "Physics-Informed AI",
+      "Data-Informed Parameters",
+      "Cross-basin Transferability",
+      "Flash Drought",
+      "Hybrid Modeling",
+      "Critical Zone",
+      "Hydro-ecology",
+      "Socio-hydrology",
+      "Land-Atmosphere Coupling"
+    ],
+    "promising_combinations": [
+      "Deep Learning + Hydrological Modeling",
+      "Remote Sensing ET + Data Assimilation",
+      "Differentiable Models + Data-Limited Basins",
+      "Physics-Informed AI + Hybrid Modeling",
+      "Uncertainty Quantification + Climate Projection Spread",
+      "Data-Informed Parameters + Ensemble Methods",
+      "Flash Drought + Early Warning Systems",
+      "Cross-basin Data + Machine Learning Models",
+      "Critical Zone + Integrated Hydrological Models",
+      "Human-Water Nexus + Hydrological Modeling"
+    ]
+  }
+}

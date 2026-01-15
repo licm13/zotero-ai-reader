@@ -1,0 +1,630 @@
+{
+  "7ZD9XIH4": {
+    "title": "Toward improved regional hydrological model performance using state‐of‐the‐science data‐informed soil parameters",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion, [ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Processes/Soil Moisture, [ARCHIVE] Applications/Water Resources Management",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Soil moisture (土壤湿度), Streamflow (径流), Hydrological modeling (水文建模), Data-informed parameters (数据驱动参数), WRF-Hydro",
+      "suggested": "Soil moisture, Streamflow, Hydrological modeling, Data-informed parameters, WRF-Hydro, Parameterization, Observational data integration, Regional modeling",
+      "reason": "Current keywords are relevant but could be expanded to include more specific methodological aspects like 'Parameterization' and the type of data used ('Observational data integration'). 'Regional modeling' also captures the scope."
+    },
+    "related_papers": [
+      "Paper 3: Assimilation of remotely sensed evapotranspiration products for streamflow simulation based on the CAMELS data sets",
+      "Paper 2: Remote sensing evapotranspiration in ensemble-based framework to enhance cascade routing and re-infiltration concept in integrated hydrological model applied to support decision making"
+    ],
+    "innovation_insights": [
+      "Investigate the transferability of improved parameterization strategies from other regions or data sources to WRF-Hydro.",
+      "Explore the synergistic benefits of combining data-informed soil parameters with other data assimilation techniques (e.g., remote sensing ET) for enhanced hydrological simulations.",
+      "Develop methods to quantify the uncertainty introduced by data-informed parameters and propagate it through the hydrological model."
+    ],
+    "processed_time": "2026-01-14 21:39:57"
+  },
+  "5IE4NI3U": {
+    "title": "Remote sensing evapotranspiration in ensemble-based framework to enhance cascade routing and re-infiltration concept in integrated hydrological model applied to support decision making",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Applications/Decision Support Systems, [ARCHIVE] Methodology/Ensemble Methods",
+    "idea_path": "[IDEA] Coupling/Energy-Water Nexus, [IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Dynamics/Rapid Onset Events, [IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Surface-groundwater interactions; Remote sensing observations; Integrated hydrological modelling; Cascade routing and re-infiltration; Decision support modelling 地表-地下水相互作用；遥感观测；集成水文模型；级联路由和再渗透；决策支持建模",
+      "suggested": "Surface-groundwater interactions, Remote sensing evapotranspiration, Integrated hydrological modeling, Cascade routing, Re-infiltration, Ensemble framework, Decision support, MODFLOW 6",
+      "reason": "The current keywords are good but can be more specific about 'Remote sensing observations' to 'Remote sensing evapotranspiration' as mentioned in the abstract. Adding 'Ensemble framework' and 'MODFLOW 6' would also be beneficial."
+    },
+    "related_papers": [
+      "Paper 3: Assimilation of remotely sensed evapotranspiration products for streamflow simulation based on the CAMELS data sets",
+      "Paper 1: Toward improved regional hydrological model performance using state‐of‐the‐science data‐informed soil parameters"
+    ],
+    "innovation_insights": [
+      "Explore how the CRR concept can be integrated with other advanced modeling techniques, such as deep learning, to capture complex land-atmosphere interactions affecting ET and re-infiltration.",
+      "Develop novel ensemble frameworks that explicitly account for uncertainties in remotely sensed ET and the CRR process for more robust decision support.",
+      "Investigate the impact of scale mismatches between remote sensing ET products and the spatial resolution of integrated hydrological models on the CRR simulation."
+    ],
+    "processed_time": "2026-01-14 21:40:04"
+  },
+  "FN9I8IB5": {
+    "title": "Assimilation of remotely sensed evapotranspiration products for streamflow simulation based on the CAMELS data sets",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, [ARCHIVE] Methodology/Data Fusion, [ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Applications/Early Warning Systems, [ARCHIVE] Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Dynamics/Drought-Flood Transitions, [IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Streamflow simulation",
+      "suggested": "Streamflow simulation, Evapotranspiration assimilation, Hydrological data assimilation, Multi-source ET products, CAMELS dataset, Conceptual hydrological model, Remote sensing",
+      "reason": "The current keyword is too general. The title and abstract clearly indicate the focus on assimilating multi-source satellite evapotranspiration products to improve streamflow simulation. Including terms like 'Evapotranspiration assimilation', 'Multi-source ET products', and 'CAMELS dataset' would significantly improve discoverability."
+    },
+    "related_papers": [
+      "Paper 2: Remote sensing evapotranspiration in ensemble-based framework to enhance cascade routing and re-infiltration concept in integrated hydrological model applied to support decision making",
+      "Paper 1: Toward improved regional hydrological model performance using state‐of‐the‐science data‐informed soil parameters"
+    ],
+    "innovation_insights": [
+      "Assess the performance of different data assimilation algorithms (e.g., Kalman filters, variational methods, machine learning-based assimilation) for ET products in streamflow simulation.",
+      "Investigate how the choice of hydrological model (e.g., conceptual vs. physically-based) affects the benefits of ET data assimilation.",
+      "Develop methods to quantify the added value of assimilating specific ET products based on their uncertainty characteristics and spatial-temporal resolution."
+    ],
+    "processed_time": "2026-01-14 21:40:11"
+  },
+  "BCV692R8": {
+    "title": "Getting your money's worth: Testing the value of data for hydrological model calibration",
+    "archive_path": "[ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Applications/Water Resources Management, [ARCHIVE] Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Data Quality & Validation, [IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Data worth analysis, Measurement strategy, Model calibration, Value of data",
+      "suggested": "Data worth analysis, Hydrological model calibration, Measurement strategy, Observational network design, Value of information, Resource optimization",
+      "reason": "The current keywords are good and directly reflect the core concepts. Expanding to 'Hydrological model calibration' makes it more specific to the paper's application. 'Observational network design', 'Value of information', and 'Resource optimization' further capture the practical implications and methodology."
+    },
+    "related_papers": [
+      "Paper 1: Toward improved regional hydrological model performance using state‐of‐the‐science data‐informed soil parameters",
+      "Paper 3: Assimilation of remotely sensed evapotranspiration products for streamflow simulation based on the CAMELS data sets"
+    ],
+    "innovation_insights": [
+      "Develop a framework to dynamically assess data value and adapt measurement strategies in real-time for adaptive hydrological monitoring and prediction systems.",
+      "Explore the application of this 'data worth' framework to optimize the selection and configuration of remote sensing products for hydrological modeling.",
+      "Investigate how to integrate the 'value of data' assessment with uncertainty quantification in hydrological models to guide future data acquisition efforts."
+    ],
+    "processed_time": "2026-01-14 21:40:17"
+  },
+  "ESNZFH6R": {
+    "title": "Assessment of hydrological parameter uncertainty versus climate projection spread on urban streamflow and floods",
+    "archive_path": "[ARCHIVE] Hazards/Flood/Urban Flooding, Methodology/Statistical Methods, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Climate change",
+      "suggested": "Urban streamflow, flood frequency, hydrological model uncertainty, climate projection uncertainty, climate change impact",
+      "reason": "The current keyword 'Climate change' is too broad. The paper focuses specifically on urban streamflow and floods, and critically, on comparing the uncertainties from hydrological parameters versus climate projections. These specific aspects are crucial for retrieval and understanding the paper's contribution."
+    },
+    "related_papers": [
+      "Paper 2 title",
+      "Paper 3 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Investigate the interplay between parameter uncertainty and climate projection spread in different urban hydrological settings (e.g., varying scales, urbanization levels, climate zones).",
+      "Develop methodologies to optimally weigh or reduce uncertainty from either hydrological parameters or climate projections based on their relative importance for specific decision-making contexts.",
+      "Explore how the relative importance of parameter uncertainty vs. climate projection spread changes over longer future time horizons or for different types of hydrological extremes beyond floods."
+    ],
+    "processed_time": "2026-01-14 21:40:37"
+  },
+  "MEI7T5D3": {
+    "title": "Recent advances in integrated hydrologic models: Integration of new domains",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion, Applications/Water Resources Management, Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Integrated hydrologic models",
+      "suggested": "Integrated hydrologic models, model development, new domains, biogeochemistry, ecohydrology, cold region hydrology, anthropogenic influences, model limitations, future directions",
+      "reason": "The current keyword is appropriate but lacks detail. Expanding it to include the 'new domains' (biogeochemistry, ecohydrology, etc.) that the paper reviews would provide a more comprehensive understanding of its scope. Mentioning model limitations and future directions also captures key aspects of this review paper."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 2 title",
+      "Paper 3 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Develop frameworks for integrating emerging hydrological domains (e.g., human-water-energy nexus, socio-hydrology, cyber-hydrology) into existing integrated hydrological models.",
+      "Create standardized protocols or benchmarks for evaluating the performance of integrated models across these diverse domains, similar to what Paper 2 proposes for global river models.",
+      "Investigate the computational challenges and data requirements associated with highly integrated hydrological models and explore potential solutions, possibly involving AI or efficient model coupling techniques."
+    ],
+    "processed_time": "2026-01-14 21:40:44"
+  },
+  "QDX6R2LZ": {
+    "title": "Benchmark framework for global river model (version 1.0)",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Applications/Early Warning Systems, Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML), Dynamics/Drought-Flood Transitions",
+    "keyword_assessment": {
+      "current": "全球河流模型，基准系统，卫星遥感数据，水面高程，淹没范围",
+      "suggested": "Global river models, benchmark system, satellite remote sensing, water surface elevation, inundation extent, model evaluation, CaMa-Flood, hydrological modeling, flood simulation",
+      "reason": "The current keywords are good and specific, covering the core elements of the paper. Adding 'model evaluation' and 'hydrological modeling' can further broaden its reach and categorize it more precisely within the field."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 1 title",
+      "Paper 3 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Develop advanced benchmark systems for other hydrological model types (e.g., land surface models, groundwater models) that incorporate multi-source remote sensing data and standardized evaluation metrics.",
+      "Create a global database of benchmark datasets and performance metrics for various hydrological models to facilitate community-driven model development and intercomparison.",
+      "Investigate the use of AI/ML techniques within the benchmarking process itself, for example, to identify optimal evaluation metrics or to automatically correct biases in satellite observations or model outputs for a more robust comparison."
+    ],
+    "processed_time": "2026-01-14 21:40:50"
+  },
+  "C2XXMXFZ": {
+    "title": "Similarities and divergent patterns in hydrologic fluxes and storages simulated by global water models",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, Processes/Runoff & Streamflow, Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Data Philosophy/Scale Issues (Spatial_Temporal), Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "该文章未明确列出关键词。",
+      "suggested": "Global water models, hydrological fluxes, water storages, terrestrial water storage (TWS), runoff simulation, model performance, human impact, anthropogenic influences, climate change impact",
+      "reason": "As no keywords were explicitly listed, a comprehensive set is suggested. These keywords capture the core comparison (fluxes vs. storages), the models used (GWMs), the key findings (performance variations, human impact), and the overarching context (climate change)."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 1 title",
+      "Paper 2 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Develop new GWMs or improve existing ones by explicitly incorporating the representation of human activities (e.g., water management, irrigation, dam operations) as a primary driver of hydrological variability and model error.",
+      "Establish protocols for joint evaluation of hydrological fluxes and storages within GWMs, using a combination of satellite observations and in-situ data, to identify and quantify model biases in different components of the water cycle.",
+      "Explore how AI/ML techniques can be used to disaggregate or fuse information from different hydrological components (fluxes and storages) within GWMs, or to correct for human-induced biases, especially in data-scarce regions."
+    ],
+    "processed_time": "2026-01-14 21:40:57"
+  },
+  "UVVIF6JD": {
+    "title": "A differentiable, physics-based hydrological model and its evaluation for data-limited basins",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN), Methodology/Statistical Methods, Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI, Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Differentiable Modeling / Hydrological Model / Data-Limited Basins / Deep Learning / Parameter Calibration",
+      "suggested": "Differentiable hydrological models, physics-informed AI, data-limited basins, parameter calibration, deep learning, hydrological modeling, model evaluation, generalization",
+      "reason": "The current keywords are very good and capture the essence of the paper. Adding 'physics-informed AI' explicitly acknowledges the hybrid nature of the model, and 'generalization' highlights a key aspect of its performance discussed in the paper."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 1 title",
+      "Paper 2 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Develop and evaluate more sophisticated physics-informed AI models that can handle even scarcer data conditions (e.g., requiring less than three years of data) by incorporating more complex physical constraints or transfer learning techniques.",
+      "Apply differentiable, physics-based hydrological models to a wider range of hydrological processes beyond streamflow, such as groundwater recharge, soil moisture dynamics, or evapotranspiration, particularly in data-limited regions.",
+      "Investigate the interpretability of these differentiable models: can the learned parameters or model structures offer new physical insights into hydrological processes, especially in data-limited contexts where traditional parameterization is challenging?"
+    ],
+    "processed_time": "2026-01-14 21:41:03"
+  },
+  "USB6WWKZ": {
+    "title": "Predictor importance for hydrological fluxes of global hydrological and land surface models",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Predictor Importance",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Hydrological Fluxes, Global Hydrological Models, Land Surface Models, Random Forest, Predictor Importance",
+      "suggested": "Hydrological Fluxes, Global Hydrological Models, Land Surface Models, Random Forest, Feature Importance, Model Diagnosis, Uncertainty Analysis",
+      "reason": "Adding 'Feature Importance' makes it more specific to the method used. 'Model Diagnosis' and 'Uncertainty Analysis' highlight the application and implications of understanding predictor importance in a multi-model context."
+    },
+    "related_papers": [
+      "Paper 2 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Develop a framework for systematically diagnosing and improving GHM/LSM structures based on predictor importance analysis, especially where models diverge.",
+      "Explore the application of Random Forest or other interpretable ML techniques for model intercomparison studies beyond just GHM/LSMs, to understand driving factors of different hydrological processes.",
+      "Investigate how predictor importance can be used to guide the development of more robust and transferable hybrid models that combine physics and ML, by focusing on the most influential variables identified by RF.",
+      "Address the limitation of RF in explaining causal relationships by integrating it with causal inference methods to understand the true drivers of hydrological fluxes.",
+      "Expand the predictor importance analysis to a larger ensemble of models or different geographical regions to assess the generality of findings and identify region-specific dominant factors."
+    ],
+    "processed_time": "2026-01-14 21:41:24"
+  },
+  "8BJAEHYZ": {
+    "title": "Multi‐satellite data assimilation for large‐scale hydrological‐hydrodynamic prediction: Proof of concept in the amazon basin",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion/Ensemble Kalman Filter",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Signal Purification",
+    "keyword_assessment": {
+      "current": "多卫星数据同化，水文-水动力模型，亚马逊河流域，遥感数据，集合卡尔曼滤波",
+      "suggested": "Multi-satellite Data Assimilation, Hydrological-Hydrodynamic Modeling, Remote Sensing, Ensemble Kalman Filter, Amazon Basin, Data Fusion, Prediction Uncertainty, Data-scarce Regions",
+      "reason": "The current keywords are in Chinese. Suggesting English equivalents and adding 'Prediction Uncertainty' and 'Data-scarce Regions' to better reflect the paper's contribution and context."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 2 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Explore the scalability and applicability of the MoLEnKF framework to other large river basins globally, particularly those with limited ground truth data.",
+      "Investigate the optimal combination and weighting of different satellite data sources within the MoLEnKF framework to maximize predictive accuracy.",
+      "Develop methods to quantify the added value of each assimilated satellite variable (e.g., water surface height vs. soil moisture) for specific hydrological predictions (e.g., ET, streamflow).",
+      "Integrate the MoLEnKF framework with advanced deep learning techniques for improved state estimation and uncertainty characterization in data-scarce environments.",
+      "Assess the long-term performance and robustness of the MoLEnKF framework under different climate change scenarios and extreme events."
+    ],
+    "processed_time": "2026-01-14 21:41:28"
+  },
+  "45EBCN4G": {
+    "title": "Comparing a long short-term memory (LSTM) neural network with a physically-based hydrological model for streamflow forecasting over a canadian catchment",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Streamflow Forecasting",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Long short-term memory (LSTM), Hydrological forecasting, Data assimilation, Ensemble forecasting, Deep learning",
+      "suggested": "Long Short-Term Memory (LSTM), Streamflow Forecasting, Physically-Based Models, Deep Learning, Hybrid Modeling, Canadian Catchment, Snowmelt Runoff",
+      "reason": "The current keywords are good but could be more specific. Adding 'Streamflow Forecasting' clarifies the output, 'Physically-Based Models' and 'Hybrid Modeling' highlight the comparison and potential integration. 'Canadian Catchment' and 'Snowmelt Runoff' provide crucial context."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 1 title",
+      "Paper 3 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Explore hybrid models that combine LSTM's data-driven capabilities with the process understanding of physically-based models for improved long-term streamflow forecasting.",
+      "Investigate the transferability of LSTM models trained on one catchment to others, and develop methods for adapting them to different hydrological regimes (e.g., using transfer learning or meta-learning).",
+      "Apply LSTM for predicting hydrological extremes (e.g., floods, droughts) by adapting the model architecture or loss functions to focus on rare events.",
+      "Develop explainable AI (XAI) techniques for LSTM models in hydrology to understand the physical basis of their predictions and build trust with practitioners.",
+      "Evaluate the performance of LSTM models under non-stationary conditions, such as those induced by climate change or land-use change, and explore methods for enhancing their robustness."
+    ],
+    "processed_time": "2026-01-14 21:41:31"
+  },
+  "G6RTKKLU": {
+    "title": "A hybrid, non‐stationary stochastic watershed model (SWM) for uncertain hydrologic simulations under climate change",
+    "archive_path": "[ARCHIVE] Methodology/Hybrid Modeling (Process+ML)/Stochastic Simulation",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)/Non-stationary Dynamics",
+    "keyword_assessment": {
+      "current": "hybrid model, non-stationary, stochastic watershed model, climate change, uncertainty propagation",
+      "suggested": "Hybrid Model, Non-stationary Hydrology, Stochastic Watershed Models, Climate Change Impact, Uncertainty Propagation, Machine Learning, Error Distribution",
+      "reason": "Keywords are relevant but could be expanded. 'Non-stationary Hydrology' is more descriptive. Adding 'Machine Learning' and 'Error Distribution' highlights the specific approach and focus on model error dynamics."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 1 title",
+      "Paper 2 title",
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Further explore the non-stationarity of model errors under various climate change scenarios and different types of hydrological models.",
+      "Develop more sophisticated hybrid machine learning approaches to capture complex non-stationary error dynamics, potentially incorporating time-varying parameters or adaptive learning.",
+      "Investigate the implications of non-stationary error distributions for long-term water resource management decisions under climate change.",
+      "Apply the proposed hybrid model to a wider range of catchments with different hydrological characteristics and climate sensitivities to assess its generality.",
+      "Integrate the non-stationary error modeling with other uncertainty sources, such as input data uncertainty or future socio-economic uncertainties, for a more comprehensive risk assessment."
+    ],
+    "processed_time": "2026-01-14 21:41:39"
+  },
+  "QA26F9YZ": {
+    "title": "Assessing downscaling methods to simulate hydrologically relevant weather scenarios from a global atmospheric reanalysis: Case study of the upper rhône river (1902–2009)",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "downscaling methods, hydrological model, climate change, bias correction, Rhône River catchment",
+      "suggested": "Downscaling Methods, Hydrological Modeling, Climate Change Scenarios, Bias Correction, Reanalysis Data, Statistical Downscaling, Dynamical Downscaling, River Discharge Simulation, Extreme Events",
+      "reason": "Keywords are appropriate. 'Reanalysis Data', 'Statistical Downscaling', 'Dynamical Downscaling', and 'Extreme Events' provide more specific context about the data sources, methods, and outputs explored in the paper."
+    },
+    "related_papers": [
+      "Paper 1 title",
+      "Paper 2 title",
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Compare the performance of different downscaling methods (statistical vs. dynamical) in reproducing not only mean flows but also the characteristics of hydrological extremes (floods, droughts) under various climate projections.",
+      "Develop bias correction techniques that are specifically tailored for downscaled climate data to improve the simulation of snow/glacier melt and other high-altitude processes.",
+      "Investigate the uncertainty associated with different downscaling chains and their impact on hydrological projections, especially for water resource planning and flood risk assessment.",
+      "Explore the use of machine learning-based downscaling methods in conjunction with hydrological models, similar to Paper 2 and Paper 3, to potentially improve accuracy and efficiency.",
+      "Apply the assessed downscaling and modeling chain approach to other regions and investigate how watershed characteristics (e.g., glacierized catchments, arid regions) influence the performance of different methods."
+    ],
+    "processed_time": "2026-01-14 21:41:45"
+  },
+  "TRIYMU6J": {
+    "title": "A novel strategy for automatic selection of cross‐basin data to improve local machine learning‐based runoff models",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Deep Learning; Cross-Basin Data; Runoff Prediction; Hydrological Models; Nash-Sutcliffe Efficiency 深度学习；跨流域数据；径流预测；水文模型；Nash-Sutcliffe效率",
+      "suggested": "Deep Learning, Cross-Basin Data Transfer, Hydrological Modeling, Runoff Prediction, Model Improvement, Transfer Learning",
+      "reason": "The current keywords are good but can be more specific. 'Cross-Basin Data' can be improved to 'Cross-Basin Data Transfer' to highlight the method. Adding 'Model Improvement' and 'Transfer Learning' would better reflect the paper's contribution to enhancing local models using external data."
+    },
+    "related_papers": [
+      "Model diagnostic analysis in a cold basin influenced by frozen soils with the aid of stable isotope",
+      "Deep dive into hydrologic simulations at global scale: Harnessing the power of deep learning and physics-informed differentiable models ( <i>δ</i> HBV-globe1.0-hydroDL)"
+    ],
+    "innovation_insights": [
+      "Develop automated strategies for identifying and selecting relevant cross-basin data for transfer learning in hydrological modeling, moving beyond ad-hoc selections.",
+      "Explore the theoretical underpinnings of why certain cross-basin data is more beneficial for specific local basins, potentially linking to shared hydrological processes or climatic influences.",
+      "Investigate the scalability of this automatic selection strategy to larger regions or global scales, and its effectiveness with different deep learning architectures.",
+      "Address the potential for negative transfer learning (where cross-basin data degrades local performance) and develop methods to detect and mitigate it."
+    ],
+    "processed_time": "2026-01-14 21:42:01"
+  },
+  "IY9CFHX3": {
+    "title": "Exploring the critical zone heterogeneity and the hydrological diversity using an integrated ecohydrological model in three contrasted long‐term observatories",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Methodology/Statistical Methods/Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "临界区, 水文多样性, 生态水文模型, 流域, 法国",
+      "suggested": "Critical Zone Heterogeneity, Hydrological Diversity, Ecohydrological Modeling, Watershed Scale, Hydrological Processes, Multi-disciplinary Data",
+      "reason": "The current keywords are in Chinese and too brief. The suggested keywords are more descriptive and in English, covering the core concepts like 'Critical Zone Heterogeneity', 'Hydrological Diversity', and the model used ('Ecohydrological Modeling'). Adding 'Hydrological Processes' and 'Multi-disciplinary Data' would also be beneficial."
+    },
+    "related_papers": [
+      "Model diagnostic analysis in a cold basin influenced by frozen soils with the aid of stable isotope",
+      "Leveraging multi-variable observations to reduce and quantify the output uncertainty of a global hydrological model: Evaluation of three ensemble-based approaches for the mississippi river basin"
+    ],
+    "innovation_insights": [
+      "Investigate how different scales of critical zone heterogeneity (e.g., soil texture vs. bedrock properties) influence hydrological diversity and whether these relationships change under different climate scenarios.",
+      "Develop methods to generalize findings from specific observatory sites to larger, less-instrumented regions, perhaps by integrating remote sensing data to infer critical zone properties.",
+      "Explore the co-evolution of critical zone structure and hydrological processes, and if there are tipping points where changes in heterogeneity lead to qualitatively different hydrological regimes.",
+      "Expand the application of integrated ecohydrological models to assess the impact of land-use change or climate change on hydrological diversity and ecosystem services."
+    ],
+    "processed_time": "2026-01-14 21:42:04"
+  },
+  "Z9NFP53I": {
+    "title": "Model diagnostic analysis in a cold basin influenced by frozen soils with the aid of stable isotope",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow/Methodology/Statistical Methods/Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)/Mechanism/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "青藏高原，水文模型，冻土，稳定同位素，水文过程",
+      "suggested": "Permafrost, Hydrological Modeling, Stable Isotopes, Tibetan Plateau, Cold Regions Hydrology, Model Diagnostics, Streamflow Generation",
+      "reason": "The current keywords are in Chinese and somewhat limited. The suggested keywords provide a more comprehensive description, including 'Permafrost', 'Cold Regions Hydrology', and 'Model Diagnostics' which are central to the paper's contribution. 'Streamflow Generation' can also be added to capture the process aspect."
+    },
+    "related_papers": [
+      "A novel strategy for automatic selection of cross‐basin data to improve local machine learning‐based runoff models",
+      "Deep dive into hydrologic simulations at global scale: Harnessing the power of deep learning and physics-informed differentiable models ( <i>δ</i> HBV-globe1.0-hydroDL)",
+      "Leveraging multi-variable observations to reduce and quantify the output uncertainty of a global hydrological model: Evaluation of three ensemble-based approaches for the mississippi river basin"
+    ],
+    "innovation_insights": [
+      "Quantify the sensitivity of different hydrological processes (e.g., evapotranspiration, baseflow, surface runoff) to permafrost dynamics across various cold regions globally, not just the Tibetan Plateau.",
+      "Develop more sophisticated permafrost modules for hydrological models that capture complex freezing-thaw cycles and their impact on water and energy fluxes, potentially using AI for parameterization.",
+      "Investigate the role of permafrost thaw in changing streamflow seasonality and magnitude, and its implications for water availability and infrastructure in Arctic and alpine regions.",
+      "Explore the use of other tracers (e.g., major ions, dissolved organic carbon) in conjunction with stable isotopes to further diagnose hydrological processes influenced by permafrost."
+    ],
+    "processed_time": "2026-01-14 21:42:09"
+  },
+  "MKZGPJ78": {
+    "title": "Deep dive into hydrologic simulations at global scale: Harnessing the power of deep learning and physics-informed differentiable models ( <i>δ</i> HBV-globe1.0-hydroDL)",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI/Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Differentiable Modeling / Global Hydrology / Physics-Informed Machine Learning / Ungauged Basins / HBV Model",
+      "suggested": "Differentiable Hydrological Models, Physics-Informed Machine Learning, Global Hydrology, Ungauged Basins, Model Extrapolation, HBV Model, Deep Learning",
+      "reason": "The current keywords are appropriate and cover the main aspects. Adding 'Model Extrapolation' would highlight the paper's significant finding regarding performance in ungauged basins. 'Deep Learning' is also a key component that could be explicitly mentioned if not implied by 'Physics-Informed Machine Learning'."
+    },
+    "related_papers": [
+      "A novel strategy for automatic selection of cross‐basin data to improve local machine learning‐based runoff models",
+      "Model diagnostic analysis in a cold basin influenced by frozen soils with the aid of stable isotope",
+      "Leveraging multi-variable observations to reduce and quantify the output uncertainty of a global hydrological model: Evaluation of three ensemble-based approaches for the mississippi river basin"
+    ],
+    "innovation_insights": [
+      "Extend the application of physics-informed differentiable models to continental or regional scales, investigating how to efficiently couple multiple sub-basins while preserving physical consistency.",
+      "Develop methods to integrate more complex physical processes (e.g., snowmelt, evapotranspiration, groundwater interaction) into differentiable hydrological models, especially for data-scarce regions.",
+      "Quantify the uncertainty associated with predictions from physics-informed differentiable models, particularly in ungauged basins, and compare it with traditional methods and pure DL models.",
+      "Explore the potential for inverse modeling using differentiable frameworks to estimate hydrological parameters and understand subsurface properties at a global scale."
+    ],
+    "processed_time": "2026-01-14 21:42:12"
+  },
+  "PX3JXQ66": {
+    "title": "Leveraging multi-variable observations to reduce and quantify the output uncertainty of a global hydrological model: Evaluation of three ensemble-based approaches for the mississippi river basin",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion/Applications/Water Resources Management",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty/Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "多变量观测, 全球水文模型, 不确定性, Pareto最优校准, 广义似然不确定性估计, 集合卡尔曼滤波器",
+      "suggested": "Hydrological Model Uncertainty, Multi-variable Observations, Ensemble Methods, Model Calibration, Data Assimilation, Mississippi River Basin",
+      "reason": "The current keywords are in Chinese and focus heavily on specific methods. The suggested keywords are more general and in English, covering 'Hydrological Model Uncertainty', 'Multi-variable Observations', and the comparative evaluation of 'Ensemble Methods' including 'Data Assimilation'. Explicitly mentioning the basin ('Mississippi River Basin') is also helpful."
+    },
+    "related_papers": [
+      "Exploring the critical zone heterogeneity and the hydrological diversity using an integrated ecohydrological model in three contrasted long‐term observatories",
+      "Model diagnostic analysis in a cold basin influenced by frozen soils with the aid of stable isotope",
+      "Deep dive into hydrologic simulations at global scale: Harnessing the power of deep learning and physics-informed differentiable models ( <i>δ</i> HBV-globe1.0-hydroDL)"
+    ],
+    "innovation_insights": [
+      "Apply and compare these ensemble-based uncertainty reduction and quantification approaches to a wider range of hydrological models (e.g., simple conceptual models, complex physically-based models, ML models) and different basins.",
+      "Investigate the added value of incorporating different types of multi-variable observations (e.g., soil moisture from remote sensing, stream temperature, groundwater levels) for uncertainty reduction.",
+      "Develop novel ensemble-based data assimilation techniques that are more computationally efficient or better suited for large-scale hydrological models and real-time forecasting.",
+      "Explore how uncertainty quantification from these methods can be directly translated into risk assessments for water resources management, flood/drought forecasting, or agricultural planning."
+    ],
+    "processed_time": "2026-01-14 21:42:16"
+  },
+  "5PJIERL7": {
+    "title": "Characterizing streamflow regimes using a distributed model for sustainable resource management in the humid tropics",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Methodology/Deep Learning (LSTM_CNN), Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "One-sentence Summary: 文章研究了在热带小岛屿上由于观测数据不足、遥感精度差和气候模型局限性而导致的河流流量估算的挑战，探索了如何利用高分辨率降雨数据和SWAT模型在未观测地点表征河流流量特征，从而支持水资源的可持续管理。",
+      "suggested": "Tropical streamflow, SWAT model, distributed hydrological modeling, data scarcity, remote sensing limitations, sustainable water management, small island hydrology",
+      "reason": "The current summary is verbose and more of a research question. The suggested keywords are more specific, capture the geographical context (tropical, small island), the modeling approach (SWAT, distributed), the data challenges (data scarcity, remote sensing limitations), and the application (sustainable water management)."
+    },
+    "related_papers": [
+      "Paper 3: On the reliability of 12 high-resolution precipitation products for process-based hydrological modeling in China",
+      "Paper 4: Uncertainty estimation of hydrological modelling using gridded precipitation as model inputs in the gandaki river basin"
+    ],
+    "innovation_insights": [
+      "Investigate the application of advanced machine learning techniques (beyond traditional DL) to improve streamflow estimation in data-scarce tropical regions, potentially by integrating physical process understanding with data-driven models.",
+      "Explore the transferability of hydrological models (like SWAT) calibrated in one tropical island setting to others with similar characteristics but different data availabilities, and assess the impact of data fusion techniques for calibration.",
+      "Address the limitations of remote sensing data accuracy in humid tropical environments by developing novel methods for error correction or by exploring alternative data sources for key hydrological variables."
+    ],
+    "processed_time": "2026-01-14 21:42:38"
+  },
+  "SXAAB2BT": {
+    "title": "The water level change and its attribution of the qinghai lake from 1960 to 2020",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Processes/Soil Moisture, Hazards/Drought/Flash Drought, Methodology/Remote Sensing/Retrieval, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Abrupt Transitions/Phase Change, Dynamics/Non-linearity & Complexity, Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "The water level change and its attribution of the qinghai lake from 1960 to 2020",
+      "suggested": "Qinghai Lake water level, attribution analysis, remote sensing, hydrological modeling, frozen soil degradation, runoff increase, precipitation, evaporation, lake water budget",
+      "reason": "The current title is descriptive but lacks key analytical terms. The suggested keywords are more specific and capture the core elements of the study: the object of study (Qinghai Lake), the main analysis (attribution), the methods used (remote sensing, hydrological modeling), and the key drivers identified (frozen soil, runoff, precipitation, evaporation)."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Explore the potential of using advanced data assimilation techniques to improve the estimation of lake water budgets and the understanding of complex feedback mechanisms between frozen soil, permafrost thaw, and surface hydrology in high-altitude regions.",
+      "Investigate the cascading effects of cryosphere degradation on regional water resources and potential implications for extreme events, such as lake outburst floods or intensified droughts in connected basins.",
+      "Develop physically-based or hybrid models that explicitly incorporate the dynamic changes of frozen soil and permafrost extent to better predict long-term lake level changes and their sensitivities to climate change scenarios."
+    ],
+    "processed_time": "2026-01-14 21:42:46"
+  },
+  "3ECI3FFE": {
+    "title": "A hydrogeomorphic dataset for characterizing catchment hydrological behavior across the tibetan plateau",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Methodology/Data Fusion, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "A Hydrogeomorphic Dataset for Characterizing Catchment Hydrological Behavior Across the Tibetan Plateau",
+      "suggested": "Hydrogeomorphic dataset, Tibetan Plateau, catchment hydrology, hydrological behavior, width-function-based instantaneous unit hydrograph (WFIUH), remote sensing, geomorphic metrics, water resources management",
+      "reason": "The current keywords accurately describe the dataset's nature and location. Adding 'width-function-based instantaneous unit hydrograph (WFIUH)' highlights a specific methodological contribution, and 'geomorphic metrics' and 'water resources management' broaden the scope of its application."
+    },
+    "related_papers": [
+      "Paper 0: Characterizing streamflow regimes using a distributed model for sustainable resource management in the humid tropics",
+      "Paper 4: Uncertainty estimation of hydrological modelling using gridded precipitation as model inputs in the gandaki river basin"
+    ],
+    "innovation_insights": [
+      "Utilize this new hydrogeomorphic dataset to develop and validate AI/ML models that can predict hydrological responses based on geomorphic characteristics, particularly in data-scarce areas of the Tibetan Plateau.",
+      "Investigate the relationship between geomorphic characteristics and hydrological extremes (e.g., flash floods, rapid droughts) across the Tibetan Plateau using this dataset, potentially identifying geomorphic indicators for hazard proneness.",
+      "Integrate the hydrogeomorphic metrics with other datasets (e.g., climate, land cover, cryosphere) to understand complex land-atmosphere-water interactions and feedback loops specific to high-altitude plateau environments."
+    ],
+    "processed_time": "2026-01-14 21:42:49"
+  },
+  "MGDTADLN": {
+    "title": "On the reliability of 12 high-resolution precipitation products for process-based hydrological modeling in China",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Processes/Soil Moisture, Processes/Evapotranspiration (ET), Methodology/Deep Learning (LSTM_CNN), Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Data Philosophy/Data Quality & Validation, Data Philosophy/Multi-Source Integration, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "这篇文章的研究问题是评估12种高分辨率降水产品在中国过程型水文模拟中的可靠性，特别是它们在不同集水区尺度上的表现，并分析空间分辨率和站点数量对水文模拟性能的影响。",
+      "suggested": "Precipitation products, hydrological modeling, reliability assessment, China, process-based modeling, streamflow, soil moisture, evapotranspiration, spatial resolution, data fusion",
+      "reason": "The current research question is too descriptive for keywords. The suggested keywords are concise and capture the core elements: the input data (precipitation products), the application (hydrological modeling), the scope (China, process-based), the evaluated outputs (streamflow, soil moisture, ET), and key factors of investigation (resolution, fusion)."
+    },
+    "related_papers": [
+      "Paper 0: Characterizing streamflow regimes using a distributed model for sustainable resource management in the humid tropics",
+      "Paper 4: Uncertainty estimation of hydrological modelling using gridded precipitation as model inputs in the gandaki river basin"
+    ],
+    "innovation_insights": [
+      "Develop a framework for dynamically selecting or blending precipitation products based on real-time hydrological model performance across different regions and seasons in China, potentially using ML approaches.",
+      "Investigate the impact of precipitation product uncertainty on simulating extreme hydrological events (floods and droughts) in China, and explore methods to quantify and reduce this uncertainty in early warning systems.",
+      "Extend this reliability assessment to other key meteorological forcings (e.g., temperature, radiation) and their impact on advanced hydrological models, including those driven by AI/ML."
+    ],
+    "processed_time": "2026-01-14 21:42:55"
+  },
+  "WCHX35MU": {
+    "title": "Uncertainty estimation of hydrological modelling using gridded precipitation as model inputs in the gandaki river basin",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Processes/Cryosphere (Snow & Glacier), Methodology/Statistical Methods, Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "HBV模型，喜马拉雅流域，网格化降水，准确性评估，模型不确定性",
+      "suggested": "HBV model, Himalayan river basin, gridded precipitation, model uncertainty, accuracy assessment, data compensation, glacial melt, hydrological modeling, southern Himalayas",
+      "reason": "The current keywords are relevant but could be more specific. Adding 'glacial melt' is important given the Himalayan context, and 'data compensation' and 'southern Himalayas' provide more detail about the study's approach and location."
+    },
+    "related_papers": [
+      "Paper 0: Characterizing streamflow regimes using a distributed model for sustainable resource management in the humid tropics",
+      "Paper 2: A hydrogeomorphic dataset for characterizing catchment hydrological behavior across the tibetan plateau",
+      "Paper 3: On the reliability of 12 high-resolution precipitation products for process-based hydrological modeling in China"
+    ],
+    "innovation_insights": [
+      "Develop advanced uncertainty quantification methods for hydrological models in glacial-dominated catchments, potentially by integrating ensemble forecasting techniques with a probabilistic assessment of glacier melt and precipitation inputs.",
+      "Explore the use of machine learning or deep learning models to directly assimilate gridded precipitation data while accounting for upstream glacial and snowmelt contributions, thereby reducing reliance on parameter compensation.",
+      "Investigate the impact of biases in gridded precipitation data on simulating hydrological extremes (floods and droughts) in the transboundary Himalayan river basins and propose strategies for robust water resource management under uncertainty."
+    ],
+    "processed_time": "2026-01-14 21:42:59"
+  },
+  "BZF2I4KG": {
+    "title": "How reliable are the satellite-based precipitation estimations in guiding hydrological modelling in south China?",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Applications/Water Resources Management, [ARCHIVE] Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Data Philosophy/Data Quality & Validation, [IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "卫星降水, IMERG, TMPA, 水文验证, 南中国",
+      "suggested": "Satellite Precipitation, IMERG, TMPA, Hydrological Modeling, South China, Hydrological Utility, Data Validation",
+      "reason": "Keywords are too broad and contain Chinese characters. Adding 'Hydrological Utility' and 'Data Validation' would better capture the paper's contribution to assessing the practical value of satellite data for hydrology."
+    },
+    "related_papers": [
+      "Paper 4 title"
+    ],
+    "innovation_insights": [
+      "Investigate the transferability of these findings to other regions with similar hydrological characteristics or data scarcity challenges.",
+      "Explore the potential of advanced data assimilation techniques to improve the hydrological performance of satellite precipitation products by combining them with ground-based observations.",
+      "Develop methods to quantify the uncertainty associated with satellite precipitation estimates and its propagation through hydrological models, especially for extreme events."
+    ],
+    "processed_time": "2026-01-14 21:43:13"
+  },
+  "H9SV7EVQ": {
+    "title": "Graphical representation of global water models",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion, [ARCHIVE] Applications/Water Resources Management",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "全球水模型，图形表示，水循环，ISIMIP2b，水资源管理",
+      "suggested": "Global Water Models, Model Visualization, Water Cycle, ISIMIP, Model Intercomparison, Stakeholder Communication",
+      "reason": "Keywords are generally good. 'ISIMIP2b' can be shortened to 'ISIMIP'. Adding 'Model Intercomparison' and 'Stakeholder Communication' highlights the broader impact of the visualization framework."
+    },
+    "related_papers": [
+      "Paper 3 title",
+      "Paper 4 title",
+      "Paper 2 title"
+    ],
+    "innovation_insights": [
+      "Develop interactive visualization tools that allow users to explore the differences and similarities between global water models dynamically.",
+      "Apply this visualization approach to other complex modeling systems (e.g., climate models, land surface models) to enhance understanding and collaboration.",
+      "Investigate how these visualizations can be used to facilitate more effective science communication and policy-making by translating complex model behaviors into accessible formats."
+    ],
+    "processed_time": "2026-01-14 21:43:17"
+  },
+  "FV76DWFK": {
+    "title": "On the future of hydroecological models of everywhere",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN), [ARCHIVE] Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Hydroecological Models / Stakeholder Engagement / Learning About Places / Digital Twins",
+      "suggested": "Hydroecological Models, Stakeholder Engagement, Participatory Modeling, Local Knowledge, Digital Twins, High-Resolution Modeling",
+      "reason": "The current keywords are descriptive but could be more specific. 'Participatory Modeling' and 'Local Knowledge' better reflect the engagement aspect. 'High-Resolution Modeling' is a key methodological aspect."
+    },
+    "related_papers": [
+      "Paper 3 title"
+    ],
+    "innovation_insights": [
+      "Explore the integration of AI-driven techniques (e.g., explainable AI) within the 'Models of Everywhere' framework to better interpret model outputs and stakeholder feedback.",
+      "Develop frameworks for quantifying and incorporating local knowledge and qualitative stakeholder input into quantitative hydroecological models.",
+      "Investigate how 'Models of Everywhere' can be scaled up or down to address hydrological challenges at different spatial and temporal scales, while maintaining local relevance."
+    ],
+    "processed_time": "2026-01-14 21:43:21"
+  },
+  "57TZASRW": {
+    "title": "Technical note: How many models do we need to simulate hydrologic processes across large geographical domains?",
+    "archive_path": "[ARCHIVE] Methodology/Statistical Methods, [ARCHIVE] Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, [IDEA] Modeling/Ensemble Methods, [IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "模型选择、水文过程、大地理区域、采样不确定性、Kling-Gupta效率 (KGE)、模型等效性、概念模型、流域模拟",
+      "suggested": "Hydrological Model Selection, Hydrologic Processes, Large-Scale Modeling, Sampling Uncertainty, Model Equivalence, Kling-Gupta Efficiency, Ensemble Modeling",
+      "reason": "Keywords are comprehensive and accurate. 'Sampling Uncertainty' and 'Model Equivalence' are key contributions. 'Ensemble Modeling' is implied by the discussion of needing multiple models."
+    },
+    "related_papers": [
+      "Paper 1 title",
+      "Paper 4 title",
+      "Paper 2 title"
+    ],
+    "innovation_insights": [
+      "Develop adaptive modeling strategies that dynamically select or weigh models based on real-time data and evolving hydrological conditions, considering sampling uncertainty.",
+      "Extend the concept of model equivalence and sampling uncertainty to other hydrological variables beyond streamflow (e.g., soil moisture, ET, groundwater levels).",
+      "Investigate the trade-offs between model complexity and the number of models needed, particularly in data-scarce regions, to achieve robust hydrological simulations."
+    ],
+    "processed_time": "2026-01-14 21:43:24"
+  },
+  "6HAMMJAV": {
+    "title": "Benchmark framework for global river models",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Methodology/Data Fusion, [ARCHIVE] Applications/Flood",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, [IDEA] Data Philosophy/Data Quality & Validation, [IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "全球河流模型 (GRM), 基准 (Benchmark), 水面高程 (Water Surface Elevation, WSE), 淹没范围 (Inundation Extent), 遥感数据 (Remote Sensing Data), 模型评估 (Model Evaluation), 模型比较 (Model Comparison)",
+      "suggested": "Global River Models, Benchmark Framework, Flood Modeling, Remote Sensing, Water Surface Elevation, Inundation Extent, Model Evaluation, Data Fusion",
+      "reason": "Keywords accurately capture the core elements. Adding 'Flood Modeling' and 'Data Fusion' would enhance discoverability, as these are central to the paper's contribution and methodology."
+    },
+    "related_papers": [
+      "Paper 0 title",
+      "Paper 3 title",
+      "Paper 1 title"
+    ],
+    "innovation_insights": [
+      "Apply the proposed benchmark framework to evaluate and compare a wider range of global river models and identify their specific strengths and weaknesses.",
+      "Integrate real-time satellite-derived flood information into the benchmark system for near-real-time model performance assessment and early warning systems.",
+      "Explore the use of machine learning techniques to automatically calibrate and validate global river models using the rich, multi-variable dataset provided by the benchmark framework."
+    ],
+    "processed_time": "2026-01-14 21:43:28"
+  },
+  "VVBNV5CC": {
+    "title": "A multi‐resolution deep‐learning surrogate framework for global hydrological models",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)/Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "全球水文模型 (Global Hydrological Models), 深度学习 (Deep Learning), 代理模型 (Surrogate Models), 多分辨率 (Multi-Resolution), PCR-GLOBWB, 计算效率 (Computational Efficiency)",
+      "suggested": "Global Hydrological Models, Deep Learning, Surrogate Modeling, Multi-Resolution, Human Activities, Lateral Flow, Computational Efficiency, PCR-GLOBWB",
+      "reason": "The current keywords are good but could be more descriptive. Adding 'Human Activities' and 'Lateral Flow' directly addresses key model improvements mentioned in the abstract. 'Surrogate Modeling' is a more standard term than 'Surrogate Models' in English scientific contexts."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Developing generalizable deep learning surrogate frameworks that can capture complex hydrological processes (including lateral flow and human interventions) and function across multiple spatial resolutions can significantly accelerate global hydrological modeling and enable applications like real-time forecasting and uncertainty quantification for water resource management.",
+      "This work opens avenues for creating 'digital twins' of global hydrological models, allowing for rapid scenario analysis and policy evaluation that were previously computationally prohibitive. Future research could focus on integrating more complex human water management strategies or exploring adaptive learning techniques to continuously update these surrogate models with new data."
+    ],
+    "processed_time": "2026-01-14 21:43:38"
+  }
+}
