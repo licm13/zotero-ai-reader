@@ -62862,5 +62862,977 @@
   "[IDEA] Coupling/Vegetation-Water Interaction, Dynamics/Non-linearity & Complexity, Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML)": {
     "key": "NDCQ2WJF",
     "parent": "BH8WBQCE"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Land Surface Temperature, Applications": {
+    "key": "S67CUNP9",
+    "parent": "INUVAQF4"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Land Surface Temperature, Applications/Climate Change Impact": {
+    "key": "GIN8BN5T",
+    "parent": "S67CUNP9"
+  },
+  "[ARCHIVE] Hazards/Heatwaves & Extremes, Processes/Soil Moisture, Methodology": {
+    "key": "KQVFHJVG",
+    "parent": "ZDZQ7BI7"
+  },
+  "[ARCHIVE] Hazards/Heatwaves & Extremes, Processes/Soil Moisture, Methodology/Statistical Methods": {
+    "key": "XCIKEJK2",
+    "parent": "KQVFHJVG"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity, Coupling/Land-Atmosphere Coupling": {
+    "key": "76R2XKT9",
+    "parent": "NVUWSM5J"
+  },
+  "[ARCHIVE] Methodology/Statistical Methods, Processes/Evapotranspiration (ET), Applications/Agricultural Systems": {
+    "key": "M4CNMHVP",
+    "parent": "9RJDRRWP"
+  },
+  "[IDEA] Modeling/Hybrid Modeling (Process+ML), Data Philosophy/Signal Purification/Uncertainty, Modeling/Ensemble Methods": {
+    "key": "A2EXEXFK",
+    "parent": "K8X6S73X"
+  },
+  "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Land Surface Model Calibration\n[ARCHIVE] Processes": {
+    "key": "IQDJ6RPX",
+    "parent": "3D475NTF"
+  },
+  "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Land Surface Model Calibration\n[ARCHIVE] Processes/Evapotranspiration (ET)\n[ARCHIVE] Processes": {
+    "key": "WM3T65Q4",
+    "parent": "IQDJ6RPX"
+  },
+  "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Land Surface Model Calibration\n[ARCHIVE] Processes/Evapotranspiration (ET)\n[ARCHIVE] Processes/Surface Temperature": {
+    "key": "J5EE6RX9",
+    "parent": "WM3T65Q4"
+  },
+  "[IDEA] Modeling/Physics-Informed AI\n[IDEA] Data Philosophy": {
+    "key": "7Z7J7486",
+    "parent": "V82F5ZX7"
+  },
+  "[IDEA] Modeling/Physics-Informed AI\n[IDEA] Data Philosophy/Multi-Source Integration\n[IDEA] Mechanism": {
+    "key": "AJQX58XS",
+    "parent": "7Z7J7486"
+  },
+  "[IDEA] Modeling/Physics-Informed AI\n[IDEA] Data Philosophy/Multi-Source Integration\n[IDEA] Mechanism/Land-Atmosphere Coupling": {
+    "key": "C5Q2536F",
+    "parent": "AJQX58XS"
+  },
+  "[ARCHIVE] Methodology/Remote Sensing/Retrieval\n[ARCHIVE] Processes": {
+    "key": "HU7RVSQA",
+    "parent": "CRCQDNDN"
+  },
+  "[ARCHIVE] Methodology/Remote Sensing/Retrieval\n[ARCHIVE] Processes/Evapotranspiration (ET)\n[ARCHIVE] Applications": {
+    "key": "GGVJX35E",
+    "parent": "HU7RVSQA"
+  },
+  "[ARCHIVE] Methodology/Remote Sensing/Retrieval\n[ARCHIVE] Processes/Evapotranspiration (ET)\n[ARCHIVE] Applications/Agricultural Systems": {
+    "key": "MPGKVXCV",
+    "parent": "GGVJX35E"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration\n[IDEA] Modeling/Hybrid Modeling (Process+ML)\n[IDEA] Dynamics": {
+    "key": "B7TNBKIF",
+    "parent": "S2C4Z2EP"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration\n[IDEA] Modeling/Hybrid Modeling (Process+ML)\n[IDEA] Dynamics/Non-linearity & Complexity": {
+    "key": "M7MPNJ49",
+    "parent": "B7TNBKIF"
+  },
+  "[ARCHIVE] Hazards/Drought/Flash Drought\n[ARCHIVE] Methodology": {
+    "key": "EBTQ5T2T",
+    "parent": "G7D6F9BZ"
+  },
+  "[ARCHIVE] Hazards/Drought/Flash Drought\n[ARCHIVE] Methodology/Statistical Methods\n[ARCHIVE] Processes": {
+    "key": "DHKMJIJ2",
+    "parent": "EBTQ5T2T"
+  },
+  "[ARCHIVE] Hazards/Drought/Flash Drought\n[ARCHIVE] Methodology/Statistical Methods\n[ARCHIVE] Processes/Land Surface Temperature": {
+    "key": "4W23DPRZ",
+    "parent": "DHKMJIJ2"
+  },
+  "[IDEA] Mechanism/Abrupt Transitions/Phase Change\n[IDEA] Modeling": {
+    "key": "NAJMWNMV",
+    "parent": "T4QTCED8"
+  },
+  "[IDEA] Mechanism/Abrupt Transitions/Phase Change\n[IDEA] Modeling/Hybrid Modeling (Process+ML)\n[IDEA] Dynamics": {
+    "key": "I3J3MRJQ",
+    "parent": "NAJMWNMV"
+  },
+  "[IDEA] Mechanism/Abrupt Transitions/Phase Change\n[IDEA] Modeling/Hybrid Modeling (Process+ML)\n[IDEA] Dynamics/Non-linearity & Complexity": {
+    "key": "KM4NGQR4",
+    "parent": "I3J3MRJQ"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET)\n[ARCHIVE] Hazards": {
+    "key": "2IX59TC2",
+    "parent": "IFGJ3Q9N"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET)\n[ARCHIVE] Hazards/Drought": {
+    "key": "6M2DCJ8E",
+    "parent": "2IX59TC2"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET)\n[ARCHIVE] Hazards/Drought/Flash Drought\n[ARCHIVE] Applications": {
+    "key": "DXMZUEUV",
+    "parent": "6M2DCJ8E"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET)\n[ARCHIVE] Hazards/Drought/Flash Drought\n[ARCHIVE] Applications/Climate Change Impact": {
+    "key": "ADHGU55Q",
+    "parent": "DXMZUEUV"
+  },
+  "[IDEA] Dynamics/Non-linearity & Complexity\n[IDEA] Mechanism": {
+    "key": "3IRSGWZV",
+    "parent": "KWIHXBIE"
+  },
+  "[IDEA] Dynamics/Non-linearity & Complexity\n[IDEA] Mechanism/Feedback Loops & Cascades\n[IDEA] Data Philosophy": {
+    "key": "IHFB8TUC",
+    "parent": "3IRSGWZV"
+  },
+  "[IDEA] Dynamics/Non-linearity & Complexity\n[IDEA] Mechanism/Feedback Loops & Cascades\n[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)": {
+    "key": "N6T6DSH5",
+    "parent": "IHFB8TUC"
+  },
+  "[ARCHIVE] Processes/Land Surface Temperature\n[ARCHIVE] Methodology": {
+    "key": "6DMFQK5J",
+    "parent": "IFGJ3Q9N"
+  },
+  "[ARCHIVE] Processes/Land Surface Temperature\n[ARCHIVE] Methodology/Machine Learning\n[ARCHIVE] Applications": {
+    "key": "HN2V3JPZ",
+    "parent": "6DMFQK5J"
+  },
+  "[ARCHIVE] Processes/Land Surface Temperature\n[ARCHIVE] Methodology/Machine Learning\n[ARCHIVE] Applications/Climate Change Impact": {
+    "key": "ZMQ9ZJU5",
+    "parent": "HN2V3JPZ"
+  },
+  "[IDEA] Modeling/Hybrid Modeling (Process+ML)\n[IDEA] Mechanism": {
+    "key": "T5DBGVUN",
+    "parent": "V82F5ZX7"
+  },
+  "[IDEA] Modeling/Hybrid Modeling (Process+ML)\n[IDEA] Mechanism/Land-Atmosphere Coupling\n[IDEA] Dynamics": {
+    "key": "AJPV8K45",
+    "parent": "T5DBGVUN"
+  },
+  "[IDEA] Modeling/Hybrid Modeling (Process+ML)\n[IDEA] Mechanism/Land-Atmosphere Coupling\n[IDEA] Dynamics/Non-linearity & Complexity": {
+    "key": "CNM65EU3",
+    "parent": "AJPV8K45"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Climate Change": {
+    "key": "I25GK7JS",
+    "parent": "I2I28A35"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Climate Change/Regional Warming, Applications": {
+    "key": "AQ5UZBMH",
+    "parent": "I25GK7JS"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Climate Change/Regional Warming, Applications/Climate Change Impact": {
+    "key": "R4JR2E9C",
+    "parent": "AQ5UZBMH"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology": {
+    "key": "XV6PBRPK",
+    "parent": "I2I28A35"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Statistical Methods, Applications": {
+    "key": "MS8D8AUP",
+    "parent": "XV6PBRPK"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Statistical Methods, Applications/Early Warning Systems": {
+    "key": "VQWMUKV9",
+    "parent": "MS8D8AUP"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Data Fusion, Methodology": {
+    "key": "EBMEBRIX",
+    "parent": "XV6PBRPK"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Data Fusion, Methodology/Statistical Methods": {
+    "key": "WBQTWSAM",
+    "parent": "EBMEBRIX"
+  },
+  "[ARCHIVE] Hazards/Drought/DFA, Climate Change": {
+    "key": "ASFFDXJD",
+    "parent": "G7D6F9BZ"
+  },
+  "[ARCHIVE] Hazards/Drought/DFA, Climate Change/Climate Change Impact, Methodology": {
+    "key": "RENMBIX9",
+    "parent": "ASFFDXJD"
+  },
+  "[ARCHIVE] Hazards/Drought/DFA, Climate Change/Climate Change Impact, Methodology/Statistical Methods": {
+    "key": "FZPTTHTF",
+    "parent": "RENMBIX9"
+  },
+  "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Tipping Points": {
+    "key": "P6IIW4IA",
+    "parent": "TCB5JVSS"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Air Temperature, Methodology": {
+    "key": "JXX9ZGSD",
+    "parent": "I2I28A35"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Air Temperature, Methodology/Statistical Methods, Applications": {
+    "key": "FD6K4P5U",
+    "parent": "JXX9ZGSD"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Air Temperature, Methodology/Statistical Methods, Applications/Urban Heat Island": {
+    "key": "IIPB36CG",
+    "parent": "FD6K4P5U"
+  },
+  "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), Coupling": {
+    "key": "CKTBDHFW",
+    "parent": "3DANWNVX"
+  },
+  "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), Coupling/Human-Nature Systems": {
+    "key": "X5F2C8ZM",
+    "parent": "CKTBDHFW"
+  },
+  "[ARCHIVE] Hazards/Drought/DFA, Methodology/Deep Learning (LSTM_CNN), Methodology/Remote Sensing": {
+    "key": "ICC6FMZM",
+    "parent": "QPAX8C79"
+  },
+  "[ARCHIVE] Hazards/Drought/DFA, Methodology/Deep Learning (LSTM_CNN), Methodology/Remote Sensing/Retrieval": {
+    "key": "MGRMF4T4",
+    "parent": "ICC6FMZM"
+  },
+  "[ARCHIVE] Applications/Climate Change Impact, Hazards": {
+    "key": "B8CRRPF2",
+    "parent": "AJCT9ZAU"
+  },
+  "[ARCHIVE] Applications/Climate Change Impact, Hazards/Drought": {
+    "key": "BAV6UQBN",
+    "parent": "B8CRRPF2"
+  },
+  "[ARCHIVE] Applications/Climate Change Impact, Hazards/Drought/DFA, Processes": {
+    "key": "GF5IZUA6",
+    "parent": "BAV6UQBN"
+  },
+  "[ARCHIVE] Applications/Climate Change Impact, Hazards/Drought/DFA, Processes/Evapotranspiration (ET)": {
+    "key": "X2S27FR4",
+    "parent": "GF5IZUA6"
+  },
+  "[IDEA] Modeling/Hybrid Modeling (Process+ML), Dynamics/Tipping Points, Dynamics": {
+    "key": "DVISWSCM",
+    "parent": "J9TZCKZW"
+  },
+  "[IDEA] Modeling/Hybrid Modeling (Process+ML), Dynamics/Tipping Points, Dynamics/Non-linearity & Complexity": {
+    "key": "N7MB2NRI",
+    "parent": "DVISWSCM"
+  },
+  "[ARCHIVE] Applications/Agricultural Systems, Hazards/Drought": {
+    "key": "G45IIIUM",
+    "parent": "28UURNFN"
+  },
+  "[ARCHIVE] Applications/Agricultural Systems, Hazards/Drought/DFA, Processes": {
+    "key": "2CHGJ6NN",
+    "parent": "G45IIIUM"
+  },
+  "[ARCHIVE] Applications/Agricultural Systems, Hazards/Drought/DFA, Processes/Evapotranspiration (ET)": {
+    "key": "RENE8Z2P",
+    "parent": "2CHGJ6NN"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Data Quality & Validation, Data Philosophy/Signal Purification/Uncertainty": {
+    "key": "GSJPI2TB",
+    "parent": "RAPP9BVB"
+  },
+  "[ARCHIVE] Hazards/Drought/DFA, Hazards/Flood, Hazards": {
+    "key": "WAQG68DU",
+    "parent": "M44S3BTX"
+  },
+  "[ARCHIVE] Hazards/Drought/DFA, Hazards/Flood, Hazards/Heatwaves & Extremes, Methodology": {
+    "key": "6DEFGNHC",
+    "parent": "WAQG68DU"
+  },
+  "[ARCHIVE] Hazards/Drought/DFA, Hazards/Flood, Hazards/Heatwaves & Extremes, Methodology/Statistical Methods": {
+    "key": "455HBB7D",
+    "parent": "6DEFGNHC"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Abrupt Transitions/Phase Change, Dynamics": {
+    "key": "RMXTHTCR",
+    "parent": "CQP35DSX"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Abrupt Transitions/Phase Change, Dynamics/Non-linearity & Complexity": {
+    "key": "RKFWHV9C",
+    "parent": "RMXTHTCR"
+  },
+  "[ARCHIVE] Applications/Water Resources Management/Methodology/Deep Learning (LSTM_CNN)/Hazards": {
+    "key": "QPSZ7CVG",
+    "parent": "N2KHHF45"
+  },
+  "[ARCHIVE] Applications/Water Resources Management/Methodology/Deep Learning (LSTM_CNN)/Hazards/Drought": {
+    "key": "PAJIF74S",
+    "parent": "QPSZ7CVG"
+  },
+  "[ARCHIVE] Applications/Water Resources Management/Methodology/Deep Learning (LSTM_CNN)/Hazards/Drought/Flash Drought": {
+    "key": "Z86RADE7",
+    "parent": "PAJIF74S"
+  },
+  "[IDEA] Modeling/Ensemble Methods/Dynamics/Non-linearity & Complexity/Coupling": {
+    "key": "DN7UMBEC",
+    "parent": "R52TA8XN"
+  },
+  "[IDEA] Modeling/Ensemble Methods/Dynamics/Non-linearity & Complexity/Coupling/Energy-Water Nexus": {
+    "key": "FHB8KJ42",
+    "parent": "DN7UMBEC"
+  },
+  "[ARCHIVE] Processes/Runoff & Streamflow/Processes/Soil Moisture/Methodology": {
+    "key": "EF4WUMDM",
+    "parent": "N2I9QSDU"
+  },
+  "[ARCHIVE] Processes/Runoff & Streamflow/Processes/Soil Moisture/Methodology/Remote Sensing": {
+    "key": "KVVTP7IH",
+    "parent": "EF4WUMDM"
+  },
+  "[ARCHIVE] Processes/Runoff & Streamflow/Processes/Soil Moisture/Methodology/Remote Sensing/Retrieval": {
+    "key": "JT2SBBEC",
+    "parent": "KVVTP7IH"
+  },
+  "[IDEA] Data Philosophy/Data Quality & Validation/Data Philosophy/Scale Issues (Spatial_Temporal)/Dynamics": {
+    "key": "65KNGAMF",
+    "parent": "NATX7WPP"
+  },
+  "[IDEA] Data Philosophy/Data Quality & Validation/Data Philosophy/Scale Issues (Spatial_Temporal)/Dynamics/Non-linearity & Complexity": {
+    "key": "I4JF4Q2D",
+    "parent": "65KNGAMF"
+  },
+  "[ARCHIVE] Remote Sensing/Processes/Evapotranspiration (ET)": {
+    "key": "WC7SIZXN",
+    "parent": "K6V3IIP7"
+  },
+  "[ARCHIVE] Remote Sensing/Hazards": {
+    "key": "Z3AK2AE4",
+    "parent": "FVJDBKZC"
+  },
+  "[ARCHIVE] Remote Sensing/Hazards/Drought": {
+    "key": "C6XUC4S5",
+    "parent": "Z3AK2AE4"
+  },
+  "[ARCHIVE] Remote Sensing/Hazards/Drought/Flash Drought": {
+    "key": "JA8ZZPC9",
+    "parent": "C6XUC4S5"
+  },
+  "[ARCHIVE] Remote Sensing/Methodology": {
+    "key": "U3CIKWVW",
+    "parent": "FVJDBKZC"
+  },
+  "[ARCHIVE] Remote Sensing/Methodology/Data Fusion": {
+    "key": "Q53EBGAI",
+    "parent": "U3CIKWVW"
+  },
+  "[ARCHIVE] Processes/Soil Moisture/Retrieval, Methodology/Remote Sensing/Retrieval": {
+    "key": "AEXGU34I",
+    "parent": "7HWSIDK7"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET)/Factors, Hazards": {
+    "key": "IIS92QBA",
+    "parent": "SUR2F99M"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET)/Factors, Hazards/Heatwaves & Extremes": {
+    "key": "P5T9ZZMI",
+    "parent": "IIS92QBA"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET)/Factors, Hazards/Heatwaves & Extremes/Influence, Methodology": {
+    "key": "JV4ZE2FK",
+    "parent": "P5T9ZZMI"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET)/Factors, Hazards/Heatwaves & Extremes/Influence, Methodology/Remote Sensing": {
+    "key": "64NJUVTM",
+    "parent": "JV4ZE2FK"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET)/Factors, Hazards/Heatwaves & Extremes/Influence, Methodology/Remote Sensing/Retrieval, Applications": {
+    "key": "XQHV58UF",
+    "parent": "64NJUVTM"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET)/Factors, Hazards/Heatwaves & Extremes/Influence, Methodology/Remote Sensing/Retrieval, Applications/Agricultural Systems": {
+    "key": "XZ9FURJ7",
+    "parent": "XQHV58UF"
+  },
+  "[ARCHIVE] Hazards/Heatwaves & Extremes/Urban Heat Island, Methodology/Remote Sensing/Retrieval, Applications": {
+    "key": "SDMNJH28",
+    "parent": "G5CMJK7K"
+  },
+  "[ARCHIVE] Hazards/Heatwaves & Extremes/Urban Heat Island, Methodology/Remote Sensing/Retrieval, Applications/Urban Systems": {
+    "key": "UJB26MBD",
+    "parent": "SDMNJH28"
+  },
+  "[ARCHIVE] Processes/Soil Moisture/Decomposition, Unclassified": {
+    "key": "ZKMKCD4Z",
+    "parent": "87737XI4"
+  },
+  "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity, Unclassified": {
+    "key": "7PHN3N2S",
+    "parent": "TCB5JVSS"
+  },
+  "[ARCHIVE] Hazards/Heatwaves & Extremes/Global Warming, Methodology": {
+    "key": "4WM8JMU5",
+    "parent": "7DFSI4ZF"
+  },
+  "[ARCHIVE] Hazards/Heatwaves & Extremes/Global Warming, Methodology/Statistical Methods, Applications": {
+    "key": "6JZUP74D",
+    "parent": "4WM8JMU5"
+  },
+  "[ARCHIVE] Hazards/Heatwaves & Extremes/Global Warming, Methodology/Statistical Methods, Applications/Climate Change Impact": {
+    "key": "EHB532XD",
+    "parent": "6JZUP74D"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Data Fusion": {
+    "key": "BEGFM9AK",
+    "parent": "XV6PBRPK"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Data Fusion/Land Surface Temperature, Methodology": {
+    "key": "HZRD3J2R",
+    "parent": "BEGFM9AK"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Data Fusion/Land Surface Temperature, Methodology/Statistical Methods": {
+    "key": "T5EVSIIU",
+    "parent": "HZRD3J2R"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Data Fusion/Land Surface Temperature, Methodology/Statistical Methods/Empirical Orthogonal Functions": {
+    "key": "TVHJUDFM",
+    "parent": "T5EVSIIU"
+  },
+  "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML)/Data Assimilation, Dynamics": {
+    "key": "FESB2JIQ",
+    "parent": "SM4A38H5"
+  },
+  "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML)/Data Assimilation, Dynamics/Non-linearity & Complexity": {
+    "key": "WSXFTF4Z",
+    "parent": "FESB2JIQ"
+  },
+  "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML)/Data Assimilation, Dynamics/Non-linearity & Complexity/Spatial Patterns": {
+    "key": "U4VEEBN5",
+    "parent": "WSXFTF4Z"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Statistical Methods": {
+    "key": "3J2WR6D6",
+    "parent": "XV6PBRPK"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Statistical Methods/Paleoclimate Reconstruction": {
+    "key": "9AEIMHAB",
+    "parent": "3J2WR6D6"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration/Proxy Data, Dynamics": {
+    "key": "7ZGNVZVN",
+    "parent": "DFFA4FRG"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration/Proxy Data, Dynamics/Non-linearity & Complexity": {
+    "key": "5RPAZQBU",
+    "parent": "7ZGNVZVN"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration/Proxy Data, Dynamics/Non-linearity & Complexity/Long-term Trends, Data Philosophy": {
+    "key": "VN5ZQPRI",
+    "parent": "5RPAZQBU"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration/Proxy Data, Dynamics/Non-linearity & Complexity/Long-term Trends, Data Philosophy/Data Quality & Validation": {
+    "key": "FRHAFGXM",
+    "parent": "VN5ZQPRI"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration/Proxy Data, Dynamics/Non-linearity & Complexity/Long-term Trends, Data Philosophy/Data Quality & Validation/Proxy Validation": {
+    "key": "2UINHF5Z",
+    "parent": "FRHAFGXM"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Hazards": {
+    "key": "B3A9BVTZ",
+    "parent": "I2I28A35"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Hazards/Drought": {
+    "key": "5I88N9GQ",
+    "parent": "B3A9BVTZ"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Hazards/Drought/Extreme Aridity, Methodology": {
+    "key": "MC2GJ3JT",
+    "parent": "5I88N9GQ"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Hazards/Drought/Extreme Aridity, Methodology/Statistical Methods": {
+    "key": "MU2M9D7X",
+    "parent": "MC2GJ3JT"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Hazards/Drought/Extreme Aridity, Methodology/Statistical Methods/Model Development": {
+    "key": "38CB5977",
+    "parent": "MU2M9D7X"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Surface Energy Balance, Data Philosophy": {
+    "key": "FANDBQDV",
+    "parent": "DUT6UZR9"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Surface Energy Balance, Data Philosophy/Scale Issues (Spatial_Temporal)": {
+    "key": "ZVCXDNGW",
+    "parent": "FANDBQDV"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Surface Energy Balance, Data Philosophy/Scale Issues (Spatial_Temporal)/Surface Properties, Modeling": {
+    "key": "Z8IKXKMZ",
+    "parent": "ZVCXDNGW"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Surface Energy Balance, Data Philosophy/Scale Issues (Spatial_Temporal)/Surface Properties, Modeling/Hybrid Modeling (Process+ML)": {
+    "key": "M27Q7TJF",
+    "parent": "Z8IKXKMZ"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Surface Energy Balance, Data Philosophy/Scale Issues (Spatial_Temporal)/Surface Properties, Modeling/Hybrid Modeling (Process+ML)/Parameterization, Dynamics": {
+    "key": "NJKX4E8Q",
+    "parent": "M27Q7TJF"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Surface Energy Balance, Data Philosophy/Scale Issues (Spatial_Temporal)/Surface Properties, Modeling/Hybrid Modeling (Process+ML)/Parameterization, Dynamics/Rapid Onset Events": {
+    "key": "TKDXTE8C",
+    "parent": "NJKX4E8Q"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Surface Energy Balance, Data Philosophy/Scale Issues (Spatial_Temporal)/Surface Properties, Modeling/Hybrid Modeling (Process+ML)/Parameterization, Dynamics/Rapid Onset Events/Arid Environments": {
+    "key": "X9KK28AM",
+    "parent": "TKDXTE8C"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Deep Learning (LSTM_CNN)": {
+    "key": "UDSH5M97",
+    "parent": "XV6PBRPK"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Deep Learning (LSTM_CNN)/Data Fusion, Applications": {
+    "key": "H4735MXI",
+    "parent": "UDSH5M97"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Deep Learning (LSTM_CNN)/Data Fusion, Applications/Climate Change Impact": {
+    "key": "JVBFGRNP",
+    "parent": "H4735MXI"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration/Big Data, Modeling": {
+    "key": "FKHTVE7F",
+    "parent": "DFFA4FRG"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration/Big Data, Modeling/Hybrid Modeling (Process+ML)": {
+    "key": "4JBERNQX",
+    "parent": "FKHTVE7F"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration/Big Data, Modeling/Hybrid Modeling (Process+ML)/Deep Learning, Dynamics": {
+    "key": "HHKU4PKJ",
+    "parent": "4JBERNQX"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration/Big Data, Modeling/Hybrid Modeling (Process+ML)/Deep Learning, Dynamics/Non-linearity & Complexity": {
+    "key": "KWJFDIQP",
+    "parent": "HHKU4PKJ"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration/Big Data, Modeling/Hybrid Modeling (Process+ML)/Deep Learning, Dynamics/Non-linearity & Complexity/Socio-Environmental Interactions, Data Philosophy": {
+    "key": "C65ZKW85",
+    "parent": "KWJFDIQP"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration/Big Data, Modeling/Hybrid Modeling (Process+ML)/Deep Learning, Dynamics/Non-linearity & Complexity/Socio-Environmental Interactions, Data Philosophy/Signal Purification": {
+    "key": "CW27XPFV",
+    "parent": "C65ZKW85"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration/Big Data, Modeling/Hybrid Modeling (Process+ML)/Deep Learning, Dynamics/Non-linearity & Complexity/Socio-Environmental Interactions, Data Philosophy/Signal Purification/Uncertainty": {
+    "key": "F4M4RXNS",
+    "parent": "CW27XPFV"
+  },
+  "[ARCHIVE] Processes/Unclassified": {
+    "key": "9W9PIUD9",
+    "parent": "IFGJ3Q9N"
+  },
+  "[IDEA] Mechanism/Unclassified": {
+    "key": "55NGMRTC",
+    "parent": "XG93R7AN"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature": {
+    "key": "MNRJQ8CQ",
+    "parent": "I2I28A35"
+  },
+  "[ARCHIVE] Remote Sensing/Retrieval/Air Temperature": {
+    "key": "83WI8ACD",
+    "parent": "I2I28A35"
+  },
+  "[ARCHIVE] Hazards/Drought/Drylands, Processes": {
+    "key": "V66C5FS5",
+    "parent": "G7D6F9BZ"
+  },
+  "[ARCHIVE] Hazards/Drought/Drylands, Processes/ET, Methodology": {
+    "key": "QZWU26V8",
+    "parent": "V66C5FS5"
+  },
+  "[ARCHIVE] Hazards/Drought/Drylands, Processes/ET, Methodology/Remote Sensing": {
+    "key": "46CF9H8B",
+    "parent": "QZWU26V8"
+  },
+  "[ARCHIVE] Hazards/Drought/Drylands, Processes/ET, Methodology/Remote Sensing/Retrieval": {
+    "key": "WGJFK7C3",
+    "parent": "46CF9H8B"
+  },
+  "[ARCHIVE] Processes/Snow & Glacier, Processes": {
+    "key": "T9A3TWRD",
+    "parent": "IFGJ3Q9N"
+  },
+  "[ARCHIVE] Processes/Snow & Glacier, Processes/Ground Temperature, Methodology": {
+    "key": "DFQXP38C",
+    "parent": "T9A3TWRD"
+  },
+  "[ARCHIVE] Processes/Snow & Glacier, Processes/Ground Temperature, Methodology/Deep Learning (LSTM_CNN), Methodology": {
+    "key": "Q82BC62C",
+    "parent": "DFQXP38C"
+  },
+  "[ARCHIVE] Processes/Snow & Glacier, Processes/Ground Temperature, Methodology/Deep Learning (LSTM_CNN), Methodology/Data Fusion, Methodology": {
+    "key": "88S4TVKE",
+    "parent": "Q82BC62C"
+  },
+  "[ARCHIVE] Processes/Snow & Glacier, Processes/Ground Temperature, Methodology/Deep Learning (LSTM_CNN), Methodology/Data Fusion, Methodology/Statistical Methods": {
+    "key": "R4S39H4P",
+    "parent": "88S4TVKE"
+  },
+  "[ARCHIVE] Hazards/Heatwaves & Extremes, Hazards/Drought/Flash Drought, Methodology": {
+    "key": "98TV4J6C",
+    "parent": "WFSD3E8U"
+  },
+  "[ARCHIVE] Hazards/Heatwaves & Extremes, Hazards/Drought/Flash Drought, Methodology/Deep Learning (LSTM_CNN), Methodology": {
+    "key": "63XJC7BR",
+    "parent": "98TV4J6C"
+  },
+  "[ARCHIVE] Hazards/Heatwaves & Extremes, Hazards/Drought/Flash Drought, Methodology/Deep Learning (LSTM_CNN), Methodology/Statistical Methods, Applications": {
+    "key": "EMAAH4IF",
+    "parent": "63XJC7BR"
+  },
+  "[ARCHIVE] Hazards/Heatwaves & Extremes, Hazards/Drought/Flash Drought, Methodology/Deep Learning (LSTM_CNN), Methodology/Statistical Methods, Applications/Early Warning Systems": {
+    "key": "WD8ZQ3AZ",
+    "parent": "EMAAH4IF"
+  },
+  "[IDEA] Dynamics/Non-linearity & Complexity, Dynamics/Rapid Onset Events, Mechanism/Feedback Loops & Cascades, Modeling": {
+    "key": "87GZGDJE",
+    "parent": "S6JGR3JV"
+  },
+  "[IDEA] Dynamics/Non-linearity & Complexity, Dynamics/Rapid Onset Events, Mechanism/Feedback Loops & Cascades, Modeling/Causal Inference": {
+    "key": "XK7RS5CN",
+    "parent": "87GZGDJE"
+  },
+  "[ARCHIVE] Hazards/Drought/Water Scarcity/Processes/Evapotranspiration": {
+    "key": "HXB77W3C",
+    "parent": "VT6IIVG4"
+  },
+  "[ARCHIVE] Hazards/Drought/Water Scarcity/Processes/Evapotranspiration/Applications": {
+    "key": "WG8ZXHII",
+    "parent": "HXB77W3C"
+  },
+  "[ARCHIVE] Hazards/Drought/Water Scarcity/Processes/Evapotranspiration/Applications/Climate Change Impact": {
+    "key": "JWWCC3DV",
+    "parent": "WG8ZXHII"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Data Philosophy/Multi-Source Integration/Dynamics": {
+    "key": "FXRI2M4P",
+    "parent": "K3P3REHS"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Data Philosophy/Multi-Source Integration/Dynamics/Non-linearity & Complexity": {
+    "key": "2FXMNCJT",
+    "parent": "FXRI2M4P"
+  },
+  "[ARCHIVE] Hazards/Heatwaves & Extremes/Applications/Climate Change Impact": {
+    "key": "637KBU26",
+    "parent": "VCWG59RU"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration/Hazards": {
+    "key": "X9HG4HPB",
+    "parent": "U9ZNPJTU"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration/Hazards/Drought": {
+    "key": "RTNFCAEQ",
+    "parent": "X9HG4HPB"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration/Hazards/Drought/Flash Drought": {
+    "key": "779X8CCM",
+    "parent": "RTNFCAEQ"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration/Hazards/Drought/Flash Drought/Coupling": {
+    "key": "CEWZ7MWB",
+    "parent": "779X8CCM"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration/Hazards/Drought/Flash Drought/Coupling/Land-Atmosphere Coupling": {
+    "key": "9KKPFQ2C",
+    "parent": "CEWZ7MWB"
+  },
+  "[IDEA] Mechanism/Feedback Loops & Cascades/Dynamics/Drought-Flood Transitions/Dynamics": {
+    "key": "VIW556DK",
+    "parent": "UCJ4ZH9J"
+  },
+  "[IDEA] Mechanism/Feedback Loops & Cascades/Dynamics/Drought-Flood Transitions/Dynamics/Rapid Onset Events": {
+    "key": "95ZPQ3VW",
+    "parent": "VIW556DK"
+  },
+  "[ARCHIVE] Methodology/Deep Learning/LSTM_CNN, [ARCHIVE] Methodology/Remote Sensing": {
+    "key": "KMRSDHHC",
+    "parent": "UREK97SB"
+  },
+  "[ARCHIVE] Methodology/Deep Learning/LSTM_CNN, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Processes": {
+    "key": "3E4BUDUK",
+    "parent": "KMRSDHHC"
+  },
+  "[ARCHIVE] Methodology/Deep Learning/LSTM_CNN, [ARCHIVE] Methodology/Remote Sensing/Retrieval, [ARCHIVE] Processes/Soil Moisture": {
+    "key": "N2NCJSUA",
+    "parent": "3E4BUDUK"
+  },
+  "[IDEA] Mechanism/Feedback Loops & Cascades, [IDEA] Modeling/Ensemble Methods, [IDEA] Dynamics": {
+    "key": "NNDQ4MPF",
+    "parent": "H6QHUAIJ"
+  },
+  "[IDEA] Mechanism/Feedback Loops & Cascades, [IDEA] Modeling/Ensemble Methods, [IDEA] Dynamics/Non-linearity & Complexity": {
+    "key": "KXI65E3H",
+    "parent": "NNDQ4MPF"
+  },
+  "[ARCHIVE] Hazards/Flood, [ARCHIVE] Hazards/Heatwaves & Extremes, [ARCHIVE] Applications": {
+    "key": "I97P58MZ",
+    "parent": "X3BWWBQF"
+  },
+  "[ARCHIVE] Hazards/Flood, [ARCHIVE] Hazards/Heatwaves & Extremes, [ARCHIVE] Applications/Climate Change Impact": {
+    "key": "Q4USZ5QN",
+    "parent": "I97P58MZ"
+  },
+  "[IDEA] Dynamics/Tipping Points, [IDEA] Mechanism/Abrupt Transitions/Phase Change, [IDEA] Dynamics": {
+    "key": "ZJFQ8T32",
+    "parent": "K3HDDJH9"
+  },
+  "[IDEA] Dynamics/Tipping Points, [IDEA] Mechanism/Abrupt Transitions/Phase Change, [IDEA] Dynamics/Rapid Onset Events": {
+    "key": "IGAIC6PP",
+    "parent": "ZJFQ8T32"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET), [ARCHIVE] Applications/Water Resources Management, [ARCHIVE] Hazards": {
+    "key": "VF5QSETT",
+    "parent": "AFD2JTK9"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET), [ARCHIVE] Applications/Water Resources Management, [ARCHIVE] Hazards/Drought": {
+    "key": "UKVX52RS",
+    "parent": "VF5QSETT"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET), [ARCHIVE] Applications/Water Resources Management, [ARCHIVE] Hazards/Drought/Flash Drought": {
+    "key": "WUZZFE5F",
+    "parent": "UKVX52RS"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling, [IDEA] Dynamics/Non-linearity & Complexity, [IDEA] Dynamics/Drought-Flood Transitions": {
+    "key": "N9H2NGBK",
+    "parent": "ZXQQPJN7"
+  },
+  "[IDEA] Dynamics/Tipping Points, Data Philosophy/Signal Purification": {
+    "key": "2SMGZCVK",
+    "parent": "BVRC7ZGE"
+  },
+  "[IDEA] Dynamics/Tipping Points, Data Philosophy/Signal Purification/Uncertainty": {
+    "key": "FSAU9SHU",
+    "parent": "2SMGZCVK"
+  },
+  "[ARCHIVE] Processes/Soil Moisture/Hazards/Drought/Methodology/Deep Learning (LSTM_CNN)": {
+    "key": "TKEZ5C7X",
+    "parent": "J97HD7PV"
+  },
+  "[ARCHIVE] Processes/Soil Moisture/Hazards/Drought/Methodology/Deep Learning (LSTM_CNN)/Applications": {
+    "key": "GMZSIMPB",
+    "parent": "TKEZ5C7X"
+  },
+  "[ARCHIVE] Processes/Soil Moisture/Hazards/Drought/Methodology/Deep Learning (LSTM_CNN)/Applications/Climate Change Impact": {
+    "key": "7EBU6K6R",
+    "parent": "GMZSIMPB"
+  },
+  "[ARCHIVE] Hazards/Flood/Methodology/Uncertainty": {
+    "key": "I4VS27SW",
+    "parent": "45E47664"
+  },
+  "[ARCHIVE] Hazards/Flood/Methodology/Uncertainty/Methodology": {
+    "key": "7EWSM7HB",
+    "parent": "I4VS27SW"
+  },
+  "[ARCHIVE] Hazards/Flood/Methodology/Uncertainty/Methodology/Statistical Methods": {
+    "key": "IC83IRQG",
+    "parent": "7EWSM7HB"
+  },
+  "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Methodology/Statistical Methods": {
+    "key": "SQM7A7HJ",
+    "parent": "DD9WBXWF"
+  },
+  "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Methodology/Statistical Methods/Applications": {
+    "key": "ZCNV68GN",
+    "parent": "SQM7A7HJ"
+  },
+  "[ARCHIVE] Processes/Cryosphere (Snow & Glacier)/Methodology/Statistical Methods/Applications/Water Resources Management": {
+    "key": "XBEFZP7T",
+    "parent": "ZCNV68GN"
+  },
+  "[ARCHIVE] Hazards/Drought/Flash Drought/Processes/Soil Moisture/Methodology": {
+    "key": "SX52V8TM",
+    "parent": "M5EGVMSU"
+  },
+  "[ARCHIVE] Hazards/Drought/Flash Drought/Processes/Soil Moisture/Methodology/Hydrological Model": {
+    "key": "WZI9BNCP",
+    "parent": "SX52V8TM"
+  },
+  "[ARCHIVE] Hazards/Drought/Flash Drought/Processes/Soil Moisture/Methodology/Hydrological Model/Applications": {
+    "key": "IDSGSIT7",
+    "parent": "WZI9BNCP"
+  },
+  "[ARCHIVE] Hazards/Drought/Flash Drought/Processes/Soil Moisture/Methodology/Hydrological Model/Applications/Climate Change Impact": {
+    "key": "JVS26JQH",
+    "parent": "IDSGSIT7"
+  },
+  "[IDEA] Dynamics/Drought-Flood Transitions/Mechanism/Land-Atmosphere Coupling/Dynamics": {
+    "key": "P579WPST",
+    "parent": "WEPPPET5"
+  },
+  "[IDEA] Dynamics/Drought-Flood Transitions/Mechanism/Land-Atmosphere Coupling/Dynamics/Rapid Onset Events": {
+    "key": "GVCUEUC9",
+    "parent": "P579WPST"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Dynamics/Rapid Onset Events/Data Philosophy": {
+    "key": "SV8XMJWH",
+    "parent": "5HTFWI9W"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Dynamics/Rapid Onset Events/Data Philosophy/Signal Purification": {
+    "key": "M5AFXGXQ",
+    "parent": "SV8XMJWH"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Dynamics/Rapid Onset Events/Data Philosophy/Signal Purification/Uncertainty": {
+    "key": "VXHNS7J8",
+    "parent": "M5AFXGXQ"
+  },
+  "[ARCHIVE] Processes/Soil Moisture/Methodology/Hybrid Modeling (Process+ML)": {
+    "key": "EHBSP7DI",
+    "parent": "ZZM7N8XG"
+  },
+  "[ARCHIVE] Processes/Soil Moisture/Methodology/Hybrid Modeling (Process+ML)/Applications": {
+    "key": "VK6UABIF",
+    "parent": "EHBSP7DI"
+  },
+  "[ARCHIVE] Processes/Soil Moisture/Methodology/Hybrid Modeling (Process+ML)/Applications/Climate Change Impact": {
+    "key": "UXUAD2VJ",
+    "parent": "VK6UABIF"
+  },
+  "[ARCHIVE] Methodology/Remote Sensing/Retrieval/Methodology/Data Fusion/Applications": {
+    "key": "9R8MXFDT",
+    "parent": "JN87ZMRT"
+  },
+  "[ARCHIVE] Methodology/Remote Sensing/Retrieval/Methodology/Data Fusion/Applications/Climate Change Impact": {
+    "key": "4SZA7SAD",
+    "parent": "9R8MXFDT"
+  },
+  "[IDEA] Data Philosophy/Multi-Source Integration/Data Philosophy/Scale Issues (Spatial_Temporal)/Modeling/Physics-Informed AI": {
+    "key": "XQGQE64D",
+    "parent": "VG555UVV"
+  },
+  "[ARCHIVE] Processes/Groundwater/Processes/Runoff & Streamflow/Hazards": {
+    "key": "7ZVX8KXR",
+    "parent": "KH4WH6QN"
+  },
+  "[ARCHIVE] Processes/Groundwater/Processes/Runoff & Streamflow/Hazards/Drought": {
+    "key": "6SHIIZB8",
+    "parent": "7ZVX8KXR"
+  },
+  "[ARCHIVE] Processes/Groundwater/Processes/Runoff & Streamflow/Hazards/Drought/Flash Drought": {
+    "key": "7PHKICES",
+    "parent": "6SHIIZB8"
+  },
+  "[ARCHIVE] Processes/Groundwater/Processes/Runoff & Streamflow/Hazards/Drought/Flash Drought/Methodology": {
+    "key": "TRX9MJIH",
+    "parent": "7PHKICES"
+  },
+  "[ARCHIVE] Processes/Groundwater/Processes/Runoff & Streamflow/Hazards/Drought/Flash Drought/Methodology/Statistical Methods": {
+    "key": "QQA86C9K",
+    "parent": "TRX9MJIH"
+  },
+  "[IDEA] Dynamics/Tipping Points/Dynamics/Drought-Flood Transitions/Data Philosophy": {
+    "key": "BCKEN9XA",
+    "parent": "73T6V42F"
+  },
+  "[IDEA] Dynamics/Tipping Points/Dynamics/Drought-Flood Transitions/Data Philosophy/Signal Purification": {
+    "key": "MNKQW6RB",
+    "parent": "BCKEN9XA"
+  },
+  "[IDEA] Dynamics/Tipping Points/Dynamics/Drought-Flood Transitions/Data Philosophy/Signal Purification/Uncertainty": {
+    "key": "N6AAFNRQ",
+    "parent": "MNKQW6RB"
+  },
+  "[IDEA] Dynamics/Tipping Points/Dynamics/Drought-Flood Transitions/Data Philosophy/Signal Purification/Uncertainty/Modeling": {
+    "key": "VF4B2F59",
+    "parent": "N6AAFNRQ"
+  },
+  "[IDEA] Dynamics/Tipping Points/Dynamics/Drought-Flood Transitions/Data Philosophy/Signal Purification/Uncertainty/Modeling/Ensemble Methods": {
+    "key": "2MPCXCD8",
+    "parent": "VF4B2F59"
+  },
+  "[ARCHIVE] Processes/Runoff & Streamflow/Hazards/Drought/Flash Drought/Applications": {
+    "key": "2EPDJNMB",
+    "parent": "725XJERA"
+  },
+  "[ARCHIVE] Processes/Runoff & Streamflow/Hazards/Drought/Flash Drought/Applications/Climate Change Impact": {
+    "key": "5D9T6SKU",
+    "parent": "2EPDJNMB"
+  },
+  "[ARCHIVE] Processes/Runoff & Streamflow/Hazards/Drought/Flash Drought/Applications/Climate Change Impact/Methodology": {
+    "key": "8I8SS3RU",
+    "parent": "5D9T6SKU"
+  },
+  "[ARCHIVE] Processes/Runoff & Streamflow/Hazards/Drought/Flash Drought/Applications/Climate Change Impact/Methodology/Statistical Methods": {
+    "key": "DBZJU9DS",
+    "parent": "8I8SS3RU"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Feedback Loops & Cascades/Dynamics/Non-linearity & Complexity/Coupling": {
+    "key": "G3XVAWWF",
+    "parent": "V2VQU6D7"
+  },
+  "[IDEA] Mechanism/Land-Atmosphere Coupling/Feedback Loops & Cascades/Dynamics/Non-linearity & Complexity/Coupling/Vegetation-Water Interaction": {
+    "key": "RV6PEHTV",
+    "parent": "G3XVAWWF"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET)/Hazards/Drought [ARCHIVE] Methodology": {
+    "key": "E6CQ8UTS",
+    "parent": "9N8U35TQ"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET)/Hazards/Drought [ARCHIVE] Methodology/Remote Sensing [ARCHIVE] Applications": {
+    "key": "J2253KMK",
+    "parent": "E6CQ8UTS"
+  },
+  "[ARCHIVE] Processes/Evapotranspiration (ET)/Hazards/Drought [ARCHIVE] Methodology/Remote Sensing [ARCHIVE] Applications/Water Resources Management": {
+    "key": "R8F928JS",
+    "parent": "J2253KMK"
+  },
+  "[IDEA] Mechanism/Feedback Loops & Cascades [IDEA] Dynamics/Rapid Onset Events [IDEA] Data Philosophy": {
+    "key": "G8TRMVJU",
+    "parent": "ZC8JNGKW"
+  },
+  "[IDEA] Mechanism/Feedback Loops & Cascades [IDEA] Dynamics/Rapid Onset Events [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)": {
+    "key": "HEZGE4XK",
+    "parent": "G8TRMVJU"
+  },
+  "[ARCHIVE] Hazards/Flood [ARCHIVE] Processes": {
+    "key": "H6H9EN39",
+    "parent": "MZ8ID2AW"
+  },
+  "[ARCHIVE] Hazards/Flood [ARCHIVE] Processes/Runoff & Streamflow [ARCHIVE] Methodology": {
+    "key": "IRF6G558",
+    "parent": "H6H9EN39"
+  },
+  "[ARCHIVE] Hazards/Flood [ARCHIVE] Processes/Runoff & Streamflow [ARCHIVE] Methodology/Deep Learning (LSTM_CNN) [ARCHIVE] Applications": {
+    "key": "HI32DMQT",
+    "parent": "IRF6G558"
+  },
+  "[ARCHIVE] Hazards/Flood [ARCHIVE] Processes/Runoff & Streamflow [ARCHIVE] Methodology/Deep Learning (LSTM_CNN) [ARCHIVE] Applications/Urban Systems": {
+    "key": "NRT2CG8I",
+    "parent": "HI32DMQT"
+  },
+  "[IDEA] Dynamics/Non-linearity & Complexity [IDEA] Modeling/Hybrid Modeling (Process+ML) [IDEA] Dynamics": {
+    "key": "CG3E3DGV",
+    "parent": "MRCMAX4C"
+  },
+  "[IDEA] Dynamics/Non-linearity & Complexity [IDEA] Modeling/Hybrid Modeling (Process+ML) [IDEA] Dynamics/Rapid Onset Events": {
+    "key": "5WK45UA2",
+    "parent": "CG3E3DGV"
+  },
+  "[ARCHIVE] Hazards/Drought/Flash Drought [ARCHIVE] Methodology": {
+    "key": "4BSX8Q62",
+    "parent": "G7D6F9BZ"
+  },
+  "[ARCHIVE] Hazards/Drought/Flash Drought [ARCHIVE] Methodology/Deep Learning (LSTM_CNN) [ARCHIVE] Methodology": {
+    "key": "E39CZCKH",
+    "parent": "4BSX8Q62"
+  },
+  "[ARCHIVE] Hazards/Drought/Flash Drought [ARCHIVE] Methodology/Deep Learning (LSTM_CNN) [ARCHIVE] Methodology/Causal Inference [ARCHIVE] Processes": {
+    "key": "G25FPPN5",
+    "parent": "E39CZCKH"
+  },
+  "[ARCHIVE] Hazards/Drought/Flash Drought [ARCHIVE] Methodology/Deep Learning (LSTM_CNN) [ARCHIVE] Methodology/Causal Inference [ARCHIVE] Processes/Soil Moisture": {
+    "key": "8TE4R7UW",
+    "parent": "G25FPPN5"
+  },
+  "[IDEA] Modeling/Causal Inference [IDEA] Dynamics/Rapid Onset Events [IDEA] Dynamics": {
+    "key": "J8JT7MRR",
+    "parent": "QD9GW52A"
+  },
+  "[IDEA] Modeling/Causal Inference [IDEA] Dynamics/Rapid Onset Events [IDEA] Dynamics/Tipping Points [IDEA] Data Philosophy": {
+    "key": "I9MVEUR6",
+    "parent": "J8JT7MRR"
+  },
+  "[IDEA] Modeling/Causal Inference [IDEA] Dynamics/Rapid Onset Events [IDEA] Dynamics/Tipping Points [IDEA] Data Philosophy/Signal Purification": {
+    "key": "2VA33VBU",
+    "parent": "I9MVEUR6"
+  },
+  "[IDEA] Modeling/Causal Inference [IDEA] Dynamics/Rapid Onset Events [IDEA] Dynamics/Tipping Points [IDEA] Data Philosophy/Signal Purification/Uncertainty": {
+    "key": "ADH58W4F",
+    "parent": "2VA33VBU"
   }
 }

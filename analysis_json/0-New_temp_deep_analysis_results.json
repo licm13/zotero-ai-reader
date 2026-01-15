@@ -1,0 +1,276 @@
+{
+  "CPPFDNDC": {
+    "title": "Divergent water controls on vegetation productivity across drylands of the contiguous united states",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture / Hazards/Drought / Methodology/Deep Learning (LSTM_CNN) / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Dynamics/Non-linearity & Complexity / Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Drylands / Gross Primary Productivity / Soil Moisture / Vapor Pressure Deficit / Machine Learning",
+      "suggested": "Drylands / Vegetation Productivity / Soil Moisture / Vapor Pressure Deficit / Machine Learning / XGBoost-SHAP / Non-linearity",
+      "reason": "Keywords are good but could be more specific by including the method (XGBoost-SHAP) and the identified non-linearity (threshold effects) to improve searchability and reflect the paper's core findings more comprehensively."
+    },
+    "related_papers": [
+      "Spatial patterns and environmental drivers of evapotranspiration across the Chinese grassland transect",
+      "Tropical cyclones unevenly shape drought propagation"
+    ],
+    "innovation_insights": [
+      "Investigating the threshold behaviors of different hydrological variables (SM, VPD) on vegetation productivity across diverse climatic zones using advanced ML techniques.",
+      "Exploring the spatial heterogeneity of water stress impacts on GPP, moving beyond simple correlations to understand non-linear responses and tipping points.",
+      "Developing more accurate ecohydrological models by explicitly incorporating the differential roles of SM and VPD, and their dynamic variations, in driving vegetation processes.",
+      "Addressing the limitation of solely relying on ML interpretability methods (like SHAP) by integrating process-based understanding to validate and enhance the identified relationships."
+    ],
+    "processed_time": "2026-01-16 01:15:22"
+  },
+  "B8UVF74B": {
+    "title": "Spatial patterns and environmental drivers of evapotranspiration across the Chinese grassland transect",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration / Dynamics/Non-linearity & Complexity / Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Evapotranspiration / Grassland / China / Moisture Gradient / Driving Factors",
+      "suggested": "Evapotranspiration / Grassland / China / Moisture Gradient / Driving Factors / Land-Atmosphere Coupling / Decoupling Coefficient / Climate Adaptation",
+      "reason": "The current keywords are accurate but could be enhanced by including 'Land-Atmosphere Coupling' and 'Decoupling Coefficient' as they are central to the paper's analysis of ET and grassland response. 'Climate Adaptation' also captures the significant finding about TG's resilience."
+    },
+    "related_papers": [
+      "Divergent water controls on vegetation productivity across drylands of the contiguous United States",
+      "Tropical cyclones unevenly shape drought propagation"
+    ],
+    "innovation_insights": [
+      "Investigating the spatial heterogeneity of ET and its drivers across different grassland types, focusing on how ecological adaptations mediate responses to moisture gradients and atmospheric demand.",
+      "Quantifying the role of land-atmosphere coupling strength (via decoupling coefficient) in ET dynamics and exploring its sensitivity to various environmental factors across different biomes.",
+      "Developing hybrid models that combine process-based understanding of grassland ecohydrology with statistical or ML approaches to predict ET responses under changing climatic conditions.",
+      "Exploring the adaptive mechanisms of different grassland types to drought and atmospheric vapor pressure deficit, potentially leading to new strategies for grassland management and conservation."
+    ],
+    "processed_time": "2026-01-16 01:15:29"
+  },
+  "X33V68U7": {
+    "title": "A framework for evaluating uncertainty from multiple sources in probable maximum precipitation estimation by the hershfield method using imprecise probability",
+    "archive_path": "[ARCHIVE] Hazards/Flood / Methodology/Uncertainty / Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty / Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Probable Maximum Precipitation (PMP) / Uncertainty Quantification / Imprecise Probability / Hershfield Method / Flood Risk Assessment",
+      "suggested": "Probable Maximum Precipitation (PMP) / Uncertainty Quantification / Imprecise Probability / Hershfield Method / Flood Risk Assessment / Source Decomposition / Hydrometeorological Extremes",
+      "reason": "The current keywords are highly relevant. Adding 'Source Decomposition' would better reflect the paper's core methodological contribution of breaking down uncertainty. 'Hydrometeorological Extremes' could broaden the applicability beyond just PMP."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Developing novel frameworks for quantifying and decomposing uncertainty in other critical hydrological extreme estimations (e.g., flood peaks, low flows, heatwaves).",
+      "Applying imprecise probability or similar uncertainty quantification methods to assess risks in water resources management under deep uncertainty scenarios.",
+      "Investigating the spatial variability of dominant uncertainty sources in extreme event estimation and its implications for regional risk assessment and adaptation strategies.",
+      "Extending the methodology to assess uncertainty in climate model projections or other complex modeling systems where multiple sources of error and variability exist."
+    ],
+    "processed_time": "2026-01-16 01:15:34"
+  },
+  "LVSSUUQ3": {
+    "title": "Pareto-based multi-objective calibration of a hydrological model integrating streamflow and snow cover area",
+    "archive_path": "[ARCHIVE] Processes/Cryosphere (Snow & Glacier) / Methodology/Statistical Methods / Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML) / Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Hydrological Model / Multi-objective Calibration / Snow Cover Area / Témez Model",
+      "suggested": "Hydrological Model / Multi-objective Calibration / Snow Cover Area / Témez Model / Snow Water Resources / Model Improvement",
+      "reason": "The current keywords are accurate for describing the core methodology and subject. Adding 'Snow Water Resources' would highlight the application domain, and 'Model Improvement' or 'Model Enhancement' could capture the impact of integrating SCA for better simulation."
+    },
+    "related_papers": [
+      "Tropical cyclones unevenly shape drought propagation"
+    ],
+    "innovation_insights": [
+      "Exploring the integration of other remote sensing-derived variables (e.g., soil moisture, ET, vegetation indices) into hydrological model calibration for improved simulation of different water cycle components.",
+      "Developing multi-objective calibration strategies for hydrological models that balance performance across multiple key variables and processes, leading to more robust predictions.",
+      "Investigating the impact of snow cover dynamics on other hydrological processes like soil moisture, groundwater recharge, and streamflow variability, especially in mountainous or snow-dominated regions.",
+      "Adapting and applying the Pareto-based multi-objective calibration framework to other complex hydrological models and diverse hydro-climatic regions to assess its generalizability and effectiveness."
+    ],
+    "processed_time": "2026-01-16 01:15:39"
+  },
+  "9XJRJEGM": {
+    "title": "Tropical cyclones unevenly shape drought propagation",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought / Processes/Soil Moisture / Methodology/Hydrological Model / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions / Mechanism/Land-Atmosphere Coupling / Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "Tropical Cyclone / Drought / Hydrological Model / Soil Moisture / Climate Impact",
+      "suggested": "Tropical Cyclone / Drought Propagation / Soil Moisture / Hydrological Model / Climate Impact / Extreme Events / Land-Atmosphere Interaction",
+      "reason": "The current keywords are appropriate. 'Drought Propagation' is a key theme and could be added. 'Extreme Events' can encompass both TC and drought, and 'Land-Atmosphere Interaction' is relevant to how TC rainfall affects soil moisture."
+    },
+    "related_papers": [
+      "Divergent water controls on vegetation productivity across drylands of the contiguous United States",
+      "Spatial patterns and environmental drivers of evapotranspiration across the Chinese grassland transect"
+    ],
+    "innovation_insights": [
+      "Investigating the inverse relationship: how drought conditions influence the characteristics and behavior of tropical cyclones, and consequently their impact on land.",
+      "Exploring the role of atmospheric moisture transport and land-atmosphere feedbacks in modulating the interaction between tropical cyclones and drought development.",
+      "Developing early warning systems that account for the modulating effect of large-scale weather phenomena like tropical cyclones on regional drought onset and severity.",
+      "Analyzing the conditional probability of drought relief or intensification based on the occurrence and characteristics of tropical cyclones across different climatic regimes."
+    ],
+    "processed_time": "2026-01-16 01:15:45"
+  },
+  "2PVPEA7E": {
+    "title": "A novel SIF framework for decoupling hierarchical water stress impacts on winter wheat photosynthesis",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Hazards/Drought/Flash Drought / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Dynamics/Rapid Onset Events / Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Solar-induced chlorophyll fluorescence / Groundwater drought / Photosynthesis / Winter wheat / Huang-Huai-Hai Plain",
+      "suggested": "Solar-induced chlorophyll fluorescence / Photosynthesis / Water Stress / Drought Impact / Winter Wheat / Crop Physiology / Remote Sensing / PRAI Index / Multi-scale Drought",
+      "reason": "Keywords should better reflect the core contribution (PRAI index, multi-scale water stress decoupling) and the application to crop physiology. 'Groundwater drought' is too specific; 'Water Stress' and 'Multi-scale Drought' are more encompassing. Adding 'Crop Physiology' and 'PRAI Index' as they are key terms."
+    },
+    "related_papers": [
+      "Paper 1: Rooting depth projections of global plant functional types and driving factors analysis based on a hybrid modeling framework",
+      "Paper 2: Global 1 km land surface parameters for kilometer-scale earth system modeling",
+      "Paper 3: Dynamics and couplings of terrestrial water storage extremes from GRACE and GRACE‐FO missions during 2002–2024",
+      "Paper 4: Historical deforestation drives strong rainfall decline across the southern amazon basin"
+    ],
+    "innovation_insights": [
+      "Develop a more generalized framework for decoupling different scales of water stress (e.g., atmospheric, soil, groundwater) using SIF and other remote sensing indicators for various crops and ecosystems.",
+      "Investigate the impact of soil moisture and groundwater dynamics on SIF and crop physiology under different climate scenarios and management practices.",
+      "Explore the use of AI/ML, including the PRAI index logic, for early warning systems of crop water stress and yield reduction.",
+      "Address the limitation of time series mismatch (addressed by DTW) by developing more robust methods for integrating multi-source SIF data and other relevant environmental variables."
+    ],
+    "processed_time": "2026-01-16 01:16:02"
+  },
+  "JGZFDIG2": {
+    "title": "Rooting depth projections of global plant functional types and driving factors analysis based on a hybrid modeling framework",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture / Methodology/Hybrid Modeling (Process+ML) / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML) / Data Philosophy/Multi-Source Integration / Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Rooting Depth / Hybrid Model / Climate Change / Plant Functional Types / Global Gridded Dataset",
+      "suggested": "Rooting Depth / Plant Functional Types / Hybrid Modeling / Climate Change Projections / Global Gridded Dataset / Soil Water Dynamics",
+      "reason": "Keywords are generally good. 'Soil Water Dynamics' could be added as it's a direct consequence and application of root depth projections. 'Climate Change Projections' is slightly more descriptive than 'Climate Change'."
+    },
+    "related_papers": [
+      "Paper 0: A novel SIF framework for decoupling hierarchical water stress impacts on winter wheat photosynthesis",
+      "Paper 2: Global 1 km land surface parameters for kilometer-scale earth system modeling",
+      "Paper 3: Dynamics and couplings of terrestrial water storage extremes from GRACE and GRACE‐FO missions during 2002–2024",
+      "Paper 4: Historical deforestation drives strong rainfall decline across the southern amazon basin"
+    ],
+    "innovation_insights": [
+      "Integrate the global root depth dataset with land surface models and Earth system models to better represent water uptake and soil moisture dynamics under climate change.",
+      "Explore the use of this dataset to analyze the resilience of different ecosystems to drought, especially in regions reliant on deep soil moisture.",
+      "Investigate the potential of deep learning approaches to predict rooting depth, potentially capturing more complex non-linear relationships than current hybrid models.",
+      "Assess how changes in rooting depth under different climate scenarios might affect vegetation's response to other stressors, such as heatwaves or changes in precipitation patterns."
+    ],
+    "processed_time": "2026-01-16 01:16:06"
+  },
+  "9U3X8323": {
+    "title": "Global 1 km land surface parameters for kilometer-scale earth system modeling",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval / Methodology/Data Fusion / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration / Data Philosophy/Scale Issues (Spatial_Temporal) / Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Land Surface Parameters / Kilometer-Scale Modeling / Earth System Models / Data Set",
+      "suggested": "Land Surface Parameters / Kilometer-Scale Modeling / Earth System Models / High-Resolution Dataset / Land Surface Heterogeneity / Water-Energy Cycle",
+      "reason": "Keywords are accurate but could be enhanced. Adding 'High-Resolution Dataset' emphasizes the key contribution. 'Land Surface Heterogeneity' and 'Water-Energy Cycle' are crucial concepts explored and explained by the dataset."
+    },
+    "related_papers": [
+      "Paper 0: A novel SIF framework for decoupling hierarchical water stress impacts on winter wheat photosynthesis",
+      "Paper 1: Rooting depth projections of global plant functional types and driving factors analysis based on a hybrid modeling framework",
+      "Paper 3: Dynamics and couplings of terrestrial water storage extremes from GRACE and GRACE‐FO missions during 2002–2024",
+      "Paper 4: Historical deforestation drives strong rainfall decline across the southern amazon basin"
+    ],
+    "innovation_insights": [
+      "Utilize this high-resolution dataset to improve the representation of land-atmosphere interactions, particularly in land surface models and Earth system models, leading to more accurate simulations of water, energy, and carbon cycles.",
+      "Investigate how the enhanced spatial heterogeneity captured by this dataset influences extreme hydrological events (e.g., droughts, floods) and their forecasting.",
+      "Explore the application of machine learning techniques, possibly physics-informed AI, to infer missing land surface parameters or to downscale even finer-resolution data based on this km-scale dataset.",
+      "Analyze the impact of different land use/land cover changes (e.g., deforestation) on land surface parameters at the kilometer scale, bridging the gap between human activities and model inputs."
+    ],
+    "processed_time": "2026-01-16 01:16:11"
+  },
+  "NQ6MKURG": {
+    "title": "Dynamics and couplings of terrestrial water storage extremes from GRACE and GRACE‐FO missions during 2002–2024",
+    "archive_path": "[ARCHIVE] Processes/Groundwater / Processes/Runoff & Streamflow / Hazards/Drought/Flash Drought / Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Dynamics/Tipping Points / Dynamics/Drought-Flood Transitions / Data Philosophy/Signal Purification/Uncertainty / Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Terrestrial Water Storage / Extreme Events / GRACE / ENSO / Climate Variability",
+      "suggested": "Terrestrial Water Storage (TWS) / Extreme Events / GRACE/GRACE-FO / ENSO / Hydrological Extremes / Climate Variability / Drought-Flood Dynamics",
+      "reason": "Adding 'TWS' abbreviation as it's common. 'GRACE/GRACE-FO' is more precise. 'Hydrological Extremes' and 'Drought-Flood Dynamics' are more descriptive of the paper's focus on dual extremes and their transitions."
+    },
+    "related_papers": [
+      "Paper 0: A novel SIF framework for decoupling hierarchical water stress impacts on winter wheat photosynthesis",
+      "Paper 1: Rooting depth projections of global plant functional types and driving factors analysis based on a hybrid modeling framework",
+      "Paper 2: Global 1 km land surface parameters for kilometer-scale earth system modeling",
+      "Paper 4: Historical deforestation drives strong rainfall decline across the southern amazon basin"
+    ],
+    "innovation_insights": [
+      "Utilize the insights on ENSO's role to develop improved seasonal forecasts for TWS extremes, potentially integrating GRACE data with climate model outputs.",
+      "Investigate the drivers of the observed drought-flood transitions (e.g., 2011-2012) and their potential intensification under future climate change, linking it with atmospheric moisture transport or land surface changes.",
+      "Apply advanced statistical methods or AI techniques to further purify the GRACE signal and better isolate the contributions of different drivers (ENSO, land use, etc.) to TWS variability.",
+      "Compare the GRACE-derived TWS extremes with other hydrological variables (e.g., soil moisture, ET, streamflow) using methods like triple collocation to assess consistency and identify data gaps."
+    ],
+    "processed_time": "2026-01-16 01:16:18"
+  },
+  "M666Y4MN": {
+    "title": "Historical deforestation drives strong rainfall decline across the southern amazon basin",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow / Hazards/Drought/Flash Drought / Applications/Climate Change Impact / Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Feedback Loops & Cascades / Dynamics/Non-linearity & Complexity / Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Amazon / Deforestation / Precipitation / Moisture Transport / Climate Models",
+      "suggested": "Amazon Deforestation / Precipitation Decline / Moisture Transport / Land-Atmosphere Coupling / Climate Models / Evapotranspiration Reduction / Regional Climate Change",
+      "reason": "Keywords are good. 'Amazon Deforestation' is a standard combined term. Adding 'Precipitation Decline', 'Evapotranspiration Reduction', and 'Regional Climate Change' to be more specific about the outcomes and scale. 'Land-Atmosphere Coupling' highlights a key mechanism."
+    },
+    "related_papers": [
+      "Paper 0: A novel SIF framework for decoupling hierarchical water stress impacts on winter wheat photosynthesis",
+      "Paper 1: Rooting depth projections of global plant functional types and driving factors analysis based on a hybrid modeling framework",
+      "Paper 2: Global 1 km land surface parameters for kilometer-scale earth system modeling",
+      "Paper 3: Dynamics and couplings of terrestrial water storage extremes from GRACE and GRACE‐FO missions during 2002–2024"
+    ],
+    "innovation_insights": [
+      "Quantify the impact of deforestation-induced ET reduction on regional precipitation and the hydrological cycle using more advanced land surface models, especially those incorporating deep root water uptake (linking to Paper 1).",
+      "Investigate the potential for positive feedback loops where reduced precipitation leads to further forest stress, ET reduction, and thus amplified precipitation decline, potentially leading to tipping points (linking to Paper 0 and 3).",
+      "Assess the underestimation by climate models and explore methods to improve their representation of land-atmosphere feedbacks and moisture transport in response to land-use change.",
+      "Apply AI/ML techniques to better model the complex, non-linear relationship between deforestation patterns, moisture transport, and rainfall variability across the Amazon."
+    ],
+    "processed_time": "2026-01-16 01:16:23"
+  },
+  "S7JWH954": {
+    "title": "Increased surface water evaporation loss induced by reservoir development on the loess plateau",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Hazards/Drought [ARCHIVE] Methodology/Remote Sensing [ARCHIVE] Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades [IDEA] Dynamics/Rapid Onset Events [IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Surface Water Evaporation / Reservoir Development / Loess Plateau / Water Management / Remote Sensing",
+      "suggested": "Surface Water Evaporation / Reservoir Impact / Loess Plateau / Water Balance / Remote Sensing",
+      "reason": "The current keywords are good but 'Reservoir Development' could be more precise as 'Reservoir Impact' to encompass broader effects. 'Water Management' is relevant but 'Water Balance' more directly reflects the paper's focus on quantifying evaporation losses."
+    },
+    "related_papers": [
+      "Paper 1"
+    ],
+    "innovation_insights": [
+      "Investigate the long-term sustainability of water resources in arid/semi-arid regions with significant reservoir development, considering both increased evaporation and altered downstream flows.",
+      "Develop more sophisticated remote sensing techniques to accurately delineate open water bodies and estimate evaporation rates, especially in complex landscapes like the Loess Plateau.",
+      "Explore the interplay between climate change (e.g., increased temperatures, altered precipitation) and reservoir-induced changes in evaporation to understand their combined impact on regional water resources.",
+      "Quantify the 'virtual water' loss through evaporation from reservoirs and its implications for regional and national water security strategies."
+    ],
+    "processed_time": "2026-01-16 01:16:36"
+  },
+  "LULPHBIM": {
+    "title": "Streamflow and sediment dynamics affected by precipitation events and land use changes in the heavily urbanized small catchment of moscow megacity",
+    "archive_path": "[ARCHIVE] Hazards/Flood [ARCHIVE] Processes/Runoff & Streamflow [ARCHIVE] Methodology/Deep Learning (LSTM_CNN) [ARCHIVE] Applications/Urban Systems",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity [IDEA] Modeling/Hybrid Modeling (Process+ML) [IDEA] Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "Urban Rivers / Sediment Transport / Machine Learning / Hydrological Modeling",
+      "suggested": "Urban Hydrology / Sediment Dynamics / Machine Learning / Stormflow / Urban Rivers",
+      "reason": "Keywords are accurate. 'Urban Hydrology' is a broader and more established term. 'Sediment Dynamics' is more encompassing than 'Sediment Transport'. 'Stormflow' better captures the short-lived peak flows mentioned. 'Urban Rivers' is already present and strong."
+    },
+    "related_papers": [
+      "Paper 0"
+    ],
+    "innovation_insights": [
+      "Apply similar machine learning approaches to other highly urbanized catchments globally to assess the universality of the observed streamflow and sediment dynamics.",
+      "Investigate the impact of specific urban land-use types (e.g., impervious surfaces, green infrastructure) on sediment generation and transport in urban rivers.",
+      "Develop hybrid models that integrate physical process-based understanding of sediment transport with machine learning for improved prediction and management in urban environments.",
+      "Explore the role of extreme precipitation events under climate change scenarios on exacerbating urban flooding and sediment pollution."
+    ],
+    "processed_time": "2026-01-16 01:16:42"
+  },
+  "FEX9VSTL": {
+    "title": "Improved flash drought forecasting and attribution: A spatial-temporal causality-aware deep learning approach",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought [ARCHIVE] Methodology/Deep Learning (LSTM_CNN) [ARCHIVE] Methodology/Causal Inference [ARCHIVE] Processes/Soil Moisture",
+    "idea_path": "[IDEA] Modeling/Causal Inference [IDEA] Dynamics/Rapid Onset Events [IDEA] Dynamics/Tipping Points [IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Flash Drought / Deep Learning / Causality / Soil Moisture / China's GBA",
+      "suggested": "Flash Drought / Spatio-temporal Causality / Deep Learning / Drought Prediction / Soil Moisture",
+      "reason": "The current keywords are highly relevant. 'Spatio-temporal Causality' is more specific to the method used. 'Drought Prediction' is a key application and outcome of the research."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Extend the causality-aware deep learning framework to other types of hydrological extremes, such as floods and compound events, to improve their prediction and attribution.",
+      "Investigate the transferability of the STC-CNNLSTM model to different geographical regions and climatic zones, assessing its performance and identifying necessary adaptations.",
+      "Incorporate additional data sources (e.g., atmospheric variables, land surface parameters) into the causality-aware framework to gain a more comprehensive understanding of flash drought drivers and their interactions.",
+      "Develop methods for real-time attribution of flash drought events using the causality framework, providing valuable information for disaster response and risk management."
+    ],
+    "processed_time": "2026-01-16 01:16:48"
+  }
+}

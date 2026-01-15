@@ -1,0 +1,1045 @@
+{
+  "YJCIVLSJ": {
+    "title": "Generating 60–100 m, hourly, all-weather land surface temperatures based on the landsat, ECOSTRESS, and reanalysis temperature combination (LERC)",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Land surface temperature, All-weather reconstruction, Annual temperature cycle, Diurnal dynamics, Fine resolution",
+      "suggested": "Land surface temperature, All-weather, High-resolution, Multi-source data fusion, Temporal reconstruction, LERC",
+      "reason": "Keywords should reflect the core output (all-weather LST), the primary method (multi-source data fusion), and the key characteristic (high-resolution). Including the acronym (LERC) is also beneficial for retrieval."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Develop advanced fusion techniques for integrating satellite and reanalysis data to achieve higher spatio-temporal resolutions for other land surface variables (e.g., soil moisture, ET).",
+      "Investigate the impact of different reanalysis products and satellite data combinations on the accuracy and uncertainties of the reconstructed all-weather LST.",
+      "Explore the application of the generated all-weather LST data in hydrological and climatological studies, such as improving ET modeling or analyzing heat stress events."
+    ],
+    "processed_time": "2026-01-15 15:08:51"
+  },
+  "B56ISBTV": {
+    "title": "Asymmetric influence of forest cover gain and loss on land surface temperature",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Processes/Land Surface Temperature, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Tree cover change, Land surface temperature, Evapotranspiration, Asymmetric effects, Biophysical feedbacks, Forest dynamics",
+      "reason": "The current keywords are missing. Suggested keywords cover the main variables, the novel aspect (asymmetric effects), the underlying mechanism (biophysical feedbacks), and the context (forest dynamics)."
+    },
+    "related_papers": [
+      "Generating 60–100 m, hourly, all-weather land surface temperatures based on the landsat, ECOSTRESS, and reanalysis temperature combination (LERC)",
+      "Regimes of soil moisture–wet-bulb temperature coupling with relevance to moist heat stress",
+      "Upstream evaporation is the key to extreme summertime heat stress in north China",
+      "Assessing the ability of potential evaporation models to capture the sensitivity to temperature"
+    ],
+    "innovation_insights": [
+      "Quantify the magnitude of the asymmetric cooling/warming effect of tree cover loss/gain on LST and ET across different biomes and climate zones.",
+      "Investigate the role of these asymmetric biophysical feedbacks in modulating the regional climate response to afforestation and deforestation.",
+      "Explore the potential for incorporating these asymmetric feedbacks into land surface models to improve their representation of land-atmosphere interactions under changing forest cover."
+    ],
+    "processed_time": "2026-01-15 15:08:55"
+  },
+  "SN3QCVU4": {
+    "title": "Upstream evaporation is the key to extreme summertime heat stress in north China",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought, Hazards/Heatwaves & Extremes, Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, Coupling/Land-Atmosphere Coupling, Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Extreme heat, Summertime heat stress, North China, Evaporation, Land-atmosphere coupling, Soil moisture",
+      "reason": "The current keywords are missing. Suggested keywords highlight the extreme event, the geographical focus, the key driver (evaporation), and the relevant process (land-atmosphere coupling)."
+    },
+    "related_papers": [
+      "Generating 60–100 m, hourly, all-weather land surface temperatures based on the landsat, ECOSTRESS, and reanalysis temperature combination (LERC)",
+      "Asymmetric influence of forest cover gain and loss on land surface temperature",
+      "Regimes of soil moisture–wet-bulb temperature coupling with relevance to moist heat stress",
+      "Assessing the ability of potential evaporation models to capture the sensitivity to temperature"
+    ],
+    "innovation_insights": [
+      "Investigate the specific mechanisms through which upstream evaporation influences summertime heat stress, moving beyond a qualitative understanding.",
+      "Develop early warning systems for extreme heat events in North China that explicitly incorporate the role of upstream evaporative conditions.",
+      "Examine the impact of land management practices (e.g., irrigation, soil conservation) on upstream evaporation and their subsequent influence on heat stress."
+    ],
+    "processed_time": "2026-01-15 15:08:59"
+  },
+  "LWEG7RVY": {
+    "title": "Regimes of soil moisture–wet-bulb temperature coupling with relevance to moist heat stress",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes, Processes/Soil Moisture, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity, Coupling/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Soil moisture, wet-bulb temperature, heat stress, ERA5, land–atmosphere coupling",
+      "suggested": "Soil moisture, Wet-bulb temperature, Heat stress, Land-atmosphere coupling regimes, Hydrological cycle, Climate extremes",
+      "reason": "Current keywords are good but could be expanded to include the concept of 'regimes' as highlighted in the title and abstract, and the broader context of climate extremes and the hydrological cycle."
+    },
+    "related_papers": [
+      "Generating 60–100 m, hourly, all-weather land surface temperatures based on the landsat, ECOSTRESS, and reanalysis temperature combination (LERC)",
+      "Asymmetric influence of forest cover gain and loss on land surface temperature",
+      "Upstream evaporation is the key to extreme summertime heat stress in north China",
+      "Assessing the ability of potential evaporation models to capture the sensitivity to temperature"
+    ],
+    "innovation_insights": [
+      "Develop a global dataset or model that characterizes the different regimes of soil moisture-wet-bulb temperature coupling and their spatial distribution.",
+      "Quantify the contribution of soil moisture-wet-bulb temperature coupling to the intensification of moist heat stress events under future climate scenarios.",
+      "Investigate feedback mechanisms where increased heat stress leads to changes in soil moisture (e.g., via altered precipitation patterns or ET), creating potential cascading effects."
+    ],
+    "processed_time": "2026-01-15 15:09:04"
+  },
+  "ZYZ6CMBT": {
+    "title": "Assessing the ability of potential evaporation models to capture the sensitivity to temperature",
+    "archive_path": "[ARCHIVE] Methodology/Statistical Methods, Processes/Evapotranspiration (ET), Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Data Philosophy/Signal Purification/Uncertainty, Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "Potential Evaporation / Temperature Sensitivity / Model Evaluation / Eddy Covariance",
+      "suggested": "Potential evaporation models, Temperature sensitivity, Model evaluation, Eddy covariance, Land-atmosphere exchange, Hydrological modeling",
+      "reason": "Current keywords are accurate and relevant. Suggested keywords add 'Land-atmosphere exchange' to broaden the scope slightly and 'Hydrological modeling' to emphasize the application context."
+    },
+    "related_papers": [
+      "Generating 60–100 m, hourly, all-weather land surface temperatures based on the landsat, ECOSTRESS, and reanalysis temperature combination (LERC)",
+      "Asymmetric influence of forest cover gain and loss on land surface temperature",
+      "Upstream evaporation is the key to extreme summertime heat stress in north China",
+      "Regimes of soil moisture–wet-bulb temperature coupling with relevance to moist heat stress"
+    ],
+    "innovation_insights": [
+      "Develop a new potential evaporation model or modify existing ones to better capture temperature sensitivity, potentially by incorporating non-linear relationships or machine learning.",
+      "Investigate how the choice of potential evaporation model and its temperature sensitivity affects projections of ET under climate change, particularly concerning water resources.",
+      "Utilize the insights from this study to improve the parameterization of ET in land surface and hydrological models, especially in regions experiencing significant warming."
+    ],
+    "processed_time": "2026-01-15 15:09:09"
+  },
+  "CF9SESCC": {
+    "title": "Potential of remote sensing surface temperature- and evapotranspiration-based land-atmosphere coupling metrics for land surface model calibration",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)/Land Surface Model Calibration\n[ARCHIVE] Processes/Evapotranspiration (ET)\n[ARCHIVE] Processes/Surface Temperature",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI\n[IDEA] Data Philosophy/Multi-Source Integration\n[IDEA] Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Land-atmosphere coupling / Remote Sensing / Land Surface Model Calibration / Evapotranspiration / Surface Temperature",
+      "suggested": "Land-atmosphere coupling / Remote Sensing / Land Surface Model Calibration / Evapotranspiration / Surface Temperature / Soil Moisture",
+      "reason": "The paper explicitly mentions soil moisture (SM) in relation to surface temperature (dT) and evapotranspiration (ET) for coupling strength estimation. Including it would make the keywords more comprehensive."
+    },
+    "related_papers": [
+      "Paper 2: Attribution of Land‐Use/Land‐Cover Change Induced Surface Temperature Anomaly: How Accurate Is the First‐Order Taylor Series Expansion?",
+      "Paper 4: Land Surface Temperature Trend and Its Drivers in East Africa"
+    ],
+    "innovation_insights": [
+      "Investigate the transferability of using remote sensing-derived coupling metrics for LULCC impact assessment on land surface temperature and ET.",
+      "Explore the potential of using these RS-derived coupling metrics to improve the calibration of other land surface models beyond NoahMP, or for different regions.",
+      "Address the uncertainty in LST model parameterization and its impact on ET/dT calibration, potentially by incorporating more advanced statistical methods or machine learning approaches to refine the coupling metrics.",
+      "Explore the cause of poor dT reference calibration by further investigating the role of ET/ET partitioning errors and LST model uncertainty, potentially through model intercomparison studies."
+    ],
+    "processed_time": "2026-01-15 15:09:26"
+  },
+  "ETFBD3L6": {
+    "title": "A global 30-m ET model (HSEB) using harmonized Landsat and Sentinel-2, MODIS and VIIRS: Comparison to ECOSTRESS ET and LST",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval\n[ARCHIVE] Processes/Evapotranspiration (ET)\n[ARCHIVE] Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration\n[IDEA] Modeling/Hybrid Modeling (Process+ML)\n[IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Remote Sensing of Environment 是遥感领域的顶级期刊，发表的文章通常具有很强的创新性、科学严谨性和广泛的应用前景。这篇文章之所以能被该期刊接收，主要有以下几个原因：",
+      "suggested": "Evapotranspiration / Remote Sensing / High-Resolution ET / Multi-source Data Fusion / Global ET Model / Landsat / Sentinel-2 / MODIS / VIIRS",
+      "reason": "The provided 'keywords' are descriptive text about the journal's quality rather than actual keywords for the paper. The suggested keywords capture the core methods, data sources, and application scope of the paper."
+    },
+    "related_papers": [
+      "Paper 0: Potential of remote sensing surface temperature- and evapotranspiration-based land-atmosphere coupling metrics for land surface model calibration",
+      "Paper 3: Contrasting long-term temperature trends reveal minor changes in projected potential evapotranspiration in the US Midwest",
+      "Paper 4: Land Surface Temperature Trend and Its Drivers in East Africa"
+    ],
+    "innovation_insights": [
+      "Develop operational, near-daily, 30m resolution ET products globally, enabling finer-scale water resource accounting and agricultural water management.",
+      "Investigate the synergistic use of different satellite sensors (Landsat, Sentinel-2, MODIS, VIIRS) for ET estimation and identify optimal data fusion strategies to overcome individual sensor limitations.",
+      "Validate the HSEB model against high-quality, independent datasets like ECOSTRESS ET and LST, and analyze discrepancies to understand model strengths and weaknesses across diverse land cover types and climate zones.",
+      "Explore the integration of the HSEB model into larger hydrological or climate models to improve simulations of land surface processes and their impact on water and energy cycles."
+    ],
+    "processed_time": "2026-01-15 15:09:46"
+  },
+  "BZX8CKRM": {
+    "title": "Attribution of Land‐Use/Land‐Cover Change Induced Surface Temperature Anomaly: How Accurate Is the First‐Order Taylor Series Expansion?",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought\n[ARCHIVE] Methodology/Statistical Methods\n[ARCHIVE] Processes/Land Surface Temperature",
+    "idea_path": "[IDEA] Mechanism/Abrupt Transitions/Phase Change\n[IDEA] Modeling/Hybrid Modeling (Process+ML)\n[IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Land Surface Temperature / Attribution / Taylor Series Expansion / Surface Energy Balance / Land Use Change",
+      "suggested": "Land Surface Temperature / Attribution / Taylor Series Expansion / Surface Energy Balance / Land Use Change / Non-linearity",
+      "reason": "The paper's main finding is the superior accuracy of higher-order Taylor expansions (SOTSE) over first-order (FOTSE) due to non-linear effects. Explicitly including 'Non-linearity' as a keyword would highlight this central theme."
+    },
+    "related_papers": [
+      "Paper 0: Potential of remote sensing surface temperature- and evapotranspiration-based land-atmosphere coupling metrics for land surface model calibration",
+      "Paper 4: Land Surface Temperature Trend and Its Drivers in East Africa"
+    ],
+    "innovation_insights": [
+      "Develop more robust attribution methods for LULCC impacts on LST that explicitly account for higher-order non-linearities and cross-terms, moving beyond linearized approximations.",
+      "Investigate the influence of different types of LULCC (e.g., urbanization, deforestation, agricultural intensification) on the non-linear relationships between land cover and LST, and how this affects attribution accuracy.",
+      "Apply the SOTSE framework to attribute changes in other land surface variables (e.g., ET, soil moisture) driven by LULCC or climate change, and assess the importance of non-linearities in those contexts.",
+      "Explore the implications of improved LST attribution accuracy for land surface model parameterization and climate change impact studies, particularly in regions undergoing rapid land use transitions."
+    ],
+    "processed_time": "2026-01-15 15:09:55"
+  },
+  "C2FQZHBN": {
+    "title": "Contrasting long-term temperature trends reveal minor changes in projected potential evapotranspiration in the US Midwest",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)\n[ARCHIVE] Hazards/Drought/Flash Drought\n[ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity\n[IDEA] Mechanism/Feedback Loops & Cascades\n[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Potential Evapotranspiration / Temperature Trends / US Midwest / Climate Change / Hydrological Cycle / Long-term Trends",
+      "reason": "The provided 'keywords' are missing. The suggested keywords are based on the title and the provided one-sentence summary of the paper."
+    },
+    "related_papers": [
+      "Paper 0: Potential of remote sensing surface temperature- and evapotranspiration-based land-atmosphere coupling metrics for land surface model calibration",
+      "Paper 1: A global 30-m ET model (HSEB) using harmonized Landsat and Sentinel-2, MODIS and VIIRS: Comparison to ECOSTRESS ET and LST"
+    ],
+    "innovation_insights": [
+      "Investigate the drivers behind the 'minor changes' in projected potential evapotranspiration despite long-term temperature trends in the US Midwest, and explore whether these drivers are consistent with findings from other regions or different model projections.",
+      "Analyze the disconnect between rising temperatures and stable potential ET by examining other factors influencing PET (e.g., humidity, wind speed, solar radiation) and how their trends might offset temperature effects.",
+      "Evaluate the implications of these findings for regional water resources and agricultural productivity in the US Midwest, particularly in the context of potential future climate change impacts and extreme events.",
+      "Compare the long-term temperature and PET trends in the US Midwest with those in other regions to identify potential teleconnections or contrasting regional responses to climate change."
+    ],
+    "processed_time": "2026-01-15 15:10:01"
+  },
+  "KERWGGDC": {
+    "title": "Land Surface Temperature Trend and Its Drivers in East Africa",
+    "archive_path": "[ARCHIVE] Processes/Land Surface Temperature\n[ARCHIVE] Methodology/Machine Learning\n[ARCHIVE] Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)\n[IDEA] Mechanism/Land-Atmosphere Coupling\n[IDEA] Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Land Surface Temperature / East Africa / Trend Analysis / Surface Energy Balance / Machine Learning",
+      "suggested": "Land Surface Temperature / Trend Analysis / Surface Energy Balance / Machine Learning / East Africa / Land-Atmosphere Interactions / Daytime-Nighttime Differences",
+      "reason": "The paper highlights the differential drivers of daytime and nighttime LST trends and identifies key surface and atmospheric factors. Adding 'Land-Atmosphere Interactions' and 'Daytime-Nighttime Differences' would provide a more complete picture."
+    },
+    "related_papers": [
+      "Paper 0: Potential of remote sensing surface temperature- and evapotranspiration-based land-atmosphere coupling metrics for land surface model calibration",
+      "Paper 2: Attribution of Land‐Use/Land‐Cover Change Induced Surface Temperature Anomaly: How Accurate Is the First‐Order Taylor Series Expansion?"
+    ],
+    "innovation_insights": [
+      "Extend the ML-driven attribution analysis to other regions experiencing significant LST trends or rapid land use/land cover change to assess the generality of identified drivers and mechanisms.",
+      "Investigate the specific land-atmosphere coupling mechanisms that lead to more pronounced nighttime warming in East Africa, and how these differ from daytime warming/cooling dynamics.",
+      "Explore the impact of identified LST trends and their drivers on other hydrological components, such as evapotranspiration, soil moisture, and regional precipitation patterns in East Africa.",
+      "Utilize the insights from this study to develop more accurate LST prediction models or early warning systems for heat stress in East Africa, considering the distinct diurnal patterns and drivers."
+    ],
+    "processed_time": "2026-01-15 15:10:08"
+  },
+  "DHVQRXJW": {
+    "title": "Spatiotemporal Variation of Land Surface Temperature Retrieved from FY-3D MERSI-II Data in Pakistan",
+    "archive_path": "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Climate Change/Regional Warming, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Land Surface Temperature / Remote Sensing / Climate Change / Pakistan / MERSI-II",
+      "suggested": "Land Surface Temperature / Remote Sensing / FY-3D MERSI-II / Pakistan / Spatiotemporal Variation / Climate Trends",
+      "reason": "Keywords should be more specific to the satellite and highlight the core findings (spatiotemporal variation and climate trends)."
+    },
+    "related_papers": [
+      "Generalized split-window algorithm for estimate of land surface temperature from Chinese geostationary FengYun meteorological satellite (FY-2C) data",
+      "Cloudy-sky land surface temperature from VIIRS and MODIS satellite data using a surface energy balance-based method"
+    ],
+    "innovation_insights": [
+      "Investigate the physical mechanisms driving the contrasting warming/cooling trends in northern and southern Pakistan using MERSI-II data.",
+      "Explore the application of machine learning models to fuse MERSI-II LST data with other environmental variables for improved drought monitoring or climate impact assessments in Pakistan.",
+      "Address the uncertainty in LST retrieval from MERSI-II, especially in complex terrains, and develop methods for robust validation.",
+      "Examine the long-term consistency of MERSI-II LST trends with other historical datasets (e.g., MODIS) to understand broader climate change signals in the region."
+    ],
+    "processed_time": "2026-01-15 15:10:24"
+  },
+  "EIASQ3QD": {
+    "title": "Generalized split-window algorithm for estimate of land surface temperature from Chinese geostationary FengYun meteorological satellite (FY-2C) data",
+    "archive_path": "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Statistical Methods, Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Land Surface Temperature / FY-2C / Split-Window Algorithm / Geostationary Satellite",
+      "suggested": "Land Surface Temperature / FY-2C / Split-Window Algorithm / Geostationary Satellite / Algorithm Development / Radiative Transfer",
+      "reason": "The current keywords are accurate but could be expanded to include the core contribution (algorithm development) and underlying principles (radiative transfer if implied by the split-window method)."
+    },
+    "related_papers": [
+      "Spatiotemporal Variation of Land Surface Temperature Retrieved from FY-3D MERSI-II Data in Pakistan",
+      "Cloudy-sky land surface temperature from VIIRS and MODIS satellite data using a surface energy balance-based method"
+    ],
+    "innovation_insights": [
+      "Adapt and validate the generalized split-window algorithm for newer Chinese geostationary satellites (e.g., FY-4) to provide continuous LST monitoring.",
+      "Investigate the sensitivity of the GSWA coefficients to atmospheric conditions and land surface emissivity variations, particularly for different land cover types.",
+      "Explore the potential of using FY-2C LST data for applications like early drought detection or heatwave monitoring, given its geostationary advantage for temporal resolution.",
+      "Compare the performance and uncertainty characteristics of the GSWA with other LST retrieval algorithms using coincident data from multiple sensors."
+    ],
+    "processed_time": "2026-01-15 15:10:26"
+  },
+  "N4QRLYYN": {
+    "title": "Cloudy-sky land surface temperature from VIIRS and MODIS satellite data using a surface energy balance-based method",
+    "archive_path": "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Data Fusion, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Land Surface Temperature / Cloudy-sky / Surface Energy Balance / Kalman Filter / VIIRS and MODIS",
+      "suggested": "Land Surface Temperature / Cloudy-sky LST / Surface Energy Balance / Kalman Filter / Data Assimilation / VIIRS / MODIS",
+      "reason": "Adding 'Cloudy-sky LST' and 'Data Assimilation' clarifies the specific problem addressed and the key technique used. Mentioning the specific sensors (VIIRS/MODIS) is good."
+    },
+    "related_papers": [
+      "Spatiotemporal Variation of Land Surface Temperature Retrieved from FY-3D MERSI-II Data in Pakistan",
+      "Generalized split-window algorithm for estimate of land surface temperature from Chinese geostationary FengYun meteorological satellite (FY-2C) data"
+    ],
+    "innovation_insights": [
+      "Apply the Kalman Filter and SEB-based method to polar-orbiting satellite data from different regions, validating its generalizability across diverse climate zones and land cover types.",
+      "Investigate the integration of machine learning techniques with the SEB model and KF for further improvements in cloudy-sky LST estimation, perhaps by learning complex relationships between atmospheric variables and LST.",
+      "Develop methods to quantify the uncertainty of cloudy-sky LST estimates derived from this approach, providing more robust datasets for downstream applications.",
+      "Explore the potential of this method for gap-filling in LST time series from other sensors, especially those with frequent cloud cover, to create more continuous datasets for climate studies or hydrological modeling."
+    ],
+    "processed_time": "2026-01-15 15:10:30"
+  },
+  "3G3NLFF4": {
+    "title": "Different climate response persistence causes warming trend unevenness at continental scales",
+    "archive_path": "[ARCHIVE] Hazards/Drought/DFA, Climate Change/Climate Change Impact, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Surface Air Temperature / Climate Change Attribution / Regional Warming / Climate Models / Persistence",
+      "suggested": "Surface Air Temperature / Regional Warming / Climate Change Attribution / Model Performance / Response Persistence / China / USA",
+      "reason": "Keywords should emphasize the comparison between regions (China/USA), the core finding of differential persistence, and the evaluation of climate models."
+    },
+    "related_papers": [
+      "Spatiotemporal Variation of Land Surface Temperature Retrieved from FY-3D MERSI-II Data in Pakistan"
+    ],
+    "innovation_insights": [
+      "Investigate the specific physical and dynamical mechanisms responsible for the differential response persistence of surface air temperature to external forcings in China versus the US.",
+      "Evaluate whether advanced climate models or Earth system models can better capture these regional differences in warming trends and persistence by incorporating more detailed land-atmosphere interactions or feedback mechanisms.",
+      "Extend this analysis to other continental regions to understand the global patterns of differential warming and response persistence, identifying areas particularly vulnerable to climate change.",
+      "Explore the implications of this differential persistence for climate change adaptation and mitigation strategies, considering that regions with more persistent responses may require different long-term planning."
+    ],
+    "processed_time": "2026-01-15 15:10:35"
+  },
+  "P9K58MNU": {
+    "title": "Developing a 1 km resolution daily air temperature dataset for urban and surrounding areas in the conterminous United States",
+    "archive_path": "[ARCHIVE] Remote Sensing/Retrieval/Air Temperature, Methodology/Statistical Methods, Applications/Urban Heat Island",
+    "idea_path": "[IDEA] Data Philosophy/Scale Issues (Spatial_Temporal), Coupling/Human-Nature Systems",
+    "keyword_assessment": {
+      "current": "Air Temperature / Remote Sensing / Geographically Weighted Regression / Urban Heat Island",
+      "suggested": "Air Temperature Dataset / 1km Resolution / Urban Heat Island / Geographically Weighted Regression / Conterminous United States / Daily Temperature",
+      "reason": "Adding 'Dataset', '1km Resolution', 'Daily Temperature', and the specific region clarifies the nature and scope of the study. 'Conterminous United States' is more precise."
+    },
+    "related_papers": [
+      "Spatiotemporal Variation of Land Surface Temperature Retrieved from FY-3D MERSI-II Data in Pakistan"
+    ],
+    "innovation_insights": [
+      "Utilize this high-resolution daily air temperature dataset to investigate the fine-scale impacts of urbanization on local climate and its implications for energy consumption and public health in US cities.",
+      "Integrate this dataset with other environmental and socioeconomic data to study the complex interplay between urban form, land use, and temperature variability.",
+      "Develop ensemble methods or hybrid approaches that combine GWR with deep learning models to further improve the accuracy and reduce the uncertainty of daily temperature estimations, especially in areas with limited ground-truth data.",
+      "Apply similar methodologies to create comparable high-resolution daily air temperature datasets for other regions globally, enabling broader comparative studies on urbanization effects and climate change impacts."
+    ],
+    "processed_time": "2026-01-15 15:10:40"
+  },
+  "NFAL3BCV": {
+    "title": "Detection and Attribution of Human Influence on the Global Diurnal Temperature Range Decline",
+    "archive_path": "[ARCHIVE] Hazards/Drought/DFA, Methodology/Deep Learning (LSTM_CNN), Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Rapid Onset Events, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Detection and Attribution / Diurnal Temperature Range / Greenhouse Gases / Climate Change / CMIP6",
+      "suggested": "Detection and Attribution / Diurnal Temperature Range / Greenhouse Gases / Aerosols / Climate Change / CMIP6",
+      "reason": "The paper explicitly mentions aerosols' role in regional DTR changes, which is currently missing from the keywords."
+    },
+    "related_papers": [
+      "Paper 1: Global warming of 1.5°C",
+      "Paper 2: Stronger temperature–moisture couplings exacerbate the impact of climate warming on global crop yields",
+      "Paper 4: Observed increases in extreme fire weather driven by atmospheric humidity and temperature"
+    ],
+    "innovation_insights": [
+      "Investigate the role of specific greenhouse gases and aerosols in driving regional DTR changes beyond global averages.",
+      "Explore the teleconnections between DTR changes and other hydro-climatic extremes, such as droughts or heatwaves, potentially using advanced AI methods.",
+      "Develop more sophisticated attribution methods that can disentangle the impacts of different forcings on DTR at finer spatial and temporal scales."
+    ],
+    "processed_time": "2026-01-15 15:10:53"
+  },
+  "UHLLDFI8": {
+    "title": "Global warming of 1.5 C",
+    "archive_path": "[ARCHIVE] Applications/Climate Change Impact, Hazards/Drought/DFA, Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Dynamics/Tipping Points, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Climate Change / IPCC Special Report / Mitigation Pathways / Sustainable Development",
+      "suggested": "Climate Change / IPCC Special Report / Mitigation Pathways / Sustainable Development / Global Temperature Targets",
+      "reason": "The core focus is on the specific target of 1.5°C warming, which is a key keyword for this report."
+    },
+    "related_papers": [
+      "Paper 0: Detection and Attribution of Human Influence on the Global Diurnal Temperature Range Decline",
+      "Paper 2: Stronger temperature–moisture couplings exacerbate the impact of climate warming on global crop yields",
+      "Paper 4: Observed increases in extreme fire weather driven by atmospheric humidity and temperature"
+    ],
+    "innovation_insights": [
+      "Explore the cascading impacts of a 1.5°C warming world on various hydrological processes and extreme events not explicitly detailed in this summary.",
+      "Analyze the socio-economic implications of achieving specific emission pathways for water resource management and agricultural systems.",
+      "Investigate the feedback loops between human mitigation efforts and climate system responses at the 1.5°C threshold."
+    ],
+    "processed_time": "2026-01-15 15:10:59"
+  },
+  "WZJ8IC78": {
+    "title": "Stronger temperature–moisture couplings exacerbate the impact of climate warming on global crop yields",
+    "archive_path": "[ARCHIVE] Applications/Agricultural Systems, Hazards/Drought/DFA, Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Crop Yields / Climate Change / Temperature-Moisture Couplings / Maize & Soybean / Future Projections",
+      "suggested": "Crop Yields / Climate Change / Temperature-Moisture Couplings / Land-Atmosphere Interactions / Maize & Soybean / Future Projections",
+      "reason": "The term 'Temperature-Moisture Couplings' is better described as 'Land-Atmosphere Interactions' in a broader sense and aligns better with hydro-climatic research."
+    },
+    "related_papers": [
+      "Paper 0: Detection and Attribution of Human Influence on the Global Diurnal Temperature Range Decline",
+      "Paper 1: Global warming of 1.5°C",
+      "Paper 4: Observed increases in extreme fire weather driven by atmospheric humidity and temperature"
+    ],
+    "innovation_insights": [
+      "Investigate the micro-level mechanisms of temperature-moisture coupling influencing plant physiology and yield formation.",
+      "Develop AI-driven models that integrate dynamic land-atmosphere interactions for more accurate crop yield predictions under changing climate.",
+      "Explore regional variations in temperature-moisture coupling strength and their implications for agricultural adaptation strategies, particularly in regions with weakening coupling."
+    ],
+    "processed_time": "2026-01-15 15:11:02"
+  },
+  "PYN9L8UW": {
+    "title": "SCDNA: a serially complete precipitation and temperature dataset for North America from 1979 to 2018",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion, Methodology/Statistical Methods, Processes/Soil Moisture",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Data Quality & Validation, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Data Product / Precipitation / Temperature / North America / Data Infilling",
+      "suggested": "Data Product / Precipitation / Temperature / North America / Data Infilling / Gridded Data Generation / Quality Control",
+      "reason": "The keywords should reflect the comprehensive nature of the dataset, including its gridded aspect and the rigorous quality control applied."
+    },
+    "related_papers": [
+      "Paper 0: Detection and Attribution of Human Influence on the Global Diurnal Temperature Range Decline",
+      "Paper 2: Stronger temperature–moisture couplings exacerbate the impact of climate warming on global crop yields",
+      "Paper 4: Observed increases in extreme fire weather driven by atmospheric humidity and temperature"
+    ],
+    "innovation_insights": [
+      "Utilize this high-quality, serially complete dataset for advanced hydro-climatic trend analysis, particularly focusing on extreme events.",
+      "Integrate this dataset with remote sensing data or other observational sources to create more comprehensive hydro-meteorological datasets, potentially using AI for fusion.",
+      "Apply machine learning techniques to further refine the infilling and bias correction methods for precipitation and temperature data, exploring their impact on downstream hydrological modeling."
+    ],
+    "processed_time": "2026-01-15 15:11:06"
+  },
+  "S9XNNFV9": {
+    "title": "Observed increases in extreme fire weather driven by atmospheric humidity and temperature",
+    "archive_path": "[ARCHIVE] Hazards/Drought/DFA, Hazards/Flood, Hazards/Heatwaves & Extremes, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Abrupt Transitions/Phase Change, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Wildfire Weather / Climate Change / Fire Risk / ERA5 / Trend Analysis",
+      "suggested": "Wildfire Weather / Climate Change / Fire Risk / Atmospheric Humidity / Temperature / Trend Analysis / ERA5",
+      "reason": "The paper highlights humidity and temperature as key drivers, which should be included in the keywords for better specificity."
+    },
+    "related_papers": [
+      "Paper 0: Detection and Attribution of Human Influence on the Global Diurnal Temperature Range Decline",
+      "Paper 1: Global warming of 1.5°C",
+      "Paper 2: Stronger temperature–moisture couplings exacerbate the impact of climate warming on global crop yields",
+      "Paper 3: SCDNA: a serially complete precipitation and temperature dataset for North America from 1979 to 2018"
+    ],
+    "innovation_insights": [
+      "Investigate the compound effects of decreasing humidity and increasing temperature on other hydro-climatic extremes, such as flash droughts or heatwaves.",
+      "Develop early warning systems for extreme fire weather by integrating AI models trained on factors like atmospheric humidity, temperature, and potentially soil moisture.",
+      "Explore the spatio-temporal dynamics of land-atmosphere interactions that lead to increased fire weather, and potential feedback loops with vegetation."
+    ],
+    "processed_time": "2026-01-15 15:11:11"
+  },
+  "UPT4UPSA": {
+    "title": "Monitoring and validating spatially and temporally continuous daily evaporation and transpiration at river basin scale",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Evapotranspiration / Remote Sensing / DTD Model / Heihe River Basin / Validation",
+      "suggested": "Evapotranspiration / Remote Sensing / Hydrological Modeling / DTD Model / ET Partitioning / Heihe River Basin / Validation",
+      "reason": "The current keywords are good but could be more comprehensive by including 'Hydrological Modeling' to represent the DTD model's nature and 'ET Partitioning' to highlight the estimation of E and T components, which is a key aspect mentioned in the paper."
+    },
+    "related_papers": [
+      "Paper 3: A Method Based on Temporal Component Decomposition for Estimating 1-km All-Weather Land Surface Temperature by Merging Satellite Thermal Infrared and Passive Microwave Observations",
+      "Paper 4: A long-term (2005–2016) dataset of hourly integrated land–atmosphere interaction observations on the Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Opportunity to explore the 'DTD model' further for operational ET estimation across different scales and land cover types, especially in data-scarce regions.",
+      "Investigate the performance degradation of the DTD model on cloudy days and explore methods (e.g., data fusion with other sensors, ML models) to improve its robustness under various weather conditions.",
+      "Examine the ET partitioning (E/ET and T/ET ratios) in different agricultural systems and its implications for irrigation management and water use efficiency.",
+      "Future work could focus on integrating the DTD model with AI techniques for improved accuracy and real-time monitoring."
+    ],
+    "processed_time": "2026-01-15 15:11:26"
+  },
+  "Z44ZHZTE": {
+    "title": "High Emission Scenario Substantially Damages China's Photovoltaic Potential",
+    "archive_path": "[ARCHIVE] Applications/Water Resources Management / Methodology/Deep Learning (LSTM_CNN) / Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Modeling/Ensemble Methods / Dynamics/Non-linearity & Complexity / Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": "Solar PV Potential / Climate Change Scenarios / CMIP6 Synthesis / Economic Impact / China",
+      "suggested": "Solar PV Potential / Climate Change Scenarios / CMIP6 Synthesis / Economic Impact / China / Energy-Water Nexus / Air Temperature / Solar Irradiance",
+      "reason": "Keywords are relevant but could be expanded to include the direct impact on energy systems and the key meteorological variables (temperature, irradiance) that are modulated by climate change and affect PV potential. Adding 'Energy-Water Nexus' could link this to broader hydrological and climate studies."
+    },
+    "related_papers": [
+      "Paper 2: Global effects of different types of land use and land cover changes on near-surface air temperature",
+      "Paper 3: A Method Based on Temporal Component Decomposition for Estimating 1-km All-Weather Land Surface Temperature by Merging Satellite Thermal Infrared and Passive Microwave Observations",
+      "Paper 4: A long-term (2005–2016) dataset of hourly integrated land–atmosphere interaction observations on the Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Investigate the synergistic effects of different climate change mitigation pathways (emission scenarios) on renewable energy potential and its economic implications.",
+      "Explore the use of advanced AI techniques for downscaling CMIP6 projections and improving the accuracy of climate impact assessments on energy systems.",
+      "Develop integrated models that couple climate projections, energy system dynamics, and economic impacts to inform long-term energy policy and infrastructure planning.",
+      "This paper highlights the importance of considering climate impacts on energy resources; future work could explore how changes in solar availability might affect other water-dependent sectors or vice versa (energy-water nexus)."
+    ],
+    "processed_time": "2026-01-15 15:11:32"
+  },
+  "RPGPK6N7": {
+    "title": "Global effects of different types of land use and land cover changes on near-surface air temperature",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Hazards/Drought/Flash Drought / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Dynamics/Non-linearity & Complexity / Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Land Use Change / Climate Impact / CMIP6 Models / Biophysical Effects",
+      "suggested": "Land Use Change / Climate Impact / Biophysical Effects / Near-Surface Air Temperature / CMIP6 Models / Spatial Patterns",
+      "reason": "The current keywords are accurate but could be more specific by including 'Near-Surface Air Temperature' which is the direct output, and 'Spatial Patterns' to reflect the observed geographical variations in warming/cooling. Adding 'Biophysical Effects' is crucial as it's a central theme."
+    },
+    "related_papers": [
+      "Paper 1: High Emission Scenario Substantially Damages China's Photovoltaic Potential",
+      "Paper 3: A Method Based on Temporal Component Decomposition for Estimating 1-km All-Weather Land Surface Temperature by Merging Satellite Thermal Infrared and Passive Microwave Observations",
+      "Paper 4: A long-term (2005–2016) dataset of hourly integrated land–atmosphere interaction observations on the Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "Further research can investigate the specific biophysical mechanisms (e.g., albedo changes, evapotranspiration reduction, roughness changes) driving the observed temperature responses to different LULCC types.",
+      "Develop spatially explicit models to quantify the impact of LULCC on regional climate, focusing on feedbacks and potential tipping points in sensitive regions.",
+      "This paper provides global patterns, so future work could focus on regional case studies with high-resolution data to understand local LULCC impacts on hydrological processes and extremes.",
+      "The paper identifies dominant LULCC types; future research could quantify their relative importance under different climate change scenarios and their impact on water availability."
+    ],
+    "processed_time": "2026-01-15 15:11:47"
+  },
+  "DK4HKY83": {
+    "title": "A Method Based on Temporal Component Decomposition for Estimating 1-km All-Weather Land Surface Temperature by Merging Satellite Thermal Infrared and Passive Microwave Observations",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Methodology/Remote Sensing/Retrieval / Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty / Data Philosophy/Multi-Source Integration / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Land Surface Temperature / Thermal Infrared / Passive Microwave / Temporal Decomposition / All-weather",
+      "suggested": "Land Surface Temperature / Thermal Infrared / Passive Microwave / Temporal Decomposition / All-weather LST / Data Fusion / Satellite Remote Sensing",
+      "reason": "The current keywords are good and capture the essence. Adding 'All-weather LST', 'Data Fusion', and 'Satellite Remote Sensing' would make them more descriptive and align with standard terminology for this type of research."
+    },
+    "related_papers": [
+      "Paper 0: Monitoring and validating spatially and temporally continuous daily evaporation and transpiration at river basin scale",
+      "Paper 2: Global effects of different types of land use and land cover changes on near-surface air temperature",
+      "Paper 4: A long-term (2005–2016) dataset of hourly integrated land–atmosphere interaction observations on the Tibetan Plateau"
+    ],
+    "innovation_insights": [
+      "This method provides a pathway to generate gap-free LST data, which can be crucial for subsequent hydrological modeling, especially for estimating ET under cloudy conditions (linking to Paper 0).",
+      "Future work could explore the application of this temporal decomposition method to other satellite-derived geophysical variables that suffer from cloud contamination (e.g., soil moisture, vegetation indices).",
+      "Investigate the accuracy and limitations of the 'weather change component' (WTC) and explore alternative approaches for capturing short-term LST variability, potentially integrating AI.",
+      "The paper proposes a new decomposition method; future research could test its performance in different climatic zones and with various satellite sensor combinations."
+    ],
+    "processed_time": "2026-01-15 15:11:50"
+  },
+  "53873PHA": {
+    "title": "A long-term (2005–2016) dataset of hourly integrated land–atmosphere interaction observations on the Tibetan Plateau",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow / Processes/Soil Moisture / Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Data Quality & Validation / Data Philosophy/Scale Issues (Spatial_Temporal) / Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Data Descriptor / Tibetan Plateau / Land-Atmosphere Interaction / In-situ Observations / Hourly Dataset",
+      "suggested": "Data Descriptor / Tibetan Plateau / Land-Atmosphere Interaction / In-situ Observations / Hourly Dataset / Micrometeorology / Soil Thermodynamics",
+      "reason": "The keywords are descriptive of the data product. Adding 'Micrometeorology' and 'Soil Thermodynamics' would better capture the scope of the physical variables included in the dataset, particularly the eddy covariance and soil moisture/temperature profiles."
+    },
+    "related_papers": [
+      "Paper 0: Monitoring and validating spatially and temporally continuous daily evaporation and transpiration at river basin scale",
+      "Paper 2: Global effects of different types of land use and land cover changes on near-surface air temperature",
+      "Paper 3: A Method Based on Temporal Component Decomposition for Estimating 1-km All-Weather Land Surface Temperature by Merging Satellite Thermal Infrared and Passive Microwave Observations"
+    ],
+    "innovation_insights": [
+      "This dataset is invaluable for validating and improving remote sensing algorithms for ET, LST, and other land surface variables over the Tibetan Plateau, a region with unique land-atmosphere dynamics.",
+      "The high temporal resolution data can be used to investigate rapid land-atmosphere coupling processes, feedback loops, and their influence on regional climate and weather patterns.",
+      "Future research could use this dataset to develop and test AI models for predicting extreme weather events or understanding the impact of climate change on the Tibetan Plateau ecosystem.",
+      "The paper provides a foundation for future studies on the water-energy balance and carbon fluxes in this critical region, potentially leading to improved parameterizations in climate models."
+    ],
+    "processed_time": "2026-01-15 15:11:55"
+  },
+  "NKBSSIBJ": {
+    "title": "A global dataset of spatiotemporally seamless daily mean land surface temperatures: generation, validation, and analysis",
+    "archive_path": "[ARCHIVE] Remote Sensing/Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Land Surface Temperature / Satellite Remote Sensing / Data Generation / Diurnal Cycle / Sampling Bias",
+      "suggested": "Land Surface Temperature / Satellite Remote Sensing / Data Generation / Diurnal Cycle / Sampling Bias / Spatiotemporal Seamlessness",
+      "reason": "The current keywords are good but lack the aspect of 'spatiotemporal seamlessness' which is central to the paper's contribution and title."
+    },
+    "related_papers": [
+      "Detection of vegetation drying signals using diurnal variation of land surface temperature: Application to the 2018 East Asia heatwave",
+      "Combining kernel-driven and fusion-based methods to generate daily high-spatial-resolution land surface temperatures",
+      "Biophysical Effects of Afforestation on Land Surface Temperature in Guangdong Province, Southern China"
+    ],
+    "innovation_insights": [
+      "This paper suggests the development of improved algorithms for generating spatiotemporally continuous land surface temperature (LST) datasets, particularly addressing sampling biases inherent in polar-orbiting satellites. Future work could focus on integrating these methods with land surface models to improve their initialization and simulation accuracy, or applying the developed framework to other LST products or variables that suffer from similar sampling issues.",
+      "A key gap addressed is the quantification and mitigation of sampling bias (ΔTsb) in daily mean LST. Future research could explore the long-term impacts of this bias on climate trend analysis and how biases in other satellite-derived variables might be similarly quantified and corrected."
+    ],
+    "processed_time": "2026-01-15 15:12:11"
+  },
+  "4AI34PII": {
+    "title": "Detection of vegetation drying signals using diurnal variation of land surface temperature: Application to the 2018 East Asia heatwave",
+    "archive_path": "[ARCHIVE] Remote Sensing/Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "Land Surface Temperature / Geostationary Satellite / Vegetation Drying / Heatwave / Diurnal Temperature Cycle",
+      "suggested": "Land Surface Temperature / Geostationary Satellite / Vegetation Drying / Heatwave / Diurnal Temperature Cycle / Early Drought Detection",
+      "reason": "The keywords accurately capture the core components of the paper. Adding 'Early Drought Detection' would further highlight the paper's novel application and contribution to detecting drought signals earlier."
+    },
+    "related_papers": [
+      "A global dataset of spatiotemporally seamless daily mean land surface temperatures: generation, validation, and analysis",
+      "Combining kernel-driven and fusion-based methods to generate daily high-spatial-resolution land surface temperatures",
+      "Biophysical Effects of Afforestation on Land Surface Temperature in Guangdong Province, Southern China"
+    ],
+    "innovation_insights": [
+      "This paper introduces a novel approach to detecting vegetation drying signals by leveraging the diurnal variation of Land Surface Temperature (LST) from geostationary satellites. This opens up new avenues for developing early warning systems for drought and water stress, especially for rapid onset events. Future research could explore how these LST-derived diurnal cycle metrics can be integrated into existing drought indices or used to initialize hydrological models for improved drought forecasting.",
+      "The paper demonstrates that diurnal LST variations (specifically Tmax and DTR) can detect vegetation drying signals earlier than traditional vegetation indices. A gap that could be addressed is the transferability of this method to different land cover types, geographical regions, and sensor systems (beyond the Himawari-8 satellite), and quantifying the lead time of detection under various drought conditions."
+    ],
+    "processed_time": "2026-01-15 15:12:16"
+  },
+  "DLIJBNTL": {
+    "title": "Combining kernel-driven and fusion-based methods to generate daily high-spatial-resolution land surface temperatures",
+    "archive_path": "[ARCHIVE] Remote Sensing/Methodology/Data Fusion",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Land Surface Temperature / Spatiotemporal Fusion / Kernel-Driven Method / Thermal Sharpening / Remote Sensing",
+      "suggested": "Land Surface Temperature / Spatiotemporal Fusion / Kernel-Driven Method / Thermal Sharpening / Remote Sensing / Data Fusion",
+      "reason": "The current keywords are highly relevant. Adding 'Data Fusion' explicitly would better capture the paper's methodological approach, which combines kernel-driven and fusion-based techniques."
+    },
+    "related_papers": [
+      "A global dataset of spatiotemporally seamless daily mean land surface temperatures: generation, validation, and analysis",
+      "Detection of vegetation drying signals using diurnal variation of land surface temperature: Application to the 2018 East Asia heatwave",
+      "Biophysical Effects of Afforestation on Land Surface Temperature in Guangdong Province, Southern China"
+    ],
+    "innovation_insights": [
+      "This paper presents a hybrid method (CKFM) for generating daily high-spatial-resolution LST by combining kernel-driven and fusion-based approaches. This suggests opportunities for developing more sophisticated fusion techniques that integrate diverse data sources (e.g., thermal, optical, meteorological) to enhance LST retrieval. Future research could explore the application of this combined approach to other geophysical variables that require improved spatiotemporal resolution, or investigate adaptive algorithms that dynamically adjust fusion strategies based on data availability and quality.",
+      "The paper addresses the limitation of coarse temporal or spatial resolution in LST data. A gap could be explored in understanding the uncertainty associated with the generated high-resolution LST, especially in heterogeneous landscapes or during rapid LST changes. Developing robust uncertainty quantification frameworks for spatiotemporal fusion methods is a promising research direction."
+    ],
+    "processed_time": "2026-01-15 15:12:20"
+  },
+  "CBK5X3YT": {
+    "title": "Breakdown in precipitation–temperature scaling over India predominantly explained by cloud-driven cooling",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Compound Events/DFA",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "Precipitation Extremes / Temperature Scaling / Cloud Radiative Effect / Surface Energy Balance / India",
+      "suggested": "Precipitation Extremes / Temperature Scaling / Cloud Radiative Effect / Surface Energy Balance / India / Precipitation-Temperature Relationship",
+      "reason": "The keywords are comprehensive. Adding 'Precipitation-Temperature Relationship' would more explicitly state the core phenomenon investigated in the paper."
+    },
+    "related_papers": [
+      "Biophysical Effects of Afforestation on Land Surface Temperature in Guangdong Province, Southern China"
+    ],
+    "innovation_insights": [
+      "This paper offers a critical insight into the breakdown of the precipitation-temperature relationship, attributing it primarily to cloud-driven cooling. This suggests a new line of inquiry into understanding the role of atmospheric radiative processes in modulating surface temperature responses to precipitation changes, especially in tropical regions. Future research could investigate whether similar cloud effects are dominant in other regions or under different climate scenarios, and how this understanding can refine climate model parameterizations for precipitation extremes.",
+      "The paper highlights a limitation in directly comparing observed precipitation-temperature scaling with the Clausius-Clapeyron rate without accounting for confounding factors like cloud radiative effects. Future work could focus on developing robust methods to disentangle the effects of various feedback mechanisms (e.g., cloud cover, soil moisture, evapotranspiration) on the precipitation-temperature scaling across different climates, and assess their implications for future projections of extreme precipitation."
+    ],
+    "processed_time": "2026-01-15 15:12:23"
+  },
+  "QGW5SCBH": {
+    "title": "Biophysical Effects of Afforestation on Land Surface Temperature in Guangdong Province, Southern China",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Afforestation / Land Surface Temperature / Biophysical Effects / Energy Balance Model / Southern China",
+      "suggested": "Afforestation / Land Surface Temperature / Biophysical Effects / Energy Balance Model / Southern China / Land Use Change / Non-radiative Processes",
+      "reason": "The current keywords are accurate. Adding 'Land Use Change' and 'Non-radiative Processes' would better reflect the paper's focus on the impact of land cover transformation and the dominant role of non-radiative mechanisms."
+    },
+    "related_papers": [
+      "A global dataset of spatiotemporally seamless daily mean land surface temperatures: generation, validation, and analysis",
+      "Detection of vegetation drying signals using diurnal variation of land surface temperature: Application to the 2018 East Asia heatwave",
+      "Combining kernel-driven and fusion-based methods to generate daily high-spatial-resolution land surface temperatures"
+    ],
+    "innovation_insights": [
+      "This study reveals that afforestation in Southern China leads to a net warming effect on Land Surface Temperature (LST), driven primarily by non-radiative processes, with variations depending on the initial land cover. This challenges common assumptions about afforestation as a purely cooling strategy and suggests new research into the complex, context-dependent biophysical impacts of land use change. Future work could explore the energy balance feedback loops involved in this warming effect and investigate how different forest management practices might alter these outcomes.",
+      "The paper identifies non-radiative processes as the dominant driver of LST changes due to afforestation, contrasting with the simpler view focused on radiative effects. A gap for future research lies in quantifying the specific non-radiative components (e.g., changes in sensible heat flux, latent heat flux, aerodynamic resistance) that contribute to this warming and exploring how these effects scale across different biomes and climates. Understanding these biophysical feedbacks is crucial for accurate climate mitigation assessments."
+    ],
+    "processed_time": "2026-01-15 15:12:26"
+  },
+  "7P7ZM3L2": {
+    "title": "A near-global, high resolution land surface parameter dataset for the variable infiltration capacity model",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Land Surface Parameters / VIC Model / Dataset / Global Coverage / High Resolution",
+      "reason": "The current keywords are missing, and the paper's main contribution is a new, high-resolution global land surface parameter dataset specifically for the Variable Infiltration Capacity (VIC) model. Keywords should reflect the dataset itself, the model it's for, its spatial characteristics, and its coverage."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "This paper suggests the development of high-resolution, physically consistent land surface parameter datasets tailored for specific land surface models (LSMs) can significantly improve LSM simulations and downstream applications.",
+      "Future work could explore the impact of using this dataset on VIC model performance for various hydrological and climate studies, or investigate methods to dynamically update such datasets."
+    ],
+    "processed_time": "2026-01-15 15:12:39"
+  },
+  "MC2YFHG6": {
+    "title": "ACCESS datasets for CMIP6: methodology and idealised experiments",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning (LSTM_CNN)",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Climate Model / CMIP6 / Coupled Climate Model / Earth System Model",
+      "suggested": "ACCESS Model / CMIP6 / Climate Sensitivity / Earth System Model / Idealized Experiments",
+      "reason": "The current keywords are too generic. The suggested keywords highlight the specific model (ACCESS), its participation in CMIP6, the focus on climate sensitivity and idealized experiments, and its nature as an Earth System Model, which is more descriptive of the paper's content."
+    },
+    "related_papers": [
+      "Increased population exposure to heat and wet extremes moving from Chinese to global 1.5 or 2.0°C warming"
+    ],
+    "innovation_insights": [
+      "This paper demonstrates the importance of detailed methodological documentation for large climate model intercomparison projects like CMIP6, enabling better understanding and use of model outputs.",
+      "The paper highlights the need for comparative studies on different Earth System Model configurations (e.g., ACCESS-CM2 vs. ACCESS-ESM1.5) to understand variations in climate sensitivity and carbon cycle responses, suggesting further research into the causes of these differences and their implications for future climate projections."
+    ],
+    "processed_time": "2026-01-15 15:12:43"
+  },
+  "K4BWZESD": {
+    "title": "Generation of MODIS-like land surface temperatures under all-weather conditions based on a data fusion approach",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Land Surface Temperature / Data Fusion / MODIS / Land Data Assimilation Systems / All-Weather",
+      "suggested": "Land Surface Temperature / Data Fusion / All-Weather / Cloud Removal / MODIS / High Resolution",
+      "reason": "The current keywords are good, but 'All-Weather' and 'Cloud Removal' are key aspects of the methodology that could be more explicitly represented. Adding 'High Resolution' also reflects the 1km output."
+    },
+    "related_papers": [
+      "A near-global, high resolution land surface parameter dataset for the variable infiltration capacity model"
+    ],
+    "innovation_insights": [
+      "This paper shows that data fusion techniques can effectively overcome limitations of traditional remote sensing (cloud contamination) and land surface models (coarse resolution) to generate valuable, high-resolution, all-weather datasets.",
+      "Future work could involve validating this fused LST dataset against ground observations across diverse climates and land cover types, or applying similar fusion approaches to other satellite-derived land surface variables that are prone to cloud cover (e.g., soil moisture, snow cover)."
+    ],
+    "processed_time": "2026-01-15 15:12:46"
+  },
+  "R6HM2E8I": {
+    "title": "Increased population exposure to heat and wet extremes moving from Chinese to global 1.5 or 2.0°C warming",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "Climate Extremes / Population Exposure / Warming Levels / China / CMIP6",
+      "suggested": "Climate Extremes / Population Exposure / Warming Levels / China / Heatwaves / Heavy Precipitation / Compound Events",
+      "reason": "The current keywords are accurate but can be more specific. Adding 'Heatwaves' and 'Heavy Precipitation' directly addresses the types of extremes discussed, and 'Compound Events' better captures the nuance of co-occurring extremes, aligning with the paper's focus on combined heat-dry and heat-wet conditions."
+    },
+    "related_papers": [
+      "ACCESS datasets for CMIP6: methodology and idealised experiments"
+    ],
+    "innovation_insights": [
+      "This paper highlights the critical need to consider regional differences in warming rates and their implications for climate extremes and population vulnerability, moving beyond global average metrics.",
+      "Future research could explore the synergistic impacts of compound heat and precipitation extremes on human health, infrastructure, and ecosystems in China and globally, and investigate adaptation strategies tailored to these specific regional risks under different warming scenarios. It also points to the value of using multiple CMIP6 models to assess the range of projected extreme event changes."
+    ],
+    "processed_time": "2026-01-15 15:12:49"
+  },
+  "2PJE3NEG": {
+    "title": "Driving forces of UHI changes in China's major cities from the perspective of land surface energy balance",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)",
+    "idea_path": "[IDEA] Coupling/Energy-Water Nexus",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Urban Heat Island Effect / China / Land Surface Energy Balance / Driving Forces / Land Use Change",
+      "reason": "The current keywords are missing. The paper investigates the drivers of Urban Heat Island (UHI) changes using land surface energy balance, focusing on China's major cities. Keywords should reflect the UHI phenomenon, the geographical focus, the methodology (energy balance), and the driving forces."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "This paper suggests that understanding the energy balance of urban land surfaces is crucial for diagnosing and mitigating the Urban Heat Island effect, with significant implications for urban planning and climate adaptation.",
+      "Future work could extend this analysis to a wider range of cities globally, investigate the combined effects of UHI and other climate extremes (like heatwaves) on urban populations and infrastructure, or explore the effectiveness of different urban design strategies in modifying land surface energy balance to reduce UHI intensity."
+    ],
+    "processed_time": "2026-01-15 15:12:53"
+  },
+  "CU6M6RLV": {
+    "title": "Estimating surface soil moisture from SMAP observations using a Neural Network technique",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture/Retrieval, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Soil Moisture Retrieval, SMAP, Neural Network, Remote Sensing, Machine Learning",
+      "reason": "The current keywords are missing. The suggested keywords cover the primary sensor (SMAP), the variable being retrieved (Soil Moisture), the method used (Neural Network/Machine Learning), and the overarching technique (Remote Sensing)."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Develop advanced neural network architectures for improved soil moisture retrieval accuracy, potentially incorporating multi-source data fusion.",
+      "Investigate the physical interpretability of the neural network model to understand how it derives soil moisture information from SMAP data.",
+      "Explore the application of this NN-based retrieval for drought monitoring or agricultural applications by downscaling or fusing with other datasets."
+    ],
+    "processed_time": "2026-01-15 15:13:06"
+  },
+  "4WYR5MCR": {
+    "title": "Irrigation cooling effect on land surface temperature across China based on satellite observations",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Factors, Hazards/Heatwaves & Extremes/Influence, Methodology/Remote Sensing/Retrieval, Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Coupling/Vegetation-Water Interaction, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Irrigation, Land Surface Temperature, Evapotranspiration, Satellite Remote Sensing, Cooling Effect, China",
+      "reason": "The current keywords are missing. The suggested keywords highlight the core intervention (Irrigation), the measured response (Land Surface Temperature), the underlying process (Evapotranspiration, Cooling Effect), the methodology (Satellite Remote Sensing), and the geographical focus (China)."
+    },
+    "related_papers": [
+      "Surface urban heat island detected by all-weather satellite land surface temperature"
+    ],
+    "innovation_insights": [
+      "Quantify the spatial extent and magnitude of irrigation-induced cooling effects across different climatic and agricultural regions globally.",
+      "Investigate the role of different irrigation techniques (e.g., drip, sprinkler, flood) on the magnitude and duration of the cooling effect.",
+      "Explore the potential of satellite-derived LST to serve as an indicator for effective water management and irrigation practices, particularly in arid and semi-arid regions."
+    ],
+    "processed_time": "2026-01-15 15:13:11"
+  },
+  "A734LR47": {
+    "title": "Surface urban heat island detected by all-weather satellite land surface temperature",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Urban Heat Island, Methodology/Remote Sensing/Retrieval, Applications/Urban Systems",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Data Philosophy/Signal Purification/Uncertainty, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Surface Urban Heat Island / All-weather LST / Cloud Impact / Clear-sky Bias / Remote Sensing",
+      "suggested": "Surface Urban Heat Island, All-weather LST, Cloud Impact, Clear-sky Bias, Remote Sensing, Urban Climatology",
+      "reason": "Current keywords are good but could be slightly expanded to include a broader domain keyword like 'Urban Climatology' to enhance discoverability within that field."
+    },
+    "related_papers": [
+      "Irrigation cooling effect on land surface temperature across China based on satellite observations"
+    ],
+    "innovation_insights": [
+      "Develop robust methods for cloud removal or correction in LST data to improve the accuracy of urban heat island studies.",
+      "Investigate the impact of all-weather LST data on understanding diurnal and seasonal variations of SUHI.",
+      "Explore the link between SUHI intensity, urban morphology, and local meteorological conditions, especially considering the influence of clouds and atmospheric aerosols."
+    ],
+    "processed_time": "2026-01-15 15:13:15"
+  },
+  "2SDYSRKP": {
+    "title": "Termite sensitivity to temperature affects global wood decay rates",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture/Decomposition, Unclassified",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity, Unclassified",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Termite, Temperature Sensitivity, Wood Decay, Global Scale, Ecosystem Function",
+      "reason": "The current keywords are missing. The suggested keywords capture the focal organism (Termite), the key factor investigated (Temperature Sensitivity), the process studied (Wood Decay), the scale (Global Scale), and the ecological implication (Ecosystem Function)."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Investigate the cascading effects of termite activity on soil carbon dynamics and nutrient cycling under varying temperature regimes.",
+      "Explore how changes in global temperature, mediated by termite sensitivity, might alter terrestrial ecosystem resilience and carbon storage potential.",
+      "Develop models that integrate biological agents like termites into broader climate models to better represent decomposition processes and their sensitivity to climate change."
+    ],
+    "processed_time": "2026-01-15 15:13:20"
+  },
+  "78MZQVPK": {
+    "title": "Trends in surface equivalent potential temperature: A more comprehensive metric for global warming and weather extremes",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Global Warming, Methodology/Statistical Methods, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": null,
+      "suggested": "Equivalent Potential Temperature, Global Warming, Weather Extremes, Climate Change, Atmospheric Thermodynamics",
+      "reason": "The current keywords are missing. The suggested keywords highlight the key metric (Equivalent Potential Temperature), the phenomena studied (Global Warming, Weather Extremes), the broader context (Climate Change), and the underlying scientific domain (Atmospheric Thermodynamics)."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Utilize equivalent potential temperature as a predictor for identifying regions vulnerable to extreme heat events and changes in atmospheric stability.",
+      "Explore the relationship between trends in equivalent potential temperature and changes in precipitation patterns and intensity.",
+      "Investigate the potential for equivalent potential temperature to serve as a more integrated indicator of climate change impacts on both temperature and moisture availability."
+    ],
+    "processed_time": "2026-01-15 15:13:24"
+  },
+  "B42GJFC9": {
+    "title": "MDINEOF: A scheme to recover land surface temperatures under cloudy-sky conditions by incorporating radiation fluxes",
+    "archive_path": "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Data Fusion/Land Surface Temperature, Methodology/Statistical Methods/Empirical Orthogonal Functions",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML)/Data Assimilation, Dynamics/Non-linearity & Complexity/Spatial Patterns",
+    "keyword_assessment": {
+      "current": "Land surface temperature, Multivariate Data INterpolating Empirical Orthogonal Functions, Reconstruction",
+      "suggested": "Land Surface Temperature, Cloud Cover, Data Reconstruction, Multivariate EOF, Radiation Fluxes, Remote Sensing",
+      "reason": "Current keywords are a bit broad. Adding 'Cloud Cover' directly addresses a key challenge. 'Multivariate EOF' is more specific than 'MDINEOF'. Including 'Radiation Fluxes' and 'Remote Sensing' highlights key inputs and data sources. 'Data Reconstruction' is a good descriptor of the method's purpose."
+    },
+    "related_papers": [
+      "Paper 3: Conversion of satellite passive microwave signals to land surface “skin” temperature for extremely dry deserts",
+      "Paper 4: A time-continuous land surface temperature (LST) data fusion approach based on deep learning with microwave remote sensing and high-density ground truth observations"
+    ],
+    "innovation_insights": [
+      "Explore the integration of MDINEOF with other data fusion techniques to further enhance LST reconstruction under challenging conditions (e.g., mixed cloud/clear pixels).",
+      "Investigate the sensitivity of the MDINEOF method to different types and levels of cloud cover and its impact on the physical interpretation of reconstructed LST.",
+      "Develop adaptive radiation flux assimilation schemes within MDINEOF to improve LST accuracy in regions with sparse ground-based radiation measurements.",
+      "Analyze the trade-offs between spatial resolution and temporal continuity in LST reconstruction using MDINEOF compared to other methods like deep learning approaches."
+    ],
+    "processed_time": "2026-01-15 15:13:41"
+  },
+  "VLBBZMD2": {
+    "title": "Robust land surface temperature record for north China over the past 21,000 years",
+    "archive_path": "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Statistical Methods/Paleoclimate Reconstruction",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Proxy Data, Dynamics/Non-linearity & Complexity/Long-term Trends, Data Philosophy/Data Quality & Validation/Proxy Validation",
+    "keyword_assessment": {
+      "current": "",
+      "suggested": "Land Surface Temperature, Paleoclimate, Isotope Geochemistry, Proxy Records, North China, Long-term Reconstruction",
+      "reason": "Current keywords are missing. Suggested keywords capture the core elements: the target variable (LST), the timescale (Paleoclimate, Long-term Reconstruction), the methodology (Isotope Geochemistry, Proxy Records), and the region (North China)."
+    },
+    "related_papers": [
+      "Paper 1: MDINEOF: A scheme to recover land surface temperatures under cloudy-sky conditions by incorporating radiation fluxes",
+      "Paper 3: Conversion of satellite passive microwave signals to land surface “skin” temperature for extremely dry deserts",
+      "Paper 4: A time-continuous land surface temperature (LST) data fusion approach based on deep learning with microwave remote sensing and high-density ground truth observations"
+    ],
+    "innovation_insights": [
+      "Investigate the potential for developing novel paleo-LST proxies by exploring other biological or geological archives beyond membrane lipids and snail shells.",
+      "Examine the drivers of long-term LST variations in North China over the past 21,000 years, linking them to paleoclimatic events and landscape changes.",
+      "Compare the temporal resolution and uncertainty characteristics of different paleo-LST reconstruction methods (e.g., isotope-based vs. modeling-based) for the same region.",
+      "Assess the overlap and complementarity of instrumental/remote sensing LST records with paleo-LST reconstructions to create a comprehensive LST dataset across different timescales."
+    ],
+    "processed_time": "2026-01-15 15:13:46"
+  },
+  "AFWN6IG5": {
+    "title": "Conversion of satellite passive microwave signals to land surface “skin” temperature for extremely dry deserts",
+    "archive_path": "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Hazards/Drought/Extreme Aridity, Methodology/Statistical Methods/Model Development",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling/Surface Energy Balance, Data Philosophy/Scale Issues (Spatial_Temporal)/Surface Properties, Modeling/Hybrid Modeling (Process+ML)/Parameterization, Dynamics/Rapid Onset Events/Arid Environments",
+    "keyword_assessment": {
+      "current": "Passive microwave (PMW)",
+      "suggested": "Land Surface Temperature, Passive Microwave, Skin Temperature, Desert, Remote Sensing, Soil Moisture, Vegetation Transmissivity",
+      "reason": "The current keyword 'Passive microwave (PMW)' is too narrow. Essential terms like 'Land Surface Temperature', 'Skin Temperature', and 'Desert' are missing. Including 'Remote Sensing', 'Soil Moisture', and 'Vegetation Transmissivity' reflects the key inputs and outputs of the developed model."
+    },
+    "related_papers": [
+      "Paper 1: MDINEOF: A scheme to recover land surface temperatures under cloudy-sky conditions by incorporating radiation fluxes",
+      "Paper 4: A time-continuous land surface temperature (LST) data fusion approach based on deep learning with microwave remote sensing and high-density ground truth observations"
+    ],
+    "innovation_insights": [
+      "Extend the developed model to other arid and semi-arid regions globally, assessing its transferability and identifying necessary regional parameter adjustments.",
+      "Investigate the integration of the PMW-derived skin temperature with thermal infrared (TIR) data using data fusion techniques to create seamless, all-weather LST products for deserts.",
+      "Analyze the impact of different land surface characteristics (e.g., sand type, rock content, vegetation cover) on the accuracy of the PMW-to-skin temperature conversion in desert environments.",
+      "Evaluate the utility of the high-resolution, all-weather desert LST product for monitoring land degradation, water scarcity, and ecological changes in these vulnerable regions."
+    ],
+    "processed_time": "2026-01-15 15:13:54"
+  },
+  "MXFWYW4Y": {
+    "title": "A time-continuous land surface temperature (LST) data fusion approach based on deep learning with microwave remote sensing and high-density ground truth observations",
+    "archive_path": "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature, Methodology/Deep Learning (LSTM_CNN)/Data Fusion, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Big Data, Modeling/Hybrid Modeling (Process+ML)/Deep Learning, Dynamics/Non-linearity & Complexity/Socio-Environmental Interactions, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "地表温度",
+      "suggested": "Land Surface Temperature, Deep Learning, Data Fusion, Microwave Remote Sensing, Ground Observations, Time-Continuous, U-Net",
+      "reason": "The current keyword '地表温度' (Land Surface Temperature) is too general and in Chinese. Suggested keywords include the core methodology (Deep Learning, U-Net), data sources (Microwave Remote Sensing, Ground Observations), the outcome (Time-Continuous), and the specific technique (Data Fusion)."
+    },
+    "related_papers": [
+      "Paper 1: MDINEOF: A scheme to recover land surface temperatures under cloudy-sky conditions by incorporating radiation fluxes",
+      "Paper 3: Conversion of satellite passive microwave signals to land surface “skin” temperature for extremely dry deserts"
+    ],
+    "innovation_insights": [
+      "Explore the application of advanced deep learning architectures beyond U-Net (e.g., Transformers, Graph Neural Networks) for LST data fusion, potentially capturing more complex spatial-temporal relationships.",
+      "Investigate the explicit incorporation of physical land surface models or parameterizations within the deep learning framework (Physics-Informed AI) to enhance the robustness and interpretability of the LST fusion model.",
+      "Quantify the contribution of different driving factors (climate, human activity, geography, vegetation) to LST variations over China using the developed fused dataset and advanced attribution methods.",
+      "Assess the impact of data assimilation frequency and density of ground truth observations on the accuracy and uncertainty of the time-continuous LST product."
+    ],
+    "processed_time": "2026-01-15 15:14:01"
+  },
+  "863SA2GD": {
+    "title": "Consistent ground surface temperature climatology over China: 1956–2022",
+    "archive_path": "[ARCHIVE] Processes/Unclassified",
+    "idea_path": "[IDEA] Mechanism/Unclassified",
+    "keyword_assessment": {
+      "current": "Ground surface temperature (地表温度)",
+      "suggested": "Ground surface temperature, China, Climatology, Long-term trends, Land-atmosphere interaction",
+      "reason": "Current keyword is too narrow. Expanding to include geographical scope, temporal aspect, and broader relevance improves searchability and context."
+    },
+    "related_papers": [
+      "Paper 1: Solar zenith angle-based calibration of himawari-8 land surface temperature for correcting diurnal retrieval error characteristics",
+      "Paper 2: TRIMS LST: A daily 1 km all-weather land surface temperature dataset for China's landmass and surrounding areas (2000–2022)",
+      "Paper 3: A 40-year 1-km daily seamless near-surface air temperature product over yellow river basin of China"
+    ],
+    "innovation_insights": [
+      "This paper establishes a long-term, consistent ground surface temperature climatology for China. Future research could investigate the drivers of observed trends, particularly focusing on the interplay between land surface temperature and atmospheric variables, and its implications for regional climate change and hydrological processes.",
+      "The paper provides a foundational dataset. Future work could leverage this data to build predictive models for land surface temperature, explore its role in extreme events (like heatwaves or droughts), or integrate it with other datasets (e.g., soil moisture, ET) to understand land-atmosphere feedbacks more comprehensively."
+    ],
+    "processed_time": "2026-01-15 15:14:16"
+  },
+  "SZ4N6K7K": {
+    "title": "Solar zenith angle-based calibration of himawari-8 land surface temperature for correcting diurnal retrieval error characteristics",
+    "archive_path": "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Land surface temperature, Geostationary, Himawari-8, Harmonisation, Calibration, Diurnal temperature cycle, Solar zenith angle, Directionality, MODIS, VIIRS",
+      "suggested": "Land Surface Temperature, Himawari-8, MODIS, VIIRS, Data Harmonization, Calibration, Diurnal Temperature Cycle, Solar Zenith Angle, Geostationary Satellites, Remote Sensing",
+      "reason": "Keywords are quite comprehensive but could be slightly reordered for better flow and include explicit mention of satellite types (Geostationary) and the primary technique (Remote Sensing)."
+    },
+    "related_papers": [
+      "Paper 0: Consistent ground surface temperature climatology over China: 1956–2022",
+      "Paper 2: TRIMS LST: A daily 1 km all-weather land surface temperature dataset for China's landmass and surrounding areas (2000–2022)"
+    ],
+    "innovation_insights": [
+      "This paper focuses on harmonizing LST from different satellite platforms, highlighting the challenges of inter-sensor consistency. Future research could explore advanced machine learning techniques for LST harmonization, potentially incorporating physical constraints or leveraging multi-sensor data fusion beyond simple calibration.",
+      "The method addresses diurnal retrieval errors. Further research could investigate the impact of these calibration improvements on downstream applications, such as land surface modeling, agricultural monitoring, or urban heat island studies, and explore its effectiveness in different geographical and climatic zones."
+    ],
+    "processed_time": "2026-01-15 15:14:20"
+  },
+  "WSYIWI5D": {
+    "title": "TRIMS LST: A daily 1 km all-weather land surface temperature dataset for China's landmass and surrounding areas (2000–2022)",
+    "archive_path": "[ARCHIVE] Remote Sensing/Retrieval/Land Surface Temperature",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Data Quality & Validation",
+    "keyword_assessment": {
+      "current": "TRIMS LST数据集为气候变化研究、生态系统监测和环境评估提供了可靠的数据支持。",
+      "suggested": "Land Surface Temperature, TRIMS LST, China, All-weather, Daily, 1 km resolution, Data Fusion, Reanalysis Data, Cloud Contamination, Earth System Science Data",
+      "reason": "The current keywords are descriptive of the dataset's application rather than the dataset itself and its technical characteristics. The suggested keywords are more specific to the data product, its origin, resolution, and the methodologies used."
+    },
+    "related_papers": [
+      "Paper 0: Consistent ground surface temperature climatology over China: 1956–2022",
+      "Paper 1: Solar zenith angle-based calibration of himawari-8 land surface temperature for correcting diurnal retrieval error characteristics",
+      "Paper 3: A 40-year 1-km daily seamless near-surface air temperature product over yellow river basin of China"
+    ],
+    "innovation_insights": [
+      "The development of an 'all-weather' LST dataset by fusing reanalysis and satellite data is a significant step. Future work could focus on refining the fusion algorithms to further reduce uncertainties, especially in challenging cloud conditions, and validating its performance against a wider range of ground-truth data.",
+      "This paper provides a valuable, high-resolution, all-weather LST dataset for China. It opens opportunities for detailed regional climate studies, ecosystem monitoring, and hydrological impact assessments. Future research could explore the dataset's utility in understanding land-atmosphere interactions, particularly in data-scarce regions or during persistent cloud cover periods."
+    ],
+    "processed_time": "2026-01-15 15:14:23"
+  },
+  "TTK2YAQ2": {
+    "title": "A 40-year 1-km daily seamless near-surface air temperature product over yellow river basin of China",
+    "archive_path": "[ARCHIVE] Remote Sensing/Retrieval/Air Temperature",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Data Quality & Validation",
+    "keyword_assessment": {
+      "current": "ERA5-Land, 全球陆地数据同化系统（GLDAS）, 遥感数据, Google Earth Engine (GEE), 随机森林（RF）, 近地表气温（NSAT）",
+      "suggested": "Near-Surface Air Temperature, Yellow River Basin, China, 1 km Resolution, Daily, Long-term, Seamless Product, Data Fusion, Random Forest, Google Earth Engine",
+      "reason": "Current keywords are a mix of data sources, methods, and the parameter itself. Suggested keywords are more descriptive of the product's core characteristics (parameter, region, scale, temporal coverage, methodology) and improve clarity."
+    },
+    "related_papers": [
+      "Paper 0: Consistent ground surface temperature climatology over China: 1956–2022",
+      "Paper 2: TRIMS LST: A daily 1 km all-weather land surface temperature dataset for China's landmass and surrounding areas (2000–2022)"
+    ],
+    "innovation_insights": [
+      "This study demonstrates a robust framework for generating seamless, high-resolution near-surface air temperature products by integrating multiple data sources with machine learning. Future research could adapt this framework to other regions or different meteorological variables, and investigate the uncertainty associated with each data source and the fusion process.",
+      "The creation of a 40-year, 1km daily seamless NSAT product is highly valuable for climate and hydrological studies. Further work could involve using this dataset to analyze long-term trends in temperature extremes, their impact on water resources in the Yellow River basin, or their contribution to phenomena like flash droughts."
+    ],
+    "processed_time": "2026-01-15 15:14:27"
+  },
+  "BJFZ3CE3": {
+    "title": "Decipher the sensitivity of urban canopy air temperature to anthropogenic heat flux with a forcing-feedback framework",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling",
+    "keyword_assessment": {
+      "current": "No keywords provided.",
+      "suggested": "Urban Air Temperature, Anthropogenic Heat Flux, Forcing-Feedback Framework, Land-Atmosphere Interaction, Urban Climate, Sensitivity Analysis",
+      "reason": "No keywords were provided in the prompt. The suggested keywords reflect the core concepts of the paper: urban heat, heat sources, and the analytical framework used to understand their relationship."
+    },
+    "related_papers": [
+      "Paper 0: Consistent ground surface temperature climatology over China: 1956–2022",
+      "Paper 3: A 40-year 1-km daily seamless near-surface air temperature product over yellow river basin of China"
+    ],
+    "innovation_insights": [
+      "The paper utilizes a forcing-feedback framework to dissect the sensitivity of urban air temperature to anthropogenic heat flux. Future research could extend this framework to analyze other urban climate drivers (e.g., albedo, vegetation) or incorporate dynamic feedbacks, such as changes in atmospheric circulation patterns.",
+      "This study provides a mechanistic understanding of urban heat. It opens opportunities for exploring how urban planning decisions (e.g., building density, green space) influence local climate and energy demand, and for developing more accurate urban climate models, especially under scenarios of increasing urbanization and heat exposure."
+    ],
+    "processed_time": "2026-01-15 15:14:30"
+  },
+  "MUHM7DC6": {
+    "title": "Increased diurnal temperature range in global drylands in more recent decades",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drylands, Processes/ET, Methodology/Remote Sensing/Retrieval",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity, Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Diurnal temperature range, Drylands, Cloud cover, Moisture flux, Water vapor 关键词：昼夜温差，干旱区，云层覆盖，湿度通量，水汽",
+      "suggested": "Diurnal Temperature Range (DTR), Drylands, Cloud Cover, Land-Atmosphere Fluxes, Water Vapor, Recent Decades, Climate Variability",
+      "reason": "The current keywords are good but could be more specific. Adding 'DTR' in acronym form and including terms like 'Recent Decades' and 'Climate Variability' would better capture the paper's temporal scope and implications."
+    },
+    "related_papers": [
+      "Amplified warming of north American cold extremes linked to human-induced changes in temperature variability"
+    ],
+    "innovation_insights": [
+      "Investigate the specific mechanisms by which changes in cloud cover and moisture flux contribute to increased DTR in drylands, potentially using advanced land-atmosphere models or<seg_55> data assimilation techniques.",
+      "Explore the teleconnections and broader climate impacts of amplified DTR in drylands, considering its influence on regional and global weather patterns, and extreme events.",
+      "Develop improved methods for monitoring and modeling DTR in drylands, given its sensitivity to various atmospheric and land surface processes, and its potential use as an indicator of climate change."
+    ],
+    "processed_time": "2026-01-15 15:14:44"
+  },
+  "JBDUGJF8": {
+    "title": "Daily station-level records of air temperature, snow depth, and ground temperature in the northern hemisphere",
+    "archive_path": "[ARCHIVE] Processes/Snow & Glacier, Processes/Ground Temperature, Methodology/Deep Learning (LSTM_CNN), Methodology/Data Fusion, Methodology/Statistical Methods",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Data Quality & Validation, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Air Temperature, Snow Depth, Ground Temperature, Northern Hemisphere, Deep Learning, ERA5-Land",
+      "suggested": "Northern Hemisphere Temperature, Snow Depth, Ground Temperature, Station Data, ERA5-Land, Deep Learning, Data Reconstruction, High Temporal Resolution",
+      "reason": "The current keywords accurately reflect the core data and methods. 'Station Data' and 'Data Reconstruction' would further highlight the dataset's creation process, and 'High Temporal Resolution' emphasizes a key characteristic."
+    },
+    "related_papers": [
+      "Increased diurnal temperature range in global drylands in more recent decades",
+      "Amplified warming of north American cold extremes linked to human-induced changes in temperature variability"
+    ],
+    "innovation_insights": [
+      "Utilize the high temporal resolution of this dataset to investigate diurnal and sub-daily land-atmosphere energy exchange processes, particularly in snow-covered regions.",
+      "Assess the performance of deep learning models for reconstructing different meteorological variables under various environmental conditions (e.g., high latitudes, presence of snow) to inform future data assimilation and gap-filling strategies.",
+      "Incorporate this comprehensive dataset into climate model evaluation and improvement, focusing on the accurate representation of cold season processes and extremes in the Northern Hemisphere."
+    ],
+    "processed_time": "2026-01-15 15:14:49"
+  },
+  "2ARSANTR": {
+    "title": "Amplified warming of north American cold extremes linked to human-induced changes in temperature variability",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes, Hazards/Drought/Flash Drought, Methodology/Deep Learning (LSTM_CNN), Methodology/Statistical Methods, Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Dynamics/Rapid Onset Events, Mechanism/Feedback Loops & Cascades, Modeling/Causal Inference",
+    "keyword_assessment": {
+      "current": "This article can be published in 'Nature Communications' for the following main reasons:",
+      "suggested": "Cold Extremes, Amplified Warming, North America, Temperature Variability, Human Influence, Climate Change, Extreme Events, Attribution",
+      "reason": "The current keywords are not actual keywords but a placeholder referring to publication reasons. The suggested keywords are derived from the title and abstract, covering the core research topic, geographical focus, and methodology of attribution."
+    },
+    "related_papers": [
+      "Increased diurnal temperature range in global drylands in more recent decades",
+      "Daily station-level records of air temperature, snow depth, and ground temperature in the northern hemisphere"
+    ],
+    "innovation_insights": [
+      "Explore the causal pathways through which human-induced changes in temperature variability lead to amplified warming of cold extremes, employing causal inference techniques.",
+      "Investigate the role of specific atmospheric circulation patterns and their changes in modulating the amplified warming of cold extremes in North America.",
+      "Develop and test early warning systems for extreme cold events that account for shifts in temperature variability and their attribution to human influence."
+    ],
+    "processed_time": "2026-01-15 15:14:55"
+  }
+}
