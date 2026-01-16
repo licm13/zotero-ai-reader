@@ -49,3 +49,26 @@ desktop.ini
 *.tmp
 *.bak
 
+# 生成的缓存和分析结果文件
+collections_cache.json
+user_profile.json
+batch_run_log.txt
+paper_analysis_results.json
+
+# 分析结果目录
+analysis_json/
+*_deep_analysis_results.json
+*_research_opportunities_report.json
+
+# 关键词分析结果（根据需要可保留部分）
+keyword_analysis/*.json
+keyword_analysis/*.txt
+
+# 其他动态生成的文件
+*.json.bak
+*_backup.json
+
+# 测试和临时脚本
+test_*.py
+batch_run_*.py
+
