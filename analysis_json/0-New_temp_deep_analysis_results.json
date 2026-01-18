@@ -272,5 +272,629 @@
       "Develop methods for real-time attribution of flash drought events using the causality framework, providing valuable information for disaster response and risk management."
     ],
     "processed_time": "2026-01-16 01:16:48"
+  },
+  "B9P5J9MY": {
+    "title": "A new multivariate composite drought index considering the lag time and the cumulative effects of drought",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drought Index, Methodology/Statistical Methods, Processes/Runoff & Streamflow",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, Data Philosophy/Multi-Source Integration, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "干旱指数 / 综合干旱指数 / 滞后效应 / 累积效应 / 遥感",
+      "suggested": "Multivariate Composite Drought Index / Lag Effects / Cumulative Effects / Drought Monitoring / Remote Sensing / Hydrological Drought / Agricultural Drought / Meteorological Drought",
+      "reason": "The current keywords are in Chinese and lack specificity. The suggested keywords are in English, more specific, and cover the different types of drought integrated and the phenomena considered."
+    },
+    "related_papers": [
+      "Attribution of interannual runoff magnitude and variability in China’s large reservoir drainage areas using global hydrological models"
+    ],
+    "innovation_insights": [
+      "Investigate the impact of different temporal resolutions for meteorological, agricultural, and hydrological data on the performance of MCDI.",
+      "Explore the transferability of the MCDI framework to other regions beyond China, considering regional differences in drought characteristics and data availability.",
+      "Develop an AI-driven approach to automatically determine optimal lag times and cumulative periods for different drought types within the MCDI framework.",
+      "Address the limitation of relying on specific formulas like Gringorten by exploring alternative statistical or machine learning methods for integrating different drought indicators."
+    ],
+    "processed_time": "2026-01-16 21:00:01"
+  },
+  "CMXNHSSY": {
+    "title": "Weakening mountain vegetation aspect asymmetry due to altered energy conditions",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, Processes/Runoff & Streamflow, Methodology/Remote Sensing/Retrieval, Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling, Dynamics/Non-linearity & Complexity, Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "山地植被 / 气候变化 / 遥感 / 坡向效应 / 水热平衡",
+      "suggested": "Mountain Vegetation / Aspect Asymmetry / Climate Change / Remote Sensing / Energy Balance / Water-Energy Nexus / Topography",
+      "reason": "Current keywords are good but can be expanded to include more specific terms like 'Aspect Asymmetry' and 'Water-Energy Nexus' to better reflect the paper's findings and broader implications."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Explore the role of soil moisture variability and its interaction with energy conditions in driving aspect asymmetry changes in mountain regions.",
+      "Investigate how changes in vegetation aspect asymmetry might feedback to local land-atmosphere interactions and microclimate regulation.",
+      "Apply deep learning models to analyze high-resolution remote sensing data for a more detailed understanding of vegetation-climate interactions at the aspect level.",
+      "Examine the potential implications of weakening aspect asymmetry for biodiversity and ecosystem services in mountain environments."
+    ],
+    "processed_time": "2026-01-16 21:00:06"
+  },
+  "8Q7ABIUJ": {
+    "title": "Attribution of interannual runoff magnitude and variability in China’s large reservoir drainage areas using global hydrological models",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Hazards/Drought/Drought, Methodology/Deep Learning (LSTM_CNN), Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML), Dynamics/Drought-Flood Transitions, Data Philosophy/Scale Issues (Spatial_Temporal), Coupling/Human-Nature Systems",
+    "keyword_assessment": {
+      "current": "Global Hydrological Models / Climate Change Attribution / Runoff Variability / Reservoir Management / China",
+      "suggested": "Runoff Attribution / Climate Change Impact / Hydrological Models / Reservoir Management / China / Variability Analysis / Anthropogenic Impact",
+      "reason": "Current keywords are accurate but could be slightly refined to emphasize the attribution aspect and the role of human activities more explicitly, especially given the focus on reservoir management."
+    },
+    "related_papers": [
+      "A new multivariate composite drought index considering the lag time and the cumulative effects of drought"
+    ],
+    "innovation_insights": [
+      "Integrate deep learning approaches with global hydrological models to improve the attribution of runoff changes to climate and human influences.",
+      "Investigate the non-stationarity of the relationship between climate drivers and runoff variability in Chinese reservoir drainage areas, and its implications for future water management.",
+      "Develop more sophisticated methods to disentangle the contributions of anthropogenic climate change and natural climate variability to extreme runoff events (both floods and droughts).",
+      "Assess the impact of reservoir operations themselves on runoff magnitude and variability, beyond just their use for management."
+    ],
+    "processed_time": "2026-01-16 21:00:12"
+  },
+  "I52SVEYX": {
+    "title": "Divergent water controls on vegetation productivity across drylands of the contiguous united states",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Gross Primary Productivity / Hazards/Drought/Drought Sensitivity / Methodology/Deep Learning (LSTM_CNN) / Methodology/Statistical Methods / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades / Data Philosophy/Signal Purification/Uncertainty / Modeling/Physics-Informed AI / Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Drylands / Gross Primary Productivity / Soil Moisture / Vapor Pressure Deficit / XGBoost-SHAP",
+      "suggested": "Drylands / Gross Primary Productivity / Soil Moisture / Vapor Pressure Deficit / XGBoost-SHAP / Threshold Behavior / Land-Atmosphere Coupling",
+      "reason": "Current keywords cover the main variables and method. Adding 'Threshold Behavior' reflects a key finding, and 'Land-Atmosphere Coupling' captures the interaction between soil moisture, VPD, and GPP."
+    },
+    "related_papers": [
+      "Multi-satellite derived data reveals spatiotemporal dynamics of carbon-water coupling and its drivers in tropical ecosystems",
+      "Increased sensitivity of ecosystem to meteorological drought reduces carbon uptake in the yellow river basin"
+    ],
+    "innovation_insights": [
+      "Investigate the generalizability of the identified threshold effects of soil moisture and VPD on GPP across different biomes and climate zones.",
+      "Explore the non-linear interactions between soil moisture, vapor pressure deficit, and their diurnal variations in driving vegetation productivity using more advanced AI models or physics-informed approaches.",
+      "Quantify the impact of changes in land surface properties (e.g., soil type, vegetation cover) on the relative importance of soil moisture versus VPD in controlling GPP.",
+      "Address the uncertainty in GPP estimation by integrating multi-source satellite data and in-situ measurements, and explore advanced uncertainty quantification techniques for ML models."
+    ],
+    "processed_time": "2026-01-18 20:56:12"
+  },
+  "CHD5FPGM": {
+    "title": "Multi-satellite derived data reveals spatiotemporal dynamics of carbon-water coupling and its drivers in tropical ecosystems",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Evapotranspiration / Hazards/Drought/Drought Sensitivity / Methodology/Remote Sensing/Retrieval / Applications/Climate Change Impact / Applications/Water Resources Management",
+    "idea_path": "[IDEA] Mechanism/Land-Atmosphere Coupling / Data Philosophy/Multi-Source Integration / Modeling/Hybrid Modeling (Process+ML) / Dynamics/Non-linearity & Complexity / Coupling/Vegetation-Water Interaction",
+    "keyword_assessment": {
+      "current": "Remote Sensing / Tropical Ecosystems / Carbon-Water Coupling / El Niño / Leaf Area Index",
+      "suggested": "Remote Sensing / Tropical Ecosystems / Carbon-Water Coupling / El Niño / Leaf Area Index / Water Use Efficiency (WUE) / Spatiotemporal Dynamics",
+      "reason": "Current keywords are good but can be enhanced by explicitly including 'Water Use Efficiency (WUE)' as it's a central theme and 'Spatiotemporal Dynamics' as it's a key aspect of the analysis."
+    },
+    "related_papers": [
+      "Divergent water controls on vegetation productivity across drylands of the contiguous united states",
+      "Increased sensitivity of ecosystem to meteorological drought reduces carbon uptake in the yellow river basin"
+    ],
+    "innovation_insights": [
+      "Apply the multi-satellite data analysis framework to other major tropical or arid/semi-arid regions to assess the universality of observed carbon-water coupling dynamics.",
+      "Investigate the feedback mechanisms between vegetation structure (LAI) and atmospheric conditions (e.g., VPD, temperature) in regulating carbon-water coupling, particularly during extreme events like El Niño.",
+      "Develop hybrid models that integrate process-based understanding of ecosystem functions with remote sensing data and AI for more accurate and interpretable predictions of carbon-water dynamics.",
+      "Explore the role of land-atmosphere interactions and feedback loops in driving the observed trends in WUE and carbon uptake in tropical ecosystems."
+    ],
+    "processed_time": "2026-01-18 20:56:22"
+  },
+  "IJR4G46N": {
+    "title": "Increased sensitivity of ecosystem to meteorological drought reduces carbon uptake in the yellow river basin",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Gross Primary Productivity / Hazards/Drought/Drought Sensitivity / Methodology/Deep Learning (LSTM_CNN) / Methodology/Statistical Methods / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Mechanism/Feedback Loops & Cascades / Dynamics/Non-linearity & Complexity / Dynamics/Rapid Onset Events / Data Philosophy/Signal Purification/Uncertainty / Modeling/Causal Inference",
+    "keyword_assessment": {
+      "current": "Carbon Uptake / Drought Sensitivity / Machine Learning / Yellow River Basin / Remote Sensing",
+      "suggested": "Carbon Uptake / Drought Sensitivity / Machine Learning / Yellow River Basin / Remote Sensing / Climate Change / Ecosystem Resilience",
+      "reason": "Current keywords accurately represent the core content. Adding 'Climate Change' provides context for the drivers, and 'Ecosystem Resilience' highlights a key implication of increased drought sensitivity."
+    },
+    "related_papers": [
+      "Divergent water controls on vegetation productivity across drylands of the contiguous united states",
+      "Multi-satellite derived data reveals spatiotemporal dynamics of carbon-water coupling and its drivers in tropical ecosystems"
+    ],
+    "innovation_insights": [
+      "Investigate the underlying physical and ecological mechanisms that lead to increased ecosystem sensitivity to meteorological drought in the Yellow River Basin.",
+      "Explore the potential for early warning systems for carbon uptake reduction based on the identified drought sensitivity metrics and drivers.",
+      "Apply advanced causal inference techniques to disentangle the direct and indirect impacts of climate change drivers (solar radiation, drought, temperature) on drought sensitivity and carbon uptake.",
+      "Examine how changes in land management practices or vegetation composition might influence or mitigate the increasing drought sensitivity and its impact on carbon sequestration."
+    ],
+    "processed_time": "2026-01-18 20:56:28"
+  },
+  "2MAZYJ6L": {
+    "title": "Improve the accuracy of SAR-based soil moisture retrieval by coupling bayesian inference and water cloud model",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture / Methodology/Remote Sensing/Retrieval / Methodology/Statistical Methods / Methodology/Data Fusion / Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification/Uncertainty / Data Philosophy/Scale Issues (Spatial_Temporal) / Modeling/Physics-Informed AI / Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Soil Moisture Retrieval / SAR / Water Cloud Model / Bayesian Inference / Vegetation Cover",
+      "suggested": "Soil Moisture Retrieval / SAR / Water Cloud Model / Bayesian Inference / Vegetation Cover / Radar Backscatter / Uncertainty Quantification",
+      "reason": "Current keywords are specific and relevant. Adding 'Radar Backscatter' as it's the primary data used and 'Uncertainty Quantification' as Bayesian Inference addresses this implicitly but could be more explicit."
+    },
+    "related_papers": [
+      "Divergent water controls on vegetation productivity across drylands of the contiguous united states"
+    ],
+    "innovation_insights": [
+      "Develop and validate the BI_WCM model with a wider range of SAR sensors (e.g., Sentinel-1, L-band) and diverse vegetation types and densities to assess its robustness.",
+      "Investigate methods to further improve the characterization of vegetation scattering within SAR soil moisture retrieval models, potentially integrating AI approaches.",
+      "Quantify the uncertainty associated with the proposed BI_WCM model across different environmental conditions and soil moisture ranges.",
+      "Explore the integration of the improved SAR-based soil moisture product with hydrological models for enhanced water resource management and drought monitoring applications."
+    ],
+    "processed_time": "2026-01-18 20:56:34"
+  },
+  "PRZNEXP9": {
+    "title": "An LSTM network for joint modeling of streamflow and hydropower generation for run-of-river plants",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow / Methodology/Deep Learning (LSTM_CNN) / Applications/Water Resources Management / Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML) / Data Philosophy/Multi-Source Integration / Dynamics/Non-linearity & Complexity / Modeling/Ensemble Methods",
+    "keyword_assessment": {
+      "current": "LSTM / 水电模拟 / 径流模拟 / 挪威 / 预测",
+      "suggested": "LSTM / Hydropower Simulation / Streamflow Simulation / Norway / Prediction / Data Assimilation / Transfer Learning",
+      "reason": "Current keywords are good but translating '水电模拟' and '径流模拟' to English for broader accessibility is beneficial. Adding 'Data Assimilation' and 'Transfer Learning' could reflect potential extensions given the approach."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Apply the joint modeling approach to other regions with similar data sparsity issues for hydropower generation and streamflow, investigating the effectiveness of transfer learning.",
+      "Explore the integration of physical constraints or process-based model components into the LSTM network to create a more hybrid modeling framework.",
+      "Investigate the impact of different data assimilation strategies on the accuracy of streamflow and hydropower generation predictions, especially during extreme flow conditions.",
+      "Extend the LSTM model to jointly predict other related variables such as water availability, energy production variability, and potential flood risks for integrated reservoir management."
+    ],
+    "processed_time": "2026-01-18 20:56:39"
+  },
+  "WBGK6M4H": {
+    "title": "Attribution of interannual runoff magnitude and variability in China’s large reservoir drainage areas using global hydrological models",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Attribution, Processes/Runoff & Streamflow/Attribution, Methodology/Statistical Methods, Applications/Water Resources Management, Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions, Mechanism/Feedback Loops & Cascades, Modeling/Hybrid Modeling (Process+ML), Data Philosophy/Signal Purification/Uncertainty",
+    "keyword_assessment": {
+      "current": "Global Hydrological Models / China / Reservoir Drainage Areas / Runoff Attribution / Climate Change",
+      "suggested": "Global Hydrological Models / China / Reservoir Drainage Areas / Runoff Attribution / Climate Change / Human Water and Land Management (HWLM) / Climate Change Attribution",
+      "reason": "Keywords are good but could be more specific by including 'Human Water and Land Management (HWLM)' as it's a key factor investigated, and explicitly mentioning 'Climate Change Attribution' for better retrieval of attribution studies."
+    },
+    "related_papers": [
+      "Paper 1: Robustness of critical soil moisture to curve-fitting methods and its variability with soil depth, soil texture, and climatic conditions: Insights from lysimeter data in germany",
+      "Paper 4: Soil moisture governs the weakening response of transpiration fraction to leaf area index increase: A spatiotemporal analysis in China's three-north region"
+    ],
+    "innovation_insights": [
+      "This paper suggests further exploration into the regional differences in runoff trends (e.g., east vs. west of Hu Line) and how human water and land management (HWLM) impacts vary across these regions, especially in conjunction with climate change.",
+      "The study highlights the need for more detailed investigations into the interplay between climate change, natural climate variability, and HWLM, particularly in understanding the drivers of increased runoff variability in certain regions. Future work could focus on downscaling these attribution factors or developing more advanced attribution models that can disentangle these influences at finer scales.",
+      "The paper's reliance on Global Hydrological Models (GHMs) implies a need for research that validates or refines GHM outputs with more localized data or observational constraints, especially for reservoir drainage areas."
+    ],
+    "processed_time": "2026-01-18 20:57:02"
+  },
+  "8DAFTDR2": {
+    "title": "Robustness of critical soil moisture to curve-fitting methods and its variability with soil depth, soil texture, and climatic conditions: Insights from lysimeter data in germany",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Soil Moisture, Processes/Soil Moisture, Methodology/Statistical Methods, Data Philosophy/Data Quality & Validation",
+    "idea_path": "[IDEA] Mechanism/Threshold Behavior, Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML), Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Critical Soil Moisture Threshold / Lysimeter Data / Evapotranspiration / Soil Depth / Climate Change",
+      "suggested": "Critical Soil Moisture Threshold / Lysimeter Data / Evapotranspiration (ETa) / Soil Depth / Soil Texture / Climate Change / Robustness",
+      "reason": "Keywords are relevant. Adding 'Soil Texture' is important as it's discussed as a factor influencing critical soil moisture. 'Robustness' could be added to reflect a key aspect of the study's findings."
+    },
+    "related_papers": [
+      "Paper 0: Attribution of interannual runoff magnitude and variability in China’s large reservoir drainage areas using global hydrological models",
+      "Paper 4: Soil moisture governs the weakening response of transpiration fraction to leaf area index increase: A spatiotemporal analysis in China's three-north region"
+    ],
+    "innovation_insights": [
+      "This research opens avenues for investigating the spatial and temporal variability of critical soil moisture thresholds across different soil types and depths, especially under changing climatic conditions. It suggests exploring the impact of these varying thresholds on other hydrological processes like drought onset or water availability.",
+      "The robustness of the critical soil moisture threshold (θcrit) to different ETa definitions and fitting methods implies that researchers can use various approaches without losing significant information about θcrit. However, the significant difference between surface and root-zone θcrit warrants further study into how this depth-dependent behavior influences ecosystem responses to water stress.",
+      "Future work could focus on applying these findings to improve drought monitoring and prediction systems, particularly by incorporating a more nuanced understanding of soil moisture thresholds that accounts for soil depth and texture."
+    ],
+    "processed_time": "2026-01-18 20:57:07"
+  },
+  "DXN8Y8VS": {
+    "title": "Quantification of phytoplankton primary production from space: A revisit based on high-frequency observations with the aid of himawari-8/AHI",
+    "archive_path": "[ARCHIVE] Methodology/Remote Sensing/Retrieval, Processes/Cryosphere (Snow & Glacier)/Measurement, Data Philosophy/Data Quality & Validation",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Modeling/Ensemble Methods, Dynamics/Rapid Onset Events",
+    "keyword_assessment": {
+      "current": "Ocean Color / Phytoplankton Primary Production / Geostationary Satellite / Time-Resolved Modeling / Cloud Variability",
+      "suggested": "Phytoplankton Primary Production / Geostationary Satellite / High-Frequency Observations / Ocean Color / Cloud Cover / Time-Resolved Modeling",
+      "reason": "The current keywords are good. 'High-Frequency Observations' should be explicitly included as it's a core element of the study's contribution and improvement over previous methods. 'Cloud Cover' is also a key challenge addressed."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "This paper suggests that leveraging high-frequency satellite observations from geostationary platforms can significantly improve the accuracy of Earth system models for various phenomena, not just phytoplankton production. This points to a broader opportunity in using such data for more dynamic and responsive environmental monitoring.",
+      "The finding that monthly-to-annual estimates of primary production are systematically overestimated due to neglecting diurnal cycles highlights a potential bias in many Earth system science products. Future research could investigate if similar diurnal biases exist in other satellite-derived biophysical products and how high-frequency data can be used to correct them.",
+      "The study's approach to handling cloud variability with high-frequency data could inspire methods for improving other satellite-based retrievals that are frequently obscured by clouds, such as land surface temperature or vegetation indices."
+    ],
+    "processed_time": "2026-01-18 20:57:12"
+  },
+  "EVFF3SY7": {
+    "title": "Season-land-use heterogeneity bayesian three-cornered hat (SLH-BTCH) for precipitation fusion in ungauged and sparsely gauged regions",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion, Hazards/Drought/Attribution, Applications/Early Warning Systems",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Scale Issues (Spatial_Temporal), Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Precipitation Fusion / Bayesian Three-Cornered Hat / Season-Land Use Heterogeneity / Data-Sparse Regions / Tibetan Plateau",
+      "suggested": "Precipitation Fusion / Bayesian Three-Cornered Hat (BTCH) / Season-Land Use Heterogeneity / Data-Sparse Regions / Tibetan Plateau / Multi-Source Precipitation Products",
+      "reason": "The current keywords are highly specific and accurate. Adding 'Multi-Source Precipitation Products' could be beneficial as the method aims to fuse multiple sources."
+    },
+    "related_papers": [
+      "Paper 0: Attribution of interannual runoff magnitude and variability in China’s large reservoir drainage areas using global hydrological models"
+    ],
+    "innovation_insights": [
+      "The development of the Season-Land Use Heterogeneity Bayesian Three-Cornered Hat (SLH-BTCH) method provides a robust framework for precipitation fusion in challenging data-sparse regions. This suggests potential for adapting this method to other geophysical variables that suffer from similar data scarcity and heterogeneity issues.",
+      "The study's success in the Tibetan Plateau implies that this fusion technique can be applied to other high-altitude, complex terrain, or data-scarce regions globally. Future work could explore the transferability and potential need for parameter adjustments of SLH-BTCH in different geographical contexts.",
+      "By explicitly accounting for seasonal and land-use heterogeneities in error covariances, this method offers a more accurate basis for hydrological modeling and climate impact assessments in ungauged basins. This could lead to improved water resource management strategies in such regions."
+    ],
+    "processed_time": "2026-01-18 20:57:17"
+  },
+  "6P42UPV5": {
+    "title": "Soil moisture governs the weakening response of transpiration fraction to leaf area index increase: A spatiotemporal analysis in China's three-north region",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET)/Soil Moisture, Processes/Soil Moisture, Climate Change Impact",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, Mechanism/Feedback Loops & Cascades, Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "蒸腾比率 / 植被恢复 / 土壤墒情 / 气候变化 / 中国北方",
+      "suggested": "Transpiration Fraction (TF) / Vegetation Greening / Soil Moisture / Leaf Area Index (LAI) / Climate Change / China's Three-North Region / Vegetation-Water Coupling",
+      "reason": "The current keywords are good but in Chinese. Translating them to English and adding 'Leaf Area Index (LAI)' and 'Vegetation-Water Coupling' would make them more standardized and comprehensive, reflecting the core components of the study."
+    },
+    "related_papers": [
+      "Paper 0: Attribution of interannual runoff magnitude and variability in China’s large reservoir drainage areas using global hydrological models",
+      "Paper 1: Robustness of critical soil moisture to curve-fitting methods and its variability with soil depth, soil texture, and climatic conditions: Insights from lysimeter data in germany"
+    ],
+    "innovation_insights": [
+      "This paper reveals a critical dynamic: while vegetation greening generally increases transpiration, its effectiveness is progressively constrained by soil moisture availability. This suggests that future ecological restoration efforts must prioritize soil moisture management to ensure sustained benefits, rather than solely focusing on increasing vegetation cover.",
+      "The study highlights the weakening sensitivity of transpiration fraction (TF) to Leaf Area Index (LAI) increase as a key indicator of hydrological stress. This concept could be generalized to understand ecosystem responses to global change in other arid and semi-arid regions, serving as an early warning signal for drought or desertification.",
+      "The research points to the need for integrated modeling approaches that can capture the complex interplay between vegetation dynamics (LAI), soil moisture, and land-atmosphere interactions. Future work could focus on improving land surface models to better represent these non-linear feedback loops and their implications for water resources and ecosystem resilience."
+    ],
+    "processed_time": "2026-01-18 20:57:20"
+  },
+  "DXA9SRA6": {
+    "title": "Improving evapotranspiration estimation by integrating process-based biophysical variables into a deep learning approach",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Methodology/Deep Learning (LSTM_CNN) / Methodology/Hybrid Modeling (Process+ML) / Applications/Hydrological Modeling",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML) / Modeling/Physics-Informed AI / Processes/Land-Atmosphere Coupling / Dynamics/Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Evapotranspiration Estimation / Deep Learning / Process-Based Models / Hybrid Model / Hydrological Modeling",
+      "suggested": "Evapotranspiration Estimation / Deep Learning / Hybrid Modeling / Process-Based Models / Biophysical Variables / LSTM / PML Model",
+      "reason": "Keywords are good but could be more specific to the model used (PML-LSTM) and the key input (biophysical variables)."
+    },
+    "related_papers": [
+      "Paper 1: Undesirable effects of biogenic emissions from urban green spaces on air quality are counteracted by their transpiration and dry deposition",
+      "Paper 3: Event‐specific meteorological drivers shape diverse water‐use efficiency trajectories under drought propagation"
+    ],
+    "innovation_insights": [
+      "Investigate the transferability of the PML-LSTM hybrid model to different geographical regions and climate zones, especially under varying land surface conditions.",
+      "Explore the potential of integrating more sophisticated process-based models or incorporating dynamic biophysical parameterization into the deep learning framework.",
+      "Address the uncertainty associated with the 'process-based' component and its propagation through the hybrid model, potentially using ensemble techniques.",
+      "Evaluate the model's performance under extreme events beyond those tested, such as prolonged heatwaves or intense rainfall, and analyze the learned relationships between biophysical variables and ET."
+    ],
+    "processed_time": "2026-01-18 20:57:41"
+  },
+  "QQQA9BX5": {
+    "title": "Undesirable effects of biogenic emissions from urban green spaces on air quality are counteracted by their transpiration and dry deposition",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET) / Hazards/Heatwaves & Extremes / Applications/Urban Planning / Methodology/Modeling",
+    "idea_path": "[IDEA] Coupling/Land-Atmosphere Coupling / Dynamics/Non-linearity & Complexity / Processes/Feedback Loops & Cascades / Applications/Urban Systems",
+    "keyword_assessment": {
+      "current": "Urban Green Spaces / Air Quality / Urban Heat Island / BVOCs / WRF-GC Model",
+      "suggested": "Urban Green Spaces / Air Quality / Urban Heat Island Effect / Biogenic VOCs (BVOCs) / Transpiration / Dry Deposition / WRF-GC Model",
+      "reason": "The current keywords capture the core elements. Adding 'Transpiration' and 'Dry Deposition' would highlight the counteracting mechanisms, and specifying 'Urban Heat Island Effect' is more precise."
+    },
+    "related_papers": [
+      "Paper 0: Improving evapotranspiration estimation by integrating process-based biophysical variables into a deep learning approach",
+      "Paper 3: Event‐specific meteorological drivers shape diverse water‐use efficiency trajectories under drought propagation"
+    ],
+    "innovation_insights": [
+      "Explore the optimization of urban green space design (species selection, distribution) to maximize the beneficial effects (transpiration, dry deposition) while minimizing negative BVOC impacts.",
+      "Investigate the feedback loops between urban green spaces, microclimate regulation (UHI mitigation), and local air quality dynamics, particularly under future climate change scenarios.",
+      "Quantify the synergistic or antagonistic interactions between biogenic emissions, anthropogenic pollution, and atmospheric chemistry within urban environments.",
+      "Develop scalable methodologies to assess the net air quality and climate benefits of urban green infrastructure across different city typologies and scales."
+    ],
+    "processed_time": "2026-01-18 20:57:48"
+  },
+  "N7JRR74Y": {
+    "title": "Tropical cyclones unevenly shape drought propagation",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drought Propagation / Processes/Soil Moisture / Methodology/Hydrological Model",
+    "idea_path": "[IDEA] Dynamics/Drought-Flood Transitions / Dynamics/Rapid Onset Events / Processes/Feedback Loops & Cascades / Coupling/Multi-Sphere Coupling",
+    "keyword_assessment": {
+      "current": "Tropical Cyclone / Drought Propagation / Hydrological Model / Soil Moisture",
+      "suggested": "Tropical Cyclone / Drought Propagation / Soil Moisture Drought / Hydrological Modeling / Climate Region Differences",
+      "reason": "The current keywords are accurate. Adding 'Soil Moisture Drought' specifies the type of drought, and 'Climate Region Differences' highlights a key finding regarding spatial variability."
+    },
+    "related_papers": [
+      "Paper 3: Event‐specific meteorological drivers shape diverse water‐use efficiency trajectories under drought propagation",
+      "Paper 4: Energy transition towards photovoltaic and wind mitigates trade-offs between energy water use and irrigation in the yellow river basin"
+    ],
+    "innovation_insights": [
+      "Investigate the 'missing' impact of tropical cyclone (TC) *absence* on drought propagation in regions with limited historical TC data or under future climate scenarios where TC frequency might change.",
+      "Analyze the role of different TC characteristics (intensity, track, size) on drought alleviation and propagation, beyond just precipitation amount.",
+      "Explore the teleconnections between large-scale atmospheric patterns influencing TCs and regional drought dynamics.",
+      "Assess how the altered drought propagation due to TC variability impacts other sectors, such as agriculture, water resources, and ecosystems, in different climate zones."
+    ],
+    "processed_time": "2026-01-18 20:57:55"
+  },
+  "3MW7BW7F": {
+    "title": "Event‐specific meteorological drivers shape diverse water‐use efficiency trajectories under drought propagation",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture / Hazards/Drought/Drought Propagation / Applications/Agricultural Systems / Methodology/Modeling",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity / Dynamics/Tipping Points / Modeling/Ensemble Methods / Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Drought Propagation / Water-Use Efficiency / Event-Specific Drivers / Earth System Models / Flux Tower Observations",
+      "suggested": "Drought Propagation / Water-Use Efficiency (WUE) / Event-Specific Drivers / Meteorological Drought / Soil Moisture Drought / Earth System Models / Flux Tower Observations",
+      "reason": "Keywords are good. Explicitly including 'Meteorological Drought' and 'Soil Moisture Drought' clarifies the distinction and relationship, and specifying 'Water-Use Efficiency (WUE)' is standard."
+    },
+    "related_papers": [
+      "Paper 0: Improving evapotranspiration estimation by integrating process-based biophysical variables into a deep learning approach",
+      "Paper 1: Undesirable effects of biogenic emissions from urban green spaces on air quality are counteracted by their transpiration and dry deposition",
+      "Paper 2: Tropical cyclones unevenly shape drought propagation"
+    ],
+    "innovation_insights": [
+      "Develop advanced statistical or machine learning models to predict the diverse WUE trajectories based on identified event-specific drivers and drought propagation characteristics.",
+      "Investigate the role of plant physiological responses (e.g., stomatal behavior, hydraulic conductivity) in shaping non-monotonic WUE responses under different drought types and intensities.",
+      "Improve the representation of drought propagation dynamics and WUE responses in Earth System Models, particularly concerning spatial and temporal scales and the transition from meteorological to soil moisture drought.",
+      "Explore the potential for early warning systems for agricultural water management by integrating insights on WUE trajectory prediction under drought propagation."
+    ],
+    "processed_time": "2026-01-18 20:58:02"
+  },
+  "QMAAT7I5": {
+    "title": "Energy transition towards photovoltaic and wind mitigates trade-offs between energy water use and irrigation in the yellow river basin",
+    "archive_path": "[ARCHIVE] Applications/Water Resources Management / Methodology/Optimization Model / Coupling/Energy-Water Nexus / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Modeling/Causal Inference / Coupling/Energy-Water Nexus / Data Philosophy/Multi-Source Integration / Applications/Sustainable Development",
+    "keyword_assessment": {
+      "current": "Yellow River Basin / Renewable Energy / Water-Energy-Land Nexus / Electricity Transmission / Optimization Model",
+      "suggested": "Yellow River Basin / Renewable Energy (PV, Wind) / Water-Energy Nexus / Water-Energy-Land Nexus / Irrigation / Electricity Transmission / Optimization Model",
+      "reason": "Keywords are good. Specifying 'PV, Wind' for renewable energy adds detail, and explicitly mentioning 'Irrigation' highlights a key component of the trade-offs being addressed."
+    },
+    "related_papers": [
+      "Paper 2: Tropical cyclones unevenly shape drought propagation",
+      "Paper 3: Event‐specific meteorological drivers shape diverse water‐use efficiency trajectories under drought propagation"
+    ],
+    "innovation_insights": [
+      "Extend the optimization framework to incorporate dynamic water demands from other sectors (e.g., industrial, domestic) and environmental flow requirements.",
+      "Investigate the long-term impacts of energy transitions on water resources under various climate change scenarios in the Yellow River Basin and other water-scarce regions.",
+      "Analyze the socio-economic implications of optimizing the water-energy-land nexus, including distributional effects and policy recommendations for equitable resource allocation.",
+      "Develop integrated modeling approaches that couple energy system models with advanced hydrological and land-use models to capture complex feedback loops and feedbacks across scales."
+    ],
+    "processed_time": "2026-01-18 20:58:09"
+  },
+  "NXWJ2RDQ": {
+    "title": "Evaluation of soil moisture products over the permafrost region of China's heihe river basin",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture/Retrieval & Validation",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration/Data Quality & Validation",
+    "keyword_assessment": {
+      "current": "Soil Moisture Products / Permafrost Regions / Remote Sensing / Reanalysis Data / Heihe River Basin",
+      "suggested": "Soil Moisture Validation / Permafrost Hydrology / Remote Sensing Products (SMAP, ERA5-Land) / Reanalysis Data / Heihe River Basin / Cold Regions",
+      "reason": "The current keywords are good but could be more specific by including the types of products evaluated (SMAP, ERA5-Land) and explicitly mentioning 'validation' as a core activity. Adding 'Cold Regions' broadens the applicability beyond just permafrost."
+    },
+    "related_papers": [
+      "Evaluation of precipitation-based drought indices under future climate change scenarios: Integration of PERSIANN-CCS-CDR and dynamically downscaled regional climate models for the tensift watershed"
+    ],
+    "innovation_insights": [
+      "Investigate the impact of specific permafrost thaw dynamics on the accuracy of different soil moisture products, potentially using process-based models or advanced statistical techniques.",
+      "Develop hybrid approaches that fuse remote sensing and reanalysis data, specifically tailored for permafrost regions, to improve soil moisture estimation.",
+      "Explore the generalizability of these findings to other cold regions or permafrost environments globally, considering varying geological and climatic conditions.",
+      "Address the limitations of current soil moisture products in capturing the heterogeneity of soil moisture in frozen and thawing soils."
+    ],
+    "processed_time": "2026-01-18 20:58:25"
+  },
+  "IA987U6R": {
+    "title": "Machine learning with data assimilation and uncertainty quantification for dynamical systems: A review",
+    "archive_path": "[ARCHIVE] Methodology/Deep Learning/Uncertainty Quantification",
+    "idea_path": "[IDEA] Modeling/Physics-Informed AI or Hybrid Modeling (Process+ML)/Causal Inference or Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Machine Learning / Data Assimilation / Uncertainty Quantification / Dynamical Systems / Review",
+      "suggested": "Machine Learning (ML) / Data Assimilation (DA) / Uncertainty Quantification (UQ) / Dynamical Systems / Hybrid Modeling / Review",
+      "reason": "The current keywords are accurate for a review paper. Adding 'Hybrid Modeling' better reflects the integration aspect emphasized in the abstract and potential future directions."
+    },
+    "related_papers": [
+      "Evaluation of soil moisture products over the permafrost region of China's heihe river basin",
+      "Meteorological to hydrological drought propagation: The role of catchment properties in contrasting climatic regions"
+    ],
+    "innovation_insights": [
+      "Apply the ML-DA-UQ framework to hydrological models for improved prediction and uncertainty quantification of water resources, especially during extreme events like droughts.",
+      "Develop novel DA techniques that leverage ML for learning model error dynamics or parameterizations in hydrological systems.",
+      "Investigate the use of UQ from ML-DA systems to provide probabilistic forecasts for hydrological extremes, enhancing early warning systems.",
+      "Explore causal inference methods within the ML-DA-UQ framework to understand the drivers of hydrological variability and extremes."
+    ],
+    "processed_time": "2026-01-18 20:58:30"
+  },
+  "NIWDQYNT": {
+    "title": "Meteorological to hydrological drought propagation: The role of catchment properties in contrasting climatic regions",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drought Propagation",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events or Drought-Flood Transitions/Land-Atmosphere Coupling or Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "Drought Propagation / Catchment Properties / Climate Zones / Ethiopia / Hydrological Modeling",
+      "suggested": "Drought Propagation / Meteorological to Hydrological Drought / Catchment Properties / Climate Zones / Hydrological Modeling / Ethiopia",
+      "reason": "The current keywords are appropriate. Adding 'Meteorological to Hydrological Drought' explicitly captures the core focus of the propagation mechanism investigated."
+    },
+    "related_papers": [
+      "Evaluation of precipitation-based drought indices under future climate change scenarios: Integration of PERSIANN-CCS-CDR and dynamically downscaled regional climate models for the tensift watershed",
+      "Investigating heatwave features: Creating an intensity-duration-frequency model for India’s principal climate zones"
+    ],
+    "innovation_insights": [
+      "Extend this analysis to other arid and semi-arid regions globally, particularly those with limited monitoring data, to assess the universality of catchment property influences on drought propagation.",
+      "Integrate remote sensing data (e.g., soil moisture, ET) into the analysis to provide a more comprehensive understanding of the land surface processes mediating drought propagation.",
+      "Investigate the role of land management practices (e.g., irrigation, deforestation) as catchment properties that influence drought propagation, especially in agricultural systems.",
+      "Explore the potential for using machine learning to model complex non-linear relationships between catchment properties, climate, and drought propagation dynamics."
+    ],
+    "processed_time": "2026-01-18 20:58:34"
+  },
+  "2IZ8QH5A": {
+    "title": "Investigating heatwave features: Creating an intensity-duration-frequency model for India’s principal climate zones",
+    "archive_path": "[ARCHIVE] Hazards/Heatwaves & Extremes/Extreme Events Analysis",
+    "idea_path": "[IDEA] Dynamics/Abrupt Transitions or Tipping Points/Feedback Loops & Cascades",
+    "keyword_assessment": {
+      "current": "热浪强度-持续时间-频率 (HWIDF) / 气候变化归因 / CMIP6 / 印度气候区",
+      "suggested": "Heatwave Intensity-Duration-Frequency (HWIDF) / Climate Change Attribution / Extreme Heat Events / India / CMIP6 / Climate Zones",
+      "reason": "The current keywords are specific to the paper's content. Translating the Chinese keywords and adding 'Extreme Heat Events' and 'India' provides a more universally understandable and comprehensive set."
+    },
+    "related_papers": [
+      "Meteorological to hydrological drought propagation: The role of catchment properties in contrasting climatic regions"
+    ],
+    "innovation_insights": [
+      "Apply the HWIDF modeling approach to other regions with diverse climatic conditions and varying levels of socio-economic vulnerability to assess global patterns of heatwave risk under climate change.",
+      "Investigate the compound effects of heatwaves and other extreme events (e.g., droughts) on water resources and agricultural systems, building on the drought propagation insights from other papers.",
+      "Incorporate future climate projections from updated CMIP phases (e.g., CMIP7) to refine heatwave projections and reduce uncertainties.",
+      "Explore the use of high-resolution climate models or downscaling techniques to better capture local-scale variations in heatwave characteristics, especially in complex terrains or urban environments."
+    ],
+    "processed_time": "2026-01-18 20:58:39"
+  },
+  "GEL23DHQ": {
+    "title": "Evaluation of precipitation-based drought indices under future climate change scenarios: Integration of PERSIANN-CCS-CDR and dynamically downscaled regional climate models for the tensift watershed",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Drought Projection",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events or Drought-Flood Transitions/Scale Issues (Spatial_Temporal) or Non-linearity & Complexity",
+    "keyword_assessment": {
+      "current": "Drought Projection / Climate Change / Morocco / PERSIANN-CCS-CDR / MED-CORDEX",
+      "suggested": "Drought Projection / Climate Change Scenarios / Precipitation Indices / PERSIANN-CCS-CDR / Regional Climate Models (RCMs) / MED-CORDEX / Tensift Watershed / Morocco",
+      "reason": "The current keywords are accurate. Expanding to include 'Climate Change Scenarios', 'Precipitation Indices', 'Regional Climate Models (RCMs)', and the specific watershed provides a more detailed and informative set."
+    },
+    "related_papers": [
+      "Evaluation of soil moisture products over the permafrost region of China's heihe river basin",
+      "Meteorological to hydrological drought propagation: The role of catchment properties in contrasting climatic regions"
+    ],
+    "innovation_insights": [
+      "Investigate the downstream impacts of projected drought intensification on water resources, agriculture, and ecosystems in the Tensift watershed and similar regions.",
+      "Explore the utility of different drought indices (beyond precipitation-based ones, e.g., ET-based or soil moisture-based) for projecting future drought conditions in the region.",
+      "Evaluate the effectiveness of various bias correction methods for RCM outputs in regions with complex topography and precipitation patterns.",
+      "Develop a framework to assess the uncertainty associated with drought projections stemming from different climate models, emission scenarios, and drought index choices."
+    ],
+    "processed_time": "2026-01-18 20:58:43"
+  },
+  "C3G9IGKS": {
+    "title": "New insights from the bias-corrected simulations of CMIP6 in northern hemisphere’s snow drought",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Snow Drought, Methodology/Bias Correction, Climate Change Impact/Climate Change Projections",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events, Data Philosophy/Signal Purification/Uncertainty, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Snow Drought / CMIP6 / Bias Correction / Climate Change Projections / Northern Hemisphere",
+      "suggested": "Snow Drought / CMIP6 / CDF-t Bias Correction / Climate Change Projections / Northern Hemisphere / Extreme Events",
+      "reason": "The current keywords are good, but 'CDF-t Bias Correction' is more specific and should be included. Adding 'Extreme Events' highlights the focus on intensified droughts."
+    },
+    "related_papers": [
+      "Assessing the fidelity of gridded datasets for characterizing precipitation over the tibetan plateau using multi-source observations and water balance",
+      "Eco-hydrological response to climate and land surface changes based on eco-hydrological regionalization in the source region of the yellow river"
+    ],
+    "innovation_insights": [
+      "Investigate the physical mechanisms behind the observed drastic increase in extreme snow droughts under high emission scenarios, beyond statistical projections.",
+      "Explore the potential of integrating advanced bias correction techniques like CDF-t into other climate models (e.g., regional climate models) to improve projections of other hydrological extremes.",
+      "Address the limitations of current climate models in accurately simulating snow processes and their contribution to drought, potentially through physics-informed machine learning approaches."
+    ],
+    "processed_time": "2026-01-18 20:59:00"
+  },
+  "NS49VPRI": {
+    "title": "Assessing the fidelity of gridded datasets for characterizing precipitation over the tibetan plateau using multi-source observations and water balance",
+    "archive_path": "[ARCHIVE] Methodology/Data Fusion, Processes/Runoff & Streamflow, Data Quality & Validation/Precipitation Dataset Evaluation",
+    "idea_path": "[IDEA] Data Philosophy/Multi-Source Integration, Data Philosophy/Data Quality & Validation, Modeling/Hybrid Modeling (Process+ML)",
+    "keyword_assessment": {
+      "current": "Precipitation Dataset Evaluation / Tibetan Plateau / Water Balance / Climate Change / Hydrology",
+      "suggested": "Precipitation Dataset Evaluation / Tibetan Plateau / Water Balance / Hydrological Modeling / Multi-Source Data Fusion / Climate Change",
+      "reason": "The current keywords are accurate. Adding 'Hydrological Modeling' and 'Multi-Source Data Fusion' would better reflect the paper's methodology and approach."
+    },
+    "related_papers": [
+      "New insights from the bias-corrected simulations of CMIP6 in northern hemisphere’s snow drought",
+      "Synthesis study of evapotranspiration evolution in the mekong delta induced by land use and land cover changes in the decades of 1990–2020",
+      "Eco-hydrological response to climate and land surface changes based on eco-hydrological regionalization in the source region of the yellow river"
+    ],
+    "innovation_insights": [
+      "Develop novel methods for fusing multiple precipitation datasets, especially in data-sparse regions like the Tibetan Plateau, to improve hydrological modeling accuracy.",
+      "Investigate the drivers of the observed increasing precipitation trend over the Tibetan Plateau, considering the interplay of climate change and regional factors.",
+      "Explore the applicability of the TPHiPr dataset evaluation framework to other data-scarce high-altitude regions globally."
+    ],
+    "processed_time": "2026-01-18 20:59:04"
+  },
+  "3G2RTTH4": {
+    "title": "Synthesis study of evapotranspiration evolution in the mekong delta induced by land use and land cover changes in the decades of 1990–2020",
+    "archive_path": "[ARCHIVE] Processes/Evapotranspiration (ET), Methodology/Hydrological Model, Land Use Change/Agricultural Systems",
+    "idea_path": "[IDEA] Coupling/Vegetation-Water Interaction, Dynamics/Non-linearity & Complexity, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Hydrological Model / Land Use Change / Evapotranspiration / SWAT / Mekong Delta",
+      "suggested": "Evapotranspiration (ET) / Land Use Change / Hydrological Modeling / SWAT / Mekong Delta / Irrigation Management",
+      "reason": "The current keywords are appropriate. Adding 'Evapotranspiration (ET)' as a primary term and 'Irrigation Management' could broaden the scope and highlight the application."
+    },
+    "related_papers": [
+      "Assessing spatiotemporal variability in soil moisture under a changing climate using hydrological models in hilly landscapes",
+      "Eco-hydrological response to climate and land surface changes based on eco-hydrological regionalization in the source region of the yellow river"
+    ],
+    "innovation_insights": [
+      "Explore the long-term feedback mechanisms between land use intensification (driven by irrigation expansion) and ET changes in deltaic regions.",
+      "Investigate how land use fragmentation, as identified in the paper, impacts local climate and hydrological processes, potentially using downscaled climate models.",
+      "Develop more sophisticated integrated models that couple land use change dynamics with hydrological and ET processes to assess future scenarios under different policy interventions."
+    ],
+    "processed_time": "2026-01-18 20:59:09"
+  },
+  "S88ZJ4DX": {
+    "title": "Assessing spatiotemporal variability in soil moisture under a changing climate using hydrological models in hilly landscapes",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture, Climate Change Impact/Climate Change Impact, Methodology/Hydrological Model",
+    "idea_path": "[IDEA] Dynamics/Non-linearity & Complexity, Coupling/Vegetation-Water Interaction, Dynamics/Tipping Points",
+    "keyword_assessment": {
+      "current": "Soil Moisture / Climate Change / Hydrological Model / Topography / HYDRUS-1D",
+      "suggested": "Soil Moisture / Climate Change / Hydrological Modeling / Topography / HYDRUS-1D / Hilly Landscapes / Agricultural Water Management",
+      "reason": "The current keywords are relevant. Adding 'Hilly Landscapes' and 'Agricultural Water Management' would make them more specific to the study's context and application."
+    },
+    "related_papers": [
+      "Synthesis study of evapotranspiration evolution in the mekong delta induced by land use and land cover changes in the decades of 1990–2020",
+      "Eco-hydrological response to climate and land surface changes based on eco-hydrological regionalization in the source region of the yellow river"
+    ],
+    "innovation_insights": [
+      "Investigate the potential for soil moisture exceeding field capacity (waterlogging) in hilly areas and its implications for nutrient leaching and agricultural productivity.",
+      "Extend the HYDRUS-1D simulations to larger scales or use the findings to calibrate/validate distributed hydrological models for hilly catchments.",
+      "Analyze the influence of soil properties and fine-scale topography not explicitly captured by HYDRUS-1D on soil moisture variability and its response to climate change."
+    ],
+    "processed_time": "2026-01-18 20:59:14"
+  },
+  "UXIB54WG": {
+    "title": "Eco-hydrological response to climate and land surface changes based on eco-hydrological regionalization in the source region of the yellow river",
+    "archive_path": "[ARCHIVE] Processes/Runoff & Streamflow, Climate Change Impact/Climate Change Impact, Methodology/Land Surface Model",
+    "idea_path": "[IDEA] Coupling/Multi-Sphere Coupling, Dynamics/Non-linearity & Complexity, Data Philosophy/Scale Issues (Spatial_Temporal)",
+    "keyword_assessment": {
+      "current": "Eco-hydrological Regionalization / Climate Change / Land Surface Model / Runoff Components",
+      "suggested": "Eco-hydrological Regionalization / Climate Change / Land Surface Model / Runoff Components / Yellow River Source Region / VIC Model",
+      "reason": "The current keywords are good but could be more specific. Adding 'Yellow River Source Region' and 'VIC Model' would enhance clarity and informativeness."
+    },
+    "related_papers": [
+      "New insights from the bias-corrected simulations of CMIP6 in northern hemisphere’s snow drought",
+      "Assessing the fidelity of gridded datasets for characterizing precipitation over the tibetan plateau using multi-source observations and water balance",
+      "Assessing spatiotemporal variability in soil moisture under a changing climate using hydrological models in hilly landscapes"
+    ],
+    "innovation_insights": [
+      "Apply the eco-hydrological regionalization approach to other ecologically sensitive and hydrologically important regions facing similar climate and land surface changes.",
+      "Investigate the complex feedback loops between temperature, LAI, and snowmelt on runoff generation, especially the 'lag effect' of temperature on LAI.",
+      "Develop integrated models that combine land surface models with machine learning to better capture the non-linear eco-hydrological responses and predict changes in runoff components under future climate scenarios."
+    ],
+    "processed_time": "2026-01-18 20:59:19"
+  },
+  "2B73F55G": {
+    "title": "Pronounced trends in vegetation phenology responses to flash droughts across China (2003−2023)",
+    "archive_path": "[ARCHIVE] Hazards/Drought/Flash Drought / Processes/Vegetation Dynamics / Methodology/Trend Analysis / Applications/Climate Change Impact",
+    "idea_path": "[IDEA] Dynamics/Rapid Onset Events / Coupling/Vegetation-Water Interaction / Dynamics/Non-linearity & Complexity / Data Philosophy/Signal Purification",
+    "keyword_assessment": {
+      "current": "Flash Drought / Vegetation Phenology / Climate Change / China / Trend Analysis",
+      "suggested": "Flash Drought / Vegetation Phenology / Land-Atmosphere Interactions / Climate Trends / China",
+      "reason": "The current keywords are good but could be more encompassing. 'Land-Atmosphere Interactions' captures the underlying mechanism better than just 'Climate Change'. Adding 'Climate Trends' is more specific to the paper's findings. 'China' is a good geographical specification."
+    },
+    "related_papers": [
+      "Paper 2: A novel SIF framework for decoupling hierarchical water stress impacts on winter wheat photosynthesis"
+    ],
+    "innovation_insights": [
+      "Investigate the specific biophysical mechanisms driving the weakening SOS response and strengthening EOS response to flash droughts over time.",
+      "Explore the role of different land cover types or agricultural management practices in modulating these observed trends in vegetation phenology responses.",
+      "Develop predictive models that incorporate these temporal trends to forecast future vegetation vulnerability to flash droughts under changing climate conditions.",
+      "Address the limitations of remote sensing data (e.g., spatial resolution, cloud cover) in capturing fine-scale phenological changes and extreme event impacts."
+    ],
+    "processed_time": "2026-01-18 20:59:37"
+  },
+  "8RBY965B": {
+    "title": "Modeling the effect of rainfall recharge on denitrification in intertidal mixing zones of coastal aquifers",
+    "archive_path": "[ARCHIVE] Processes/Groundwater / Processes/Water Quality / Methodology/Reactive Transport Modeling / Applications/Water Resources Management",
+    "idea_path": "[IDEA] Modeling/Hybrid Modeling (Process+ML) / Mechanism/Feedback Loops & Cascades / Coupling/Energy-Water Nexus / Data Philosophy/Multi-Source Integration",
+    "keyword_assessment": {
+      "current": "Coastal Aquifers / Denitrification / Rainfall Recharge / Tidal Forcing / Reactive Transport Modeling",
+      "suggested": "Coastal Aquifers / Denitrification / Rainfall Recharge / Tidal Dynamics / Reactive Transport Modeling / Groundwater-Nitrate",
+      "reason": "The current keywords are highly relevant and specific. Adding 'Tidal Dynamics' is slightly more descriptive than 'Tidal Forcing'. 'Groundwater-Nitrate' could be added as a more specific process being investigated, linking to denitrification."
+    },
+    "related_papers": [],
+    "innovation_insights": [
+      "Explore the potential for developing hybrid models that combine reactive transport models with machine learning to predict denitrification rates under various recharge and tidal scenarios.",
+      "Investigate how changes in rainfall patterns (intensity, duration) due to climate change might alter the balance between rainfall recharge and tidal forcing, impacting denitrification in coastal zones.",
+      "Quantify the uncertainty associated with reactive transport modeling in complex coastal aquifer systems and explore data assimilation techniques to improve model accuracy.",
+      "Expand this framework to other coastal regions globally, considering variations in hydrogeological conditions, organic carbon availability, and climate."
+    ],
+    "processed_time": "2026-01-18 20:59:43"
+  },
+  "DL9IBXFE": {
+    "title": "A novel SIF framework for decoupling hierarchical water stress impacts on winter wheat photosynthesis",
+    "archive_path": "[ARCHIVE] Processes/Soil Moisture / Hazards/Drought/Groundwater Drought / Methodology/Remote Sensing/Retrieval / Methodology/Data Fusion / Applications/Agricultural Systems",
+    "idea_path": "[IDEA] Data Philosophy/Signal Purification / Dynamics/Non-linearity & Complexity / Coupling/Vegetation-Water Interaction / Modeling/Physics-Informed AI",
+    "keyword_assessment": {
+      "current": "Solar-induced chlorophyll fluorescence / Groundwater drought / Photosynthetic response anomaly index / Dynamic time warping / Winter wheat",
+      "suggested": "Solar-induced chlorophyll fluorescence (SIF) / Groundwater Drought / Photosynthesis / Remote Sensing / Dynamic Time Warping (DTW) / Crop Stress",
+      "reason": "The current keywords are very specific and accurate. Broadening 'Photosynthetic response anomaly index' to 'Photosynthesis' and 'Winter wheat' to 'Crop Stress' makes them slightly more general for broader retrieval, while keeping the core concepts. Specifying SIF and DTW in parentheses is helpful."
+    },
+    "related_papers": [
+      "Paper 0: Pronounced trends in vegetation phenology responses to flash droughts across China (2003−2023)"
+    ],
+    "innovation_insights": [
+      "Develop and validate remote sensing frameworks using SIF and DTW for other crop types and regions, particularly those heavily reliant on groundwater.",
+      "Integrate SIF-based frameworks with other remote sensing data (e.g., soil moisture, thermal imagery) to create a more comprehensive understanding of plant water stress dynamics.",
+      "Investigate the causal relationships between different hydrological drought types (surface vs. groundwater) and their distinct impacts on plant physiological processes using advanced AI techniques.",
+      "Address the scale dependency of SIF measurements and their relationship with photosynthetic activity, and explore methods to improve spatial resolution and accuracy for finer-scale stress detection."
+    ],
+    "processed_time": "2026-01-18 20:59:52"
   }
 }

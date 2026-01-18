@@ -21,9 +21,11 @@ def find_config_file(start_dir: str = None) -> Optional[str]:
     
     搜索顺序：
     1. 默认配置文件路径（用户指定）
-    2. 当前工作目录
-    3. 脚本所在目录
-    4. 脚本所在目录的父目录（项目根目录）
+    2. 当前工作目录的上一级目录中的 zotero_ai_read_config.py
+    3. 脚本所在目录的上一级目录中的 zotero_ai_read_config.py
+    4. 当前工作目录中的 config.py
+    5. 脚本所在目录中的 config.py
+    6. 脚本所在目录的父目录（项目根目录）中的 config.py
     """
     if start_dir is None:
         start_dir = os.getcwd()
@@ -38,7 +40,33 @@ def find_config_file(start_dir: str = None) -> Optional[str]:
     if os.path.exists(DEFAULT_CONFIG_PATH) and os.path.isfile(DEFAULT_CONFIG_PATH):
         candidate_paths.append(os.path.abspath(DEFAULT_CONFIG_PATH))
     
-    # 2. 然后检查标准搜索目录中的config.py
+    # 2. 检查上一级目录中的 zotero_ai_read_config.py（优先）
+    parent_dirs = []
+    
+    # 当前工作目录的上一级
+    current_dir = os.getcwd()
+    current_parent = os.path.dirname(current_dir)
+    if current_parent and current_parent != current_dir:
+        parent_dirs.append(current_parent)
+    
+    # 脚本所在目录的上一级
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    script_parent = os.path.dirname(script_dir)
+    if script_parent and script_parent != script_dir:
+        parent_dirs.append(script_parent)
+    
+    # 去重并保持顺序
+    seen = set()
+    parent_dirs = [d for d in parent_dirs if d not in seen and not seen.add(d)]
+    
+    # 搜索上一级目录中的 zotero_ai_read_config.py
+    for parent_dir in parent_dirs:
+        zotero_config_path = os.path.join(parent_dir, 'zotero_ai_read_config.py')
+        abs_path = os.path.abspath(zotero_config_path)
+        if abs_path not in candidate_paths and os.path.exists(zotero_config_path) and os.path.isfile(zotero_config_path):
+            candidate_paths.append(abs_path)
+    
+    # 3. 然后检查标准搜索目录中的config.py
     search_dirs = [
         os.getcwd(),  # 当前工作目录
         os.path.dirname(os.path.abspath(__file__)),  # 脚本所在目录
