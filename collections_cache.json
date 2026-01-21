@@ -64562,5 +64562,21 @@
   "[IDEA] Data Philosophy/Signal Purification/Dynamics/Non-linearity & Complexity/Coupling/Vegetation-Water Interaction/Modeling/Physics-Informed AI": {
     "key": "XD6GNNAA",
     "parent": "3FZBJ989"
+  },
+  "[ARCHIVE] Hazards/Flood/Economic Impacts, Methodology": {
+    "key": "7974ECF5",
+    "parent": "66STS3DI"
+  },
+  "[ARCHIVE] Hazards/Flood/Economic Impacts, Methodology/Statistical Methods, Applications": {
+    "key": "CNBIQ5B7",
+    "parent": "7974ECF5"
+  },
+  "[ARCHIVE] Hazards/Flood/Economic Impacts, Methodology/Statistical Methods, Applications/Water Resources Management": {
+    "key": "MAWP6IUP",
+    "parent": "CNBIQ5B7"
+  },
+  "[IDEA] Coupling/Human-Nature Systems, Dynamics/Non-linearity & Complexity": {
+    "key": "NP5DJKCX",
+    "parent": "J4T7ID42"
   }
 }

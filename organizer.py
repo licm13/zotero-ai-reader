@@ -487,79 +487,141 @@ def ensure_collection_path(zot, path, cache):
 def parse_note_content(note_content):
     """解析完整的AI阅读报告笔记内容
     
+    优先尝试从笔记中提取 JSON 块并解析，如果失败则回退到 regex 解析。
+    
     Returns:
-        dict: 包含解析出的各个部分的字典
+        dict: 包含解析出的各个部分的字典，包括：
+            - 基础信息：title_en, title_zh, journal, date, doi, authors
+            - 摘要：one_sentence_summary, keywords, research_question, highlights
+            - 结构化数据：data_table (list of dicts), weaknesses (list), future_work (list)
+            - 其他：abstract, key_literature, data_methods, full_text
     """
     import re
     
     # Remove HTML tags
     text = re.sub(r'<[^>]+>', '', note_content)
     
+    # 初始化解析结果字典
     parsed = {
         'one_sentence_summary': '',
         'keywords': '',
         'title_zh': '',
         'title_en': '',
         'journal': '',
+        'date': '',
+        'doi': '',
         'authors': '',
         'abstract': '',
         'research_question': '',
         'highlights': [],
         'key_literature': [],
         'data_methods': '',
+        'data_table': [],  # 新增：数据表列表
         'weaknesses': [],
         'future_work': [],
-        'full_text': text[:5000]  # 保留前5000字符用于深度分析
+        'tags': [],  # 新增：标签列表
+        'full_text': text[:5000],  # 保留前5000字符用于深度分析
+        'json_parsed': False  # 标记是否成功解析了 JSON
     }
     
-    # 提取一句话总结
-    summary_patterns = [
-        r'一句话总结[^：:]*[：:]\s*([^\n]{5,100})',
-        r'One-Sentence Summary[^：:]*[：:]\s*([^\n]{5,100})',
+    # ========== 第一步：尝试提取并解析 JSON 块 ==========
+    json_patterns = [
+        r'```json\s*(\{.*?\})\s*```',  # 匹配 ```json {...} ```
+        r'```\s*(\{.*?\})\s*```',      # 匹配 ``` {...} ```
+        r'(\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\})',  # 匹配独立的 JSON 对象
     ]
-    for pattern in summary_patterns:
-        match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
+    
+    json_data = None
+    for pattern in json_patterns:
+        match = re.search(pattern, text, re.DOTALL | re.IGNORECASE)
         if match:
-            parsed['one_sentence_summary'] = match.group(1).strip()
-            break
+            json_str = match.group(1).strip()
+            try:
+                json_data = json.loads(json_str)
+                if isinstance(json_data, dict):
+                    parsed['json_parsed'] = True
+                    # 提取所有字段
+                    parsed['title_en'] = json_data.get('title_en', '')
+                    parsed['title_zh'] = json_data.get('title_zh', '')
+                    parsed['journal'] = json_data.get('journal', '')
+                    parsed['date'] = json_data.get('date', '')
+                    parsed['doi'] = json_data.get('doi', '')
+                    parsed['one_sentence_summary'] = json_data.get('one_sentence_summary_zh', '') or json_data.get('one_sentence_summary', '')
+                    parsed['tags'] = json_data.get('tags', [])
+                    if isinstance(parsed['tags'], list):
+                        # 将标签列表转换为关键词字符串（用于向后兼容）
+                        parsed['keywords'] = ', '.join([str(t) for t in parsed['tags'] if t])
+                    parsed['research_question'] = json_data.get('research_question', '')
+                    parsed['highlights'] = json_data.get('highlights', [])
+                    if not isinstance(parsed['highlights'], list):
+                        parsed['highlights'] = []
+                    # 提取 data_table（重要：用于 Track A 分类）
+                    parsed['data_table'] = json_data.get('data_table', [])
+                    if not isinstance(parsed['data_table'], list):
+                        parsed['data_table'] = []
+                    # 提取 weaknesses（重要：用于 Track B 分类）
+                    parsed['weaknesses'] = json_data.get('weaknesses', [])
+                    if not isinstance(parsed['weaknesses'], list):
+                        parsed['weaknesses'] = []
+                    # 提取 future_work（重要：用于 Track B 分类）
+                    parsed['future_work'] = json_data.get('future_work', [])
+                    if not isinstance(parsed['future_work'], list):
+                        parsed['future_work'] = []
+                    break  # 成功解析 JSON，跳出循环
+            except json.JSONDecodeError:
+                # JSON 解析失败，继续尝试下一个模式或回退到 regex
+                continue
     
-    # 提取关键词/论文分类
-    keyword_patterns = [
-        r'论文分类[^：:]*[：:]\s*([^\n]+)',
-        r'Keywords[^：:]*[：:]\s*([^\n]+)',
-        r'关键词[^：:]*[：:]\s*([^\n]+)',
-    ]
-    for pattern in keyword_patterns:
-        match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
-        if match:
-            parsed['keywords'] = match.group(1).strip()
-            break
-    
-    # 提取研究问题
-    rq_patterns = [
-        r'研究问题[^：:]*[：:]\s*([^\n]{10,200})',
-        r'Research Question[^：:]*[：:]\s*([^\n]{10,200})',
-    ]
-    for pattern in rq_patterns:
-        match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
-        if match:
-            parsed['research_question'] = match.group(1).strip()
-            break
-    
-    # 提取核心亮点（最多6个）
-    highlight_pattern = r'[Hh][1-6][：:]\s*([^\n]{5,50})'
-    highlights = re.findall(highlight_pattern, text)
-    parsed['highlights'] = highlights[:6]
-    
-    # 提取主要不足
-    weakness_pattern = r'[1-6][）)]\s*([^\n]{10,150})'
-    weaknesses = re.findall(weakness_pattern, text)
-    parsed['weaknesses'] = weaknesses[:6]
-    
-    # 提取未来工作方向
-    future_pattern = r'方向 [A-C][：:]\s*科学问题[：:]\s*([^\n]{10,200})'
-    future_works = re.findall(future_pattern, text)
-    parsed['future_work'] = future_works[:3]
+    # ========== 第二步：如果没有成功解析 JSON，使用 regex 回退 ==========
+    if not parsed['json_parsed']:
+        # 提取一句话总结
+        summary_patterns = [
+            r'一句话总结[^：:]*[：:]\s*([^\n]{5,100})',
+            r'One-Sentence Summary[^：:]*[：:]\s*([^\n]{5,100})',
+        ]
+        for pattern in summary_patterns:
+            match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
+            if match:
+                parsed['one_sentence_summary'] = match.group(1).strip()
+                break
+        
+        # 提取关键词/论文分类
+        keyword_patterns = [
+            r'论文分类[^：:]*[：:]\s*([^\n]+)',
+            r'Keywords[^：:]*[：:]\s*([^\n]+)',
+            r'关键词[^：:]*[：:]\s*([^\n]+)',
+        ]
+        for pattern in keyword_patterns:
+            match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
+            if match:
+                parsed['keywords'] = match.group(1).strip()
+                break
+        
+        # 提取研究问题
+        rq_patterns = [
+            r'研究问题[^：:]*[：:]\s*([^\n]{10,200})',
+            r'Research Question[^：:]*[：:]\s*([^\n]{10,200})',
+        ]
+        for pattern in rq_patterns:
+            match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
+            if match:
+                parsed['research_question'] = match.group(1).strip()
+                break
+        
+        # 提取核心亮点（最多6个）
+        highlight_pattern = r'[Hh][1-6][：:]\s*([^\n]{5,50})'
+        highlights = re.findall(highlight_pattern, text)
+        parsed['highlights'] = highlights[:6]
+        
+        # 提取主要不足
+        weakness_pattern = r'[1-6][）)]\s*([^\n]{10,150})'
+        weaknesses = re.findall(weakness_pattern, text)
+        parsed['weaknesses'] = weaknesses[:6]
+        
+        # 提取未来工作方向
+        future_pattern = r'方向 [A-C][：:]\s*科学问题[：:]\s*([^\n]{10,200})'
+        future_works = re.findall(future_pattern, text)
+        parsed['future_work'] = future_works[:3]
     
     return parsed
 
@@ -629,6 +691,7 @@ def generate_global_analysis_report(analysis_results, user_profile, ai_model, ai
         all_keywords = []
         all_archive_paths = []
         all_idea_paths = []
+        all_data_tables = []  # 新增：收集所有 data_table 条目
         
         for item_key, result in analysis_results.items():
             title = result.get('title', 'Unknown')
@@ -644,6 +707,17 @@ def generate_global_analysis_report(analysis_results, user_profile, ai_model, ai
                 all_archive_paths.append(archive_path)
             if idea_path:
                 all_idea_paths.append(idea_path)
+            
+            # 收集 data_table（从结构化元数据中提取）
+            # 优先从 structured_metadata 中获取，如果没有则从顶层获取（向后兼容）
+            structured_metadata = result.get('structured_metadata', {})
+            data_table = structured_metadata.get('data_table', result.get('data_table', []))
+            if data_table and isinstance(data_table, list):
+                for dt in data_table:
+                    if isinstance(dt, dict):
+                        dt_with_paper = dt.copy()
+                        dt_with_paper['paper_title'] = title  # 记录来源论文
+                        all_data_tables.append(dt_with_paper)
         
         # 构建提示词
         profile_summary = user_profile.get('dynamic_analysis', {}).get('summary', 'General hydrology researcher')
@@ -663,7 +737,15 @@ TASK: Analyze ALL {len(analysis_results)} papers that have been processed and pr
    - What are the emerging research directions?
    - What are the common methodologies being used?
 
-2. **Cross-Paper Research Opportunities**:
+2. **Data Landscape** (NEW):
+   - Analyze all data sources from the data_table entries across all papers
+   - Identify common datasets (e.g., WorldPop, CEADs, MODIS, GPM, etc.)
+   - Summarize data accessibility patterns (which datasets are commonly used vs. rare)
+   - Note spatial and temporal resolution trends
+   - Identify data gaps or underrepresented data sources
+   - Suggest opportunities for data integration or new data combinations
+
+3. **Cross-Paper Research Opportunities**:
    - Identify 5-8 research opportunities that bridge multiple papers
    - For each opportunity, explain:
      * Which papers are related
@@ -671,12 +753,12 @@ TASK: Analyze ALL {len(analysis_results)} papers that have been processed and pr
      * What specific research questions could be addressed
      * Potential methodologies or approaches
 
-3. **Research Gaps and Future Directions**:
+4. **Research Gaps and Future Directions**:
    - What gaps exist in the current research landscape?
    - What are the most promising future research directions?
    - What interdisciplinary opportunities exist?
 
-4. **Keyword Trends**:
+5. **Keyword Trends**:
    - What are the most common keywords/themes?
    - Are there any emerging keywords that appear frequently?
    - What keyword combinations suggest new research areas?
@@ -693,12 +775,32 @@ ARCHIVE CLASSIFICATIONS:
 IDEA LAB CLASSIFICATIONS:
 {chr(10).join([f"- {path}" for path in list(set(all_idea_paths))[:20]])}  # 去重后显示前20个
 
+DATA SOURCES COLLECTED ({len(all_data_tables)} entries):
+{chr(10).join([f"- {dt.get('name', 'Unknown')} ({dt.get('source', 'Unknown')}) - Used in: {dt.get('paper_title', 'Unknown')}" for dt in all_data_tables[:30]])}  # 最多显示30个
+
 OUTPUT: JSON format:
 {{
   "research_landscape": {{
     "main_themes": ["theme1", "theme2", ...],
     "emerging_directions": ["direction1", "direction2", ...],
     "common_methodologies": ["method1", "method2", ...]
+  }},
+  "data_landscape": {{
+    "common_datasets": [
+      {{
+        "name": "Dataset name (e.g., WorldPop)",
+        "usage_count": 5,
+        "papers_using": ["paper title 1", "paper title 2"],
+        "typical_resolution": "spatial/temporal resolution",
+        "accessibility": "public/restricted/unknown"
+      }},
+      ...
+    ],
+    "data_accessibility_summary": "Summary of which datasets are commonly accessible vs. restricted",
+    "spatial_resolution_trends": ["trend1", "trend2", ...],
+    "temporal_resolution_trends": ["trend1", "trend2", ...],
+    "data_gaps": ["gap1", "gap2", ...],
+    "integration_opportunities": ["opportunity1", "opportunity2", ...]
   }},
   "cross_paper_opportunities": [
     {{
@@ -777,6 +879,23 @@ JSON:"""
                 for direction in directions[:3]:
                     print(f"      - {direction[:80]}...")
             
+            if 'data_landscape' in global_report:
+                data_landscape = global_report['data_landscape']
+                print(f"\n   [DATA] Data Landscape Summary:")
+                if 'common_datasets' in data_landscape:
+                    common_datasets = data_landscape['common_datasets']
+                    print(f"      Common Datasets ({len(common_datasets)}):")
+                    for ds in common_datasets[:5]:
+                        name = ds.get('name', 'Unknown')
+                        count = ds.get('usage_count', 0)
+                        print(f"         - {name} (used in {count} papers)")
+                if 'data_gaps' in data_landscape:
+                    gaps = data_landscape['data_gaps']
+                    if gaps:
+                        print(f"      Data Gaps ({len(gaps)}):")
+                        for gap in gaps[:3]:
+                            print(f"         - {gap[:70]}...")
+            
             print(f"\n   [SAVED] Full report saved to: {report_file}")
             
         except json.JSONDecodeError as e:
@@ -827,20 +946,57 @@ def ai_dual_classify_batch(batch_items, user_profile, ai_model, ai_key):
     """
     client = genai.Client(api_key=ai_key)
 
-    # Format papers with full note content for deep analysis
+    # Format papers with structured fields for deep analysis
     papers_list = []
     for i, item in enumerate(batch_items):
         note_content = item.get('note_content', '')
         parsed_note = parse_note_content(note_content) if note_content else {}
         
+        # 构建结构化数据表字符串（用于 Track A 分类）
+        data_table_str = ""
+        data_table = parsed_note.get('data_table', [])
+        if data_table and isinstance(data_table, list):
+            data_table_str = "\nData Sources:\n"
+            for idx, dt in enumerate(data_table[:5], 1):  # 最多显示5个数据源
+                if isinstance(dt, dict):
+                    name = dt.get('name', 'Unknown')
+                    source = dt.get('source', 'Unknown')
+                    spatial_res = dt.get('spatial_res', 'Unknown')
+                    temporal_res = dt.get('temporal_res', 'Unknown')
+                    data_table_str += f"  {idx}. {name} ({source}) - Spatial: {spatial_res}, Temporal: {temporal_res}\n"
+        else:
+            data_table_str = "Data Sources: Not specified in structured format\n"
+        
+        # 构建弱点列表字符串（用于 Track B 分类）
+        weaknesses_str = ""
+        weaknesses = parsed_note.get('weaknesses', [])
+        if weaknesses and isinstance(weaknesses, list):
+            weaknesses_str = "\nWeaknesses:\n" + "\n".join([f"  - {w}" for w in weaknesses[:6] if w])
+        else:
+            weaknesses_str = "\nWeaknesses: Not specified in structured format\n"
+        
+        # 构建未来工作列表字符串（用于 Track B 分类）
+        future_work_str = ""
+        future_work = parsed_note.get('future_work', [])
+        if future_work and isinstance(future_work, list):
+            future_work_str = "\nFuture Work Directions:\n" + "\n".join([f"  - {fw}" for fw in future_work[:3] if fw])
+        else:
+            future_work_str = "\nFuture Work: Not specified in structured format\n"
+        
         paper_info = f"""Paper {i}:
 Title: {item['title']}
+Title (EN): {parsed_note.get('title_en', '')}
+Title (ZH): {parsed_note.get('title_zh', '')}
+Journal: {parsed_note.get('journal', '')}
+DOI: {parsed_note.get('doi', '')}
 Keywords (current): {item.get('keywords', '')}
 One-sentence Summary: {parsed_note.get('one_sentence_summary', '')}
 Research Question: {parsed_note.get('research_question', '')}
 Highlights: {', '.join(parsed_note.get('highlights', [])[:3])}
-Future Work: {', '.join(parsed_note.get('future_work', [])[:2])}
-Note Content (excerpt): {parsed_note.get('full_text', '')[:1000]}
+{data_table_str}
+{weaknesses_str}
+{future_work_str}
+Note Content (excerpt): {parsed_note.get('full_text', '')[:800]}
 """
         papers_list.append(paper_info)
 
@@ -863,7 +1019,15 @@ USER PROFILE:
 TASK: For each paper, perform DEEP ANALYSIS and provide:
 1. **Dual-Track Classification**:
    - Archive Track ([ARCHIVE]): Standard subject/method classification for retrieval
+     * IMPORTANT: Use the "Data Sources" section to help classify by methodology/data type
+     * Examples: If data_table shows "Remote Sensing" sources → Methodology/Remote Sensing/Retrieval
+     * If data_table shows "MRIO Model" → Methodology/MRIO (if exists) or Methodology/Statistical Methods
+     * Group papers by common data sources (e.g., WorldPop, CEADs, MODIS) when appropriate
    - Idea Lab Track ([IDEA]): Scientific question/mechanism classification for exploration
+     * IMPORTANT: Use "Weaknesses" and "Research Question" to identify mechanism/scale/data philosophy issues
+     * Examples: If weaknesses mention "scale issues" → Data Philosophy/Scale Issues
+     * If research_question focuses on "mechanisms" → Mechanism/...
+     * If weaknesses mention "uncertainty" → Data Philosophy/Signal Purification/Uncertainty
 
 2. **Keyword Assessment**:
    - Evaluate if current keywords are accurate and comprehensive
@@ -873,9 +1037,10 @@ TASK: For each paper, perform DEEP ANALYSIS and provide:
 3. **Paper Relationships**:
    - Identify potential connections with other papers in the batch
    - Note: You can only see papers in this batch, so focus on relationships within the batch
+   - Consider: shared data sources, similar weaknesses, complementary future work directions
 
 4. **Innovation Insights**:
-   - Based on the paper's content, research question, and future work suggestions
+   - Based on the paper's content, research question, weaknesses, and future work suggestions
    - Think about: What new research directions or opportunities does this paper suggest?
    - What gaps or limitations could be addressed in future work?
 
@@ -1550,8 +1715,11 @@ def main():
 
                     organized_count += 1
                     
-                    # 保存分析结果到文件
+                    # 保存分析结果到文件（包含完整的结构化元数据）
                     item_key = item_info['key']
+                    note_content = item_info.get('note_content', '')
+                    parsed_note = parse_note_content(note_content) if note_content else {}
+                    
                     analysis_results[item_key] = {
                         'title': item_info['title'],
                         'archive_path': archive_path,
@@ -1559,7 +1727,24 @@ def main():
                         'keyword_assessment': paths.get('keyword_assessment', {}),
                         'related_papers': paths.get('related_papers', []),
                         'innovation_insights': paths.get('innovation_insights', []),
-                        'processed_time': time.strftime('%Y-%m-%d %H:%M:%S')
+                        'processed_time': time.strftime('%Y-%m-%d %H:%M:%S'),
+                        # 新增：存储完整的结构化元数据
+                        'structured_metadata': {
+                            'title_en': parsed_note.get('title_en', ''),
+                            'title_zh': parsed_note.get('title_zh', ''),
+                            'journal': parsed_note.get('journal', ''),
+                            'date': parsed_note.get('date', ''),
+                            'doi': parsed_note.get('doi', ''),
+                            'authors': parsed_note.get('authors', ''),
+                            'one_sentence_summary': parsed_note.get('one_sentence_summary', ''),
+                            'research_question': parsed_note.get('research_question', ''),
+                            'highlights': parsed_note.get('highlights', []),
+                            'data_table': parsed_note.get('data_table', []),  # 重要：用于 Data Landscape 分析
+                            'weaknesses': parsed_note.get('weaknesses', []),  # 重要：用于 Track B 分类
+                            'future_work': parsed_note.get('future_work', []),  # 重要：用于 Track B 分类
+                            'tags': parsed_note.get('tags', []),
+                            'json_parsed': parsed_note.get('json_parsed', False)  # 标记是否从 JSON 解析
+                        }
                     }
                     save_analysis_results(analysis_results)
 
