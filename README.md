@@ -49,14 +49,18 @@
 **核心理念："走两条腿"** - 一篇论文同时归入两个分类体系
 
 #### Track A (📚 Archive): 学科分类
+
 标准的学科/方法论分类，便于系统性检索：
+
 - **Processes**: ET, Runoff, Soil Moisture, Cryosphere...
 - **Hazards**: Drought, Flood, DFA, Extremes...
 - **Methodology**: Remote Sensing, Deep Learning, Triple Collocation...
 - **Applications**: Water Management, Climate Impact...
 
 #### Track B (💡 Idea Lab): 问题驱动分类
+
 基于科学问题和物理机制的"品味驱动"分类：
+
 - **Mechanism**: Abrupt Transitions, Land-Atmosphere Coupling, Thresholds...
 - **Data Philosophy**: Signal Purification, Scale Issues, Multi-Source Integration...
 - **Modeling**: Physics-Informed AI, Causal Inference, Hybrid Modeling...
@@ -64,6 +68,7 @@
 - **Coupling**: Vegetation-Water, Energy-Water, Human-Nature Systems...
 
 **优势**：
+
 - ✅ **互补性**: 既满足传统检索需求，又激发科研灵感
 - ✅ **个性化**: 基于你的阅读历史动态调整
 - ✅ **一键双归**: 利用 Zotero 多集合特性，一篇论文同时出现在两处
@@ -130,25 +135,56 @@
 
 ```
 zotero-ai-reader/
-├── reader.py               # 🎯 Step 1: AI 论文分析工具
-├── profiler.py             # 👤 Step 2: 研究品味提取器 (NEW!)
-├── organizer.py            # 🗂️ Step 3: 双轨智能分类工具 (MAIN!)
-├── tag_cleaner.py          # 🧹 标签清理工具
-├── keyword_classifier.py   # 🔍 关键词分类分析工具
-├── config_loader.py        # 🔧 配置加载工具（交互式选择config.py）
-├── prompt.md               # 📋 AI 分析提示词模板
-├── config.example.py       # ⚙️ 配置文件模板（⚠️ 请复制为 config.py）
-├── config.py               # ⚙️ 实际配置文件（⚠️ 包含敏感信息，不在Git中）
-├── requirements.txt        # 📦 依赖包列表
-├── collections_cache.json  # 💾 集合缓存（自动生成）
-├── user_profile.json       # 👤 用户画像（自动生成）
-├── keyword_analysis/       # 📊 关键词分析结果目录
-│   ├── keyword_categories.json
-│   ├── keyword_statistics.json
-│   ├── keyword_top20.json
-│   └── keyword_top20_analyzer.py
-└── README.md               # 📖 本文件
+├── reader.py                    # 🎯 Step 1: AI 论文分析工具
+├── profiler.py                  # 👤 Step 2: 研究品味提取器
+├── organizer.py                 # 🗂️ Step 3: 双轨智能分类工具 (MAIN!)
+├── tag_cleaner.py               # 🧹 标签清理工具
+├── keyword_classifier.py        # 🔍 关键词分类分析工具
+├── config_loader.py             # 🔧 配置加载工具（交互式选择config.py）
+├── prompt.md                    # 📋 AI 分析提示词模板
+├── config.example.py            # ⚙️ 配置文件模板（⚠️ 请复制为 config.py）
+├── config.py                    # ⚙️ 实际配置文件（⚠️ 包含敏感信息，不在Git中）
+├── requirements.txt             # 📦 依赖包列表
+├── collections_cache.json       # 💾 集合缓存（自动生成，已加入.gitignore）
+├── user_profile.json            # 👤 用户画像（自动生成，已加入.gitignore）
+├── keyword_analysis/             # 📊 关键词分析结果目录
+│   ├── keyword_categories.json  # 关键词分类结果（自动生成）
+│   ├── keyword_statistics.json  # 统计信息（自动生成）
+│   ├── keyword_top20.json       # Top20关键词（自动生成）
+│   ├── keyword_top20_report.txt # Top20报告（自动生成）
+│   └── keyword_top20_analyzer.py  # Top20分析工具脚本
+├── analysis_json/               # 📊 深度分析结果目录（自动生成）
+│   ├── *_deep_analysis_results.json      # 单篇论文深度分析结果
+│   └── *_research_opportunities_report.json  # 全局研究机会报告
+└── README.md                    # 📖 本文件
 ```
+
+**注意**：
+
+- `config.py` 文件包含敏感信息（API密钥），已在 `.gitignore` 中，不会被提交到Git
+- 所有自动生成的文件（缓存、分析结果等）也已加入 `.gitignore`
+- 首次使用前，请复制 `config.example.py` 为 `config.py` 并填入您的配置
+
+---
+
+## 📋 脚本功能总览
+
+| 脚本名称                      | 主要功能        | 输入                    | 输出                  | 使用频率           |
+| ----------------------------- | --------------- | ----------------------- | --------------------- | ------------------ |
+| `reader.py`                 | AI论文分析      | Zotero文献库 + PDF文件  | AI阅读报告笔记        | 首次分析时         |
+| `profiler.py`               | 研究品味提取    | 已分析的论文笔记        | `user_profile.json` | 定期更新（如每周） |
+| `organizer.py`              | 双轨智能分类    | 已分析的论文 + 用户画像 | 分类到集合 + 分析报告 | 每次分析后         |
+| `tag_cleaner.py`            | 标签清理        | Zotero文献库            | 清理后的标签          | 按需使用           |
+| `keyword_classifier.py`     | 关键词聚类分析  | 所有论文的AI笔记        | 关键词分类结果        | 按需使用           |
+| `keyword_top20_analyzer.py` | Top20关键词提取 | 关键词分类结果          | Top20关键词报告       | 按需使用           |
+| `config_loader.py`          | 配置加载        | 命令行参数或交互选择    | 配置对象              | 所有脚本自动调用   |
+
+**典型工作流程**：
+
+1. **首次使用**：运行 `reader.py` → `profiler.py` → `organizer.py`
+2. **持续使用**：定期运行 `reader.py`（新论文）→ `organizer.py`（分类）
+3. **定期更新**：每周运行一次 `profiler.py`（更新画像）
+4. **按需分析**：运行 `keyword_classifier.py` 和 `keyword_top20_analyzer.py`（关键词分析）
 
 ---
 
@@ -166,10 +202,12 @@ zotero-ai-reader/
 
 **核心能力**：
 
-- ✅ 智能 PDF 搜索（支持多种匹配策略）
-- ✅ 批量处理（支持集合筛选、类型过滤）
-- ✅ 自动去重（通过标签识别已处理文献）
-- ✅ 错误恢复（完善的异常处理机制）
+- ✅ 智能 PDF 搜索（支持多种匹配策略：file_key、文件名关键词、递归搜索）
+- ✅ 批量处理（支持集合筛选、类型过滤、测试模式）
+- ✅ 自动去重（通过 `gemini_read` 标签识别已处理文献）
+- ✅ 错误恢复（完善的异常处理机制，包括PDF验证、API重试）
+- ✅ 交互式路径选择（Zotero Storage路径可选择、自动搜索或手动输入）
+- ✅ 笔记自动保存（Markdown转HTML，提取一句话总结作为标题）
 
 **快速上手**：
 
@@ -193,19 +231,21 @@ python reader.py
 
 **核心能力**：
 
-- ✅ **动态品味识别**：理解你当前的研究关注点
-- ✅ **趋势发现**：识别新兴兴趣方向
-- ✅ **个性化建议**：基于实际阅读历史推荐 Idea Lab 分类
-- ✅ **持续进化**：定期更新，分类越用越精准
+- ✅ **动态品味识别**：分析最近20篇已读论文，理解当前研究关注点
+- ✅ **趋势发现**：识别新兴兴趣方向和方法论变化
+- ✅ **个性化建议**：基于实际阅读历史推荐 Idea Lab 分类结构
+- ✅ **持续进化**：定期更新画像，分类越用越精准
+- ✅ **AI驱动分析**：使用Gemini AI分析阅读模式，生成结构化画像
+- ✅ **多维度分析**：关注研究主题、方法论、科学问题等多个维度
 
 **生成的画像包含**：
 
 ```json
 {
   "base_info": {
-    "name": "Prof. Chengming Li",
-    "field": "Hydrology, Remote Sensing",
-    "core_interests": ["ET", "Flash Drought", "DFA", "Deep Learning"]
+    "name": "Your Name",
+    "field": "Your Research Field",
+    "core_interests": ["Interest1", "Interest2", "Interest3"]
   },
   "dynamic_analysis": {
     "summary": "当前关注点总结...",
@@ -236,17 +276,19 @@ python profiler.py
 
 **核心能力**：
 
-- ✅ **双轨分类**：一篇论文同时归入 Archive + Idea Lab
-- ✅ **画像驱动**：读取 user_profile.json 定制分类逻辑
-- ✅ **深度笔记解析**：提取完整的AI阅读报告，包括研究问题、核心亮点、主要不足、未来工作方向
+- ✅ **双轨分类**：一篇论文同时归入 Archive + Idea Lab 两个分类体系
+- ✅ **画像驱动**：读取 `user_profile.json` 定制分类逻辑，个性化分类结果
+- ✅ **深度笔记解析**：提取完整的AI阅读报告，包括研究问题、核心亮点、主要不足、未来工作方向、数据表等结构化信息
 - ✅ **关键词精准度评估**：AI分析当前关键词准确性，提供改进建议和评估理由
-- ✅ **论文关联分析**：发现同批次论文之间的潜在关联（基于研究问题、方法、关键词）
+- ✅ **论文关联分析**：发现同批次论文之间的潜在关联（基于研究问题、方法、关键词、数据源）
 - ✅ **创新点洞察**：基于论文内容思考新的研究方向和机会
-- ✅ **分析结果保存**：将深度分析结果保存到JSON文件，便于后续查看和分析
+- ✅ **全局分析报告**：汇总所有论文，生成跨论文研究机会报告和数据景观分析
+- ✅ **分析结果保存**：将深度分析结果保存到JSON文件（`analysis_json/`目录），便于后续查看和分析
 - ✅ **Token 优化**：本地缓存 + 精简提示词，节省 API 成本
-- ✅ **批量处理**：一次处理多篇论文（默认 5 篇/批）
-- ✅ **测试模式**：DRY_RUN 模式先预览再执行
-- ✅ **自动创建**：不存在的集合路径自动创建
+- ✅ **批量处理**：一次处理多篇论文（默认 5 篇/批，可配置）
+- ✅ **测试模式**：DRY_RUN 模式先预览再执行，避免误操作
+- ✅ **自动创建**：不存在的集合路径自动创建（支持多层级嵌套）
+- ✅ **子集合递归**：支持递归处理目标集合的所有子集合
 
 **双轨分类体系示例**：
 
@@ -314,16 +356,17 @@ TARGET_COLLECTION_PATH = None  # 指定处理某个集合（如 "00_Inbox"）
 
 **分析能力矩阵**：
 
-| 功能 | 状态 | 完成度 |
-|------|------|--------|
-| 读取论文笔记 | ✅ | 100% |
-| 论文双轨分类 | ✅ | 100% |
-| 关键词精准度评估 | ✅ | 100% |
-| 论文关联分析 | ⚠️ | 60% (批次内) |
-| 创新点思考 | ✅ | 80% (单篇级别) |
-| 归纳整理 | ✅ | 100% |
+| 功能             | 状态 | 完成度         |
+| ---------------- | ---- | -------------- |
+| 读取论文笔记     | ✅   | 100%           |
+| 论文双轨分类     | ✅   | 100%           |
+| 关键词精准度评估 | ✅   | 100%           |
+| 论文关联分析     | ⚠️ | 60% (批次内)   |
+| 创新点思考       | ✅   | 80% (单篇级别) |
+| 归纳整理         | ✅   | 100%           |
 
 **未来增强计划**：
+
 - 🔄 全局论文关联分析（跨批次、跨集合）
 - 📊 全局创新点汇总报告
 - 🌐 跨论文研究机会发现
@@ -337,9 +380,18 @@ TARGET_COLLECTION_PATH = None  # 指定处理某个集合（如 "00_Inbox"）
 
 **功能**：
 
-- 🎯 批量清理标签，只保留重要标签
-- 🔍 支持按文献类型过滤
+- 🎯 批量清理标签，只保留重要标签（在 `config.py` 中配置 `KEEP_TAGS`）
+- 🔍 支持按文献类型过滤（通过 `ITEM_TYPES_TO_PROCESS` 配置）
 - 📊 实时显示清理进度和统计
+- ✅ 自动跳过无标签的文献
+- 🔄 支持分页获取，处理大型文献库
+
+**配置**（在 `config.py` 中）：
+
+```python
+KEEP_TAGS = ["精读", "重要", "可行", "参考"]  # 要保留的标签列表
+ITEM_TYPES_TO_PROCESS = None  # None表示处理所有类型，或指定如 ['journalArticle']
+```
 
 **使用方法**：
 
@@ -347,18 +399,26 @@ TARGET_COLLECTION_PATH = None  # 指定处理某个集合（如 "00_Inbox"）
 python tag_cleaner.py
 ```
 
+**输出**：
+
+- 实时显示清理进度和统计信息
+- 最终统计：已处理、已清理、已跳过、错误数量
+
 ### 5. `keyword_classifier.py` - 关键词分类分析工具 🔍
 
 **从Zotero库中提取所有文献的AI笔记关键词，进行智能聚类和分类分析。**
 
 **功能**：
 
-- ✅ 自动检索所有文献的"AI 深度阅读报告"笔记
-- ✅ 提取Keywords关键词部分
+- ✅ 自动检索所有文献的"AI 深度阅读报告"笔记（支持模糊匹配）
+- ✅ 提取Keywords关键词部分（支持多种格式）
 - ✅ 关键词归一化（去重、同义词识别、缩写展开）
-- ✅ 基于语义相似度和共现关系的智能聚类
+- ✅ 基于TF-IDF向量化和余弦相似度的语义分析
+- ✅ 基于共现关系的关联分析
+- ✅ 层次聚类算法（支持自定义相似度阈值）
 - ✅ 支持多标签分类（一个关键词可属于多个类目）
 - ✅ 生成层次化分类结构和统计报告
+- ✅ 完善的错误处理和重试机制
 
 **使用方法**：
 
@@ -366,10 +426,18 @@ python tag_cleaner.py
 python keyword_classifier.py
 ```
 
+**配置参数**（可在脚本中修改）：
+
+- `SEMANTIC_SIMILARITY_THRESHOLD = 0.6` - 语义相似度阈值
+- `STRING_SIMILARITY_THRESHOLD = 0.8` - 字符串相似度阈值
+- `MIN_CLUSTER_SIZE = 2` - 最小聚类大小
+- `DEBUG_MODE = True` - 是否显示详细调试信息
+
 **输出文件**（保存在 `keyword_analysis/` 目录）：
-- `keyword_categories.json` - JSON格式的分类结果
-- `keyword_report.txt` - 文本格式的详细报告
-- `keyword_statistics.json` - 统计信息
+
+- `keyword_categories.json` - JSON格式的分类结果（包含类别和关键词分配）
+- `keyword_report.txt` - 文本格式的详细报告（包含统计和多标签列表）
+- `keyword_statistics.json` - 统计信息（总文献数、唯一关键词数、分类数等）
 
 ### 6. `keyword_top20_analyzer.py` - 关键词Top20分析工具 📊
 
@@ -377,10 +445,11 @@ python keyword_classifier.py
 
 **功能**：
 
-- ✅ 提取并拆分关键词
-- ✅ 统计频次
-- ✅ 使用Gemini识别同义词并合并
-- ✅ 生成Top20关键词报告
+- ✅ 从 `keyword_categories.json` 提取所有关键词
+- ✅ 拆分关键词短语（处理连字符、斜杠等分隔符）
+- ✅ 统计关键词频次
+- ✅ 使用Gemini AI识别同义词并智能合并
+- ✅ 生成Top20关键词报告（JSON和文本格式）
 
 **使用方法**：
 
@@ -389,9 +458,14 @@ cd keyword_analysis
 python keyword_top20_analyzer.py
 ```
 
+**前置要求**：
+
+- 需要先运行 `keyword_classifier.py` 生成 `keyword_categories.json` 和 `keyword_statistics.json`
+
 **输出文件**：
-- `keyword_top20.json` - JSON格式的Top20关键词
-- `keyword_top20_report.txt` - 文本格式的报告
+
+- `keyword_top20.json` - JSON格式的Top20关键词（包含合并规则和统计信息）
+- `keyword_top20_report.txt` - 文本格式的详细报告
 
 ### 7. `config_loader.py` - 配置加载工具 🔧
 
@@ -403,14 +477,22 @@ python keyword_top20_analyzer.py
 - ✅ 交互式选择界面（4种方式）
 - ✅ 自动搜索配置文件（当前目录、脚本目录、项目根目录）
 - ✅ GUI文件浏览器选择（需要tkinter支持）
+- ✅ 配置文件验证（检查必需属性和值有效性）
 
 **用户通常不需要直接使用**，所有脚本都会自动调用此模块加载配置。
 
 **交互式选择选项**：
+
 1. 使用建议位置（如果自动找到config.py）
 2. 手动输入config.py的完整路径
 3. 使用GUI文件浏览器选择
 4. 自动搜索配置文件
+
+**配置验证**：
+
+- 检查必需属性：`LIBRARY_ID`, `API_KEY`, `LIBRARY_TYPE`, `AI_API_KEY`
+- 验证属性值不为空
+- 验证 `LIBRARY_TYPE` 值有效性（'user' 或 'group'）
 
 ---
 
@@ -451,10 +533,17 @@ cp config.example.py config.py
 ```
 
 **💡 提示**：运行脚本时，如果没有找到config.py文件，会弹出交互式选择界面，你可以：
+
 - 选择自动搜索（在当前目录或项目根目录查找）
 - 手动输入config.py的路径
-- 使用GUI文件浏览器选择
+- 使用GUI文件浏览器选择（需要tkinter支持）
 - 使用命令行参数：`python reader.py --config /path/to/config.py`
+
+**⚠️ 安全提示**：
+
+- `config.py` 文件包含敏感信息（API密钥），已在 `.gitignore` 中
+- 请勿将 `config.py` 提交到版本控制系统
+- 如果使用Git，请确保 `.gitignore` 包含 `config.py`
 
 #### 4️⃣ 运行完整工作流
 
@@ -495,7 +584,6 @@ python organizer.py
    ```bash
    cp config.example.py config.py
    ```
-
 2. **编辑配置**：
    打开 `config.py`，填入你的真实配置：
 
@@ -505,12 +593,11 @@ python organizer.py
    API_KEY = '你的Zotero_API密钥'             # 需要读写权限
    LIBRARY_TYPE = 'user'                      # 'user' 或 'group'
    ZOTERO_STORAGE_PATH = r'你的PDF存储路径'
-   
+
    # --- AI 模型设置 (Gemini) ---
    AI_API_KEY = '你的Gemini_API密钥'          # 在 Google AI Studio 获取
    AI_MODEL = 'gemini-2.5-flash-lite'         # 可选模型
    ```
-
 3. **运行脚本时的配置选择**：
 
    当你运行任何脚本时，如果没有找到config.py，会弹出**交互式选择界面**：
@@ -522,11 +609,11 @@ python organizer.py
    ```
 
    **交互式界面提供以下选项**：
+
    - **选项1**：使用建议位置（如果自动找到config.py）
    - **选项2**：手动输入config.py的完整路径
    - **选项3**：使用GUI文件浏览器选择（需要tkinter支持）
    - **选项4**：自动搜索（在当前目录、脚本目录、项目根目录中搜索）
-
 4. **自动保护**：
 
    - ✅ `config.py` 已在 `.gitignore` 中
@@ -535,7 +622,6 @@ python organizer.py
    - ✅ 代码中不会硬编码任何真实密钥
    - ✅ 支持灵活指定配置文件位置
    - ✅ 你的密钥安全无忧
-
 5. **配置使用说明**：
 
    - **所有脚本**（`reader.py`, `profiler.py`, `organizer.py`, `tag_cleaner.py`, `keyword_classifier.py`, `keyword_top20_analyzer.py`）都使用 `config_loader.py` 统一加载配置
@@ -614,6 +700,7 @@ python organizer.py
 ```
 
 **预期结果**：
+
 - ✅ 50 篇论文全部分析完成，每篇都有详细笔记
 - ✅ 生成个性化研究画像
 - ✅ 每篇论文同时归入两个集合：
@@ -738,8 +825,18 @@ grep -r "你的Zotero_API密钥" --include="*.py" .
 grep -r "你的Gemini_API密钥" --include="*.py" .
 
 # 搜索常见的API密钥模式（应该只有config.py包含，且config.py在.gitignore中）
-grep -r "API_KEY.*=" --include="*.py" . | grep -v "config" | grep -v "YOUR_"
+grep -r "API_KEY.*=" --include="*.py" . | grep -v "config" | grep -v "YOUR_" | grep -v "example"
+
+# 检查.gitignore是否包含config.py
+grep "config.py" .gitignore
 ```
+
+**安全检查清单**：
+
+- ✅ `config.py` 在 `.gitignore` 中
+- ✅ 代码中没有硬编码的真实API密钥
+- ✅ `config.example.py` 中只包含占位符（YOUR_*）
+- ✅ 所有脚本都通过 `config_loader.py` 统一加载配置
 
 ### 🔒 API 限制
 
@@ -848,6 +945,23 @@ PyMuPDF>=1.23.0      # PDF 文本提取
 markdown>=3.4.0      # Markdown 转 HTML
 ```
 
+**可选依赖**（用于GUI文件选择）：
+
+```
+tkinter              # GUI文件浏览器（通常Python自带）
+```
+
+**安装方法**：
+
+```bash
+pip install -r requirements.txt
+```
+
+**注意**：
+
+- Python 3.7+ 必需
+- 某些Linux发行版可能需要单独安装 `python3-tkinter` 以支持GUI功能
+
 ---
 
 ## 🎓 使用示例
@@ -873,6 +987,7 @@ python organizer.py
 ```
 
 **结果**：
+
 - 每篇论文都有详细的 AI 笔记
 - 自动双轨分类到：
   - 📚 "Archive/Hazards/Drought/Flash Drought"
@@ -895,6 +1010,7 @@ python organizer.py
 ```
 
 **结果**：
+
 - 每周日凌晨自动处理新论文
 - 每月初更新研究画像
 - 完全自动化，无需人工干预
@@ -933,7 +1049,6 @@ python organizer.py
 
 - 🐛 **问题反馈**：[GitHub Issues](https://github.com/yourusername/zotero-ai-reader/issues)
 - 💬 **讨论交流**：[GitHub Discussions](https://github.com/yourusername/zotero-ai-reader/discussions)
-- 📧 **邮件联系**：licm@scut.com
 
 ---
 
@@ -943,6 +1058,6 @@ python organizer.py
 
 **⭐ 如果这个项目对你有帮助，请给个 Star！**
 
-Made with ❤️ by Prof. Chengming Li & community
+Made with ❤️ by the community
 
 </div>

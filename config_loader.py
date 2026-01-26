@@ -30,8 +30,9 @@ def find_config_file(start_dir: str = None) -> Optional[str]:
     if start_dir is None:
         start_dir = os.getcwd()
     
-    # 默认配置文件路径（用户指定）
-    DEFAULT_CONFIG_PATH = r'C:\Users\ASUS\OneDrive\SCI\Github\zotero_ai_read_config.py'
+    # 默认配置文件路径（用户指定，可根据需要修改）
+    # 注意：此路径仅作为示例，实际使用时请根据您的环境修改
+    DEFAULT_CONFIG_PATH = None  # 设置为None以禁用默认路径，或设置为您的配置文件路径
     
     # 候选文件列表（按优先级排序）
     candidate_paths = []
