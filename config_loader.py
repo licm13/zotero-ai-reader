@@ -38,7 +38,7 @@ def find_config_file(start_dir: str = None) -> Optional[str]:
     candidate_paths = []
     
     # 1. 首先检查默认配置文件路径
-    if os.path.exists(DEFAULT_CONFIG_PATH) and os.path.isfile(DEFAULT_CONFIG_PATH):
+    if DEFAULT_CONFIG_PATH and os.path.exists(DEFAULT_CONFIG_PATH) and os.path.isfile(DEFAULT_CONFIG_PATH):
         candidate_paths.append(os.path.abspath(DEFAULT_CONFIG_PATH))
     
     # 2. 检查上一级目录中的 zotero_ai_read_config.py（优先）
