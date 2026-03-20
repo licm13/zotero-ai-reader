@@ -135,7 +135,7 @@
 
 ```
 zotero-ai-reader/
-├── reader.py                    # 🎯 Step 1: AI 论文分析工具
+├── reader.py                    # 🎯 Step 1: AI 论文分析工具 (支持 Gemini/小米 MIMO 双模型)
 ├── profiler.py                  # 👤 Step 2: 研究品味提取器
 ├── organizer.py                 # 🗂️ Step 3: 双轨智能分类工具 (MAIN!)
 ├── tag_cleaner.py               # 🧹 标签清理工具
@@ -202,6 +202,7 @@ zotero-ai-reader/
 
 **核心能力**：
 
+- ✅ 双AI引擎支持（启动时交互式选择使用 Google Gemini 还是 小米 MIMO，支持配置文件设定默认选项）
 - ✅ 智能 PDF 搜索（支持多种匹配策略：file_key、文件名关键词、递归搜索）
 - ✅ 批量处理（支持集合筛选、类型过滤、测试模式）
 - ✅ 自动去重（通过 `gemini_read` 标签识别已处理文献）
@@ -502,7 +503,8 @@ python keyword_top20_analyzer.py
 
 - 🐍 Python 3.7+
 - 📚 Zotero 账户（免费注册：https://www.zotero.org/）
-- 🤖 Google Gemini API Key（免费获取：https://makersuite.google.com/app/apikey）
+- 🤖 Google Gemini API Key（选用，免费获取：https://makersuite.google.com/app/apikey）
+- 🟠 **小米 MIMO API Key**（选用，前往 [小米 MIMO 开放平台](https://platform.xiaomimimo.com/) 注册。**注意：需要完成实名认证并进行预充值后才能正常调用 API**）
 
 ### ⚡ 5 分钟快速上手
 

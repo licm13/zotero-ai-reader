@@ -5,8 +5,6 @@ import markdown
 import fitz  # PyMuPDF
 from pyzotero import zotero
 from google import genai
-from openai import OpenAI
-
 
 # ================= 1. 配置加载 =================
 # 使用config_loader交互式选择config.py文件
@@ -22,6 +20,8 @@ LIBRARY_ID = config.LIBRARY_ID
 API_KEY = config.API_KEY
 LIBRARY_TYPE = config.LIBRARY_TYPE
 ZOTERO_STORAGE_PATH = config.ZOTERO_STORAGE_PATH
+AI_API_KEY = config.AI_API_KEY
+AI_MODEL = getattr(config, 'AI_MODEL', 'gemini-2.5-flash-lite')
 PROMPT_FILE_NAME = getattr(config, 'PROMPT_FILE_NAME', 'prompt.md')
 ITEM_TYPES_TO_PROCESS = getattr(config, 'ITEM_TYPES_TO_PROCESS', None)
 TARGET_COLLECTION_PATH = getattr(config, 'TARGET_COLLECTION_PATH', None)
@@ -220,61 +220,11 @@ def prompt_zotero_storage_path():
         except Exception as e:
             print(f"❌ 错误: {e}")
 
-def prompt_ai_provider():
-    """提示用户选择 AI 提供商"""
-    provider = getattr(config, 'DEFAULT_AI_PROVIDER', None)
-    if provider in ['gemini', 'xiaomi']:
-        print(f"\n✅ 使用配置文件指定的 AI 提供商: {provider.upper()}")
-        return provider
-    
-    print("\n" + "=" * 70)
-    print("🤖 AI 模型提供商选择")
-    print("=" * 70)
-    print("请选择用于文献分析的 AI 提供商：")
-    print("  1. Google Gemini (推荐)")
-    print("  2. 小米 MIMO API")
-    print("  0. 取消并退出")
-    
-    while True:
-        try:
-            choice = input("\n请选择 [1-2, 0取消]: ").strip()
-            if choice == '0':
-                print("❌ 已取消")
-                sys.exit(0)
-            elif choice == '1':
-                return 'gemini'
-            elif choice == '2':
-                return 'xiaomi'
-            else:
-                print("⚠️  无效选择，请输入 1 或 2，或 0 取消")
-        except KeyboardInterrupt:
-            print("\n\n❌ 已取消")
-            sys.exit(0)
-
-# 询问用户是否要选择设置
+# 询问用户是否要选择 Zotero Storage 路径
 print("\n" + "=" * 70)
 print("📋 配置加载完成")
 print("=" * 70)
 ZOTERO_STORAGE_PATH = prompt_zotero_storage_path()
-AI_PROVIDER = prompt_ai_provider()
-
-# 根据选择设置全局变量
-if AI_PROVIDER == 'gemini':
-    ACTIVE_API_KEY = getattr(config, 'AI_API_KEY', None)
-    ACTIVE_MODEL = getattr(config, 'AI_MODEL', 'gemini-3.1-flash-lite-preview')
-    SUCCESS_TAG = 'gemini_read'
-    NON_LIT_TAG = 'non-read-gemini'
-else:
-    ACTIVE_API_KEY = getattr(config, 'XiaoMi_API_KEY', None)
-    ACTIVE_MODEL = getattr(config, 'XIAOMI_MODEL', 'mimo-v2-pro')
-    SUCCESS_TAG = 'MIMO_read'
-    NON_LIT_TAG = 'non-read-mimo'
-
-if not ACTIVE_API_KEY:
-    print(f"❌ 未找到 {AI_PROVIDER.upper()} 的 API 密钥配置，程序退出。请检查 config.py。")
-    sys.exit(1)
-
-print(f"\n✅ 已加载 {AI_PROVIDER.upper()} 模型配置: {ACTIVE_MODEL}")
 
 # ================= 2. 功能函数定义 =================
 
@@ -549,65 +499,54 @@ def get_pdf_content(file_key, filename=None):
     return text_content, "Success"
 
 def call_ai_analysis(paper_text, system_prompt):
-    """调用 AI 模型进行分析"""
+    """调用 Gemini 模型进行分析"""
     import traceback
     
     max_retries = 2
     for attempt in range(max_retries):
         try:
-            print(f"   🔄 尝试连接 {AI_PROVIDER.upper()} API (尝试 {attempt + 1}/{max_retries})...")
+            print(f"   🔄 尝试连接 Gemini API (尝试 {attempt + 1}/{max_retries})...")
             
-            # 构建完整的提示词
+            # 创建客户端（使用新的 API 方式）
+            client = genai.Client(api_key=AI_API_KEY)
+            
+            # 构建完整的提示词（将 system prompt 和 paper content 合并）
             full_content = f"{system_prompt}\n\nPaper Content:\n\n{paper_text}"
             
-            print(f"   📤 正在发送请求 (模型: {ACTIVE_MODEL})...")
+            print(f"   📤 正在发送请求到 Gemini API (模型: {AI_MODEL})...")
             print(f"   ⏳ 请稍候，这可能需要 30-120 秒...")
             
+            # 调用模型
             start_time = time.time()
             
-            if AI_PROVIDER == 'gemini':
-                client = genai.Client(api_key=ACTIVE_API_KEY)
-                response = client.models.generate_content(
-                    model=ACTIVE_MODEL,
-                    contents=full_content
-                )
-                elapsed_time = time.time() - start_time
-                print(f"   ✅ API 响应成功 (耗时: {elapsed_time:.1f}秒)")
-                if response and hasattr(response, 'text') and response.text:
-                    return response.text
-                else:
-                    print(f"   ⚠️  响应为空，尝试重新生成...")
+            response = client.models.generate_content(
+                model=AI_MODEL,
+                contents=full_content
+            )
+            
+            elapsed_time = time.time() - start_time
+            print(f"   ✅ API 响应成功 (耗时: {elapsed_time:.1f}秒)")
+            
+            # 检查响应是否有效
+            if response and hasattr(response, 'text') and response.text:
+                return response.text
             else:
-                client = OpenAI(
-                    api_key=ACTIVE_API_KEY,
-                    base_url="https://api.xiaomimimo.com/v1"
-                )
-                response = client.chat.completions.create(
-                    model=ACTIVE_MODEL,
-                    messages=[{"role": "user", "content": full_content}]
-                )
-                elapsed_time = time.time() - start_time
-                print(f"   ✅ API 响应成功 (耗时: {elapsed_time:.1f}秒)")
-                if response and response.choices and response.choices[0].message.content:
-                    return response.choices[0].message.content
+                print(f"   ⚠️  响应为空，尝试重新生成...")
+                if attempt < max_retries - 1:
+                    continue
                 else:
-                    print(f"   ⚠️  响应为空，尝试重新生成...")
+                    print(f"   ❌ 多次尝试后仍无法获取有效响应")
+                    return None
                     
         except Exception as e:
             error_msg = str(e)
             print(f"   ❌ AI 调用出错: {error_msg}")
             
-            if AI_PROVIDER == 'xiaomi' and ('402' in error_msg or 'insufficient_balance' in error_msg.lower()):
-                print(f"   💰 错误提示: 您的 API 账户余额不足！请前往小米 MIMO 开放平台充值或检查免费额度。")
-                return None
-            
             # 检查是否是模型名称错误
             if 'model' in error_msg.lower() or 'not found' in error_msg.lower() or 'invalid' in error_msg.lower():
-                print(f"   ⚠️  模型名称可能不正确: {ACTIVE_MODEL}")
-                if attempt < max_retries - 1:
-                    pass # 会继续重试
-                else:
-                    return None
+                print(f"   ⚠️  模型名称可能不正确: {AI_MODEL}")
+                print(f"   💡 请尝试使用: gemini-2.5-flash-lite, gemini-1.5-pro, gemini-1.5-flash, 或 gemini-pro")
+                return None
             
             # 如果是网络或超时错误，尝试重试
             if attempt < max_retries - 1:
@@ -936,7 +875,7 @@ def save_note_to_zotero(zot, item_key, markdown_content):
             'itemType': 'note',
             'parentItem': str(item_key),  # 确保是字符串
             'note': final_note,
-            'tags': [{'tag': SUCCESS_TAG}]  # 给笔记打上标签
+            'tags': [{'tag': 'gemini_read'}]  # 给笔记打上标签
         }
         
         # 打印准备创建的数据结构
@@ -1274,23 +1213,23 @@ def main():
         item_key = item['key']
         item_type = item['data'].get('itemType', '')
         
-        # 跳过 note 和 attachment 类型（这些不能作为父项），并加对应 non-read 标签
+        # 跳过 note 和 attachment 类型（这些不能作为父项），并加 non-read-gemini 标签
         if item_type in ['note', 'attachment']:
             print(f"\n[{idx}/{len(all_items)}] 跳过非文献项目: {title[:60]}... (类型: {item_type})")
-            add_tag_to_item(zot, item_key, NON_LIT_TAG)
+            add_tag_to_item(zot, item_key, 'non-read-gemini')
             skipped_count += 1
             continue
         
         # 如果设置了文献类型过滤，只处理指定类型，不符合的也加 non-read-gemini 标签
         if ITEM_TYPES_TO_PROCESS is not None:
             if item_type not in ITEM_TYPES_TO_PROCESS:
-                add_tag_to_item(zot, item_key, NON_LIT_TAG)
+                add_tag_to_item(zot, item_key, 'non-read-gemini')
                 continue  # 跳过不符合类型的文献
         
         # --- 检查：是否已经分析过？ ---
-        # 检查论文本身是否有 'gemini_read' 或者是 'MIMO_read' 标签
+        # 检查论文本身是否有 'gemini_read' 标签
         item_tags = item['data'].get('tags', [])
-        has_processed_tag = any(tag.get('tag') in ['gemini_read', 'MIMO_read'] for tag in item_tags)
+        has_gemini_read_tag = any(tag.get('tag') == 'gemini_read' for tag in item_tags)
         
         # 获取子条目，寻找 PDF 附件
         children = zot.children(item_key)
@@ -1311,9 +1250,9 @@ def main():
         # 显示进度
         print(f"\n[{idx}/{len(all_items)}] 处理文献: {title[:60]}...")
         
-        # 如果已有处理成功的标签，说明已处理过，跳过
-        if has_processed_tag:
-            print(f"   ⏭️  跳过 (已处理 - 检测到模型分析标签)")
+        # 如果已有 gemini_read 标签，说明已处理过，跳过
+        if has_gemini_read_tag:
+            print(f"   ⏭️  跳过 (已处理 - 检测到 gemini_read 标签)")
             skipped_count += 1
             continue
             
@@ -1370,8 +1309,8 @@ def main():
             print(f"   💾 正在保存笔记到 Zotero...")
             try:
                 save_note_to_zotero(zot, item_key, ai_result)
-                # 保存成功后，添加成功标签
-                add_tag_to_item(zot, item_key, SUCCESS_TAG)
+                # 保存成功后，添加 gemini_read 标签
+                add_tag_to_item(zot, item_key, 'gemini_read')
                 print(f"   ✅ 完成!")
                 processed_count += 1
             except Exception as e:
