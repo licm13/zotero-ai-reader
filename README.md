@@ -596,9 +596,16 @@ python organizer.py
    LIBRARY_TYPE = 'user'                      # 'user' 或 'group'
    ZOTERO_STORAGE_PATH = r'你的PDF存储路径'
 
-   # --- AI 模型设置 (Gemini) ---
+   # --- AI 模型设置 ---
+   # 1. Gemini 配置
    AI_API_KEY = '你的Gemini_API密钥'          # 在 Google AI Studio 获取
-   AI_MODEL = 'gemini-2.5-flash-lite'         # 可选模型
+   AI_MODEL = 'gemini-3.1-flash-lite-preview'
+
+   # 2. XiaoMi MIMO 配置
+   XiaoMi_API_KEY = '你的XiaoMi_API密钥'      # 在小米 MIMO 开放平台获取
+   XIAOMI_MODEL = 'mimo-v2-pro'
+   
+   DEFAULT_AI_PROVIDER = None                 # 'gemini'，'xiaomi'，或 None (交互式选择)
    ```
 3. **运行脚本时的配置选择**：
 

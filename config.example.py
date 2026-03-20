@@ -20,10 +20,19 @@ LIBRARY_TYPE = 'user'  # 个人库填 'user'，群组库填 'group'
 # Linux 示例: '/home/username/Zotero/storage'
 ZOTERO_STORAGE_PATH = r'C:\Users\YourName\Zotero\storage'  # 替换为您的 PDF 存储路径
 
-# --- AI 模型设置 (Gemini) ---
+# --- AI 模型设置 ---
+# 1. Gemini 配置
 # 获取 API Key: https://makersuite.google.com/app/apikey
 AI_API_KEY = 'YOUR_GEMINI_API_KEY'  # 替换为您的 Gemini API Key
-AI_MODEL = 'gemini-2.5-flash-lite'  # 可选模型: gemini-2.5-flash-lite, gemini-1.5-pro, gemini-1.5-flash
+AI_MODEL = 'gemini-3.1-flash-lite-preview'  # 推荐模型
+
+# 2. XiaoMi MIMO 配置
+# 获取 API Key: https://platform.xiaomimimo.com/
+XiaoMi_API_KEY = 'YOUR_XIAOMI_API_KEY'  # 替换为您的小米 API Key
+XIAOMI_MODEL = 'mimo-v2-pro'  # 推荐模型
+
+# 默认使用的 AI 提供商 (设为 'gemini' 或 'xiaomi' 可跳过启动时的选择，设为 None 每次将询问)
+DEFAULT_AI_PROVIDER = None
 
 # --- 文件设置 ---
 PROMPT_FILE_NAME = 'prompt.md'  # 提示词文件名
@@ -46,5 +55,5 @@ TEST_LIMIT = 3    # 测试模式下处理的文献数量
 
 # --- 标签清理设置（用于 tag_cleaner.py）---
 # 要保留的标签列表（区分大小写）
-KEEP_TAGS = ["精读", "重要", "可行", "参考"]  # 根据您的需求修改
+KEEP_TAGS = ["精读", "重要", "可行", "参考", "gemini_read", "MIMO_read"]  # 根据您的需求修改，建议保留 AI 识别标签
 
