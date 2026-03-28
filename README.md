@@ -120,9 +120,3 @@ python reader.py
 
 - **勿**将 `config.py` 或含真实密钥的文件提交到公开仓库（本仓库 `.gitignore` 已忽略 `config.py`）。
 - 分享代码时使用 `config.example.py` 中的占位符。
-
----
-
-## 许可证
-
-若仓库根目录包含 `LICENSE` 文件，以该文件为准；否则由项目维护者自行补充。
