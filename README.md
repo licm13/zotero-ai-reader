@@ -32,9 +32,60 @@ zotero-ai-reader/
 ## 环境要求
 
 - Python 3.8+（建议 3.10+）
-- [Zotero](https://www.zotero.org/) 账户，API Key 需 **读取 + 写入（含创建笔记）**
-- **Gemini**：[Google AI Studio](https://makersuite.google.com/app/apikey) 获取 Key（选用）
-- **小米 MIMO**：[开放平台](https://platform.xiaomimimo.com/) 获取 Key（选用）
+- 下面「账户与 API」中列出的服务账号（按你选用的模型准备即可）
+
+---
+
+## 账户与 API 从哪找
+
+### Zotero（文献库 + 本工具写入笔记）
+
+1. **注册与软件**  
+   - 打开 [https://www.zotero.org/](https://www.zotero.org/) 注册免费账号，并安装桌面客户端（Windows / Mac 均可）。  
+   - 本工具通过 **网络 API** 操作你在 zotero.org 上同步的文献库，请确保已在客户端里登录同一账号并开启同步。
+
+2. **用户库 ID（`LIBRARY_ID`）**  
+   - 用浏览器登录 [https://www.zotero.org/](https://www.zotero.org/)，点右上角进入个人主页或「我的文库」。  
+   - 看浏览器地址栏：形如 `https://www.zotero.org/username` 时，个人库 ID 多为 **纯数字**，也可在 [https://www.zotero.org/settings/keys](https://www.zotero.org/settings/keys) 页面附近说明里核对；若是群组库，请到对应群组页面查看其 **Group ID**（也是数字）。  
+   - `config.py` 里个人库一般写：`LIBRARY_TYPE = 'user'`；群组库写：`LIBRARY_TYPE = 'group'`，`LIBRARY_ID` 填该组的数字 ID。
+
+3. **API Key（`API_KEY`）**  
+   - 打开 [https://www.zotero.org/settings/keys](https://www.zotero.org/settings/keys)。  
+   - 创建新密钥时务必勾选 **允许访问文库（Allow library access）**，并允许 **创建笔记 / 写入**（界面可能写作 *Notes* 或 *Write* 相关选项，以官网当前文案为准）。只读 Key 会导致无法把 AI 笔记写回 Zotero。
+
+4. **本地 PDF 路径（`ZOTERO_STORAGE_PATH`）**  
+   - 本工具要在本机磁盘上找到 PDF 文本，需填你存放同步 PDF 的文件夹（例如自建的 `zotero-pdf` 同步目录，或你了解的实际路径）。  
+   - 与「Zotero 数据目录」不一定相同；以你电脑上 PDF 真实所在为准，在资源管理器里复制路径即可。
+
+---
+
+### Google Gemini（选用）
+
+1. **账号**  
+   - 使用常用 **Google 账号** 登录即可。
+
+2. **API Key（`AI_API_KEY`）**  
+   - 打开 [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)（或 [Google AI Studio](https://ai.google.dev/) 内「Get API key」）。  
+   - 按页面提示创建 **API Key**，复制到 `config.py` 的 `AI_API_KEY`。  
+   - 免费额度与地区政策以 Google 当前说明为准；若网页打不开，多半是网络或区域限制，需自行解决访问环境。
+
+3. **模型名称（`AI_MODEL`）**  
+   - 在 `config.example.py` 里有默认示例；若调用报错「模型不存在」，请到 [Google AI 文档 / 模型列表](https://ai.google.dev/gemini-api/docs/models) 查看当前可用模型名并改配置。
+
+---
+
+### 小米 MIMO（选用；学生包仅支持此项）
+
+1. **账号与控制台**  
+   - 打开 [https://platform.xiaomimimo.com/](https://platform.xiaomimimo.com/) 注册/登录。  
+   - 平台可能要求 **实名认证**；计费与免费额度以官网说明为准，部分情况下需 **充值** 后才能稳定调用 API。
+
+2. **API Key（`XiaoMi_API_KEY`）**  
+   - 在控制台内创建或查看 **API Key**（具体菜单名以网站当前版本为准，一般在「密钥 / API Key / 访问令牌」一类入口）。  
+   - 复制到 `config.py` 的 `XiaoMi_API_KEY`。学生包同样使用该字段。
+
+3. **模型名称（`XIAOMI_MODEL`）**  
+   - 以控制台文档或示例为准（如 `mimo-v2-pro`）；若报错请对照官网 **当前支持的模型 ID** 修改配置。
 
 ---
 
