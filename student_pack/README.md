@@ -59,6 +59,7 @@ python reader_mimo_student.py --cli
 - **不要将 `config.py` 上传到公开仓库或发给他人。**
 - 本包**不包含** Google Gemini，与完整仓库中的 `reader.py`（双模型）相互独立。
 
-## 与完整项目的关系
+## 与仓库根目录的关系
 
-完整功能（Gemini、双轨分类 `organizer.py` 等）见仓库根目录说明；本 `student_pack` 仅用于课程内**单模型阅读 + GUI** 场景。
+- **本文件夹**：仅小米 MIMO + 轻量依赖，适合发给学生。  
+- **上级目录**：`reader_gui.py` + `reader.py` 为**完整版图形界面**（可选 Gemini 或 MIMO），与课程小包相互独立。

@@ -20,55 +20,28 @@ wheels/
 .installed.cfg
 *.egg
 
-# 虚拟环境
 venv/
 env/
 ENV/
 .venv
 
-# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# 配置文件（包含敏感信息）
+# 密钥与本地配置
 config.py
 *.local.py
 
-# 日志文件
 *.log
-
-# 操作系统文件
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# 个人路径和临时文件
 *.tmp
 *.bak
 
-# 生成的缓存和分析结果文件
+# 若本地仍生成旧版缓存可忽略
 collections_cache.json
 user_profile.json
-batch_run_log.txt
-paper_analysis_results.json
-
-# 分析结果目录
-analysis_json/
-*_deep_analysis_results.json
-*_research_opportunities_report.json
-
-# 关键词分析结果（根据需要可保留部分）
-keyword_analysis/*.json
-keyword_analysis/*.txt
-
-# 其他动态生成的文件
-*.json.bak
-*_backup.json
-
-# 测试和临时脚本
-test_*.py
-batch_run_*.py
-
