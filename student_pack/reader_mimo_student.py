@@ -1,15 +1,19 @@
+"""
+学生分发版：仅通过小米 MIMO（OpenAI 兼容接口）调用模型，无 Gemini 分支。
+默认与本文件夹内的 config.py、prompt.md 配套使用。
+"""
 import os
 import sys
 import time
+import importlib.util
 import markdown
 import fitz  # PyMuPDF
 from pyzotero import zotero
-from google import genai
 from openai import OpenAI
 
 
-# ================= 1. 运行时全局变量（由 bootstrap_cli 或 apply_gui_settings 注入）=================
-config = None  # CLI 模式下为已加载的 config 模块；GUI 模式下可为 None
+# ================= 1. 运行时全局变量 =================
+config = None
 LIBRARY_ID = ""
 API_KEY = ""
 LIBRARY_TYPE = "user"
@@ -19,254 +23,40 @@ ITEM_TYPES_TO_PROCESS = None
 TARGET_COLLECTION_PATH = None
 TEST_MODE = False
 TEST_LIMIT = 3
-AI_PROVIDER = "gemini"
 ACTIVE_API_KEY = ""
-ACTIVE_MODEL = ""
-SUCCESS_TAG = "gemini_read"
-NON_LIT_TAG = "non-read-gemini"
-# 若条目已有其中任一标签则跳过处理；None 表示自动使用 {SUCCESS_TAG, gemini_read, MIMO_read}
+ACTIVE_MODEL = "mimo-v2-pro"
+SUCCESS_TAG = "MIMO_read"
+NON_LIT_TAG = "non-read-mimo"
 TAGS_SKIP_IF_PRESENT = None
-_PROMPT_TEMPLATE_OVERRIDE = None  # GUI 传入的提示词全文；None 时从文件加载
+_PROMPT_TEMPLATE_OVERRIDE = None
 
-# ================= 1.1. Zotero Storage 路径选择 =================
-def find_zotero_pdf_folder():
-    """在本地自动搜索 zotero-pdf 文件夹
-    
-    Returns:
-        找到的文件夹路径，如果未找到返回 None
-    """
-    import platform
-    
-    system = platform.system()
-    user_home = os.path.expanduser('~')
-    candidates = []
-    
-    # Windows 常见路径
-    if system == 'Windows':
-        # OneDrive 路径
-        onedrive_path = os.path.join(user_home, 'OneDrive')
-        if os.path.exists(onedrive_path):
-            candidates.append(onedrive_path)
-        # 桌面
-        desktop_path = os.path.join(user_home, 'Desktop')
-        if os.path.exists(desktop_path):
-            candidates.append(desktop_path)
-        # Documents
-        documents_path = os.path.join(user_home, 'Documents')
-        if os.path.exists(documents_path):
-            candidates.append(documents_path)
-        # C盘根目录下的常见路径
-        c_drive_paths = [
-            'C:\\Users',
-            'C:\\OneDrive',
-        ]
-        for path in c_drive_paths:
-            if os.path.exists(path):
-                candidates.append(path)
-    # macOS/Linux 常见路径
-    else:
-        # 用户目录
-        candidates.append(user_home)
-        # Desktop
-        desktop_path = os.path.join(user_home, 'Desktop')
-        if os.path.exists(desktop_path):
-            candidates.append(desktop_path)
-        # Documents
-        documents_path = os.path.join(user_home, 'Documents')
-        if os.path.exists(documents_path):
-            candidates.append(documents_path)
-    
-    print(f"   🔍 正在搜索 zotero-pdf 文件夹...")
-    print(f"   📂 搜索范围: {len(candidates)} 个候选目录")
-    
-    found_folders = []
-    max_search_depth = 3  # 限制搜索深度，避免搜索过深
-    
-    def search_directory(root_path, current_depth=0):
-        """递归搜索包含 zotero-pdf 的文件夹"""
-        if current_depth > max_search_depth:
-            return
-        
-        try:
-            if not os.path.exists(root_path):
-                return
-            
-            # 检查当前目录
-            dir_name = os.path.basename(root_path).lower()
-            # 匹配包含 zotero 和 pdf 的文件夹名（不区分大小写）
-            if 'zotero' in dir_name and 'pdf' in dir_name:
-                # 验证文件夹中是否有 PDF 文件（确保是有效的存储文件夹）
-                try:
-                    pdf_count = sum(1 for f in os.listdir(root_path) if f.lower().endswith('.pdf'))
-                    if pdf_count > 0 or len([d for d in os.listdir(root_path) if os.path.isdir(os.path.join(root_path, d))]) > 0:
-                        found_folders.append((root_path, pdf_count))
-                        print(f"      ✅ 找到候选文件夹: {root_path} (包含 {pdf_count} 个PDF或子文件夹)")
-                except PermissionError:
-                    pass
-            
-            # 继续搜索子目录
-            if current_depth < max_search_depth:
-                try:
-                    for item in os.listdir(root_path):
-                        item_path = os.path.join(root_path, item)
-                        if os.path.isdir(item_path):
-                            # 跳过系统目录和隐藏目录（加快搜索速度）
-                            if item.startswith('.') or item in ['System Volume Information', '$Recycle.Bin', 'node_modules']:
-                                continue
-                            search_directory(item_path, current_depth + 1)
-                except (PermissionError, OSError):
-                    pass
-        except (PermissionError, OSError) as e:
-            pass
-    
-    # 在候选目录中搜索
-    for candidate in candidates:
-        search_directory(candidate)
-    
-    if found_folders:
-        # 优先选择包含更多PDF的文件夹，或者优先选择路径更短的（更可能是主文件夹）
-        found_folders.sort(key=lambda x: (-x[1], len(x[0])))
-        return found_folders[0][0]
-    
-    return None
 
-def input_zotero_path_manually():
-    """手动输入 zotero-pdf 路径的辅助函数
-    
-    Returns:
-        有效的路径字符串，如果用户取消返回 None
-    """
-    while True:
-        path = input("请输入 zotero-pdf 文件夹的完整路径: ").strip()
-        # 去除引号
-        path = path.strip('"').strip("'")
-        if os.path.exists(path) and os.path.isdir(path):
-            print(f"✅ 使用路径: {os.path.abspath(path)}")
-            return os.path.abspath(path)
-        else:
-            print(f"❌ 路径不存在或不是文件夹: {path}")
-            retry = input("是否重新输入？ [Y/n]: ").strip().lower()
-            if retry == 'n':
-                return None
-
-def prompt_zotero_storage_path():
-    """提示用户选择 Zotero Storage 路径
-    
-    Returns:
-        用户选择的路径字符串
-    """
-    print("\n" + "=" * 70)
-    print("📁 Zotero PDF 存储路径选择")
-    print("=" * 70)
-    print(f"\n💡 当前配置路径: {ZOTERO_STORAGE_PATH}")
-    print("\n请选择如何处理 Zotero PDF 存储路径：")
-    print("  1. 使用配置文件中的路径（默认）")
-    print("  2. 自动搜索本地 zotero-pdf 文件夹")
-    print("  3. 手动输入路径")
-    print("  0. 取消并退出")
-    
-    while True:
-        try:
-            choice = input("\n请选择 [1-3, 0取消]: ").strip()
-            
-            if choice == '0':
-                print("❌ 已取消")
-                sys.exit(0)
-            
-            elif choice == '1':
-                print(f"✅ 使用配置文件路径: {ZOTERO_STORAGE_PATH}")
-                if not os.path.exists(ZOTERO_STORAGE_PATH):
-                    print(f"   ⚠️  警告：路径不存在，程序可能无法正常工作")
-                return ZOTERO_STORAGE_PATH
-            
-            elif choice == '2':
-                print(f"\n🔍 正在自动搜索 zotero-pdf 文件夹...")
-                found_path = find_zotero_pdf_folder()
-                
-                if found_path:
-                    print(f"\n✅ 找到 zotero-pdf 文件夹: {found_path}")
-                    verify = input(f"是否使用此路径？ [Y/n]: ").strip().lower()
-                    if verify != 'n':
-                        return found_path
-                    else:
-                        print("   ⚠️  未选择自动搜索到的路径，请重新选择")
-                        continue
-                else:
-                    print(f"   ❌ 未找到 zotero-pdf 文件夹")
-                    retry = input("是否手动输入路径？ [Y/n]: ").strip().lower()
-                    if retry != 'n':
-                        manual_path = input_zotero_path_manually()
-                        if manual_path:
-                            return manual_path
-                        # 如果用户取消手动输入，继续循环
-                        continue
-                    else:
-                        print("   ⚠️  请重新选择")
-                        continue
-            
-            elif choice == '3':
-                manual_path = input_zotero_path_manually()
-                if manual_path:
-                    return manual_path
-                # 如果用户取消手动输入，继续循环
-                continue
-            
-            else:
-                print("⚠️  无效选择，请输入 1-3 或 0")
-                
-        except KeyboardInterrupt:
-            print("\n\n❌ 已取消")
-            sys.exit(0)
-        except Exception as e:
-            print(f"❌ 错误: {e}")
-
-def prompt_ai_provider():
-    """提示用户选择 AI 提供商"""
-    provider = getattr(config, 'DEFAULT_AI_PROVIDER', None)
-    if provider in ['gemini', 'xiaomi']:
-        print(f"\n✅ 使用配置文件指定的 AI 提供商: {provider.upper()}")
-        return provider
-    
-    print("\n" + "=" * 70)
-    print("🤖 AI 模型提供商选择")
-    print("=" * 70)
-    print("请选择用于文献分析的 AI 提供商：")
-    print("  1. Google Gemini (推荐)")
-    print("  2. 小米 MIMO API")
-    print("  0. 取消并退出")
-    
-    while True:
-        try:
-            choice = input("\n请选择 [1-2, 0取消]: ").strip()
-            if choice == '0':
-                print("❌ 已取消")
-                sys.exit(0)
-            elif choice == '1':
-                return 'gemini'
-            elif choice == '2':
-                return 'xiaomi'
-            else:
-                print("⚠️  无效选择，请输入 1 或 2，或 0 取消")
-        except KeyboardInterrupt:
-            print("\n\n❌ 已取消")
-            sys.exit(0)
+def _load_config_py(path: str):
+    spec = importlib.util.spec_from_file_location("student_zotero_config", path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError("无法加载配置文件")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
 
 
 def bootstrap_cli():
-    """命令行入口：加载 config、交互选择 Storage 路径与 AI 提供商。"""
+    """读取本文件夹内的 config.py（无交互菜单，仅小米 MIMO）。"""
     global config, LIBRARY_ID, API_KEY, LIBRARY_TYPE, ZOTERO_STORAGE_PATH
     global PROMPT_FILE_NAME, ITEM_TYPES_TO_PROCESS, TARGET_COLLECTION_PATH, TEST_MODE, TEST_LIMIT
-    global AI_PROVIDER, ACTIVE_API_KEY, ACTIVE_MODEL, SUCCESS_TAG, NON_LIT_TAG
+    global ACTIVE_API_KEY, ACTIVE_MODEL, SUCCESS_TAG, NON_LIT_TAG
     global _PROMPT_TEMPLATE_OVERRIDE, TAGS_SKIP_IF_PRESENT
 
-    from config_loader import get_config_from_args_or_interactive
+    base = os.path.dirname(os.path.abspath(__file__))
+    cfg_path = os.path.join(base, "config.py")
+    if not os.path.isfile(cfg_path):
+        print(f"❌ 未找到配置文件: {cfg_path}")
+        print("   请将 config.example.py 复制为 config.py 并填写密钥与路径。")
+        sys.exit(1)
 
     _PROMPT_TEMPLATE_OVERRIDE = None
     TAGS_SKIP_IF_PRESENT = None
-    config = get_config_from_args_or_interactive()
-    if config is None:
-        print("❌ 无法加载配置文件，程序退出")
-        sys.exit(1)
+    config = _load_config_py(cfg_path)
 
     LIBRARY_ID = config.LIBRARY_ID
     API_KEY = config.API_KEY
@@ -278,28 +68,24 @@ def bootstrap_cli():
     TEST_MODE = getattr(config, "TEST_MODE", False)
     TEST_LIMIT = getattr(config, "TEST_LIMIT", 3)
 
-    print("\n" + "=" * 70)
-    print("📋 配置加载完成")
-    print("=" * 70)
-    ZOTERO_STORAGE_PATH = prompt_zotero_storage_path()
-    AI_PROVIDER = prompt_ai_provider()
+    ACTIVE_API_KEY = getattr(config, "XiaoMi_API_KEY", None) or getattr(config, "MIMO_API_KEY", None)
+    ACTIVE_MODEL = getattr(config, "XIAOMI_MODEL", "mimo-v2-pro")
+    SUCCESS_TAG = getattr(config, "SUCCESS_TAG", "MIMO_read")
+    NON_LIT_TAG = getattr(config, "NON_LIT_TAG", "non-read-mimo")
 
-    if AI_PROVIDER == "gemini":
-        ACTIVE_API_KEY = getattr(config, "AI_API_KEY", None)
-        ACTIVE_MODEL = getattr(config, "AI_MODEL", "gemini-3.1-flash-lite-preview")
-        SUCCESS_TAG = "gemini_read"
-        NON_LIT_TAG = "non-read-gemini"
-    else:
-        ACTIVE_API_KEY = getattr(config, "XiaoMi_API_KEY", None)
-        ACTIVE_MODEL = getattr(config, "XIAOMI_MODEL", "mimo-v2-pro")
-        SUCCESS_TAG = "MIMO_read"
-        NON_LIT_TAG = "non-read-mimo"
+    tskip = getattr(config, "TAGS_SKIP_IF_PRESENT", None)
+    if tskip:
+        if isinstance(tskip, str):
+            TAGS_SKIP_IF_PRESENT = [p.strip() for p in tskip.split(",") if p.strip()]
+        else:
+            TAGS_SKIP_IF_PRESENT = list(tskip)
 
     if not ACTIVE_API_KEY:
-        print(f"❌ 未找到 {AI_PROVIDER.upper()} 的 API 密钥配置，程序退出。请检查 config.py。")
+        print("❌ 请在 config.py 中填写 XiaoMi_API_KEY（小米 MIMO OpenAPI）。")
         sys.exit(1)
 
-    print(f"\n✅ 已加载 {AI_PROVIDER.upper()} 模型配置: {ACTIVE_MODEL}")
+    print("✅ 已从本目录加载 config.py（小米 MIMO）")
+    print(f"   模型: {ACTIVE_MODEL} | 成功标签: {SUCCESS_TAG}")
 
 
 def apply_gui_settings(
@@ -308,9 +94,8 @@ def apply_gui_settings(
     api_key: str,
     library_type: str,
     zotero_storage_path: str,
-    ai_provider: str,
-    active_api_key: str,
-    active_model: str,
+    mimo_api_key: str,
+    mimo_model: str,
     prompt_file_name: str = "prompt.md",
     prompt_template: str,
     item_types_to_process,
@@ -321,13 +106,10 @@ def apply_gui_settings(
     non_lit_tag: str,
     tags_skip_if_present=None,
 ):
-    """
-    由 GUI 在启动批处理前注入运行时参数。
-    tags_skip_if_present: 字符串列表或逗号分隔字符串；空/None 则自动合并 SUCCESS_TAG 与常见模型标签。
-    """
+    """由 GUI 注入参数；仅使用小米 MIMO。"""
     global config, LIBRARY_ID, API_KEY, LIBRARY_TYPE, ZOTERO_STORAGE_PATH
     global PROMPT_FILE_NAME, ITEM_TYPES_TO_PROCESS, TARGET_COLLECTION_PATH, TEST_MODE, TEST_LIMIT
-    global AI_PROVIDER, ACTIVE_API_KEY, ACTIVE_MODEL, SUCCESS_TAG, NON_LIT_TAG
+    global ACTIVE_API_KEY, ACTIVE_MODEL, SUCCESS_TAG, NON_LIT_TAG
     global _PROMPT_TEMPLATE_OVERRIDE, TAGS_SKIP_IF_PRESENT
 
     config = None
@@ -340,9 +122,8 @@ def apply_gui_settings(
     TARGET_COLLECTION_PATH = target_collection_path
     TEST_MODE = test_mode
     TEST_LIMIT = test_limit
-    AI_PROVIDER = ai_provider
-    ACTIVE_API_KEY = active_api_key
-    ACTIVE_MODEL = active_model
+    ACTIVE_API_KEY = mimo_api_key
+    ACTIVE_MODEL = mimo_model
     SUCCESS_TAG = success_tag
     NON_LIT_TAG = non_lit_tag
     _PROMPT_TEMPLATE_OVERRIDE = prompt_template
@@ -629,55 +410,40 @@ def get_pdf_content(file_key, filename=None):
     return text_content, "Success"
 
 def call_ai_analysis(paper_text, system_prompt):
-    """调用 AI 模型进行分析"""
+    """调用小米 MIMO（OpenAI 兼容接口）"""
     import traceback
-    
+
     max_retries = 2
     for attempt in range(max_retries):
         try:
-            print(f"   🔄 尝试连接 {AI_PROVIDER.upper()} API (尝试 {attempt + 1}/{max_retries})...")
-            
-            # 构建完整的提示词
+            print(f"   🔄 尝试连接 MIMO API (尝试 {attempt + 1}/{max_retries})...")
+
             full_content = f"{system_prompt}\n\nPaper Content:\n\n{paper_text}"
-            
+
             print(f"   📤 正在发送请求 (模型: {ACTIVE_MODEL})...")
             print(f"   ⏳ 请稍候，这可能需要 30-120 秒...")
-            
+
             start_time = time.time()
-            
-            if AI_PROVIDER == 'gemini':
-                client = genai.Client(api_key=ACTIVE_API_KEY)
-                response = client.models.generate_content(
-                    model=ACTIVE_MODEL,
-                    contents=full_content
-                )
-                elapsed_time = time.time() - start_time
-                print(f"   ✅ API 响应成功 (耗时: {elapsed_time:.1f}秒)")
-                if response and hasattr(response, 'text') and response.text:
-                    return response.text
-                else:
-                    print(f"   ⚠️  响应为空，尝试重新生成...")
-            else:
-                client = OpenAI(
-                    api_key=ACTIVE_API_KEY,
-                    base_url="https://api.xiaomimimo.com/v1"
-                )
-                response = client.chat.completions.create(
-                    model=ACTIVE_MODEL,
-                    messages=[{"role": "user", "content": full_content}]
-                )
-                elapsed_time = time.time() - start_time
-                print(f"   ✅ API 响应成功 (耗时: {elapsed_time:.1f}秒)")
-                if response and response.choices and response.choices[0].message.content:
-                    return response.choices[0].message.content
-                else:
-                    print(f"   ⚠️  响应为空，尝试重新生成...")
-                    
+
+            client = OpenAI(
+                api_key=ACTIVE_API_KEY,
+                base_url="https://api.xiaomimimo.com/v1",
+            )
+            response = client.chat.completions.create(
+                model=ACTIVE_MODEL,
+                messages=[{"role": "user", "content": full_content}],
+            )
+            elapsed_time = time.time() - start_time
+            print(f"   ✅ API 响应成功 (耗时: {elapsed_time:.1f}秒)")
+            if response and response.choices and response.choices[0].message.content:
+                return response.choices[0].message.content
+            print(f"   ⚠️  响应为空，尝试重新生成...")
+
         except Exception as e:
             error_msg = str(e)
             print(f"   ❌ AI 调用出错: {error_msg}")
-            
-            if AI_PROVIDER == 'xiaomi' and ('402' in error_msg or 'insufficient_balance' in error_msg.lower()):
+
+            if "402" in error_msg or "insufficient_balance" in error_msg.lower():
                 print(f"   💰 错误提示: 您的 API 账户余额不足！请前往小米 MIMO 开放平台充值或检查免费额度。")
                 return None
             
@@ -1000,7 +766,7 @@ def save_note_to_zotero(zot, item_key, markdown_content):
     html_content = markdown.markdown(markdown_content, extensions=['tables', 'fenced_code'])
     
     # 获取提供商后缀
-    provider_name = "Gemini" if AI_PROVIDER == "gemini" else "MIMO"
+    provider_name = "MIMO"
     
     # 加上标题和原始 MD 的提示
     final_note = f"""
@@ -1369,7 +1135,7 @@ def main():
             skipped_count += 1
             continue
         
-        # 如果设置了文献类型过滤，只处理指定类型，不符合的也加 non-read-gemini 标签
+        # 如果设置了文献类型过滤，只处理指定类型，不符合的也加 NON_LIT_TAG
         if ITEM_TYPES_TO_PROCESS is not None:
             if item_type not in ITEM_TYPES_TO_PROCESS:
                 add_tag_to_item(zot, item_key, NON_LIT_TAG)
@@ -1379,7 +1145,7 @@ def main():
         item_tags = item['data'].get('tags', [])
         skip_set = TAGS_SKIP_IF_PRESENT
         if skip_set is None:
-            skip_set = {SUCCESS_TAG, "gemini_read", "MIMO_read"}
+            skip_set = {SUCCESS_TAG, "MIMO_read"}
         else:
             skip_set = set(skip_set)
         has_processed_tag = any(tag.get("tag") in skip_set for tag in item_tags)
@@ -1493,5 +1259,11 @@ def main():
     print(f"{'='*60}")
 
 if __name__ == "__main__":
-    bootstrap_cli()
-    main()
+    if len(sys.argv) > 1 and sys.argv[1] == "--cli":
+        bootstrap_cli()
+        main()
+    else:
+        print("学生版默认使用图形界面。请运行：")
+        print("  python gui_mimo_student.py")
+        print("若仅需命令行（读取本目录 config.py），请运行：")
+        print("  python reader_mimo_student.py --cli")

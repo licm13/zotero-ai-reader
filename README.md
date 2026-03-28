@@ -135,7 +135,15 @@
 
 ```
 zotero-ai-reader/
+├── student_pack/                # 🎓 学生独立分发包（仅小米 MIMO + 图形界面，见 student_pack/README.md）
+│   ├── gui_mimo_student.py      # 学生版 GUI 入口
+│   ├── reader_mimo_student.py   # 学生版阅读核心（无 Gemini）
+│   ├── config.example.py        # 配置模板（复制为 config.py）
+│   ├── prompt.md                # 与主项目一致的提示词模板
+│   ├── requirements.txt         # 精简依赖（无 google-genai）
+│   └── README.md                # 学生使用说明
 ├── reader.py                    # 🎯 Step 1: AI 论文分析工具 (支持 Gemini/小米 MIMO 双模型)
+├── reader_gui.py                # 🖥️ 完整版图形界面（Gemini / MIMO 可选）
 ├── profiler.py                  # 👤 Step 2: 研究品味提取器
 ├── organizer.py                 # 🗂️ Step 3: 双轨智能分类工具 (MAIN!)
 ├── tag_cleaner.py               # 🧹 标签清理工具
@@ -164,6 +172,16 @@ zotero-ai-reader/
 - `config.py` 文件包含敏感信息（API密钥），已在 `.gitignore` 中，不会被提交到Git
 - 所有自动生成的文件（缓存、分析结果等）也已加入 `.gitignore`
 - 首次使用前，请复制 `config.example.py` 为 `config.py` 并填入您的配置
+
+### 🎓 学生分发包 `student_pack/`
+
+若只需向学生提供**小米 MIMO** 单模型、**图形界面**及**固定提示词模板**，可直接打包或分享 **`student_pack/`** 文件夹：
+
+- **入口**：在 `student_pack` 目录执行 `python gui_mimo_student.py`（详见该目录内 [student_pack/README.md](student_pack/README.md)）。
+- **依赖更少**：`requirements.txt` 不含 `google-genai`；无需完整仓库中的 `config_loader.py` 等。
+- **命令行备用**：在同目录准备好 `config.py` 后，可运行 `python reader_mimo_student.py --cli`。
+
+完整功能（Gemini、双轨 `organizer.py` 等）仍以仓库根目录脚本为准。
 
 ---
 
