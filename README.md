@@ -15,7 +15,10 @@ zotero-ai-reader/
 ├── reader.py              # 阅读核心（由 GUI 或命令行调用）
 ├── config_loader.py       # 配置发现与交互加载
 ├── config.example.py      # 配置模板 → 复制为 config.py
-├── prompt.md              # 默认提示词模板
+├── prompt.md              # 默认提示词模板（向后兼容）
+├── prompt_quick.md        # [A] 快筛版提示词
+├── prompt_standard.md     # [B] 标准版提示词
+├── prompt_deep.md         # [C] 深读版提示词
 ├── requirements.txt
 ├── student_pack/          # 学生独立小包（见 student_pack/README.md）
 │   ├── gui_mimo_student.py
@@ -99,6 +102,20 @@ python reader_gui.py
 ```
 
 在界面中可加载/编辑配置、修改 `prompt.md` 对应内容、选择 Gemini 或 MIMO，再点击「开始运行」。
+
+### 提示词预设
+
+GUI 的「提示词」标签页顶部提供三个预设按钮，覆盖从快速筛文到深度精读的常用场景：
+
+| 按钮 | 文件 | 适用场景 | 参考用时 |
+|------|------|----------|----------|
+| **[A] 快筛版** | `prompt_quick.md` | 大批量判断是否值得精读 | 5–10 min |
+| **[B] 标准版** | `prompt_standard.md` | 日常阅读归档、个人知识库建设 | 30–60 min |
+| **[C] 深读版** | `prompt_deep.md` | 写综述、申基金、课程/导师指导 | 60 min+ |
+
+点击预设按钮后，提示词内容会载入下方文本框，**可直接在文本框内二次编辑**后再运行，或点「保存提示词到文件」覆写对应文件。「处理范围」标签页中的「提示词文件名」字段会同步更新，用于写入笔记页脚。
+
+若以上预设不满足需求，也可手动修改文本框内容，或将自定义提示词另存为任意 `.md` 文件后在「处理范围」中填写文件名并点击顶部「重载提示词文件」。
 
 ### 命令行（可选）
 

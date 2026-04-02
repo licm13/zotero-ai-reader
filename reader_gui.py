@@ -270,6 +270,27 @@ class ReaderGUI(tk.Tk):
         # —— 提示词 ——
         tab_prompt = ttk.Frame(nb, padding=4)
         nb.add(tab_prompt, text="提示词")
+
+        # 预设选择行
+        preset_bar = ttk.Frame(tab_prompt)
+        preset_bar.pack(fill=tk.X, padx=4, pady=(4, 0))
+        ttk.Label(preset_bar, text="载入预设：").pack(side=tk.LEFT)
+        ttk.Button(
+            preset_bar, text="[A] 快筛版",
+            command=lambda: self.load_preset("prompt_quick.md"),
+        ).pack(side=tk.LEFT, padx=2)
+        ttk.Button(
+            preset_bar, text="[B] 标准版",
+            command=lambda: self.load_preset("prompt_standard.md"),
+        ).pack(side=tk.LEFT, padx=2)
+        ttk.Button(
+            preset_bar, text="[C] 深读版",
+            command=lambda: self.load_preset("prompt_deep.md"),
+        ).pack(side=tk.LEFT, padx=2)
+        ttk.Separator(preset_bar, orient=tk.VERTICAL).pack(side=tk.LEFT, padx=8, fill=tk.Y)
+        ttk.Label(preset_bar, text="（载入后可在下方自由编辑，再点「保存提示词到文件」覆写）",
+                  foreground="gray").pack(side=tk.LEFT)
+
         self.txt_prompt = scrolledtext.ScrolledText(tab_prompt, height=18, wrap=tk.WORD, font=("Consolas", 10))
         self.txt_prompt.pack(fill=tk.BOTH, expand=True, padx=4, pady=4)
         pf = ttk.Frame(tab_prompt)
@@ -358,6 +379,22 @@ class ReaderGUI(tk.Tk):
             self.var_non_lit_tag.set("non-read-mimo")
         if not silent:
             messagebox.showinfo("标签", "已根据当前 AI 提供商填入默认成功/跳过标签。")
+
+    def load_preset(self, filename: str) -> None:
+        """从预设文件加载提示词并更新文件名字段。"""
+        fp = os.path.join(_script_dir(), filename)
+        if not os.path.isfile(fp):
+            messagebox.showwarning("提示词预设", f"未找到预设文件:\n{fp}")
+            return
+        try:
+            with open(fp, "r", encoding="utf-8") as f:
+                text = f.read()
+        except Exception as e:
+            messagebox.showerror("读取失败", str(e))
+            return
+        self.var_prompt_filename.set(filename)
+        self.txt_prompt.delete("1.0", tk.END)
+        self.txt_prompt.insert("1.0", text)
 
     def reload_prompt_file(self, silent: bool = False) -> None:
         name = self.var_prompt_filename.get().strip() or "prompt.md"
