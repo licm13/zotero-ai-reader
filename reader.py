@@ -22,6 +22,7 @@ TEST_LIMIT = 3
 AI_PROVIDER = "gemini"
 ACTIVE_API_KEY = ""
 ACTIVE_MODEL = ""
+XIAOMI_BASE_URL = None  # 可选：手动指定小米 API 端点
 SUCCESS_TAG = "gemini_read"
 NON_LIT_TAG = "non-read-gemini"
 # 若条目已有其中任一标签则跳过处理；None 表示自动使用 {SUCCESS_TAG, gemini_read, MIMO_read}
@@ -292,6 +293,7 @@ def bootstrap_cli():
     else:
         ACTIVE_API_KEY = getattr(config, "XiaoMi_API_KEY", None)
         ACTIVE_MODEL = getattr(config, "XIAOMI_MODEL", "mimo-v2-pro")
+        XIAOMI_BASE_URL = getattr(config, "MIMO_BASE_URL", getattr(config, "XIAOMI_BASE_URL", None))
         SUCCESS_TAG = "MIMO_read"
         NON_LIT_TAG = "non-read-mimo"
 
@@ -320,6 +322,7 @@ def apply_gui_settings(
     success_tag: str,
     non_lit_tag: str,
     tags_skip_if_present=None,
+    xiaomi_base_url: str = None,
 ):
     """
     由 GUI 在启动批处理前注入运行时参数。
@@ -346,6 +349,7 @@ def apply_gui_settings(
     SUCCESS_TAG = success_tag
     NON_LIT_TAG = non_lit_tag
     _PROMPT_TEMPLATE_OVERRIDE = prompt_template
+    XIAOMI_BASE_URL = xiaomi_base_url
 
     if tags_skip_if_present is None:
         TAGS_SKIP_IF_PRESENT = None
@@ -627,6 +631,29 @@ def get_pdf_content(file_key, filename=None):
                 print(f"   ⚠️  关闭PDF文档时出错: {str(e)}")
 
     return text_content, "Success"
+    
+
+def resolve_dynamic_path(path: str) -> str:
+    """解析动态路径占位符
+    - {{mmdd}} -> 当前月日 (如 0419)
+    - 0-New/mmdd -> 0-New/0419
+    """
+    if not path:
+        return path
+    
+    import datetime
+    # 使用本地时间
+    mmdd = datetime.datetime.now().strftime('%m%d')
+    
+    # 1. 替换通用占位符
+    resolved = path.replace('{{mmdd}}', mmdd)
+    
+    # 2. 特殊处理：如果路径恰好是 "0-New/mmdd" (用户习惯)
+    if resolved == '0-New/mmdd':
+        resolved = f'0-New/{mmdd}'
+        
+    return resolved
+
 
 def call_ai_analysis(paper_text, system_prompt):
     """调用 AI 模型进行分析"""
@@ -658,9 +685,20 @@ def call_ai_analysis(paper_text, system_prompt):
                 else:
                     print(f"   ⚠️  响应为空，尝试重新生成...")
             else:
+                # 小米 MIMO 处理逻辑
+                # 优先级：1. 手动指定 2. tp- 前缀自动检测 3. 默认
+                if XIAOMI_BASE_URL:
+                    xiaomi_base_url = XIAOMI_BASE_URL
+                    print(f"   ℹ️  使用配置文件指定的 Base URL: {xiaomi_base_url}")
+                elif ACTIVE_API_KEY and str(ACTIVE_API_KEY).startswith('tp-'):
+                    xiaomi_base_url = "https://token-plan-cn.xiaomimimo.com/v1"
+                    print(f"   ℹ️  检测到 Token Plan 密钥，自动切换至专属接口: {xiaomi_base_url}")
+                else:
+                    xiaomi_base_url = "https://api.xiaomimimo.com/v1"
+                
                 client = OpenAI(
                     api_key=ACTIVE_API_KEY,
-                    base_url="https://api.xiaomimimo.com/v1"
+                    base_url=xiaomi_base_url
                 )
                 response = client.chat.completions.create(
                     model=ACTIVE_MODEL,
@@ -681,8 +719,13 @@ def call_ai_analysis(paper_text, system_prompt):
                 print(f"   💰 错误提示: 您的 API 账户余额不足！请前往小米 MIMO 开放平台充值或检查免费额度。")
                 return None
             
+            # 检查是否是 API Key 无效 (401)
+            if '401' in error_msg or 'invalid_key' in error_msg.lower() or 'invalid api key' in error_msg.lower():
+                print(f"   ❌ API Key 无效，请检查配置。如果是刚更新的 Token Plan Key，请确保已正确保存。")
+                return None
+
             # 检查是否是模型名称错误
-            if 'model' in error_msg.lower() or 'not found' in error_msg.lower() or 'invalid' in error_msg.lower():
+            if 'model' in error_msg.lower() or 'not found' in error_msg.lower():
                 print(f"   ⚠️  模型名称可能不正确: {ACTIVE_MODEL}")
                 if attempt < max_retries - 1:
                     pass # 会继续重试
@@ -1271,8 +1314,13 @@ def main():
     # 3. 查找目标集合（如果指定了）
     target_collection_key = None
     if TARGET_COLLECTION_PATH:
-        print(f"📁 正在查找目标集合: {TARGET_COLLECTION_PATH}")
-        target_collection_key = find_collection_by_path(zot, TARGET_COLLECTION_PATH)
+        # 解析动态路径
+        resolved_path = resolve_dynamic_path(TARGET_COLLECTION_PATH)
+        if resolved_path != TARGET_COLLECTION_PATH:
+            print(f"📅 动态路径解析: {TARGET_COLLECTION_PATH} -> {resolved_path}")
+        
+        print(f"📁 正在查找目标集合: {resolved_path}")
+        target_collection_key = find_collection_by_path(zot, resolved_path)
         if not target_collection_key:
             print(f"❌ 未找到目标集合，程序退出")
             return

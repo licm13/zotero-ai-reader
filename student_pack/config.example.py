@@ -10,13 +10,15 @@ ZOTERO_STORAGE_PATH = r"C:\Path\To\Your\zotero-pdf"
 # 获取密钥: https://platform.xiaomimimo.com/
 XiaoMi_API_KEY = "YOUR_MIMO_API_KEY"
 XIAOMI_MODEL = "mimo-v2-pro"
+# MIMO_BASE_URL = "https://token-plan-cn.xiaomimimo.com/v1" # tp- 开头的 Key 专用
 
 # --- 提示词文件（与本文件夹内 md 同名）---
 PROMPT_FILE_NAME = "prompt.md"
 
 # --- 处理范围 ---
 ITEM_TYPES_TO_PROCESS = None
-TARGET_COLLECTION_PATH = None
+# 支持动态日期：设为 "0-New/mmdd" 或包含 {{mmdd}} 将自动解析为当前月日（如 0419）。
+TARGET_COLLECTION_PATH = "0-New/mmdd"
 
 # --- 测试 ---
 TEST_MODE = True

@@ -29,6 +29,7 @@
    ```
 
    （macOS / Linux 使用 `cp`。）在 `config.py` 中填写 `LIBRARY_ID`、`API_KEY`、`ZOTERO_STORAGE_PATH`、`XiaoMi_API_KEY` 等。
+   - **动态集合路径**：`TARGET_COLLECTION_PATH` 支持日期变量。设为 `0-New/mmdd` 或包含 `{{mmdd}}` 时，将自动解析为当天月日（如 `0419`）。
 
 3. 启动图形界面：
 
@@ -52,6 +53,7 @@ python reader_mimo_student.py --cli
 ## 小米 MIMO 说明
 
 - 注册与密钥：<https://platform.xiaomimimo.com/>
+- **Token Plan 支持**：如果您的 Key 以 `tp-` 开头，程序会自动识别并切换至专属端点。若有特殊需求，也可在 `config.py` 中通过 `MIMO_BASE_URL` 手动指定。
 - 若返回余额相关错误，请在平台侧检查账户与用量。
 
 ## 安全提示

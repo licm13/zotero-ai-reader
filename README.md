@@ -78,14 +78,15 @@ zotero-ai-reader/
 
 1. **账号与控制台**  
    - 打开 [https://platform.xiaomimimo.com/](https://platform.xiaomimimo.com/) 注册/登录。  
-   - 平台可能要求 **实名认证**；计费与免费额度以官网说明为准，部分情况下需 **充值** 后才能稳定调用 API。
+   - 平台分为 **普通账号** 和 **Token Plan (按量计费)**。普通账号通常有一定试用额度；Token Plan 需充值且密钥以 `tp-` 开头。
 
 2. **API Key（`XiaoMi_API_KEY`）**  
-   - 在控制台内创建或查看 **API Key**（具体菜单名以网站当前版本为准，一般在「密钥 / API Key / 访问令牌」一类入口）。  
-   - 复制到 `config.py` 的 `XiaoMi_API_KEY`。学生包同样使用该字段。
+   - 在控制台内创建或查看 **API Key**。
+   - 如果您的密钥以 `tp-` 开头，程序会 **自动识别** 并切换到专属的高速接口（`token-plan-cn.xiaomimimo.com`）。您也可以在配置中手动通过 `MIMO_BASE_URL` 指定。
 
 3. **模型名称（`XIAOMI_MODEL`）**  
-   - 以控制台文档或示例为准（如 `mimo-v2-pro`）；若报错请对照官网 **当前支持的模型 ID** 修改配置。
+   - 推荐模型：`mimo-v2-pro`（逻辑强）、`mimo-v1-pro` 等。
+   - 若有视觉需求，可配置 `XIAOMI_VISION_MODEL = 'mimo-v2-omni'`（请确认您的账号权限）。
 
 ---
 

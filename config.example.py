@@ -29,7 +29,12 @@ AI_MODEL = 'gemini-3.1-flash-lite-preview'  # 推荐模型
 # 2. XiaoMi MIMO 配置
 # 获取 API Key: https://platform.xiaomimimo.com/
 XiaoMi_API_KEY = 'YOUR_XIAOMI_API_KEY'  # 替换为您的小米 API Key
-XIAOMI_MODEL = 'mimo-v2-pro'  # 推荐模型
+XIAOMI_MODEL = 'mimo-v2-pro'  # 推荐模型：mimo-v2-pro
+# XIAOMI_VISION_MODEL = 'mimo-v2-omni' # 视觉/全模态模型（如有需求）
+
+# 如果您使用 Token Plan (按量计费，Key 以 tp- 开头)，通常程序会自动识别并切换至专属端点。
+# 如需手动指定，可取消下面注释：
+# MIMO_BASE_URL = 'https://token-plan-cn.xiaomimimo.com/v1'
 
 # 默认使用的 AI 提供商 (设为 'gemini' 或 'xiaomi' 可跳过启动时的选择，设为 None 每次将询问)
 DEFAULT_AI_PROVIDER = None
@@ -43,11 +48,11 @@ PROMPT_FILE_NAME = 'prompt.md'  # 提示词文件名
 # 示例: ITEM_TYPES_TO_PROCESS = ['journalArticle', 'conferencePaper']
 ITEM_TYPES_TO_PROCESS = None  # None = 处理所有类型
 
-# --- 集合设置 ---
 # 指定要处理的集合路径（用 '/' 分隔层级，如 "0 2025/12"）
 # None 表示处理整个库中的所有文献
-# 示例: TARGET_COLLECTION_PATH = "0 2025/12"
-TARGET_COLLECTION_PATH = None  # 设置为 None 处理整个库
+# 特殊功能：支持动态日期。如果包含 {{mmdd}} 或设置为 "0-New/mmdd"，将自动解析为当前月日（如 0419）。
+# 示例: TARGET_COLLECTION_PATH = "0-New/{{mmdd}}"
+TARGET_COLLECTION_PATH = "0-New/mmdd"
 
 # --- 测试设置 ---
 TEST_MODE = False  # 测试模式：只处理前N个文献

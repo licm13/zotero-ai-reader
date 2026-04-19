@@ -11,6 +11,7 @@ import queue
 import sys
 import threading
 import traceback
+import datetime
 import tkinter as tk
 from tkinter import filedialog, messagebox, scrolledtext, ttk
 from typing import Optional
@@ -65,6 +66,30 @@ def _format_keep_tags(val) -> str:
     if isinstance(val, (list, tuple)):
         return ", ".join(str(x) for x in val)
     return str(val)
+
+
+    return str(val)
+    
+
+def resolve_dynamic_path(path: str) -> str:
+    """解析动态路径占位符
+    - {{mmdd}} -> 当前月日 (如 0419)
+    - 0-New/mmdd -> 0-New/0419
+    """
+    if not path:
+        return path
+    
+    # 使用本地时间
+    mmdd = datetime.datetime.now().strftime('%m%d')
+    
+    # 1. 替换通用占位符
+    resolved = path.replace('{{mmdd}}', mmdd)
+    
+    # 2. 特殊处理：如果路径恰好是 "0-New/mmdd" (用户习惯)
+    if resolved == '0-New/mmdd':
+        resolved = f'0-New/{mmdd}'
+        
+    return resolved
 
 
 class QueueWriter:
@@ -279,7 +304,9 @@ class MimoStudentGUI(tk.Tk):
         self.var_prompt_filename.set(_as_str(getattr(mod, "PROMPT_FILE_NAME", "prompt.md")) or "prompt.md")
         self.var_item_types.set(_format_item_types(getattr(mod, "ITEM_TYPES_TO_PROCESS", None)))
         tc = getattr(mod, "TARGET_COLLECTION_PATH", None)
-        self.var_target_collection.set("" if tc is None else _as_str(tc))
+        # 解析动态路径
+        tc_resolved = resolve_dynamic_path("" if tc is None else _as_str(tc))
+        self.var_target_collection.set(tc_resolved)
         self.var_test_mode.set(bool(getattr(mod, "TEST_MODE", False)))
         self.var_test_limit.set(_as_str(getattr(mod, "TEST_LIMIT", 3)))
 
