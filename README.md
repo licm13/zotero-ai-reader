@@ -95,11 +95,11 @@ zotero-ai-reader/
 ```bash
 pip install -r requirements.txt
 copy config.example.py config.py   # Windows；macOS/Linux: cp ...
-# 编辑 config.py，填写 Zotero 与至少一种 AI 的密钥
+# 编辑 config.py，填写 Zotero 与至少一种 AI 的密钥；默认使用小米 MIMO。
 python reader_gui.py
 ```
 
-在界面中可加载/编辑配置、修改 `prompt.md` 对应内容、选择 Gemini 或 MIMO，再点击「开始运行」。
+在界面中可加载/编辑配置、修改 `prompt.md` 对应内容、选择 Gemini 或 MIMO（系统默认预设为小米），再点击「开始运行」。默认的「目标集合路径」已设为动态的 `0-New/mmdd`，会自动匹配当天日期。
 
 ### 提示词编辑
 

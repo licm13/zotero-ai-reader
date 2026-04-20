@@ -29,7 +29,7 @@
    ```
 
    （macOS / Linux 使用 `cp`。）在 `config.py` 中填写 `LIBRARY_ID`、`API_KEY`、`ZOTERO_STORAGE_PATH`、`XiaoMi_API_KEY` 等。
-   - **动态集合路径**：`TARGET_COLLECTION_PATH` 支持日期变量。设为 `0-New/mmdd` 或包含 `{{mmdd}}` 时，将自动解析为当天月日（如 `0419`）。
+   - **动态集合路径**：`TARGET_COLLECTION_PATH` 默认设为 `0-New/mmdd`。启动程序时将自动解析为当天月日（如 `0420`）。
 
 3. 启动图形界面：
 

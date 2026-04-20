@@ -199,7 +199,7 @@ class ReaderGUI(tk.Tk):
         # —— AI ——
         tab_ai = ttk.Frame(nb, padding=8)
         nb.add(tab_ai, text="AI 模型")
-        self.var_ai_provider = tk.StringVar(value="gemini")
+        self.var_ai_provider = tk.StringVar(value="xiaomi")
         ttk.Label(tab_ai, text="本次运行使用的提供商").grid(row=0, column=0, sticky=tk.W)
         frp = ttk.Frame(tab_ai)
         frp.grid(row=0, column=1, sticky=tk.W)
@@ -235,7 +235,7 @@ class ReaderGUI(tk.Tk):
         # —— 处理范围 ——
         tab_proc = ttk.Frame(nb, padding=8)
         nb.add(tab_proc, text="处理范围")
-        self.var_target_collection = tk.StringVar()
+        self.var_target_collection = tk.StringVar(value=resolve_dynamic_path("0-New/mmdd"))
         self.var_item_types = tk.StringVar()
         self.var_prompt_filename = tk.StringVar(value="prompt.md")
         self.var_test_mode = tk.BooleanVar(value=False)
@@ -365,13 +365,13 @@ class ReaderGUI(tk.Tk):
         if def_prov in ("gemini", "xiaomi"):
             self.var_ai_provider.set(def_prov)
         else:
-            self.var_ai_provider.set("gemini")
+            self.var_ai_provider.set("xiaomi")
 
         self.var_prompt_filename.set(_as_str(getattr(mod, "PROMPT_FILE_NAME", "prompt.md")) or "prompt.md")
         self.var_item_types.set(_format_item_types(getattr(mod, "ITEM_TYPES_TO_PROCESS", None)))
         tc = getattr(mod, "TARGET_COLLECTION_PATH", None)
         # 解析动态路径
-        tc_resolved = resolve_dynamic_path("" if tc is None else _as_str(tc))
+        tc_resolved = resolve_dynamic_path(_as_str(tc) if tc is not None else "0-New/mmdd")
         self.var_target_collection.set(tc_resolved)
         self.var_test_mode.set(bool(getattr(mod, "TEST_MODE", False)))
         self.var_test_limit.set(_as_str(getattr(mod, "TEST_LIMIT", 3)))

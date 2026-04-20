@@ -37,7 +37,7 @@ XIAOMI_MODEL = 'mimo-v2-pro'  # 推荐模型：mimo-v2-pro
 # MIMO_BASE_URL = 'https://token-plan-cn.xiaomimimo.com/v1'
 
 # 默认使用的 AI 提供商 (设为 'gemini' 或 'xiaomi' 可跳过启动时的选择，设为 None 每次将询问)
-DEFAULT_AI_PROVIDER = None
+DEFAULT_AI_PROVIDER = 'xiaomi'
 
 # --- 文件设置 ---
 PROMPT_FILE_NAME = 'prompt.md'  # 提示词文件名

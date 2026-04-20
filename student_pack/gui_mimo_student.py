@@ -197,7 +197,7 @@ class MimoStudentGUI(tk.Tk):
 
         tab_proc = ttk.Frame(nb, padding=8)
         nb.add(tab_proc, text="处理范围")
-        self.var_target_collection = tk.StringVar()
+        self.var_target_collection = tk.StringVar(value=resolve_dynamic_path("0-New/mmdd"))
         self.var_item_types = tk.StringVar()
         self.var_prompt_filename = tk.StringVar(value="prompt.md")
         self.var_test_mode = tk.BooleanVar(value=False)
@@ -305,7 +305,7 @@ class MimoStudentGUI(tk.Tk):
         self.var_item_types.set(_format_item_types(getattr(mod, "ITEM_TYPES_TO_PROCESS", None)))
         tc = getattr(mod, "TARGET_COLLECTION_PATH", None)
         # 解析动态路径
-        tc_resolved = resolve_dynamic_path("" if tc is None else _as_str(tc))
+        tc_resolved = resolve_dynamic_path(_as_str(tc) if tc is not None else "0-New/mmdd")
         self.var_target_collection.set(tc_resolved)
         self.var_test_mode.set(bool(getattr(mod, "TEST_MODE", False)))
         self.var_test_limit.set(_as_str(getattr(mod, "TEST_LIMIT", 3)))
