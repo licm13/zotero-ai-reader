@@ -25,9 +25,9 @@ TEST_MODE = True
 TEST_LIMIT = 3
 
 # --- 可选：标签（与界面一致即可）---
-SUCCESS_TAG = "MIMO_read"
+SUCCESS_TAG = "mimo-read"
 NON_LIT_TAG = "non-read-mimo"
-# TAGS_SKIP_IF_PRESENT = ["MIMO_read"]
+# TAGS_SKIP_IF_PRESENT = ["mimo-read"]
 
 # --- 备忘（本 reader 脚本不使用，仅与课程说明一致）---
-KEEP_TAGS = ["精读", "重要", "MIMO_read"]
+KEEP_TAGS = ["精读", "重要", "mimo-read"]

@@ -230,9 +230,9 @@ class MimoStudentGUI(tk.Tk):
 
         tab_tags = ttk.Frame(nb, padding=8)
         nb.add(tab_tags, text="标签")
-        self.var_success_tag = tk.StringVar(value="MIMO_read")
+        self.var_success_tag = tk.StringVar(value="mimo-read")
         self.var_non_lit_tag = tk.StringVar(value="non-read-mimo")
-        self.var_tags_skip = tk.StringVar(value="MIMO_read")
+        self.var_tags_skip = tk.StringVar(value="")
         self.var_keep_tags = tk.StringVar()
         r = 0
         for lab, var in (
@@ -311,7 +311,7 @@ class MimoStudentGUI(tk.Tk):
         self.var_test_limit.set(_as_str(getattr(mod, "TEST_LIMIT", 3)))
 
         self.var_keep_tags.set(_format_keep_tags(getattr(mod, "KEEP_TAGS", [])))
-        self.var_success_tag.set(_as_str(getattr(mod, "SUCCESS_TAG", "MIMO_read")) or "MIMO_read")
+        self.var_success_tag.set(_as_str(getattr(mod, "SUCCESS_TAG", "mimo-read")) or "mimo-read")
         self.var_non_lit_tag.set(_as_str(getattr(mod, "NON_LIT_TAG", "non-read-mimo")) or "non-read-mimo")
         tskip = getattr(mod, "TAGS_SKIP_IF_PRESENT", None)
         if tskip:
@@ -320,16 +320,16 @@ class MimoStudentGUI(tk.Tk):
             else:
                 self.var_tags_skip.set(", ".join(str(x) for x in tskip))
         else:
-            self.var_tags_skip.set("MIMO_read")
+            self.var_tags_skip.set("")
 
         self.reload_prompt_file(silent=True)
         if show_ok:
             messagebox.showinfo("完成", "已从配置文件填充（提示词已从同名 md 读取）。")
 
     def apply_default_tags(self) -> None:
-        self.var_success_tag.set("MIMO_read")
+        self.var_success_tag.set("mimo-read")
         self.var_non_lit_tag.set("non-read-mimo")
-        self.var_tags_skip.set("MIMO_read")
+        self.var_tags_skip.set("")
         messagebox.showinfo("标签", "已设为 MIMO 默认标签。")
 
     def reload_prompt_file(self, silent: bool = False) -> None:
@@ -439,7 +439,7 @@ class MimoStudentGUI(tk.Tk):
             "target_collection_path": target_path,
             "test_mode": self.var_test_mode.get(),
             "test_limit": test_limit,
-            "success_tag": self.var_success_tag.get().strip() or "MIMO_read",
+            "success_tag": self.var_success_tag.get().strip() or "mimo-read",
             "non_lit_tag": self.var_non_lit_tag.get().strip() or "non-read-mimo",
             "tags_skip_if_present": tags_skip if tags_skip else None,
         }

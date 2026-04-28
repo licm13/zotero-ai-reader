@@ -23,9 +23,10 @@ AI_PROVIDER = "gemini"
 ACTIVE_API_KEY = ""
 ACTIVE_MODEL = ""
 XIAOMI_BASE_URL = None  # 可选：手动指定小米 API 端点
-SUCCESS_TAG = "gemini_read"
+DEEPSEEK_BASE_URL = None # 可选：手动指定DeepSeek API 端点
+SUCCESS_TAG = "gemini-read"
 NON_LIT_TAG = "non-read-gemini"
-# 若条目已有其中任一标签则跳过处理；None 表示自动使用 {SUCCESS_TAG, gemini_read, MIMO_read}
+# 若条目已有其中任一标签则跳过处理；None 表示自动使用 {SUCCESS_TAG}
 TAGS_SKIP_IF_PRESENT = None
 _PROMPT_TEMPLATE_OVERRIDE = None  # GUI 传入的提示词全文；None 时从文件加载
 
@@ -224,7 +225,7 @@ def prompt_zotero_storage_path():
 def prompt_ai_provider():
     """提示用户选择 AI 提供商"""
     provider = getattr(config, 'DEFAULT_AI_PROVIDER', None)
-    if provider in ['gemini', 'xiaomi']:
+    if provider in ['gemini', 'xiaomi', 'deepseek']:
         print(f"\n✅ 使用配置文件指定的 AI 提供商: {provider.upper()}")
         return provider
     
@@ -234,11 +235,12 @@ def prompt_ai_provider():
     print("请选择用于文献分析的 AI 提供商：")
     print("  1. Google Gemini (推荐)")
     print("  2. 小米 MIMO API")
+    print("  3. DeepSeek API")
     print("  0. 取消并退出")
     
     while True:
         try:
-            choice = input("\n请选择 [1-2, 0取消]: ").strip()
+            choice = input("\n请选择 [1-3, 0取消]: ").strip()
             if choice == '0':
                 print("❌ 已取消")
                 sys.exit(0)
@@ -246,8 +248,10 @@ def prompt_ai_provider():
                 return 'gemini'
             elif choice == '2':
                 return 'xiaomi'
+            elif choice == '3':
+                return 'deepseek'
             else:
-                print("⚠️  无效选择，请输入 1 或 2，或 0 取消")
+                print("⚠️  无效选择，请输入 1-3，或 0 取消")
         except KeyboardInterrupt:
             print("\n\n❌ 已取消")
             sys.exit(0)
@@ -288,13 +292,19 @@ def bootstrap_cli():
     if AI_PROVIDER == "gemini":
         ACTIVE_API_KEY = getattr(config, "AI_API_KEY", None)
         ACTIVE_MODEL = getattr(config, "AI_MODEL", "gemini-3.1-flash-lite-preview")
-        SUCCESS_TAG = "gemini_read"
+        SUCCESS_TAG = "gemini-read"
         NON_LIT_TAG = "non-read-gemini"
+    elif AI_PROVIDER == "deepseek":
+        ACTIVE_API_KEY = getattr(config, "DEEPSEEK_API_KEY", None)
+        ACTIVE_MODEL = getattr(config, "DEEPSEEK_MODEL", "deepseek-reasoner")
+        DEEPSEEK_BASE_URL = getattr(config, "DEEPSEEK_BASE_URL", "https://api.deepseek.com")
+        SUCCESS_TAG = "ds-read"
+        NON_LIT_TAG = "non-read-ds"
     else:
         ACTIVE_API_KEY = getattr(config, "XiaoMi_API_KEY", None)
         ACTIVE_MODEL = getattr(config, "XIAOMI_MODEL", "mimo-v2-pro")
         XIAOMI_BASE_URL = getattr(config, "MIMO_BASE_URL", getattr(config, "XIAOMI_BASE_URL", None))
-        SUCCESS_TAG = "MIMO_read"
+        SUCCESS_TAG = "mimo-read"
         NON_LIT_TAG = "non-read-mimo"
 
     if not ACTIVE_API_KEY:
@@ -323,6 +333,7 @@ def apply_gui_settings(
     non_lit_tag: str,
     tags_skip_if_present=None,
     xiaomi_base_url: str = None,
+    deepseek_base_url: str = "https://api.deepseek.com",
 ):
     """
     由 GUI 在启动批处理前注入运行时参数。
@@ -331,7 +342,7 @@ def apply_gui_settings(
     global config, LIBRARY_ID, API_KEY, LIBRARY_TYPE, ZOTERO_STORAGE_PATH
     global PROMPT_FILE_NAME, ITEM_TYPES_TO_PROCESS, TARGET_COLLECTION_PATH, TEST_MODE, TEST_LIMIT
     global AI_PROVIDER, ACTIVE_API_KEY, ACTIVE_MODEL, SUCCESS_TAG, NON_LIT_TAG
-    global _PROMPT_TEMPLATE_OVERRIDE, TAGS_SKIP_IF_PRESENT
+    global _PROMPT_TEMPLATE_OVERRIDE, TAGS_SKIP_IF_PRESENT, XIAOMI_BASE_URL, DEEPSEEK_BASE_URL
 
     config = None
     LIBRARY_ID = library_id
@@ -350,6 +361,7 @@ def apply_gui_settings(
     NON_LIT_TAG = non_lit_tag
     _PROMPT_TEMPLATE_OVERRIDE = prompt_template
     XIAOMI_BASE_URL = xiaomi_base_url
+    DEEPSEEK_BASE_URL = deepseek_base_url
 
     if tags_skip_if_present is None:
         TAGS_SKIP_IF_PRESENT = None
@@ -681,7 +693,49 @@ def call_ai_analysis(paper_text, system_prompt):
                 elapsed_time = time.time() - start_time
                 print(f"   ✅ API 响应成功 (耗时: {elapsed_time:.1f}秒)")
                 if response and hasattr(response, 'text') and response.text:
-                    return response.text
+                    content = response.text
+                    # Extract simulated thinking process if present
+                    import re
+                    think_match = re.search(r'<think>(.*?)</think>', content, re.DOTALL)
+                    if think_match:
+                        r_content = think_match.group(1).strip()
+                        content = re.sub(r'<think>.*?</think>', '', content, flags=re.DOTALL).strip()
+                        return f"### 🧠 AI 思考过程 (Thinking Process)\n<details>\n<summary>点击展开/折叠思考过程</summary>\n\n{r_content}\n\n</details>\n\n---\n\n{content}"
+                    return content
+                else:
+                    print(f"   ⚠️  响应为空，尝试重新生成...")
+            elif AI_PROVIDER == 'deepseek':
+                client = OpenAI(
+                    api_key=ACTIVE_API_KEY,
+                    base_url=DEEPSEEK_BASE_URL or "https://api.deepseek.com"
+                )
+                
+                kwargs = {
+                    "model": ACTIVE_MODEL,
+                    "messages": [{"role": "user", "content": full_content}]
+                }
+                
+                if "v4-pro" in ACTIVE_MODEL or "reasoner" in ACTIVE_MODEL:
+                    try:
+                        kwargs["extra_body"] = {"thinking": {"type": "enabled"}}
+                    except Exception as e:
+                        pass
+                
+                response = client.chat.completions.create(**kwargs)
+                elapsed_time = time.time() - start_time
+                print(f"   ✅ API 响应成功 (耗时: {elapsed_time:.1f}秒)")
+                
+                if response and response.choices and response.choices[0].message.content:
+                    content = response.choices[0].message.content
+                    try:
+                        r_content = getattr(response.choices[0].message, 'reasoning_content', None)
+                    except:
+                        r_content = None
+                        
+                    if r_content:
+                        return f"### 🧠 AI 思考过程 (Thinking Process)\n<details>\n<summary>点击展开/折叠思考过程</summary>\n\n{r_content}\n\n</details>\n\n---\n\n{content}"
+                    else:
+                        return content
                 else:
                     print(f"   ⚠️  响应为空，尝试重新生成...")
             else:
@@ -707,7 +761,15 @@ def call_ai_analysis(paper_text, system_prompt):
                 elapsed_time = time.time() - start_time
                 print(f"   ✅ API 响应成功 (耗时: {elapsed_time:.1f}秒)")
                 if response and response.choices and response.choices[0].message.content:
-                    return response.choices[0].message.content
+                    content = response.choices[0].message.content
+                    # Extract simulated thinking process if present
+                    import re
+                    think_match = re.search(r'<think>(.*?)</think>', content, re.DOTALL)
+                    if think_match:
+                        r_content = think_match.group(1).strip()
+                        content = re.sub(r'<think>.*?</think>', '', content, flags=re.DOTALL).strip()
+                        return f"### 🧠 AI 思考过程 (Thinking Process)\n<details>\n<summary>点击展开/折叠思考过程</summary>\n\n{r_content}\n\n</details>\n\n---\n\n{content}"
+                    return content
                 else:
                     print(f"   ⚠️  响应为空，尝试重新生成...")
                     
@@ -1043,7 +1105,7 @@ def save_note_to_zotero(zot, item_key, markdown_content):
     html_content = markdown.markdown(markdown_content, extensions=['tables', 'fenced_code'])
     
     # 获取提供商后缀
-    provider_name = "Gemini" if AI_PROVIDER == "gemini" else "MIMO"
+    provider_name = "Gemini" if AI_PROVIDER == "gemini" else ("DeepSeek" if AI_PROVIDER == "deepseek" else "MIMO")
     
     # 加上标题和原始 MD 的提示
     final_note = f"""
@@ -1427,7 +1489,7 @@ def main():
         item_tags = item['data'].get('tags', [])
         skip_set = TAGS_SKIP_IF_PRESENT
         if skip_set is None:
-            skip_set = {SUCCESS_TAG, "gemini_read", "MIMO_read"}
+            skip_set = {SUCCESS_TAG}
         else:
             skip_set = set(skip_set)
         has_processed_tag = any(tag.get("tag") in skip_set for tag in item_tags)

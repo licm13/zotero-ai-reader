@@ -8,7 +8,7 @@
 |------|------|
 | `gui_mimo_student.py` | **主入口（推荐）**：图形界面 |
 | `reader_mimo_student.py` | 批处理核心（由 GUI 或命令行调用） |
-| `prompt.md` | 默认提示词（与教师版一致） |
+| `prompt.md` | 默认提示词（与教师版一致，新增 `<think>` 思考过程提取指令） |
 | `config.example.py` | 配置模板，复制为 `config.py` 后填写 |
 | `requirements.txt` | Python 依赖 |
 
@@ -54,6 +54,7 @@ python reader_mimo_student.py --cli
 
 - 注册与密钥：<https://platform.xiaomimimo.com/>
 - **Token Plan 支持**：如果您的 Key 以 `tp-` 开头，程序会自动识别并切换至专属端点。若有特殊需求，也可在 `config.py` 中通过 `MIMO_BASE_URL` 手动指定。
+- **思维链支持**：内置提示词中加入了 `<think>` 标签指令。代码会自动从模型返回中提取思考过程，在生成的 Zotero 笔记顶部以折叠面板的形式展示“AI 思考过程”，帮您了解 AI 是如何总结的。
 - 若返回余额相关错误，请在平台侧检查账户与用量。
 
 ## 安全提示

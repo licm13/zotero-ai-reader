@@ -1,6 +1,6 @@
 # Zotero AI Reader
 
-使用 **Google Gemini** 或 **小米 MIMO** 阅读 Zotero 中的 PDF，生成结构化笔记并写回文献条目。本仓库聚焦两件事：
+使用 **Google Gemini**、**小米 MIMO** 或 **DeepSeek** 阅读 Zotero 中的 PDF，生成结构化笔记并写回文献条目。本仓库聚焦两件事：
 
 1. **完整版图形界面**（根目录）：`reader_gui.py` + `reader.py`  
 2. **学生分发包**（仅小米 MIMO）：[`student_pack/`](student_pack/README.md)
@@ -11,7 +11,7 @@
 
 ```
 zotero-ai-reader/
-├── reader_gui.py          # 推荐入口：图形界面（双模型可选）
+├── reader_gui.py          # 推荐入口：图形界面（多模型可选，支持DeepSeek思考过程）
 ├── reader.py              # 阅读核心（由 GUI 或命令行调用）
 ├── config_loader.py       # 配置发现与交互加载
 ├── config.example.py      # 配置模板 → 复制为 config.py
@@ -90,6 +90,17 @@ zotero-ai-reader/
 
 ---
 
+### DeepSeek（选用）
+
+1. **账号与控制台**  
+   - 打开 [https://platform.deepseek.com/](https://platform.deepseek.com/) 注册并获取 API Key。
+
+2. **配置说明**  
+   - 在 `config.py` 中填入 `DEEPSEEK_API_KEY`，可配置 `DEEPSEEK_MODEL = 'deepseek-reasoner'` (也就是 R1 思考模型) 或 `deepseek-chat`。
+   - 程序内置了**思维链（Chain of Thought）**功能支持：如果使用 DeepSeek-Reasoner（或其他模型配合特定 Prompt），将在生成的笔记开头呈现折叠的 `🧠 AI 思考过程 (Thinking Process)`。
+
+---
+
 ## 快速开始（完整版 GUI）
 
 ```bash
@@ -99,7 +110,7 @@ copy config.example.py config.py   # Windows；macOS/Linux: cp ...
 python reader_gui.py
 ```
 
-在界面中可加载/编辑配置、修改 `prompt.md` 对应内容、选择 Gemini 或 MIMO（系统默认预设为小米），再点击「开始运行」。默认的「目标集合路径」已设为动态的 `0-New/mmdd`，会自动匹配当天日期。
+在界面中可加载/编辑配置、修改 `prompt.md` 对应内容、选择 Gemini、MIMO 或 DeepSeek，再点击「开始运行」。默认的「目标集合路径」已设为动态的 `0-New/mmdd`，会自动匹配当天日期。
 
 ### 提示词编辑
 
@@ -117,7 +128,7 @@ python reader.py
 
 ## 学生包 `student_pack`
 
-面向课程分发：**只支持小米 MIMO**，依赖更少（无 `google-genai`）。使用方式见 **[student_pack/README.md](student_pack/README.md)**。
+面向课程分发：**只支持小米 MIMO**，依赖更少（无 `google-genai`）。内置了通过 `<think>` 标签输出思考过程的提示词机制。使用方式见 **[student_pack/README.md](student_pack/README.md)**。
 
 ---
 

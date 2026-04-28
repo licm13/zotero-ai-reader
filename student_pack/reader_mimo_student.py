@@ -26,7 +26,7 @@ TEST_LIMIT = 3
 ACTIVE_API_KEY = ""
 ACTIVE_MODEL = "mimo-v2-pro"
 MIMO_BASE_URL = None
-SUCCESS_TAG = "MIMO_read"
+SUCCESS_TAG = "mimo-read"
 NON_LIT_TAG = "non-read-mimo"
 TAGS_SKIP_IF_PRESENT = None
 _PROMPT_TEMPLATE_OVERRIDE = None
@@ -72,7 +72,7 @@ def bootstrap_cli():
     ACTIVE_API_KEY = getattr(config, "XiaoMi_API_KEY", None) or getattr(config, "MIMO_API_KEY", None)
     ACTIVE_MODEL = getattr(config, "XIAOMI_MODEL", "mimo-v2-pro")
     MIMO_BASE_URL = getattr(config, "MIMO_BASE_URL", None)
-    SUCCESS_TAG = getattr(config, "SUCCESS_TAG", "MIMO_read")
+    SUCCESS_TAG = getattr(config, "SUCCESS_TAG", "mimo-read")
     NON_LIT_TAG = getattr(config, "NON_LIT_TAG", "non-read-mimo")
 
     tskip = getattr(config, "TAGS_SKIP_IF_PRESENT", None)
@@ -473,7 +473,14 @@ def call_ai_analysis(paper_text, system_prompt):
             elapsed_time = time.time() - start_time
             print(f"   ✅ API 响应成功 (耗时: {elapsed_time:.1f}秒)")
             if response and response.choices and response.choices[0].message.content:
-                return response.choices[0].message.content
+                content = response.choices[0].message.content
+                import re
+                think_match = re.search(r'<think>(.*?)</think>', content, re.DOTALL)
+                if think_match:
+                    r_content = think_match.group(1).strip()
+                    content = re.sub(r'<think>.*?</think>', '', content, flags=re.DOTALL).strip()
+                    return f"### 🧠 AI 思考过程 (Thinking Process)\n<details>\n<summary>点击展开/折叠思考过程</summary>\n\n{r_content}\n\n</details>\n\n---\n\n{content}"
+                return content
             print(f"   ⚠️  响应为空，尝试重新生成...")
 
         except Exception as e:
@@ -1190,7 +1197,7 @@ def main():
         item_tags = item['data'].get('tags', [])
         skip_set = TAGS_SKIP_IF_PRESENT
         if skip_set is None:
-            skip_set = {SUCCESS_TAG, "MIMO_read"}
+            skip_set = {SUCCESS_TAG}
         else:
             skip_set = set(skip_set)
         has_processed_tag = any(tag.get("tag") in skip_set for tag in item_tags)

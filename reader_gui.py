@@ -209,6 +209,9 @@ class ReaderGUI(tk.Tk):
         ttk.Radiobutton(frp, text="小米 MIMO", variable=self.var_ai_provider, value="xiaomi").pack(
             side=tk.LEFT, padx=4
         )
+        ttk.Radiobutton(frp, text="DeepSeek", variable=self.var_ai_provider, value="deepseek").pack(
+            side=tk.LEFT, padx=4
+        )
         ttk.Button(frp, text="按提供商填入默认标签", command=self.apply_default_tags_for_provider).pack(
             side=tk.LEFT, padx=12
         )
@@ -217,12 +220,16 @@ class ReaderGUI(tk.Tk):
         self.var_gemini_model = tk.StringVar()
         self.var_xiaomi_key = tk.StringVar()
         self.var_xiaomi_model = tk.StringVar()
+        self.var_deepseek_key = tk.StringVar()
+        self.var_deepseek_model = tk.StringVar()
         r = 1
         for lab, var in (
             ("Gemini API Key", self.var_gemini_key),
             ("Gemini 模型 (AI_MODEL)", self.var_gemini_model),
             ("小米 API Key", self.var_xiaomi_key),
             ("小米模型 (XIAOMI_MODEL)", self.var_xiaomi_model),
+            ("DeepSeek API Key", self.var_deepseek_key),
+            ("DeepSeek 模型 (DEEPSEEK_MODEL)", self.var_deepseek_model),
         ):
             ttk.Label(tab_ai, text=lab).grid(row=r, column=0, sticky=tk.W, pady=2)
             ent = ttk.Entry(tab_ai, textvariable=var, width=62)
@@ -276,7 +283,7 @@ class ReaderGUI(tk.Tk):
         nb.add(tab_tags, text="标签")
         self.var_success_tag = tk.StringVar()
         self.var_non_lit_tag = tk.StringVar()
-        self.var_tags_skip = tk.StringVar(value="gemini_read, MIMO_read")
+        self.var_tags_skip = tk.StringVar(value="")
         self.var_keep_tags = tk.StringVar()
         r = 0
         for lab, var in (
@@ -360,9 +367,13 @@ class ReaderGUI(tk.Tk):
         self.var_xiaomi_key.set(_as_str(getattr(mod, "XiaoMi_API_KEY", "")))
         self.var_xiaomi_model.set(_as_str(getattr(mod, "XIAOMI_MODEL", "mimo-v2-pro")))
         self._xiaomi_base_url = getattr(mod, "MIMO_BASE_URL", getattr(mod, "XIAOMI_BASE_URL", None))
+        
+        self.var_deepseek_key.set(_as_str(getattr(mod, "DEEPSEEK_API_KEY", "")))
+        self.var_deepseek_model.set(_as_str(getattr(mod, "DEEPSEEK_MODEL", "deepseek-reasoner")))
+        self._deepseek_base_url = getattr(mod, "DEEPSEEK_BASE_URL", "https://api.deepseek.com")
 
         def_prov = getattr(mod, "DEFAULT_AI_PROVIDER", None)
-        if def_prov in ("gemini", "xiaomi"):
+        if def_prov in ("gemini", "xiaomi", "deepseek"):
             self.var_ai_provider.set(def_prov)
         else:
             self.var_ai_provider.set("xiaomi")
@@ -384,11 +395,15 @@ class ReaderGUI(tk.Tk):
             messagebox.showinfo("完成", "已从配置文件填充各字段（提示词已从文件读取）。")
 
     def apply_default_tags_for_provider(self, silent: bool = False) -> None:
-        if self.var_ai_provider.get() == "gemini":
-            self.var_success_tag.set("gemini_read")
+        prov = self.var_ai_provider.get()
+        if prov == "gemini":
+            self.var_success_tag.set("gemini-read")
             self.var_non_lit_tag.set("non-read-gemini")
+        elif prov == "deepseek":
+            self.var_success_tag.set("ds-read")
+            self.var_non_lit_tag.set("non-read-ds")
         else:
-            self.var_success_tag.set("MIMO_read")
+            self.var_success_tag.set("mimo-read")
             self.var_non_lit_tag.set("non-read-mimo")
         if not silent:
             messagebox.showinfo("标签", "已根据当前 AI 提供商填入默认成功/跳过标签。")
@@ -465,6 +480,9 @@ class ReaderGUI(tk.Tk):
         if prov == "xiaomi" and not self.var_xiaomi_key.get().strip():
             messagebox.showerror("校验", "使用小米时请填写小米 API Key。")
             return False
+        if prov == "deepseek" and not self.var_deepseek_key.get().strip():
+            messagebox.showerror("校验", "使用 DeepSeek 时请填写 DeepSeek API Key。")
+            return False
         prompt = self.txt_prompt.get("1.0", tk.END).strip()
         if not prompt:
             messagebox.showerror("校验", "提示词内容为空。")
@@ -487,6 +505,9 @@ class ReaderGUI(tk.Tk):
         if prov == "gemini":
             active_key = self.var_gemini_key.get().strip()
             active_model = self.var_gemini_model.get().strip() or "gemini-3.1-flash-lite-preview"
+        elif prov == "deepseek":
+            active_key = self.var_deepseek_key.get().strip()
+            active_model = self.var_deepseek_model.get().strip() or "deepseek-reasoner"
         else:
             active_key = self.var_xiaomi_key.get().strip()
             active_model = self.var_xiaomi_model.get().strip() or "mimo-v2-pro"
@@ -516,10 +537,11 @@ class ReaderGUI(tk.Tk):
             "target_collection_path": target_path,
             "test_mode": self.var_test_mode.get(),
             "test_limit": test_limit,
-            "success_tag": self.var_success_tag.get().strip() or "gemini_read",
+            "success_tag": self.var_success_tag.get().strip() or "gemini-read",
             "non_lit_tag": self.var_non_lit_tag.get().strip() or "non-read-gemini",
             "tags_skip_if_present": tags_skip if tags_skip else None,
             "xiaomi_base_url": getattr(self, "_xiaomi_base_url", None),
+            "deepseek_base_url": getattr(self, "_deepseek_base_url", "https://api.deepseek.com"),
         }
 
         self._busy = True

@@ -36,8 +36,14 @@ XIAOMI_MODEL = 'mimo-v2-pro'  # 推荐模型：mimo-v2-pro
 # 如需手动指定，可取消下面注释：
 # MIMO_BASE_URL = 'https://token-plan-cn.xiaomimimo.com/v1'
 
-# 默认使用的 AI 提供商 (设为 'gemini' 或 'xiaomi' 可跳过启动时的选择，设为 None 每次将询问)
-DEFAULT_AI_PROVIDER = 'xiaomi'
+# 3. DeepSeek 配置
+# 获取 API Key: https://platform.deepseek.com/
+DEEPSEEK_API_KEY = 'YOUR_DEEPSEEK_API_KEY'  # 替换为您的 DeepSeek API Key
+DEEPSEEK_MODEL = 'deepseek-v4-pro'  # 推荐思考模型: deepseek-reasoner 或 deepseek-v4-pro
+DEEPSEEK_BASE_URL = 'https://api.deepseek.com'
+
+# 默认使用的 AI 提供商 (设为 'gemini'、'xiaomi' 或 'deepseek' 可跳过启动时的选择，设为 None 每次将询问)
+DEFAULT_AI_PROVIDER = 'deepseek'
 
 # --- 文件设置 ---
 PROMPT_FILE_NAME = 'prompt.md'  # 提示词文件名
@@ -60,5 +66,5 @@ TEST_LIMIT = 3    # 测试模式下处理的文献数量
 
 # --- 标签清理设置（用于 tag_cleaner.py）---
 # 要保留的标签列表（区分大小写）
-KEEP_TAGS = ["精读", "重要", "可行", "参考", "gemini_read", "MIMO_read"]  # 根据您的需求修改，建议保留 AI 识别标签
+KEEP_TAGS = ["精读", "重要", "可行", "参考", "gemini-read", "mimo-read", "ds-read"]  # 根据您的需求修改，建议保留 AI 识别标签
 
